@@ -1,7 +1,7 @@
 import path from "path"
 import fs from "fs"
 
-const OUT_DIR = path.join(import.meta.dirname, "data")
+const OUT_DIR = path.join(import.meta.dirname, "raw")
 fs.mkdirSync(OUT_DIR, { recursive: true })
 const OUT = path.join(OUT_DIR, "caritas.json")
 

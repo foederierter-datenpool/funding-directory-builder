@@ -1,0 +1,20 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdl: <https://civic-data.de/federaid#>
+
+CONSTRUCT {
+    ?iri a schema:Organization ;
+        schema:name ?office_title ;
+        schema:description ?offer_title ;
+        schema:address ?address ;
+        schema:identifier ?offer_id .
+} WHERE {
+    SERVICE <x-sparql-anything:location=sources/sozialplattform/raw/sozialplattform.json> {
+        ?entry xyz:office_title ?office_title ;
+            xyz:offer_title ?offer_title ;
+            xyz:office_address_short ?address ;
+            xyz:offer_id ?offer_id .
+        BIND(IRI(CONCAT(STR(cdl:), "sozialplattform_", ?offer_id)) AS ?iri)
+    }
+}

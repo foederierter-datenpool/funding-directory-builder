@@ -1,0 +1,18 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdl: <https://civic-data.de/federaid#>
+
+CONSTRUCT {
+    ?iri a schema:Organization ;
+        schema:name ?title ;
+        schema:address ?address ;
+        schema:identifier ?guid .
+} WHERE {
+    SERVICE <x-sparql-anything:location=sources/caritas/raw/caritas.json> {
+        ?entry xyz:Title ?title ;
+            xyz:Guid ?guid ;
+            xyz:Teaser ?address .
+        BIND(IRI(CONCAT(STR(cdl:), "caritas_", ?guid)) AS ?iri)
+    }
+}
