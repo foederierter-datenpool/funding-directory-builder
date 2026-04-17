@@ -7,9 +7,10 @@ const OUT = path.join(OUT_DIR, "sozialplattform.json")
 
 const BASE_URL = "https://sozialplattform.de/content/de/api/v1/consultation/search"
 const PER_PAGE = 100
+const PLACE = "10115"
 
 async function fetchPage(page) {
-    const url = `${BASE_URL}?page=${page}&itemsPerPage=${PER_PAGE}`
+    const url = `${BASE_URL}?${PLACE ? ("place=" + PLACE + "&"): ""}page=${page}&itemsPerPage=${PER_PAGE}`
     const res = await fetch(url)
     if (!res.ok) throw new Error(`Page ${page}: HTTP ${res.status}`)
     const json = await res.json()
