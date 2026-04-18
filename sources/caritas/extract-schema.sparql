@@ -1,0 +1,30 @@
+# java -jar tools/sparql-anything.jar -q sources/caritas/extract-schema.sparql -f CSV
+#                                                                              -f JSON > sources/caritas/schema.json
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+
+SELECT (REPLACE(STR(?field), "^.*/", "") AS ?fieldName)
+       (COUNT(*) AS ?totalRecords)
+       (SUM(?isFilled) AS ?filledRecords)
+WHERE {
+    {
+        SELECT ?entry ?field (MAX(IF(
+            (isLiteral(?value) && STR(?value) != "") ||
+            isIRI(?value) ||
+            BOUND(?childO),
+            1, 0
+        )) AS ?isFilled)
+        WHERE {
+            SERVICE <x-sparql-anything:location=sources/caritas/raw/caritas.json> {
+                ?root ?listIdx ?entry .
+                ?entry ?field ?value .
+                FILTER(isBlank(?entry) || isIRI(?entry))
+                FILTER(STRSTARTS(STR(?field), STR(xyz:)))
+                OPTIONAL { ?value ?childP ?childO }
+            }
+        }
+        GROUP BY ?entry ?field
+    }
+}
+GROUP BY ?field
+ORDER BY DESC(?filledRecords)
