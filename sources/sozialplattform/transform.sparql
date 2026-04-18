@@ -8,7 +8,8 @@ CONSTRUCT {
         schema:name ?office_title ;
         schema:description ?offer_title ;
         schema:address ?address ;
-        schema:identifier ?offer_id .
+        schema:identifier ?offer_id ;
+        schema:postalCode ?plz .
 } WHERE {
     SERVICE <x-sparql-anything:location=sources/sozialplattform/raw/sozialplattform.json> {
         ?entry xyz:office_title ?office_title ;
@@ -16,5 +17,7 @@ CONSTRUCT {
             xyz:office_address_short ?address ;
             xyz:offer_id ?offer_id .
         BIND(IRI(CONCAT(STR(cdl:), "sozialplattform_", ?offer_id)) AS ?iri)
+        ?entry xyz:office_address ?addrNode .
+        ?addrNode xyz:postal_code ?plz .
     }
 }
