@@ -1,0 +1,65 @@
+@prefix : <https://civic-data.de/pipeline#> .
+@prefix schema: <http://schema.org/> .
+
+# ---- Federation ---------------------------------------------------------
+
+:federation a :Federation ;
+    :hasSource :caritasSource, :sozialplattformSource ;
+    :hasTargetSchema :targetSchema .
+
+# ---- Target schema ------------------------------------------------------
+
+:targetSchema a :TargetSchema ;
+    :hasTargetField :t-identifier, :t-name, :t-address .
+
+:t-identifier a :TargetField ; :targetPredicate schema:identifier .
+:t-name       a :TargetField ; :targetPredicate schema:name .
+:t-address    a :TargetField ; :targetPredicate schema:address .
+
+# ---- Sources ------------------------------------------------------------
+
+:caritasSource a :Source ;
+    :location   "sources/caritas/raw/caritas.json" ;
+    :format     "json" ;
+    :hasField   :caritas-Guid, :caritas-Title, :caritas-Teaser .
+
+:caritas-Title  a :SourceField ; :fieldPath "Title"  .
+:caritas-Guid   a :SourceField ; :fieldPath "Guid"   .
+:caritas-Teaser a :SourceField ; :fieldPath "Teaser" .
+
+:sozialplattformSource a :Source ;
+    :location   "sources/sozialplattform/raw/sozialplattform.json" ;
+    :format     "json" ;
+    :hasField   :sp-offer_id, :sp-office_title, :sp-office_address_short .
+
+:sp-offer_id             a :SourceField ; :fieldPath "offer_id"             .
+:sp-office_title         a :SourceField ; :fieldPath "office_title"         .
+:sp-office_address_short a :SourceField ; :fieldPath "office_address_short" .
+
+# ---- Mappings -----------------------------------------------------------
+
+:caritas-mapping a :Mapping ;
+    :fromSource      :caritasSource ;
+    :toTarget        :targetSchema ;
+    :subjectTemplate "https://civic-data.de/federated-directory#caritas-{Guid}" ;
+    :subjectFrom     :caritas-Guid ;
+    :hasFieldMapping
+        [ :from :caritas-Guid   ; :to :t-identifier ] ,
+        [ :from :caritas-Title  ; :to :t-name ] ,
+        [ :from :caritas-Teaser ; :to :t-address ] .
+
+:sozialplattform-mapping a :Mapping ;
+    :fromSource      :sozialplattformSource ;
+    :toTarget        :targetSchema ;
+    :subjectTemplate "https://civic-data.de/federated-directory#sp-{offer_id}" ;
+    :subjectFrom     :sp-offer_id ;
+    :hasFieldMapping
+        [ :from :sp-offer_id             ; :to :t-identifier ] ,
+        [ :from :sp-office_title         ; :to :t-name ] ,
+        [ :from :sp-office_address_short ; :to :t-address ] .
+
+# ---- Transformations ----------------------------------------------------
+
+# :extractPlz a :Transformation ;
+#     :kind    "regex" ;
+#     :pattern "\\b(\\d{5})\\b" .
