@@ -4,7 +4,7 @@
 # ---- Federation ---------------------------------------------------------
 
 :federation a :Federation ;
-    :hasSource :caritasSource, :sozialplattformSource ;
+    :hasSource :caritasSource, :sozialplattformSource, :dhsSource ;
     :hasTargetSchema :targetSchema .
 
 # ---- Target schema ------------------------------------------------------
@@ -21,20 +21,98 @@
 :caritasSource a :Source ;
     :location   "sources/caritas/raw/caritas.json" ;
     :format     "json" ;
-    :hasField   :caritas-Guid, :caritas-Title, :caritas-Teaser .
+    :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid,
+                :caritas-Date, :caritas-Distance, :caritas-Format, :caritas-Guid,
+                :caritas-Index, :caritas-LeadLine, :caritas-Link,
+                :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml,
+                :caritas-SubTitle, :caritas-Teaser, :caritas-Title, :caritas-ViewType .
 
-:caritas-Title  a :SourceField ; :fieldPath "Title"  .
-:caritas-Guid   a :SourceField ; :fieldPath "Guid"   .
-:caritas-Teaser a :SourceField ; :fieldPath "Teaser" .
+:caritas-Categories          a :SourceField ; :fieldPath "Categories"          .
+:caritas-ContentType         a :SourceField ; :fieldPath "ContentType"         .
+:caritas-ContentTypeGuid     a :SourceField ; :fieldPath "ContentTypeGuid"     .
+:caritas-Date                a :SourceField ; :fieldPath "Date"                .
+:caritas-Distance            a :SourceField ; :fieldPath "Distance"            .
+:caritas-Format              a :SourceField ; :fieldPath "Format"              .
+:caritas-Guid                a :SourceField ; :fieldPath "Guid"                .
+:caritas-Index               a :SourceField ; :fieldPath "Index"               .
+:caritas-LeadLine            a :SourceField ; :fieldPath "LeadLine"            .
+:caritas-Link                a :SourceField ; :fieldPath "Link"                .
+:caritas-OnlineConsultingUrl a :SourceField ; :fieldPath "OnlineConsultingUrl" .
+:caritas-SearchResultHtml    a :SourceField ; :fieldPath "SearchResultHtml"    .
+:caritas-SubTitle            a :SourceField ; :fieldPath "SubTitle"            .
+:caritas-Teaser              a :SourceField ; :fieldPath "Teaser"              .
+:caritas-Title               a :SourceField ; :fieldPath "Title"               .
+:caritas-ViewType            a :SourceField ; :fieldPath "ViewType"            .
+
+# -------------------------------------------------------------------------
 
 :sozialplattformSource a :Source ;
     :location   "sources/sozialplattform/raw/sozialplattform.json" ;
     :format     "json" ;
-    :hasField   :sp-offer_id, :sp-office_title, :sp-office_address_short .
+    :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking,
+                :sp-offer_external_service_booking, :sp-offer_external_service_consulting,
+                :sp-offer_external_service_link_text, :sp-offer_external_service_link_url,
+                :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
+                :sp-offer_service_area, :sp-offer_title, :sp-offer_type,
+                :sp-office_address, :sp-office_address_short, :sp-office_email,
+                :sp-office_external_id_booking, :sp-office_external_id_consulting,
+                :sp-office_external_service_booking, :sp-office_external_service_consulting,
+                :sp-office_external_service_type, :sp-office_opening_hours,
+                :sp-office_opening_hours_notes, :sp-office_phone, :sp-office_title,
+                :sp-search_score .
 
-:sp-offer_id             a :SourceField ; :fieldPath "offer_id"             .
-:sp-office_title         a :SourceField ; :fieldPath "office_title"         .
-:sp-office_address_short a :SourceField ; :fieldPath "office_address_short" .
+:sp-offer_chat_topic                   a :SourceField ; :fieldPath "offer_chat_topic"                   .
+:sp-offer_external_id_booking          a :SourceField ; :fieldPath "offer_external_id_booking"          .
+:sp-offer_external_service_booking     a :SourceField ; :fieldPath "offer_external_service_booking"     .
+:sp-offer_external_service_consulting  a :SourceField ; :fieldPath "offer_external_service_consulting"  .
+:sp-offer_external_service_link_text   a :SourceField ; :fieldPath "offer_external_service_link_text"   .
+:sp-offer_external_service_link_url    a :SourceField ; :fieldPath "offer_external_service_link_url"    .
+:sp-offer_external_service_type        a :SourceField ; :fieldPath "offer_external_service_type"        .
+:sp-offer_id                           a :SourceField ; :fieldPath "offer_id"                           .
+:sp-offer_nid                          a :SourceField ; :fieldPath "offer_nid"                          .
+:sp-offer_service_area                 a :SourceField ; :fieldPath "offer_service_area"                 .
+:sp-offer_title                        a :SourceField ; :fieldPath "offer_title"                        .
+:sp-offer_type                         a :SourceField ; :fieldPath "offer_type"                         .
+:sp-office_address                     a :SourceField ; :fieldPath "office_address" ;
+    :hasSubField :sp-office_address-address_line1, :sp-office_address-address_line3,
+                 :sp-office_address-country_code, :sp-office_address-langcode,
+                 :sp-office_address-locality, :sp-office_address-postal_code .
+
+:sp-office_address-address_line1 a :SubField ; :fieldPath "address_line1" .
+:sp-office_address-address_line3 a :SubField ; :fieldPath "address_line3" .
+:sp-office_address-country_code  a :SubField ; :fieldPath "country_code"  .
+:sp-office_address-langcode      a :SubField ; :fieldPath "langcode"      .
+:sp-office_address-locality      a :SubField ; :fieldPath "locality"      .
+:sp-office_address-postal_code   a :SubField ; :fieldPath "postal_code"   .
+
+:sp-office_address_short               a :SourceField ; :fieldPath "office_address_short"               .
+:sp-office_email                       a :SourceField ; :fieldPath "office_email"                       .
+:sp-office_external_id_booking         a :SourceField ; :fieldPath "office_external_id_booking"         .
+:sp-office_external_id_consulting      a :SourceField ; :fieldPath "office_external_id_consulting"      .
+:sp-office_external_service_booking    a :SourceField ; :fieldPath "office_external_service_booking"    .
+:sp-office_external_service_consulting a :SourceField ; :fieldPath "office_external_service_consulting" .
+:sp-office_external_service_type       a :SourceField ; :fieldPath "office_external_service_type"       .
+:sp-office_opening_hours               a :SourceField ; :fieldPath "office_opening_hours"               .
+:sp-office_opening_hours_notes         a :SourceField ; :fieldPath "office_opening_hours_notes"         .
+:sp-office_phone                       a :SourceField ; :fieldPath "office_phone"                       .
+:sp-office_title                       a :SourceField ; :fieldPath "office_title"                       .
+:sp-search_score                       a :SourceField ; :fieldPath "search_score"                       .
+
+# -------------------------------------------------------------------------
+
+:dhsSource a :Source ;
+    :location   "sources/dhs/lifted/dhs-clean.ttl" ;
+    :format     "ttl" ;
+    :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort,
+                :dhs-strasse, :dhs-telefon, :dhs-website .
+
+:dhs-detailLink a :SourceField ; :fieldPath "detailLink" .
+:dhs-email      a :SourceField ; :fieldPath "email"      .
+:dhs-name       a :SourceField ; :fieldPath "name"       .
+:dhs-plzort     a :SourceField ; :fieldPath "plzort"     .
+:dhs-strasse    a :SourceField ; :fieldPath "strasse"    .
+:dhs-telefon    a :SourceField ; :fieldPath "telefon"    .
+:dhs-website    a :SourceField ; :fieldPath "website"    .
 
 # ---- Mappings -----------------------------------------------------------
 
