@@ -1,0 +1,22 @@
+# entryId is extracted from the detailLink URL parameter %5Bentry%5D= (%5B=[, %5D=]).
+
+PREFIX dhs:    <https://civic-data.de/dhs#>
+PREFIX schema: <http://schema.org/>
+PREFIX cdf:    <https://civic-data.de/federated-directory#>
+
+INSERT {
+    GRAPH <urn:federated> {
+        ?fedIri
+            schema:identifier ?entryId    ;
+            schema:name       ?name       ;
+            schema:url        ?detailLink .
+    }
+} WHERE {
+    GRAPH <urn:source:dhs> {
+        ?entry
+            dhs:name       ?name       ;
+            dhs:detailLink ?detailLink .
+    }
+    BIND(STRBEFORE(STRAFTER(?detailLink, "%5Bentry%5D="), "&") AS ?entryId)
+    BIND(IRI(CONCAT(STR(cdf:), "dhs-", ?entryId))              AS ?fedIri)
+}

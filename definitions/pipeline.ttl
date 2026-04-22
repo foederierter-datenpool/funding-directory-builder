@@ -1,1 +1,60 @@
-# TODO
+@prefix :    <https://civic-data.de/pipeline#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:pipeline rdfs:label "Directory Federation Pipeline" ;
+    :finalOutput "out/federated.ttl" .
+
+# ---- Caritas -----------------------------------------------------------
+
+:step1 a :Fetch ;
+    :script "sources/caritas/fetch.js" ;
+    :output "sources/caritas/raw/caritas.json" .
+
+:step2 a :Lift ;
+    :liftQuery "sources/lift-json.sparql" ;
+    :input     "sources/caritas/raw/caritas.json" ;
+    :output    "sources/caritas/lifted/caritas.ttl" .
+
+:step3 a :Load ;
+    :input "sources/caritas/lifted/caritas.ttl" ;
+    :graph "urn:source:caritas" .
+
+# ---- Sozialplattform ---------------------------------------------------
+
+:step4 a :Fetch ;
+    :script "sources/sozialplattform/fetch.js" ;
+    :output "sources/sozialplattform/raw/sozialplattform.json" .
+
+:step5 a :Lift ;
+    :liftQuery "sources/lift-json.sparql" ;
+    :input     "sources/sozialplattform/raw/sozialplattform.json" ;
+    :output    "sources/sozialplattform/lifted/sozialplattform.ttl" .
+
+:step6 a :Load ;
+    :input "sources/sozialplattform/lifted/sozialplattform.ttl" ;
+    :graph "urn:source:sozialplattform" .
+
+# ---- DHS ---------------------------------------------------------------
+
+:step7 a :Fetch ;
+    :script "sources/dhs/fetch.js" ;
+    :output "sources/dhs/raw/dhs.html" .
+
+:step8 a :Lift ;
+    :liftQuery "sources/lift-html.sparql" ;
+    :param     [ :name "selector" ; :value "ul.results" ] ;
+    :input     "sources/dhs/raw/dhs.html" ;
+    :output    "sources/dhs/lifted/dhs.ttl" .
+
+:step9 a :Clean ;
+    :query  "sources/dhs/lifted-html-to-plain.sparql" ;
+    :input  "sources/dhs/lifted/dhs.ttl" ;
+    :output "sources/dhs/lifted/dhs-clean.ttl" .
+
+:step10 a :Load ;
+    :input "sources/dhs/lifted/dhs-clean.ttl" ;
+    :graph "urn:source:dhs" .
+
+# ---- Federate ----------------------------------------------------------
+
+:step11 a :Federate .

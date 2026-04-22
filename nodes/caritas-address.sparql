@@ -1,0 +1,29 @@
+# Teaser format: "<Street> - <PLZ> <City>"
+
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX schema: <http://schema.org/>
+PREFIX locn:   <http://www.w3.org/ns/locn#>
+PREFIX cdf:    <https://civic-data.de/federated-directory#>
+
+INSERT {
+    GRAPH <urn:federated> {
+        ?fedIri
+            schema:address    ?teaser     ;
+            locn:thoroughfare ?street     ;
+            locn:postCode     ?postalCode ;
+            locn:postName     ?locality   .
+    }
+} WHERE {
+    GRAPH <urn:source:caritas> {
+        ?entry
+            xyz:Guid   ?guid   ;
+            xyz:Teaser ?teaser .
+        FILTER(isLiteral(?teaser) && ?teaser != "")
+    }
+    BIND(IRI(CONCAT(STR(cdf:), "caritas-", ?guid)) AS ?fedIri)
+
+    BIND(STRBEFORE(?teaser, " - ")      AS ?street)
+    BIND(STRAFTER(?teaser, " - ")       AS ?plzCity)
+    BIND(STRBEFORE(?plzCity, " ")       AS ?postalCode)
+    BIND(STRAFTER(?plzCity, " ")        AS ?locality)
+}

@@ -1,0 +1,30 @@
+# telefon carries labels like "Tel.: ", "Fax.: ", "Mobil: " that are stripped.
+
+PREFIX dhs:    <https://civic-data.de/dhs#>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX cdf:    <https://civic-data.de/federated-directory#>
+
+INSERT {
+    GRAPH <urn:federated> {
+        ?fedIri
+            schema:telephone ?phone   ;
+            schema:email     ?email   ;
+            foaf:homepage    ?website .
+    }
+} WHERE {
+    GRAPH <urn:source:dhs> {
+        ?entry dhs:detailLink ?detailLink .
+        OPTIONAL {
+            ?entry dhs:telefon ?telRaw .
+            BIND(REPLACE(?telRaw, "^(Tel|Fax|Mobil)\\.?:\\s*", "") AS ?phone)
+        }
+        OPTIONAL {
+            ?entry dhs:email ?emailRaw .
+            BIND(REPLACE(?emailRaw, "\\(at\\)", "@") AS ?email)
+        }
+        OPTIONAL { ?entry dhs:website ?website }
+    }
+    BIND(STRBEFORE(STRAFTER(?detailLink, "%5Bentry%5D="), "&") AS ?entryId)
+    BIND(IRI(CONCAT(STR(cdf:), "dhs-", ?entryId))              AS ?fedIri)
+}

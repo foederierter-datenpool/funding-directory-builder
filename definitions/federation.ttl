@@ -1,5 +1,9 @@
-@prefix : <https://civic-data.de/pipeline#> .
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
+@prefix locn:   <http://www.w3.org/ns/locn#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 
 # ---- Federation ---------------------------------------------------------
 
@@ -10,22 +14,36 @@
 # ---- Target schema ------------------------------------------------------
 
 :targetSchema a :TargetSchema ;
-    :hasTargetField :t-identifier, :t-name, :t-address .
+    :hasTargetField :t-identifier, :t-name, :t-address, :t-streetAddress, :t-postalCode, :t-locality, :t-country,
+                    :t-telephone, :t-email, :t-homepage, :t-detailUrl, :t-category .
 
-:t-identifier a :TargetField ; :targetPredicate schema:identifier .
-:t-name       a :TargetField ; :targetPredicate schema:name .
-:t-address    a :TargetField ; :targetPredicate schema:address .
+:t-identifier    a :TargetField ; :targetPredicate schema:identifier .
+:t-name          a :TargetField ; :targetPredicate schema:name .
+
+# schema:address holds the full-address literal
+# structured components use the EU SEMIC Core Location vocabulary (locn)
+:t-address       a :TargetField ; :targetPredicate schema:address .
+:t-streetAddress a :TargetField ; :targetPredicate locn:thoroughfare .
+:t-postalCode    a :TargetField ; :targetPredicate locn:postCode .
+:t-locality      a :TargetField ; :targetPredicate locn:postName .
+:t-country       a :TargetField ; :targetPredicate locn:adminUnitL1 .
+
+:t-telephone     a :TargetField ; :targetPredicate schema:telephone .
+:t-email         a :TargetField ; :targetPredicate schema:email .
+:t-homepage      a :TargetField ; :targetPredicate foaf:homepage .
+:t-detailUrl     a :TargetField ; :targetPredicate schema:url .
+
+:t-category      a :TargetField ; :targetPredicate dct:subject .
 
 # ---- Sources ------------------------------------------------------------
 
 :caritasSource a :Source ;
     :location   "sources/caritas/raw/caritas.json" ;
     :format     "json" ;
-    :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid,
-                :caritas-Date, :caritas-Distance, :caritas-Format, :caritas-Guid,
-                :caritas-Index, :caritas-LeadLine, :caritas-Link,
-                :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml,
-                :caritas-SubTitle, :caritas-Teaser, :caritas-Title, :caritas-ViewType .
+    :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid, :caritas-Date, :caritas-Distance,
+                :caritas-Format, :caritas-Guid, :caritas-Index, :caritas-LeadLine, :caritas-Link,
+                :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml, :caritas-SubTitle, :caritas-Teaser,
+                :caritas-Title, :caritas-ViewType .
 
 :caritas-Categories          a :SourceField ; :fieldPath "Categories"          .
 :caritas-ContentType         a :SourceField ; :fieldPath "ContentType"         .
@@ -49,17 +67,14 @@
 :sozialplattformSource a :Source ;
     :location   "sources/sozialplattform/raw/sozialplattform.json" ;
     :format     "json" ;
-    :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking,
-                :sp-offer_external_service_booking, :sp-offer_external_service_consulting,
-                :sp-offer_external_service_link_text, :sp-offer_external_service_link_url,
-                :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
-                :sp-offer_service_area, :sp-offer_title, :sp-offer_type,
-                :sp-office_address, :sp-office_address_short, :sp-office_email,
-                :sp-office_external_id_booking, :sp-office_external_id_consulting,
+    :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking, :sp-offer_external_service_booking,
+                :sp-offer_external_service_consulting, :sp-offer_external_service_link_text,
+                :sp-offer_external_service_link_url, :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
+                :sp-offer_service_area, :sp-offer_title, :sp-offer_type, :sp-office_address, :sp-office_address_short,
+                :sp-office_email, :sp-office_external_id_booking, :sp-office_external_id_consulting,
                 :sp-office_external_service_booking, :sp-office_external_service_consulting,
-                :sp-office_external_service_type, :sp-office_opening_hours,
-                :sp-office_opening_hours_notes, :sp-office_phone, :sp-office_title,
-                :sp-search_score .
+                :sp-office_external_service_type, :sp-office_opening_hours, :sp-office_opening_hours_notes,
+                :sp-office_phone, :sp-office_title, :sp-search_score .
 
 :sp-offer_chat_topic                   a :SourceField ; :fieldPath "offer_chat_topic"                   .
 :sp-offer_external_id_booking          a :SourceField ; :fieldPath "offer_external_id_booking"          .
@@ -74,9 +89,8 @@
 :sp-offer_title                        a :SourceField ; :fieldPath "offer_title"                        .
 :sp-offer_type                         a :SourceField ; :fieldPath "offer_type"                         .
 :sp-office_address                     a :SourceField ; :fieldPath "office_address" ;
-    :hasSubField :sp-office_address-address_line1, :sp-office_address-address_line3,
-                 :sp-office_address-country_code, :sp-office_address-langcode,
-                 :sp-office_address-locality, :sp-office_address-postal_code .
+    :hasSubField :sp-office_address-address_line1, :sp-office_address-address_line3, :sp-office_address-country_code,
+                 :sp-office_address-langcode, :sp-office_address-locality, :sp-office_address-postal_code .
 
 :sp-office_address-address_line1 a :SubField ; :fieldPath "address_line1" .
 :sp-office_address-address_line3 a :SubField ; :fieldPath "address_line3" .
@@ -101,10 +115,9 @@
 # -------------------------------------------------------------------------
 
 :dhsSource a :Source ;
-    :location   "sources/dhs/lifted/dhs-clean.ttl" ;
-    :format     "ttl" ;
-    :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort,
-                :dhs-strasse, :dhs-telefon, :dhs-website .
+    :location   "sources/dhs/raw/dhs.html" ;
+    :format     "html" ;
+    :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
 
 :dhs-detailLink a :SourceField ; :fieldPath "detailLink" .
 :dhs-email      a :SourceField ; :fieldPath "email"      .
@@ -114,30 +127,55 @@
 :dhs-telefon    a :SourceField ; :fieldPath "telefon"    .
 :dhs-website    a :SourceField ; :fieldPath "website"    .
 
+# ---- Transform nodes --------------------------------------------
+
+:caritasAddressNode :script "nodes/caritas-address.sparql" .
+:dhsIdentityNode    :script "nodes/dhs-identity.sparql" .
+:dhsAddressNode     :script "nodes/dhs-address.sparql" .
+:dhsContactNode     :script "nodes/dhs-contact.sparql" .
+
 # ---- Mappings -----------------------------------------------------------
 
 :caritas-mapping a :Mapping ;
-    :fromSource      :caritasSource ;
-    :toTarget        :targetSchema ;
-    :subjectTemplate "https://civic-data.de/federated-directory#caritas-{Guid}" ;
-    :subjectFrom     :caritas-Guid ;
+    :fromSource    :caritasSource ;
+    :toTarget      :targetSchema ;
+    :sourceGraph   <urn:source:caritas> ;
+    :subjectPrefix "caritas-" ;
+    :subjectFrom   :caritas-Guid ;
     :hasFieldMapping
-        [ :from :caritas-Guid   ; :to :t-identifier ] ,
-        [ :from :caritas-Title  ; :to :t-name ] ,
-        [ :from :caritas-Teaser ; :to :t-address ] .
+        [ :from :caritas-Guid   ; :to :t-identifier                                                       ] ,
+        [ :from :caritas-Title  ; :to :t-name                                                             ] ,
+        [ :from :caritas-Link   ; :to :t-detailUrl                                                        ] ,
+        [ :from :caritas-Teaser ; :to :t-address, :t-streetAddress, :t-postalCode, :t-locality ;
+                                  :via :caritasAddressNode                                                ] .
 
 :sozialplattform-mapping a :Mapping ;
-    :fromSource      :sozialplattformSource ;
-    :toTarget        :targetSchema ;
-    :subjectTemplate "https://civic-data.de/federated-directory#sp-{offer_id}" ;
-    :subjectFrom     :sp-offer_id ;
+    :fromSource    :sozialplattformSource ;
+    :toTarget      :targetSchema ;
+    :sourceGraph   <urn:source:sozialplattform> ;
+    :subjectPrefix "sp-" ;
+    :subjectFrom   :sp-offer_id ;
     :hasFieldMapping
-        [ :from :sp-offer_id             ; :to :t-identifier ] ,
-        [ :from :sp-office_title         ; :to :t-name ] ,
-        [ :from :sp-office_address_short ; :to :t-address ] .
+        [ :from :sp-offer_id                     ; :to :t-identifier    ] ,
+        [ :from :sp-office_title                 ; :to :t-name          ] ,
+        [ :from :sp-offer_type                   ; :to :t-category      ] ,
+        [ :from :sp-office_address_short         ; :to :t-address       ] ,
+        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress ] ,
+        [ :from :sp-office_address-postal_code   ; :to :t-postalCode    ] ,
+        [ :from :sp-office_address-locality      ; :to :t-locality      ] ,
+        [ :from :sp-office_address-country_code  ; :to :t-country       ] ,
+        [ :from :sp-office_phone                 ; :to :t-telephone     ] ,
+        [ :from :sp-office_email                 ; :to :t-email         ] .
 
-# ---- Transformations ----------------------------------------------------
-
-# :extractPlz a :Transformation ;
-#     :kind    "regex" ;
-#     :pattern "\\b(\\d{5})\\b" .
+:dhs-mapping a :Mapping ;
+    :fromSource  :dhsSource ;
+    :toTarget    :targetSchema ;
+    :hasFieldMapping
+        [ :from :dhs-detailLink           ; :to :t-identifier, :t-detailUrl ; :via :dhsIdentityNode ] ,
+        [ :from :dhs-name                 ; :to :t-name                     ; :via :dhsIdentityNode ] ,
+        [ :from :dhs-strasse              ; :to :t-streetAddress            ; :via :dhsAddressNode  ] ,
+        [ :from :dhs-plzort               ; :to :t-postalCode, :t-locality  ; :via :dhsAddressNode  ] ,
+        [ :from :dhs-strasse, :dhs-plzort ; :to :t-address                  ; :via :dhsAddressNode  ] ,
+        [ :from :dhs-telefon              ; :to :t-telephone                ; :via :dhsContactNode  ] ,
+        [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] ,
+        [ :from :dhs-website              ; :to :t-homepage                 ; :via :dhsContactNode  ] .
