@@ -1,20 +1,11 @@
-import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
-import { spawnSync } from "child_process"
+import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete } from "@foerderfunke/sem-ops-utils"
+import { abs, stepNum, loadDefs, makeQ } from "./pipeline-utils.js"
 import { DataFactory, Writer } from "n3"
 import path from "path"
 import fs from "fs"
 
 const DEBUG = false
-const ROOT= path.join(import.meta.dirname, "..")
-const JAR= path.join(ROOT, "tools/sparql-anything.jar")
 const df = DataFactory
-
-const abs = (p) => path.join(ROOT, p)
-
-const run = (cmd, args) => {
-    const r = spawnSync(cmd, args, { stdio: "inherit" })
-    if (r.status !== 0) throw new Error(`Exit ${r.status}: ${cmd} ${args.join(" ")}`)
-}
 
 const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
     const writer = new Writer({ prefixes })
@@ -27,61 +18,42 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
     })
 })
 
-// ---- Load definitions ---------------------------------------------------
+const q = makeQ(loadDefs("definitions/federation.ttl", "definitions/pipeline.ttl"))
 
-const defs = storeFromTurtles([
-    fs.readFileSync(path.join(ROOT, "definitions/federation.ttl"), "utf8"),
-    fs.readFileSync(path.join(ROOT, "definitions/pipeline.ttl"),   "utf8"),
-])
-
-const PFX = `PREFIX : <https://civic-data.de/pipeline#>`
-const q = (body) => sparqlSelect(PFX + body, [defs])
-
-// ---- Read pipeline steps ----------------------------------------------------
+// ---- Read pipeline output path and Clean/Load/Federate steps ------------
 
 const [{ output }] = await q("SELECT ?output WHERE { :pipeline :finalOutput ?output }")
 
 const rows = await q(`
-    SELECT ?step ?type ?script ?liftQuery ?query ?graph ?inPath ?outPath ?paramName ?paramValue WHERE {
+    SELECT ?step ?type ?query ?graph ?inPath ?outPath WHERE {
         ?step a ?type .
-        FILTER(?type IN (:Fetch, :Lift, :Clean, :Load, :Federate))
-        OPTIONAL { ?step :script    ?script    }
-        OPTIONAL { ?step :liftQuery ?liftQuery }
-        OPTIONAL { ?step :query     ?query     }
-        OPTIONAL { ?step :graph     ?graph     }
-        OPTIONAL { ?step :input     ?inPath    }
-        OPTIONAL { ?step :output    ?outPath   }
-        OPTIONAL { ?step :param [ :name ?paramName ; :value ?paramValue ] }
+        FILTER(?type IN (:Clean, :Load, :Federate))
+        OPTIONAL { ?step :query  ?query  }
+        OPTIONAL { ?step :graph  ?graph  }
+        OPTIONAL { ?step :input  ?inPath }
+        OPTIONAL { ?step :output ?outPath }
     }`)
 
 const steps = new Map()
 for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
-            iri: r.step,
             type: r.type.split("#").pop(),
-            script: r.script, liftQuery: r.liftQuery,
             query: r.query, graph: r.graph,
             inPath: r.inPath, outPath: r.outPath,
-            params: [],
         })
     }
-    if (r.paramName) steps.get(r.step).params.push([r.paramName, r.paramValue])
 }
 
-const stepNum = iri => parseInt(iri.split("#step").pop(), 10)
 const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
 
 // ---- Direct-mapping generator ------------------------------------------
-// builds one SPARQL INSERT per mapping in federation.ttl from field
-// mappings that carry no :via. subfields (linked via :hasSubField) nest
-// inside an OPTIONAL on their parent field.
 
 const XYZ = "http://sparql.xyz/facade-x/data/"
 const CDF = "https://civic-data.de/federated-directory#"
 
 const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fields) => {
-    const v = (path) => `?${path}`
+    const v      = (path) => `?${path}`
     const optLit = (subj, path) =>
         `OPTIONAL { ${subj} <${XYZ}${path}> ${v(path)} . ` +
         `FILTER(isLiteral(${v(path)}) && ${v(path)} != "") }`
@@ -90,7 +62,7 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
         .map(f => `        ?fedIri <${f.predicate}> ${v(f.fieldPath)} .`)
         .join("\n")
 
-    const topLevel = fields.filter(f => !f.parentPath && f.fieldPath !== subjectFromPath)
+    const topLevel  = fields.filter(f => !f.parentPath && f.fieldPath !== subjectFromPath)
     const subFields = fields.filter(f => f.parentPath)
 
     const bgp = [`?entry <${XYZ}${subjectFromPath}> ${v(subjectFromPath)} .`]
@@ -103,12 +75,12 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
     }
     let parentIdx = 0
     for (const [parent, subs] of byParent) {
-        const pv = `?_p${parentIdx++}`
+        const pv    = `?_p${parentIdx++}`
         const inner = subs.map(s => `    ${optLit(pv, s.fieldPath)}`).join("\n")
         bgp.push(`OPTIONAL {\n    ?entry <${XYZ}${parent}> ${pv} .\n${inner}\n  }`)
     }
 
-    let query = `
+    const query = `
 INSERT {
     GRAPH <urn:federated> {
 ${insertBlock}
@@ -162,12 +134,6 @@ const runFederate = async () => {
     }
 }
 
-// ---- Ensure sparql-anything.jar ----------------------------------------
-
-if (!fs.existsSync(JAR)) {
-    run("bash", [path.join(ROOT, "scripts/download-sparql-anything.sh")])
-}
-
 // ---- Dispatch each step -------------------------------------------------
 
 const fedStore = newStore()
@@ -175,26 +141,9 @@ const fedStore = newStore()
 for (const iri of sorted) {
     const s = steps.get(iri)
 
-    if (s.type === "Fetch") {
-        if (fs.existsSync(abs(s.outPath))) {
-            console.log(`skip  fetch  ${s.outPath} (exists)`)
-            continue
-        }
-        console.log(`fetch  → ${s.outPath}`)
-        run("node", [abs(s.script)])
-
-    } else if (s.type === "Lift") {
-        console.log(`lift   ${s.inPath} → ${s.outPath}`)
-        const args = ["-jar", JAR, "-q", abs(s.liftQuery),
-                      "-v", `location=${abs(s.inPath)}`,
-                      "-f", "TTL", "-o", abs(s.outPath)]
-        for (const [name, value] of s.params) args.push("-v", `${name}=${value}`)
-        fs.mkdirSync(path.dirname(abs(s.outPath)), { recursive: true })
-        run("java", args)
-
-    } else if (s.type === "Clean") {
+    if (s.type === "Clean") {
         console.log(`clean  ${s.inPath} → ${s.outPath}`)
-        const src = storeFromTurtles([fs.readFileSync(abs(s.inPath), "utf8")])
+        const src   = loadDefs(s.inPath)
         const quads = await sparqlConstruct(fs.readFileSync(abs(s.query), "utf8"), [src])
         await writeTurtle(abs(s.outPath), quads, { dhs: "https://civic-data.de/dhs#" })
 
