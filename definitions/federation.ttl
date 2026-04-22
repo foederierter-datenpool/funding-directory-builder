@@ -129,10 +129,10 @@
 
 # ---- Transform nodes --------------------------------------------
 
-:caritasAddressNode :script "nodes/caritas-address.sparql" .
-:dhsIdentityNode    :script "nodes/dhs-identity.sparql" .
-:dhsAddressNode     :script "nodes/dhs-address.sparql" .
-:dhsContactNode     :script "nodes/dhs-contact.sparql" .
+:caritasAddressNode a :TransformNode ; :script "nodes/caritas-address.sparql" .
+:dhsIdentityNode    a :TransformNode ; :script "nodes/dhs-identity.sparql" .
+:dhsAddressNode     a :TransformNode ; :script "nodes/dhs-address.sparql" .
+:dhsContactNode     a :TransformNode ; :script "nodes/dhs-contact.sparql" .
 
 # ---- Mappings -----------------------------------------------------------
 
