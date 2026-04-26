@@ -3,7 +3,7 @@
 PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
 PREFIX schema: <http://schema.org/>
 PREFIX locn:   <http://www.w3.org/ns/locn#>
-PREFIX cdf:    <https://civic-data.de/federated-directory#>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:federated> {
@@ -20,7 +20,7 @@ INSERT {
             xyz:Teaser ?teaser .
         FILTER(isLiteral(?teaser) && ?teaser != "")
     }
-    BIND(IRI(CONCAT(STR(cdf:), "caritas-", ?guid)) AS ?fedIri)
+    BIND(IRI(CONCAT(STR(cdp:), "caritas-", ?guid)) AS ?fedIri)
 
     BIND(STRBEFORE(?teaser, " - ")      AS ?street)
     BIND(STRAFTER(?teaser, " - ")       AS ?plzCity)

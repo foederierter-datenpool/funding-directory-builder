@@ -2,7 +2,7 @@
 PREFIX dhs:    <https://civic-data.de/dhs#>
 PREFIX schema: <http://schema.org/>
 PREFIX locn:   <http://www.w3.org/ns/locn#>
-PREFIX cdf:    <https://civic-data.de/federated-directory#>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:federated> {
@@ -20,7 +20,7 @@ INSERT {
             dhs:plzort     ?plzort     .
     }
     BIND(STRBEFORE(STRAFTER(?detailLink, "%5Bentry%5D="), "&") AS ?entryId)
-    BIND(IRI(CONCAT(STR(cdf:), "dhs-", ?entryId))              AS ?fedIri)
+    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId))              AS ?fedIri)
 
     BIND(STRBEFORE(?plzort, " ")         AS ?postalCode)
     BIND(STRAFTER(?plzort, " ")          AS ?locality)

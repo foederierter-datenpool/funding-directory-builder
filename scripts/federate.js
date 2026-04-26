@@ -1,6 +1,7 @@
 import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete } from "@foerderfunke/sem-ops-utils"
 import { abs, stepNum, loadDefs, makeQ } from "./pipeline-utils.js"
 import { DataFactory, Writer } from "n3"
+import { createHash } from "crypto"
 import path from "path"
 import fs from "fs"
 
@@ -20,18 +21,17 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 
 const q = makeQ(loadDefs("definitions/federation.ttl", "definitions/pipeline.ttl"))
 
-// ---- Read pipeline output path and Clean/Load/Federate steps ------------
-
-const [{ output }] = await q("SELECT ?output WHERE { :pipeline :finalOutput ?output }")
+// ---- Read Clean/Load/Federate/Merge steps ------------------------------
 
 const rows = await q(`
-    SELECT ?step ?type ?query ?graph ?inPath ?outPath WHERE {
+    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath WHERE {
         ?step a ?type .
-        FILTER(?type IN (:Clean, :Load, :Federate))
-        OPTIONAL { ?step :query  ?query  }
-        OPTIONAL { ?step :graph  ?graph  }
-        OPTIONAL { ?step :input  ?inPath }
-        OPTIONAL { ?step :output ?outPath }
+        FILTER(?type IN (:Clean, :Load, :Federate, :Merge))
+        OPTIONAL { ?step :query      ?query       }
+        OPTIONAL { ?step :graph      ?graph       }
+        OPTIONAL { ?step :input      ?inPath      }
+        OPTIONAL { ?step :output     ?outPath     }
+        OPTIONAL { ?step :provOutput ?provOutPath }
     }`)
 
 const steps = new Map()
@@ -40,7 +40,7 @@ for (const r of rows) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
             query: r.query, graph: r.graph,
-            inPath: r.inPath, outPath: r.outPath,
+            inPath: r.inPath, outPath: r.outPath, provOutPath: r.provOutPath,
         })
     }
 }
@@ -50,7 +50,7 @@ const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
 // ---- Direct-mapping generator ------------------------------------------
 
 const XYZ = "http://sparql.xyz/facade-x/data/"
-const CDF = "https://civic-data.de/federated-directory#"
+const CDP = "https://civic-data.de/pipeline#"
 
 const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fields) => {
     const v      = (path) => `?${path}`
@@ -89,7 +89,7 @@ ${insertBlock}
     GRAPH <${sourceGraph}> {
         ${bgp.join("\n        ")}
     }
-    BIND(IRI(CONCAT("${CDF}", "${subjectPrefix}", STR(${v(subjectFromPath)}))) AS ?fedIri)
+    BIND(IRI(CONCAT("${CDP}", "${subjectPrefix}", STR(${v(subjectFromPath)}))) AS ?fedIri)
 }`
     if (DEBUG) console.log("direct insert query", query)
     return query
@@ -134,6 +134,58 @@ const runFederate = async () => {
     }
 }
 
+// ---- Merge --------------------------------------------------------------
+
+const FED_GRAPH = df.namedNode("urn:federated")
+
+const COMMON_PREFIXES = {
+    schema: "http://schema.org/",
+    locn:   "http://www.w3.org/ns/locn#",
+    foaf:   "http://xmlns.com/foaf/0.1/",
+    dct:    "http://purl.org/dc/terms/",
+}
+
+const runMerge = async (sourceStore, outPath, provOutPath) => {
+    const [cfg] = await q(`
+        SELECT ?ns WHERE { ?merge a :MergeRule ; :targetNamespace ?ns }`)
+    if (!cfg) throw new Error(":MergeRule config missing in federation.ttl")
+    const namespace = cfg.ns
+
+    const fedQuads = sourceStore.getQuads(null, null, null, FED_GRAPH)
+
+    const mintedFor = new Map()
+    for (const qu of fedQuads) {
+        const s = qu.subject.value
+        if (mintedFor.has(s) || qu.subject.termType !== "NamedNode") continue
+        const id = createHash("sha1").update(s).digest("hex").slice(0, 12)
+        mintedFor.set(s, df.namedNode(namespace + "org-" + id))
+    }
+
+    const provDerivedFrom = df.namedNode("http://www.w3.org/ns/prov#wasDerivedFrom")
+    const plainQuads = []
+    const provQuads  = []
+    for (const qu of fedQuads) {
+        const minted = mintedFor.get(qu.subject.value)
+        if (!minted) continue
+        const newTriple = df.quad(minted, qu.predicate, qu.object)
+        plainQuads.push(newTriple)
+        provQuads.push(df.quad(newTriple, provDerivedFrom, qu.subject))
+    }
+
+    console.log(`merge  ${mintedFor.size} entities → ${plainQuads.length} triples`)
+
+    await writeTurtle(abs(outPath), plainQuads, { ...COMMON_PREFIXES, cdf: namespace })
+    console.log(`merge  wrote ${plainQuads.length} triples → ${outPath}`)
+
+    await writeTurtle(abs(provOutPath), provQuads, {
+        ...COMMON_PREFIXES,
+        cdp:  CDP,
+        cdf:  namespace,
+        prov: "http://www.w3.org/ns/prov#",
+    })
+    console.log(`merge  wrote ${provQuads.length} provenance annotations → ${provOutPath}`)
+}
+
 // ---- Dispatch each step -------------------------------------------------
 
 const fedStore = newStore()
@@ -156,17 +208,11 @@ for (const iri of sorted) {
 
     } else if (s.type === "Federate") {
         await runFederate()
+        const quads = fedStore.getQuads(null, null, null, FED_GRAPH)
+        await writeTurtle(abs(s.outPath), quads, { ...COMMON_PREFIXES, cdp: CDP })
+        console.log(`federate  wrote ${quads.length} triples → ${s.outPath}`)
+
+    } else if (s.type === "Merge") {
+        await runMerge(fedStore, s.outPath, s.provOutPath)
     }
 }
-
-// ---- Write output -------------------------------------------------------
-
-const quads = fedStore.getQuads(null, null, null, df.namedNode("urn:federated"))
-await writeTurtle(abs(output), quads, {
-    schema: "http://schema.org/",
-    locn:   "http://www.w3.org/ns/locn#",
-    foaf:   "http://xmlns.com/foaf/0.1/",
-    dct:    "http://purl.org/dc/terms/",
-    cdf:    "https://civic-data.de/federated-directory#",
-})
-console.log(`\nwrote ${quads.length} triples → ${output}`)

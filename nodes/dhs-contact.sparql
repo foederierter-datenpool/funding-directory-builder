@@ -3,7 +3,7 @@
 PREFIX dhs:    <https://civic-data.de/dhs#>
 PREFIX schema: <http://schema.org/>
 PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
-PREFIX cdf:    <https://civic-data.de/federated-directory#>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:federated> {
@@ -26,5 +26,5 @@ INSERT {
         OPTIONAL { ?entry dhs:website ?website }
     }
     BIND(STRBEFORE(STRAFTER(?detailLink, "%5Bentry%5D="), "&") AS ?entryId)
-    BIND(IRI(CONCAT(STR(cdf:), "dhs-", ?entryId))              AS ?fedIri)
+    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId))              AS ?fedIri)
 }

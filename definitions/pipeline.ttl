@@ -1,8 +1,7 @@
 @prefix :    <https://civic-data.de/pipeline#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:pipeline rdfs:label "Directory Federation Pipeline" ;
-    :finalOutput "out/federated.ttl" .
+:pipeline rdfs:label "Directory Federation Pipeline" .
 
 # ---- Caritas -----------------------------------------------------------
 
@@ -57,4 +56,11 @@
 
 # ---- Federate ----------------------------------------------------------
 
-:step11 a :Federate .
+:step11 a :Federate ;
+    :output "out/staged.ttl" .
+
+# ---- Merge -------------------------------------------------------------
+
+:step12 a :Merge ;
+    :output     "out/directory.ttl" ;
+    :provOutput "out/provenance.ttl" .
