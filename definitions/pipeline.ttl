@@ -62,5 +62,6 @@
 # ---- Merge -------------------------------------------------------------
 
 :step12 a :Merge ;
-    :output     "out/directory.ttl" ;
-    :provOutput "out/provenance.ttl" .
+    :output         "out/directory.ttl" ;
+    :provOutput     "out/provenance.ttl" ;
+    :clustersOutput "out/clusters.ttl" .
