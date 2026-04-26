@@ -2,7 +2,7 @@ import { Parser } from "n3"
 
 const NS = "https://civic-data.de/pipeline#"
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-const NODE_TYPES = [`${NS}Source`, `${NS}SourceField`, `${NS}TargetField`, `${NS}TargetSchema`, `${NS}TransformNode`]
+const NODE_TYPES = [`${NS}Source`, `${NS}SourceField`, `${NS}TargetField`, `${NS}TargetSchema`, `${NS}TransformNode`, `${NS}MergeRule`]
 const SUB_FIELD = `${NS}SubField`
 const TRANSFORM = `${NS}TransformNode`
 
@@ -55,14 +55,24 @@ export function loadFederation(ttl, { hideUnmappedFields = true } = {}) {
         map.get(key).push(val)
     }
     const targetPredicate = new Map()
+    // :hasMergeRule is on :Federation pointing at the rule; we re-route the
+    // visual edge to come from the federation's :targetSchema instead.
+    const targetSchemaOf = new Map()
+    const mergeRuleOf    = new Map()
     for (const q of quads) {
         if (q.predicate.value === `${NS}hasField`)         push(q.subject.value, q.object.value, "hasField")
         else if (q.predicate.value === `${NS}hasSubField`) push(q.subject.value, q.object.value, "hasSubField")
         else if (q.predicate.value === `${NS}hasTargetField`) push(q.object.value, q.subject.value, "isTargetFieldOf")
+        else if (q.predicate.value === `${NS}hasTargetSchema`) targetSchemaOf.set(q.subject.value, q.object.value)
+        else if (q.predicate.value === `${NS}hasMergeRule`)    mergeRuleOf.set(q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}from`) appendTo(bnodeFrom, q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}to`)   appendTo(bnodeTo,   q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}via`)  bnodeVia.set(q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}targetPredicate`) targetPredicate.set(q.subject.value, q.object.value)
+    }
+    for (const [fed, merge] of mergeRuleOf) {
+        const ts = targetSchemaOf.get(fed)
+        if (ts) push(ts, merge, "feedsInto")
     }
     // Deduplicate routed edges: the same (source, via) or (via, target) pair
     // can appear across multiple field-mappings sharing one transform node.

@@ -147,9 +147,14 @@ const COMMON_PREFIXES = {
 
 const runMerge = async (sourceStore, outPath, provOutPath) => {
     const [cfg] = await q(`
-        SELECT ?ns WHERE { ?merge a :MergeRule ; :targetNamespace ?ns }`)
+        SELECT ?ns ?prefix ?originPred WHERE {
+            ?merge a :MergeRule ;
+                :targetNamespace     ?ns ;
+                :mintedSubjectPrefix ?prefix ;
+                :originPredicate     ?originPred .
+        }`)
     if (!cfg) throw new Error(":MergeRule config missing in federation.ttl")
-    const namespace = cfg.ns
+    const { ns: namespace, prefix: mintedPrefix, originPred } = cfg
 
     const fedQuads = sourceStore.getQuads(null, null, null, FED_GRAPH)
 
@@ -158,10 +163,10 @@ const runMerge = async (sourceStore, outPath, provOutPath) => {
         const s = qu.subject.value
         if (mintedFor.has(s) || qu.subject.termType !== "NamedNode") continue
         const id = createHash("sha1").update(s).digest("hex").slice(0, 12)
-        mintedFor.set(s, df.namedNode(namespace + "org-" + id))
+        mintedFor.set(s, df.namedNode(namespace + mintedPrefix + id))
     }
 
-    const provDerivedFrom = df.namedNode("http://www.w3.org/ns/prov#wasDerivedFrom")
+    const originPredNode = df.namedNode(originPred)
     const plainQuads = []
     const provQuads  = []
     for (const qu of fedQuads) {
@@ -169,7 +174,7 @@ const runMerge = async (sourceStore, outPath, provOutPath) => {
         if (!minted) continue
         const newTriple = df.quad(minted, qu.predicate, qu.object)
         plainQuads.push(newTriple)
-        provQuads.push(df.quad(newTriple, provDerivedFrom, qu.subject))
+        provQuads.push(df.quad(newTriple, originPredNode, qu.subject))
     }
 
     console.log(`merge  ${mintedFor.size} entities → ${plainQuads.length} triples`)
