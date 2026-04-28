@@ -1,5 +1,5 @@
 import { ReactFlow, Background, Controls, MarkerType, Handle, Position, useNodesState, useEdgesState } from "@xyflow/react"
-import ttl from "../../definitions/federation.ttl?raw"
+import ttl from "../../config/federation.ttl?raw"
 import { loadFederation } from "./loadFederation.js"
 import React, { useMemo, useState } from "react"
 import "@xyflow/react/dist/style.css"
