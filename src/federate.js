@@ -139,7 +139,8 @@ const runFederate = async () => {
 
 // ---- Merge --------------------------------------------------------------
 
-const FED_GRAPH = df.namedNode("urn:federated")
+const FED_GRAPH    = df.namedNode("urn:federated")
+const MERGED_GRAPH = df.namedNode("urn:merged")
 
 const COMMON_PREFIXES = {
     schema: "http://schema.org/",
@@ -258,30 +259,29 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
     }
 
     const originPredNode = df.namedNode(originPred)
-    const seen = new Set()
-    const plainQuads = []
-    const provQuads  = []
+    const provQuads= []
     for (const qu of fedQuads) {
         const minted = mintedFor.get(qu.subject.value)
         if (!minted) continue
-        const newTriple = df.quad(minted, qu.predicate, qu.object)
-        const key = `${minted.value}|${qu.predicate.value}|${qu.object.termType}|${qu.object.value}`
-        if (!seen.has(key)) { seen.add(key); plainQuads.push(newTriple) }
-        provQuads.push(df.quad(newTriple, originPredNode, qu.subject))
+        sourceStore.addQuad(df.quad(minted, qu.predicate, qu.object, MERGED_GRAPH))
+        const triple = df.quad(minted, qu.predicate, qu.object)
+        provQuads.push(df.quad(triple, originPredNode, qu.subject))
     }
 
-    console.log(`merge  ${subjects.length} entities → ${clusters.size} clusters (${merged} multi-source, ${sameAsUnions} sameAs unions)`)
+    const mergedQuads = sourceStore.getQuads(null, null, null, MERGED_GRAPH)
 
-    await writeTurtle(abs(outPath), plainQuads, { ...COMMON_PREFIXES, cdf: namespace })
-    console.log(`merge  wrote ${plainQuads.length} triples → ${outPath}`)
+    console.log(`merge: ${subjects.length} entities → ${clusters.size} clusters (${merged} multi-source, ${sameAsUnions} sameAs unions)`)
+
+    await writeTurtle(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdf: namespace })
+    console.log(`merge: wrote ${mergedQuads.length} triples → ${outPath}`)
 
     await writeTurtle(abs(provOutPath), provQuads, {
         ...COMMON_PREFIXES, cdp: CDP, cdf: namespace, prov: "http://www.w3.org/ns/prov#",
     })
-    console.log(`merge  wrote ${provQuads.length} provenance annotations → ${provOutPath}`)
+    console.log(`merge: wrote ${provQuads.length} provenance annotations → ${provOutPath}`)
 
     await writeTurtle(abs(clustersOutPath), clusterQuads, { cdp: CDP, cdf: namespace })
-    console.log(`merge  wrote cluster log → ${clustersOutPath}`)
+    console.log(`merge: wrote cluster log → ${clustersOutPath}`)
 }
 
 // ---- Dispatch each step -------------------------------------------------
