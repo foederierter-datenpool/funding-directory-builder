@@ -158,15 +158,15 @@ const similarity = (a, b) => {
 
 const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
     const [cfg] = await q(`
-        SELECT ?ns ?prefix ?originPred ?aliasGraph WHERE {
+        SELECT ?ns ?prefix ?originPred ?manualEditsGraph WHERE {
             ?merge a :MergeRule ;
                 :targetNamespace     ?ns ;
                 :mintedSubjectPrefix ?prefix ;
                 :originPredicate     ?originPred .
-            OPTIONAL { ?merge :aliasGraph ?aliasGraph }
+            OPTIONAL { ?merge :manualEditsGraph ?manualEditsGraph }
         }`)
     if (!cfg) throw new Error(":MergeRule config missing in federation.ttl")
-    const { ns: namespace, prefix: mintedPrefix, originPred, aliasGraph } = cfg
+    const { ns: namespace, prefix: mintedPrefix, originPred, manualEditsGraph } = cfg
 
     const criteriaRows = await q(`
         SELECT ?on ?minSim WHERE {
@@ -214,14 +214,14 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
         if (ra !== rb) parent.set(ra, rb)
     }
 
-    let aliasUnions = 0
-    if (aliasGraph) {
+    let sameAsUnions = 0
+    if (manualEditsGraph) {
         const OWL_SAME_AS = "http://www.w3.org/2002/07/owl#sameAs"
-        const aliasQuads = n3Parser.parse(fs.readFileSync(abs(aliasGraph), "utf8"))
-        for (const qu of aliasQuads) {
+        const editQuads = n3Parser.parse(fs.readFileSync(abs(manualEditsGraph), "utf8"))
+        for (const qu of editQuads) {
             if (qu.predicate.value !== OWL_SAME_AS) continue
             const a = qu.subject.value, b = qu.object.value
-            if (parent.has(a) && parent.has(b)) { union(a, b); aliasUnions++ }
+            if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++ }
         }
     }
 
@@ -270,7 +270,7 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
         provQuads.push(df.quad(newTriple, originPredNode, qu.subject))
     }
 
-    console.log(`merge  ${subjects.length} entities → ${clusters.size} clusters (${merged} multi-source, ${aliasUnions} alias unions)`)
+    console.log(`merge  ${subjects.length} entities → ${clusters.size} clusters (${merged} multi-source, ${sameAsUnions} sameAs unions)`)
 
     await writeTurtle(abs(outPath), plainQuads, { ...COMMON_PREFIXES, cdf: namespace })
     console.log(`merge  wrote ${plainQuads.length} triples → ${outPath}`)

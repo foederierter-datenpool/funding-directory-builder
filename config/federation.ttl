@@ -188,7 +188,7 @@
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
     :originPredicate     prov:wasDerivedFrom ;
-    :aliasGraph          "config/aliases.ttl" ;
+    :manualEditsGraph    "config/manual-edits.ttl" ;
     :hasMatchCriterion
         [ :on schema:name       ; :minSimilarity 0.85 ] ,
         [ :on locn:postCode     ; :minSimilarity 1.0  ] ,
