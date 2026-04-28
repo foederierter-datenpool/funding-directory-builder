@@ -10,7 +10,7 @@ const run = (cmd, args) => {
     if (r.status !== 0) throw new Error(`Exit ${r.status}: ${cmd} ${args.join(" ")}`)
 }
 
-const q = makeQ(loadDefs("definitions/pipeline.ttl"))
+const q = makeQ(loadDefs("config/pipeline.ttl"))
 
 // ---- Read Fetch + Lift steps --------------------------------------------
 
@@ -43,7 +43,7 @@ const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
 // ---- Ensure sparql-anything.jar ----------------------------------------
 
 if (!fs.existsSync(JAR)) {
-    run("bash", [path.join(ROOT, "scripts/download-sparql-anything.sh")])
+    run("bash", [path.join(ROOT, "tools/download-sparql-anything.sh")])
 }
 
 // ---- Run steps ----------------------------------------------------------

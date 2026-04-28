@@ -40,7 +40,7 @@
 # ---- Sources ------------------------------------------------------------
 
 :caritasSource a :Source ;
-    :location   "sources/caritas/raw/caritas.json" ;
+    :location   "data/raw/caritas.json" ;
     :format     "json" ;
     :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid, :caritas-Date, :caritas-Distance,
                 :caritas-Format, :caritas-Guid, :caritas-Index, :caritas-LeadLine, :caritas-Link,
@@ -67,7 +67,7 @@
 # -------------------------------------------------------------------------
 
 :sozialplattformSource a :Source ;
-    :location   "sources/sozialplattform/raw/sozialplattform.json" ;
+    :location   "data/raw/sozialplattform.json" ;
     :format     "json" ;
     :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking, :sp-offer_external_service_booking,
                 :sp-offer_external_service_consulting, :sp-offer_external_service_link_text,
@@ -117,7 +117,7 @@
 # -------------------------------------------------------------------------
 
 :dhsSource a :Source ;
-    :location   "sources/dhs/raw/dhs.html" ;
+    :location   "data/raw/dhs.html" ;
     :format     "html" ;
     :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
 
@@ -131,10 +131,10 @@
 
 # ---- Transform nodes --------------------------------------------
 
-:caritasAddressNode a :TransformNode ; :script "nodes/caritas-address.sparql" .
-:dhsIdentityNode    a :TransformNode ; :script "nodes/dhs-identity.sparql" .
-:dhsAddressNode     a :TransformNode ; :script "nodes/dhs-address.sparql" .
-:dhsContactNode     a :TransformNode ; :script "nodes/dhs-contact.sparql" .
+:caritasAddressNode a :TransformNode ; :script "src/transforms/caritas-address.sparql" .
+:dhsIdentityNode    a :TransformNode ; :script "src/transforms/dhs-identity.sparql" .
+:dhsAddressNode     a :TransformNode ; :script "src/transforms/dhs-address.sparql" .
+:dhsContactNode     a :TransformNode ; :script "src/transforms/dhs-contact.sparql" .
 
 # ---- Mappings -----------------------------------------------------------
 
@@ -188,7 +188,7 @@
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
     :originPredicate     prov:wasDerivedFrom ;
-    :aliasGraph          "definitions/aliases.ttl" ;
+    :aliasGraph          "config/aliases.ttl" ;
     :hasMatchCriterion
         [ :on schema:name       ; :minSimilarity 0.85 ] ,
         [ :on locn:postCode     ; :minSimilarity 1.0  ] ,

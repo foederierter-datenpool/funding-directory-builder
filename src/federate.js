@@ -20,7 +20,7 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
     })
 })
 
-const q = makeQ(loadDefs("definitions/federation.ttl", "definitions/pipeline.ttl"))
+const q = makeQ(loadDefs("config/federation.ttl", "config/pipeline.ttl"))
 
 // ---- Read Clean/Load/Federate/Merge steps ------------------------------
 

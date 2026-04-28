@@ -1,9 +1,9 @@
+import { abs } from "../utils.js"
 import path from "path"
 import fs from "fs"
 
-const OUT_DIR = path.join(import.meta.dirname, "raw")
-fs.mkdirSync(OUT_DIR, { recursive: true })
-const OUT = path.join(OUT_DIR, "sozialplattform.json")
+const OUT = abs("data/raw/sozialplattform.json")
+fs.mkdirSync(path.dirname(OUT), { recursive: true })
 
 const BASE_URL = "https://sozialplattform.de/content/de/api/v1/consultation/search"
 const PER_PAGE = 100

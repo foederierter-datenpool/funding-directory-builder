@@ -1,0 +1,67 @@
+@prefix :    <https://civic-data.de/pipeline#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:pipeline rdfs:label "Directory Federation Pipeline" .
+
+# ---- Caritas -----------------------------------------------------------
+
+:step1 a :Fetch ;
+    :script "src/fetchers/caritas.js" ;
+    :output "data/raw/caritas.json" .
+
+:step2 a :Lift ;
+    :liftQuery "src/lift/json.sparql" ;
+    :input     "data/raw/caritas.json" ;
+    :output    "data/lifted/caritas.ttl" .
+
+:step3 a :Load ;
+    :input "data/lifted/caritas.ttl" ;
+    :graph "urn:source:caritas" .
+
+# ---- Sozialplattform ---------------------------------------------------
+
+:step4 a :Fetch ;
+    :script "src/fetchers/sozialplattform.js" ;
+    :output "data/raw/sozialplattform.json" .
+
+:step5 a :Lift ;
+    :liftQuery "src/lift/json.sparql" ;
+    :input     "data/raw/sozialplattform.json" ;
+    :output    "data/lifted/sozialplattform.ttl" .
+
+:step6 a :Load ;
+    :input "data/lifted/sozialplattform.ttl" ;
+    :graph "urn:source:sozialplattform" .
+
+# ---- DHS ---------------------------------------------------------------
+
+:step7 a :Fetch ;
+    :script "src/fetchers/dhs.js" ;
+    :output "data/raw/dhs.html" .
+
+:step8 a :Lift ;
+    :liftQuery "src/lift/html.sparql" ;
+    :param     [ :name "selector" ; :value "ul.results" ] ;
+    :input     "data/raw/dhs.html" ;
+    :output    "data/lifted/dhs.ttl" .
+
+:step9 a :Clean ;
+    :query  "src/clean/dhs-html-to-plain.sparql" ;
+    :input  "data/lifted/dhs.ttl" ;
+    :output "data/lifted/dhs-clean.ttl" .
+
+:step10 a :Load ;
+    :input "data/lifted/dhs-clean.ttl" ;
+    :graph "urn:source:dhs" .
+
+# ---- Federate ----------------------------------------------------------
+
+:step11 a :Federate ;
+    :output "data/out/staged.ttl" .
+
+# ---- Merge -------------------------------------------------------------
+
+:step12 a :Merge ;
+    :output         "data/out/directory.ttl" ;
+    :provOutput     "data/out/provenance.ttl" ;
+    :clustersOutput "data/out/clusters.ttl" .

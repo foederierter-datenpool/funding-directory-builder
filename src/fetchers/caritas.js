@@ -1,9 +1,9 @@
+import { abs } from "../utils.js"
 import path from "path"
 import fs from "fs"
 
-const OUT_DIR = path.join(import.meta.dirname, "raw")
-fs.mkdirSync(OUT_DIR, { recursive: true })
-const OUT = path.join(OUT_DIR, "caritas.json")
+const OUT = abs("data/raw/caritas.json")
+fs.mkdirSync(path.dirname(OUT), { recursive: true })
 
 // https://www.caritas.de/adressen-ergebnisse
 const URL = "https://www.caritas.de/Api/search/searchbyquery"
