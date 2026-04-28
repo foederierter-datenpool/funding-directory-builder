@@ -1,5 +1,5 @@
 import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete } from "@foerderfunke/sem-ops-utils"
-import { abs, stepNum, loadDefs, makeQ } from "./pipeline-utils.js"
+import { abs, stepNum, loadDefs, makeQ } from "./utils.js"
 import levenshtein from "fast-levenshtein"
 import { DataFactory, Writer } from "n3"
 import { createHash } from "crypto"
