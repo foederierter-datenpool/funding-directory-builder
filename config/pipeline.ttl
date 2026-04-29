@@ -42,7 +42,7 @@
     :input  "data/lifted/dhs.ttl" ;
     :output "data/lifted/dhs-clean.ttl" .
 
-# ---- Federate ----------------------------------------------------------
+# ---- Map ---------------------------------------------------------------
 
 :step8 a :Load ;
     :input "data/lifted/caritas.ttl" ;
@@ -56,12 +56,16 @@
     :input "data/lifted/dhs-clean.ttl" ;
     :graph "urn:source:dhs" .
 
-:step11 a :Federate ;
-    :output "data/out/staged.ttl" .
+:step11 a :Map ;
+    :output "data/out/mapped.ttl" .
+
+# ---- Match -------------------------------------------------------------
+
+:step12 a :Match ;
+    :output "data/out/clusters.ttl" .
 
 # ---- Merge -------------------------------------------------------------
 
-:step12 a :Merge ;
-    :output         "data/out/merged.ttl" ;
-    :provOutput     "data/out/provenance.ttl" ;
-    :clustersOutput "data/out/clusters.ttl" .
+:step13 a :Merge ;
+    :output     "data/out/merged.ttl" ;
+    :provOutput "data/out/provenance.ttl" .

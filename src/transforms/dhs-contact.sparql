@@ -6,7 +6,7 @@ PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
-    GRAPH <urn:federated> {
+    GRAPH <urn:mapped> {
         ?fedIri
             schema:telephone ?phone   ;
             schema:email     ?email   ;

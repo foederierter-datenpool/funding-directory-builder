@@ -22,18 +22,17 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 
 const q = makeQ(loadDefs("config/federation.ttl", "config/pipeline.ttl"))
 
-// ---- Read Clean/Load/Federate/Merge steps ------------------------------
+// ---- Read Clean, Load, Map, Match and Merge steps -----------------------------
 
 const rows = await q(`
-    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath ?clustersOutPath WHERE {
+    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath WHERE {
         ?step a ?type .
-        FILTER(?type IN (:Clean, :Load, :Federate, :Merge))
-        OPTIONAL { ?step :query          ?query           }
-        OPTIONAL { ?step :graph          ?graph           }
-        OPTIONAL { ?step :input          ?inPath          }
-        OPTIONAL { ?step :output         ?outPath         }
-        OPTIONAL { ?step :provOutput     ?provOutPath     }
-        OPTIONAL { ?step :clustersOutput ?clustersOutPath }
+        FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge))
+        OPTIONAL { ?step :query      ?query       }
+        OPTIONAL { ?step :graph      ?graph       }
+        OPTIONAL { ?step :input      ?inPath      }
+        OPTIONAL { ?step :output     ?outPath     }
+        OPTIONAL { ?step :provOutput ?provOutPath }
     }`)
 
 const steps = new Map()
@@ -41,9 +40,11 @@ for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
-            query: r.query, graph: r.graph,
-            inPath: r.inPath, outPath: r.outPath,
-            provOutPath: r.provOutPath, clustersOutPath: r.clustersOutPath,
+            query: r.query,
+            graph: r.graph,
+            inPath: r.inPath,
+            outPath: r.outPath,
+            provOutPath: r.provOutPath,
         })
     }
 }
@@ -85,7 +86,7 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
 
     const query = `
 INSERT {
-    GRAPH <urn:federated> {
+    GRAPH <urn:mapped> {
 ${insertBlock}
     }
 } WHERE {
@@ -98,7 +99,7 @@ ${insertBlock}
     return query
 }
 
-const runFederate = async () => {
+const runMap = async () => {
     const mappings = await q(`
         SELECT ?mapping ?sourceGraph ?subjectPrefix ?subjectFromPath WHERE {
             ?mapping a :Mapping .
@@ -119,8 +120,8 @@ const runFederate = async () => {
             }`)
 
         if (directRows.length && m.sourceGraph && m.subjectFromPath) {
-            console.log(`federate  ${m.mapping.split("#").pop()} direct (${directRows.length} mappings)`)
-            await sparqlInsertDelete(buildDirectInsert(m, directRows), fedStore)
+            console.log(`map  ${m.mapping.split("#").pop()} direct (${directRows.length} mappings)`)
+            await sparqlInsertDelete(buildDirectInsert(m, directRows), store)
         }
 
         const viaRows = await q(`
@@ -131,16 +132,19 @@ const runFederate = async () => {
             } ORDER BY ?script`)
 
         for (const v of viaRows) {
-            console.log(`federate  ${v.script}`)
-            await sparqlInsertDelete(fs.readFileSync(abs(v.script), "utf8"), fedStore)
+            console.log(`map  ${v.script}`)
+            await sparqlInsertDelete(fs.readFileSync(abs(v.script), "utf8"), store)
         }
     }
 }
 
-// ---- Merge --------------------------------------------------------------
+// ---- Shared graphs and prefixes ----------------------------------------
 
-const FED_GRAPH    = df.namedNode("urn:federated")
+const MAPPED_GRAPH = df.namedNode("urn:mapped")
+const MATCH_GRAPH  = df.namedNode("urn:matched")
 const MERGED_GRAPH = df.namedNode("urn:merged")
+
+const HAS_MEMBER = df.namedNode(CDP + "hasMember")
 
 const COMMON_PREFIXES = {
     schema: "http://schema.org/",
@@ -148,6 +152,11 @@ const COMMON_PREFIXES = {
     foaf:   "http://xmlns.com/foaf/0.1/",
     dct:    "http://purl.org/dc/terms/",
 }
+
+// ---- Match -------------------------------------------------------------
+
+const RDF_TYPE = df.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
+const CLUSTER  = df.namedNode(CDP + "Cluster")
 
 const norm = (s) => (s ?? "").toLowerCase().replace(/\s+/g, " ").trim()
 const similarity = (a, b) => {
@@ -157,21 +166,20 @@ const similarity = (a, b) => {
     return 1 - levenshtein.get(an, bn) / maxLen
 }
 
-const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
+const runMatch = async (store, outPath) => {
     const [cfg] = await q(`
-        SELECT ?ns ?prefix ?originPred ?manualEditsGraph WHERE {
-            ?merge a :MergeRule ;
+        SELECT ?ns ?prefix ?manualEditsGraph WHERE {
+            ?match a :MatchRule ;
                 :targetNamespace     ?ns ;
-                :mintedSubjectPrefix ?prefix ;
-                :originPredicate     ?originPred .
-            OPTIONAL { ?merge :manualEditsGraph ?manualEditsGraph }
+                :mintedSubjectPrefix ?prefix .
+            OPTIONAL { ?match :manualEditsGraph ?manualEditsGraph }
         }`)
-    if (!cfg) throw new Error(":MergeRule config missing in federation.ttl")
-    const { ns: namespace, prefix: mintedPrefix, originPred, manualEditsGraph } = cfg
+    if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
+    const { ns: namespace, prefix: mintedPrefix, manualEditsGraph } = cfg
 
     const criteriaRows = await q(`
         SELECT ?on ?minSim WHERE {
-            ?merge a :MergeRule ; :hasMatchCriterion ?c .
+            ?match a :MatchRule ; :hasMatchCriterion ?c .
             ?c :on ?on ; :minSimilarity ?minSim .
         }`)
     const criteria = criteriaRows.map(r => ({
@@ -179,7 +187,7 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
         minSim: parseFloat(r.minSim),
     }))
 
-    const fedQuads = sourceStore.getQuads(null, null, null, FED_GRAPH)
+    const fedQuads = store.getQuads(null, null, null, MAPPED_GRAPH)
     const subjects = [...new Set(fedQuads
         .filter(qu => qu.subject.termType === "NamedNode")
         .map(qu => qu.subject.value))]
@@ -188,7 +196,7 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
     for (const s of subjects) {
         const subj = df.namedNode(s)
         valuesFor.set(s, criteria.map(c => {
-            const qs = sourceStore.getQuads(subj, c.pred, null, FED_GRAPH)
+            const qs = store.getQuads(subj, c.pred, null, MAPPED_GRAPH)
             return qs.length ? qs[0].object.value : null
         }))
     }
@@ -242,35 +250,52 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
         .map(m => [...m].sort())
         .sort((a, b) => b.length - a.length || a[0].localeCompare(b[0]))
 
-    const RDF_TYPE   = df.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
-    const CLUSTER    = df.namedNode(CDP + "Cluster")
-    const HAS_MEMBER = df.namedNode(CDP + "hasMember")
-
-    const mintedFor = new Map()
-    const clusterQuads = []
-    let merged = 0
+    let multiSource = 0
     for (const members of clusterMembers) {
         const id = createHash("sha1").update(members.join("|")).digest("hex").slice(0, 12)
         const minted = df.namedNode(namespace + mintedPrefix + id)
-        for (const s of members) mintedFor.set(s, minted)
-        if (members.length > 1) merged++
-        clusterQuads.push(df.quad(minted, RDF_TYPE, CLUSTER))
-        for (const s of members) clusterQuads.push(df.quad(minted, HAS_MEMBER, df.namedNode(s)))
+        if (members.length > 1) multiSource++
+        store.addQuad(df.quad(minted, RDF_TYPE, CLUSTER, MATCH_GRAPH))
+        for (const s of members) {
+            store.addQuad(df.quad(minted, HAS_MEMBER, df.namedNode(s), MATCH_GRAPH))
+        }
     }
 
+    const matchQuads = store.getQuads(null, null, null, MATCH_GRAPH)
+
+    console.log(`match: ${subjects.length} entities → ${clusters.size} clusters (${multiSource} multi-source, ${sameAsUnions} sameAs unions)`)
+
+    await writeTurtle(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace })
+    console.log(`match: wrote cluster log → ${outPath}`)
+}
+
+// ---- Merge -------------------------------------------------------------
+
+const runMerge = async (store, outPath, provOutPath) => {
+    const [cfg] = await q(`
+        SELECT ?ns ?originPred WHERE {
+            ?match a :MatchRule ; :targetNamespace ?ns .
+            ?merge a :MergeRule ; :originPredicate ?originPred .
+        }`)
+    if (!cfg) throw new Error(":MergeRule / :MatchRule config missing in federation.ttl")
+    const { ns: namespace, originPred } = cfg
+
+    const memberQuads = store.getQuads(null, HAS_MEMBER, null, MATCH_GRAPH)
+    const mintedFor = new Map()
+    for (const mq of memberQuads) mintedFor.set(mq.object.value, mq.subject)
+
+    const fedQuads = store.getQuads(null, null, null, MAPPED_GRAPH)
     const originPredNode = df.namedNode(originPred)
-    const provQuads= []
+    const provQuads = []
     for (const qu of fedQuads) {
         const minted = mintedFor.get(qu.subject.value)
         if (!minted) continue
-        sourceStore.addQuad(df.quad(minted, qu.predicate, qu.object, MERGED_GRAPH))
+        store.addQuad(df.quad(minted, qu.predicate, qu.object, MERGED_GRAPH))
         const triple = df.quad(minted, qu.predicate, qu.object)
         provQuads.push(df.quad(triple, originPredNode, qu.subject))
     }
 
-    const mergedQuads = sourceStore.getQuads(null, null, null, MERGED_GRAPH)
-
-    console.log(`merge: ${subjects.length} entities → ${clusters.size} clusters (${merged} multi-source, ${sameAsUnions} sameAs unions)`)
+    const mergedQuads = store.getQuads(null, null, null, MERGED_GRAPH)
 
     await writeTurtle(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdf: namespace })
     console.log(`merge: wrote ${mergedQuads.length} triples → ${outPath}`)
@@ -279,14 +304,11 @@ const runMerge = async (sourceStore, outPath, provOutPath, clustersOutPath) => {
         ...COMMON_PREFIXES, cdp: CDP, cdf: namespace, prov: "http://www.w3.org/ns/prov#",
     })
     console.log(`merge: wrote ${provQuads.length} provenance annotations → ${provOutPath}`)
-
-    await writeTurtle(abs(clustersOutPath), clusterQuads, { cdp: CDP, cdf: namespace })
-    console.log(`merge: wrote cluster log → ${clustersOutPath}`)
 }
 
 // ---- Dispatch each step -------------------------------------------------
 
-const fedStore = newStore()
+const store = newStore()
 
 for (const iri of sorted) {
     const s = steps.get(iri)
@@ -301,16 +323,19 @@ for (const iri of sorted) {
         console.log(`load   ${s.inPath} → <${s.graph}>`)
         const graph = df.namedNode(s.graph)
         for (const quad of n3Parser.parse(fs.readFileSync(abs(s.inPath), "utf8"))) {
-            fedStore.addQuad(df.quad(quad.subject, quad.predicate, quad.object, graph))
+            store.addQuad(df.quad(quad.subject, quad.predicate, quad.object, graph))
         }
 
-    } else if (s.type === "Federate") {
-        await runFederate()
-        const quads = fedStore.getQuads(null, null, null, FED_GRAPH)
+    } else if (s.type === "Map") {
+        await runMap()
+        const quads = store.getQuads(null, null, null, MAPPED_GRAPH)
         await writeTurtle(abs(s.outPath), quads, { ...COMMON_PREFIXES, cdp: CDP })
-        console.log(`federate  wrote ${quads.length} triples → ${s.outPath}`)
+        console.log(`map: wrote ${quads.length} triples → ${s.outPath}`)
+
+    } else if (s.type === "Match") {
+        await runMatch(store, s.outPath)
 
     } else if (s.type === "Merge") {
-        await runMerge(fedStore, s.outPath, s.provOutPath, s.clustersOutPath)
+        await runMerge(store, s.outPath, s.provOutPath)
     }
 }

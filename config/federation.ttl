@@ -11,6 +11,7 @@
 :federation a :Federation ;
     :hasSource       :caritasSource, :sozialplattformSource, :dhsSource ;
     :hasTargetSchema :targetSchema ;
+    :hasMatchRule    :match ;
     :hasMergeRule    :merge .
 
 # ---- Target schema ------------------------------------------------------
@@ -182,14 +183,18 @@
         [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] ,
         [ :from :dhs-website              ; :to :t-homepage                 ; :via :dhsContactNode  ] .
 
-# ---- Merge --------------------------------------------------------------
+# ---- Match --------------------------------------------------------------
 
-:merge a :MergeRule ;
+:match a :MatchRule ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
-    :originPredicate     prov:wasDerivedFrom ;
     :manualEditsGraph    "config/manual-edits.ttl" ;
     :hasMatchCriterion
         [ :on schema:name       ; :minSimilarity 0.85 ] ,
         [ :on locn:postCode     ; :minSimilarity 1.0  ] ,
         [ :on locn:thoroughfare ; :minSimilarity 0.80 ] .
+
+# ---- Merge --------------------------------------------------------------
+
+:merge a :MergeRule ;
+    :originPredicate prov:wasDerivedFrom .

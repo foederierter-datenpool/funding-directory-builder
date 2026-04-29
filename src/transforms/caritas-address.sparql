@@ -7,7 +7,7 @@ PREFIX locn:   <http://www.w3.org/ns/locn#>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
-    GRAPH <urn:federated> {
+    GRAPH <urn:mapped> {
         ?fedIri
             schema:address    ?teaser     ;
             locn:thoroughfare ?street     ;

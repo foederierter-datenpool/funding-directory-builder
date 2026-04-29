@@ -12,7 +12,7 @@ const run = (cmd, args) => {
 
 const q = makeQ(loadDefs("config/pipeline.ttl"))
 
-// ---- Read Fetch + Lift steps --------------------------------------------
+// ---- Read Fetch and Lift steps --------------------------------------------
 
 const rows = await q(`
     SELECT ?step ?type ?script ?liftQuery ?inPath ?outPath ?paramName ?paramValue WHERE {

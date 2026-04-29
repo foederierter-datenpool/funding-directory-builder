@@ -5,7 +5,7 @@ PREFIX schema: <http://schema.org/>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
-    GRAPH <urn:federated> {
+    GRAPH <urn:mapped> {
         ?fedIri
             schema:identifier ?entryId    ;
             schema:name       ?name       ;
