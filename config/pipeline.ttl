@@ -3,33 +3,33 @@
 
 :pipeline rdfs:label "Directory Federation Pipeline" .
 
-# ---- Caritas -----------------------------------------------------------
+# ---- Ingest ------------------------------------------------------------
+
+# ---- fetch sources ----
 
 :step1 a :Fetch ;
-    :script "src/fetchers/caritas.js" ;
-    :output "data/raw/caritas.json" .
+       :script "src/fetchers/caritas.js" ;
+       :output "data/raw/caritas.json" .
 
-:step2 a :Lift ;
+:step2 a :Fetch ;
+       :script "src/fetchers/sozialplattform.js" ;
+       :output "data/raw/sozialplattform.json" .
+
+:step3 a :Fetch ;
+       :script "src/fetchers/dhs.js" ;
+       :output "data/raw/dhs.html" .
+
+# ---- lift ----
+
+:step4 a :Lift ;
     :liftQuery "src/lift/json.sparql" ;
     :input     "data/raw/caritas.json" ;
     :output    "data/lifted/caritas.ttl" .
 
-# ---- Sozialplattform ---------------------------------------------------
-
-:step3 a :Fetch ;
-    :script "src/fetchers/sozialplattform.js" ;
-    :output "data/raw/sozialplattform.json" .
-
-:step4 a :Lift ;
+:step5 a :Lift ;
     :liftQuery "src/lift/json.sparql" ;
     :input     "data/raw/sozialplattform.json" ;
     :output    "data/lifted/sozialplattform.ttl" .
-
-# ---- DHS ---------------------------------------------------------------
-
-:step5 a :Fetch ;
-    :script "src/fetchers/dhs.js" ;
-    :output "data/raw/dhs.html" .
 
 :step6 a :Lift ;
     :liftQuery "src/lift/html.sparql" ;
@@ -37,12 +37,14 @@
     :input     "data/raw/dhs.html" ;
     :output    "data/lifted/dhs.ttl" .
 
+# ---- clean ----
+
 :step7 a :Clean ;
     :query  "src/clean/dhs-html-to-plain.sparql" ;
     :input  "data/lifted/dhs.ttl" ;
     :output "data/lifted/dhs-clean.ttl" .
 
-# ---- Map ---------------------------------------------------------------
+# ---- Map (schema mapping / alignment) ----------------------------------
 
 :step8 a :Load ;
     :input "data/lifted/caritas.ttl" ;
@@ -59,12 +61,12 @@
 :step11 a :Map ;
     :output "data/out/mapped.ttl" .
 
-# ---- Match -------------------------------------------------------------
+# ---- Match (entity reconciliation / deduplication) ---------------------
 
 :step12 a :Match ;
     :output "data/out/clusters.ttl" .
 
-# ---- Merge -------------------------------------------------------------
+# ---- Merge (consolidation + listing of conflicts) ----------------------
 
 :step13 a :Merge ;
     :output     "data/out/merged.ttl" ;
