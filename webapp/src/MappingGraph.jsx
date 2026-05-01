@@ -1,11 +1,11 @@
 import { ReactFlow, Background, Controls, MarkerType, Handle, Position, useNodesState, useEdgesState } from "@xyflow/react"
 import ttl from "../../config/federation.ttl?raw"
-import { loadFederation } from "./loadFederation.js"
+import { loadMapping } from "./loadMapping.js"
 import React, { useMemo, useState } from "react"
 import "@xyflow/react/dist/style.css"
 
-const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema", "MergeRule"]
-const COLUMN_X = { Source: 0, SourceField: 260, TransformNode: 520, TargetField: 780, TargetSchema: 1040, MergeRule: 1300 }
+const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema"]
+const COLUMN_X = { Source: 0, SourceField: 260, TransformNode: 520, TargetField: 780, TargetSchema: 1040 }
 const ROW_HEIGHT = 80
 const CENTER_COLUMNS = true
 const COLORS = {
@@ -14,7 +14,6 @@ const COLORS = {
     TransformNode: "#fff1a8",
     TargetField: "#fde2c7",
     TargetSchema: "#f4cfe0",
-    MergeRule: "#dcd0f5",
 }
 
 function SideNode({ data, style }) {
@@ -67,8 +66,8 @@ function toFlow({ nodes, edges }) {
     return { flowNodes, flowEdges }
 }
 
-export default function FederationGraph() {
-    const { flowNodes, flowEdges } = useMemo(() => toFlow(loadFederation(ttl)), [])
+export default function MappingGraph() {
+    const { flowNodes, flowEdges } = useMemo(() => toFlow(loadMapping(ttl)), [])
     const [nodes, , onNodesChange] = useNodesState(flowNodes)
     const [edges, , onEdgesChange] = useEdgesState(flowEdges)
     const [draggingId, setDraggingId] = useState(null)
