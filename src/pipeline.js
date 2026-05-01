@@ -161,8 +161,8 @@ const COMMON_PREFIXES = {
 
 // ---- Match -------------------------------------------------------------
 
-const RDF_TYPE = df.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
-const CLUSTER  = df.namedNode(CDP + "Cluster")
+const RDF_TYPE      = df.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
+const MATCH_CLUSTER = df.namedNode(CDP + "MatchCluster")
 
 const norm = (s) => (s ?? "").toLowerCase().replace(/\s+/g, " ").trim()
 const similarity = (a, b) => {
@@ -175,14 +175,14 @@ const similarity = (a, b) => {
 const runMatch = async (store, outPath) => {
     const [cfg] = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?ns ?prefix ?manualEditsGraph WHERE {
+        SELECT ?ns ?prefix ?manualMatchesGraph WHERE {
             ?match a :MatchRule ;
                 :targetNamespace     ?ns ;
                 :mintedSubjectPrefix ?prefix .
-            OPTIONAL { ?match :manualEditsGraph ?manualEditsGraph }
+            OPTIONAL { ?match :manualMatchesGraph ?manualMatchesGraph }
         }`, [defStore])
     if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
-    const { ns: namespace, prefix: mintedPrefix, manualEditsGraph } = cfg
+    const { ns: namespace, prefix: mintedPrefix, manualMatchesGraph } = cfg
 
     const criteriaRows = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
@@ -232,10 +232,10 @@ const runMatch = async (store, outPath) => {
     }
 
     let sameAsUnions = 0
-    if (manualEditsGraph) {
+    if (manualMatchesGraph) {
         const OWL_SAME_AS = "http://www.w3.org/2002/07/owl#sameAs"
-        const editQuads = n3Parser.parse(fs.readFileSync(abs(manualEditsGraph), "utf8"))
-        for (const qu of editQuads) {
+        const manualMatchQuads = n3Parser.parse(fs.readFileSync(abs(manualMatchesGraph), "utf8"))
+        for (const qu of manualMatchQuads) {
             if (qu.predicate.value !== OWL_SAME_AS) continue
             const a = qu.subject.value, b = qu.object.value
             if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++ }
@@ -263,7 +263,7 @@ const runMatch = async (store, outPath) => {
         const id = createHash("sha1").update(members.join("|")).digest("hex").slice(0, 12)
         const minted = df.namedNode(namespace + mintedPrefix + id)
         if (members.length > 1) multiSource++
-        store.addQuad(df.quad(minted, RDF_TYPE, CLUSTER, MATCH_GRAPH))
+        store.addQuad(df.quad(minted, RDF_TYPE, MATCH_CLUSTER, MATCH_GRAPH))
         for (const s of members) {
             store.addQuad(df.quad(minted, HAS_MEMBER, df.namedNode(s), MATCH_GRAPH))
         }

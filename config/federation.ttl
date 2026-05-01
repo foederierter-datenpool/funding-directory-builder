@@ -188,7 +188,7 @@
 :match a :MatchRule ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
-    :manualEditsGraph    "config/manual-edits.ttl" ;
+    :manualMatchesGraph  "config/manual-matches.ttl" ;
     :hasMatchCriterion
         [ :on schema:name       ; :minSimilarity 0.85 ] ,
         [ :on locn:postCode     ; :minSimilarity 1.0  ] ,
