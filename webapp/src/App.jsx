@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route, Link } from "react-router-dom"
+import About from "./About.jsx"
 import MappingGraph from "./MappingGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
 import MergedDirectory from "./MergedDirectory.jsx"
@@ -20,10 +21,6 @@ function Nav() {
             <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
     )
-}
-
-function About() {
-    return <div className="page">TODO</div>
 }
 
 function Directory() {
