@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Link } from "react-router-dom"
+import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
 import MappingGraph from "./MappingGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
@@ -9,14 +9,14 @@ function Nav() {
     return (
         <nav>
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                <Link to="/">About</Link>
+                <NavLink to="/" end>About</NavLink>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
-                    <Link to="/mapping-graph">Map</Link>
-                    <Link to="/match-graph">Match</Link>
-                    <Link to="/merged-directory">Merge</Link>
+                    <NavLink to="/mapping-graph">Map</NavLink>
+                    <NavLink to="/match-graph">Match</NavLink>
+                    <NavLink to="/merged-directory">Merge</NavLink>
                 </div>
-                <Link to="/directory">Directory</Link>
-                <Link to="/apis">APIs</Link>
+                <NavLink to="/directory">Directory</NavLink>
+                <NavLink to="/apis">APIs</NavLink>
             </div>
             <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
