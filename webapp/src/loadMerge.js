@@ -82,8 +82,17 @@ export function loadMerge(mergedTtl, provTtl) {
     }
 
     // Per-field: sort values by source-count desc so the most-supported one is index 0.
+    // Per-org: collect the union of contributing source-orgs, sorted by kind then iri.
+    const kindOrder = { caritas: 0, sp: 1, dhs: 2, other: 3 }
     for (const org of orgs) {
         for (const f of org.fields) f.values.sort((a, b) => b.sources.length - a.sources.length)
+        const all = new Set()
+        for (const f of org.fields) for (const v of f.values) for (const s of v.sources) all.add(s)
+        org.sourceOrgs = [...all].sort((a, b) => {
+            const ka = kindOrder[sourceKind(a)] ?? 9
+            const kb = kindOrder[sourceKind(b)] ?? 9
+            return ka !== kb ? ka - kb : a.localeCompare(b)
+        })
     }
     return orgs
 }

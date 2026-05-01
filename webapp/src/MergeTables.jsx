@@ -35,30 +35,70 @@ function ValueCell({ values }) {
     )
 }
 
-function OrgCard({ org }) {
+function OrgCardNarrow({ org }) {
+    return (
+        <table>
+            <tbody>
+                {org.fields.map((f) => (
+                    <tr key={f.predicate}>
+                        <td>{f.predLabel}</td>
+                        <td><ValueCell values={f.values} /></td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    )
+}
+
+function OrgCardWide({ org }) {
+    const sources = org.sourceOrgs
+    return (
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    {sources.map((s) => (
+                        <th key={s} title={localName(s)}>
+                            <span className="source-tag">{SOURCE_ABBR[sourceKind(s)]}</span>
+                        </th>
+                    ))}
+                </tr>
+            </thead>
+            <tbody>
+                {org.fields.map((f) => (
+                    <tr key={f.predicate}>
+                        <td>{f.predLabel}</td>
+                        {sources.map((s) => {
+                            const v = f.values.find((val) => val.sources.includes(s))
+                            return <td key={s} title={v?.value}><span className="value-text" style={{ maxWidth: "50ch" }}>{v?.value ?? ""}</span></td>
+                        })}
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    )
+}
+
+function OrgCard({ org, compact }) {
     return (
         <div className="org-card">
             <div className="org-card-header">
                 <code>{org.label}</code>
             </div>
-            <table>
-                <tbody>
-                    {org.fields.map((f) => (
-                        <tr key={f.predicate}>
-                            <td>{f.predLabel}</td>
-                            <td><ValueCell values={f.values} /></td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+            {compact ? <OrgCardNarrow org={org} /> : <OrgCardWide org={org} />}
         </div>
     )
 }
 
 export default function MergeTables() {
+    const [compact, setCompact] = useState(true)
     return (
         <div className="page" style={{ overflowY: "auto", height: "100%" }}>
-            {orgs.map((org) => <OrgCard key={org.iri} org={org} />)}
+            <label style={{ display: "flex", alignItems: "center", gap: "0.25rem", marginBottom: "0.75rem", fontSize: 13 }}>
+                <input type="checkbox" checked={compact} onChange={(e) => setCompact(e.target.checked)} />
+                Compact view
+            </label>
+            {orgs.map((org) => <OrgCard key={org.iri} org={org} compact={compact} />)}
         </div>
     )
 }
