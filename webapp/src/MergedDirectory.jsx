@@ -1,5 +1,6 @@
+import ttl from "../../data/out/merged.ttl?raw"
 import React from "react"
 
 export default function MergedDirectory() {
-    return <div style={{ padding: "1rem" }}>TODO</div>
+    return <pre style={{ padding: "1rem" }}>{ttl}</pre>
 }
