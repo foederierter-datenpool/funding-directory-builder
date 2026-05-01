@@ -22,8 +22,6 @@ function ValueCell({ values }) {
     const multi = values.length > 1
     return (
         <>
-            <span className="value-text" title={cur.value}>{cur.value}</span>
-            <SourceTags sources={cur.sources} />
             {multi && (
                 <span className="flip">
                     <button className="flip-btn" onClick={() => setIdx((idx - 1 + values.length) % values.length)}>◀</button>
@@ -31,6 +29,8 @@ function ValueCell({ values }) {
                     <button className="flip-btn" onClick={() => setIdx((idx + 1) % values.length)}>▶</button>
                 </span>
             )}
+            <span className="value-text" title={cur.value}>{cur.value}</span>
+            <SourceTags sources={cur.sources} />
         </>
     )
 }
