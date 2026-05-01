@@ -1,9 +1,6 @@
-import { abs } from "../utils.js"
-import path from "path"
 import fs from "fs"
 
-const OUT = abs("data/raw/dhs.html")
-fs.mkdirSync(path.dirname(OUT), { recursive: true })
+const OUT = process.argv[2]
 
 const URL = "https://www.dhs.de/service/suchthilfeverzeichnis/"
 

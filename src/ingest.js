@@ -1,20 +1,23 @@
-import { ROOT, abs, stepNum, loadDefs, makeQ } from "./utils.js"
+import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
 import { spawnSync } from "child_process"
 import path from "path"
 import fs from "fs"
 
+const ROOT = path.join(import.meta.dirname, "..")
 const JAR = path.join(ROOT, "tools/sparql-anything.jar")
+const abs = (p) => path.join(ROOT, p)
+const stepNum = (iri) => parseInt(iri.split("#step").pop(), 10)
+const defStore = storeFromTurtles(["config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
 
 const run = (cmd, args) => {
     const r = spawnSync(cmd, args, { stdio: "inherit" })
     if (r.status !== 0) throw new Error(`Exit ${r.status}: ${cmd} ${args.join(" ")}`)
 }
 
-const q = makeQ(loadDefs("config/pipeline.ttl"))
-
 // ---- Read Fetch and Lift steps --------------------------------------------
 
-const rows = await q(`
+const rows = await sparqlSelect(`
+    PREFIX : <https://civic-data.de/pipeline#>
     SELECT ?step ?type ?script ?liftQuery ?inPath ?outPath ?paramName ?paramValue WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
@@ -23,7 +26,7 @@ const rows = await q(`
         OPTIONAL { ?step :input     ?inPath    }
         OPTIONAL { ?step :output    ?outPath   }
         OPTIONAL { ?step :param [ :name ?paramName ; :value ?paramValue ] }
-    }`)
+    }`, [defStore])
 
 const steps = new Map()
 for (const r of rows) {
@@ -57,7 +60,8 @@ for (const iri of sorted) {
             continue
         }
         console.log(`fetch  → ${s.outPath}`)
-        run("node", [abs(s.script)])
+        fs.mkdirSync(path.dirname(abs(s.outPath)), { recursive: true })
+        run("node", [abs(s.script), abs(s.outPath)])
 
     } else if (s.type === "Lift") {
         console.log(`lift   ${s.inPath} → ${s.outPath}`)

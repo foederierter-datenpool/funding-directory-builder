@@ -1,9 +1,6 @@
-import { abs } from "../utils.js"
-import path from "path"
 import fs from "fs"
 
-const OUT = abs("data/raw/sozialplattform.json")
-fs.mkdirSync(path.dirname(OUT), { recursive: true })
+const OUT = process.argv[2]
 
 const BASE_URL = "https://sozialplattform.de/content/de/api/v1/consultation/search"
 const PER_PAGE = 100

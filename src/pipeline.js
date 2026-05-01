@@ -1,5 +1,4 @@
-import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete } from "@foerderfunke/sem-ops-utils"
-import { abs, stepNum, loadDefs, makeQ } from "./utils.js"
+import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
 import levenshtein from "fast-levenshtein"
 import { DataFactory, Writer } from "n3"
 import { createHash } from "crypto"
@@ -8,6 +7,11 @@ import fs from "fs"
 
 const DEBUG = false
 const df = DataFactory
+
+const ROOT = path.join(import.meta.dirname, "..")
+const abs = (p) => path.join(ROOT, p)
+const stepNum = (iri) => parseInt(iri.split("#step").pop(), 10)
+const defStore = storeFromTurtles(["config/federation.ttl", "config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
 
 const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
     const writer = new Writer({ prefixes })
@@ -20,11 +24,10 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
     })
 })
 
-const q = makeQ(loadDefs("config/federation.ttl", "config/pipeline.ttl"))
-
 // ---- Read Clean, Load, Map, Match and Merge steps -----------------------------
 
-const rows = await q(`
+const rows = await sparqlSelect(`
+    PREFIX : <https://civic-data.de/pipeline#>
     SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath WHERE {
         ?step a ?type .
         FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge))
@@ -33,7 +36,7 @@ const rows = await q(`
         OPTIONAL { ?step :input      ?inPath      }
         OPTIONAL { ?step :output     ?outPath     }
         OPTIONAL { ?step :provOutput ?provOutPath }
-    }`)
+    }`, [defStore])
 
 const steps = new Map()
 for (const r of rows) {
@@ -100,16 +103,18 @@ ${insertBlock}
 }
 
 const runMap = async () => {
-    const mappings = await q(`
+    const mappings = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
         SELECT ?mapping ?sourceGraph ?subjectPrefix ?subjectFromPath WHERE {
             ?mapping a :Mapping .
             OPTIONAL { ?mapping :sourceGraph   ?sourceGraph }
             OPTIONAL { ?mapping :subjectPrefix ?subjectPrefix }
             OPTIONAL { ?mapping :subjectFrom   ?sf . ?sf :fieldPath ?subjectFromPath }
-        } ORDER BY ?mapping`)
+        } ORDER BY ?mapping`, [defStore])
 
     for (const m of mappings) {
-        const directRows = await q(`
+        const directRows = await sparqlSelect(`
+            PREFIX : <https://civic-data.de/pipeline#>
             SELECT ?fieldPath ?predicate ?parentPath WHERE {
                 <${m.mapping}> :hasFieldMapping ?fm .
                 ?fm :from ?src ; :to ?tgt .
@@ -117,19 +122,20 @@ const runMap = async () => {
                 ?tgt :targetPredicate ?predicate .
                 ?src :fieldPath ?fieldPath .
                 OPTIONAL { ?parent :hasSubField ?src . ?parent :fieldPath ?parentPath }
-            }`)
+            }`, [defStore])
 
         if (directRows.length && m.sourceGraph && m.subjectFromPath) {
             console.log(`map  ${m.mapping.split("#").pop()} direct (${directRows.length} mappings)`)
             await sparqlInsertDelete(buildDirectInsert(m, directRows), store)
         }
 
-        const viaRows = await q(`
+        const viaRows = await sparqlSelect(`
+            PREFIX : <https://civic-data.de/pipeline#>
             SELECT DISTINCT ?script WHERE {
                 <${m.mapping}> :hasFieldMapping ?fm .
                 ?fm :via ?via .
                 ?via :script ?script .
-            } ORDER BY ?script`)
+            } ORDER BY ?script`, [defStore])
 
         for (const v of viaRows) {
             console.log(`map  ${v.script}`)
@@ -167,21 +173,23 @@ const similarity = (a, b) => {
 }
 
 const runMatch = async (store, outPath) => {
-    const [cfg] = await q(`
+    const [cfg] = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
         SELECT ?ns ?prefix ?manualEditsGraph WHERE {
             ?match a :MatchRule ;
                 :targetNamespace     ?ns ;
                 :mintedSubjectPrefix ?prefix .
             OPTIONAL { ?match :manualEditsGraph ?manualEditsGraph }
-        }`)
+        }`, [defStore])
     if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
     const { ns: namespace, prefix: mintedPrefix, manualEditsGraph } = cfg
 
-    const criteriaRows = await q(`
+    const criteriaRows = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
         SELECT ?on ?minSim WHERE {
             ?match a :MatchRule ; :hasMatchCriterion ?c .
             ?c :on ?on ; :minSimilarity ?minSim .
-        }`)
+        }`, [defStore])
     const criteria = criteriaRows.map(r => ({
         pred:   df.namedNode(r.on),
         minSim: parseFloat(r.minSim),
@@ -272,11 +280,12 @@ const runMatch = async (store, outPath) => {
 // ---- Merge -------------------------------------------------------------
 
 const runMerge = async (store, outPath, provOutPath) => {
-    const [cfg] = await q(`
+    const [cfg] = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
         SELECT ?ns ?originPred WHERE {
             ?match a :MatchRule ; :targetNamespace ?ns .
             ?merge a :MergeRule ; :originPredicate ?originPred .
-        }`)
+        }`, [defStore])
     if (!cfg) throw new Error(":MergeRule / :MatchRule config missing in federation.ttl")
     const { ns: namespace, originPred } = cfg
 
@@ -315,7 +324,7 @@ for (const iri of sorted) {
 
     if (s.type === "Clean") {
         console.log(`clean  ${s.inPath} → ${s.outPath}`)
-        const src   = loadDefs(s.inPath)
+        const src   = storeFromTurtles([fs.readFileSync(abs(s.inPath), "utf8")])
         const quads = await sparqlConstruct(fs.readFileSync(abs(s.query), "utf8"), [src])
         await writeTurtle(abs(s.outPath), quads, { dhs: "https://civic-data.de/dhs#" })
 
