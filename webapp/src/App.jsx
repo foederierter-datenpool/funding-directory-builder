@@ -3,6 +3,7 @@ import About from "./About.jsx"
 import MapGraph from "./MapGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
 import MergeTables from "./MergeTables.jsx"
+import Query from "./Query.jsx"
 import React from "react"
 
 function Nav() {
@@ -16,6 +17,7 @@ function Nav() {
                     <NavLink to="/merge">Merge</NavLink>
                 </div>
                 <NavLink to="/directory">Directory</NavLink>
+                <NavLink to="/query">Query</NavLink>
                 <NavLink to="/apis">APIs</NavLink>
             </div>
             <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
@@ -43,6 +45,7 @@ export default function App() {
                         <Route path="/match" element={<MatchGraph />} />
                         <Route path="/merge" element={<MergeTables />} />
                         <Route path="/directory" element={<Directory />} />
+                        <Route path="/query" element={<Query />} />
                         <Route path="/apis" element={<Apis />} />
                     </Routes>
                 </main>
