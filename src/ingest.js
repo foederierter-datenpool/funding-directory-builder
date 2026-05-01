@@ -45,8 +45,20 @@ const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
 
 // ---- Ensure sparql-anything.jar ----------------------------------------
 
-if (!fs.existsSync(JAR)) {
-    run("bash", [path.join(ROOT, "tools/download-sparql-anything.sh")])
+const SPARQL_ANYTHING_VERSION = "v1.1.0"
+const VERSION_FILE = path.join(ROOT, "tools/sparql-anything.version")
+const haveCurrentJar = fs.existsSync(JAR) && fs.existsSync(VERSION_FILE)
+    && fs.readFileSync(VERSION_FILE, "utf8").trim() === SPARQL_ANYTHING_VERSION
+
+if (!haveCurrentJar) {
+    const url = `https://github.com/SPARQL-Anything/sparql.anything/releases/download/${SPARQL_ANYTHING_VERSION}/sparql-anything-${SPARQL_ANYTHING_VERSION}.jar`
+    console.log(`Downloading sparql-anything ${SPARQL_ANYTHING_VERSION}...`)
+    fs.mkdirSync(path.dirname(JAR), { recursive: true })
+    const response = await fetch(url)
+    if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`)
+    fs.writeFileSync(JAR, Buffer.from(await response.arrayBuffer()))
+    fs.writeFileSync(VERSION_FILE, SPARQL_ANYTHING_VERSION)
+    console.log(`Saved to ${JAR}`)
 }
 
 // ---- Run steps ----------------------------------------------------------

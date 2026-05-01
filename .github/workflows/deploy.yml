@@ -26,8 +26,8 @@ jobs:
             - name: Cache sparql-anything jar
               uses: actions/cache@v4
               with:
-                  path: tools/sparql-anything.jar
-                  key: sparql-anything-${{ hashFiles('tools/download-sparql-anything.sh') }}
+                  path: tools
+                  key: sparql-anything-${{ hashFiles('src/ingest.js') }}
 
             - run: npm install
 
