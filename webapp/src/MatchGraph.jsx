@@ -5,7 +5,7 @@ const SRC = `${import.meta.env.BASE_URL}data/out/matches.ttl`
 
 export default function MatchGraph() {
     return (
-        <div style={{ padding: "1rem" }}>
+        <div className="page">
             <p>Source: <a href={SRC}>{SRC}</a></p>
             <pre>{ttl}</pre>
         </div>

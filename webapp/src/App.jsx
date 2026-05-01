@@ -6,34 +6,50 @@ import React from "react"
 
 function Nav() {
     return (
-        <nav style={{ padding: "0.3rem 0.75rem", borderBottom: "1px solid #ddd", fontSize: 13, display: "flex", justifyContent: "space-between" }}>
-            <div>
-                <Link to="/" style={{ marginRight: "1rem" }}>Home</Link>
-                <Link to="/mapping-graph" style={{ marginRight: "1rem" }}>Mapping Graph</Link>
-                <Link to="/match-graph" style={{ marginRight: "1rem" }}>Match Graph</Link>
-                <Link to="/merged-directory">Merged Directory</Link>
+        <nav>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                <Link to="/">About</Link>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
+                    <Link to="/mapping-graph">Map</Link>
+                    <Link to="/match-graph">Match</Link>
+                    <Link to="/merged-directory">Merge</Link>
+                </div>
+                <Link to="/directory">Directory</Link>
+                <Link to="/apis">APIs</Link>
             </div>
             <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
     )
 }
 
-function Home() {
-    return <div style={{ padding: "1rem" }}>TODO</div>
+function About() {
+    return <div className="page">TODO</div>
+}
+
+function Directory() {
+    return <div className="page">TODO</div>
+}
+
+function Apis() {
+    return <div className="page">TODO</div>
 }
 
 export default function App() {
     return (
         <HashRouter>
-            <Nav />
-            <main style={{ height: "calc(100vh - 33px)" }}>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/mapping-graph" element={<MappingGraph />} />
-                    <Route path="/match-graph" element={<MatchGraph />} />
-                    <Route path="/merged-directory" element={<MergedDirectory />} />
-                </Routes>
-            </main>
+            <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+                <Nav />
+                <main>
+                    <Routes>
+                        <Route path="/" element={<About />} />
+                        <Route path="/mapping-graph" element={<MappingGraph />} />
+                        <Route path="/match-graph" element={<MatchGraph />} />
+                        <Route path="/merged-directory" element={<MergedDirectory />} />
+                        <Route path="/directory" element={<Directory />} />
+                        <Route path="/apis" element={<Apis />} />
+                    </Routes>
+                </main>
+            </div>
         </HashRouter>
     )
 }
