@@ -11,7 +11,7 @@ const labelFor = (iri) => {
     return s.length > 18 ? s.slice(0, 16) + "…" : s
 }
 
-export function loadMatches(ttl) {
+export function loadMatch(ttl) {
     const quads = new Parser().parse(ttl)
 
     const clusters = new Set()

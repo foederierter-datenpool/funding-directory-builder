@@ -27,7 +27,7 @@ export function sourceKind(iri) {
 
 export { localName }
 
-export function loadMerged(mergedTtl, provTtl) {
+export function loadMerge(mergedTtl, provTtl) {
     const mergedQuads = new Parser().parse(mergedTtl)
     const provQuads = new Parser().parse(provTtl)
 

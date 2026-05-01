@@ -1,8 +1,8 @@
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
-import MappingGraph from "./MappingGraph.jsx"
+import MapGraph from "./MapGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
-import MergedDirectory from "./MergedDirectory.jsx"
+import MergeTables from "./MergeTables.jsx"
 import React from "react"
 
 function Nav() {
@@ -11,9 +11,9 @@ function Nav() {
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                 <NavLink to="/" end>About</NavLink>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
-                    <NavLink to="/mapping-graph">Map</NavLink>
-                    <NavLink to="/match-graph">Match</NavLink>
-                    <NavLink to="/merged-directory">Merge</NavLink>
+                    <NavLink to="/map">Map</NavLink>
+                    <NavLink to="/match">Match</NavLink>
+                    <NavLink to="/merge">Merge</NavLink>
                 </div>
                 <NavLink to="/directory">Directory</NavLink>
                 <NavLink to="/apis">APIs</NavLink>
@@ -39,9 +39,9 @@ export default function App() {
                 <main>
                     <Routes>
                         <Route path="/" element={<About />} />
-                        <Route path="/mapping-graph" element={<MappingGraph />} />
-                        <Route path="/match-graph" element={<MatchGraph />} />
-                        <Route path="/merged-directory" element={<MergedDirectory />} />
+                        <Route path="/map" element={<MapGraph />} />
+                        <Route path="/match" element={<MatchGraph />} />
+                        <Route path="/merge" element={<MergeTables />} />
                         <Route path="/directory" element={<Directory />} />
                         <Route path="/apis" element={<Apis />} />
                     </Routes>

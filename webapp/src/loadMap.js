@@ -23,7 +23,7 @@ const prefixedIri = (iri) => {
     return iri
 }
 
-export function loadMapping(ttl, { hideUnmappedFields = true } = {}) {
+export function loadMap(ttl, { hideUnmappedFields = true } = {}) {
     const quads = new Parser().parse(ttl)
 
     const typeOf = new Map()

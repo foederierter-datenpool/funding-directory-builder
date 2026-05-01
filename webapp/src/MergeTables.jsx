@@ -1,10 +1,10 @@
-import { loadMerged, sourceKind, localName } from "./loadMerged.js"
+import { loadMerge, sourceKind, localName } from "./loadMerge.js"
 import provTtl from "../../data/out/provenance.ttl?raw"
 import mergedTtl from "../../data/out/merged.ttl?raw"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
-const orgs = loadMerged(mergedTtl, provTtl)
+const orgs = loadMerge(mergedTtl, provTtl)
 
 function SourceTags({ sources }) {
     return (
@@ -55,7 +55,7 @@ function OrgCard({ org }) {
     )
 }
 
-export default function MergedDirectory() {
+export default function MergeTables() {
     return (
         <div className="page" style={{ overflowY: "auto", height: "100%" }}>
             {orgs.map((org) => <OrgCard key={org.iri} org={org} />)}

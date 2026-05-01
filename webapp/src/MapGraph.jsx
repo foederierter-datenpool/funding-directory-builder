@@ -1,5 +1,5 @@
 import ttl from "../../config/federation.ttl?raw"
-import { loadMapping } from "./loadMapping.js"
+import { loadMap } from "./loadMap.js"
 import ColumnGraph from "./ColumnGraph.jsx"
 import React from "react"
 
@@ -12,8 +12,8 @@ const COLORS = {
     TargetSchema: "#f4cfe0",
 }
 
-const { nodes, edges } = loadMapping(ttl)
+const { nodes, edges } = loadMap(ttl)
 
-export default function MappingGraph() {
+export default function MapGraph() {
     return <ColumnGraph nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
 }
