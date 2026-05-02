@@ -1,6 +1,6 @@
 import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
-import provTtl from "../../data/out/provenance.ttl?raw"
-import mergedTtl from "../../data/out/merged.ttl?raw"
+import provTtl from "../../data/pipeline/provenance.ttl?raw"
+import mergedTtl from "../../data/pipeline/merged.ttl?raw"
 import React, { useState } from "react"
 
 const store = storeFromTurtles([mergedTtl, provTtl])

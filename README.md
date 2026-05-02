@@ -17,7 +17,7 @@ From `src/`:
 node ingest.js
 node pipeline.js
 ```
-Outputs &rarr; `data/out/`
+Outputs &rarr; `data/`
 
 ## Run the webapp
 From `webapp/`:

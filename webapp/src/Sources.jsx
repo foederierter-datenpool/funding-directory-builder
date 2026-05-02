@@ -1,6 +1,6 @@
 import federationTtl from "../../config/federation.ttl?raw"
 import pipelineTtl from "../../config/pipeline.ttl?raw"
-import mappedTtl from "../../data/out/mapped.ttl?raw"
+import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"
 import { loadSources } from "./loadSources.js"
 import React from "react"

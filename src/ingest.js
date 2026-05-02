@@ -66,7 +66,7 @@ if (!haveCurrentJar) {
 // ---- Run steps ----------------------------------------------------------
 
 const NS = "https://civic-data.de/pipeline#"
-const LOG_PATH = "data/out/log.ttl"
+const LOG_PATH = "data/ingest/ingest-log.ttl"
 
 const runStart = new Date()
 const harvests = []

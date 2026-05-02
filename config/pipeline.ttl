@@ -12,71 +12,71 @@
     :fetchUrl   "https://www.caritas.de/Api/search/searchbyquery" ;
     :format     "json" ;
     :script     "src/fetchers/caritas.js" ;
-    :output     "data/raw/caritas.json" .
+    :output     "data/ingest/raw/caritas.json" .
 
 :step2 a :Fetch ;
     :fromSource :sozialplattformSource ;
     :fetchUrl   "https://sozialplattform.de/content/de/api/v1/consultation/search" ;
     :format     "json" ;
     :script     "src/fetchers/sozialplattform.js" ;
-    :output     "data/raw/sozialplattform.json" .
+    :output     "data/ingest/raw/sozialplattform.json" .
 
 :step3 a :Fetch ;
     :fromSource :dhsSource ;
     :fetchUrl   "https://www.dhs.de/service/suchthilfeverzeichnis/" ;
     :format     "html" ;
     :script     "src/fetchers/dhs.js" ;
-    :output     "data/raw/dhs.html" .
+    :output     "data/ingest/raw/dhs.html" .
 
 # ---- lift ----
 
 :step4 a :Lift ;
     :liftQuery "src/lift/json.sparql" ;
-    :input     "data/raw/caritas.json" ;
-    :output    "data/lifted/caritas.ttl" .
+    :input     "data/ingest/raw/caritas.json" ;
+    :output    "data/ingest/lifted/caritas.ttl" .
 
 :step5 a :Lift ;
     :liftQuery "src/lift/json.sparql" ;
-    :input     "data/raw/sozialplattform.json" ;
-    :output    "data/lifted/sozialplattform.ttl" .
+    :input     "data/ingest/raw/sozialplattform.json" ;
+    :output    "data/ingest/lifted/sozialplattform.ttl" .
 
 :step6 a :Lift ;
     :liftQuery "src/lift/html.sparql" ;
     :param     [ :name "selector" ; :value "ul.results" ] ;
-    :input     "data/raw/dhs.html" ;
-    :output    "data/lifted/dhs.ttl" .
+    :input     "data/ingest/raw/dhs.html" ;
+    :output    "data/ingest/lifted/dhs.ttl" .
 
 # ---- clean ----
 
 :step7 a :Clean ;
     :query  "src/clean/dhs-html-to-plain.sparql" ;
-    :input  "data/lifted/dhs.ttl" ;
-    :output "data/lifted/dhs-clean.ttl" .
+    :input  "data/ingest/lifted/dhs.ttl" ;
+    :output "data/ingest/lifted/dhs-clean.ttl" .
 
 # ---- Map (schema mapping / alignment) ----------------------------------
 
 :step8 a :Load ;
-    :input "data/lifted/caritas.ttl" ;
+    :input "data/ingest/lifted/caritas.ttl" ;
     :graph "urn:source:caritas" .
 
 :step9 a :Load ;
-    :input "data/lifted/sozialplattform.ttl" ;
+    :input "data/ingest/lifted/sozialplattform.ttl" ;
     :graph "urn:source:sozialplattform" .
 
 :step10 a :Load ;
-    :input "data/lifted/dhs-clean.ttl" ;
+    :input "data/ingest/lifted/dhs-clean.ttl" ;
     :graph "urn:source:dhs" .
 
 :step11 a :Map ;
-    :output "data/out/mapped.ttl" .
+    :output "data/pipeline/mapped.ttl" .
 
 # ---- Match (entity reconciliation / deduplication) ---------------------
 
 :step12 a :Match ;
-    :output "data/out/matches.ttl" .
+    :output "data/pipeline/matches.ttl" .
 
 # ---- Merge (consolidation + listing of conflicts) ----------------------
 
 :step13 a :Merge ;
-    :output     "data/out/merged.ttl" ;
-    :provOutput "data/out/provenance.ttl" .
+    :output     "data/pipeline/merged.ttl" ;
+    :provOutput "data/pipeline/provenance.ttl" .

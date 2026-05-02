@@ -41,10 +41,11 @@ jobs:
 
             - name: Stage publish dir
               run: |
-                  mkdir -p _site/config _site/data/out
+                  mkdir -p _site/config _site/data/ingest _site/data/pipeline
                   cp -r webapp/dist/. _site/
                   cp -r config/. _site/config/
-                  cp -r data/out/. _site/data/out/
+                  cp -r data/ingest/. _site/data/ingest/
+                  cp -r data/pipeline/. _site/data/pipeline/
 
             - uses: peaceiris/actions-gh-pages@v4
               with:

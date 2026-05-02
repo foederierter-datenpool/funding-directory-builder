@@ -1,7 +1,7 @@
 import { loadMerge, sourceKind, localName } from "./loadMerge.js"
 import Card, { KeyValueTable } from "./Card.jsx"
-import provTtl from "../../data/out/provenance.ttl?raw"
-import mergedTtl from "../../data/out/merged.ttl?raw"
+import provTtl from "../../data/pipeline/provenance.ttl?raw"
+import mergedTtl from "../../data/pipeline/merged.ttl?raw"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }

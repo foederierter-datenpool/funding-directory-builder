@@ -1,4 +1,4 @@
-import ttl from "../../data/out/matches.ttl?raw"
+import ttl from "../../data/pipeline/matches.ttl?raw"
 import { loadMatch } from "./loadMatch.js"
 import ColumnGraph from "./ColumnGraph.jsx"
 import React from "react"
