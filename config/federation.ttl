@@ -168,8 +168,9 @@
         [ :from :sp-office_email                 ; :to :t-email         ] .
 
 :dhs-mapping a :Mapping ;
-    :fromSource  :dhsSource ;
-    :toTarget    :targetSchema ;
+    :fromSource    :dhsSource ;
+    :toTarget      :targetSchema ;
+    :subjectPrefix "dhs-" ;
     :hasFieldMapping
         [ :from :dhs-detailLink           ; :to :t-identifier, :t-detailUrl ; :via :dhsIdentityNode ] ,
         [ :from :dhs-name                 ; :to :t-name                     ; :via :dhsIdentityNode ] ,
