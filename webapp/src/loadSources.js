@@ -1,6 +1,7 @@
 import { Parser } from "n3"
 
 const NS = "https://civic-data.de/pipeline#"
+const PROV_AT_TIME = "http://www.w3.org/ns/prov#atTime"
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 
@@ -9,10 +10,11 @@ const setAdd = (map, key, val) => {
     map.get(key).add(val)
 }
 
-export function loadSources(federationTtl, pipelineTtl, mappedTtl) {
+export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl) {
     const fedQuads = new Parser().parse(federationTtl)
     const pipeQuads = new Parser().parse(pipelineTtl)
     const mappedQuads = mappedTtl ? new Parser().parse(mappedTtl) : []
+    const logQuads = ingestLogTtl ? new Parser().parse(ingestLogTtl) : []
 
     const sourceIris = new Set()
     for (const q of fedQuads) {
@@ -96,6 +98,24 @@ export function loadSources(federationTtl, pipelineTtl, mappedTtl) {
     }
     for (const sourceIri of sourceIris) {
         get(sourceIri).records = subjectsBySource.get(sourceIri)?.size ?? 0
+    }
+
+    // Latest harvest timestamp per source from ingest-log.ttl. Each :harvested
+    // bnode carries (:ofSource ?source, prov:atTime ?time); find the max time.
+    const harvestBnode = new Map()
+    for (const q of logQuads) {
+        if (q.predicate.value === `${NS}ofSource`) {
+            if (!harvestBnode.has(q.subject.value)) harvestBnode.set(q.subject.value, {})
+            harvestBnode.get(q.subject.value).source = q.object.value
+        } else if (q.predicate.value === PROV_AT_TIME) {
+            if (!harvestBnode.has(q.subject.value)) harvestBnode.set(q.subject.value, {})
+            harvestBnode.get(q.subject.value).time = q.object.value
+        }
+    }
+    for (const { source, time } of harvestBnode.values()) {
+        if (!source || !time || !sourceIris.has(source)) continue
+        const cur = get(source).lastHarvestedAt
+        if (!cur || time > cur) get(source).lastHarvestedAt = time
     }
 
     return [...sourceIris].map((iri) => get(iri))
