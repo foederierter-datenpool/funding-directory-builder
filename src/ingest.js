@@ -18,14 +18,15 @@ const run = (cmd, args) => {
 
 const rows = await sparqlSelect(`
     PREFIX : <https://civic-data.de/pipeline#>
-    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?outPath ?paramName ?paramValue WHERE {
+    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?outPath ?fromSource ?paramName ?paramValue WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
-        OPTIONAL { ?step :script    ?script    }
-        OPTIONAL { ?step :fetchUrl  ?fetchUrl  }
-        OPTIONAL { ?step :liftQuery ?liftQuery }
-        OPTIONAL { ?step :input     ?inPath    }
-        OPTIONAL { ?step :output    ?outPath   }
+        OPTIONAL { ?step :script     ?script     }
+        OPTIONAL { ?step :fetchUrl   ?fetchUrl   }
+        OPTIONAL { ?step :liftQuery  ?liftQuery  }
+        OPTIONAL { ?step :input      ?inPath     }
+        OPTIONAL { ?step :output     ?outPath    }
+        OPTIONAL { ?step :fromSource ?fromSource }
         OPTIONAL { ?step :param [ :name ?paramName ; :value ?paramValue ] }
     }`, [defStore])
 
@@ -35,7 +36,7 @@ for (const r of rows) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
             script: r.script, fetchUrl: r.fetchUrl, liftQuery: r.liftQuery,
-            inPath: r.inPath, outPath: r.outPath,
+            inPath: r.inPath, outPath: r.outPath, fromSource: r.fromSource,
             params: [],
         })
     }
@@ -64,6 +65,12 @@ if (!haveCurrentJar) {
 
 // ---- Run steps ----------------------------------------------------------
 
+const NS = "https://civic-data.de/pipeline#"
+const LOG_PATH = "data/out/log.ttl"
+
+const runStart = new Date()
+const harvests = []
+
 for (const iri of sorted) {
     const s = steps.get(iri)
 
@@ -75,6 +82,7 @@ for (const iri of sorted) {
         console.log(`fetch  ${s.fetchUrl} → ${s.outPath}`)
         fs.mkdirSync(path.dirname(abs(s.outPath)), { recursive: true })
         run("node", [abs(s.script), abs(s.outPath), s.fetchUrl])
+        if (s.fromSource) harvests.push({ source: s.fromSource, time: new Date().toISOString() })
 
     } else if (s.type === "Lift") {
         console.log(`lift   ${s.inPath} → ${s.outPath}`)
@@ -86,3 +94,30 @@ for (const iri of sorted) {
         run("java", args)
     }
 }
+
+const dt = (s) => `"${s}"^^xsd:dateTime`
+const runId = "run" + runStart.toISOString().replace(/\D/g, "").slice(0, 14)
+const harvestPart = harvests.length
+    ? ` ;\n    :harvested\n` + harvests.map((h) => {
+        const local = h.source.split("#").pop()
+        return `        [ :ofSource :${local} ; prov:atTime ${dt(h.time)} ]`
+    }).join(" ,\n")
+    : ""
+
+const block = `
+:${runId} a :IngestRun ;
+    prov:startedAtTime ${dt(runStart.toISOString())} ;
+    prov:endedAtTime   ${dt(new Date().toISOString())}${harvestPart} .
+`
+
+fs.mkdirSync(path.dirname(abs(LOG_PATH)), { recursive: true })
+if (fs.existsSync(abs(LOG_PATH))) {
+    fs.appendFileSync(abs(LOG_PATH), block)
+} else {
+    const prefixes = `@prefix :    <${NS}> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+`
+    fs.writeFileSync(abs(LOG_PATH), prefixes + block)
+}
+console.log(`log:   appended IngestRun → ${LOG_PATH}`)
