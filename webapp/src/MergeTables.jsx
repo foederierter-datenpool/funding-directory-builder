@@ -1,4 +1,5 @@
 import { loadMerge, sourceKind, localName } from "./loadMerge.js"
+import Card, { KeyValueTable } from "./Card.jsx"
 import provTtl from "../../data/out/provenance.ttl?raw"
 import mergedTtl from "../../data/out/merged.ttl?raw"
 import React, { useState } from "react"
@@ -36,18 +37,7 @@ function ValueCell({ values }) {
 }
 
 function OrgCardNarrow({ org }) {
-    return (
-        <table>
-            <tbody>
-                {org.fields.map((f) => (
-                    <tr key={f.predicate}>
-                        <td>{f.predLabel}</td>
-                        <td><ValueCell values={f.values} /></td>
-                    </tr>
-                ))}
-            </tbody>
-        </table>
-    )
+    return <KeyValueTable rows={org.fields.map((f) => ({ key: f.predicate, label: f.predLabel, value: <ValueCell values={f.values} /> }))} />
 }
 
 function OrgCardWide({ org }) {
@@ -81,12 +71,9 @@ function OrgCardWide({ org }) {
 
 function OrgCard({ org, compact }) {
     return (
-        <div className="org-card">
-            <div className="org-card-header">
-                <code>{org.label}</code>
-            </div>
+        <Card title={org.label}>
             {compact ? <OrgCardNarrow org={org} /> : <OrgCardWide org={org} />}
-        </div>
+        </Card>
     )
 }
 
