@@ -100,6 +100,13 @@ export default function ColumnGraph({ nodes, edges, columns, colors, centerColum
             : e
     }), [rfEdges, draggingId])
 
+    const onInit = async (instance) => {
+        await instance.fitView()
+        const { x, zoom } = instance.getViewport()
+        const minY = Math.min(...instance.getNodes().map((n) => n.position.y))
+        instance.setViewport({ x, y: 20 - minY * zoom, zoom })
+    }
+
     return (
         <ReactFlow
             nodes={rfNodes}
@@ -109,7 +116,7 @@ export default function ColumnGraph({ nodes, edges, columns, colors, centerColum
             onNodeDragStart={(_, n) => setDraggingId(n.id)}
             onNodeDragStop={() => setDraggingId(null)}
             nodeTypes={nodeTypes}
-            fitView
+            onInit={onInit}
         >
             <Background />
             <Controls showInteractive={false} />
