@@ -8,16 +8,25 @@
 # ---- fetch sources ----
 
 :step1 a :Fetch ;
-       :script "src/fetchers/caritas.js" ;
-       :output "data/raw/caritas.json" .
+    :fromSource :caritasSource ;
+    :fetchUrl   "https://www.caritas.de/Api/search/searchbyquery" ;
+    :format     "json" ;
+    :script     "src/fetchers/caritas.js" ;
+    :output     "data/raw/caritas.json" .
 
 :step2 a :Fetch ;
-       :script "src/fetchers/sozialplattform.js" ;
-       :output "data/raw/sozialplattform.json" .
+    :fromSource :sozialplattformSource ;
+    :fetchUrl   "https://sozialplattform.de/content/de/api/v1/consultation/search" ;
+    :format     "json" ;
+    :script     "src/fetchers/sozialplattform.js" ;
+    :output     "data/raw/sozialplattform.json" .
 
 :step3 a :Fetch ;
-       :script "src/fetchers/dhs.js" ;
-       :output "data/raw/dhs.html" .
+    :fromSource :dhsSource ;
+    :fetchUrl   "https://www.dhs.de/service/suchthilfeverzeichnis/" ;
+    :format     "html" ;
+    :script     "src/fetchers/dhs.js" ;
+    :output     "data/raw/dhs.html" .
 
 # ---- lift ----
 

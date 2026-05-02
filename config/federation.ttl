@@ -41,8 +41,7 @@
 # ---- Sources ------------------------------------------------------------
 
 :caritasSource a :Source ;
-    :location   "data/raw/caritas.json" ;
-    :format     "json" ;
+    rdfs:label  "Caritas" ;
     :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid, :caritas-Date, :caritas-Distance,
                 :caritas-Format, :caritas-Guid, :caritas-Index, :caritas-LeadLine, :caritas-Link,
                 :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml, :caritas-SubTitle, :caritas-Teaser,
@@ -68,8 +67,7 @@
 # -------------------------------------------------------------------------
 
 :sozialplattformSource a :Source ;
-    :location   "data/raw/sozialplattform.json" ;
-    :format     "json" ;
+    rdfs:label  "Sozialplattform" ;
     :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking, :sp-offer_external_service_booking,
                 :sp-offer_external_service_consulting, :sp-offer_external_service_link_text,
                 :sp-offer_external_service_link_url, :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
@@ -118,8 +116,7 @@
 # -------------------------------------------------------------------------
 
 :dhsSource a :Source ;
-    :location   "data/raw/dhs.html" ;
-    :format     "html" ;
+    rdfs:label  "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
     :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
 
 :dhs-detailLink a :SourceField ; :fieldPath "detailLink" .

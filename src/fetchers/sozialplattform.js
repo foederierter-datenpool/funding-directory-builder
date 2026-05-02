@@ -1,8 +1,7 @@
 import fs from "fs"
 
 const OUT = process.argv[2]
-
-const BASE_URL = "https://sozialplattform.de/content/de/api/v1/consultation/search"
+const BASE_URL = process.argv[3]
 const PER_PAGE = 100
 const PLACE = "10115"
 

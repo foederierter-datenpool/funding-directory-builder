@@ -18,10 +18,11 @@ const run = (cmd, args) => {
 
 const rows = await sparqlSelect(`
     PREFIX : <https://civic-data.de/pipeline#>
-    SELECT ?step ?type ?script ?liftQuery ?inPath ?outPath ?paramName ?paramValue WHERE {
+    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?outPath ?paramName ?paramValue WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
         OPTIONAL { ?step :script    ?script    }
+        OPTIONAL { ?step :fetchUrl  ?fetchUrl  }
         OPTIONAL { ?step :liftQuery ?liftQuery }
         OPTIONAL { ?step :input     ?inPath    }
         OPTIONAL { ?step :output    ?outPath   }
@@ -33,7 +34,7 @@ for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
-            script: r.script, liftQuery: r.liftQuery,
+            script: r.script, fetchUrl: r.fetchUrl, liftQuery: r.liftQuery,
             inPath: r.inPath, outPath: r.outPath,
             params: [],
         })
@@ -71,9 +72,9 @@ for (const iri of sorted) {
             console.log(`skip  fetch  ${s.outPath} (exists)`)
             continue
         }
-        console.log(`fetch  → ${s.outPath}`)
+        console.log(`fetch  ${s.fetchUrl} → ${s.outPath}`)
         fs.mkdirSync(path.dirname(abs(s.outPath)), { recursive: true })
-        run("node", [abs(s.script), abs(s.outPath)])
+        run("node", [abs(s.script), abs(s.outPath), s.fetchUrl])
 
     } else if (s.type === "Lift") {
         console.log(`lift   ${s.inPath} → ${s.outPath}`)

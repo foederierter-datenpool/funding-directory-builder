@@ -1,9 +1,7 @@
 import fs from "fs"
 
 const OUT = process.argv[2]
-
-// https://www.caritas.de/adressen-ergebnisse
-const URL = "https://www.caritas.de/Api/search/searchbyquery"
+const URL = process.argv[3]
 
 const result = await fetch(URL, {
     method: "POST",
