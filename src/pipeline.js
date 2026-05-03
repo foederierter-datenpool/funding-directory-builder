@@ -5,7 +5,6 @@ import { createHash } from "crypto"
 import path from "path"
 import fs from "fs"
 
-const DEBUG = false
 const df = DataFactory
 
 const ROOT = path.join(import.meta.dirname, "..")
@@ -60,19 +59,33 @@ const XYZ = "http://sparql.xyz/facade-x/data/"
 const CDP = "https://civic-data.de/pipeline#"
 
 const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fields) => {
+    const prefixes = {
+        xyz:    XYZ,
+        schema: "http://schema.org/",
+        locn:   "http://www.w3.org/ns/locn#",
+        foaf:   "http://xmlns.com/foaf/0.1/",
+        dct:    "http://purl.org/dc/terms/",
+    }
+    const shortenPredicate = (iri) => {
+        for (const [p, ns] of Object.entries(prefixes)) {
+            if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
+        }
+        return `<${iri}>`
+    }
+
     const v      = (path) => `?${path}`
     const optLit = (subj, path) =>
-        `OPTIONAL { ${subj} <${XYZ}${path}> ${v(path)} . ` +
+        `OPTIONAL { ${subj} xyz:${path} ${v(path)} . ` +
         `FILTER(isLiteral(${v(path)}) && ${v(path)} != "") }`
 
     const insertBlock = fields
-        .map(f => `        ?fedIri <${f.predicate}> ${v(f.fieldPath)} .`)
+        .map(f => `        ?fedIri ${shortenPredicate(f.predicate)} ${v(f.fieldPath)} .`)
         .join("\n")
 
     const topLevel  = fields.filter(f => !f.parentPath && f.fieldPath !== subjectFromPath)
     const subFields = fields.filter(f => f.parentPath)
 
-    const bgp = [`?entry <${XYZ}${subjectFromPath}> ${v(subjectFromPath)} .`]
+    const bgp = [`?entry xyz:${subjectFromPath} ${v(subjectFromPath)} .`]
     for (const f of topLevel) bgp.push(optLit("?entry", f.fieldPath))
 
     const byParent = new Map()
@@ -84,10 +97,15 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
     for (const [parent, subs] of byParent) {
         const pv    = `?_p${parentIdx++}`
         const inner = subs.map(s => `    ${optLit(pv, s.fieldPath)}`).join("\n")
-        bgp.push(`OPTIONAL {\n    ?entry <${XYZ}${parent}> ${pv} .\n${inner}\n  }`)
+        bgp.push(`OPTIONAL {\n    ?entry xyz:${parent} ${pv} .\n${inner}\n  }`)
     }
 
-    const query = `
+    const prefixBlock = Object.entries(prefixes)
+        .map(([p, ns]) => `PREFIX ${p}: <${ns}>`)
+        .join("\n")
+
+    return `${prefixBlock}
+
 INSERT {
     GRAPH <urn:mapped> {
 ${insertBlock}
@@ -98,8 +116,6 @@ ${insertBlock}
     }
     BIND(IRI(CONCAT("${CDP}", "${subjectPrefix}", STR(${v(subjectFromPath)}))) AS ?fedIri)
 }`
-    if (DEBUG) console.log("direct insert query", query)
-    return query
 }
 
 const runMap = async () => {
@@ -125,8 +141,13 @@ const runMap = async () => {
             }`, [defStore])
 
         if (directRows.length && m.sourceGraph && m.subjectFromPath) {
-            console.log(`map  ${m.mapping.split("#").pop()} direct (${directRows.length} mappings)`)
-            await sparqlInsertDelete(buildDirectInsert(m, directRows), store)
+            const localName = m.mapping.split("#").pop()
+            const query = buildDirectInsert(m, directRows)
+            const queryPath = abs(`data/pipeline/direct-mapping-queries/${localName}.sparql`)
+            fs.mkdirSync(path.dirname(queryPath), { recursive: true })
+            fs.writeFileSync(queryPath, query)
+            console.log(`map  ${localName} direct (${directRows.length} mappings) → ${queryPath}`)
+            await sparqlInsertDelete(query, store)
         }
 
         const viaRows = await sparqlSelect(`
