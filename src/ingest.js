@@ -77,10 +77,6 @@ for (const iri of sorted) {
     const s = steps.get(iri)
 
     if (s.type === "Fetch") {
-        if (fs.existsSync(abs(s.outPath))) {
-            console.log(`skip  fetch  ${s.outPath} (exists)`)
-            continue
-        }
         console.log(`fetch  ${s.fetchUrl} → ${s.outPath}`)
         fs.mkdirSync(path.dirname(abs(s.outPath)), { recursive: true })
         run("node", [abs(s.script), abs(s.outPath), s.fetchUrl])
@@ -112,14 +108,10 @@ const block = `
     prov:endedAtTime   ${dt(new Date().toISOString())}${harvestPart} .
 `
 
-fs.mkdirSync(path.dirname(abs(LOG_PATH)), { recursive: true })
-if (fs.existsSync(abs(LOG_PATH))) {
-    fs.appendFileSync(abs(LOG_PATH), block)
-} else {
-    const prefixes = `@prefix :    <${NS}> .
+const prefixes = `@prefix :    <${NS}> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 `
-    fs.writeFileSync(abs(LOG_PATH), prefixes + block)
-}
-console.log(`log:   appended IngestRun → ${LOG_PATH}`)
+fs.mkdirSync(path.dirname(abs(LOG_PATH)), { recursive: true })
+fs.writeFileSync(abs(LOG_PATH), prefixes + block)
+console.log(`log:   wrote IngestRun → ${LOG_PATH}`)
