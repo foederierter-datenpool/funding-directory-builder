@@ -27,14 +27,15 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 
 const rows = await sparqlSelect(`
     PREFIX : <https://civic-data.de/pipeline#>
-    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath WHERE {
+    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries WHERE {
         ?step a ?type .
         FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge))
-        OPTIONAL { ?step :query      ?query       }
-        OPTIONAL { ?step :graph      ?graph       }
-        OPTIONAL { ?step :input      ?inPath      }
-        OPTIONAL { ?step :output     ?outPath     }
-        OPTIONAL { ?step :provOutput ?provOutPath }
+        OPTIONAL { ?step :query                ?query                }
+        OPTIONAL { ?step :graph                ?graph                }
+        OPTIONAL { ?step :input                ?inPath               }
+        OPTIONAL { ?step :output               ?outPath              }
+        OPTIONAL { ?step :provOutput           ?provOutPath          }
+        OPTIONAL { ?step :directMappingQueries ?directMappingQueries }
     }`, [defStore])
 
 const steps = new Map()
@@ -47,6 +48,7 @@ for (const r of rows) {
             inPath: r.inPath,
             outPath: r.outPath,
             provOutPath: r.provOutPath,
+            directMappingQueries: r.directMappingQueries,
         })
     }
 }
@@ -118,7 +120,7 @@ ${insertBlock}
 }`
 }
 
-const runMap = async () => {
+const runMap = async (queriesDir) => {
     const mappings = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
         SELECT ?mapping ?sourceGraph ?subjectPrefix ?subjectFromPath WHERE {
@@ -143,7 +145,7 @@ const runMap = async () => {
         if (directRows.length && m.sourceGraph && m.subjectFromPath) {
             const localName = m.mapping.split("#").pop()
             const query = buildDirectInsert(m, directRows)
-            const queryPath = abs(`data/pipeline/direct-mapping-queries/${localName}.sparql`)
+            const queryPath = abs(path.join(queriesDir, `${localName}.sparql`))
             fs.mkdirSync(path.dirname(queryPath), { recursive: true })
             fs.writeFileSync(queryPath, query)
             console.log(`map  ${localName} direct (${directRows.length} mappings) → ${queryPath}`)
@@ -357,7 +359,7 @@ for (const iri of sorted) {
         }
 
     } else if (s.type === "Map") {
-        await runMap()
+        await runMap(s.directMappingQueries)
         const quads = store.getQuads(null, null, null, MAPPED_GRAPH)
         await writeTurtle(abs(s.outPath), quads, { ...COMMON_PREFIXES, cdp: CDP })
         console.log(`map: wrote ${quads.length} triples → ${s.outPath}`)

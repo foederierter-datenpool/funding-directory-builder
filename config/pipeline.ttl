@@ -1,7 +1,8 @@
 @prefix :    <https://civic-data.de/pipeline#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:pipeline rdfs:label "Directory Federation Pipeline" .
+:pipeline rdfs:label "Directory Federation Pipeline" ;
+    :ingestLog "data/ingest/ingest-log.ttl" .
 
 # ---- Ingest ------------------------------------------------------------
 
@@ -68,7 +69,8 @@
     :graph "urn:source:dhs" .
 
 :step11 a :Map ;
-    :output "data/pipeline/mapped.ttl" .
+    :output               "data/pipeline/mapped.ttl" ;
+    :directMappingQueries "data/pipeline/direct-mapping-queries/" .
 
 # ---- Match (entity reconciliation / deduplication) ---------------------
 

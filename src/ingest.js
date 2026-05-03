@@ -66,7 +66,9 @@ if (!haveCurrentJar) {
 // ---- Run steps ----------------------------------------------------------
 
 const NS = "https://civic-data.de/pipeline#"
-const LOG_PATH = "data/ingest/ingest-log.ttl"
+const [{ logPath: LOG_PATH }] = await sparqlSelect(`
+    PREFIX : <${NS}>
+    SELECT ?logPath WHERE { :pipeline :ingestLog ?logPath }`, [defStore])
 
 const runStart = new Date()
 const harvests = []
