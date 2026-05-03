@@ -3,16 +3,14 @@
 
 PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
 PREFIX schema: <http://schema.org/>
-PREFIX locn:   <http://www.w3.org/ns/locn#>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:mapped> {
         ?fedIri
-            schema:address    ?teaser     ;
-            locn:thoroughfare ?street     ;
-            locn:postCode     ?postalCode ;
-            locn:postName     ?locality   .
+            schema:streetAddress    ?street     ;
+            schema:postalCode       ?postalCode ;
+            schema:addressLocality  ?locality   .
     }
 } WHERE {
     GRAPH <urn:source:caritas> {

@@ -1,7 +1,6 @@
 @prefix :       <https://civic-data.de/pipeline#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix locn:   <http://www.w3.org/ns/locn#> .
 @prefix dct:    <http://purl.org/dc/terms/> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix prov:   <http://www.w3.org/ns/prov#> .
@@ -17,19 +16,16 @@
 # ---- Target schema ------------------------------------------------------
 
 :targetSchema a :TargetSchema ;
-    :hasTargetField :t-identifier, :t-name, :t-address, :t-streetAddress, :t-postalCode, :t-locality, :t-country,
+    :hasTargetField :t-identifier, :t-name, :t-streetAddress, :t-postalCode, :t-locality, :t-country,
                     :t-telephone, :t-email, :t-homepage, :t-detailUrl, :t-category .
 
 :t-identifier    a :TargetField ; :targetPredicate schema:identifier .
 :t-name          a :TargetField ; :targetPredicate schema:name .
 
-# schema:address holds the full-address literal
-# structured components use the EU SEMIC Core Location vocabulary (locn)
-:t-address       a :TargetField ; :targetPredicate schema:address .
-:t-streetAddress a :TargetField ; :targetPredicate locn:thoroughfare .
-:t-postalCode    a :TargetField ; :targetPredicate locn:postCode .
-:t-locality      a :TargetField ; :targetPredicate locn:postName .
-:t-country       a :TargetField ; :targetPredicate locn:adminUnitL1 .
+:t-streetAddress a :TargetField ; :targetPredicate schema:streetAddress .
+:t-postalCode    a :TargetField ; :targetPredicate schema:postalCode .
+:t-locality      a :TargetField ; :targetPredicate schema:addressLocality .
+:t-country       a :TargetField ; :targetPredicate schema:addressCountry .
 
 :t-telephone     a :TargetField ; :targetPredicate schema:telephone .
 :t-email         a :TargetField ; :targetPredicate schema:email .
@@ -146,7 +142,7 @@
         [ :from :caritas-Guid   ; :to :t-identifier                                                       ] ,
         [ :from :caritas-Title  ; :to :t-name                                                             ] ,
         [ :from :caritas-Link   ; :to :t-detailUrl                                                        ] ,
-        [ :from :caritas-Teaser ; :to :t-address, :t-streetAddress, :t-postalCode, :t-locality ;
+        [ :from :caritas-Teaser ; :to :t-streetAddress, :t-postalCode, :t-locality ;
                                   :via :caritasAddressNode                                                ] .
 
 :sozialplattform-mapping a :Mapping ;
@@ -159,7 +155,6 @@
         [ :from :sp-offer_id                     ; :to :t-identifier    ] ,
         [ :from :sp-office_title                 ; :to :t-name          ] ,
         [ :from :sp-offer_type                   ; :to :t-category      ] ,
-        [ :from :sp-office_address_short         ; :to :t-address       ] ,
         [ :from :sp-office_address-address_line1 ; :to :t-streetAddress ] ,
         [ :from :sp-office_address-postal_code   ; :to :t-postalCode    ] ,
         [ :from :sp-office_address-locality      ; :to :t-locality      ] ,
@@ -176,7 +171,6 @@
         [ :from :dhs-name                 ; :to :t-name                     ; :via :dhsIdentityNode ] ,
         [ :from :dhs-strasse              ; :to :t-streetAddress            ; :via :dhsAddressNode  ] ,
         [ :from :dhs-plzort               ; :to :t-postalCode, :t-locality  ; :via :dhsAddressNode  ] ,
-        [ :from :dhs-strasse, :dhs-plzort ; :to :t-address                  ; :via :dhsAddressNode  ] ,
         [ :from :dhs-telefon              ; :to :t-telephone                ; :via :dhsContactNode  ] ,
         [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] ,
         [ :from :dhs-website              ; :to :t-homepage                 ; :via :dhsContactNode  ] .
@@ -188,9 +182,9 @@
     :mintedSubjectPrefix "org-" ;
     :manualMatchesGraph  "config/manual-matches.ttl" ;
     :hasMatchCriterion
-        [ :on schema:name       ; :minSimilarity 0.85 ] ,
-        [ :on locn:postCode     ; :minSimilarity 1.0  ] ,
-        [ :on locn:thoroughfare ; :minSimilarity 0.80 ] .
+        [ :on schema:name          ; :minSimilarity 0.85 ] ,
+        [ :on schema:postalCode    ; :minSimilarity 1.0  ] ,
+        [ :on schema:streetAddress ; :minSimilarity 0.80 ] .
 
 # ---- Merge --------------------------------------------------------------
 

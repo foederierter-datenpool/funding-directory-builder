@@ -5,7 +5,6 @@ const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
 
 const PREFIXES = {
     "http://schema.org/":         "schema",
-    "http://www.w3.org/ns/locn#": "locn",
     "http://purl.org/dc/terms/":  "dct",
     "http://xmlns.com/foaf/0.1/": "foaf",
 }

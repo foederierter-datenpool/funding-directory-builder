@@ -10,7 +10,6 @@ const TRANSFORM = `${NS}TransformNode`
 // instead of their local TargetField name (`t-identifier`).
 const PREFIXES = {
     "http://schema.org/":          "schema",
-    "http://www.w3.org/ns/locn#":  "locn",
     "http://purl.org/dc/terms/":   "dct",
     "http://xmlns.com/foaf/0.1/":  "foaf",
 }

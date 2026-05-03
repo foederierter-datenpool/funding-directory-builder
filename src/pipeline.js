@@ -64,7 +64,6 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
     const prefixes = {
         xyz:    XYZ,
         schema: "http://schema.org/",
-        locn:   "http://www.w3.org/ns/locn#",
         foaf:   "http://xmlns.com/foaf/0.1/",
         dct:    "http://purl.org/dc/terms/",
     }
@@ -177,7 +176,6 @@ const HAS_MEMBER = df.namedNode(CDP + "hasMember")
 
 const COMMON_PREFIXES = {
     schema: "http://schema.org/",
-    locn:   "http://www.w3.org/ns/locn#",
     foaf:   "http://xmlns.com/foaf/0.1/",
     dct:    "http://purl.org/dc/terms/",
 }
