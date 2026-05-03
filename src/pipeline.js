@@ -347,7 +347,10 @@ for (const iri of sorted) {
         console.log(`clean  ${s.inPath} → ${s.outPath}`)
         const src   = storeFromTurtles([fs.readFileSync(abs(s.inPath), "utf8")])
         const quads = await sparqlConstruct(fs.readFileSync(abs(s.query), "utf8"), [src])
-        await writeTurtle(abs(s.outPath), quads, { dhs: "https://civic-data.de/dhs#" })
+        await writeTurtle(abs(s.outPath), quads, {
+            xyz: "http://sparql.xyz/facade-x/data/",
+            dhs: "https://civic-data.de/dhs#",
+        })
 
     } else if (s.type === "Load") {
         console.log(`load   ${s.inPath} → <${s.graph}>`)

@@ -1,0 +1,11 @@
+# Sozialplattform's source has stray NBSP characters (U+00A0) inside string
+# literals (e.g. "Straße  18"). Collapse runs of NBSP / regular whitespace
+# to a single space; preserve datatypes for non-strings.
+
+CONSTRUCT { ?s ?p ?cleaned }
+WHERE {
+    ?s ?p ?o
+    BIND(IF(isLiteral(?o),
+            STRDT(REPLACE(STR(?o), "[\u00A0\\s]+", " "), datatype(?o)),
+            ?o) AS ?cleaned)
+}

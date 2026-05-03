@@ -50,35 +50,40 @@
 # ---- clean ----
 
 :step7 a :Clean ;
+    :query  "src/clean/sp-normalize-whitespace.sparql" ;
+    :input  "data/ingest/lifted/sozialplattform.ttl" ;
+    :output "data/ingest/lifted/sozialplattform-clean.ttl" .
+
+:step8 a :Clean ;
     :query  "src/clean/dhs-html-to-plain.sparql" ;
     :input  "data/ingest/lifted/dhs.ttl" ;
     :output "data/ingest/lifted/dhs-clean.ttl" .
 
 # ---- Map (schema mapping / alignment) ----------------------------------
 
-:step8 a :Load ;
+:step9 a :Load ;
     :input "data/ingest/lifted/caritas.ttl" ;
     :graph "urn:source:caritas" .
 
-:step9 a :Load ;
-    :input "data/ingest/lifted/sozialplattform.ttl" ;
+:step10 a :Load ;
+    :input "data/ingest/lifted/sozialplattform-clean.ttl" ;
     :graph "urn:source:sozialplattform" .
 
-:step10 a :Load ;
+:step11 a :Load ;
     :input "data/ingest/lifted/dhs-clean.ttl" ;
     :graph "urn:source:dhs" .
 
-:step11 a :Map ;
+:step12 a :Map ;
     :output               "data/pipeline/mapped.ttl" ;
     :directMappingQueries "data/pipeline/direct-mapping-queries/" .
 
 # ---- Match (entity reconciliation / deduplication) ---------------------
 
-:step12 a :Match ;
+:step13 a :Match ;
     :output "data/pipeline/matches.ttl" .
 
 # ---- Merge (consolidation + listing of conflicts) ----------------------
 
-:step13 a :Merge ;
+:step14 a :Merge ;
     :output     "data/pipeline/merged.ttl" ;
     :provOutput "data/pipeline/provenance.ttl" .
