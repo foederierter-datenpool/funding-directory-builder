@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
-import Export from "./Export.jsx"
+import Download from "./Download.jsx"
 import MapGraph from "./MapGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
 import MergeTables from "./MergeTables.jsx"
@@ -20,7 +20,7 @@ function Nav() {
                     <NavLink to="/merge">Merge</NavLink>
                 </div>
                 <NavLink to="/query">Query</NavLink>
-                <NavLink to="/export">Export</NavLink>
+                <NavLink to="/download">Download</NavLink>
                 <NavLink to="/apis">APIs</NavLink>
             </div>
             <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
@@ -45,7 +45,7 @@ export default function App() {
                         <Route path="/match" element={<MatchGraph />} />
                         <Route path="/merge" element={<MergeTables />} />
                         <Route path="/query" element={<Query />} />
-                        <Route path="/export" element={<Export />} />
+                        <Route path="/download" element={<Download />} />
                         <Route path="/apis" element={<Apis />} />
                     </Routes>
                 </main>
