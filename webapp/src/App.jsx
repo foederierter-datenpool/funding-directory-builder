@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
 import Download from "./Download.jsx"
+import Pipeline from "./Pipeline.jsx"
 import MapGraph from "./MapGraph.jsx"
 import MatchGraph from "./MatchGraph.jsx"
 import MergeTables from "./MergeTables.jsx"
@@ -14,6 +15,7 @@ function Nav() {
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                 <NavLink to="/" end>About</NavLink>
                 <NavLink to="/sources">Sources</NavLink>
+                <NavLink to="/pipeline">Pipeline</NavLink>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
                     <NavLink to="/map">Map</NavLink>
                     <NavLink to="/match">Match</NavLink>
@@ -40,6 +42,7 @@ export default function App() {
                 <main>
                     <Routes>
                         <Route path="/" element={<About />} />
+                        <Route path="/pipeline" element={<Pipeline />} />
                         <Route path="/sources" element={<Sources />} />
                         <Route path="/map" element={<MapGraph />} />
                         <Route path="/match" element={<MatchGraph />} />
