@@ -1,7 +1,7 @@
 import ttl from "../../config/federation.ttl?raw"
-import { loadMap } from "./loadMap.js"
+import { loadMap, loadSources } from "./loadMap.js"
 import ColumnGraph from "./ColumnGraph.jsx"
-import React from "react"
+import React, { useMemo, useState } from "react"
 
 const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema"]
 const COLORS = {
@@ -12,8 +12,33 @@ const COLORS = {
     TargetSchema: "#f4cfe0",
 }
 
-const { nodes, edges } = loadMap(ttl)
+const SOURCES = loadSources(ttl)
 
 export default function MapGraph() {
-    return <ColumnGraph nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
+    const [hidden, setHidden] = useState(() => new Set())
+
+    const toggle = (iri) => {
+        const next = new Set(hidden)
+        if (next.has(iri)) next.delete(iri); else next.add(iri)
+        setHidden(next)
+    }
+
+    const { nodes, edges } = useMemo(() => loadMap(ttl, { hiddenSources: hidden }), [hidden])
+    const graphKey = useMemo(() => [...hidden].sort().join("|"), [hidden])
+
+    return (
+        <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+            <div style={{ display: "flex", gap: "1rem", padding: "0.5rem 1rem", fontSize: 13, borderBottom: "1px solid #ddd" }}>
+                {SOURCES.map((s) => (
+                    <label key={s.iri} style={{ display: "inline-flex", alignItems: "center", gap: "0.25rem" }}>
+                        <input type="checkbox" checked={!hidden.has(s.iri)} onChange={() => toggle(s.iri)} />
+                        {s.label}
+                    </label>
+                ))}
+            </div>
+            <div style={{ flex: 1, minHeight: 0 }}>
+                <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
+            </div>
+        </div>
+    )
 }

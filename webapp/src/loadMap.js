@@ -2,6 +2,7 @@ import { Parser } from "n3"
 
 const NS = "https://civic-data.de/pipeline#"
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+const RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 const NODE_TYPES = [`${NS}Source`, `${NS}SourceField`, `${NS}TargetField`, `${NS}TargetSchema`, `${NS}TransformNode`]
 const SUB_FIELD = `${NS}SubField`
 const TRANSFORM = `${NS}TransformNode`
@@ -22,7 +23,22 @@ const prefixedIri = (iri) => {
     return iri
 }
 
-export function loadMap(ttl, { hideUnmappedFields = true } = {}) {
+export function loadSources(ttl) {
+    const quads = new Parser().parse(ttl)
+    const order = []
+    const isSource = new Set()
+    const labelOf = new Map()
+    for (const q of quads) {
+        if (q.predicate.value === RDF_TYPE && q.object.value === `${NS}Source`) {
+            if (!isSource.has(q.subject.value)) { isSource.add(q.subject.value); order.push(q.subject.value) }
+        } else if (q.predicate.value === RDFS_LABEL) {
+            labelOf.set(q.subject.value, q.object.value)
+        }
+    }
+    return order.map((iri) => ({ iri, label: labelOf.get(iri) ?? localName(iri) }))
+}
+
+export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) {
     const quads = new Parser().parse(ttl)
 
     const typeOf = new Map()
@@ -92,6 +108,18 @@ export function loadMap(ttl, { hideUnmappedFields = true } = {}) {
         if (ts.includes(SUB_FIELD)) return "SourceField"
         for (const t of NODE_TYPES) if (ts.includes(t)) return localName(t)
         return "Node"
+    }
+
+    // Keep only nodes forward-reachable from a visible source. Fixed-point
+    // pass over `edges` until no new node is added.
+    if (hiddenSources?.size) {
+        const reachable = new Set([...nodeSet].filter((iri) =>
+            (typeOf.get(iri) ?? []).includes(`${NS}Source`) && !hiddenSources.has(iri)))
+        for (let grew = true; grew;) {
+            grew = false
+            for (const e of edges) if (reachable.has(e.from) && !reachable.has(e.to)) { reachable.add(e.to); grew = true }
+        }
+        for (const iri of [...nodeSet]) if (!reachable.has(iri)) nodeSet.delete(iri)
     }
 
     // Optionally drop SourceField/SubField nodes that don't end up mapped to
