@@ -70,6 +70,7 @@ export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) 
         map.get(key).push(val)
     }
     const targetPredicate = new Map()
+    const fieldPath = new Map()
     for (const q of quads) {
         if (q.predicate.value === `${NS}hasField`)         push(q.subject.value, q.object.value, "hasField")
         else if (q.predicate.value === `${NS}hasSubField`) push(q.subject.value, q.object.value, "hasSubField")
@@ -78,6 +79,7 @@ export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) 
         else if (q.predicate.value === `${NS}to`)   appendTo(bnodeTo,   q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}via`)  bnodeVia.set(q.subject.value, q.object.value)
         else if (q.predicate.value === `${NS}targetPredicate`) targetPredicate.set(q.subject.value, q.object.value)
+        else if (q.predicate.value === `${NS}fieldPath`) fieldPath.set(q.subject.value, q.object.value)
     }
     // Deduplicate routed edges: the same (source, via) or (via, target) pair
     // can appear across multiple field-mappings sharing one transform node.
@@ -141,7 +143,10 @@ export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) 
 
     const labelFor = (iri) => {
         const tp = targetPredicate.get(iri)
-        return tp ? prefixedIri(tp) : localName(iri)
+        if (tp) return prefixedIri(tp)
+        const fp = fieldPath.get(iri)
+        if (fp) return fp
+        return localName(iri)
     }
 
     const nodes = [...nodeSet].map((iri) => ({ id: iri, label: labelFor(iri), type: typeFor(iri) }))
