@@ -11,21 +11,27 @@ const labelFor = (iri) => {
     return s.length > 18 ? s.slice(0, 16) + "…" : s
 }
 
-export function loadMatch(ttl) {
+export function loadMatch(ttl, { hideSingletons = false } = {}) {
     const quads = new Parser().parse(ttl)
 
     const clusters = new Set()
-    const sources = new Set()
-    const edges = []
+    const memberCount = new Map()
+    let edges = []
     for (const q of quads) {
         if (q.predicate.value === RDF_TYPE && q.object.value === MATCH_CLUSTER) {
             clusters.add(q.subject.value)
         } else if (q.predicate.value === HAS_MEMBER) {
-            sources.add(q.object.value)
+            memberCount.set(q.subject.value, (memberCount.get(q.subject.value) ?? 0) + 1)
             edges.push({ from: q.object.value, to: q.subject.value, label: "hasMember" })
         }
     }
 
+    if (hideSingletons) {
+        for (const c of [...clusters]) if ((memberCount.get(c) ?? 0) <= 1) clusters.delete(c)
+        edges = edges.filter((e) => clusters.has(e.to))
+    }
+
+    const sources = new Set(edges.map((e) => e.from))
     const nodes = [
         ...[...sources].map((iri) => ({ id: iri, label: labelFor(iri), type: "Source" })),
         ...[...clusters].map((iri) => ({ id: iri, label: labelFor(iri), type: "MatchCluster" })),
