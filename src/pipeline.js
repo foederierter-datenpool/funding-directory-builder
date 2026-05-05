@@ -232,11 +232,14 @@ const runMatch = async (store, outPath) => {
 
     const matches = (a, b) => {
         const va = valuesFor.get(a), vb = valuesFor.get(b)
+        const scores = []
         for (let i = 0; i < criteria.length; i++) {
-            if (va[i] == null || vb[i] == null) return false
-            if (similarity(va[i], vb[i]) < criteria[i].minSim) return false
+            if (va[i] == null || vb[i] == null) return null
+            const sim = similarity(va[i], vb[i])
+            if (sim < criteria[i].minSim) return null
+            scores.push({ pred: criteria[i].pred, sim })
         }
-        return true
+        return scores
     }
 
     const parent = new Map(subjects.map(s => [s, s]))
@@ -252,6 +255,7 @@ const runMatch = async (store, outPath) => {
         if (ra !== rb) parent.set(ra, rb)
     }
 
+    const evidence = []
     let sameAsUnions = 0
     if (manualMatchesGraph) {
         const OWL_SAME_AS = "http://www.w3.org/2002/07/owl#sameAs"
@@ -259,13 +263,14 @@ const runMatch = async (store, outPath) => {
         for (const qu of manualMatchQuads) {
             if (qu.predicate.value !== OWL_SAME_AS) continue
             const a = qu.subject.value, b = qu.object.value
-            if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++ }
+            if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++; evidence.push({ a, b, manual: true }) }
         }
     }
 
     for (let i = 0; i < subjects.length; i++) {
         for (let j = i + 1; j < subjects.length; j++) {
-            if (matches(subjects[i], subjects[j])) union(subjects[i], subjects[j])
+            const scores = matches(subjects[i], subjects[j])
+            if (scores) { union(subjects[i], subjects[j]); evidence.push({ a: subjects[i], b: subjects[j], scores }) }
         }
     }
 
@@ -280,9 +285,11 @@ const runMatch = async (store, outPath) => {
         .sort((a, b) => b.length - a.length || a[0].localeCompare(b[0]))
 
     let multiSource = 0
+    const clusterIriByRoot = new Map()
     for (const members of clusterMembers) {
         const id = createHash("sha1").update(members.join("|")).digest("hex").slice(0, 12)
         const minted = df.namedNode(namespace + mintedPrefix + id)
+        clusterIriByRoot.set(find(members[0]), minted)
         if (members.length > 1) multiSource++
         store.addQuad(df.quad(minted, RDF_TYPE, MATCH_CLUSTER, MATCH_GRAPH))
         for (const s of members) {
@@ -290,11 +297,39 @@ const runMatch = async (store, outPath) => {
         }
     }
 
+    const MATCH_EVIDENCE     = df.namedNode(CDP + "MatchEvidence")
+    const HAS_MATCH_EVIDENCE = df.namedNode(CDP + "hasMatchEvidence")
+    const PAIR               = df.namedNode(CDP + "pair")
+    const ON_CRITERION       = df.namedNode(CDP + "onCriterion")
+    const ON                 = df.namedNode(CDP + "on")
+    const SIMILARITY         = df.namedNode(CDP + "similarity")
+    const VIA_MANUAL_MATCH   = df.namedNode(CDP + "viaManualMatch")
+    const XSD_DECIMAL        = df.namedNode("http://www.w3.org/2001/XMLSchema#decimal")
+    const XSD_BOOLEAN        = df.namedNode("http://www.w3.org/2001/XMLSchema#boolean")
+    for (const ev of evidence) {
+        const evNode = df.blankNode()
+        const cluster = clusterIriByRoot.get(find(ev.a))
+        store.addQuad(df.quad(cluster, HAS_MATCH_EVIDENCE, evNode, MATCH_GRAPH))
+        store.addQuad(df.quad(evNode, RDF_TYPE, MATCH_EVIDENCE, MATCH_GRAPH))
+        store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.a), MATCH_GRAPH))
+        store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.b), MATCH_GRAPH))
+        if (ev.manual) {
+            store.addQuad(df.quad(evNode, VIA_MANUAL_MATCH, df.literal("true", XSD_BOOLEAN), MATCH_GRAPH))
+        } else {
+            for (const s of ev.scores) {
+                const cNode = df.blankNode()
+                store.addQuad(df.quad(evNode, ON_CRITERION, cNode, MATCH_GRAPH))
+                store.addQuad(df.quad(cNode, ON, s.pred, MATCH_GRAPH))
+                store.addQuad(df.quad(cNode, SIMILARITY, df.literal(s.sim.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
+            }
+        }
+    }
+
     const matchQuads = store.getQuads(null, null, null, MATCH_GRAPH)
 
     console.log(`match: ${subjects.length} entities → ${clusters.size} clusters (${multiSource} multi-source, ${sameAsUnions} sameAs unions)`)
 
-    await writeTurtle(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace })
+    await writeTurtle(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace, ...COMMON_PREFIXES })
     console.log(`match: wrote cluster log → ${outPath}`)
 }
 
