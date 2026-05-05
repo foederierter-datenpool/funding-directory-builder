@@ -1,6 +1,8 @@
 # directory-builder
 Builds a federated directory from multiple input sources.
 
+TODO: more description, logo, etc.
+
 ## Prerequisites
 - Node.js
 - Java (for [SPARQL Anything](https://github.com/SPARQL-Anything/sparql.anything), auto-downloaded on first run)
