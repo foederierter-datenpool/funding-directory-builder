@@ -8,7 +8,7 @@ const COLORS = { Source: "#d4e7ff", MatchCluster: "#f4cfe0" }
 const CENTER_COLUMNS = ["MatchCluster"]
 
 export default function MatchGraph() {
-    const [hideSingletons, setHideSingletons] = useState(false)
+    const [hideSingletons, setHideSingletons] = useState(true)
 
     const { nodes, edges } = useMemo(() => loadMatch(ttl, { hideSingletons }), [hideSingletons])
 

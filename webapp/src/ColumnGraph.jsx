@@ -81,7 +81,8 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns) {
         id: `e-${i}`,
         source: e.from,
         target: e.to,
-        markerEnd: { type: MarkerType.ArrowClosed },
+        ...(e.manual && { style: { stroke: "#3b82f6", strokeWidth: 2 }, markerEnd: { type: MarkerType.ArrowClosed, color: "#3b82f6" } }),
+        ...(!e.manual && { markerEnd: { type: MarkerType.ArrowClosed } }),
     }))
 
     return { flowNodes, flowEdges }
