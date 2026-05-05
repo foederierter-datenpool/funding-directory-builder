@@ -1,12 +1,12 @@
 import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
 import { spawnSync } from "child_process"
+import { topoSort } from "./utils.js"
 import path from "path"
 import fs from "fs"
 
 const ROOT = path.join(import.meta.dirname, "..")
 const JAR = path.join(ROOT, "tools/sparql-anything.jar")
 const abs = (p) => path.join(ROOT, p)
-const stepNum = (iri) => parseInt(iri.split("#step").pop(), 10)
 const defStore = storeFromTurtles(["config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
 
 const run = (cmd, args) => {
@@ -17,20 +17,23 @@ const run = (cmd, args) => {
 // ---- Read Fetch and Lift steps --------------------------------------------
 
 const rows = await sparqlSelect(`
-    PREFIX : <https://civic-data.de/pipeline#>
-    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?outPath ?fromSource ?paramName ?paramValue WHERE {
+    PREFIX :       <https://civic-data.de/pipeline#>
+    PREFIX p-plan: <http://purl.org/net/p-plan#>
+    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?outPath ?fromSource ?paramName ?paramValue ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
-        OPTIONAL { ?step :script     ?script     }
-        OPTIONAL { ?step :fetchUrl   ?fetchUrl   }
-        OPTIONAL { ?step :liftQuery  ?liftQuery  }
-        OPTIONAL { ?step :input      ?inPath     }
-        OPTIONAL { ?step :output     ?outPath    }
-        OPTIONAL { ?step :fromSource ?fromSource }
+        OPTIONAL { ?step :script               ?script     }
+        OPTIONAL { ?step :fetchUrl             ?fetchUrl   }
+        OPTIONAL { ?step :liftQuery            ?liftQuery  }
+        OPTIONAL { ?step :input                ?inPath     }
+        OPTIONAL { ?step :output               ?outPath    }
+        OPTIONAL { ?step :fromSource           ?fromSource }
         OPTIONAL { ?step :param [ :name ?paramName ; :value ?paramValue ] }
+        OPTIONAL { ?step p-plan:isPrecededBy   ?pred       }
     }`, [defStore])
 
 const steps = new Map()
+const preds = new Map()
 for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
@@ -39,11 +42,13 @@ for (const r of rows) {
             inPath: r.inPath, outPath: r.outPath, fromSource: r.fromSource,
             params: [],
         })
+        preds.set(r.step, [])
     }
     if (r.paramName) steps.get(r.step).params.push([r.paramName, r.paramValue])
+    if (r.pred && !preds.get(r.step).includes(r.pred)) preds.get(r.step).push(r.pred)
 }
 
-const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
+const sorted = topoSort(steps, (iri) => preds.get(iri) ?? [])
 
 // ---- Ensure sparql-anything.jar ----------------------------------------
 

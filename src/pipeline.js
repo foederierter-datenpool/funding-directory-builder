@@ -2,6 +2,7 @@ import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete, spar
 import levenshtein from "fast-levenshtein"
 import { DataFactory, Writer } from "n3"
 import { createHash } from "crypto"
+import { topoSort } from "./utils.js"
 import path from "path"
 import fs from "fs"
 
@@ -9,7 +10,6 @@ const df = DataFactory
 
 const ROOT = path.join(import.meta.dirname, "..")
 const abs = (p) => path.join(ROOT, p)
-const stepNum = (iri) => parseInt(iri.split("#step").pop(), 10)
 const defStore = storeFromTurtles(["config/federation.ttl", "config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
 
 const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
@@ -26,8 +26,9 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 // ---- Read Clean, Load, Map, Match and Merge steps -----------------------------
 
 const rows = await sparqlSelect(`
-    PREFIX : <https://civic-data.de/pipeline#>
-    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries WHERE {
+    PREFIX :       <https://civic-data.de/pipeline#>
+    PREFIX p-plan: <http://purl.org/net/p-plan#>
+    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge))
         OPTIONAL { ?step :query                ?query                }
@@ -36,9 +37,11 @@ const rows = await sparqlSelect(`
         OPTIONAL { ?step :output               ?outPath              }
         OPTIONAL { ?step :provOutput           ?provOutPath          }
         OPTIONAL { ?step :directMappingQueries ?directMappingQueries }
+        OPTIONAL { ?step p-plan:isPrecededBy   ?pred                 }
     }`, [defStore])
 
 const steps = new Map()
+const preds = new Map()
 for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
@@ -50,10 +53,12 @@ for (const r of rows) {
             provOutPath: r.provOutPath,
             directMappingQueries: r.directMappingQueries,
         })
+        preds.set(r.step, [])
     }
+    if (r.pred && !preds.get(r.step).includes(r.pred)) preds.get(r.step).push(r.pred)
 }
 
-const sorted = [...steps.keys()].sort((a, b) => stepNum(a) - stepNum(b))
+const sorted = topoSort(steps, (iri) => preds.get(iri) ?? [])
 
 // ---- Direct-mapping generator ------------------------------------------
 

@@ -1,89 +1,104 @@
-@prefix :    <https://civic-data.de/pipeline#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
 
-:pipeline rdfs:label "Directory Federation Pipeline" ;
+# Execution order is derived from p-plan:isPrecededBy via topological sort
+
+:pipeline a p-plan:Plan ;
+    rdfs:label "Directory Federation Pipeline" ;
     :ingestLog "data/ingest/ingest-log.ttl" .
 
-# ---- Ingest ------------------------------------------------------------
+# ---- Fetch -------------------------------------------------------------
 
-# ---- fetch sources ----
-
-:step1 a :Fetch ;
+:fetchCaritas a :Fetch, p-plan:Step ;
     :fromSource :caritasSource ;
     :fetchUrl   "https://www.caritas.de/Api/search/searchbyquery" ;
     :format     "json" ;
     :script     "src/fetchers/caritas.js" ;
     :output     "data/ingest/raw/caritas.json" .
 
-:step2 a :Fetch ;
+:fetchSozialplattform a :Fetch, p-plan:Step ;
     :fromSource :sozialplattformSource ;
     :fetchUrl   "https://sozialplattform.de/content/de/api/v1/consultation/search" ;
     :format     "json" ;
     :script     "src/fetchers/sozialplattform.js" ;
     :output     "data/ingest/raw/sozialplattform.json" .
 
-:step3 a :Fetch ;
+:fetchDhs a :Fetch, p-plan:Step ;
     :fromSource :dhsSource ;
     :fetchUrl   "https://www.dhs.de/service/suchthilfeverzeichnis/" ;
     :format     "html" ;
     :script     "src/fetchers/dhs.js" ;
     :output     "data/ingest/raw/dhs.html" .
 
-# ---- lift ----
+# ---- Lift --------------------------------------------------------------
 
-:step4 a :Lift ;
+:liftCaritas a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchCaritas ;
     :liftQuery "src/lift/json.sparql" ;
     :input     "data/ingest/raw/caritas.json" ;
     :output    "data/ingest/lifted/caritas.ttl" .
 
-:step5 a :Lift ;
+:liftSozialplattform a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchSozialplattform ;
     :liftQuery "src/lift/json.sparql" ;
     :input     "data/ingest/raw/sozialplattform.json" ;
     :output    "data/ingest/lifted/sozialplattform.ttl" .
 
-:step6 a :Lift ;
+:liftDhs a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchDhs ;
     :liftQuery "src/lift/html.sparql" ;
     :param     [ :name "selector" ; :value "ul.results" ] ;
     :input     "data/ingest/raw/dhs.html" ;
     :output    "data/ingest/lifted/dhs.ttl" .
 
-# ---- clean ----
+# ---- Clean -------------------------------------------------------------
 
-:step7 a :Clean ;
+:cleanSozialplattform a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftSozialplattform ;
     :query  "src/clean/sp-normalize-whitespace.sparql" ;
     :input  "data/ingest/lifted/sozialplattform.ttl" ;
     :output "data/ingest/lifted/sozialplattform-clean.ttl" .
 
-:step8 a :Clean ;
+:cleanDhs a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftDhs ;
     :query  "src/clean/dhs-html-to-plain.sparql" ;
     :input  "data/ingest/lifted/dhs.ttl" ;
     :output "data/ingest/lifted/dhs-clean.ttl" .
 
-# ---- Map (schema mapping / alignment) ----------------------------------
+# ---- Load --------------------------------------------------------------
 
-:step9 a :Load ;
+:loadCaritas a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :liftCaritas ;
     :input "data/ingest/lifted/caritas.ttl" ;
     :graph "urn:source:caritas" .
 
-:step10 a :Load ;
+:loadSozialplattform a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanSozialplattform ;
     :input "data/ingest/lifted/sozialplattform-clean.ttl" ;
     :graph "urn:source:sozialplattform" .
 
-:step11 a :Load ;
+:loadDhs a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanDhs ;
     :input "data/ingest/lifted/dhs-clean.ttl" ;
     :graph "urn:source:dhs" .
 
-:step12 a :Map ;
+# ---- Map ---------------------------------------------------------------
+
+:mapStep a :Map, p-plan:Step ;
+    p-plan:isPrecededBy :loadCaritas, :loadSozialplattform, :loadDhs ;
     :output               "data/pipeline/mapped.ttl" ;
     :directMappingQueries "data/pipeline/direct-mapping-queries/" .
 
-# ---- Match (entity reconciliation / deduplication) ---------------------
+# ---- Match -------------------------------------------------------------
 
-:step13 a :Match ;
+:matchStep a :Match, p-plan:Step ;
+    p-plan:isPrecededBy :mapStep ;
     :output "data/pipeline/matches.ttl" .
 
-# ---- Merge (consolidation + listing of conflicts) ----------------------
+# ---- Merge -------------------------------------------------------------
 
-:step14 a :Merge ;
+:mergeStep a :Merge, p-plan:Step ;
+    p-plan:isPrecededBy :matchStep ;
     :output     "data/pipeline/merged.ttl" ;
     :provOutput "data/pipeline/provenance.ttl" .
