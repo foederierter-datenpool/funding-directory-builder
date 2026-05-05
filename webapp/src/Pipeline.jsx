@@ -18,5 +18,17 @@ const COLORS = {
 const { nodes, edges } = loadPipeline(ttl)
 
 export default function Pipeline() {
-    return <ColumnGraph nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} centerColumns={CENTER_COLUMNS} />
+    return (
+        <ColumnGraph
+            nodes={nodes}
+            edges={edges}
+            columns={COLUMNS}
+            colors={COLORS}
+            centerColumns={CENTER_COLUMNS}
+            direction="vertical"
+            colSpacing={170}
+            siblingGap={280}
+            nodeWidth={240}
+        />
+    )
 }
