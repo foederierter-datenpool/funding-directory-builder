@@ -23,6 +23,51 @@ const prefixedIri = (iri) => {
     return iri
 }
 
+export function loadOrgsBySource(federationTtl, mappedTtl) {
+    const fedQuads = new Parser().parse(federationTtl)
+    const fromSource = new Map()
+    const subjectPrefix = new Map()
+    for (const q of fedQuads) {
+        if (q.predicate.value === `${NS}fromSource`) fromSource.set(q.subject.value, q.object.value)
+        else if (q.predicate.value === `${NS}subjectPrefix`) subjectPrefix.set(q.subject.value, q.object.value)
+    }
+    const prefixToSource = new Map()
+    for (const [mapping, src] of fromSource) {
+        const p = subjectPrefix.get(mapping)
+        if (p) prefixToSource.set(p, src)
+    }
+
+    const SCHEMA_NAME = "http://schema.org/name"
+    const SCHEMA_IDENTIFIER = "http://schema.org/identifier"
+    const mappedQuads = new Parser().parse(mappedTtl)
+    const ids = new Map()
+    const names = new Map()
+    const subjects = new Set()
+    for (const q of mappedQuads) {
+        subjects.add(q.subject.value)
+        if (q.predicate.value === SCHEMA_IDENTIFIER) ids.set(q.subject.value, q.object.value)
+        else if (q.predicate.value === SCHEMA_NAME) names.set(q.subject.value, q.object.value)
+    }
+
+    const result = new Map()
+    for (const iri of subjects) {
+        const local = iri.replace(/^.*[#/]/, "")
+        for (const [prefix, src] of prefixToSource) {
+            if (local.startsWith(prefix)) {
+                if (!result.has(src)) result.set(src, [])
+                result.get(src).push({
+                    iri,
+                    id: ids.get(iri) ?? local.slice(prefix.length),
+                    name: names.get(iri) ?? "",
+                })
+                break
+            }
+        }
+    }
+    for (const list of result.values()) list.sort((a, b) => a.id.localeCompare(b.id))
+    return result
+}
+
 export function loadSources(ttl) {
     const quads = new Parser().parse(ttl)
     const order = []

@@ -1,6 +1,8 @@
 import ttl from "../../config/federation.ttl?raw"
-import { loadMap, loadSources } from "./loadMap.js"
+import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
+import { loadMap, loadSources, loadOrgsBySource } from "./loadMap.js"
 import ColumnGraph from "./ColumnGraph.jsx"
+import { SkipBack, StepForward, SkipForward } from "lucide-react"
 import React, { useEffect, useMemo, useRef, useState } from "react"
 
 const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema"]
@@ -13,6 +15,7 @@ const COLORS = {
 }
 
 const SOURCES = loadSources(ttl)
+const ORGS_BY_SOURCE = loadOrgsBySource(ttl, mappedTtl)
 
 function SourcesDropdown({ visible, onChange }) {
     const [open, setOpen] = useState(false)
@@ -63,8 +66,64 @@ function SourcesDropdown({ visible, onChange }) {
     )
 }
 
+function OrgCombobox({ orgs, value, onChange, disabled }) {
+    const [open, setOpen] = useState(false)
+    const [filter, setFilter] = useState("")
+    const ref = useRef(null)
+
+    useEffect(() => {
+        if (!open) return
+        const onDown = (e) => { if (!ref.current?.contains(e.target)) setOpen(false) }
+        document.addEventListener("mousedown", onDown)
+        return () => document.removeEventListener("mousedown", onDown)
+    }, [open])
+
+    const selected = orgs.find(o => o.iri === value)
+    const f = filter.toLowerCase()
+    const filtered = f ? orgs.filter(o => o.id.toLowerCase().includes(f) || o.name.toLowerCase().includes(f)) : orgs
+
+    return (
+        <div ref={ref} style={{ position: "relative" }}>
+            <input
+                type="text"
+                disabled={disabled}
+                value={open ? filter : (selected?.name || selected?.id || "")}
+                placeholder={disabled ? "" : "Pick organisation…"}
+                onChange={(e) => { setFilter(e.target.value); if (!open) setOpen(true) }}
+                onFocus={() => { setFilter(""); setOpen(true) }}
+                style={{
+                    padding: "0.25rem 0.5rem",
+                    border: "1px solid #aaa",
+                    borderRadius: 4,
+                    fontSize: 13,
+                    width: 250,
+                    background: disabled ? "#f4f4f4" : "white",
+                    color: disabled ? "#bbb" : "#000",
+                }}
+            />
+            {open && filtered.length > 0 && (
+                <div style={{ position: "absolute", top: "calc(100% + 4px)", left: 0, zIndex: 10, background: "white", border: "1px solid #aaa", borderRadius: 4, maxHeight: 280, overflowY: "auto", minWidth: "100%", boxShadow: "0 2px 6px rgba(0,0,0,0.12)" }}>
+                    {filtered.slice(0, 200).map(o => (
+                        <div
+                            key={o.iri}
+                            onClick={() => { onChange(o.iri); setOpen(false); setFilter("") }}
+                            title={o.name}
+                            style={{ padding: "4px 8px", cursor: "pointer", borderBottom: "1px solid #eee" }}
+                        >
+                            <div style={{ fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", maxWidth: 320 }}>{o.name || <span style={{ color: "#999" }}>(no name)</span>}</div>
+                            <div style={{ fontFamily: "monospace", fontSize: 11, color: "#666" }}>{o.id}</div>
+                        </div>
+                    ))}
+                </div>
+            )}
+        </div>
+    )
+}
+
 export default function MapGraph() {
     const [visible, setVisible] = useState(() => new Set(SOURCES.map(s => s.iri)))
+    const [selectedOrg, setSelectedOrg] = useState(null)
+    const [dataFlow, setDataFlow] = useState(false)
 
     const { nodes, edges } = useMemo(() => {
         const hiddenSources = new Set(SOURCES.filter(s => !visible.has(s.iri)).map(s => s.iri))
@@ -72,10 +131,58 @@ export default function MapGraph() {
     }, [visible])
     const graphKey = useMemo(() => [...visible].sort().join("|"), [visible])
 
+    const oneActive = visible.size === 1
+    const enabled = dataFlow && oneActive
+    const activeSource = oneActive ? [...visible][0] : null
+    const orgs = activeSource ? (ORGS_BY_SOURCE.get(activeSource) ?? []) : []
+
+    useEffect(() => {
+        if (orgs.length > 0) {
+            if (!orgs.find(o => o.iri === selectedOrg)) setSelectedOrg(orgs[0].iri)
+        } else if (selectedOrg !== null) {
+            setSelectedOrg(null)
+        }
+    }, [orgs])
+
+    useEffect(() => {
+        if (!oneActive && dataFlow) setDataFlow(false)
+    }, [oneActive])
+
+    const cycle = (delta) => {
+        if (orgs.length === 0) return
+        const idx = orgs.findIndex(o => o.iri === selectedOrg)
+        const next = ((idx < 0 ? 0 : idx + delta) + orgs.length) % orgs.length
+        setSelectedOrg(orgs[next].iri)
+    }
+
+    const disabledHint = !dataFlow
+        ? "Enable Data flow to use these controls"
+        : "Active only when exactly one source is selected"
+    const iconBtnStyle = {
+        display: "inline-flex",
+        alignItems: "center",
+        background: "none",
+        border: "1px solid #aaa",
+        borderRadius: 4,
+        padding: "0.25rem 0.5rem",
+        cursor: enabled ? "pointer" : "not-allowed",
+        color: enabled ? "#000" : "#bbb",
+    }
+
     return (
         <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-            <div style={{ display: "flex", gap: "1rem", padding: "0.5rem 1rem", fontSize: 13, borderBottom: "1px solid #ddd" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", padding: "0.5rem 1rem", fontSize: 13, borderBottom: "1px solid #ddd" }}>
                 <SourcesDropdown visible={visible} onChange={setVisible} />
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: oneActive ? "#000" : "#bbb", cursor: oneActive ? "pointer" : "not-allowed" }} title={oneActive ? "" : "Active only when exactly one source is selected"}>
+                    <input type="checkbox" disabled={!oneActive} checked={dataFlow} onChange={(e) => setDataFlow(e.target.checked)} />
+                    Data flow
+                </label>
+                <div style={{ display: "flex", gap: "0.25rem" }}>
+                    <button disabled={!enabled} onClick={() => cycle(-1)} title={enabled ? "Previous" : disabledHint} style={iconBtnStyle}><SkipBack size={13} fill="currentColor" /></button>
+                    <button disabled={!enabled} title={enabled ? "Step" : disabledHint} style={iconBtnStyle}><StepForward size={13} fill="currentColor" strokeWidth={2.75} /></button>
+                    <button disabled={!enabled} onClick={() => cycle(1)} title={enabled ? "Next" : disabledHint} style={iconBtnStyle}><SkipForward size={13} fill="currentColor" /></button>
+                </div>
+                <OrgCombobox orgs={orgs} value={selectedOrg} onChange={setSelectedOrg} disabled={!enabled} />
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
                 <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
