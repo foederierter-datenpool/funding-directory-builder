@@ -4,9 +4,10 @@ const RDF_REIFIES = "http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies"
 const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
 
 const PREFIXES = {
-    "http://schema.org/":         "schema",
-    "http://purl.org/dc/terms/":  "dct",
-    "http://xmlns.com/foaf/0.1/": "foaf",
+    "http://schema.org/":              "schema",
+    "http://purl.org/dc/terms/":       "dct",
+    "http://xmlns.com/foaf/0.1/":      "foaf",
+    "https://civic-data.de/pipeline#": "cdp",
 }
 const localName = (iri) => iri.replace(/^.*[#/]/, "")
 const prefixedIri = (iri) => {
@@ -77,7 +78,8 @@ export function loadMerge(mergedTtl, provTtl) {
         }
         const field = org.fields[fieldIndex.get(predIri)]
         const sources = [...(provIndex.get(tripleKey(orgIri, predIri, value)) ?? [])]
-        field.values.push({ value, sources })
+        const displayValue = q.object.termType === "NamedNode" ? prefixedIri(value) : value
+        field.values.push({ value: displayValue, raw: value, sources })
     }
 
     // Per-field: sort values by source-count desc so the most-supported one is index 0.

@@ -5,7 +5,10 @@ import mergedTtl from "../../data/pipeline/merged.ttl?raw"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
-const orgs = loadMerge(mergedTtl, provTtl)
+const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-data.de/pipeline#fromSource"])
+const isConflict = (f) => !EXPECTED_MULTI.has(f.predicate) && f.values.length > 1
+const conflictCount = (org) => org.fields.reduce((n, f) => n + (isConflict(f) ? 1 : 0), 0)
+const orgs = loadMerge(mergedTtl, provTtl).sort((a, b) => conflictCount(b) - conflictCount(a))
 
 const CONFLICT_LEVELS = [
     { color: "#fca5a5", width: 2, bg: "rgba(220, 38, 38, 0.08)" },
@@ -49,14 +52,14 @@ function ValueCell({ values, highlight }) {
                     <button className="flip-btn" onClick={() => setIdx((idx + 1) % values.length)}>▶</button>
                 </span>
             )}
-            <span className="value-text" title={cur.value} style={style}>{cur.value}</span>
+            <span className="value-text" title={cur.raw ?? cur.value} style={style}>{cur.value}</span>
             <SourceTags sources={cur.sources} />
         </>
     )
 }
 
 function OrgCardNarrow({ org, highlight }) {
-    return <KeyValueTable rows={org.fields.map((f) => ({ key: f.predicate, label: f.predLabel, value: <ValueCell values={f.values} highlight={highlight} /> }))} />
+    return <KeyValueTable rows={org.fields.map((f) => ({ key: f.predicate, label: f.predLabel, value: <ValueCell values={f.values} highlight={highlight && isConflict(f)} /> }))} />
 }
 
 function OrgCardWide({ org, highlight }) {
@@ -75,13 +78,13 @@ function OrgCardWide({ org, highlight }) {
             </thead>
             <tbody>
                 {org.fields.map((f) => {
-                    const conflict = highlight ? conflictStyle(f.values.length) : undefined
+                    const conflict = highlight && isConflict(f) ? conflictStyle(f.values.length) : undefined
                     return (
                         <tr key={f.predicate}>
                             <td>{f.predLabel}</td>
                             {sources.map((s) => {
                                 const v = f.values.find((val) => val.sources.includes(s))
-                                return <td key={s} title={v?.value}><span className="value-text" style={{ maxWidth: "50ch", ...conflict }}>{v?.value ?? ""}</span></td>
+                                return <td key={s} title={v?.raw ?? v?.value}><span className="value-text" style={{ maxWidth: "50ch", ...conflict }}>{v?.value ?? ""}</span></td>
                             })}
                         </tr>
                     )
