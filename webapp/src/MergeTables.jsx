@@ -2,6 +2,7 @@ import { loadMerge, sourceKind, localName } from "./loadMerge.js"
 import Card, { KeyValueTable } from "./Card.jsx"
 import provTtl from "../../data/pipeline/provenance.ttl?raw"
 import mergedTtl from "../../data/pipeline/merged.ttl?raw"
+import finalTtl from "../../data/pipeline/final.ttl?raw"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
@@ -9,6 +10,10 @@ const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-d
 const isConflict = (f) => !EXPECTED_MULTI.has(f.predicate) && f.values.length > 1
 const conflictCount = (org) => org.fields.reduce((n, f) => n + (isConflict(f) ? 1 : 0), 0)
 const orgs = loadMerge(mergedTtl, provTtl).sort((a, b) => conflictCount(b) - conflictCount(a))
+// final.ttl has one value per (s,p) and no source attribution; reusing loadMerge
+// with an empty provenance gives us empty `sources` per value → no tags / flips,
+// and length===1 means no conflict highlights.
+const finalOrgs = loadMerge(finalTtl, "")
 
 const CONFLICT_LEVELS = [
     { color: "#fca5a5", width: 2, bg: "rgba(220, 38, 38, 0.08)" },
@@ -105,19 +110,25 @@ function OrgCard({ org, compact, highlight }) {
 export default function MergeTables() {
     const [compact, setCompact] = useState(true)
     const [highlight, setHighlight] = useState(true)
+    const [showFinal, setShowFinal] = useState(false)
+    const display = showFinal ? finalOrgs : orgs
     return (
         <div className="page" style={{ overflowY: "auto", height: "100%" }}>
             <div style={{ display: "flex", gap: "1rem", marginBottom: "0.75rem", fontSize: 13 }}>
-                <label style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
-                    <input type="checkbox" checked={compact} onChange={(e) => setCompact(e.target.checked)} />
+                <label style={{ display: "flex", alignItems: "center", gap: "0.25rem", color: showFinal ? "#bbb" : "#000" }}>
+                    <input type="checkbox" disabled={showFinal} checked={compact} onChange={(e) => setCompact(e.target.checked)} />
                     Compact view
                 </label>
-                <label style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
-                    <input type="checkbox" checked={highlight} onChange={(e) => setHighlight(e.target.checked)} />
+                <label style={{ display: "flex", alignItems: "center", gap: "0.25rem", color: showFinal ? "#bbb" : "#000" }}>
+                    <input type="checkbox" disabled={showFinal} checked={highlight} onChange={(e) => setHighlight(e.target.checked)} />
                     Highlight conflicts
                 </label>
+                <label style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
+                    <input type="checkbox" checked={showFinal} onChange={(e) => setShowFinal(e.target.checked)} />
+                    Show final version
+                </label>
             </div>
-            {orgs.map((org) => <OrgCard key={org.iri} org={org} compact={compact} highlight={highlight} />)}
+            {display.map((org) => <OrgCard key={org.iri} org={org} compact={showFinal || compact} highlight={!showFinal && highlight} />)}
         </div>
     )
 }
