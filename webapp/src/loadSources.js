@@ -33,7 +33,6 @@ export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl)
     const mappingSource = new Map()  // mappingIri -> sourceIri
     const fmsOfMapping = new Map()   // mappingIri -> Set<fieldMappingBnode>
     const fromsOfFm = new Map()      // bnode      -> Set<fieldIri>
-    const subjectPrefixOf = new Map() // mappingIri -> prefix
 
     for (const q of fedQuads) {
         const p = q.predicate.value
@@ -43,7 +42,6 @@ export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl)
         else if (p === `${NS}fromSource`)      mappingSource.set(q.subject.value, q.object.value)
         else if (p === `${NS}hasFieldMapping`) setAdd(fmsOfMapping, q.subject.value, q.object.value)
         else if (p === `${NS}from`)            setAdd(fromsOfFm, q.subject.value, q.object.value)
-        else if (p === `${NS}subjectPrefix`)   subjectPrefixOf.set(q.subject.value, q.object.value)
     }
 
     for (const sourceIri of sourceIris) {
@@ -79,22 +77,11 @@ export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl)
         if (formatByStep.has(step))   s.format   = formatByStep.get(step)
     }
 
-    // Records: count distinct subjects in mapped.ttl per source via :subjectPrefix.
-    const prefixToSource = new Map()
-    for (const [mappingIri, prefix] of subjectPrefixOf) {
-        const sourceIri = mappingSource.get(mappingIri)
-        if (sourceIri) prefixToSource.set(prefix, sourceIri)
-    }
+    // Records: count distinct orgs in mapped.ttl per source via cdp:fromSource.
+    const FROM_SOURCE = `${NS}fromSource`
     const subjectsBySource = new Map()
-    const seen = new Set()
     for (const q of mappedQuads) {
-        const subj = q.subject.value
-        if (seen.has(subj)) continue
-        seen.add(subj)
-        const local = subj.split(/[#/]/).pop()
-        for (const [prefix, sourceIri] of prefixToSource) {
-            if (local.startsWith(prefix)) { setAdd(subjectsBySource, sourceIri, subj); break }
-        }
+        if (q.predicate.value === FROM_SOURCE) setAdd(subjectsBySource, q.object.value, q.subject.value)
     }
     for (const sourceIri of sourceIris) {
         get(sourceIri).records = subjectsBySource.get(sourceIri)?.size ?? 0
