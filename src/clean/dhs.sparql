@@ -1,5 +1,6 @@
-# Reshape SPARQL-Anything's facade-x HTML lifting into flat per-entry records.
-# %5Bentry%5D= is URL-encoded "[entry]=", the entry ID key in DHS detail links.
+# DHS publishes one HTML detail page per entry. The canonical <link> in <head>
+# carries the entry ID; the org content lives inside <div class="entrylong">.
+# This query runs once per lifted detail page, so there's exactly one of each.
 
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
@@ -9,40 +10,44 @@ PREFIX cdp:   <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
     ?org cdp:fromSource cdp:dhsSource ;
-        xyz:entryId    ?entryId ;
-        xyz:name       ?name ;
-        xyz:detailLink ?detailHref ;
-        ?predicate     ?value .
+         xyz:entryId    ?entryId ;
+         xyz:detailLink ?detailHref ;
+         xyz:name       ?name ;
+         xyz:department ?department ;
+         ?predicate     ?value .
 } WHERE {
-    ?entry a xhtml:li .
-
-    ?entry (rdf:_1|rdf:_2|rdf:_3|rdf:_4|rdf:_5)+ ?titleA .
-    ?titleA a xhtml:a ;
-            xhtml:href ?detailHref ;
-            html:innerText ?name .
+    ?link a xhtml:link ; xhtml:rel "canonical" ; xhtml:href ?detailHref .
     FILTER(CONTAINS(STR(?detailHref), "%5Bentry%5D="))
+    BIND(STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&") AS ?entryId)
+    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId)) AS ?org)
 
+    ?entry a xhtml:div ; xhtml:class "entrylong" .
+
+    OPTIONAL {
+        ?entry (!<urn:_>)+ ?h3 .
+        ?h3 a xhtml:h3 ; html:innerText ?name .
+    }
+    OPTIONAL {
+        ?entry (!<urn:_>)+ ?dep .
+        ?dep a xhtml:p ; xhtml:class "titelext" ; html:innerText ?department .
+    }
     {
-        # Per-field <span class="…"> (strasse, plzort, telefon, email, website).
-        ?entry (rdf:_1|rdf:_2|rdf:_3|rdf:_4|rdf:_5)+ ?leafSpan .
-        ?leafSpan a xhtml:span ;
-                  xhtml:class ?className ;
-                  html:innerText ?value .
+        ?entry (!<urn:_>)+ ?span .
+        ?span a xhtml:span ; xhtml:class ?className ; html:innerText ?value .
+        FILTER(?className IN ("strasse", "plzort", "telefon", "email", "website"))
         BIND(IRI(CONCAT(STR(xyz:), ?className)) AS ?predicate)
     }
     UNION
     {
-        # Department/subtitle: a bare literal sibling of the title <strong>
-        # inside the title <p> (e.g. "Integratives Suchtzentrum Mitte"). It
-        # has no class to match on like the other fields, so we walk back up
-        # from the title <a> two steps to the <p> and pick a non-empty literal.
-        ?titleA ^rdf:_1/^rdf:_1 ?titleP .
-        ?titleP (rdf:_2|rdf:_3|rdf:_4|rdf:_5) ?value .
-        FILTER(isLiteral(?value))
-        FILTER(STRLEN(STR(?value)) > 0)
-        BIND(xyz:department AS ?predicate)
+        # Labelled <p class="…"><strong>Label</strong><br>value…</p> blocks.
+        # innerText concatenates label and value with a space; strip the label.
+        ?entry (!<urn:_>)+ ?p .
+        ?p a xhtml:p ; xhtml:class ?className ; html:innerText ?fullText .
+        FILTER(?className IN ("art", "barrierefrei", "angebote", "zielgruppe", "zeiten", "traeger", "arbeit"))
+        ?p rdf:_1 ?strong .
+        ?strong a xhtml:strong ; html:innerText ?label .
+        BIND(STRAFTER(?fullText, CONCAT(?label, " ")) AS ?value)
+        FILTER(STRLEN(?value) > 0)
+        BIND(IRI(CONCAT(STR(xyz:), ?className)) AS ?predicate)
     }
-
-    BIND(STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&") AS ?entryId)
-    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId)) AS ?org)
 }

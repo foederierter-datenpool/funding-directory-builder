@@ -29,7 +29,7 @@
     :fetchUrl   "https://www.dhs.de/service/suchthilfeverzeichnis/" ;
     :format     "html" ;
     :script     "src/fetchers/dhs.js" ;
-    :output     "data/ingest/raw/dhs.html" .
+    :outputDir  "data/ingest/raw/dhs/" .
 
 # ---- Lift --------------------------------------------------------------
 
@@ -48,9 +48,9 @@
 :liftDhs a :Lift, p-plan:Step ;
     p-plan:isPrecededBy :fetchDhs ;
     :liftQuery "src/lift/html.sparql" ;
-    :param     [ :name "selector" ; :value "ul.results" ] ;
-    :input     "data/ingest/raw/dhs.html" ;
-    :output    "data/ingest/lifted/dhs.ttl" .
+    :param     [ :name "selector" ; :value "html" ] ;
+    :inputDir  "data/ingest/raw/dhs/" ;
+    :outputDir "data/ingest/lifted/dhs/" .
 
 # ---- Clean -------------------------------------------------------------
 
@@ -69,7 +69,7 @@
 :cleanDhs a :Clean, p-plan:Step ;
     p-plan:isPrecededBy :liftDhs ;
     :cleanQuery "src/clean/dhs.sparql" ;
-    :input      "data/ingest/lifted/dhs.ttl" ;
+    :inputDir   "data/ingest/lifted/dhs/" ;
     :output     "data/pipeline/cleaned/dhs.ttl" .
 
 # ---- Load --------------------------------------------------------------

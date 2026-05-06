@@ -114,16 +114,26 @@
 
 :dhsSource a :Source ;
     rdfs:label  "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
-    :hasField   :dhs-detailLink, :dhs-email, :dhs-entryId, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
+    :hasField   :dhs-angebote, :dhs-arbeit, :dhs-art, :dhs-barrierefrei, :dhs-department, :dhs-detailLink, :dhs-email,
+                :dhs-entryId, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-traeger, :dhs-website,
+                :dhs-zeiten, :dhs-zielgruppe .
 
-:dhs-detailLink a :SourceField ; :fieldPath "detailLink" .
-:dhs-email      a :SourceField ; :fieldPath "email"      .
-:dhs-entryId    a :SourceField ; :fieldPath "entryId"    .
-:dhs-name       a :SourceField ; :fieldPath "name"       .
-:dhs-plzort     a :SourceField ; :fieldPath "plzort"     .
-:dhs-strasse    a :SourceField ; :fieldPath "strasse"    .
-:dhs-telefon    a :SourceField ; :fieldPath "telefon"    .
-:dhs-website    a :SourceField ; :fieldPath "website"    .
+:dhs-angebote     a :SourceField ; :fieldPath "angebote"     .
+:dhs-arbeit       a :SourceField ; :fieldPath "arbeit"       .
+:dhs-art          a :SourceField ; :fieldPath "art"          .
+:dhs-barrierefrei a :SourceField ; :fieldPath "barrierefrei" .
+:dhs-department   a :SourceField ; :fieldPath "department"   .
+:dhs-detailLink   a :SourceField ; :fieldPath "detailLink"   .
+:dhs-email        a :SourceField ; :fieldPath "email"        .
+:dhs-entryId      a :SourceField ; :fieldPath "entryId"      .
+:dhs-name         a :SourceField ; :fieldPath "name"         .
+:dhs-plzort       a :SourceField ; :fieldPath "plzort"       .
+:dhs-strasse      a :SourceField ; :fieldPath "strasse"      .
+:dhs-telefon      a :SourceField ; :fieldPath "telefon"      .
+:dhs-traeger      a :SourceField ; :fieldPath "traeger"      .
+:dhs-website      a :SourceField ; :fieldPath "website"      .
+:dhs-zeiten       a :SourceField ; :fieldPath "zeiten"       .
+:dhs-zielgruppe   a :SourceField ; :fieldPath "zielgruppe"   .
 
 # ---- Transform nodes --------------------------------------------
 

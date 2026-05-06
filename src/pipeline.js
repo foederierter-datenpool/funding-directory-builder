@@ -34,12 +34,13 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 const rows = await sparqlSelect(`
     PREFIX :       <https://civic-data.de/pipeline#>
     PREFIX p-plan: <http://purl.org/net/p-plan#>
-    SELECT ?step ?type ?cleanQuery ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries ?pred WHERE {
+    SELECT ?step ?type ?cleanQuery ?graph ?inPath ?inDir ?outPath ?provOutPath ?directMappingQueries ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge, :Resolve))
-        OPTIONAL { ?step :cleanQuery          ?cleanQuery                }
+        OPTIONAL { ?step :cleanQuery           ?cleanQuery           }
         OPTIONAL { ?step :graph                ?graph                }
         OPTIONAL { ?step :input                ?inPath               }
+        OPTIONAL { ?step :inputDir             ?inDir                }
         OPTIONAL { ?step :output               ?outPath              }
         OPTIONAL { ?step :provOutput           ?provOutPath          }
         OPTIONAL { ?step :directMappingQueries ?directMappingQueries }
@@ -55,6 +56,7 @@ for (const r of rows) {
             cleanQuery: r.cleanQuery,
             graph: r.graph,
             inPath: r.inPath,
+            inDir: r.inDir,
             outPath: r.outPath,
             provOutPath: r.provOutPath,
             directMappingQueries: r.directMappingQueries,
@@ -427,10 +429,25 @@ for (const iri of sorted) {
     const s = steps.get(iri)
 
     if (s.type === "Clean") {
-        console.log(`clean  ${s.inPath} → ${s.outPath}`)
-        const src   = storeFromTurtles([fs.readFileSync(abs(s.inPath), "utf8")])
-        const quads = await sparqlConstruct(fs.readFileSync(abs(s.cleanQuery), "utf8"), [src])
-        await writeTurtle(abs(s.outPath), quads, {
+        const cleanQuery = fs.readFileSync(abs(s.cleanQuery), "utf8")
+        let ttls
+        if (s.inDir) {
+            // Run CONSTRUCT per file so each lifted TTL stays isolated in its
+            // own store — the clean SPARQL can't cross-join across documents.
+            const inAbs = abs(s.inDir)
+            const files = fs.readdirSync(inAbs).filter(f => f.endsWith(".ttl")).sort()
+            ttls = files.map(f => fs.readFileSync(path.join(inAbs, f), "utf8"))
+            console.log(`clean  ${s.inDir} (${ttls.length} files) → ${s.outPath}`)
+        } else {
+            ttls = [fs.readFileSync(abs(s.inPath), "utf8")]
+            console.log(`clean  ${s.inPath} → ${s.outPath}`)
+        }
+        const allQuads = []
+        for (const ttl of ttls) {
+            const src = storeFromTurtles([ttl])
+            allQuads.push(...await sparqlConstruct(cleanQuery, [src]))
+        }
+        await writeTurtle(abs(s.outPath), allQuads, {
             xyz: "http://sparql.xyz/facade-x/data/",
             cdp: "https://civic-data.de/pipeline#",
         })
