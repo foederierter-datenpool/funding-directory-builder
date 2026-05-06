@@ -11,7 +11,8 @@
     :hasSource       :caritasSource, :sozialplattformSource, :dhsSource ;
     :hasTargetSchema :targetSchema ;
     :hasMatchRule    :match ;
-    :hasMergeRule    :merge .
+    :hasMergeRule    :merge ;
+    :hasResolveRule  :resolve .
 
 # ---- Target schema ------------------------------------------------------
 
@@ -187,3 +188,8 @@
 
 :merge a :MergeRule ;
     :originPredicate prov:wasDerivedFrom .
+
+# ---- Resolve ------------------------------------------------------------
+
+:resolve a :ResolveRule ;
+    :defaultStrategy :alphabeticFirst .

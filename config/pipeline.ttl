@@ -108,3 +108,9 @@
     p-plan:isPrecededBy :matchStep ;
     :output     "data/pipeline/merged.ttl" ;
     :provOutput "data/pipeline/provenance.ttl" .
+
+# ---- Resolve -----------------------------------------------------------
+
+:resolveStep a :Resolve, p-plan:Step ;
+    p-plan:isPrecededBy :mergeStep ;
+    :output "data/pipeline/final.ttl" .
