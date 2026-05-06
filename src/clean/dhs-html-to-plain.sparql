@@ -20,11 +20,26 @@ CONSTRUCT {
             html:innerText ?name .
     FILTER(CONTAINS(STR(?detailHref), "%5Bentry%5D="))
 
-    ?entry (rdf:_1|rdf:_2|rdf:_3|rdf:_4|rdf:_5)+ ?leafSpan .
-    ?leafSpan a xhtml:span ;
-              xhtml:class ?className ;
-              html:innerText ?value .
-    BIND(IRI(CONCAT(STR(dhs:), ?className)) AS ?predicate)
+    {
+        # Per-field <span class="…"> (strasse, plzort, telefon, email, website).
+        ?entry (rdf:_1|rdf:_2|rdf:_3|rdf:_4|rdf:_5)+ ?leafSpan .
+        ?leafSpan a xhtml:span ;
+                  xhtml:class ?className ;
+                  html:innerText ?value .
+        BIND(IRI(CONCAT(STR(dhs:), ?className)) AS ?predicate)
+    }
+    UNION
+    {
+        # Department/subtitle: a bare literal sibling of the title <strong>
+        # inside the title <p> (e.g. "Integratives Suchtzentrum Mitte"). It
+        # has no class to match on like the other fields, so we walk back up
+        # from the title <a> two steps to the <p> and pick a non-empty literal.
+        ?titleA ^rdf:_1/^rdf:_1 ?titleP .
+        ?titleP (rdf:_2|rdf:_3|rdf:_4|rdf:_5) ?value .
+        FILTER(isLiteral(?value))
+        FILTER(STRLEN(STR(?value)) > 0)
+        BIND(dhs:department AS ?predicate)
+    }
 
     BIND(IRI(CONCAT(STR(dhs:), "entry-",
         STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&"))) AS ?iri)
