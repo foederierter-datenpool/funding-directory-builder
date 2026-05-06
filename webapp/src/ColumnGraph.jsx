@@ -156,7 +156,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
             data: { label: n.label, subtitle: n.subtitle, props: n.props, targetPos, sourcePos },
             style: {
                 background: colors[n.type] ?? "#eee",
-                border: "1px solid #888",
+                border: `1px ${n.dashed ? "dashed" : "solid"} #888`,
                 borderRadius: 4,
                 fontSize: 12,
                 padding: 6,

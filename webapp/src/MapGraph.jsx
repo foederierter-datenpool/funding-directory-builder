@@ -139,11 +139,12 @@ export default function MapGraph() {
     const [visible, setVisible] = useState(() => new Set(SOURCES.map(s => s.iri)))
     const [selectedOrg, setSelectedOrg] = useState(null)
     const [dataFlow, setDataFlow] = useState(false)
+    const [showUnmapped, setShowUnmapped] = useState(false)
 
     const { nodes, edges: rawEdges } = useMemo(() => {
         const hiddenSources = new Set(SOURCES.filter(s => !visible.has(s.iri)).map(s => s.iri))
-        return loadMap(ttl, { hiddenSources })
-    }, [visible])
+        return loadMap(ttl, { hiddenSources, hideUnmappedFields: !showUnmapped })
+    }, [visible, showUnmapped])
 
     const oneActive = visible.size === 1
     const enabled = dataFlow && oneActive
@@ -164,9 +165,9 @@ export default function MapGraph() {
         })
     }, [rawEdges, nodes, valueByField])
 
-    // Remount when sources change or when entering/leaving Data flow (so the
-    // wider spacing applies). Org changes only update edge labels in place.
-    const graphKey = useMemo(() => `${[...visible].sort().join("|")}::${enabled ? "df" : "n"}`, [visible, enabled])
+    // Remount when the visible node set changes (sources or unmapped-fields
+    // toggle). Org / data-flow changes only update edge labels in place.
+    const graphKey = useMemo(() => `${[...visible].sort().join("|")}::${showUnmapped ? "all" : "mapped"}`, [visible, showUnmapped])
 
     const activeSource = oneActive ? [...visible][0] : null
     const orgs = activeSource ? (ORGS_BY_SOURCE.get(activeSource) ?? []) : []
@@ -208,6 +209,10 @@ export default function MapGraph() {
         <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", padding: "0.5rem 1rem", fontSize: 13, borderBottom: "1px solid #ddd" }}>
                 <SourcesDropdown visible={visible} onChange={setVisible} />
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+                    <input type="checkbox" checked={showUnmapped} onChange={(e) => setShowUnmapped(e.target.checked)} />
+                    Show all source fields
+                </label>
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: oneActive ? "#000" : "#bbb", cursor: oneActive ? "pointer" : "not-allowed" }} title={oneActive ? "" : "Active only when exactly one source is selected"}>
                     <input type="checkbox" disabled={!oneActive} checked={dataFlow} onChange={(e) => setDataFlow(e.target.checked)} />
                     Show data flow
@@ -219,7 +224,7 @@ export default function MapGraph() {
                 </div>
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
-                <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} colSpacing={enabled ? 360 : 260} siblingGap={enabled ? 110 : 80} />
+                <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
             </div>
         </div>
     )
