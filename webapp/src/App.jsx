@@ -7,25 +7,44 @@ import MatchGraph from "./MatchGraph.jsx"
 import MergeTables from "./MergeTables.jsx"
 import Query from "./Query.jsx"
 import Sources from "./Sources.jsx"
-import React from "react"
+import React, { useState } from "react"
+
+const STORAGE_KEY = "showFederation"
+
+const initialShowFed = () => {
+    try { return localStorage.getItem(STORAGE_KEY) === "true" } catch { return false }
+}
 
 function Nav() {
+    const [showFed, setShowFed] = useState(initialShowFed)
+    const update = (v) => {
+        setShowFed(v)
+        try { localStorage.setItem(STORAGE_KEY, String(v)) } catch {}
+    }
     return (
         <nav>
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                 <NavLink to="/" end>About</NavLink>
-                <NavLink to="/sources">Sources</NavLink>
-                <NavLink to="/pipeline">Pipeline</NavLink>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
-                    <NavLink to="/map">Map</NavLink>
-                    <NavLink to="/match">Match</NavLink>
-                    <NavLink to="/merge">Merge</NavLink>
-                </div>
+                {showFed && (
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", border: "1px solid #aaa", borderRadius: 4, padding: "0.3rem 0.6rem" }}>
+                        <NavLink to="/sources">Sources</NavLink>
+                        <NavLink to="/pipeline">Pipeline</NavLink>
+                        <NavLink to="/map">Map</NavLink>
+                        <NavLink to="/match">Match</NavLink>
+                        <NavLink to="/merge">Merge</NavLink>
+                    </div>
+                )}
                 <NavLink to="/query">Query</NavLink>
                 <NavLink to="/download">Download</NavLink>
                 <NavLink to="/apis">APIs</NavLink>
             </div>
-            <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
+            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", fontSize: 13 }}>
+                    <input type="checkbox" checked={showFed} onChange={(e) => update(e.target.checked)} />
+                    Show federation process
+                </label>
+                <a href="https://github.com/foederierter-datenpool/directory-builder" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
         </nav>
     )
 }
