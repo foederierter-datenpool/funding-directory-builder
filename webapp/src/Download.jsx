@@ -1,9 +1,11 @@
 import { turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils"
 import { toSozialplattformJson } from "./exporters/sozialplattform.js"
 import federationTtl from "../../config/federation.ttl?raw"
-import mergedTtl from "../../data/pipeline/merged.ttl?raw"
+import finalTtl from "../../data/pipeline/final.ttl?raw"
 import { Parser, Writer } from "n3"
 import React, { useState } from "react"
+
+const SCHEMA_IDENTIFIER = "http://schema.org/identifier"
 
 const PREFIXES = {
     schema: "http://schema.org/",
@@ -39,10 +41,11 @@ function readTargetFields() {
     return fieldOrder
         .filter((iri) => isTargetField.has(iri) && predicateOf.has(iri))
         .map((iri) => ({ predicate: predicateOf.get(iri), label: prefixedIri(predicateOf.get(iri)) }))
+        .filter((f) => f.predicate !== SCHEMA_IDENTIFIER)
 }
 
 const TARGET_FIELDS = readTargetFields()
-const MERGED_QUADS = new Parser().parse(mergedTtl)
+const FINAL_QUADS = new Parser().parse(finalTtl)
 
 const FORMATS = [
     { value: "ttl",    label: "Turtle (.ttl)",     ext: "ttl",    mime: "text/turtle" },
@@ -80,7 +83,7 @@ function buildCsv(quads, fields) {
 
 async function buildFile(selectedFields, format) {
     const allowed = new Set(selectedFields.map((f) => f.predicate))
-    const filtered = MERGED_QUADS.filter((q) => allowed.has(q.predicate.value))
+    const filtered = FINAL_QUADS.filter((q) => allowed.has(q.predicate.value))
     if (format === "csv") return buildCsv(filtered, selectedFields)
     const ttl = await writeTurtle(filtered)
     if (format === "ttl") return ttl
@@ -103,7 +106,7 @@ const EXTERNAL_TARGETS = [
         label: "Sozialplattform JSON",
         filename: "sozialplattform.json",
         mime: "application/json",
-        build: async () => JSON.stringify(await toSozialplattformJson(mergedTtl), null, 2),
+        build: async () => JSON.stringify(await toSozialplattformJson(finalTtl), null, 2),
     },
 ]
 
@@ -122,7 +125,7 @@ export default function Download() {
         const fmt = FORMATS.find((f) => f.value === format)
         const fields = TARGET_FIELDS.filter((f) => selected.has(f.predicate))
         const content = await buildFile(fields, format)
-        triggerDownload(content, fmt.mime, `merged.${fmt.ext}`)
+        triggerDownload(content, fmt.mime, `final.${fmt.ext}`)
     }
 
     const onDownloadExternal = async () => {

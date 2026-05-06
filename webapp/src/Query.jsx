@@ -1,6 +1,5 @@
 import { storeFromTurtles, queryEngine } from "@foerderfunke/sem-ops-utils"
-import provTtl from "../../data/pipeline/provenance.ttl?raw"
-import mergedTtl from "../../data/pipeline/merged.ttl?raw"
+import finalTtl from "../../data/pipeline/final.ttl?raw"
 import React, { useEffect, useRef } from "react"
 import "@zazuko/yasgui/build/yasgui.min.css"
 import Yasgui from "@zazuko/yasgui"
@@ -11,7 +10,7 @@ import { Writer } from "n3"
 // install a fetch interceptor that routes those requests through Comunica.
 const ENDPOINT = "http://local/sparql"
 
-const store = storeFromTurtles([mergedTtl, provTtl])
+const store = storeFromTurtles([finalTtl])
 
 const INITIAL_QUERY = `PREFIX schema: <http://schema.org/>
 PREFIX cdf: <https://civic-data.de/federated-directory#>
