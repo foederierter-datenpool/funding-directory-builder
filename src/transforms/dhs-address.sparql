@@ -1,25 +1,22 @@
-
 PREFIX dhs:    <https://civic-data.de/dhs#>
 PREFIX schema: <http://schema.org/>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:mapped> {
-        ?fedIri
-            schema:streetAddress    ?street     ;
-            schema:postalCode       ?postalCode ;
-            schema:addressLocality  ?locality   .
+        ?org
+            cdp:fromSource         cdp:dhsSource ;
+            schema:streetAddress   ?street       ;
+            schema:postalCode      ?postalCode   ;
+            schema:addressLocality ?locality     .
     }
 } WHERE {
     GRAPH <urn:source:dhs> {
-        ?entry
-            dhs:detailLink ?detailLink ;
-            dhs:strasse    ?street     ;
-            dhs:plzort     ?plzort     .
+        ?org
+            cdp:fromSource cdp:dhsSource ;
+            dhs:strasse    ?street       ;
+            dhs:plzort     ?plzort       .
     }
-    BIND(STRBEFORE(STRAFTER(?detailLink, "%5Bentry%5D="), "&") AS ?entryId)
-    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId))              AS ?fedIri)
-
     BIND(STRBEFORE(?plzort, " ") AS ?postalCode)
     BIND(STRAFTER(?plzort, " ")  AS ?locality)
 }

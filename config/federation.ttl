@@ -136,8 +136,6 @@
     :fromSource    :caritasSource ;
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:caritas> ;
-    :subjectPrefix "caritas-" ;
-    :subjectFrom   :caritas-Guid ;
     :hasFieldMapping
         [ :from :caritas-Guid   ; :to :t-identifier                                                       ] ,
         [ :from :caritas-Title  ; :to :t-name                                                             ] ,
@@ -149,8 +147,6 @@
     :fromSource    :sozialplattformSource ;
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:sozialplattform> ;
-    :subjectPrefix "sp-" ;
-    :subjectFrom   :sp-offer_id ;
     :hasFieldMapping
         [ :from :sp-offer_id                     ; :to :t-identifier    ] ,
         [ :from :sp-office_title                 ; :to :t-name          ] ,
@@ -165,7 +161,7 @@
 :dhs-mapping a :Mapping ;
     :fromSource    :dhsSource ;
     :toTarget      :targetSchema ;
-    :subjectPrefix "dhs-" ;
+    :sourceGraph   <urn:source:dhs> ;
     :hasFieldMapping
         [ :from :dhs-detailLink           ; :to :t-identifier, :t-detailUrl ; :via :dhsIdentityNode ] ,
         [ :from :dhs-name                 ; :to :t-name                     ; :via :dhsIdentityNode ] ,

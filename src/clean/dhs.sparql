@@ -8,7 +8,7 @@ PREFIX dhs:   <https://civic-data.de/dhs#>
 PREFIX cdp:   <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
-    ?iri a dhs:Entry ;
+    ?iri cdp:fromSource cdp:dhsSource ;
         dhs:name       ?name ;
         dhs:detailLink ?detailHref ;
         ?predicate     ?value .

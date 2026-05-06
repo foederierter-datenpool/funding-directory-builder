@@ -65,9 +65,10 @@ const sorted = topoSort(steps, (iri) => preds.get(iri) ?? [])
 const XYZ = "http://sparql.xyz/facade-x/data/"
 const CDP = "https://civic-data.de/pipeline#"
 
-const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fields) => {
+const buildDirectInsert = ({ sourceGraph, source }, fields) => {
     const prefixes = {
         xyz:    XYZ,
+        cdp:    CDP,
         schema: "http://schema.org/",
         foaf:   "http://xmlns.com/foaf/0.1/",
         dct:    "http://purl.org/dc/terms/",
@@ -78,6 +79,7 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
         }
         return `<${iri}>`
     }
+    const shortenIri = (iri) => iri.startsWith(CDP) ? `cdp:${iri.slice(CDP.length)}` : `<${iri}>`
 
     const v      = (path) => `?${path}`
     const optLit = (subj, path) =>
@@ -85,14 +87,16 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
         `FILTER(isLiteral(${v(path)}) && ${v(path)} != "") }`
 
     const insertBlock = fields
-        .map(f => `        ?fedIri ${shortenPredicate(f.predicate)} ${v(f.fieldPath)} .`)
+        .map(f => `        ?org ${shortenPredicate(f.predicate)} ${v(f.fieldPath)} .`)
         .join("\n")
 
-    const topLevel  = fields.filter(f => !f.parentPath && f.fieldPath !== subjectFromPath)
+    const topLevel  = fields.filter(f => !f.parentPath)
     const subFields = fields.filter(f => f.parentPath)
 
-    const bgp = [`?entry xyz:${subjectFromPath} ${v(subjectFromPath)} .`]
-    for (const f of topLevel) bgp.push(optLit("?entry", f.fieldPath))
+    // Source subjects = federation IRIs after the clean step, so ?org is
+    // identified directly via cdp:fromSource — no minting from a key field.
+    const bgp = [`?org cdp:fromSource ${shortenIri(source)} .`]
+    for (const f of topLevel) bgp.push(optLit("?org", f.fieldPath))
 
     const byParent = new Map()
     for (const f of subFields) {
@@ -103,7 +107,7 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
     for (const [parent, subs] of byParent) {
         const pv    = `?_p${parentIdx++}`
         const inner = subs.map(s => `    ${optLit(pv, s.fieldPath)}`).join("\n")
-        bgp.push(`OPTIONAL {\n    ?entry xyz:${parent} ${pv} .\n${inner}\n  }`)
+        bgp.push(`OPTIONAL {\n    ?org xyz:${parent} ${pv} .\n${inner}\n  }`)
     }
 
     const prefixBlock = Object.entries(prefixes)
@@ -114,24 +118,23 @@ const buildDirectInsert = ({ sourceGraph, subjectPrefix, subjectFromPath }, fiel
 
 INSERT {
     GRAPH <urn:mapped> {
+        ?org cdp:fromSource ${shortenIri(source)} .
 ${insertBlock}
     }
 } WHERE {
     GRAPH <${sourceGraph}> {
         ${bgp.join("\n        ")}
     }
-    BIND(IRI(CONCAT("${CDP}", "${subjectPrefix}", STR(${v(subjectFromPath)}))) AS ?fedIri)
 }`
 }
 
 const runMap = async (queriesDir) => {
     const mappings = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?mapping ?sourceGraph ?subjectPrefix ?subjectFromPath WHERE {
-            ?mapping a :Mapping .
-            OPTIONAL { ?mapping :sourceGraph   ?sourceGraph }
-            OPTIONAL { ?mapping :subjectPrefix ?subjectPrefix }
-            OPTIONAL { ?mapping :subjectFrom   ?sf . ?sf :fieldPath ?subjectFromPath }
+        SELECT ?mapping ?source ?sourceGraph WHERE {
+            ?mapping a :Mapping ;
+                :fromSource ?source .
+            OPTIONAL { ?mapping :sourceGraph ?sourceGraph }
         } ORDER BY ?mapping`, [defStore])
 
     for (const m of mappings) {
@@ -146,7 +149,7 @@ const runMap = async (queriesDir) => {
                 OPTIONAL { ?parent :hasSubField ?src . ?parent :fieldPath ?parentPath }
             }`, [defStore])
 
-        if (directRows.length && m.sourceGraph && m.subjectFromPath) {
+        if (directRows.length && m.sourceGraph) {
             const localName = m.mapping.split("#").pop()
             const query = buildDirectInsert(m, directRows)
             const queryPath = abs(path.join(queriesDir, `${localName}.sparql`))
@@ -367,7 +370,7 @@ const runMerge = async (store, outPath, provOutPath) => {
 
     const mergedQuads = store.getQuads(null, null, null, MERGED_GRAPH)
 
-    await writeTurtle(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdf: namespace })
+    await writeTurtle(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdp: CDP, cdf: namespace })
     console.log(`merge: wrote ${mergedQuads.length} triples → ${outPath}`)
 
     await writeTurtle(abs(provOutPath), provQuads, {

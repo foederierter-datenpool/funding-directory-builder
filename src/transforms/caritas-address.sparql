@@ -7,23 +7,22 @@ PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
     GRAPH <urn:mapped> {
-        ?fedIri
-            schema:streetAddress    ?street     ;
-            schema:postalCode       ?postalCode ;
-            schema:addressLocality  ?locality   .
+        ?org
+            cdp:fromSource         cdp:caritasSource ;
+            schema:streetAddress   ?street           ;
+            schema:postalCode      ?postalCode       ;
+            schema:addressLocality ?locality         .
     }
 } WHERE {
     GRAPH <urn:source:caritas> {
-        ?entry
-            xyz:Guid   ?guid   ;
-            xyz:Teaser ?teaser .
+        ?org
+            cdp:fromSource cdp:caritasSource ;
+            xyz:Teaser     ?teaser .
         FILTER(isLiteral(?teaser) && ?teaser != "")
         FILTER(REGEX(?teaser, "^.+ - \\d{5} .+$"))
     }
-    BIND(IRI(CONCAT(STR(cdp:), "caritas-", ?guid))        AS ?fedIri)
-
-    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$1")    AS ?streetRaw)
-    BIND(REPLACE(?streetRaw, "([Ss])tr\\.", "$1traße")        AS ?street)
-    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$2")    AS ?postalCode)
-    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$3")    AS ?locality)
+    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$1")  AS ?streetRaw)
+    BIND(REPLACE(?streetRaw, "([Ss])tr\\.", "$1traße")     AS ?street)
+    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$2")  AS ?postalCode)
+    BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$3")  AS ?locality)
 }
