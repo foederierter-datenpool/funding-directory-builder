@@ -1,5 +1,5 @@
-import { ReactFlow, Background, Controls, MarkerType, Handle, Position, useNodesState, useEdgesState } from "@xyflow/react"
-import React, { useMemo, useState } from "react"
+import { ReactFlow, Background, Controls, MarkerType, Handle, Position, useNodesState, useEdgesState, BaseEdge, EdgeLabelRenderer, getBezierPath } from "@xyflow/react"
+import React, { createContext, useContext, useEffect, useMemo, useState } from "react"
 import "@xyflow/react/dist/style.css"
 
 const DEFAULT_COL_SPACING = 260
@@ -28,7 +28,74 @@ function SideNode({ data, style }) {
     )
 }
 
+// Shared state so hovering an edge or its label highlights the other.
+const HoveredEdgeContext = createContext({ id: null, set: () => {} })
+
+const HOVER_COLOR = "#ff6a00"
+
+// Renders `data.value` near the bezier midpoint with a small per-edge offset
+// (so parallel edges don't pile up). `data.bg` tints the label by the
+// transformation "moment" — source-field outgoing vs. transform outgoing.
+function ValueEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, targetPosition, data, markerEnd, style }) {
+    const [edgePath, midX, midY] = getBezierPath({ sourceX, sourceY, targetX, targetY, sourcePosition, targetPosition })
+    const idx = data.idx ?? 0
+    const dx = targetX - sourceX
+    const dy = targetY - sourceY
+    const len = Math.hypot(dx, dy) || 1
+    const tShift = (((idx % 5) - 2) / 2) * 0.15
+    const perp   = ((idx % 3) - 1) * 14
+    const labelX = midX + dx * tShift + (-dy / len) * perp
+    const labelY = midY + dy * tShift + ( dx / len) * perp
+
+    const { id: hoveredId, set } = useContext(HoveredEdgeContext)
+    const hovered = hoveredId === id
+    // Edges attached to a node being dragged are highlighted by the parent
+    // (orange stroke); we mirror that highlight on the label here.
+    const highlight = hovered || data.attached
+    const onIn = () => set(id)
+    const onOut = () => set(null)
+
+    const edgeStyle = hovered ? { ...style, stroke: HOVER_COLOR, strokeWidth: 2 } : style
+    const edgeMarker = hovered ? { type: MarkerType.ArrowClosed, color: HOVER_COLOR } : markerEnd
+
+    return (
+        <>
+            <g onPointerEnter={onIn} onPointerLeave={onOut} style={{ cursor: "grab" }}>
+                <BaseEdge id={id} path={edgePath} markerEnd={edgeMarker} style={edgeStyle} />
+            </g>
+            <EdgeLabelRenderer>
+                <div
+                    title={data.value}
+                    onPointerEnter={onIn}
+                    onPointerLeave={onOut}
+                    style={{
+                        position: "absolute",
+                        transform: `translate(-50%, -50%) translate(${labelX}px, ${labelY}px)`,
+                        background: data.bg ?? "white",
+                        border: `1px solid ${highlight ? HOVER_COLOR : "#bbb"}`,
+                        borderRadius: 3,
+                        padding: "2px 5px",
+                        fontSize: 10,
+                        lineHeight: "12px",
+                        color: "#444",
+                        pointerEvents: "auto",
+                        cursor: "default",
+                        maxWidth: 150,
+                        wordBreak: "break-word",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                        ...(highlight && { zIndex: 1000, boxShadow: "0 4px 14px rgba(0,0,0,0.35)" }),
+                    }}
+                >{data.value}</div>
+            </EdgeLabelRenderer>
+        </>
+    )
+}
+
 const nodeTypes = { sideNode: SideNode }
+const edgeTypes = { value: ValueEdge }
 
 function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, colSpacing, siblingGap, nodeWidth) {
     const isVertical = direction === "vertical"
@@ -99,6 +166,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
         id: `e-${i}`,
         source: e.from,
         target: e.to,
+        ...(e.value !== undefined && { type: "value", data: { value: e.value, idx: i, bg: e.valueBg } }),
         ...(e.manual && { style: { stroke: "#3b82f6", strokeWidth: 2 }, markerEnd: { type: MarkerType.ArrowClosed, color: "#3b82f6" } }),
         ...(!e.manual && { markerEnd: { type: MarkerType.ArrowClosed } }),
     }))
@@ -109,13 +177,18 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
 export default function ColumnGraph({ nodes, edges, columns, colors, centerColumns, direction = "horizontal", colSpacing = DEFAULT_COL_SPACING, siblingGap = DEFAULT_SIBLING_GAP, nodeWidth = DEFAULT_NODE_WIDTH }) {
     const { flowNodes, flowEdges } = useMemo(() => toFlow({ nodes, edges }, columns, colors, centerColumns, direction, colSpacing, siblingGap, nodeWidth), [nodes, edges, columns, colors, centerColumns, direction, colSpacing, siblingGap, nodeWidth])
     const [rfNodes, , onNodesChange] = useNodesState(flowNodes)
-    const [rfEdges, , onEdgesChange] = useEdgesState(flowEdges)
+    const [rfEdges, setRfEdges, onEdgesChange] = useEdgesState(flowEdges)
     const [draggingId, setDraggingId] = useState(null)
+    const [hoveredEdge, setHoveredEdge] = useState(null)
+    const hoverCtx = useMemo(() => ({ id: hoveredEdge, set: setHoveredEdge }), [hoveredEdge])
+    // Sync edges when value labels change (e.g. selecting a different org) so
+    // the user keeps any node positions they've dragged.
+    useEffect(() => { setRfEdges(flowEdges) }, [flowEdges, setRfEdges])
 
     const styledEdges = useMemo(() => rfEdges.map((e) => {
         const attached = e.source === draggingId || e.target === draggingId
         return attached
-            ? { ...e, style: { stroke: "#ff6a00", strokeWidth: 2 }, markerEnd: { type: MarkerType.ArrowClosed, color: "#ff6a00" }, zIndex: 1000 }
+            ? { ...e, style: { stroke: "#ff6a00", strokeWidth: 2 }, markerEnd: { type: MarkerType.ArrowClosed, color: "#ff6a00" }, zIndex: 1000, data: { ...e.data, attached: true } }
             : e
     }), [rfEdges, draggingId])
 
@@ -127,18 +200,25 @@ export default function ColumnGraph({ nodes, edges, columns, colors, centerColum
     }
 
     return (
-        <ReactFlow
-            nodes={rfNodes}
-            edges={styledEdges}
-            onNodesChange={onNodesChange}
-            onEdgesChange={onEdgesChange}
-            onNodeDragStart={(_, n) => setDraggingId(n.id)}
-            onNodeDragStop={() => setDraggingId(null)}
-            nodeTypes={nodeTypes}
-            onInit={onInit}
-        >
-            <Background />
-            <Controls showInteractive={false} />
-        </ReactFlow>
+        <HoveredEdgeContext.Provider value={hoverCtx}>
+            {/* Differentiate cursors: pointer on draggable nodes, grab on
+                edges (matching the canvas pan), so the open hand doesn't
+                show indiscriminately on every hover. */}
+            <style>{`.react-flow__node{cursor:pointer!important;}.react-flow__edge{cursor:grab!important;}`}</style>
+            <ReactFlow
+                nodes={rfNodes}
+                edges={styledEdges}
+                onNodesChange={onNodesChange}
+                onEdgesChange={onEdgesChange}
+                onNodeDragStart={(_, n) => setDraggingId(n.id)}
+                onNodeDragStop={() => setDraggingId(null)}
+                nodeTypes={nodeTypes}
+                edgeTypes={edgeTypes}
+                onInit={onInit}
+            >
+                <Background />
+                <Controls showInteractive={false} />
+            </ReactFlow>
+        </HoveredEdgeContext.Provider>
     )
 }

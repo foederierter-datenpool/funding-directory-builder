@@ -1,8 +1,11 @@
 import ttl from "../../config/federation.ttl?raw"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
-import { loadMap, loadSources, loadOrgsBySource } from "./loadMap.js"
+import caritasLifted from "../../data/ingest/lifted/caritas.ttl?raw"
+import dhsLifted from "../../data/ingest/lifted/dhs-clean.ttl?raw"
+import spLifted from "../../data/ingest/lifted/sozialplattform-clean.ttl?raw"
+import { loadMap, loadSources, loadOrgsBySource, loadFieldValuesByOrg } from "./loadMap.js"
 import ColumnGraph from "./ColumnGraph.jsx"
-import { SkipBack, StepForward, SkipForward } from "lucide-react"
+import { SkipBack, SkipForward } from "lucide-react"
 import React, { useEffect, useMemo, useRef, useState } from "react"
 
 const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema"]
@@ -13,9 +16,21 @@ const COLORS = {
     TargetField: "#fde2c7",
     TargetSchema: "#f4cfe0",
 }
+// Lighter tints than the node fills so labels read as belonging to the same
+// column/moment without competing for attention against the nodes themselves.
+const VALUE_LABEL_BG = {
+    SourceField:   "#f0f8e0",
+    TransformNode: "#fff8c8",
+}
 
 const SOURCES = loadSources(ttl)
 const ORGS_BY_SOURCE = loadOrgsBySource(ttl, mappedTtl)
+const NS = "https://civic-data.de/pipeline#"
+const FIELD_VALUES = loadFieldValuesByOrg(ttl, mappedTtl, new Map([
+    [`${NS}caritasSource`,         caritasLifted],
+    [`${NS}sozialplattformSource`, spLifted],
+    [`${NS}dhsSource`,             dhsLifted],
+]))
 
 function SourcesDropdown({ visible, onChange }) {
     const [open, setOpen] = useState(false)
@@ -125,14 +140,34 @@ export default function MapGraph() {
     const [selectedOrg, setSelectedOrg] = useState(null)
     const [dataFlow, setDataFlow] = useState(false)
 
-    const { nodes, edges } = useMemo(() => {
+    const { nodes, edges: rawEdges } = useMemo(() => {
         const hiddenSources = new Set(SOURCES.filter(s => !visible.has(s.iri)).map(s => s.iri))
         return loadMap(ttl, { hiddenSources })
     }, [visible])
-    const graphKey = useMemo(() => [...visible].sort().join("|"), [visible])
 
     const oneActive = visible.size === 1
     const enabled = dataFlow && oneActive
+    const valueByField = enabled && selectedOrg ? FIELD_VALUES.get(selectedOrg) : null
+    const edges = useMemo(() => {
+        if (!valueByField) return rawEdges
+        const typeOf = new Map(nodes.map(n => [n.id, n.type]))
+        return rawEdges.map(e => {
+            // Source-field outgoing: source literal. Transform outgoing: the
+            // post-transform target field value (the value that lands in `to`).
+            // The label tints with the from-node's column color so labels read
+            // as belonging to the same "moment" in the transformation.
+            const fromType = typeOf.get(e.from)
+            const v = fromType === "TransformNode" ? valueByField.get(e.to)
+                : fromType === "SourceField"       ? valueByField.get(e.from)
+                : undefined
+            return v ? { ...e, value: v, valueBg: VALUE_LABEL_BG[fromType] } : e
+        })
+    }, [rawEdges, nodes, valueByField])
+
+    // Remount when sources change or when entering/leaving Data flow (so the
+    // wider spacing applies). Org changes only update edge labels in place.
+    const graphKey = useMemo(() => `${[...visible].sort().join("|")}::${enabled ? "df" : "n"}`, [visible, enabled])
+
     const activeSource = oneActive ? [...visible][0] : null
     const orgs = activeSource ? (ORGS_BY_SOURCE.get(activeSource) ?? []) : []
 
@@ -156,7 +191,7 @@ export default function MapGraph() {
     }
 
     const disabledHint = !dataFlow
-        ? "Enable Data flow to use these controls"
+        ? "Enable Show data flow to use these controls"
         : "Active only when exactly one source is selected"
     const iconBtnStyle = {
         display: "inline-flex",
@@ -175,17 +210,16 @@ export default function MapGraph() {
                 <SourcesDropdown visible={visible} onChange={setVisible} />
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: oneActive ? "#000" : "#bbb", cursor: oneActive ? "pointer" : "not-allowed" }} title={oneActive ? "" : "Active only when exactly one source is selected"}>
                     <input type="checkbox" disabled={!oneActive} checked={dataFlow} onChange={(e) => setDataFlow(e.target.checked)} />
-                    Data flow
+                    Show data flow
                 </label>
-                <div style={{ display: "flex", gap: "0.25rem" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
                     <button disabled={!enabled} onClick={() => cycle(-1)} title={enabled ? "Previous" : disabledHint} style={iconBtnStyle}><SkipBack size={13} fill="currentColor" /></button>
-                    <button disabled={!enabled} title={enabled ? "Step" : disabledHint} style={iconBtnStyle}><StepForward size={13} fill="currentColor" strokeWidth={2.75} /></button>
+                    <OrgCombobox orgs={orgs} value={selectedOrg} onChange={setSelectedOrg} disabled={!enabled} />
                     <button disabled={!enabled} onClick={() => cycle(1)} title={enabled ? "Next" : disabledHint} style={iconBtnStyle}><SkipForward size={13} fill="currentColor" /></button>
                 </div>
-                <OrgCombobox orgs={orgs} value={selectedOrg} onChange={setSelectedOrg} disabled={!enabled} />
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
-                <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} />
+                <ColumnGraph key={graphKey} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} colSpacing={enabled ? 360 : 260} siblingGap={enabled ? 110 : 80} />
             </div>
         </div>
     )

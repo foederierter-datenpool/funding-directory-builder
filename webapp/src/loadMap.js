@@ -68,6 +68,142 @@ export function loadOrgsBySource(federationTtl, mappedTtl) {
     return result
 }
 
+// For each org in mapped.ttl, resolve the literal value of each of its
+// source fields/sub-fields (from the source's lifted/cleaned TTL) AND each
+// target field (from mapped.ttl, indirected via the field's :targetPredicate).
+// Returns Map<orgIri, Map<fieldIri, string>>.
+export function loadFieldValuesByOrg(federationTtl, mappedTtl, liftedBySource) {
+    const fedQuads = new Parser().parse(federationTtl)
+
+    const mapping = new Map()
+    const ensureMapping = (iri) => {
+        if (!mapping.has(iri)) mapping.set(iri, {})
+        return mapping.get(iri)
+    }
+    const fieldPathOf = new Map()
+    const fieldsBySource = new Map()
+    const subFieldsOf = new Map()
+    const targetPredicateOf = new Map() // targetField IRI -> predicate IRI (e.g. schema:streetAddress)
+    for (const q of fedQuads) {
+        const p = q.predicate.value
+        if (p === `${NS}fromSource`)         ensureMapping(q.subject.value).source = q.object.value
+        else if (p === `${NS}subjectPrefix`) ensureMapping(q.subject.value).prefix = q.object.value
+        else if (p === `${NS}subjectFrom`)   ensureMapping(q.subject.value).subjectFrom = q.object.value
+        else if (p === `${NS}fieldPath`)     fieldPathOf.set(q.subject.value, q.object.value)
+        else if (p === `${NS}targetPredicate`) targetPredicateOf.set(q.subject.value, q.object.value)
+        else if (p === `${NS}hasField`) {
+            if (!fieldsBySource.has(q.subject.value)) fieldsBySource.set(q.subject.value, [])
+            fieldsBySource.get(q.subject.value).push(q.object.value)
+        } else if (p === `${NS}hasSubField`) {
+            if (!subFieldsOf.has(q.subject.value)) subFieldsOf.set(q.subject.value, [])
+            subFieldsOf.get(q.subject.value).push(q.object.value)
+        }
+    }
+    const mappingBySource = new Map()
+    for (const m of mapping.values()) if (m.source) mappingBySource.set(m.source, m)
+
+    const SCHEMA_IDENTIFIER = "http://schema.org/identifier"
+    const mappedQuads = new Parser().parse(mappedTtl)
+    const idOf = new Map()
+    const orgs = new Set()
+    const literalsByOrg = new Map() // orgIri -> Map<predicateIri, string>
+    for (const q of mappedQuads) {
+        orgs.add(q.subject.value)
+        if (q.predicate.value === SCHEMA_IDENTIFIER) idOf.set(q.subject.value, q.object.value)
+        if (q.object.termType === "Literal") {
+            if (!literalsByOrg.has(q.subject.value)) literalsByOrg.set(q.subject.value, new Map())
+            literalsByOrg.get(q.subject.value).set(q.predicate.value, q.object.value)
+        }
+    }
+    const orgSource = new Map()
+    for (const orgIri of orgs) {
+        const local = localName(orgIri)
+        for (const m of mapping.values()) {
+            if (m.prefix && m.source && local.startsWith(m.prefix)) { orgSource.set(orgIri, m.source); break }
+        }
+    }
+
+    const result = new Map()
+    for (const [sourceIri, liftedTtl] of liftedBySource) {
+        const m = mappingBySource.get(sourceIri)
+        if (!m) continue
+
+        // subject -> Map<predicate-localname, [{value, isLiteral}]>
+        const graph = new Map()
+        for (const q of new Parser().parse(liftedTtl)) {
+            const sub = q.subject.value
+            const predLocal = localName(q.predicate.value)
+            if (!graph.has(sub)) graph.set(sub, new Map())
+            const preds = graph.get(sub)
+            if (!preds.has(predLocal)) preds.set(predLocal, [])
+            preds.get(predLocal).push({ value: q.object.value, isLiteral: q.object.termType === "Literal" })
+        }
+
+        const subjectFromFP = m.subjectFrom ? fieldPathOf.get(m.subjectFrom) : null
+        const fields = fieldsBySource.get(sourceIri) ?? []
+
+        for (const [orgIri, src] of orgSource) {
+            if (src !== sourceIri) continue
+            const id = idOf.get(orgIri) ?? localName(orgIri).slice(m.prefix.length)
+
+            // Prefer a match on the mapping's :subjectFrom field path (literal
+            // equality); fall back to IRI suffix match for sources whose lifted
+            // TTL has named subjects (e.g. dhs-clean.ttl: dhs:entry-<id>).
+            let dataSubject = null
+            if (subjectFromFP) {
+                for (const [s, preds] of graph) {
+                    if (preds.get(subjectFromFP)?.some(v => v.value === id)) { dataSubject = s; break }
+                }
+            } else {
+                for (const s of graph.keys()) {
+                    if (s.endsWith(`-${id}`) || s.endsWith(`/${id}`) || s.endsWith(`#${id}`)) { dataSubject = s; break }
+                }
+            }
+            if (!dataSubject) continue
+
+            const valueMap = new Map()
+            const subjectPreds = graph.get(dataSubject) ?? new Map()
+            for (const fieldIri of fields) {
+                const fp = fieldPathOf.get(fieldIri)
+                if (!fp) continue
+                const vs = subjectPreds.get(fp)
+                if (!vs?.length) continue
+                const v = vs[0]
+                if (v.isLiteral && v.value) valueMap.set(fieldIri, v.value)
+                // Sub-fields hang off the parent field's blank-node value.
+                if (subFieldsOf.has(fieldIri) && !v.isLiteral) {
+                    const childPreds = graph.get(v.value)
+                    if (childPreds) {
+                        for (const subIri of subFieldsOf.get(fieldIri)) {
+                            const subFp = fieldPathOf.get(subIri)
+                            if (!subFp) continue
+                            const subVs = childPreds.get(subFp)
+                            if (subVs?.length && subVs[0].isLiteral && subVs[0].value) valueMap.set(subIri, subVs[0].value)
+                        }
+                    }
+                }
+            }
+            result.set(orgIri, valueMap)
+        }
+    }
+
+    // Layer in target-field values: indirect each :targetPredicate through the
+    // org's literal predicate->value map from mapped.ttl. These are the values
+    // that flow OUT of transform nodes (and equal the source value for direct
+    // 1:1 mappings).
+    for (const orgIri of orgs) {
+        const preds = literalsByOrg.get(orgIri)
+        if (!preds) continue
+        if (!result.has(orgIri)) result.set(orgIri, new Map())
+        const valueMap = result.get(orgIri)
+        for (const [tfIri, predIri] of targetPredicateOf) {
+            const v = preds.get(predIri)
+            if (v) valueMap.set(tfIri, v)
+        }
+    }
+    return result
+}
+
 export function loadSources(ttl) {
     const quads = new Parser().parse(ttl)
     const order = []
