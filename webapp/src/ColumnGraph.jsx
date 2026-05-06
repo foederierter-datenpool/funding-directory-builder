@@ -12,7 +12,10 @@ function SideNode({ data, style }) {
     return (
         <div style={style}>
             <Handle type="target" position={targetPos} />
-            <div style={{ textAlign: "center", fontWeight: data.props?.length ? 600 : 400 }}>{data.label}</div>
+            <div title={data.label} style={{ textAlign: "center", fontWeight: data.props?.length ? 600 : 400, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", wordBreak: "break-word" }}>{data.label}</div>
+            {data.subtitle && (
+                <div title={data.subtitle} style={{ textAlign: "center", fontSize: 10, color: "#888", marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{data.subtitle}</div>
+            )}
             {data.props?.length > 0 && (
                 <div style={{ marginTop: 6, fontSize: 9, lineHeight: "13px", color: "#888" }}>
                     {data.props.map((p, i) => (
@@ -150,7 +153,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
             id: n.id,
             type: "sideNode",
             position: isVertical ? { x: pos.y, y: pos.x } : pos,
-            data: { label: n.label, props: n.props, targetPos, sourcePos },
+            data: { label: n.label, subtitle: n.subtitle, props: n.props, targetPos, sourcePos },
             style: {
                 background: colors[n.type] ?? "#eee",
                 border: "1px solid #888",
