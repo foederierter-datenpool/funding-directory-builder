@@ -1,0 +1,15 @@
+# Skolemize each caritas entry from its xyz:Guid into a stable cdp:caritas-<guid>
+# IRI carrying all of the entry's xyz:* properties. Drops the facade-x root
+# blank node and rdf:_N list that wraps the entries.
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?subj ?p ?o .
+}
+WHERE {
+    ?entry xyz:Guid ?guid .
+    ?entry ?p ?o .
+    BIND(IRI(CONCAT(STR(cdp:), "caritas-", ?guid)) AS ?subj)
+}

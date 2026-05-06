@@ -54,33 +54,39 @@
 
 # ---- Clean -------------------------------------------------------------
 
+:cleanCaritas a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftCaritas ;
+    :query  "src/clean/caritas.sparql" ;
+    :input  "data/ingest/lifted/caritas.ttl" ;
+    :output "data/pipeline/cleaned/caritas.ttl" .
+
 :cleanSozialplattform a :Clean, p-plan:Step ;
     p-plan:isPrecededBy :liftSozialplattform ;
-    :query  "src/clean/sp-normalize-whitespace.sparql" ;
+    :query  "src/clean/sozialplattform.sparql" ;
     :input  "data/ingest/lifted/sozialplattform.ttl" ;
-    :output "data/ingest/lifted/sozialplattform-clean.ttl" .
+    :output "data/pipeline/cleaned/sozialplattform.ttl" .
 
 :cleanDhs a :Clean, p-plan:Step ;
     p-plan:isPrecededBy :liftDhs ;
-    :query  "src/clean/dhs-html-to-plain.sparql" ;
+    :query  "src/clean/dhs.sparql" ;
     :input  "data/ingest/lifted/dhs.ttl" ;
-    :output "data/ingest/lifted/dhs-clean.ttl" .
+    :output "data/pipeline/cleaned/dhs.ttl" .
 
 # ---- Load --------------------------------------------------------------
 
 :loadCaritas a :Load, p-plan:Step ;
-    p-plan:isPrecededBy :liftCaritas ;
-    :input "data/ingest/lifted/caritas.ttl" ;
+    p-plan:isPrecededBy :cleanCaritas ;
+    :input "data/pipeline/cleaned/caritas.ttl" ;
     :graph "urn:source:caritas" .
 
 :loadSozialplattform a :Load, p-plan:Step ;
     p-plan:isPrecededBy :cleanSozialplattform ;
-    :input "data/ingest/lifted/sozialplattform-clean.ttl" ;
+    :input "data/pipeline/cleaned/sozialplattform.ttl" ;
     :graph "urn:source:sozialplattform" .
 
 :loadDhs a :Load, p-plan:Step ;
     p-plan:isPrecededBy :cleanDhs ;
-    :input "data/ingest/lifted/dhs-clean.ttl" ;
+    :input "data/pipeline/cleaned/dhs.ttl" ;
     :graph "urn:source:dhs" .
 
 # ---- Map ---------------------------------------------------------------

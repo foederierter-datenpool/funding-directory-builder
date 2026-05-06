@@ -1,0 +1,30 @@
+# Skolemize each sozialplattform entry from its xyz:offer_id into a stable
+# cdp:sp-<offer_id> IRI carrying all of the entry's xyz:* properties; preserve
+# the office_address sub-blank-node (with its xyz:address_line1 etc.) as a
+# blank node by emitting its properties via a UNION branch. Also collapses
+# runs of NBSP / regular whitespace to a single space — the source has stray
+# U+00A0 characters inside string literals (e.g. "Straße  18").
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?subj ?p ?cleaned .
+}
+WHERE {
+    {
+        ?entry xyz:offer_id ?id .
+        ?entry ?p ?o .
+        BIND(IRI(CONCAT(STR(cdp:), "sp-", ?id)) AS ?subj)
+    }
+    UNION
+    {
+        ?entry xyz:offer_id ?id .
+        ?entry xyz:office_address ?inner .
+        ?inner ?p ?o .
+        BIND(?inner AS ?subj)
+    }
+    BIND(IF(isLiteral(?o),
+            STRDT(REPLACE(STR(?o), "[\u00A0\\s]+", " "), datatype(?o)),
+            ?o) AS ?cleaned)
+}

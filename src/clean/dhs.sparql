@@ -5,6 +5,7 @@ PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
 PREFIX html:  <https://html.spec.whatwg.org/#>
 PREFIX dhs:   <https://civic-data.de/dhs#>
+PREFIX cdp:   <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
     ?iri a dhs:Entry ;
@@ -41,6 +42,6 @@ CONSTRUCT {
         BIND(dhs:department AS ?predicate)
     }
 
-    BIND(IRI(CONCAT(STR(dhs:), "entry-",
+    BIND(IRI(CONCAT(STR(cdp:), "dhs-",
         STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&"))) AS ?iri)
 }

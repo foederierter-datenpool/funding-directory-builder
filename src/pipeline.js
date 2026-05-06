@@ -389,6 +389,7 @@ for (const iri of sorted) {
         const quads = await sparqlConstruct(fs.readFileSync(abs(s.query), "utf8"), [src])
         await writeTurtle(abs(s.outPath), quads, {
             xyz: "http://sparql.xyz/facade-x/data/",
+            cdp: "https://civic-data.de/pipeline#",
             dhs: "https://civic-data.de/dhs#",
         })
 
