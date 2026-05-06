@@ -1,8 +1,7 @@
 # telefon carries labels like "Tel.: ", "Fax.: ", "Mobil: " that are stripped.
 
-PREFIX dhs:    <https://civic-data.de/dhs#>
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
 PREFIX schema: <http://schema.org/>
-PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
 PREFIX cdp:    <https://civic-data.de/pipeline#>
 
 INSERT {
@@ -10,20 +9,18 @@ INSERT {
         ?org
             cdp:fromSource   cdp:dhsSource ;
             schema:telephone ?phone        ;
-            schema:email     ?email        ;
-            foaf:homepage    ?website      .
+            schema:email     ?email        .
     }
 } WHERE {
     GRAPH <urn:source:dhs> {
         ?org cdp:fromSource cdp:dhsSource .
         OPTIONAL {
-            ?org dhs:telefon ?telRaw .
+            ?org xyz:telefon ?telRaw .
             BIND(REPLACE(?telRaw, "^(Tel|Fax|Mobil)\\.?:\\s*", "") AS ?phone)
         }
         OPTIONAL {
-            ?org dhs:email ?emailRaw .
+            ?org xyz:email ?emailRaw .
             BIND(REPLACE(?emailRaw, "\\(at\\)", "@") AS ?email)
         }
-        OPTIONAL { ?org dhs:website ?website }
     }
 }

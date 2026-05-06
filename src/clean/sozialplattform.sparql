@@ -13,16 +13,16 @@ PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
 
 CONSTRUCT {
     ?subj  ?p ?cleaned .
-    ?entry cdp:fromSource cdp:sozialplattformSource .
+    ?org cdp:fromSource cdp:sozialplattformSource .
 }
 WHERE {
     ?orig ?p ?o .
     FILTER NOT EXISTS { ?orig a fx:root }
     OPTIONAL {
         ?orig xyz:offer_id ?id .
-        BIND(IRI(CONCAT(STR(cdp:), "sp-", ?id)) AS ?entry)
+        BIND(IRI(CONCAT(STR(cdp:), "sp-", ?id)) AS ?org)
     }
-    BIND(COALESCE(?entry, ?orig) AS ?subj)
+    BIND(COALESCE(?org, ?orig) AS ?subj)
     BIND(IF(isLiteral(?o),
             STRDT(REPLACE(STR(?o), "[\u00A0\\s]+", " "), datatype(?o)),
             ?o) AS ?cleaned)

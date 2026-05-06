@@ -113,10 +113,11 @@
 
 :dhsSource a :Source ;
     rdfs:label  "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
-    :hasField   :dhs-detailLink, :dhs-email, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
+    :hasField   :dhs-detailLink, :dhs-email, :dhs-entryId, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-website .
 
 :dhs-detailLink a :SourceField ; :fieldPath "detailLink" .
 :dhs-email      a :SourceField ; :fieldPath "email"      .
+:dhs-entryId    a :SourceField ; :fieldPath "entryId"    .
 :dhs-name       a :SourceField ; :fieldPath "name"       .
 :dhs-plzort     a :SourceField ; :fieldPath "plzort"     .
 :dhs-strasse    a :SourceField ; :fieldPath "strasse"    .
@@ -126,7 +127,6 @@
 # ---- Transform nodes --------------------------------------------
 
 :caritasAddressNode a :TransformNode ; :script "src/transforms/caritas-address.sparql" .
-:dhsIdentityNode    a :TransformNode ; :script "src/transforms/dhs-identity.sparql" .
 :dhsAddressNode     a :TransformNode ; :script "src/transforms/dhs-address.sparql" .
 :dhsContactNode     a :TransformNode ; :script "src/transforms/dhs-contact.sparql" .
 
@@ -163,13 +163,14 @@
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:dhs> ;
     :hasFieldMapping
-        [ :from :dhs-detailLink           ; :to :t-identifier, :t-detailUrl ; :via :dhsIdentityNode ] ,
-        [ :from :dhs-name                 ; :to :t-name                     ; :via :dhsIdentityNode ] ,
+        [ :from :dhs-entryId              ; :to :t-identifier                                       ] ,
+        [ :from :dhs-name                 ; :to :t-name                                             ] ,
+        [ :from :dhs-detailLink           ; :to :t-detailUrl                                        ] ,
+        [ :from :dhs-website              ; :to :t-homepage                                         ] ,
         [ :from :dhs-strasse              ; :to :t-streetAddress            ; :via :dhsAddressNode  ] ,
         [ :from :dhs-plzort               ; :to :t-postalCode, :t-locality  ; :via :dhsAddressNode  ] ,
         [ :from :dhs-telefon              ; :to :t-telephone                ; :via :dhsContactNode  ] ,
-        [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] ,
-        [ :from :dhs-website              ; :to :t-homepage                 ; :via :dhsContactNode  ] .
+        [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] .
 
 # ---- Match --------------------------------------------------------------
 

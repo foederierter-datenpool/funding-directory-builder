@@ -1,16 +1,17 @@
-# Reshape SPARQL-Anything's facade-x HTML lifting into flat dhs:Entry records.
+# Reshape SPARQL-Anything's facade-x HTML lifting into flat per-entry records.
 # %5Bentry%5D= is URL-encoded "[entry]=", the entry ID key in DHS detail links.
 
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
 PREFIX html:  <https://html.spec.whatwg.org/#>
-PREFIX dhs:   <https://civic-data.de/dhs#>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
 PREFIX cdp:   <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
-    ?iri cdp:fromSource cdp:dhsSource ;
-        dhs:name       ?name ;
-        dhs:detailLink ?detailHref ;
+    ?org cdp:fromSource cdp:dhsSource ;
+        xyz:entryId    ?entryId ;
+        xyz:name       ?name ;
+        xyz:detailLink ?detailHref ;
         ?predicate     ?value .
 } WHERE {
     ?entry a xhtml:li .
@@ -27,7 +28,7 @@ CONSTRUCT {
         ?leafSpan a xhtml:span ;
                   xhtml:class ?className ;
                   html:innerText ?value .
-        BIND(IRI(CONCAT(STR(dhs:), ?className)) AS ?predicate)
+        BIND(IRI(CONCAT(STR(xyz:), ?className)) AS ?predicate)
     }
     UNION
     {
@@ -39,9 +40,9 @@ CONSTRUCT {
         ?titleP (rdf:_2|rdf:_3|rdf:_4|rdf:_5) ?value .
         FILTER(isLiteral(?value))
         FILTER(STRLEN(STR(?value)) > 0)
-        BIND(dhs:department AS ?predicate)
+        BIND(xyz:department AS ?predicate)
     }
 
-    BIND(IRI(CONCAT(STR(cdp:), "dhs-",
-        STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&"))) AS ?iri)
+    BIND(STRBEFORE(STRAFTER(STR(?detailHref), "%5Bentry%5D="), "&") AS ?entryId)
+    BIND(IRI(CONCAT(STR(cdp:), "dhs-", ?entryId)) AS ?org)
 }

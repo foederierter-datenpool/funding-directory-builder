@@ -13,8 +13,14 @@ const abs = (p) => path.join(ROOT, p)
 const defStore = storeFromTurtles(["config/federation.ttl", "config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
 
 const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
+    // Dedupe via a Store and sort by subject so the Writer can emit
+    // grouped "subject p1 o1; p2 o2." blocks instead of repeating subjects.
+    const store = newStore()
+    for (const q of quads) store.addQuad(df.quad(q.subject, q.predicate, q.object))
+    const dedup = store.getQuads(null, null, null, null)
+        .sort((a, b) => a.subject.value.localeCompare(b.subject.value))
     const writer = new Writer({ prefixes })
-    for (const q of quads) writer.addQuad(df.quad(q.subject, q.predicate, q.object))
+    for (const q of dedup) writer.addQuad(q)
     writer.end((err, result) => {
         if (err) return reject(err)
         fs.mkdirSync(path.dirname(filePath), { recursive: true })
@@ -393,7 +399,6 @@ for (const iri of sorted) {
         await writeTurtle(abs(s.outPath), quads, {
             xyz: "http://sparql.xyz/facade-x/data/",
             cdp: "https://civic-data.de/pipeline#",
-            dhs: "https://civic-data.de/dhs#",
         })
 
     } else if (s.type === "Load") {

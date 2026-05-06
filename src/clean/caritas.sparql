@@ -9,14 +9,14 @@ PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
 
 CONSTRUCT {
     ?subj  ?p ?o .
-    ?entry cdp:fromSource cdp:caritasSource .
+    ?org cdp:fromSource cdp:caritasSource .
 }
 WHERE {
     ?orig ?p ?o .
     FILTER NOT EXISTS { ?orig a fx:root }
     OPTIONAL {
         ?orig xyz:Guid ?guid .
-        BIND(IRI(CONCAT(STR(cdp:), "caritas-", ?guid)) AS ?entry)
+        BIND(IRI(CONCAT(STR(cdp:), "caritas-", ?guid)) AS ?org)
     }
-    BIND(COALESCE(?entry, ?orig) AS ?subj)
+    BIND(COALESCE(?org, ?orig) AS ?subj)
 }
