@@ -34,10 +34,10 @@ const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject)
 const rows = await sparqlSelect(`
     PREFIX :       <https://civic-data.de/pipeline#>
     PREFIX p-plan: <http://purl.org/net/p-plan#>
-    SELECT ?step ?type ?query ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries ?pred WHERE {
+    SELECT ?step ?type ?cleanQuery ?graph ?inPath ?outPath ?provOutPath ?directMappingQueries ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Clean, :Load, :Map, :Match, :Merge))
-        OPTIONAL { ?step :query                ?query                }
+        OPTIONAL { ?step :cleanQuery          ?cleanQuery                }
         OPTIONAL { ?step :graph                ?graph                }
         OPTIONAL { ?step :input                ?inPath               }
         OPTIONAL { ?step :output               ?outPath              }
@@ -52,7 +52,7 @@ for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
-            query: r.query,
+            cleanQuery: r.cleanQuery,
             graph: r.graph,
             inPath: r.inPath,
             outPath: r.outPath,
@@ -395,7 +395,7 @@ for (const iri of sorted) {
     if (s.type === "Clean") {
         console.log(`clean  ${s.inPath} → ${s.outPath}`)
         const src   = storeFromTurtles([fs.readFileSync(abs(s.inPath), "utf8")])
-        const quads = await sparqlConstruct(fs.readFileSync(abs(s.query), "utf8"), [src])
+        const quads = await sparqlConstruct(fs.readFileSync(abs(s.cleanQuery), "utf8"), [src])
         await writeTurtle(abs(s.outPath), quads, {
             xyz: "http://sparql.xyz/facade-x/data/",
             cdp: "https://civic-data.de/pipeline#",
