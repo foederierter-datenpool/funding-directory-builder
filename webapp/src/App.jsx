@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
+import Directory from "./Directory.jsx"
 import Download from "./Download.jsx"
 import Pipeline from "./Pipeline.jsx"
 import MapGraph from "./MapGraph.jsx"
@@ -34,6 +35,7 @@ function Nav() {
                         <NavLink to="/merge">Merge</NavLink>
                     </div>
                 )}
+                <NavLink to="/directory">Directory</NavLink>
                 <NavLink to="/query">Query</NavLink>
                 <NavLink to="/download">Download</NavLink>
                 <NavLink to="/apis">APIs</NavLink>
@@ -74,6 +76,7 @@ export default function App() {
                         <Route path="/map" element={<MapGraph />} />
                         <Route path="/match" element={<MatchGraph />} />
                         <Route path="/merge" element={<MergeTables />} />
+                        <Route path="/directory" element={<Directory />} />
                         <Route path="/query" element={<Query />} />
                         <Route path="/download" element={<Download />} />
                         <Route path="/apis" element={<Apis />} />
