@@ -176,7 +176,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
     return { flowNodes, flowEdges }
 }
 
-export default function ColumnGraph({ nodes, edges, columns, colors, centerColumns, direction = "horizontal", colSpacing = DEFAULT_COL_SPACING, siblingGap = DEFAULT_SIBLING_GAP, nodeWidth = DEFAULT_NODE_WIDTH }) {
+export default function ColumnGraph({ nodes, edges, columns, colors, centerColumns, direction = "horizontal", colSpacing = DEFAULT_COL_SPACING, siblingGap = DEFAULT_SIBLING_GAP, nodeWidth = DEFAULT_NODE_WIDTH, onNodeClick }) {
     const { flowNodes, flowEdges } = useMemo(() => toFlow({ nodes, edges }, columns, colors, centerColumns, direction, colSpacing, siblingGap, nodeWidth), [nodes, edges, columns, colors, centerColumns, direction, colSpacing, siblingGap, nodeWidth])
     const [rfNodes, , onNodesChange] = useNodesState(flowNodes)
     const [rfEdges, setRfEdges, onEdgesChange] = useEdgesState(flowEdges)
@@ -214,6 +214,7 @@ export default function ColumnGraph({ nodes, edges, columns, colors, centerColum
                 onEdgesChange={onEdgesChange}
                 onNodeDragStart={(_, n) => setDraggingId(n.id)}
                 onNodeDragStop={() => setDraggingId(null)}
+                onNodeClick={onNodeClick}
                 nodeTypes={nodeTypes}
                 edgeTypes={edgeTypes}
                 onInit={onInit}
