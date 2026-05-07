@@ -141,6 +141,7 @@ export default function MapGraph() {
     const [dataFlow, setDataFlow] = useState(false)
     const [showUnmapped, setShowUnmapped] = useState(false)
     const [showAllTargets, setShowAllTargets] = useState(false)
+    const [showDirectFlows, setShowDirectFlows] = useState(false)
 
     const { nodes, edges: rawEdges } = useMemo(() => {
         const hiddenSources = new Set(SOURCES.filter(s => !visible.has(s.iri)).map(s => s.iri))
@@ -158,13 +159,16 @@ export default function MapGraph() {
             // post-transform target field value (the value that lands in `to`).
             // The label tints with the from-node's column color so labels read
             // as belonging to the same "moment" in the transformation.
+            // Direct (no-:via) source-field → target-field edges are gated
+            // behind the "Also show 1:1 flows" toggle.
+            if (e.direct && !showDirectFlows) return e
             const fromType = typeOf.get(e.from)
             const v = fromType === "TransformNode" ? valueByField.get(e.to)
                 : fromType === "SourceField"       ? valueByField.get(e.from)
                 : undefined
             return v ? { ...e, value: v, valueBg: VALUE_LABEL_BG[fromType] } : e
         })
-    }, [rawEdges, nodes, valueByField])
+    }, [rawEdges, nodes, valueByField, showDirectFlows])
 
     // Remount when the visible node set changes (sources or unmapped-fields
     // toggle). Org / data-flow changes only update edge labels in place.
@@ -221,6 +225,10 @@ export default function MapGraph() {
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: oneActive ? "#000" : "#bbb", cursor: oneActive ? "pointer" : "not-allowed" }} title={oneActive ? "" : "Active only when exactly one source is selected"}>
                     <input type="checkbox" disabled={!oneActive} checked={dataFlow} onChange={(e) => setDataFlow(e.target.checked)} />
                     Show data flow
+                </label>
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: enabled ? "#000" : "#bbb", cursor: enabled ? "pointer" : "not-allowed" }} title={enabled ? "" : "Enable Show data flow first"}>
+                    <input type="checkbox" disabled={!enabled} checked={showDirectFlows} onChange={(e) => setShowDirectFlows(e.target.checked)} />
+                    Also show 1:1 flows
                 </label>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
                     <button disabled={!enabled} onClick={() => cycle(-1)} title={enabled ? "Previous" : disabledHint} style={iconBtnStyle}><SkipBack size={13} fill="currentColor" /></button>

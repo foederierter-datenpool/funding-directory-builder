@@ -181,8 +181,8 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
     }
 
     const edges = []
-    const push = (from, to, label) => {
-        if (nodeSet.has(from) && nodeSet.has(to)) edges.push({ from, to, label })
+    const push = (from, to, label, extra) => {
+        if (nodeSet.has(from) && nodeSet.has(to)) edges.push({ from, to, label, ...extra })
     }
 
     // :from and :to on a field-mapping blank node can each carry multiple
@@ -210,11 +210,11 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
     // Deduplicate routed edges: the same (source, via) or (via, target) pair
     // can appear across multiple field-mappings sharing one transform node.
     const seen = new Set()
-    const pushOnce = (f, t, label) => {
+    const pushOnce = (f, t, label, extra) => {
         const k = `${f}|${label}|${t}`
         if (seen.has(k)) return
         seen.add(k)
-        push(f, t, label)
+        push(f, t, label, extra)
     }
     for (const q of quads) {
         if (q.predicate.value === `${NS}hasFieldMapping`) {
@@ -225,7 +225,7 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
                 for (const f of froms) pushOnce(f, via, "mapsTo")
                 for (const t of tos)   pushOnce(via, t, "mapsTo")
             } else {
-                for (const f of froms) for (const t of tos) pushOnce(f, t, "mapsTo")
+                for (const f of froms) for (const t of tos) pushOnce(f, t, "mapsTo", { direct: true })
             }
         }
     }
