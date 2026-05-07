@@ -77,6 +77,10 @@ const [{ logPath: LOG_PATH }] = await sparqlSelect(`
     PREFIX : <${NS}>
     SELECT ?logPath WHERE { :pipeline :ingestLog ?logPath }`, [defStore])
 
+const PLZS = (await sparqlSelect(`
+    PREFIX : <${NS}>
+    SELECT ?plz WHERE { :pipeline :plz ?plz } ORDER BY ?plz`, [defStore])).map(r => r.plz)
+
 const runStart = new Date()
 const harvests = []
 
@@ -85,9 +89,9 @@ for (const iri of sorted) {
 
     if (s.type === "Fetch") {
         const outAbs = abs(s.outDir ?? s.outPath)
-        console.log(`fetch  ${s.fetchUrl} → ${s.outDir ?? s.outPath}`)
+        console.log(`fetch  ${s.fetchUrl} (PLZs ${PLZS.join(", ")}) → ${s.outDir ?? s.outPath}`)
         fs.mkdirSync(path.dirname(outAbs), { recursive: true })
-        run("node", [abs(s.script), outAbs, s.fetchUrl])
+        run("node", [abs(s.script), outAbs, s.fetchUrl, PLZS.join(",")])
         if (s.fromSource) harvests.push({ source: s.fromSource, time: new Date().toISOString() })
 
     } else if (s.type === "Lift") {

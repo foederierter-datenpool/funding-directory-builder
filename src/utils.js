@@ -36,4 +36,4 @@ const fetchPostalCodesFromWikidata = async () => {
     for (const b of results.bindings) console.log(b.postalCode.value)
 }
 
-await fetchPostalCodesFromWikidata()
+// await fetchPostalCodesFromWikidata()

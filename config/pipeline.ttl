@@ -6,7 +6,8 @@
 
 :pipeline a p-plan:Plan ;
     rdfs:label "Directory Federation Pipeline" ;
-    :ingestLog "data/ingest/ingest-log.ttl" .
+    :ingestLog "data/ingest/ingest-log.ttl" ;
+    :plz       "10115", "10551", "10559" .
 
 # ---- Fetch -------------------------------------------------------------
 
@@ -15,14 +16,14 @@
     :fetchUrl   "https://www.caritas.de/Api/search/searchbyquery" ;
     :format     "json" ;
     :script     "src/fetchers/caritas.js" ;
-    :output     "data/ingest/raw/caritas.json" .
+    :outputDir  "data/ingest/raw/caritas/" .
 
 :fetchSozialplattform a :Fetch, p-plan:Step ;
     :fromSource :sozialplattformSource ;
     :fetchUrl   "https://sozialplattform.de/content/de/api/v1/consultation/search" ;
     :format     "json" ;
     :script     "src/fetchers/sozialplattform.js" ;
-    :output     "data/ingest/raw/sozialplattform.json" .
+    :outputDir  "data/ingest/raw/sozialplattform/" .
 
 :fetchDhs a :Fetch, p-plan:Step ;
     :fromSource :dhsSource ;
@@ -36,14 +37,14 @@
 :liftCaritas a :Lift, p-plan:Step ;
     p-plan:isPrecededBy :fetchCaritas ;
     :liftQuery "src/lift/json.sparql" ;
-    :input     "data/ingest/raw/caritas.json" ;
-    :output    "data/ingest/lifted/caritas.ttl" .
+    :inputDir  "data/ingest/raw/caritas/" ;
+    :outputDir "data/ingest/lifted/caritas/" .
 
 :liftSozialplattform a :Lift, p-plan:Step ;
     p-plan:isPrecededBy :fetchSozialplattform ;
     :liftQuery "src/lift/json.sparql" ;
-    :input     "data/ingest/raw/sozialplattform.json" ;
-    :output    "data/ingest/lifted/sozialplattform.ttl" .
+    :inputDir  "data/ingest/raw/sozialplattform/" ;
+    :outputDir "data/ingest/lifted/sozialplattform/" .
 
 :liftDhs a :Lift, p-plan:Step ;
     p-plan:isPrecededBy :fetchDhs ;
@@ -57,13 +58,13 @@
 :cleanCaritas a :Clean, p-plan:Step ;
     p-plan:isPrecededBy :liftCaritas ;
     :cleanQuery "src/clean/caritas.sparql" ;
-    :input      "data/ingest/lifted/caritas.ttl" ;
+    :inputDir   "data/ingest/lifted/caritas/" ;
     :output     "data/pipeline/cleaned/caritas.ttl" .
 
 :cleanSozialplattform a :Clean, p-plan:Step ;
     p-plan:isPrecededBy :liftSozialplattform ;
     :cleanQuery "src/clean/sozialplattform.sparql" ;
-    :input      "data/ingest/lifted/sozialplattform.ttl" ;
+    :inputDir   "data/ingest/lifted/sozialplattform/" ;
     :output     "data/pipeline/cleaned/sozialplattform.ttl" .
 
 :cleanDhs a :Clean, p-plan:Step ;

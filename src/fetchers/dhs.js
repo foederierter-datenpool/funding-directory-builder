@@ -3,29 +3,31 @@ import fs from "fs"
 
 const OUT_DIR = process.argv[2]
 const BASE_URL = process.argv[3]
-const PLZ = "10115"
+const PLZS = process.argv[4].split(",")
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-const searchParams = new URLSearchParams({
-    "tx_wwdhseinrichtung2_fe1[action]":               "search",
-    "tx_wwdhseinrichtung2_fe1[entrys][currentPage]":  "1",
-    "tx_wwdhseinrichtung2_fe1[plzort]":               PLZ,
-})
-const searchUrl = `${BASE_URL}?${searchParams}`
-
-console.log(`Discovering DHS entries from ${searchUrl}`)
-const indexHtml = await (await fetch(searchUrl)).text()
-
-const detailRe = /href="([^"]*action%5D=show[^"]*entry%5D=(\d+)[^"]*)"/g
 const detailUrls = new Map()
-for (const m of indexHtml.matchAll(detailRe)) {
-    if (detailUrls.has(m[2])) continue
-    const href = m[1].replace(/&amp;/g, "&")
-    detailUrls.set(m[2], href.startsWith("http") ? href : new URL(href, BASE_URL).toString())
+for (const plz of PLZS) {
+    const params = new URLSearchParams({
+        "tx_wwdhseinrichtung2_fe1[action]":              "search",
+        "tx_wwdhseinrichtung2_fe1[entrys][currentPage]": "1",
+        "tx_wwdhseinrichtung2_fe1[plzort]":              plz,
+    })
+    const searchUrl = `${BASE_URL}?${params}`
+    const indexHtml = await (await fetch(searchUrl)).text()
+    const detailRe = /href="([^"]*action%5D=show[^"]*entry%5D=(\d+)[^"]*)"/g
+    let added = 0
+    for (const m of indexHtml.matchAll(detailRe)) {
+        if (detailUrls.has(m[2])) continue
+        const href = m[1].replace(/&amp;/g, "&")
+        detailUrls.set(m[2], href.startsWith("http") ? href : new URL(href, BASE_URL).toString())
+        added++
+    }
+    console.log(`  ${plz}: ${added} new entries (running total: ${detailUrls.size})`)
 }
 
-console.log(`Found ${detailUrls.size} entries; fetching details (3 in parallel)…`)
+console.log(`Fetching ${detailUrls.size} unique detail pages (3 in parallel)…`)
 fs.mkdirSync(OUT_DIR, { recursive: true })
 
 const queue = [...detailUrls.entries()]

@@ -1,12 +1,13 @@
+import path from "path"
 import fs from "fs"
 
-const OUT = process.argv[2]
+const OUT_DIR = process.argv[2]
 const BASE_URL = process.argv[3]
+const PLZS = process.argv[4].split(",")
 const PER_PAGE = 100
-const PLACE = "10115"
 
-async function fetchPage(page) {
-    const url = `${BASE_URL}?${PLACE ? ("place=" + PLACE + "&"): ""}page=${page}&itemsPerPage=${PER_PAGE}`
+const fetchPage = async (plz, page) => {
+    const url = `${BASE_URL}?place=${plz}&page=${page}&itemsPerPage=${PER_PAGE}`
     const res = await fetch(url)
     if (!res.ok) throw new Error(`Page ${page}: HTTP ${res.status}`)
     const json = await res.json()
@@ -14,17 +15,17 @@ async function fetchPage(page) {
     return json.data
 }
 
-const first = await fetchPage(1)
-const totalPages = Math.ceil(first.total / PER_PAGE)
-console.log(`Total: ${first.total} items, ${totalPages} pages`)
+fs.mkdirSync(OUT_DIR, { recursive: true })
 
-const allItems = [...first.items]
-
-for (let page = 2; page <= totalPages; page ++) {
-    const data = await fetchPage(page)
-    allItems.push(...data.items)
-    console.log(`Fetched page ${page}/${totalPages}`)
+for (const plz of PLZS) {
+    const first = await fetchPage(plz, 1)
+    const totalPages = Math.ceil(first.total / PER_PAGE)
+    const allItems = [...first.items]
+    for (let page = 2; page <= totalPages; page++) {
+        const data = await fetchPage(plz, page)
+        allItems.push(...data.items)
+    }
+    const outPath = path.join(OUT_DIR, `${plz}.json`)
+    fs.writeFileSync(outPath, JSON.stringify(allItems, null, 2))
+    console.log(`  ${plz}: ${allItems.length} items (${totalPages} pages) → ${outPath}`)
 }
-
-fs.writeFileSync(OUT, JSON.stringify(allItems, null, 2))
-console.log(`Wrote ${allItems.length} items to ${OUT}`)
