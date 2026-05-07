@@ -44,8 +44,11 @@ function readTargetFields() {
         .filter((f) => f.predicate !== SCHEMA_IDENTIFIER)
 }
 
-const TARGET_FIELDS = readTargetFields()
 const FINAL_QUADS = new Parser().parse(finalTtl)
+// Only offer target fields that actually carry data in final.ttl —
+// declared-but-unmapped fields would just download as empty columns.
+const PREDICATES_WITH_DATA = new Set(FINAL_QUADS.map((q) => q.predicate.value))
+const TARGET_FIELDS = readTargetFields().filter((f) => PREDICATES_WITH_DATA.has(f.predicate))
 
 const FORMATS = [
     { value: "ttl",    label: "Turtle (.ttl)",     ext: "ttl",    mime: "text/turtle" },
@@ -137,16 +140,14 @@ export default function Download() {
         <div className="page" style={{ fontSize: 14 }}>
             <h3 style={{ margin: "0 0 0.75rem" }}>Federated directory</h3>
             <div style={{ marginBottom: "0.5rem" }}>Fields to include:</div>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", columnGap: "1rem", rowGap: "0.25rem" }}>
                 {TARGET_FIELDS.map((f) => (
-                    <li key={f.predicate}>
-                        <label style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
-                            <input type="checkbox" checked={selected.has(f.predicate)} onChange={() => toggle(f.predicate)} />
-                            <code>{f.label}</code>
-                        </label>
-                    </li>
+                    <label key={f.predicate} style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
+                        <input type="checkbox" checked={selected.has(f.predicate)} onChange={() => toggle(f.predicate)} />
+                        <code>{f.label}</code>
+                    </label>
                 ))}
-            </ul>
+            </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginTop: "1rem" }}>
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
                     Format:
