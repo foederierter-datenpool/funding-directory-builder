@@ -164,7 +164,7 @@ export function loadSources(ttl) {
     return order.map((iri) => ({ iri, label: labelOf.get(iri) ?? localName(iri) }))
 }
 
-export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) {
+export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFields = true, hiddenSources } = {}) {
     const quads = new Parser().parse(ttl)
 
     const typeOf = new Map()
@@ -250,22 +250,27 @@ export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) 
         for (const iri of [...nodeSet]) if (!reachable.has(iri)) nodeSet.delete(iri)
     }
 
-    // Mark SourceField/SubField nodes that don't end up mapped to any target
-    // field; parents are considered mapped when any of their sub-fields is.
-    // Unmapped fields are either hidden or tagged dashed for the caller to style.
-    const mapped = new Set()
-    for (const e of edges) if (e.label === "mapsTo") mapped.add(e.from)
-    for (const e of edges) if (e.label === "hasSubField" && mapped.has(e.to)) mapped.add(e.from)
+    // Track mapped-ness on both ends of mapsTo edges. Source fields are mapped
+    // when they appear as `from`; target fields when they appear as `to`. Sub-
+    // field parents inherit mapped-ness from any of their sub-fields. Unmapped
+    // nodes are either hidden or tagged dashed for the caller to style.
+    const mappedSources = new Set()
+    const mappedTargets = new Set()
+    for (const e of edges) if (e.label === "mapsTo") { mappedSources.add(e.from); mappedTargets.add(e.to) }
+    for (const e of edges) if (e.label === "hasSubField" && mappedSources.has(e.to)) mappedSources.add(e.from)
     const isField = (iri) => {
         const ts = typeOf.get(iri) ?? []
         return ts.includes(`${NS}SourceField`) || ts.includes(SUB_FIELD)
     }
+    const isTargetField = (iri) => (typeOf.get(iri) ?? []).includes(`${NS}TargetField`)
 
-    let visibleEdges = edges
     if (hideUnmappedFields) {
-        for (const iri of [...nodeSet]) if (isField(iri) && !mapped.has(iri)) nodeSet.delete(iri)
-        visibleEdges = edges.filter((e) => nodeSet.has(e.from) && nodeSet.has(e.to))
+        for (const iri of [...nodeSet]) if (isField(iri) && !mappedSources.has(iri)) nodeSet.delete(iri)
     }
+    if (hideUnmappedTargetFields) {
+        for (const iri of [...nodeSet]) if (isTargetField(iri) && !mappedTargets.has(iri)) nodeSet.delete(iri)
+    }
+    const visibleEdges = edges.filter((e) => nodeSet.has(e.from) && nodeSet.has(e.to))
 
     const labelFor = (iri) => {
         const tp = targetPredicate.get(iri)
@@ -279,7 +284,7 @@ export function loadMap(ttl, { hideUnmappedFields = true, hiddenSources } = {}) 
         id: iri,
         label: labelFor(iri),
         type: typeFor(iri),
-        ...(isField(iri) && !mapped.has(iri) && { dashed: true }),
+        ...(((isField(iri) && !mappedSources.has(iri)) || (isTargetField(iri) && !mappedTargets.has(iri))) && { dashed: true }),
     }))
     return { nodes, edges: visibleEdges }
 }

@@ -140,11 +140,12 @@ export default function MapGraph() {
     const [selectedOrg, setSelectedOrg] = useState(null)
     const [dataFlow, setDataFlow] = useState(false)
     const [showUnmapped, setShowUnmapped] = useState(false)
+    const [showAllTargets, setShowAllTargets] = useState(false)
 
     const { nodes, edges: rawEdges } = useMemo(() => {
         const hiddenSources = new Set(SOURCES.filter(s => !visible.has(s.iri)).map(s => s.iri))
-        return loadMap(ttl, { hiddenSources, hideUnmappedFields: !showUnmapped })
-    }, [visible, showUnmapped])
+        return loadMap(ttl, { hiddenSources, hideUnmappedFields: !showUnmapped, hideUnmappedTargetFields: !showAllTargets })
+    }, [visible, showUnmapped, showAllTargets])
 
     const oneActive = visible.size === 1
     const enabled = dataFlow && oneActive
@@ -167,7 +168,7 @@ export default function MapGraph() {
 
     // Remount when the visible node set changes (sources or unmapped-fields
     // toggle). Org / data-flow changes only update edge labels in place.
-    const graphKey = useMemo(() => `${[...visible].sort().join("|")}::${showUnmapped ? "all" : "mapped"}`, [visible, showUnmapped])
+    const graphKey = useMemo(() => `${[...visible].sort().join("|")}::${showUnmapped ? "all" : "mapped"}::${showAllTargets ? "allT" : "mappedT"}`, [visible, showUnmapped, showAllTargets])
 
     const activeSource = oneActive ? [...visible][0] : null
     const orgs = activeSource ? (ORGS_BY_SOURCE.get(activeSource) ?? []) : []
@@ -212,6 +213,10 @@ export default function MapGraph() {
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
                     <input type="checkbox" checked={showUnmapped} onChange={(e) => setShowUnmapped(e.target.checked)} />
                     Show all source fields
+                </label>
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+                    <input type="checkbox" checked={showAllTargets} onChange={(e) => setShowAllTargets(e.target.checked)} />
+                    Show all target fields
                 </label>
                 <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", color: oneActive ? "#000" : "#bbb", cursor: oneActive ? "pointer" : "not-allowed" }} title={oneActive ? "" : "Active only when exactly one source is selected"}>
                     <input type="checkbox" disabled={!oneActive} checked={dataFlow} onChange={(e) => setDataFlow(e.target.checked)} />
