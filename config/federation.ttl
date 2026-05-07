@@ -17,23 +17,44 @@
 # ---- Target schema ------------------------------------------------------
 
 :targetSchema a :TargetSchema ;
-    :hasTargetField :t-identifier, :t-name, :t-streetAddress, :t-postalCode, :t-locality, :t-country,
-                    :t-telephone, :t-email, :t-homepage, :t-detailUrl, :t-category .
+    :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
+                    :t-streetAddress, :t-postalCode, :t-locality, :t-country, :t-areaServed,
+                    :t-telephone, :t-email, :t-homepage, :t-detailUrl,
+                    :t-category, :t-availableService, :t-audience, :t-accessibilitySummary,
+                    :t-openingHours, :t-parentOrganization,
+                    :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
 
-:t-identifier    a :TargetField ; :targetPredicate schema:identifier .
-:t-name          a :TargetField ; :targetPredicate schema:name .
+:t-identifier           a :TargetField ; :targetPredicate schema:identifier .
+:t-name                 a :TargetField ; :targetPredicate schema:name .
+:t-alternateName        a :TargetField ; :targetPredicate schema:alternateName .
+:t-description          a :TargetField ; :targetPredicate schema:description .
 
-:t-streetAddress a :TargetField ; :targetPredicate schema:streetAddress .
-:t-postalCode    a :TargetField ; :targetPredicate schema:postalCode .
-:t-locality      a :TargetField ; :targetPredicate schema:addressLocality .
-:t-country       a :TargetField ; :targetPredicate schema:addressCountry .
+:t-streetAddress        a :TargetField ; :targetPredicate schema:streetAddress .
+:t-postalCode           a :TargetField ; :targetPredicate schema:postalCode .
+:t-locality             a :TargetField ; :targetPredicate schema:addressLocality .
+:t-country              a :TargetField ; :targetPredicate schema:addressCountry .
+:t-areaServed           a :TargetField ; :targetPredicate schema:areaServed .
 
-:t-telephone     a :TargetField ; :targetPredicate schema:telephone .
-:t-email         a :TargetField ; :targetPredicate schema:email .
-:t-homepage      a :TargetField ; :targetPredicate foaf:homepage .
-:t-detailUrl     a :TargetField ; :targetPredicate schema:url .
+:t-telephone            a :TargetField ; :targetPredicate schema:telephone .
+:t-email                a :TargetField ; :targetPredicate schema:email .
+:t-homepage             a :TargetField ; :targetPredicate foaf:homepage .
+:t-detailUrl            a :TargetField ; :targetPredicate schema:mainEntityOfPage .
 
-:t-category      a :TargetField ; :targetPredicate dct:subject .
+:t-category             a :TargetField ; :targetPredicate schema:category .
+:t-availableService     a :TargetField ; :targetPredicate schema:availableService .
+:t-audience             a :TargetField ; :targetPredicate schema:audience .
+:t-accessibilitySummary a :TargetField ; :targetPredicate schema:accessibilitySummary .
+:t-openingHours         a :TargetField ; :targetPredicate schema:openingHours .
+:t-parentOrganization   a :TargetField ; :targetPredicate schema:parentOrganization .
+
+# Temporal fields, all unmapped for now. :t-harvestedAt would carry a
+# pipeline-side timestamp; the :t-source* trio invites sources to start
+# emitting their own create / modify / last-checked timestamps as part of
+# their data-audit processes.
+:t-harvestedAt          a :TargetField ; :targetPredicate prov:generatedAtTime .
+:t-sourceCreated        a :TargetField ; :targetPredicate dct:created .
+:t-sourceModified       a :TargetField ; :targetPredicate dct:modified .
+:t-sourceReviewed       a :TargetField ; :targetPredicate schema:lastReviewed .
 
 # ---- Sources ------------------------------------------------------------
 
@@ -148,40 +169,55 @@
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:caritas> ;
     :hasFieldMapping
-        [ :from :caritas-Guid   ; :to :t-identifier                                                       ] ,
-        [ :from :caritas-Title  ; :to :t-name                                                             ] ,
-        [ :from :caritas-Link   ; :to :t-detailUrl                                                        ] ,
-        [ :from :caritas-Teaser ; :to :t-streetAddress, :t-postalCode, :t-locality ;
-                                  :via :caritasAddressNode                                                ] .
+        [ :from :caritas-Guid     ; :to :t-identifier                                                     ] ,
+        [ :from :caritas-Title    ; :to :t-name                                                           ] ,
+        [ :from :caritas-SubTitle ; :to :t-alternateName                                                  ] ,
+        [ :from :caritas-LeadLine ; :to :t-category                                                       ] ,
+        [ :from :caritas-Link     ; :to :t-detailUrl                                                      ] ,
+        [ :from :caritas-Teaser   ; :to :t-streetAddress, :t-postalCode, :t-locality ;
+                                    :via :caritasAddressNode                                              ] .
 
 :sozialplattform-mapping a :Mapping ;
     :fromSource    :sozialplattformSource ;
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:sozialplattform> ;
     :hasFieldMapping
-        [ :from :sp-offer_id                     ; :to :t-identifier    ] ,
-        [ :from :sp-office_title                 ; :to :t-name          ] ,
-        [ :from :sp-offer_type                   ; :to :t-category      ] ,
-        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress ] ,
-        [ :from :sp-office_address-postal_code   ; :to :t-postalCode    ] ,
-        [ :from :sp-office_address-locality      ; :to :t-locality      ] ,
-        [ :from :sp-office_address-country_code  ; :to :t-country       ] ,
-        [ :from :sp-office_phone                 ; :to :t-telephone     ] ,
-        [ :from :sp-office_email                 ; :to :t-email         ] .
+        [ :from :sp-offer_id                     ; :to :t-identifier       ] ,
+        [ :from :sp-office_title                 ; :to :t-name             ] ,
+        [ :from :sp-offer_title                  ; :to :t-availableService ] ,
+        [ :from :sp-offer_type                   ; :to :t-category         ] ,
+        [ :from :sp-offer_chat_topic             ; :to :t-audience         ] ,
+        [ :from :sp-offer_service_area           ; :to :t-areaServed       ] ,
+        [ :from :sp-office_opening_hours         ; :to :t-openingHours     ] ,
+        [ :from :sp-office_opening_hours_notes   ; :to :t-openingHours     ] ,
+        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress    ] ,
+        [ :from :sp-office_address-postal_code   ; :to :t-postalCode       ] ,
+        [ :from :sp-office_address-locality      ; :to :t-locality         ] ,
+        [ :from :sp-office_address-country_code  ; :to :t-country          ] ,
+        [ :from :sp-office_phone                 ; :to :t-telephone        ] ,
+        [ :from :sp-office_email                 ; :to :t-email            ] .
 
 :dhs-mapping a :Mapping ;
     :fromSource    :dhsSource ;
     :toTarget      :targetSchema ;
     :sourceGraph   <urn:source:dhs> ;
     :hasFieldMapping
-        [ :from :dhs-entryId              ; :to :t-identifier                                       ] ,
-        [ :from :dhs-name                 ; :to :t-name                                             ] ,
-        [ :from :dhs-detailLink           ; :to :t-detailUrl                                        ] ,
-        [ :from :dhs-website              ; :to :t-homepage                                         ] ,
-        [ :from :dhs-strasse              ; :to :t-streetAddress            ; :via :dhsAddressNode  ] ,
-        [ :from :dhs-plzort               ; :to :t-postalCode, :t-locality  ; :via :dhsAddressNode  ] ,
-        [ :from :dhs-telefon              ; :to :t-telephone                ; :via :dhsContactNode  ] ,
-        [ :from :dhs-email                ; :to :t-email                    ; :via :dhsContactNode  ] .
+        [ :from :dhs-entryId      ; :to :t-identifier                                              ] ,
+        [ :from :dhs-name         ; :to :t-name                                                    ] ,
+        [ :from :dhs-department   ; :to :t-alternateName                                           ] ,
+        [ :from :dhs-detailLink   ; :to :t-detailUrl                                               ] ,
+        [ :from :dhs-website      ; :to :t-homepage                                                ] ,
+        [ :from :dhs-art          ; :to :t-category                                                ] ,
+        [ :from :dhs-angebote     ; :to :t-availableService                                        ] ,
+        [ :from :dhs-arbeit       ; :to :t-availableService                                        ] ,
+        [ :from :dhs-zielgruppe   ; :to :t-audience                                                ] ,
+        [ :from :dhs-zeiten       ; :to :t-openingHours                                            ] ,
+        [ :from :dhs-barrierefrei ; :to :t-accessibilitySummary                                    ] ,
+        [ :from :dhs-traeger      ; :to :t-parentOrganization                                      ] ,
+        [ :from :dhs-strasse      ; :to :t-streetAddress           ; :via :dhsAddressNode          ] ,
+        [ :from :dhs-plzort       ; :to :t-postalCode, :t-locality ; :via :dhsAddressNode          ] ,
+        [ :from :dhs-telefon      ; :to :t-telephone               ; :via :dhsContactNode          ] ,
+        [ :from :dhs-email        ; :to :t-email                   ; :via :dhsContactNode          ] .
 
 # ---- Match --------------------------------------------------------------
 

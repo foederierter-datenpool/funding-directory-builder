@@ -13,6 +13,7 @@ const PREFIXES = {
     "http://schema.org/":          "schema",
     "http://purl.org/dc/terms/":   "dct",
     "http://xmlns.com/foaf/0.1/":  "foaf",
+    "http://www.w3.org/ns/prov#":  "prov",
 }
 
 const localName = (iri) => iri.replace(/^.*[#/]/, "")
