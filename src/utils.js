@@ -20,3 +20,20 @@ export const topoSort = (nodes, predsOf) => {
     }
     return sorted
 }
+
+const fetchPostalCodesFromWikidata = async () => {
+    const QUERY = `SELECT DISTINCT ?postalCode WHERE {
+    # Bezirk Mitte | postal code
+        wd:Q163966 wdt:P281 ?postalCode .
+    } ORDER BY ?postalCode`
+    const url = `https://query.wikidata.org/sparql?query=${encodeURIComponent(QUERY)}`
+    const res = await fetch(url, {headers: {
+        "Accept":     "application/sparql-results+json",
+        "User-Agent": "directory-builder",
+    }})
+    if (!res.ok) throw new Error(`Wikidata returned ${res.status}: ${await res.text()}`)
+    const {results} = await res.json()
+    for (const b of results.bindings) console.log(b.postalCode.value)
+}
+
+await fetchPostalCodesFromWikidata()
