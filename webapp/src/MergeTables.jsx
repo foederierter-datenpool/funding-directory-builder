@@ -2,10 +2,33 @@ import { loadMerge, sourceKind, localName } from "./loadMerge.js"
 import provTtl from "../../data/pipeline/provenance.ttl?raw"
 import mergedTtl from "../../data/pipeline/merged.ttl?raw"
 import finalTtl from "../../data/pipeline/final.ttl?raw"
+import logTtl from "../../data/ingest/ingest-log.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"
 import React, { useState } from "react"
+import { Parser } from "n3"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
+const SOURCE_LOCAL_TO_KIND = { caritasSource: "caritas", sozialplattformSource: "sp", dhsSource: "dhs" }
+const harvestTimeByKind = (() => {
+    const bnodeKind = new Map(), bnodeTime = new Map()
+    for (const q of new Parser().parse(logTtl)) {
+        if (q.predicate.value === "https://civic-data.de/pipeline#ofSource") {
+            bnodeKind.set(q.subject.value, SOURCE_LOCAL_TO_KIND[localName(q.object.value)] ?? "other")
+        } else if (q.predicate.value === "http://www.w3.org/ns/prov#atTime") {
+            bnodeTime.set(q.subject.value, q.object.value)
+        }
+    }
+    const out = {}
+    for (const [b, kind] of bnodeKind) {
+        const t = bnodeTime.get(b)
+        if (t && (!out[kind] || t > out[kind])) out[kind] = t
+    }
+    return out
+})()
+const tagTitle = (iri) => {
+    const t = harvestTimeByKind[sourceKind(iri)]
+    return t ? `${localName(iri)}\n\nharvested ${t.slice(0, 19).replace("T", " ")}` : localName(iri)
+}
 const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-data.de/pipeline#fromSource"])
 const isConflict = (f) => !EXPECTED_MULTI.has(f.predicate) && f.values.length > 1
 // Sort alphabetically on the MatchCluster IRI so the order is stable whether "Show final version" is active or not
@@ -35,7 +58,7 @@ function SourceTags({ sources }) {
     return (
         <>
             {sources.map((iri, i) => (
-                <span key={i} className="source-tag" title={localName(iri)}>{SOURCE_ABBR[sourceKind(iri)]}</span>
+                <span key={i} className="source-tag" title={tagTitle(iri)}>{SOURCE_ABBR[sourceKind(iri)]}</span>
             ))}
         </>
     )
@@ -76,7 +99,7 @@ function OrgCardWide({ org, highlight }) {
                 <tr>
                     <th></th>
                     {sources.map((s) => (
-                        <th key={s} title={localName(s)}>
+                        <th key={s} title={tagTitle(s)}>
                             <span className="source-tag">{SOURCE_ABBR[sourceKind(s)]}</span>
                         </th>
                     ))}
