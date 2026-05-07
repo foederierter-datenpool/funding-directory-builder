@@ -53,6 +53,7 @@ const TARGET_FIELDS = readTargetFields().filter((f) => PREDICATES_WITH_DATA.has(
 const FORMATS = [
     { value: "ttl",    label: "Turtle (.ttl)",     ext: "ttl",    mime: "text/turtle" },
     { value: "jsonld", label: "JSON-LD (.jsonld)", ext: "jsonld", mime: "application/ld+json" },
+    { value: "json",   label: "JSON (.json)",      ext: "json",   mime: "application/json" },
     { value: "csv",    label: "CSV (.csv)",        ext: "csv",    mime: "text/csv" },
 ]
 
@@ -64,7 +65,7 @@ const writeTurtle = (quads) => new Promise((resolve, reject) => {
 
 const csvEscape = (v) => /[",\n\r]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v
 
-function buildCsv(quads, fields) {
+function groupBySubject(quads) {
     const subjects = []
     const bySubject = new Map()
     for (const q of quads) {
@@ -74,6 +75,11 @@ function buildCsv(quads, fields) {
         if (!row.has(q.predicate.value)) row.set(q.predicate.value, [])
         row.get(q.predicate.value).push(q.object.value)
     }
+    return { subjects, bySubject }
+}
+
+function buildCsv(quads, fields) {
+    const { subjects, bySubject } = groupBySubject(quads)
     const header = ["iri", ...fields.map((f) => f.label)]
     const lines = [header.map(csvEscape).join(",")]
     for (const s of subjects) {
@@ -84,10 +90,26 @@ function buildCsv(quads, fields) {
     return lines.join("\n") + "\n"
 }
 
+function buildJson(quads, fields) {
+    const { subjects, bySubject } = groupBySubject(quads)
+    const out = subjects.map((s) => {
+        const row = bySubject.get(s)
+        const obj = { iri: s }
+        for (const f of fields) {
+            const vals = row.get(f.predicate)
+            if (!vals) continue
+            obj[f.label] = vals.length === 1 ? vals[0] : vals
+        }
+        return obj
+    })
+    return JSON.stringify(out, null, 2)
+}
+
 async function buildFile(selectedFields, format) {
     const allowed = new Set(selectedFields.map((f) => f.predicate))
     const filtered = FINAL_QUADS.filter((q) => allowed.has(q.predicate.value))
-    if (format === "csv") return buildCsv(filtered, selectedFields)
+    if (format === "csv")  return buildCsv(filtered, selectedFields)
+    if (format === "json") return buildJson(filtered, selectedFields)
     const ttl = await writeTurtle(filtered)
     if (format === "ttl") return ttl
     const jsonld = await turtleToJsonLdObj(ttl)
