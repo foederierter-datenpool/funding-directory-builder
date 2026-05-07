@@ -225,10 +225,11 @@
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
     :manualMatchesGraph  "config/manual-matches.ttl" ;
+    :minScore            0.85 ;
     :hasMatchCriterion
-        [ :on schema:name          ; :minSimilarity 0.85 ] ,
-        [ :on schema:postalCode    ; :minSimilarity 1.0  ] ,
-        [ :on schema:streetAddress ; :minSimilarity 0.80 ] .
+        [ :on schema:name          ; :weight 0.5 ] ,
+        [ :on schema:postalCode    ; :weight 0.3 ; :minSimilarity 1.0 ] ,
+        [ :on schema:streetAddress ; :weight 0.2 ] .
 
 # ---- Merge --------------------------------------------------------------
 

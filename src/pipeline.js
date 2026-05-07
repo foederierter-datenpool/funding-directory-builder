@@ -1,5 +1,5 @@
 import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
-import levenshtein from "fast-levenshtein"
+import { token_set_ratio } from "fuzzball"
 import { DataFactory, Writer } from "n3"
 import { createHash } from "crypto"
 import { topoSort } from "./utils.js"
@@ -201,35 +201,39 @@ const COMMON_PREFIXES = {
 const RDF_TYPE      = df.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")
 const MATCH_CLUSTER = df.namedNode(CDP + "MatchCluster")
 
-const norm = (s) => (s ?? "").toLowerCase().replace(/\s+/g, " ").trim()
-const similarity = (a, b) => {
-    const an = norm(a), bn = norm(b)
-    const maxLen = Math.max(an.length, bn.length)
-    if (maxLen === 0) return 1
-    return 1 - levenshtein.get(an, bn) / maxLen
-}
+// token_set_ratio computes a ratio over the intersection of token sets, which
+// is robust to legal-form noise ("gGmbH", "e.V."), sub-unit specifiers, and
+// word-order variations. Returns 0–100; we normalise to 0–1. The algorithm
+// name is recorded in the evidence graph so old similarity numbers stay
+// interpretable across algorithm swaps.
+const SIMILARITY_ALGORITHM = "token_set_ratio"
+const similarity = (a, b) => token_set_ratio(a ?? "", b ?? "") / 100
 
 const runMatch = async (store, outPath) => {
     const [cfg] = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?ns ?prefix ?manualMatchesGraph WHERE {
+        SELECT ?ns ?prefix ?manualMatchesGraph ?minScore WHERE {
             ?match a :MatchRule ;
                 :targetNamespace     ?ns ;
-                :mintedSubjectPrefix ?prefix .
+                :mintedSubjectPrefix ?prefix ;
+                :minScore            ?minScore .
             OPTIONAL { ?match :manualMatchesGraph ?manualMatchesGraph }
         }`, [defStore])
     if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
     const { ns: namespace, prefix: mintedPrefix, manualMatchesGraph } = cfg
+    const minScore = parseFloat(cfg.minScore)
 
     const criteriaRows = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?on ?minSim WHERE {
+        SELECT ?on ?weight ?minSim WHERE {
             ?match a :MatchRule ; :hasMatchCriterion ?c .
-            ?c :on ?on ; :minSimilarity ?minSim .
+            ?c :on ?on ; :weight ?weight .
+            OPTIONAL { ?c :minSimilarity ?minSim }
         }`, [defStore])
     const criteria = criteriaRows.map(r => ({
         pred:   df.namedNode(r.on),
-        minSim: parseFloat(r.minSim),
+        weight: parseFloat(r.weight),
+        minSim: r.minSim != null ? parseFloat(r.minSim) : null,
     }))
 
     const fedQuads = store.getQuads(null, null, null, MAPPED_GRAPH)
@@ -246,16 +250,22 @@ const runMatch = async (store, outPath) => {
         }))
     }
 
+    // Weighted aggregate: sum(sim_i * weight_i) over all criteria, vs. minScore.
+    // A criterion may also declare a hard floor via :minSimilarity (e.g. PLZ
+    // must equal 1.0); failing the floor short-circuits regardless of aggregate.
     const matches = (a, b) => {
         const va = valuesFor.get(a), vb = valuesFor.get(b)
         const scores = []
+        let weightedSum = 0
         for (let i = 0; i < criteria.length; i++) {
             if (va[i] == null || vb[i] == null) return null
             const sim = similarity(va[i], vb[i])
-            if (sim < criteria[i].minSim) return null
-            scores.push({ pred: criteria[i].pred, sim })
+            if (criteria[i].minSim != null && sim < criteria[i].minSim) return null
+            scores.push({ pred: criteria[i].pred, sim, weight: criteria[i].weight, valueA: va[i], valueB: vb[i] })
+            weightedSum += sim * criteria[i].weight
         }
-        return scores
+        if (weightedSum < minScore) return null
+        return { scores, aggregate: weightedSum }
     }
 
     const parent = new Map(subjects.map(s => [s, s]))
@@ -285,8 +295,8 @@ const runMatch = async (store, outPath) => {
 
     for (let i = 0; i < subjects.length; i++) {
         for (let j = i + 1; j < subjects.length; j++) {
-            const scores = matches(subjects[i], subjects[j])
-            if (scores) { union(subjects[i], subjects[j]); evidence.push({ a: subjects[i], b: subjects[j], scores }) }
+            const m = matches(subjects[i], subjects[j])
+            if (m) { union(subjects[i], subjects[j]); evidence.push({ a: subjects[i], b: subjects[j], ...m }) }
         }
     }
 
@@ -319,6 +329,11 @@ const runMatch = async (store, outPath) => {
     const ON_CRITERION       = df.namedNode(CDP + "onCriterion")
     const ON                 = df.namedNode(CDP + "on")
     const SIMILARITY         = df.namedNode(CDP + "similarity")
+    const SIM_ALGORITHM      = df.namedNode(CDP + "similarityAlgorithm")
+    const WEIGHT             = df.namedNode(CDP + "weight")
+    const VALUE_A            = df.namedNode(CDP + "valueA")
+    const VALUE_B            = df.namedNode(CDP + "valueB")
+    const AGGREGATE_SCORE    = df.namedNode(CDP + "aggregateScore")
     const VIA_MANUAL_MATCH   = df.namedNode(CDP + "viaManualMatch")
     const XSD_DECIMAL        = df.namedNode("http://www.w3.org/2001/XMLSchema#decimal")
     const XSD_BOOLEAN        = df.namedNode("http://www.w3.org/2001/XMLSchema#boolean")
@@ -332,11 +347,16 @@ const runMatch = async (store, outPath) => {
         if (ev.manual) {
             store.addQuad(df.quad(evNode, VIA_MANUAL_MATCH, df.literal("true", XSD_BOOLEAN), MATCH_GRAPH))
         } else {
+            store.addQuad(df.quad(evNode, AGGREGATE_SCORE, df.literal(ev.aggregate.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
+            store.addQuad(df.quad(evNode, SIM_ALGORITHM, df.literal(SIMILARITY_ALGORITHM), MATCH_GRAPH))
             for (const s of ev.scores) {
                 const cNode = df.blankNode()
                 store.addQuad(df.quad(evNode, ON_CRITERION, cNode, MATCH_GRAPH))
                 store.addQuad(df.quad(cNode, ON, s.pred, MATCH_GRAPH))
                 store.addQuad(df.quad(cNode, SIMILARITY, df.literal(s.sim.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
+                store.addQuad(df.quad(cNode, WEIGHT, df.literal(s.weight.toFixed(2), XSD_DECIMAL), MATCH_GRAPH))
+                store.addQuad(df.quad(cNode, VALUE_A, df.literal(s.valueA), MATCH_GRAPH))
+                store.addQuad(df.quad(cNode, VALUE_B, df.literal(s.valueB), MATCH_GRAPH))
             }
         }
     }

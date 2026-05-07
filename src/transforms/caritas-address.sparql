@@ -22,7 +22,7 @@ INSERT {
         FILTER(REGEX(?teaser, "^.+ - \\d{5} .+$"))
     }
     BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$1")  AS ?streetRaw)
-    BIND(REPLACE(?streetRaw, "([Ss])tr\\.", "$1traße")     AS ?street)
+    BIND(REPLACE(?streetRaw, "([Ss])tr\\.\\s*", "$1traße ") AS ?street)
     BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$2")  AS ?postalCode)
     BIND(REPLACE(?teaser, "^(.*) - (\\d{5}) (.*)$", "$3")  AS ?locality)
 }

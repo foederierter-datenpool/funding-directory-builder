@@ -14,9 +14,10 @@ INSERT {
     GRAPH <urn:source:dhs> {
         ?org
             cdp:fromSource cdp:dhsSource ;
-            xyz:strasse    ?street       ;
+            xyz:strasse    ?streetRaw    ;
             xyz:plzort     ?plzort       .
     }
+    BIND(REPLACE(?streetRaw, "([Ss])tr\\.\\s*", "$1traße ") AS ?street)
     BIND(STRBEFORE(?plzort, " ") AS ?postalCode)
     BIND(STRAFTER(?plzort, " ")  AS ?locality)
 }
