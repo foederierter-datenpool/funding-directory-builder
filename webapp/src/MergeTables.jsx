@@ -45,16 +45,19 @@ function SourceTags({ sources }) {
 
 function ValueCell({ values, highlight }) {
     const [idx, setIdx] = useState(0)
-    const cur = values[idx]
+    // idx persists across re-renders, so clamp when `values` shrinks (e.g. flipping
+    // to final.ttl where every (s,p) has exactly one value).
+    const safeIdx = idx % values.length
+    const cur = values[safeIdx]
     const multi = values.length > 1
     const style = highlight ? conflictStyle(values.length) : undefined
     return (
         <>
             {multi && (
                 <span className="flip">
-                    <button className="flip-btn" onClick={() => setIdx((idx - 1 + values.length) % values.length)}>◀</button>
-                    <span className="flip-counter">{idx + 1}/{values.length}</span>
-                    <button className="flip-btn" onClick={() => setIdx((idx + 1) % values.length)}>▶</button>
+                    <button className="flip-btn" onClick={() => setIdx((safeIdx - 1 + values.length) % values.length)}>◀</button>
+                    <span className="flip-counter">{safeIdx + 1}/{values.length}</span>
+                    <button className="flip-btn" onClick={() => setIdx((safeIdx + 1) % values.length)}>▶</button>
                 </span>
             )}
             <span className="value-text" title={cur.raw ?? cur.value} style={style}>{cur.value}</span>
