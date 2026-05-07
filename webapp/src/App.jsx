@@ -50,7 +50,15 @@ function Nav() {
 }
 
 function Apis() {
-    return <div className="page">TODO</div>
+    return (
+        <div className="page">
+            <p><strong>TODO</strong>:</p>
+            <ul>
+                <li>OpenAPI / Swagger</li>
+                <li>SPARQL endpoint</li>
+            </ul>
+        </div>
+    )
 }
 
 export default function App() {
