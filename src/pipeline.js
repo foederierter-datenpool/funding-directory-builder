@@ -394,8 +394,16 @@ const runMerge = async (store, outPath, provOutPath) => {
 // lives in provenance.ttl.
 const STRATEGIES = {
     alphabeticFirst: (quads) => [...quads].sort((a, b) => a.object.value.localeCompare(b.object.value))[0],
+    concatenateAll:  (quads) => df.quad(quads[0].subject, quads[0].predicate,
+        df.literal([...new Set(quads.map(q => q.object.value))].sort().join(", "))),
 }
 const RESOLVE_EXCLUDE = new Set(["http://schema.org/identifier", `${CDP}fromSource`])
+
+const lookupStrategy = (iri) => {
+    const fn = STRATEGIES[iri.split("#").pop()]
+    if (!fn) throw new Error(`Unknown resolve strategy ${iri}`)
+    return fn
+}
 
 const runResolve = async (store, outPath) => {
     const [cfg] = await sparqlSelect(`
@@ -405,8 +413,14 @@ const runResolve = async (store, outPath) => {
             ?match   a :MatchRule   ; :targetNamespace ?ns .
         }`, [defStore])
     if (!cfg) throw new Error(":ResolveRule config missing in federation.ttl")
-    const pick = STRATEGIES[cfg.strategy.split("#").pop()]
-    if (!pick) throw new Error(`Unknown :defaultStrategy ${cfg.strategy}`)
+    const defaultPick = lookupStrategy(cfg.strategy)
+
+    const overrideRows = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
+        SELECT ?on ?strategy WHERE {
+            ?resolve a :ResolveRule ; :hasOverride [ :on ?on ; :strategy ?strategy ] .
+        }`, [defStore])
+    const overrides = new Map(overrideRows.map(r => [r.on, lookupStrategy(r.strategy)]))
 
     const groups = new Map()
     for (const q of store.getQuads(null, null, null, MERGED_GRAPH)) {
@@ -415,7 +429,8 @@ const runResolve = async (store, outPath) => {
         if (!groups.has(k)) groups.set(k, [])
         groups.get(k).push(q)
     }
-    const finalQuads = [...groups.values()].map(pick)
+    const finalQuads = [...groups.values()].map(quads =>
+        (overrides.get(quads[0].predicate.value) ?? defaultPick)(quads))
 
     await writeTurtle(abs(outPath), finalQuads, { ...COMMON_PREFIXES, cdf: cfg.ns })
     console.log(`resolve: wrote ${finalQuads.length} triples → ${outPath}`)

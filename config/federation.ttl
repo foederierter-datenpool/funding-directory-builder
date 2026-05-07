@@ -238,4 +238,5 @@
 # ---- Resolve ------------------------------------------------------------
 
 :resolve a :ResolveRule ;
-    :defaultStrategy :alphabeticFirst .
+    :defaultStrategy :alphabeticFirst ;
+    :hasOverride     [ :on schema:availableService ; :strategy :concatenateAll ] .
