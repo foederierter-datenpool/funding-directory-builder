@@ -31,10 +31,13 @@ const tagTitle = (iri) => {
 }
 const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-data.de/pipeline#fromSource"])
 const isConflict = (f) => !EXPECTED_MULTI.has(f.predicate) && f.values.length > 1
-// Sort alphabetically on the MatchCluster IRI so the order is stable whether "Show final version" is active or not
-const byIri = (a, b) => a.iri.localeCompare(b.iri)
-const orgs = loadMerge(mergedTtl, provTtl).sort(byIri)
-const finalOrgs = loadMerge(finalTtl, "").sort(byIri)
+const conflictCount = (org) => org.fields.reduce((n, f) => n + (isConflict(f) ? 1 : 0), 0)
+// Sort the merged view by conflict count desc, then mirror that order onto the
+// final view (which has no conflicts of its own) so toggling "Show final version"
+// doesn't shuffle the cards.
+const orgs = loadMerge(mergedTtl, provTtl).sort((a, b) => conflictCount(b) - conflictCount(a) || a.iri.localeCompare(b.iri))
+const orderIndex = new Map(orgs.map((o, i) => [o.iri, i]))
+const finalOrgs = loadMerge(finalTtl, "").sort((a, b) => (orderIndex.get(a.iri) ?? Infinity) - (orderIndex.get(b.iri) ?? Infinity))
 
 const CONFLICT_LEVELS = [
     { color: "#fca5a5", width: 2, bg: "rgba(220, 38, 38, 0.08)" },
