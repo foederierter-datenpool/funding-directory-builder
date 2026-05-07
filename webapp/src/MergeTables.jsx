@@ -1,19 +1,17 @@
 import { loadMerge, sourceKind, localName } from "./loadMerge.js"
-import Card, { KeyValueTable } from "./Card.jsx"
 import provTtl from "../../data/pipeline/provenance.ttl?raw"
 import mergedTtl from "../../data/pipeline/merged.ttl?raw"
 import finalTtl from "../../data/pipeline/final.ttl?raw"
+import Card, { KeyValueTable } from "./Card.jsx"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
 const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-data.de/pipeline#fromSource"])
 const isConflict = (f) => !EXPECTED_MULTI.has(f.predicate) && f.values.length > 1
-const conflictCount = (org) => org.fields.reduce((n, f) => n + (isConflict(f) ? 1 : 0), 0)
-const orgs = loadMerge(mergedTtl, provTtl).sort((a, b) => conflictCount(b) - conflictCount(a))
-// final.ttl has one value per (s,p) and no source attribution; reusing loadMerge
-// with an empty provenance gives us empty `sources` per value → no tags / flips,
-// and length===1 means no conflict highlights.
-const finalOrgs = loadMerge(finalTtl, "")
+// Sort alphabetically on the MatchCluster IRI so the order is stable whether "Show final version" is active or not
+const byIri = (a, b) => a.iri.localeCompare(b.iri)
+const orgs = loadMerge(mergedTtl, provTtl).sort(byIri)
+const finalOrgs = loadMerge(finalTtl, "").sort(byIri)
 
 const CONFLICT_LEVELS = [
     { color: "#fca5a5", width: 2, bg: "rgba(220, 38, 38, 0.08)" },
