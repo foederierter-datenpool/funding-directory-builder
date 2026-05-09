@@ -224,10 +224,10 @@
 :match a :MatchRule ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
-    :manualMatchesGraph  "config/manual-matches.ttl" ;
+    :matchKnowledgeGraph "config/match-knowledge.ttl" ;
     :minScore            0.85 ;
     :hasMatchCriterion
-        [ :on schema:name          ; :weight 0.5 ] ,
+        [ :on schema:name          ; :weight 0.5 ; :stripBeforeMatch :berlinBezirke ] ,
         [ :on schema:postalCode    ; :weight 0.3 ; :minSimilarity 1.0 ] ,
         [ :on schema:streetAddress ; :weight 0.2 ] .
 

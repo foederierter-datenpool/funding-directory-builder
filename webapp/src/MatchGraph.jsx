@@ -1,4 +1,4 @@
-import manualMatchesTtl from "../../config/manual-matches.ttl?raw"
+import matchKnowledgeTtl from "../../config/match-knowledge.ttl?raw"
 import federationTtl from "../../config/federation.ttl?raw"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
 import ttl from "../../data/pipeline/matches.ttl?raw"
@@ -46,7 +46,7 @@ for (const q of new Parser().parse(mappedTtl)) {
     orgInfo.set(q.subject.value, entry)
 }
 
-const manualPairs = new Parser().parse(manualMatchesTtl)
+const manualPairs = new Parser().parse(matchKnowledgeTtl)
     .filter(q => q.predicate.value === OWL_SAME_AS)
     .map(q => [q.subject.value, q.object.value])
 

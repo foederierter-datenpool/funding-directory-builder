@@ -1,0 +1,17 @@
+@prefix :    <https://civic-data.de/pipeline#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# ---- Same-as assertions -------------------------------------------------
+
+# "Hart am LimiT (HaLT)" (caritas) <> "Projekt HaLT" (sozialplattform)
+:caritas-d7c63113-1707-4d68-b764-5bcafe96597f
+    owl:sameAs :sp-bed14473-8569-4274-a883-8ff0ad18642b .
+
+# ---- Stop-token lists ---------------------------------------------------
+
+:berlinBezirke a :StopTokenList ;
+    :token "Berlin", "Mitte", "Friedrichshain", "Kreuzberg", "Pankow",
+        "Charlottenburg", "Wilmersdorf", "Spandau", "Steglitz",
+        "Zehlendorf", "Tempelhof", "Schöneberg", "Neukölln",
+        "Treptow", "Köpenick", "Marzahn", "Hellersdorf",
+        "Lichtenberg", "Reinickendorf" .

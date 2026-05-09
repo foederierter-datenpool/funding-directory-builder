@@ -10,7 +10,9 @@ const df = DataFactory
 
 const ROOT = path.join(import.meta.dirname, "..")
 const abs = (p) => path.join(ROOT, p)
-const defStore = storeFromTurtles(["config/federation.ttl", "config/pipeline.ttl"].map(p => fs.readFileSync(abs(p), "utf8")))
+const defStore = storeFromTurtles(
+    ["config/federation.ttl", "config/pipeline.ttl", "config/match-knowledge.ttl"].map(p => fs.readFileSync(abs(p), "utf8"))
+)
 
 const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
     // Dedupe via a Store and sort by subject so the Writer can emit
@@ -212,28 +214,58 @@ const similarity = (a, b) => token_set_ratio(a ?? "", b ?? "") / 100
 const runMatch = async (store, outPath) => {
     const [cfg] = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?ns ?prefix ?manualMatchesGraph ?minScore WHERE {
+        SELECT ?ns ?prefix ?minScore WHERE {
             ?match a :MatchRule ;
                 :targetNamespace     ?ns ;
                 :mintedSubjectPrefix ?prefix ;
                 :minScore            ?minScore .
-            OPTIONAL { ?match :manualMatchesGraph ?manualMatchesGraph }
         }`, [defStore])
     if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
-    const { ns: namespace, prefix: mintedPrefix, manualMatchesGraph } = cfg
+    const { ns: namespace, prefix: mintedPrefix } = cfg
     const minScore = parseFloat(cfg.minScore)
 
+    // Stop-token lists from match-knowledge.ttl: any criterion with
+    // :stripBeforeMatch ?list gets ?list's :token literals stripped (whole
+    // word, case-insensitive) from both values before similarity is computed.
+    // The stripped form is used only for scoring; the original values stay
+    // verbatim in mapped.ttl and in the evidence's :valueA/:valueB.
     const criteriaRows = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?on ?weight ?minSim WHERE {
+        SELECT ?on ?weight ?minSim ?stripList WHERE {
             ?match a :MatchRule ; :hasMatchCriterion ?c .
             ?c :on ?on ; :weight ?weight .
             OPTIONAL { ?c :minSimilarity ?minSim }
+            OPTIONAL { ?c :stripBeforeMatch ?stripList }
         }`, [defStore])
+    const tokenRows = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
+        SELECT ?list ?token WHERE { ?list a :StopTokenList ; :token ?token }`, [defStore])
+    const tokensByList = new Map()
+    for (const r of tokenRows) {
+        if (!tokensByList.has(r.list)) tokensByList.set(r.list, [])
+        tokensByList.get(r.list).push(r.token)
+    }
+    const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    const buildStripper = (listIri) => {
+        const tokens = tokensByList.get(listIri) ?? []
+        if (!tokens.length) return null
+        const re = new RegExp(`\\b(?:${tokens.map(escapeRe).join("|")})\\b`, "giu")
+        return (s) => {
+            const original = s ?? ""
+            const stripped = original.replace(re, " ").replace(/\s+/g, " ").trim()
+            // Guard: if stripping leaves fewer than 2 tokens, keep the original.
+            // Protects short names like "AID Lichtenberg" from collapsing to a
+            // single generic token; long names like "Pfarrei St. Mauritius -
+            // Lichtenberg-Friedrichshain" still lose their geographic suffix.
+            const remaining = stripped.split(/\s+/).filter(Boolean).length
+            return remaining >= 2 ? stripped : original
+        }
+    }
     const criteria = criteriaRows.map(r => ({
         pred:   df.namedNode(r.on),
         weight: parseFloat(r.weight),
         minSim: r.minSim != null ? parseFloat(r.minSim) : null,
+        strip:  r.stripList ? buildStripper(r.stripList) : null,
     }))
 
     const fedQuads = store.getQuads(null, null, null, MAPPED_GRAPH)
@@ -259,10 +291,14 @@ const runMatch = async (store, outPath) => {
         let weightedSum = 0
         for (let i = 0; i < criteria.length; i++) {
             if (va[i] == null || vb[i] == null) return null
-            const sim = similarity(va[i], vb[i])
-            if (criteria[i].minSim != null && sim < criteria[i].minSim) return null
-            scores.push({ pred: criteria[i].pred, sim, weight: criteria[i].weight, valueA: va[i], valueB: vb[i] })
-            weightedSum += sim * criteria[i].weight
+            const c = criteria[i]
+            const a2 = c.strip ? c.strip(va[i]) : va[i]
+            const b2 = c.strip ? c.strip(vb[i]) : vb[i]
+            const sim = similarity(a2, b2)
+            if (c.minSim != null && sim < c.minSim) return null
+            scores.push({ pred: c.pred, sim, weight: c.weight, valueA: va[i], valueB: vb[i],
+                          strippedA: c.strip ? a2 : null, strippedB: c.strip ? b2 : null })
+            weightedSum += sim * c.weight
         }
         if (weightedSum < minScore) return null
         return { scores, aggregate: weightedSum }
@@ -283,14 +319,11 @@ const runMatch = async (store, outPath) => {
 
     const evidence = []
     let sameAsUnions = 0
-    if (manualMatchesGraph) {
-        const OWL_SAME_AS = "http://www.w3.org/2002/07/owl#sameAs"
-        const manualMatchQuads = n3Parser.parse(fs.readFileSync(abs(manualMatchesGraph), "utf8"))
-        for (const qu of manualMatchQuads) {
-            if (qu.predicate.value !== OWL_SAME_AS) continue
-            const a = qu.subject.value, b = qu.object.value
-            if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++; evidence.push({ a, b, manual: true }) }
-        }
+    const sameAsRows = await sparqlSelect(`
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        SELECT ?a ?b WHERE { ?a owl:sameAs ?b }`, [defStore])
+    for (const { a, b } of sameAsRows) {
+        if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++; evidence.push({ a, b, manual: true }) }
     }
 
     for (let i = 0; i < subjects.length; i++) {
@@ -333,6 +366,8 @@ const runMatch = async (store, outPath) => {
     const WEIGHT             = df.namedNode(CDP + "weight")
     const VALUE_A            = df.namedNode(CDP + "valueA")
     const VALUE_B            = df.namedNode(CDP + "valueB")
+    const STRIPPED_A         = df.namedNode(CDP + "strippedValueA")
+    const STRIPPED_B         = df.namedNode(CDP + "strippedValueB")
     const AGGREGATE_SCORE    = df.namedNode(CDP + "aggregateScore")
     const VIA_MANUAL_MATCH   = df.namedNode(CDP + "viaManualMatch")
     const XSD_DECIMAL        = df.namedNode("http://www.w3.org/2001/XMLSchema#decimal")
@@ -357,6 +392,10 @@ const runMatch = async (store, outPath) => {
                 store.addQuad(df.quad(cNode, WEIGHT, df.literal(s.weight.toFixed(2), XSD_DECIMAL), MATCH_GRAPH))
                 store.addQuad(df.quad(cNode, VALUE_A, df.literal(s.valueA), MATCH_GRAPH))
                 store.addQuad(df.quad(cNode, VALUE_B, df.literal(s.valueB), MATCH_GRAPH))
+                if (s.strippedA !== null) {
+                    store.addQuad(df.quad(cNode, STRIPPED_A, df.literal(s.strippedA), MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, STRIPPED_B, df.literal(s.strippedB), MATCH_GRAPH))
+                }
             }
         }
     }
