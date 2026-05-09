@@ -41,7 +41,7 @@ function Nav() {
                 <NavLink to="/apis">APIs</NavLink>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", fontSize: 13 }}>
+                <label style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem", fontSize: 13, color: "#666" }}>
                     <input type="checkbox" checked={showFed} onChange={(e) => update(e.target.checked)} />
                     Show federation process
                 </label>
