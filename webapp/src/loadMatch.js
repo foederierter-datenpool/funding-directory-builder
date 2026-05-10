@@ -1,26 +1,22 @@
-import { Parser } from "n3"
+import { localName, parseTtl, subjectsOfType } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"
-const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const MATCH_CLUSTER = `${NS}MatchCluster`
 const HAS_MEMBER = `${NS}hasMember`
 
-const localName = (iri) => iri.replace(/^.*[#/]/, "")
 const labelFor = (iri) => {
     const s = localName(iri)
     return s.length > 18 ? s.slice(0, 16) + "…" : s
 }
 
 export function loadMatch(ttl, { hideSingletons = false } = {}) {
-    const quads = new Parser().parse(ttl)
+    const quads = parseTtl(ttl)
 
-    const clusters = new Set()
+    const clusters = subjectsOfType(quads, MATCH_CLUSTER)
     const memberCount = new Map()
     let edges = []
     for (const q of quads) {
-        if (q.predicate.value === RDF_TYPE && q.object.value === MATCH_CLUSTER) {
-            clusters.add(q.subject.value)
-        } else if (q.predicate.value === HAS_MEMBER) {
+        if (q.predicate.value === HAS_MEMBER) {
             memberCount.set(q.subject.value, (memberCount.get(q.subject.value) ?? 0) + 1)
             edges.push({ from: q.object.value, to: q.subject.value, label: "hasMember" })
         }

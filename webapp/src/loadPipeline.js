@@ -1,14 +1,12 @@
-import { Parser } from "n3"
+import { localName, parseTtl } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"
 const PPLAN_IS_PRECEDED_BY = "http://purl.org/net/p-plan#isPrecededBy"
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const STEP_TYPES = ["Fetch", "Lift", "Clean", "Load", "Map", "Match", "Merge", "Resolve"]
 
-const localName = (iri) => iri.replace(/^.*[#/]/, "")
-
 export function loadPipeline(ttl) {
-    const quads = new Parser().parse(ttl)
+    const quads = parseTtl(ttl)
     const stepType = new Map()
     const edges = []
     const propQuads = []

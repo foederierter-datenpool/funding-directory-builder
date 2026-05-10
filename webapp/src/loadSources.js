@@ -1,8 +1,7 @@
-import { Parser } from "n3"
+import { parseTtl, subjectsOfType } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"
 const PROV_AT_TIME = "http://www.w3.org/ns/prov#atTime"
-const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 
 const setAdd = (map, key, val) => {
@@ -11,15 +10,12 @@ const setAdd = (map, key, val) => {
 }
 
 export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl) {
-    const fedQuads = new Parser().parse(federationTtl)
-    const pipeQuads = new Parser().parse(pipelineTtl)
-    const mappedQuads = mappedTtl ? new Parser().parse(mappedTtl) : []
-    const logQuads = ingestLogTtl ? new Parser().parse(ingestLogTtl) : []
+    const fedQuads = parseTtl(federationTtl)
+    const pipeQuads = parseTtl(pipelineTtl)
+    const mappedQuads = mappedTtl ? parseTtl(mappedTtl) : []
+    const logQuads = ingestLogTtl ? parseTtl(ingestLogTtl) : []
 
-    const sourceIris = new Set()
-    for (const q of fedQuads) {
-        if (q.predicate.value === RDF_TYPE && q.object.value === `${NS}Source`) sourceIris.add(q.subject.value)
-    }
+    const sourceIris = subjectsOfType(fedQuads, `${NS}Source`)
 
     const props = new Map()
     const get = (iri) => {

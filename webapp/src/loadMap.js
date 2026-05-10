@@ -1,7 +1,6 @@
-import { Parser } from "n3"
+import { localName, parseTtl, shrink, subjectsOfType, typesOf } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"
-const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 const NODE_TYPES = [`${NS}Source`, `${NS}SourceField`, `${NS}TargetField`, `${NS}TargetSchema`, `${NS}TransformNode`]
 const SUB_FIELD = `${NS}SubField`
@@ -10,19 +9,13 @@ const TRANSFORM = `${NS}TransformNode`
 // Prefix map used to render target-predicate IRIs like `schema:identifier`
 // instead of their local TargetField name (`t-identifier`).
 const PREFIXES = {
-    "http://schema.org/":          "schema",
-    "http://purl.org/dc/terms/":   "dct",
-    "http://xmlns.com/foaf/0.1/":  "foaf",
-    "http://www.w3.org/ns/prov#":  "prov",
+    schema: "http://schema.org/",
+    dct:    "http://purl.org/dc/terms/",
+    foaf:   "http://xmlns.com/foaf/0.1/",
+    prov:   "http://www.w3.org/ns/prov#",
 }
 
-const localName = (iri) => iri.replace(/^.*[#/]/, "")
-const prefixedIri = (iri) => {
-    for (const [ns, p] of Object.entries(PREFIXES)) {
-        if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
-    }
-    return iri
-}
+const prefixedIri = (iri) => shrink(iri, PREFIXES)
 
 // Group orgs by source. Each org carries a cdp:fromSource triple in mapped.ttl
 // pointing at its Source IRI, so this is a single-pass scan with no prefix
@@ -35,7 +28,7 @@ export function loadOrgsBySource(_federationTtl, mappedTtl) {
     const orgSource = new Map()  // orgIri -> sourceIri
     const ids       = new Map()
     const names     = new Map()
-    for (const q of new Parser().parse(mappedTtl)) {
+    for (const q of parseTtl(mappedTtl)) {
         const p = q.predicate.value
         if      (p === FROM_SOURCE)       orgSource.set(q.subject.value, q.object.value)
         else if (p === SCHEMA_IDENTIFIER) ids.set(q.subject.value, q.object.value)
@@ -60,7 +53,7 @@ export function loadOrgsBySource(_federationTtl, mappedTtl) {
 // target field (from mapped.ttl, indirected via the field's :targetPredicate).
 // Returns Map<orgIri, Map<fieldIri, string>>.
 export function loadFieldValuesByOrg(federationTtl, mappedTtl, liftedBySource) {
-    const fedQuads = new Parser().parse(federationTtl)
+    const fedQuads = parseTtl(federationTtl)
     const fieldPathOf       = new Map()
     const fieldsBySource    = new Map()
     const subFieldsOf       = new Map()
@@ -81,7 +74,7 @@ export function loadFieldValuesByOrg(federationTtl, mappedTtl, liftedBySource) {
     const FROM_SOURCE = `${NS}fromSource`
     const orgSource     = new Map() // orgIri -> sourceIri
     const literalsByOrg = new Map() // orgIri -> Map<predicateIri, string>
-    for (const q of new Parser().parse(mappedTtl)) {
+    for (const q of parseTtl(mappedTtl)) {
         if (q.predicate.value === FROM_SOURCE) orgSource.set(q.subject.value, q.object.value)
         if (q.object.termType === "Literal") {
             if (!literalsByOrg.has(q.subject.value)) literalsByOrg.set(q.subject.value, new Map())
@@ -93,7 +86,7 @@ export function loadFieldValuesByOrg(federationTtl, mappedTtl, liftedBySource) {
     for (const [sourceIri, liftedTtl] of liftedBySource) {
         // subject -> Map<predicate-localname, [{value, isLiteral}]>
         const graph = new Map()
-        for (const q of new Parser().parse(liftedTtl)) {
+        for (const q of parseTtl(liftedTtl)) {
             const sub = q.subject.value
             const predLocal = localName(q.predicate.value)
             if (!graph.has(sub)) graph.set(sub, new Map())
@@ -150,34 +143,21 @@ export function loadFieldValuesByOrg(federationTtl, mappedTtl, liftedBySource) {
 }
 
 export function loadSources(ttl) {
-    const quads = new Parser().parse(ttl)
-    const order = []
-    const isSource = new Set()
+    const quads = parseTtl(ttl)
+    const sourceIris = subjectsOfType(quads, `${NS}Source`)
     const labelOf = new Map()
-    for (const q of quads) {
-        if (q.predicate.value === RDF_TYPE && q.object.value === `${NS}Source`) {
-            if (!isSource.has(q.subject.value)) { isSource.add(q.subject.value); order.push(q.subject.value) }
-        } else if (q.predicate.value === RDFS_LABEL) {
-            labelOf.set(q.subject.value, q.object.value)
-        }
-    }
-    return order.map((iri) => ({ iri, label: labelOf.get(iri) ?? localName(iri) }))
+    for (const q of quads) if (q.predicate.value === RDFS_LABEL) labelOf.set(q.subject.value, q.object.value)
+    return [...sourceIris].map((iri) => ({ iri, label: labelOf.get(iri) ?? localName(iri) }))
 }
 
 export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFields = true, hiddenSources } = {}) {
-    const quads = new Parser().parse(ttl)
+    const quads = parseTtl(ttl)
 
-    const typeOf = new Map()
-    for (const q of quads) {
-        if (q.predicate.value === RDF_TYPE) {
-            if (!typeOf.has(q.subject.value)) typeOf.set(q.subject.value, [])
-            typeOf.get(q.subject.value).push(q.object.value)
-        }
-    }
+    const typeOf = typesOf(quads)
 
     const nodeSet = new Set()
     for (const [iri, types] of typeOf) {
-        if (types.some((t) => NODE_TYPES.includes(t) || t === SUB_FIELD)) nodeSet.add(iri)
+        if (NODE_TYPES.some((t) => types.has(t)) || types.has(SUB_FIELD)) nodeSet.add(iri)
     }
 
     const edges = []
@@ -232,9 +212,9 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
 
     // SubFields render in the SourceField column — they're just nested fields.
     const typeFor = (iri) => {
-        const ts = typeOf.get(iri) ?? []
-        if (ts.includes(SUB_FIELD)) return "SourceField"
-        for (const t of NODE_TYPES) if (ts.includes(t)) return localName(t)
+        const ts = typeOf.get(iri)
+        if (ts?.has(SUB_FIELD)) return "SourceField"
+        for (const t of NODE_TYPES) if (ts?.has(t)) return localName(t)
         return "Node"
     }
 
@@ -242,7 +222,7 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
     // pass over `edges` until no new node is added.
     if (hiddenSources?.size) {
         const reachable = new Set([...nodeSet].filter((iri) =>
-            (typeOf.get(iri) ?? []).includes(`${NS}Source`) && !hiddenSources.has(iri)))
+            typeOf.get(iri)?.has(`${NS}Source`) && !hiddenSources.has(iri)))
         for (let grew = true; grew;) {
             grew = false
             for (const e of edges) if (reachable.has(e.from) && !reachable.has(e.to)) { reachable.add(e.to); grew = true }
@@ -259,10 +239,10 @@ export function loadMap(ttl, { hideUnmappedFields = true, hideUnmappedTargetFiel
     for (const e of edges) if (e.label === "mapsTo") { mappedSources.add(e.from); mappedTargets.add(e.to) }
     for (const e of edges) if (e.label === "hasSubField" && mappedSources.has(e.to)) mappedSources.add(e.from)
     const isField = (iri) => {
-        const ts = typeOf.get(iri) ?? []
-        return ts.includes(`${NS}SourceField`) || ts.includes(SUB_FIELD)
+        const ts = typeOf.get(iri)
+        return ts?.has(`${NS}SourceField`) || ts?.has(SUB_FIELD)
     }
-    const isTargetField = (iri) => (typeOf.get(iri) ?? []).includes(`${NS}TargetField`)
+    const isTargetField = (iri) => typeOf.get(iri)?.has(`${NS}TargetField`) ?? false
 
     if (hideUnmappedFields) {
         for (const iri of [...nodeSet]) if (isField(iri) && !mappedSources.has(iri)) nodeSet.delete(iri)

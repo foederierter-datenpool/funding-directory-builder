@@ -1,4 +1,5 @@
 import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
+import { localName } from "../../../utils.js"
 
 const QUERY = `
 PREFIX schema: <http://schema.org/>
@@ -25,8 +26,6 @@ WHERE {
 }
 GROUP BY ?org
 ORDER BY ?org`
-
-const localName = (iri) => iri.replace(/^.*[#/]/, "")
 
 export async function toSozialplattformJson(mergedTtl) {
     const rows = await sparqlSelect(QUERY, [storeFromTurtles([mergedTtl])])

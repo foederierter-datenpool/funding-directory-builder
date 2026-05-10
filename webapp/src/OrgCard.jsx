@@ -1,14 +1,14 @@
-import { sourceKind, localName } from "./loadMerge.js"
+import { localName, parseTtl } from "../../utils.js"
+import { sourceKind } from "./loadMerge.js"
 import logTtl from "../../data/ingest/ingest-log.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"
-import { Parser } from "n3"
 import React, { useState } from "react"
 
 const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
 const SOURCE_LOCAL_TO_KIND = { caritasSource: "caritas", sozialplattformSource: "sp", dhsSource: "dhs" }
 const harvestTimeByKind = (() => {
     const bnodeKind = new Map(), bnodeTime = new Map()
-    for (const q of new Parser().parse(logTtl)) {
+    for (const q of parseTtl(logTtl)) {
         if (q.predicate.value === "https://civic-data.de/pipeline#ofSource") {
             bnodeKind.set(q.subject.value, SOURCE_LOCAL_TO_KIND[localName(q.object.value)] ?? "other")
         } else if (q.predicate.value === "http://www.w3.org/ns/prov#atTime") {

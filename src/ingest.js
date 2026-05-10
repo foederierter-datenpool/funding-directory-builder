@@ -1,6 +1,6 @@
 import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
+import { topoSort } from "../utils.js"
 import { spawnSync } from "child_process"
-import { topoSort } from "./utils.js"
 import path from "path"
 import fs from "fs"
 

@@ -1,21 +1,14 @@
-import { Parser } from "n3"
+import { localName, parseReifications, parseTtl, shrink } from "../../utils.js"
 
-const RDF_REIFIES = "http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies"
 const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
 
 const PREFIXES = {
-    "http://schema.org/":              "schema",
-    "http://purl.org/dc/terms/":       "dct",
-    "http://xmlns.com/foaf/0.1/":      "foaf",
-    "https://civic-data.de/pipeline#": "cdp",
+    schema: "http://schema.org/",
+    dct:    "http://purl.org/dc/terms/",
+    foaf:   "http://xmlns.com/foaf/0.1/",
+    cdp:    "https://civic-data.de/pipeline#",
 }
-const localName = (iri) => iri.replace(/^.*[#/]/, "")
-const prefixedIri = (iri) => {
-    for (const [ns, p] of Object.entries(PREFIXES)) {
-        if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
-    }
-    return iri
-}
+const prefixedIri = (iri) => shrink(iri, PREFIXES)
 
 export function sourceKind(iri) {
     const local = localName(iri)
@@ -25,22 +18,16 @@ export function sourceKind(iri) {
     return "other"
 }
 
-export { localName }
-
 export function loadMerge(mergedTtl, provTtl) {
-    const mergedQuads = new Parser().parse(mergedTtl)
-    const provQuads = new Parser().parse(provTtl)
+    const mergedQuads = parseTtl(mergedTtl)
+    const provQuads = parseTtl(provTtl)
 
     // Walk provenance: gather reification bnode → inner triple, and bnode → source set,
     // then index (s|p|o) → Set<source>.
-    const reifies = new Map()
+    const reifies = parseReifications(provQuads)
     const bnodeSources = new Map()
     for (const q of provQuads) {
-        if (q.predicate.value === RDF_REIFIES && q.object.termType === "Quad") {
-            reifies.set(q.subject.value, {
-                s: q.object.subject.value, p: q.object.predicate.value, o: q.object.object.value,
-            })
-        } else if (q.predicate.value === PROV_DERIVED_FROM) {
+        if (q.predicate.value === PROV_DERIVED_FROM) {
             if (!bnodeSources.has(q.subject.value)) bnodeSources.set(q.subject.value, new Set())
             bnodeSources.get(q.subject.value).add(q.object.value)
         }

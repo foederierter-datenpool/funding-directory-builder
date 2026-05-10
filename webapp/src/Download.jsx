@@ -1,8 +1,8 @@
-import { turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils"
+import { datasetToTurtleWriter, turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils"
+import { groupBySubject, parseTtl, shrink, subjectsOfType } from "../../utils.js"
 import { toSozialplattformJson } from "./exporters/sozialplattform.js"
 import federationTtl from "../../config/federation.ttl?raw"
 import finalTtl from "../../data/pipeline/final.ttl?raw"
-import { Parser, Writer } from "n3"
 import React, { useState } from "react"
 
 const SCHEMA_IDENTIFIER = "http://schema.org/identifier"
@@ -13,38 +13,29 @@ const PREFIXES = {
     dct:    "http://purl.org/dc/terms/",
     cdf:    "https://civic-data.de/federated-directory#",
 }
-const prefixedIri = (iri) => {
-    for (const [p, ns] of Object.entries(PREFIXES)) {
-        if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
-    }
-    return iri
-}
 
 const PIPELINE_NS = "https://civic-data.de/pipeline#"
-const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 
 function readTargetFields() {
-    const quads = new Parser().parse(federationTtl)
+    const quads = parseTtl(federationTtl)
+    const isTargetField = subjectsOfType(quads, `${PIPELINE_NS}TargetField`)
     const fieldOrder = []
     const seen = new Set()
-    const isTargetField = new Set()
     const predicateOf = new Map()
     for (const q of quads) {
         if (q.predicate.value === `${PIPELINE_NS}hasTargetField`) {
             if (!seen.has(q.object.value)) { seen.add(q.object.value); fieldOrder.push(q.object.value) }
-        } else if (q.predicate.value === RDF_TYPE && q.object.value === `${PIPELINE_NS}TargetField`) {
-            isTargetField.add(q.subject.value)
         } else if (q.predicate.value === `${PIPELINE_NS}targetPredicate`) {
             predicateOf.set(q.subject.value, q.object.value)
         }
     }
     return fieldOrder
         .filter((iri) => isTargetField.has(iri) && predicateOf.has(iri))
-        .map((iri) => ({ predicate: predicateOf.get(iri), label: prefixedIri(predicateOf.get(iri)) }))
+        .map((iri) => ({ predicate: predicateOf.get(iri), label: shrink(predicateOf.get(iri), PREFIXES) }))
         .filter((f) => f.predicate !== SCHEMA_IDENTIFIER)
 }
 
-const FINAL_QUADS = new Parser().parse(finalTtl)
+const FINAL_QUADS = parseTtl(finalTtl)
 // Only offer target fields that actually carry data in final.ttl —
 // declared-but-unmapped fields would just download as empty columns.
 const PREDICATES_WITH_DATA = new Set(FINAL_QUADS.map((q) => q.predicate.value))
@@ -57,33 +48,13 @@ const FORMATS = [
     { value: "csv",    label: "CSV (.csv)",        ext: "csv",    mime: "text/csv" },
 ]
 
-const writeTurtle = (quads) => new Promise((resolve, reject) => {
-    const writer = new Writer({ prefixes: PREFIXES })
-    for (const q of quads) writer.addQuad(q)
-    writer.end((err, result) => err ? reject(err) : resolve(result))
-})
-
 const csvEscape = (v) => /[",\n\r]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v
 
-function groupBySubject(quads) {
-    const subjects = []
-    const bySubject = new Map()
-    for (const q of quads) {
-        const s = q.subject.value
-        if (!bySubject.has(s)) { bySubject.set(s, new Map()); subjects.push(s) }
-        const row = bySubject.get(s)
-        if (!row.has(q.predicate.value)) row.set(q.predicate.value, [])
-        row.get(q.predicate.value).push(q.object.value)
-    }
-    return { subjects, bySubject }
-}
-
 function buildCsv(quads, fields) {
-    const { subjects, bySubject } = groupBySubject(quads)
+    const bySubject = groupBySubject(quads)
     const header = ["iri", ...fields.map((f) => f.label)]
     const lines = [header.map(csvEscape).join(",")]
-    for (const s of subjects) {
-        const row = bySubject.get(s)
+    for (const [s, row] of bySubject) {
         const cells = [s, ...fields.map((f) => (row.get(f.predicate) ?? []).join("; "))]
         lines.push(cells.map(csvEscape).join(","))
     }
@@ -91,17 +62,16 @@ function buildCsv(quads, fields) {
 }
 
 function buildJson(quads, fields) {
-    const { subjects, bySubject } = groupBySubject(quads)
-    const out = subjects.map((s) => {
-        const row = bySubject.get(s)
+    const out = []
+    for (const [s, row] of groupBySubject(quads)) {
         const obj = { iri: s }
         for (const f of fields) {
             const vals = row.get(f.predicate)
             if (!vals) continue
             obj[f.label] = vals.length === 1 ? vals[0] : vals
         }
-        return obj
-    })
+        out.push(obj)
+    }
     return JSON.stringify(out, null, 2)
 }
 
@@ -110,7 +80,7 @@ async function buildFile(selectedFields, format) {
     const filtered = FINAL_QUADS.filter((q) => allowed.has(q.predicate.value))
     if (format === "csv")  return buildCsv(filtered, selectedFields)
     if (format === "json") return buildJson(filtered, selectedFields)
-    const ttl = await writeTurtle(filtered)
+    const ttl = await datasetToTurtleWriter(filtered, PREFIXES)
     if (format === "ttl") return ttl
     const jsonld = await turtleToJsonLdObj(ttl)
     return JSON.stringify(jsonld, null, 2)

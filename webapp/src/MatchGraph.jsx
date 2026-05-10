@@ -1,3 +1,4 @@
+import { groupBySubject, parseTtl, shrink } from "../../utils.js"
 import matchKnowledgeTtl from "../../config/match-knowledge.ttl?raw"
 import federationTtl from "../../config/federation.ttl?raw"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
@@ -5,7 +6,6 @@ import ttl from "../../data/pipeline/matches.ttl?raw"
 import React, { useMemo, useState } from "react"
 import ColumnGraph from "./ColumnGraph.jsx"
 import { loadMatch } from "./loadMatch.js"
-import { Parser } from "n3"
 
 const COLUMNS = ["Source", "MatchCluster"]
 const COLORS = { Source: "#d4e7ff", MatchCluster: "#f4cfe0" }
@@ -19,34 +19,27 @@ const ON = `${CDP_NS}on`
 const OWL_SAME_AS = "http://www.w3.org/2002/07/owl#sameAs"
 
 const PREFIXES = {
-    "http://schema.org/":         "schema",
-    "http://purl.org/dc/terms/":  "dct",
-    "http://xmlns.com/foaf/0.1/": "foaf",
-    [CDP_NS]:                     "cdp",
+    schema: "http://schema.org/",
+    dct:    "http://purl.org/dc/terms/",
+    foaf:   "http://xmlns.com/foaf/0.1/",
+    cdp:    CDP_NS,
 }
-const prefixed = (iri) => {
-    for (const [ns, p] of Object.entries(PREFIXES)) if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
-    return iri
-}
+const prefixed = (iri) => shrink(iri, PREFIXES)
 
 const sourceOf = (iri) => iri.match(/[#/](caritas|sp|dhs)-/)?.[1] ?? "other"
 
 const criteriaPredicates = (() => {
-    const quads = new Parser().parse(federationTtl)
+    const quads = parseTtl(federationTtl)
     const bnodes = new Set()
     for (const q of quads) if (q.predicate.value === HAS_MATCH_CRITERION) bnodes.add(q.object.value)
     return quads.filter(q => q.predicate.value === ON && bnodes.has(q.subject.value)).map(q => q.object.value)
 })()
 
-const orgInfo = new Map()
-for (const q of new Parser().parse(mappedTtl)) {
-    if (q.object.termType !== "Literal") continue
-    const entry = orgInfo.get(q.subject.value) ?? {}
-    entry[q.predicate.value] = q.object.value
-    orgInfo.set(q.subject.value, entry)
-}
+// Map<orgIri, Map<predIri, [literalValue]>> — values are arrays even for
+// single-valued predicates; index [0] for first.
+const orgInfo = groupBySubject(parseTtl(mappedTtl), { literalsOnly: true })
 
-const manualPairs = new Parser().parse(matchKnowledgeTtl)
+const manualPairs = parseTtl(matchKnowledgeTtl)
     .filter(q => q.predicate.value === OWL_SAME_AS)
     .map(q => [q.subject.value, q.object.value])
 
@@ -61,7 +54,7 @@ function MemberDetailsModal({ clusterId, memberIris, onClose }) {
                     <button onClick={onClose} style={{ border: 0, background: "transparent", fontSize: 18, cursor: "pointer", lineHeight: 1 }}>×</button>
                 </div>
                 {memberIris.map((iri) => {
-                    const info = orgInfo.get(iri) ?? {}
+                    const info = orgInfo.get(iri)
                     return (
                         <div key={iri} style={{ marginBottom: 14 }}>
                             <div style={{ fontSize: 11, color: "#666", marginBottom: 4 }}><code>{prefixed(iri)}</code></div>
@@ -70,7 +63,7 @@ function MemberDetailsModal({ clusterId, memberIris, onClose }) {
                                     {criteriaPredicates.map((p) => (
                                         <tr key={p}>
                                             <td style={{ padding: "2px 8px", color: "#555", whiteSpace: "nowrap", verticalAlign: "top", width: 1 }}>{prefixed(p)}</td>
-                                            <td style={{ padding: "2px 8px" }}>{info[p] ?? <span style={{ color: "#bbb" }}>—</span>}</td>
+                                            <td style={{ padding: "2px 8px" }}>{info?.get(p)?.[0] ?? <span style={{ color: "#bbb" }}>—</span>}</td>
                                         </tr>
                                     ))}
                                 </tbody>
@@ -109,10 +102,10 @@ export default function MatchGraph() {
         for (const n of r.nodes) {
             if (n.type === "Source") {
                 n.label = sourceOf(n.id)
-                n.subtitle = orgInfo.get(n.id)?.[SCHEMA_IDENTIFIER]
+                n.subtitle = orgInfo.get(n.id)?.get(SCHEMA_IDENTIFIER)?.[0]
             } else if (n.type === "MatchCluster") {
-                const named = members.get(n.id)?.find((m) => orgInfo.get(m)?.[SCHEMA_NAME])
-                if (named) n.label = orgInfo.get(named)[SCHEMA_NAME]
+                const named = members.get(n.id)?.find((m) => orgInfo.get(m)?.get(SCHEMA_NAME))
+                if (named) n.label = orgInfo.get(named).get(SCHEMA_NAME)[0]
                 n.subtitle = n.id.startsWith(CDF_NS) ? `cdf:${n.id.slice(CDF_NS.length)}` : n.id
             }
         }

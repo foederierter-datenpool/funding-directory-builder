@@ -1,8 +1,8 @@
 import { newStore, parser as n3Parser, sparqlConstruct, sparqlInsertDelete, sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
+import { buildPrefixBlock, shrink, topoSort } from "../utils.js"
 import { token_set_ratio } from "fuzzball"
 import { DataFactory, Writer } from "n3"
 import { createHash } from "crypto"
-import { topoSort } from "./utils.js"
 import path from "path"
 import fs from "fs"
 
@@ -14,9 +14,10 @@ const defStore = storeFromTurtles(
     ["config/federation.ttl", "config/pipeline.ttl", "config/match-knowledge.ttl"].map(p => fs.readFileSync(abs(p), "utf8"))
 )
 
-const writeTurtle = (filePath, quads, prefixes) => new Promise((resolve, reject) => {
-    // Dedupe via a Store and sort by subject so the Writer can emit
-    // grouped "subject p1 o1; p2 o2." blocks instead of repeating subjects.
+// Dedupe via a Store and sort by subject so the Writer can emit grouped
+// "subject p1 o1; p2 o2." blocks instead of repeating subjects. Strips
+// graph names (writes triples, not quads).
+const writeTurtleFile = (filePath, quads, prefixes = {}) => new Promise((resolve, reject) => {
     const store = newStore()
     for (const q of quads) store.addQuad(df.quad(q.subject, q.predicate, q.object))
     const dedup = store.getQuads(null, null, null, null)
@@ -83,13 +84,11 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
         foaf:   "http://xmlns.com/foaf/0.1/",
         dct:    "http://purl.org/dc/terms/",
     }
-    const shortenPredicate = (iri) => {
-        for (const [p, ns] of Object.entries(prefixes)) {
-            if (iri.startsWith(ns)) return `${p}:${iri.slice(ns.length)}`
-        }
-        return `<${iri}>`
+    // shrink() returns the IRI verbatim if no prefix matches; wrap that as <…>.
+    const short = (iri) => {
+        const s = shrink(iri, prefixes)
+        return s === iri ? `<${iri}>` : s
     }
-    const shortenIri = (iri) => iri.startsWith(CDP) ? `cdp:${iri.slice(CDP.length)}` : `<${iri}>`
 
     const v      = (path) => `?${path}`
     const optLit = (subj, path) =>
@@ -97,7 +96,7 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
         `FILTER(isLiteral(${v(path)}) && ${v(path)} != "") }`
 
     const insertBlock = fields
-        .map(f => `        ?org ${shortenPredicate(f.predicate)} ${v(f.fieldPath)} .`)
+        .map(f => `        ?org ${short(f.predicate)} ${v(f.fieldPath)} .`)
         .join("\n")
 
     const topLevel  = fields.filter(f => !f.parentPath)
@@ -105,7 +104,7 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
 
     // Source subjects = federation IRIs after the clean step, so ?org is
     // identified directly via cdp:fromSource — no minting from a key field.
-    const bgp = [`?org cdp:fromSource ${shortenIri(source)} .`]
+    const bgp = [`?org cdp:fromSource ${short(source)} .`]
     for (const f of topLevel) bgp.push(optLit("?org", f.fieldPath))
 
     const byParent = new Map()
@@ -120,15 +119,11 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
         bgp.push(`OPTIONAL {\n    ?org xyz:${parent} ${pv} .\n${inner}\n  }`)
     }
 
-    const prefixBlock = Object.entries(prefixes)
-        .map(([p, ns]) => `PREFIX ${p}: <${ns}>`)
-        .join("\n")
-
-    return `${prefixBlock}
+    return `${buildPrefixBlock(prefixes)}
 
 INSERT {
     GRAPH <urn:mapped> {
-        ?org cdp:fromSource ${shortenIri(source)} .
+        ?org cdp:fromSource ${short(source)} .
 ${insertBlock}
     }
 } WHERE {
@@ -404,7 +399,7 @@ const runMatch = async (store, outPath) => {
 
     console.log(`match: ${subjects.length} entities → ${clusters.size} clusters (${multiSource} multi-source, ${sameAsUnions} sameAs unions)`)
 
-    await writeTurtle(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace, ...COMMON_PREFIXES })
+    await writeTurtleFile(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace, ...COMMON_PREFIXES })
     console.log(`match: wrote cluster log → ${outPath}`)
 }
 
@@ -437,10 +432,10 @@ const runMerge = async (store, outPath, provOutPath) => {
 
     const mergedQuads = store.getQuads(null, null, null, MERGED_GRAPH)
 
-    await writeTurtle(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdp: CDP, cdf: namespace })
+    await writeTurtleFile(abs(outPath), mergedQuads, { ...COMMON_PREFIXES, cdp: CDP, cdf: namespace })
     console.log(`merge: wrote ${mergedQuads.length} triples → ${outPath}`)
 
-    await writeTurtle(abs(provOutPath), provQuads, {
+    await writeTurtleFile(abs(provOutPath), provQuads, {
         ...COMMON_PREFIXES, cdp: CDP, cdf: namespace, prov: "http://www.w3.org/ns/prov#",
     })
     console.log(`merge: wrote ${provQuads.length} provenance annotations → ${provOutPath}`)
@@ -491,7 +486,7 @@ const runResolve = async (store, outPath) => {
     const finalQuads = [...groups.values()].map(quads =>
         (overrides.get(quads[0].predicate.value) ?? defaultPick)(quads))
 
-    await writeTurtle(abs(outPath), finalQuads, { ...COMMON_PREFIXES, cdf: cfg.ns })
+    await writeTurtleFile(abs(outPath), finalQuads, { ...COMMON_PREFIXES, cdf: cfg.ns })
     console.log(`resolve: wrote ${finalQuads.length} triples → ${outPath}`)
 }
 
@@ -521,7 +516,7 @@ for (const iri of sorted) {
             const src = storeFromTurtles([ttl])
             allQuads.push(...await sparqlConstruct(cleanQuery, [src]))
         }
-        await writeTurtle(abs(s.outPath), allQuads, {
+        await writeTurtleFile(abs(s.outPath), allQuads, {
             xyz: "http://sparql.xyz/facade-x/data/",
             cdp: "https://civic-data.de/pipeline#",
         })
@@ -536,7 +531,7 @@ for (const iri of sorted) {
     } else if (s.type === "Map") {
         await runMap(s.directMappingQueries)
         const quads = store.getQuads(null, null, null, MAPPED_GRAPH)
-        await writeTurtle(abs(s.outPath), quads, { ...COMMON_PREFIXES, cdp: CDP })
+        await writeTurtleFile(abs(s.outPath), quads, { ...COMMON_PREFIXES, cdp: CDP })
         console.log(`map: wrote ${quads.length} triples → ${s.outPath}`)
 
     } else if (s.type === "Match") {
