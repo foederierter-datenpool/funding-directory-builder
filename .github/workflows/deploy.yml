@@ -13,6 +13,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+              # Full history: the webapp build runs `git log` to date static
+              # sources (see webapp/vite.config.js). A shallow clone has no
+              # parent to diff against, so git would misattribute the add to
+              # the HEAD/deploy commit instead of the real one.
+              with:
+                  fetch-depth: 0
 
             - uses: actions/setup-node@v4
               with:
