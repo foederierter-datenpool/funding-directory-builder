@@ -1,4 +1,5 @@
-import { sparqlSelect, storeFromTurtles } from "@foerderfunke/sem-ops-utils"
+import { sparqlSelect } from "@foerderfunke/sem-ops-utils/sparql"
+import { storeFromTurtles } from "@foerderfunke/sem-ops-utils/core"
 import { localName } from "../../../utils.js"
 
 const QUERY = `

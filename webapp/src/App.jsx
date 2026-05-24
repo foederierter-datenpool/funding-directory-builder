@@ -1,14 +1,18 @@
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom"
 import About from "./About.jsx"
-import Directory from "./Directory.jsx"
-import Download from "./Download.jsx"
-import Pipeline from "./Pipeline.jsx"
-import MapGraph from "./MapGraph.jsx"
-import MatchGraph from "./MatchGraph.jsx"
-import MergeTables from "./MergeTables.jsx"
-import Query from "./Query.jsx"
-import Sources from "./Sources.jsx"
-import React, { useState } from "react"
+import React, { lazy, Suspense, useState } from "react"
+
+// Lazy-load route views so their heavy deps load only when the route is
+// visited: comunica + yasgui (Query), comunica + jsonld (Download), xyflow
+// (Map/Match). About stays eager as the landing route.
+const Directory   = lazy(() => import("./Directory.jsx"))
+const Download    = lazy(() => import("./Download.jsx"))
+const Pipeline    = lazy(() => import("./Pipeline.jsx"))
+const MapGraph    = lazy(() => import("./MapGraph.jsx"))
+const MatchGraph  = lazy(() => import("./MatchGraph.jsx"))
+const MergeTables = lazy(() => import("./MergeTables.jsx"))
+const Query       = lazy(() => import("./Query.jsx"))
+const Sources     = lazy(() => import("./Sources.jsx"))
 
 const STORAGE_KEY = "showFederation"
 
@@ -69,18 +73,20 @@ export default function App() {
             <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
                 <Nav />
                 <main>
-                    <Routes>
-                        <Route path="/" element={<About />} />
-                        <Route path="/pipeline" element={<Pipeline />} />
-                        <Route path="/sources" element={<Sources />} />
-                        <Route path="/map" element={<MapGraph />} />
-                        <Route path="/match" element={<MatchGraph />} />
-                        <Route path="/merge" element={<MergeTables />} />
-                        <Route path="/directory" element={<Directory />} />
-                        <Route path="/query" element={<Query />} />
-                        <Route path="/download" element={<Download />} />
-                        <Route path="/apis" element={<Apis />} />
-                    </Routes>
+                    <Suspense fallback={<div className="page">Loading…</div>}>
+                        <Routes>
+                            <Route path="/" element={<About />} />
+                            <Route path="/pipeline" element={<Pipeline />} />
+                            <Route path="/sources" element={<Sources />} />
+                            <Route path="/map" element={<MapGraph />} />
+                            <Route path="/match" element={<MatchGraph />} />
+                            <Route path="/merge" element={<MergeTables />} />
+                            <Route path="/directory" element={<Directory />} />
+                            <Route path="/query" element={<Query />} />
+                            <Route path="/download" element={<Download />} />
+                            <Route path="/apis" element={<Apis />} />
+                        </Routes>
+                    </Suspense>
                 </main>
             </div>
         </HashRouter>

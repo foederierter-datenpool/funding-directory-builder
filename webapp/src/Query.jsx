@@ -1,4 +1,5 @@
-import { storeFromTurtles, queryEngine } from "@foerderfunke/sem-ops-utils"
+import { storeFromTurtles } from "@foerderfunke/sem-ops-utils/core"
+import { queryEngine } from "@foerderfunke/sem-ops-utils/sparql"
 import finalTtl from "../../data/pipeline/final.ttl?raw"
 import React, { useEffect, useRef } from "react"
 import "@zazuko/yasgui/build/yasgui.min.css"

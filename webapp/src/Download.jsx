@@ -1,4 +1,5 @@
-import { datasetToTurtleWriter, turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils"
+import { datasetToTurtleWriter } from "@foerderfunke/sem-ops-utils/core"
+import { turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils/jsonld"
 import { groupBySubject, parseTtl, shrink, subjectsOfType } from "../../utils.js"
 import { toSozialplattformJson } from "./exporters/sozialplattform.js"
 import federationTtl from "../../config/federation.ttl?raw"
