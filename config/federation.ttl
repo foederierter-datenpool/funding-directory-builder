@@ -8,7 +8,7 @@
 # ---- Federation ---------------------------------------------------------
 
 :federation a :Federation ;
-    :hasSource       :caritasSource, :sozialplattformSource, :dhsSource ;
+    :hasSource       :caritasSource, :sozialplattformSource, :dhsSource, :awoSource ;
     :hasTargetSchema :targetSchema ;
     :hasMatchRule    :match ;
     :hasMergeRule    :merge ;
@@ -156,6 +156,24 @@
 :dhs-zeiten       a :SourceField ; :fieldPath "zeiten"       .
 :dhs-zielgruppe   a :SourceField ; :fieldPath "zielgruppe"   .
 
+# -------------------------------------------------------------------------
+
+:awoSource a :Source ;
+    rdfs:label  "Arbeiterwohlfahrt (AWO)" ;
+    :hasField   :awo-id, :awo-name, :awo-name_zusatz, :awo-webseite, :awo-parent_name,
+                :awo-adresse, :awo-plz, :awo-ort, :awo-ortsteil, :awo-category .
+
+:awo-id          a :SourceField ; :fieldPath "id"          .
+:awo-name        a :SourceField ; :fieldPath "name"        .
+:awo-name_zusatz a :SourceField ; :fieldPath "name_zusatz" .
+:awo-webseite    a :SourceField ; :fieldPath "webseite"    .
+:awo-parent_name a :SourceField ; :fieldPath "parent_name" .
+:awo-adresse     a :SourceField ; :fieldPath "adresse"     .
+:awo-plz         a :SourceField ; :fieldPath "plz"         .
+:awo-ort         a :SourceField ; :fieldPath "ort"         .
+:awo-ortsteil    a :SourceField ; :fieldPath "ortsteil"    .
+:awo-category    a :SourceField ; :fieldPath "category"    .
+
 # ---- Transform nodes --------------------------------------------
 
 :caritasAddressNode a :TransformNode ; :script "src/transforms/caritas-address.sparql" .
@@ -218,6 +236,21 @@
         [ :from :dhs-plzort       ; :to :t-postalCode, :t-locality ; :via :dhsAddressNode          ] ,
         [ :from :dhs-telefon      ; :to :t-telephone               ; :via :dhsContactNode          ] ,
         [ :from :dhs-email        ; :to :t-email                   ; :via :dhsContactNode          ] .
+
+:awo-mapping a :Mapping ;
+    :fromSource    :awoSource ;
+    :toTarget      :targetSchema ;
+    :sourceGraph   <urn:source:awo> ;
+    :hasFieldMapping
+        [ :from :awo-id          ; :to :t-identifier         ] ,
+        [ :from :awo-name        ; :to :t-name               ] ,
+        [ :from :awo-name_zusatz ; :to :t-alternateName      ] ,
+        [ :from :awo-webseite    ; :to :t-homepage           ] ,
+        [ :from :awo-parent_name ; :to :t-parentOrganization ] ,
+        [ :from :awo-adresse     ; :to :t-streetAddress      ] ,
+        [ :from :awo-plz         ; :to :t-postalCode         ] ,
+        [ :from :awo-ort         ; :to :t-locality           ] ,
+        [ :from :awo-category    ; :to :t-category           ] .
 
 # ---- Match --------------------------------------------------------------
 

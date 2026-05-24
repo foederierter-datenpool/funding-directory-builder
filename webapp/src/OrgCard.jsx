@@ -4,8 +4,8 @@ import logTtl from "../../data/ingest/ingest-log.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"
 import React, { useState } from "react"
 
-const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", other: "?" }
-const SOURCE_LOCAL_TO_KIND = { caritasSource: "caritas", sozialplattformSource: "sp", dhsSource: "dhs" }
+const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", awo: "awo", other: "?" }
+const SOURCE_LOCAL_TO_KIND = { caritasSource: "caritas", sozialplattformSource: "sp", dhsSource: "dhs", awoSource: "awo" }
 const harvestTimeByKind = (() => {
     const bnodeKind = new Map(), bnodeTime = new Map()
     for (const q of parseTtl(logTtl)) {

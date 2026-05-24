@@ -1,0 +1,54 @@
+# The fetcher merges AWO's two source files into one document; both carry
+# xyz:id per org, so skolemizing each occurrence to cdp:awo-<id> unifies them
+# (xyz:type identifies an org — nested objects also carry xyz:id). Copies the
+# org's scalar literals (whitespace collapsed; isLiteral skips nested arrays and
+# the facade-x null IRI), flattens the single location/service to scalars, and
+# resolves parent_id to the parent's name via a self-join.
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+CONSTRUCT {
+    ?org cdp:fromSource cdp:awoSource ;
+         ?p              ?scalar ;
+         xyz:adresse     ?adresse ;
+         xyz:plz         ?plz ;
+         xyz:ort         ?ort ;
+         xyz:ortsteil    ?ortsteil ;
+         xyz:category    ?category ;
+         xyz:parent_name ?parentName .
+}
+WHERE {
+    ?node xyz:type ?type ; xyz:id ?id .
+    BIND(IRI(CONCAT(STR(cdp:), "awo-", STR(?id))) AS ?org)
+
+    # The org's own scalar literals (id, name, name_zusatz, webseite, …), with
+    # whitespace collapsed. isLiteral skips nested arrays and the xyz:null IRI.
+    ?node ?p ?raw .
+    FILTER(isLiteral(?raw))
+    BIND(STRDT(REPLACE(STR(?raw), "[\u00A0\\s]+", " "), datatype(?raw)) AS ?scalar)
+
+    OPTIONAL {
+        ?node xyz:locations/rdf:_1 ?loc .
+        OPTIONAL { ?loc xyz:adresse  ?adresse }
+        OPTIONAL { ?loc xyz:ort      ?ort }
+        OPTIONAL { ?loc xyz:ortsteil ?ortsteil }
+    }
+
+    # plz: embedded location (organisations) or skinny service location (all-only).
+    OPTIONAL { ?node xyz:locations/rdf:_1/xyz:plz             ?p1 }
+    OPTIONAL { ?node xyz:services/rdf:_1/xyz:location/xyz:plz ?p2 }
+    BIND(COALESCE(?p1, ?p2) AS ?plz)
+
+    OPTIONAL {
+        ?node xyz:services/rdf:_1/xyz:bagfw_category ?cat .
+        ?cat xyz:nummer ?cnum ; xyz:name ?cname .
+        BIND(CONCAT(STR(?cnum), " ", STR(?cname)) AS ?category)
+    }
+
+    OPTIONAL {
+        ?node xyz:parent_id ?pid .
+        ?parent xyz:type ?ptype ; xyz:id ?pid ; xyz:name ?parentName .
+    }
+}

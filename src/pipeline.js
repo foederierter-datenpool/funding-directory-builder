@@ -91,9 +91,12 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
     }
 
     const v      = (path) => `?${path}`
+    // STR() before the emptiness check so the guard works for any literal
+    // datatype — a bare `?v != ""` errors on e.g. xsd:int and would silently
+    // drop the field (AWO's numeric ids hit exactly this).
     const optLit = (subj, path) =>
         `OPTIONAL { ${subj} xyz:${path} ${v(path)} . ` +
-        `FILTER(isLiteral(${v(path)}) && ${v(path)} != "") }`
+        `FILTER(isLiteral(${v(path)}) && STR(${v(path)}) != "") }`
 
     const insertBlock = fields
         .map(f => `        ?org ${short(f.predicate)} ${v(f.fieldPath)} .`)

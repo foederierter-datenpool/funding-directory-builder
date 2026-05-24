@@ -3,6 +3,7 @@ import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
 import caritasLifted from "../../data/pipeline/cleaned/caritas.ttl?raw"
 import dhsLifted from "../../data/pipeline/cleaned/dhs.ttl?raw"
 import spLifted from "../../data/pipeline/cleaned/sozialplattform.ttl?raw"
+import awoLifted from "../../data/pipeline/cleaned/awo.ttl?raw"
 import { loadMap, loadSources, loadOrgsBySource, loadFieldValuesByOrg } from "./loadMap.js"
 import ColumnGraph from "./ColumnGraph.jsx"
 import { SkipBack, SkipForward } from "lucide-react"
@@ -30,6 +31,7 @@ const FIELD_VALUES = loadFieldValuesByOrg(ttl, mappedTtl, new Map([
     [`${NS}caritasSource`,         caritasLifted],
     [`${NS}sozialplattformSource`, spLifted],
     [`${NS}dhsSource`,             dhsLifted],
+    [`${NS}awoSource`,             awoLifted],
 ]))
 
 function SourcesDropdown({ visible, onChange }) {

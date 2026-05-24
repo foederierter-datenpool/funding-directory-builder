@@ -56,21 +56,24 @@ export function loadSources(federationTtl, pipelineTtl, mappedTtl, ingestLogTtl)
         get(sourceIri).mappedFields = mapped.size
     }
 
-    // Pipeline-level: fetchUrl + format via :fromSource on Fetch step.
+    // Pipeline-level: fetchUrl / staticSource + format via :fromSource on Fetch step.
     const fetchUrlByStep = new Map()
+    const staticSourceByStep = new Map()
     const formatByStep = new Map()
     const stepToSource = new Map()
     for (const q of pipeQuads) {
         const p = q.predicate.value
-        if (p === `${NS}fetchUrl`)        fetchUrlByStep.set(q.subject.value, q.object.value)
-        else if (p === `${NS}format`)     formatByStep.set(q.subject.value, q.object.value)
-        else if (p === `${NS}fromSource`) stepToSource.set(q.subject.value, q.object.value)
+        if (p === `${NS}fetchUrl`)          fetchUrlByStep.set(q.subject.value, q.object.value)
+        else if (p === `${NS}staticSource`) staticSourceByStep.set(q.subject.value, q.object.value)
+        else if (p === `${NS}format`)       formatByStep.set(q.subject.value, q.object.value)
+        else if (p === `${NS}fromSource`)   stepToSource.set(q.subject.value, q.object.value)
     }
     for (const [step, sourceIri] of stepToSource) {
         if (!sourceIris.has(sourceIri)) continue
         const s = get(sourceIri)
-        if (fetchUrlByStep.has(step)) s.fetchUrl = fetchUrlByStep.get(step)
-        if (formatByStep.has(step))   s.format   = formatByStep.get(step)
+        if (fetchUrlByStep.has(step))     s.fetchUrl     = fetchUrlByStep.get(step)
+        if (staticSourceByStep.has(step)) s.staticSource = staticSourceByStep.get(step)
+        if (formatByStep.has(step))       s.format       = formatByStep.get(step)
     }
 
     // Records: count distinct orgs in mapped.ttl per source via cdp:fromSource.

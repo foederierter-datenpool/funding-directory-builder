@@ -19,11 +19,12 @@ const run = (cmd, args) => {
 const rows = await sparqlSelect(`
     PREFIX :       <https://civic-data.de/pipeline#>
     PREFIX p-plan: <http://purl.org/net/p-plan#>
-    SELECT ?step ?type ?script ?fetchUrl ?liftQuery ?inPath ?inDir ?outPath ?outDir ?fromSource ?paramName ?paramValue ?pred WHERE {
+    SELECT ?step ?type ?script ?fetchUrl ?staticSource ?liftQuery ?inPath ?inDir ?outPath ?outDir ?fromSource ?paramName ?paramValue ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
-        OPTIONAL { ?step :script               ?script     }
-        OPTIONAL { ?step :fetchUrl             ?fetchUrl   }
+        OPTIONAL { ?step :script               ?script       }
+        OPTIONAL { ?step :fetchUrl             ?fetchUrl     }
+        OPTIONAL { ?step :staticSource         ?staticSource }
         OPTIONAL { ?step :liftQuery            ?liftQuery  }
         OPTIONAL { ?step :input                ?inPath     }
         OPTIONAL { ?step :inputDir             ?inDir      }
@@ -40,7 +41,7 @@ for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
-            script: r.script, fetchUrl: r.fetchUrl, liftQuery: r.liftQuery,
+            script: r.script, fetchUrl: r.fetchUrl, staticSource: r.staticSource, liftQuery: r.liftQuery,
             inPath: r.inPath, inDir: r.inDir, outPath: r.outPath, outDir: r.outDir,
             fromSource: r.fromSource, params: [],
         })
@@ -89,9 +90,12 @@ for (const iri of sorted) {
 
     if (s.type === "Fetch") {
         const outAbs = abs(s.outDir ?? s.outPath)
-        console.log(`fetch  ${s.fetchUrl} (PLZs ${PLZS.join(", ")}) → ${s.outDir ?? s.outPath}`)
+        // Live sources pass their :fetchUrl; static-file sources pass the
+        // absolute :staticSource dir instead. The script gets whichever applies.
+        const origin = s.fetchUrl ?? (s.staticSource ? abs(s.staticSource) : "")
+        console.log(`fetch  ${s.fetchUrl ?? s.staticSource} (PLZs ${PLZS.join(", ")}) → ${s.outDir ?? s.outPath}`)
         fs.mkdirSync(path.dirname(outAbs), { recursive: true })
-        run("node", [abs(s.script), outAbs, s.fetchUrl, PLZS.join(",")])
+        run("node", [abs(s.script), outAbs, origin, PLZS.join(",")])
         if (s.fromSource) harvests.push({ source: s.fromSource, time: new Date().toISOString() })
 
     } else if (s.type === "Lift") {

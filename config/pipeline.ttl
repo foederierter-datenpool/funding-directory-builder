@@ -32,6 +32,13 @@
     :script     "src/fetchers/dhs.js" ;
     :outputDir  "data/ingest/raw/dhs/" .
 
+:fetchAwo a :Fetch, p-plan:Step ;
+    :fromSource   :awoSource ;
+    :format       "json" ;
+    :staticSource "static-sources/awo/" ;
+    :script       "src/fetchers/awo.js" ;
+    :outputDir    "data/ingest/raw/awo/" .
+
 # ---- Lift --------------------------------------------------------------
 
 :liftCaritas a :Lift, p-plan:Step ;
@@ -53,6 +60,12 @@
     :inputDir  "data/ingest/raw/dhs/" ;
     :outputDir "data/ingest/lifted/dhs/" .
 
+:liftAwo a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchAwo ;
+    :liftQuery "src/lift/json.sparql" ;
+    :inputDir  "data/ingest/raw/awo/" ;
+    :outputDir "data/ingest/lifted/awo/" .
+
 # ---- Clean -------------------------------------------------------------
 
 :cleanCaritas a :Clean, p-plan:Step ;
@@ -73,6 +86,12 @@
     :inputDir   "data/ingest/lifted/dhs/" ;
     :output     "data/pipeline/cleaned/dhs.ttl" .
 
+:cleanAwo a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftAwo ;
+    :cleanQuery "src/clean/awo.sparql" ;
+    :inputDir   "data/ingest/lifted/awo/" ;
+    :output     "data/pipeline/cleaned/awo.ttl" .
+
 # ---- Load --------------------------------------------------------------
 
 :loadCaritas a :Load, p-plan:Step ;
@@ -90,10 +109,15 @@
     :input "data/pipeline/cleaned/dhs.ttl" ;
     :graph "urn:source:dhs" .
 
+:loadAwo a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanAwo ;
+    :input "data/pipeline/cleaned/awo.ttl" ;
+    :graph "urn:source:awo" .
+
 # ---- Map ---------------------------------------------------------------
 
 :mapStep a :Map, p-plan:Step ;
-    p-plan:isPrecededBy :loadCaritas, :loadSozialplattform, :loadDhs ;
+    p-plan:isPrecededBy :loadCaritas, :loadSozialplattform, :loadDhs, :loadAwo ;
     :output               "data/pipeline/mapped.ttl" ;
     :directMappingQueries "data/pipeline/direct-mapping-queries/" .
 

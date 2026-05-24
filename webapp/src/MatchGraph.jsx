@@ -26,7 +26,7 @@ const PREFIXES = {
 }
 const prefixed = (iri) => shrink(iri, PREFIXES)
 
-const sourceOf = (iri) => iri.match(/[#/](caritas|sp|dhs)-/)?.[1] ?? "other"
+const sourceOf = (iri) => iri.match(/[#/](caritas|sp|dhs|awo)-/)?.[1] ?? "other"
 
 const criteriaPredicates = (() => {
     const quads = parseTtl(federationTtl)
