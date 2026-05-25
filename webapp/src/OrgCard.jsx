@@ -1,30 +1,18 @@
-import { localName, parseTtl } from "../../utils.js"
-import { sourceKind } from "./loadMerge.js"
+import federationTtl from "../../config/federation.ttl?raw"
 import logTtl from "../../data/ingest/ingest-log.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"
+import { loadHarvestBySource, loadSourceMeta } from "./sourceMeta.js"
 import React, { useState } from "react"
 
-const SOURCE_ABBR = { caritas: "ca", sp: "sp", dhs: "dhs", awo: "awo", other: "?" }
-const SOURCE_LOCAL_TO_KIND = { caritasSource: "caritas", sozialplattformSource: "sp", dhsSource: "dhs", awoSource: "awo" }
-const harvestTimeByKind = (() => {
-    const bnodeKind = new Map(), bnodeTime = new Map()
-    for (const q of parseTtl(logTtl)) {
-        if (q.predicate.value === "https://civic-data.de/pipeline#ofSource") {
-            bnodeKind.set(q.subject.value, SOURCE_LOCAL_TO_KIND[localName(q.object.value)] ?? "other")
-        } else if (q.predicate.value === "http://www.w3.org/ns/prov#atTime") {
-            bnodeTime.set(q.subject.value, q.object.value)
-        }
-    }
-    const out = {}
-    for (const [b, kind] of bnodeKind) {
-        const t = bnodeTime.get(b)
-        if (t && (!out[kind] || t > out[kind])) out[kind] = t
-    }
-    return out
-})()
+// org.sources are :Source IRIs (resolved in loadMerge); look up display data
+// in config (notation, label) and the harvest log (time).
+const sourceMeta = loadSourceMeta(federationTtl)
+const harvestBySource = loadHarvestBySource(logTtl)
+const sourceCode = (iri) => sourceMeta.get(iri).notation
 const tagTitle = (iri) => {
-    const t = harvestTimeByKind[sourceKind(iri)]
-    return t ? `${localName(iri)}\n\nharvested ${t.slice(0, 19).replace("T", " ")}` : localName(iri)
+    const label = sourceMeta.get(iri).label
+    const t = harvestBySource.get(iri)
+    return t ? `${label}\n\nharvested ${t.slice(0, 19).replace("T", " ")}` : label
 }
 
 export const EXPECTED_MULTI = new Set(["http://schema.org/identifier", "https://civic-data.de/pipeline#fromSource"])
@@ -52,7 +40,7 @@ function SourceTags({ sources }) {
     return (
         <>
             {sources.map((iri, i) => (
-                <span key={i} className="source-tag" title={tagTitle(iri)}>{SOURCE_ABBR[sourceKind(iri)]}</span>
+                <span key={i} className="source-tag" title={tagTitle(iri)}>{sourceCode(iri)}</span>
             ))}
         </>
     )
@@ -86,7 +74,7 @@ function OrgCardNarrow({ org, highlight }) {
 }
 
 function OrgCardWide({ org, highlight }) {
-    const sources = org.sourceOrgs
+    const sources = org.sources
     return (
         <table>
             <thead>
@@ -94,7 +82,7 @@ function OrgCardWide({ org, highlight }) {
                     <th></th>
                     {sources.map((s) => (
                         <th key={s} title={tagTitle(s)}>
-                            <span className="source-tag">{SOURCE_ABBR[sourceKind(s)]}</span>
+                            <span className="source-tag">{sourceCode(s)}</span>
                         </th>
                     ))}
                 </tr>

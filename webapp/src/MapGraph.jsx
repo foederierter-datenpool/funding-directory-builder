@@ -1,13 +1,11 @@
-import ttl from "../../config/federation.ttl?raw"
-import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
-import caritasLifted from "../../data/pipeline/cleaned/caritas.ttl?raw"
-import dhsLifted from "../../data/pipeline/cleaned/dhs.ttl?raw"
-import spLifted from "../../data/pipeline/cleaned/sozialplattform.ttl?raw"
-import awoLifted from "../../data/pipeline/cleaned/awo.ttl?raw"
 import { loadMap, loadSources, loadOrgsBySource, loadFieldValuesByOrg } from "./loadMap.js"
-import ColumnGraph from "./ColumnGraph.jsx"
-import { SkipBack, SkipForward } from "lucide-react"
 import React, { useEffect, useMemo, useRef, useState } from "react"
+import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
+import pipelineTtl from "../../config/pipeline.ttl?raw"
+import { loadCleanedBySource } from "./sourceMeta.js"
+import { SkipBack, SkipForward } from "lucide-react"
+import ttl from "../../config/federation.ttl?raw"
+import ColumnGraph from "./ColumnGraph.jsx"
 
 const COLUMNS = ["Source", "SourceField", "TransformNode", "TargetField", "TargetSchema"]
 const COLORS = {
@@ -26,13 +24,10 @@ const VALUE_LABEL_BG = {
 
 const SOURCES = loadSources(ttl)
 const ORGS_BY_SOURCE = loadOrgsBySource(ttl, mappedTtl)
-const NS = "https://civic-data.de/pipeline#"
-const FIELD_VALUES = loadFieldValuesByOrg(ttl, mappedTtl, new Map([
-    [`${NS}caritasSource`,         caritasLifted],
-    [`${NS}sozialplattformSource`, spLifted],
-    [`${NS}dhsSource`,             dhsLifted],
-    [`${NS}awoSource`,             awoLifted],
-]))
+// Source-to-file mapping is resolved from config; the glob picks up a new
+// source's cleaned TTL with no edit here.
+const cleanedFiles = import.meta.glob("../../data/pipeline/cleaned/*.ttl", { query: "?raw", import: "default", eager: true })
+const FIELD_VALUES = loadFieldValuesByOrg(ttl, mappedTtl, loadCleanedBySource(ttl, pipelineTtl, cleanedFiles))
 
 function SourcesDropdown({ visible, onChange }) {
     const [open, setOpen] = useState(false)

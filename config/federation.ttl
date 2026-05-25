@@ -4,6 +4,7 @@
 @prefix dct:    <http://purl.org/dc/terms/> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 
 # ---- Federation ---------------------------------------------------------
 
@@ -59,7 +60,8 @@
 # ---- Sources ------------------------------------------------------------
 
 :caritasSource a :Source ;
-    rdfs:label  "Caritas" ;
+    rdfs:label    "Caritas" ;
+    skos:notation "ca" ;
     :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid, :caritas-Date, :caritas-Distance,
                 :caritas-Format, :caritas-Guid, :caritas-Index, :caritas-LeadLine, :caritas-Link,
                 :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml, :caritas-SubTitle, :caritas-Teaser,
@@ -85,7 +87,8 @@
 # -------------------------------------------------------------------------
 
 :sozialplattformSource a :Source ;
-    rdfs:label  "Sozialplattform" ;
+    rdfs:label    "Sozialplattform" ;
+    skos:notation "sp" ;
     :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking, :sp-offer_external_service_booking,
                 :sp-offer_external_service_consulting, :sp-offer_external_service_link_text,
                 :sp-offer_external_service_link_url, :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
@@ -134,7 +137,8 @@
 # -------------------------------------------------------------------------
 
 :dhsSource a :Source ;
-    rdfs:label  "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
+    rdfs:label    "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
+    skos:notation "dhs" ;
     :hasField   :dhs-angebote, :dhs-arbeit, :dhs-art, :dhs-barrierefrei, :dhs-department, :dhs-detailLink, :dhs-email,
                 :dhs-entryId, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-traeger, :dhs-website,
                 :dhs-zeiten, :dhs-zielgruppe .
@@ -159,7 +163,8 @@
 # -------------------------------------------------------------------------
 
 :awoSource a :Source ;
-    rdfs:label  "Arbeiterwohlfahrt (AWO)" ;
+    rdfs:label    "Arbeiterwohlfahrt (AWO)" ;
+    skos:notation "awo" ;
     :hasField   :awo-id, :awo-name, :awo-name_zusatz, :awo-webseite, :awo-parent_name,
                 :awo-adresse, :awo-plz, :awo-ort, :awo-ortsteil, :awo-category .
 

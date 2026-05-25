@@ -1,5 +1,6 @@
-import { groupBySubject, parseTtl, shrink } from "../../utils.js"
 import matchKnowledgeTtl from "../../config/match-knowledge.ttl?raw"
+import { loadSourceMeta, loadSourceOfRecord } from "./sourceMeta.js"
+import { groupBySubject, parseTtl, shrink } from "../../utils.js"
 import federationTtl from "../../config/federation.ttl?raw"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
 import ttl from "../../data/pipeline/matches.ttl?raw"
@@ -26,7 +27,11 @@ const PREFIXES = {
 }
 const prefixed = (iri) => shrink(iri, PREFIXES)
 
-const sourceOf = (iri) => iri.match(/[#/](caritas|sp|dhs|awo)-/)?.[1] ?? "other"
+// Label each Source-column member with its :Source notation, resolved via
+// cdp:fromSource in mapped.ttl.
+const sourceMeta = loadSourceMeta(federationTtl)
+const sourceOfRecord = loadSourceOfRecord(mappedTtl)
+const sourceCode = (iri) => sourceMeta.get(sourceOfRecord.get(iri)).notation
 
 const criteriaPredicates = (() => {
     const quads = parseTtl(federationTtl)
@@ -101,7 +106,7 @@ export default function MatchGraph() {
         }
         for (const n of r.nodes) {
             if (n.type === "Source") {
-                n.label = sourceOf(n.id)
+                n.label = sourceCode(n.id)
                 n.subtitle = orgInfo.get(n.id)?.get(SCHEMA_IDENTIFIER)?.[0]
             } else if (n.type === "MatchCluster") {
                 const named = members.get(n.id)?.find((m) => orgInfo.get(m)?.get(SCHEMA_NAME))

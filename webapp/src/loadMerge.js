@@ -1,27 +1,22 @@
 import { localName, parseReifications, parseTtl, shrink } from "../../utils.js"
+import { compareSources, loadSourceMeta } from "./sourceMeta.js"
 
+const NS = "https://civic-data.de/pipeline#"
 const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
+const FROM_SOURCE = `${NS}fromSource`
 
 const PREFIXES = {
     schema: "http://schema.org/",
     dct:    "http://purl.org/dc/terms/",
     foaf:   "http://xmlns.com/foaf/0.1/",
-    cdp:    "https://civic-data.de/pipeline#",
+    cdp:    NS,
 }
 const prefixedIri = (iri) => shrink(iri, PREFIXES)
 
-export function sourceKind(iri) {
-    const local = localName(iri)
-    if (local.startsWith("caritas-")) return "caritas"
-    if (local.startsWith("sp-"))      return "sp"
-    if (local.startsWith("dhs-"))     return "dhs"
-    if (local.startsWith("awo-"))     return "awo"
-    return "other"
-}
-
-export function loadMerge(mergedTtl, provTtl) {
+export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
     const mergedQuads = parseTtl(mergedTtl)
     const provQuads = parseTtl(provTtl)
+    const sourceMeta = federationTtl ? loadSourceMeta(federationTtl) : new Map()
 
     // Walk provenance: gather reification bnode → inner triple, and bnode → source set,
     // then index (s|p|o) → Set<source>.
@@ -33,6 +28,16 @@ export function loadMerge(mergedTtl, provTtl) {
             bnodeSources.get(q.subject.value).add(q.object.value)
         }
     }
+    // Resolve each record to its :Source via cdp:fromSource (reified in
+    // provenance) so downstream code deals only in Source IRIs, not record IRIs.
+    const sourceOfRecord = new Map()
+    for (const [bnode, triple] of reifies) {
+        if (triple.p === FROM_SOURCE) {
+            for (const rec of bnodeSources.get(bnode) ?? []) sourceOfRecord.set(rec, triple.o)
+        }
+    }
+    const toSources = (records) => [...new Set([...records].map((r) => sourceOfRecord.get(r)))]
+
     const provIndex = new Map()
     const tripleKey = (s, p, o) => `${s}\t${p}\t${o}`
     for (const [bnode, triple] of reifies) {
@@ -65,23 +70,18 @@ export function loadMerge(mergedTtl, provTtl) {
             org.fields.push({ predicate: predIri, predLabel: prefixedIri(predIri), values: [] })
         }
         const field = org.fields[fieldIndex.get(predIri)]
-        const sources = [...(provIndex.get(tripleKey(orgIri, predIri, value)) ?? [])]
+        const sources = toSources(provIndex.get(tripleKey(orgIri, predIri, value)) ?? [])
         const displayValue = q.object.termType === "NamedNode" ? prefixedIri(value) : value
         field.values.push({ value: displayValue, raw: value, sources })
     }
 
     // Per-field: sort values by source-count desc so the most-supported one is index 0.
-    // Per-org: collect the union of contributing source-orgs, sorted by kind then iri.
-    const kindOrder = { caritas: 0, sp: 1, dhs: 2, awo: 3, other: 4 }
+    // Per-org: collect the union of contributing sources, ordered by config.
     for (const org of orgs) {
         for (const f of org.fields) f.values.sort((a, b) => b.sources.length - a.sources.length)
         const all = new Set()
         for (const f of org.fields) for (const v of f.values) for (const s of v.sources) all.add(s)
-        org.sourceOrgs = [...all].sort((a, b) => {
-            const ka = kindOrder[sourceKind(a)] ?? 9
-            const kb = kindOrder[sourceKind(b)] ?? 9
-            return ka !== kb ? ka - kb : a.localeCompare(b)
-        })
+        org.sources = [...all].sort((a, b) => compareSources(a, b, sourceMeta))
     }
     return orgs
 }
