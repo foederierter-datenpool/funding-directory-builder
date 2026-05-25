@@ -8,6 +8,7 @@ import { compareSources, loadSourceMeta } from "./sourceMeta.js"
 
 const NS = "https://civic-data.de/pipeline#"
 const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
+const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 const FROM_SOURCE = `${NS}fromSource`
 
 const PREFIXES = {
@@ -69,6 +70,9 @@ export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
         }
         const org = orgs[orgIndex.get(orgIri)]
         const fieldIndex = fieldIndexByOrg.get(orgIri)
+
+        // rdf:type carries the entity class, not a displayable field value.
+        if (predIri === RDF_TYPE) continue
 
         if (!fieldIndex.has(predIri)) {
             fieldIndex.set(predIri, org.fields.length)

@@ -10,20 +10,25 @@
 
 :federation a :Federation ;
     :hasSource       :caritasSource, :sozialplattformSource, :dhsSource, :awoSource ;
-    :hasTargetSchema :targetSchema ;
-    :hasMatchRule    :match ;
+    :hasTargetSchema :organizationSchema, :serviceSchema ;
+    :hasMatchRule    :orgMatch ;
     :hasMergeRule    :merge ;
     :hasResolveRule  :resolve .
 
-# ---- Target schema ------------------------------------------------------
+# ---- Target schemas -----------------------------------------------------
 
-:targetSchema a :TargetSchema ;
+:organizationSchema a :TargetSchema ;
+    :targetClass schema:Organization ;
     :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
                     :t-streetAddress, :t-postalCode, :t-locality, :t-country, :t-areaServed,
                     :t-telephone, :t-email, :t-homepage, :t-detailUrl,
                     :t-category, :t-availableService, :t-audience, :t-accessibilitySummary,
                     :t-openingHours, :t-parentOrganization,
                     :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
+
+:serviceSchema a :TargetSchemaDraft ; # remove draft TODO
+    :targetClass schema:Service ;
+    :hasTargetField :t-identifier, :t-name .
 
 :t-identifier           a :TargetField ; :targetPredicate schema:identifier .
 :t-name                 a :TargetField ; :targetPredicate schema:name .
@@ -47,6 +52,7 @@
 :t-accessibilitySummary a :TargetField ; :targetPredicate schema:accessibilitySummary .
 :t-openingHours         a :TargetField ; :targetPredicate schema:openingHours .
 :t-parentOrganization   a :TargetField ; :targetPredicate schema:parentOrganization .
+:t-provider             a :TargetField ; :targetPredicate schema:provider .
 
 # Temporal fields, all unmapped for now. :t-harvestedAt would carry a
 # pipeline-side timestamp; the :t-source* trio invites sources to start
@@ -189,7 +195,7 @@
 
 :caritas-mapping a :Mapping ;
     :fromSource    :caritasSource ;
-    :toTarget      :targetSchema ;
+    :toTarget      :organizationSchema ;
     :sourceGraph   <urn:source:caritas> ;
     :hasFieldMapping
         [ :from :caritas-Guid     ; :to :t-identifier                                                     ] ,
@@ -202,7 +208,7 @@
 
 :sozialplattform-mapping a :Mapping ;
     :fromSource    :sozialplattformSource ;
-    :toTarget      :targetSchema ;
+    :toTarget      :organizationSchema ;
     :sourceGraph   <urn:source:sozialplattform> ;
     :hasFieldMapping
         [ :from :sp-offer_id                     ; :to :t-identifier       ] ,
@@ -222,7 +228,7 @@
 
 :dhs-mapping a :Mapping ;
     :fromSource    :dhsSource ;
-    :toTarget      :targetSchema ;
+    :toTarget      :organizationSchema ;
     :sourceGraph   <urn:source:dhs> ;
     :hasFieldMapping
         [ :from :dhs-entryId      ; :to :t-identifier                                              ] ,
@@ -244,7 +250,7 @@
 
 :awo-mapping a :Mapping ;
     :fromSource    :awoSource ;
-    :toTarget      :targetSchema ;
+    :toTarget      :organizationSchema ;
     :sourceGraph   <urn:source:awo> ;
     :hasFieldMapping
         [ :from :awo-id          ; :to :t-identifier         ] ,
@@ -259,7 +265,8 @@
 
 # ---- Match --------------------------------------------------------------
 
-:match a :MatchRule ;
+:orgMatch a :MatchRule ;
+    :forTarget           :organizationSchema ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "org-" ;
     :matchKnowledgeGraph "config/match-knowledge.ttl" ;

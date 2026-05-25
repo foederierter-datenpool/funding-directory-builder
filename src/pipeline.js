@@ -76,7 +76,7 @@ const sorted = topoSort(steps, (iri) => preds.get(iri) ?? [])
 const XYZ = "http://sparql.xyz/facade-x/data/"
 const CDP = "https://civic-data.de/pipeline#"
 
-const buildDirectInsert = ({ sourceGraph, source }, fields) => {
+const buildDirectInsert = ({ sourceGraph, source, targetClass }, fields) => {
     const prefixes = {
         xyz:    XYZ,
         cdp:    CDP,
@@ -122,11 +122,16 @@ const buildDirectInsert = ({ sourceGraph, source }, fields) => {
         bgp.push(`OPTIONAL {\n    ?org xyz:${parent} ${pv} .\n${inner}\n  }`)
     }
 
+    // The target schema's :targetClass (if any) becomes the record's rdf:type,
+    // making the entity type explicit on every mapped record. It rides the same
+    // path as cdp:fromSource, so all sources get typed uniformly.
+    const typeClause = targetClass ? `a ${short(targetClass)} ; ` : ""
+
     return `${buildPrefixBlock(prefixes)}
 
 INSERT {
     GRAPH <urn:mapped> {
-        ?org cdp:fromSource ${short(source)} .
+        ?org ${typeClause}cdp:fromSource ${short(source)} .
 ${insertBlock}
     }
 } WHERE {
@@ -139,10 +144,11 @@ ${insertBlock}
 const runMap = async (queriesDir) => {
     const mappings = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?mapping ?source ?sourceGraph WHERE {
+        SELECT ?mapping ?source ?sourceGraph ?targetClass WHERE {
             ?mapping a :Mapping ;
                 :fromSource ?source .
             OPTIONAL { ?mapping :sourceGraph ?sourceGraph }
+            OPTIONAL { ?mapping :toTarget/:targetClass ?targetClass }
         } ORDER BY ?mapping`, [defStore])
 
     for (const m of mappings) {
