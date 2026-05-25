@@ -1,3 +1,9 @@
+// Map view: the source-schema → target-schema mapping graph, optionally animated
+// with one org's field values flowing through the transform nodes.
+// Reads:  config/federation.ttl, config/pipeline.ttl, data/pipeline/mapped.ttl,
+//         data/pipeline/cleaned/*.ttl (via loadMap.js + sourceMeta.js)
+// Does:   renders the Map page (horizontal <ColumnGraph>)
+
 import { loadMap, loadSources, loadOrgsBySource, loadFieldValuesByOrg } from "./loadMap.js"
 import React, { useEffect, useMemo, useRef, useState } from "react"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"

@@ -1,3 +1,7 @@
+// Download view: choose target fields + format, or an external-schema export.
+// Reads:  config/federation.ttl, data/pipeline/final.ttl (+ exporters/sozialplattform.js)
+// Does:   triggers a browser download (.ttl / .jsonld / .json / .csv, or Sozialplattform JSON)
+
 import { datasetToTurtleWriter } from "@foerderfunke/sem-ops-utils/core"
 import { turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils/jsonld"
 import { groupBySubject, parseTtl, shrink, subjectsOfType } from "../../utils.js"

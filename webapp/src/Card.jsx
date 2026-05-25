@@ -1,3 +1,7 @@
+// Presentational building blocks: <Card> (titled box) and <KeyValueTable>.
+// Reads:  props (title, children, rows)
+// Does:   renders DOM; used by OrgCard and Sources
+
 import React from "react"
 
 export default function Card({ title, children }) {

@@ -1,3 +1,9 @@
+// Match view: clusters of records judged to be the same entity, with a per-cluster
+// member-details modal.
+// Reads:  data/pipeline/matches.ttl, data/pipeline/mapped.ttl, config/federation.ttl,
+//         config/match-knowledge.ttl (via loadMatch.js + sourceMeta.js)
+// Does:   renders the Match page (<ColumnGraph> + details modal)
+
 import matchKnowledgeTtl from "../../config/match-knowledge.ttl?raw"
 import { loadSourceMeta, loadSourceOfRecord } from "./sourceMeta.js"
 import { groupBySubject, parseTtl, shrink } from "../../utils.js"

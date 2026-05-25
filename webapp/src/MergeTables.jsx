@@ -1,3 +1,7 @@
+// Merge view: every org with its per-source field values and conflict highlighting.
+// Reads:  mergedOrgs from mergeOrgs.js (← data/pipeline/merged.ttl + provenance.ttl)
+// Does:   renders the Merge page (compact / wide <OrgCard>, toggleable)
+
 import OrgCard from "./OrgCard.jsx"
 import { mergedOrgs } from "./mergeOrgs.js"
 import React, { useState } from "react"

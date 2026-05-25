@@ -1,3 +1,7 @@
+// Helper for the Match view: turn matches.ttl into a cluster/member graph.
+// Reads:  the matches TTL string passed by MatchGraph.jsx
+// Does:   returns { nodes, edges } (Source members → MatchCluster)
+
 import { localName, parseTtl, subjectsOfType } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"

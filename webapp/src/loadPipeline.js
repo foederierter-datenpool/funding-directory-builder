@@ -1,3 +1,7 @@
+// Helper for the Pipeline view: turn pipeline.ttl into a step graph.
+// Reads:  the pipeline TTL string passed by Pipeline.jsx
+// Does:   returns { nodes, edges } (steps linked by p-plan:isPrecededBy)
+
 import { localName, parseTtl } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"

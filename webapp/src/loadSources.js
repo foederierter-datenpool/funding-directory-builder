@@ -1,3 +1,8 @@
+// Helper for the Sources view: aggregate per-:Source facts (label, field counts,
+// record count, freshness) across config + pipeline data.
+// Reads:  federation, pipeline, mapped, ingest-log TTL strings passed by Sources.jsx
+// Does:   returns source[] ({iri, label, format, totalFields, mappedFields, records, …})
+
 import { parseTtl, subjectsOfType } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"

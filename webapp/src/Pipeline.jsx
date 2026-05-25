@@ -1,3 +1,7 @@
+// Pipeline view: the fetch→lift→…→resolve step graph from the pipeline config.
+// Reads:  config/pipeline.ttl (via loadPipeline.js)
+// Does:   renders the Pipeline page (vertical <ColumnGraph>)
+
 import ttl from "../../config/pipeline.ttl?raw"
 import { loadPipeline } from "./loadPipeline.js"
 import ColumnGraph from "./ColumnGraph.jsx"

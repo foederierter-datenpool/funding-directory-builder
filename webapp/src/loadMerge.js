@@ -1,3 +1,8 @@
+// Parses merged + provenance TTL into org objects: each field's values and the
+// :Source(s) that contributed them, ordered by config. Pure (ttl in → data out).
+// Reads:  TTL strings passed by mergeOrgs.js; resolves sources via sourceMeta.js
+// Does:   returns org[] (each {iri, label, fields[], sources[]})
+
 import { localName, parseReifications, parseTtl, shrink } from "../../utils.js"
 import { compareSources, loadSourceMeta } from "./sourceMeta.js"
 

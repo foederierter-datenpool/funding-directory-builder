@@ -1,6 +1,8 @@
 // Source identity lives in config: federation.ttl declares each :Source (label,
 // skos:notation, order); pipeline.ttl ties it to a cleaned-data file. JS never
 // hardcodes a source name — it resolves records to a :Source via cdp:fromSource.
+// Reads:  TTL strings passed in (federation, pipeline, mapped, ingest-log)
+// Does:   returns lookup maps + helpers (used by loadMerge, OrgCard, MapGraph, MatchGraph)
 
 import { parseTtl } from "../../utils.js"
 

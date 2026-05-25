@@ -1,3 +1,7 @@
+// Builds the org lists for the Merge and Directory views, in one shared order.
+// Reads:  data/pipeline/{merged,provenance,final}.ttl, config/federation.ttl (via loadMerge.js)
+// Does:   exports mergedOrgs and finalOrgs (consumed by MergeTables, Directory)
+
 import { loadMerge } from "./loadMerge.js"
 import { isConflict } from "./OrgCard.jsx"
 import federationTtl from "../../config/federation.ttl?raw"

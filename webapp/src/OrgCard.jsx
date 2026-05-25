@@ -1,3 +1,9 @@
+// Renders one organisation as a card (narrow key/value, or wide per-source table)
+// with source tags and conflict highlighting. Also exports the conflict helpers.
+// Reads:  config/federation.ttl, data/ingest/ingest-log.ttl (via sourceMeta.js);
+//         org objects from loadMerge.js
+// Does:   renders <OrgCard>; exports EXPECTED_MULTI, isConflict (used by mergeOrgs, MergeTables)
+
 import federationTtl from "../../config/federation.ttl?raw"
 import logTtl from "../../data/ingest/ingest-log.ttl?raw"
 import Card, { KeyValueTable } from "./Card.jsx"

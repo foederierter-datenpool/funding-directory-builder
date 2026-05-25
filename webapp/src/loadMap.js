@@ -1,3 +1,8 @@
+// Helpers for the Map view: build the schema-mapping graph and resolve per-org
+// source/target field values. Pure (ttl in → data out).
+// Reads:  TTL strings passed by MapGraph.jsx (federation, mapped, cleaned source TTL)
+// Does:   returns { nodes, edges } plus per-source / per-org value maps
+
 import { localName, parseTtl, shrink, subjectsOfType, typesOf } from "../../utils.js"
 
 const NS = "https://civic-data.de/pipeline#"

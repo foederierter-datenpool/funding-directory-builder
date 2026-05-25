@@ -1,3 +1,8 @@
+// Generic column-layout graph (xyflow): arranges nodes into typed columns with
+// labelled edges. Pure view — no data loading.
+// Reads:  props (nodes, edges, columns, colors, …)
+// Does:   renders the flow graph; used by Pipeline, Map and Match
+
 import { ReactFlow, Background, Controls, MarkerType, Handle, Position, useNodesState, useEdgesState, BaseEdge, EdgeLabelRenderer, getBezierPath } from "@xyflow/react"
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react"
 import "@xyflow/react/dist/style.css"

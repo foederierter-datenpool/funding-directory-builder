@@ -1,3 +1,8 @@
+// Query view: a Yasgui SPARQL editor wired to an in-browser n3 store (no server) —
+// a fetch interceptor routes the fake endpoint through Comunica.
+// Reads:  data/pipeline/final.ttl (loaded into the store)
+// Does:   renders the Query page; answers SPARQL against final.ttl in-browser
+
 import { storeFromTurtles } from "@foerderfunke/sem-ops-utils/core"
 import { queryEngine } from "@foerderfunke/sem-ops-utils/sparql"
 import finalTtl from "../../data/pipeline/final.ttl?raw"

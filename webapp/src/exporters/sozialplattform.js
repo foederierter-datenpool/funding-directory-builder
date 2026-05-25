@@ -1,3 +1,8 @@
+// Exporter: maps the federated directory into Sozialplattform's JSON shape via a
+// SPARQL query. A bespoke output adapter (target-specific by nature).
+// Reads:  a TTL string passed by Download.jsx (final.ttl)
+// Does:   returns an array of Sozialplattform offer objects
+
 import { sparqlSelect } from "@foerderfunke/sem-ops-utils/sparql"
 import { storeFromTurtles } from "@foerderfunke/sem-ops-utils/core"
 import { localName } from "../../../utils.js"

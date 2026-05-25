@@ -1,3 +1,8 @@
+// Sources overview: one card per :Source (URL, format, freshness, record/field counts).
+// Reads:  config/federation.ttl, config/pipeline.ttl, data/pipeline/mapped.ttl,
+//         data/ingest/ingest-log.ttl (via loadSources.js); __STATIC_SOURCE_COMMITS__ (build-time)
+// Does:   renders the Sources page (list of <Card>)
+
 import federationTtl from "../../config/federation.ttl?raw"
 import pipelineTtl from "../../config/pipeline.ttl?raw"
 import mappedTtl from "../../data/pipeline/mapped.ttl?raw"
