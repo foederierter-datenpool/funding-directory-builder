@@ -276,6 +276,11 @@
         [ :on schema:postalCode    ; :weight 0.3 ; :minSimilarity 1.0 ] ,
         [ :on schema:streetAddress ; :weight 0.2 ] .
 
+:serviceMatch a :MatchRuleDraft ; # remove draft TODO
+    :forTarget           :serviceSchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "service-" .
+
 # ---- Merge --------------------------------------------------------------
 
 :merge a :MergeRule ;

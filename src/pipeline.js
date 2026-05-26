@@ -216,17 +216,19 @@ const SIMILARITY_ALGORITHM = "token_set_ratio"
 const similarity = (a, b) => token_set_ratio(a ?? "", b ?? "") / 100
 
 const runMatch = async (store, outPath) => {
-    const [cfg] = await sparqlSelect(`
+    // One match rule per target schema; each rule scores its own fields, mints
+    // with its own prefix, and clusters only subjects of its :targetClass.
+    const rules = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?ns ?prefix ?minScore WHERE {
+        SELECT ?match ?targetClass ?ns ?prefix ?minScore WHERE {
             ?match a :MatchRule ;
+                :forTarget           ?target ;
                 :targetNamespace     ?ns ;
                 :mintedSubjectPrefix ?prefix ;
                 :minScore            ?minScore .
-        }`, [defStore])
-    if (!cfg) throw new Error(":MatchRule config missing in federation.ttl")
-    const { ns: namespace, prefix: mintedPrefix } = cfg
-    const minScore = parseFloat(cfg.minScore)
+            ?target :targetClass ?targetClass .
+        } ORDER BY ?match`, [defStore])
+    if (!rules.length) throw new Error(":MatchRule config missing in federation.ttl")
 
     // Stop-token lists from match-knowledge.ttl: any criterion with
     // :stripBeforeMatch ?list gets ?list's :token literals stripped (whole
@@ -235,7 +237,7 @@ const runMatch = async (store, outPath) => {
     // verbatim in mapped.ttl and in the evidence's :valueA/:valueB.
     const criteriaRows = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?on ?weight ?minSim ?stripList WHERE {
+        SELECT ?match ?on ?weight ?minSim ?stripList WHERE {
             ?match a :MatchRule ; :hasMatchCriterion ?c .
             ?c :on ?on ; :weight ?weight .
             OPTIONAL { ?c :minSimilarity ?minSim }
@@ -265,100 +267,22 @@ const runMatch = async (store, outPath) => {
             return remaining >= 2 ? stripped : original
         }
     }
-    const criteria = criteriaRows.map(r => ({
-        pred:   df.namedNode(r.on),
-        weight: parseFloat(r.weight),
-        minSim: r.minSim != null ? parseFloat(r.minSim) : null,
-        strip:  r.stripList ? buildStripper(r.stripList) : null,
-    }))
-
-    const fedQuads = store.getQuads(null, null, null, MAPPED_GRAPH)
-    const subjects = [...new Set(fedQuads
-        .filter(qu => qu.subject.termType === "NamedNode")
-        .map(qu => qu.subject.value))]
-
-    const valuesFor = new Map()
-    for (const s of subjects) {
-        const subj = df.namedNode(s)
-        valuesFor.set(s, criteria.map(c => {
-            const qs = store.getQuads(subj, c.pred, null, MAPPED_GRAPH)
-            return qs.length ? qs[0].object.value : null
-        }))
+    // Criteria keyed by their owning rule, so each pass scores on its own fields.
+    const criteriaByMatch = new Map()
+    for (const r of criteriaRows) {
+        if (!criteriaByMatch.has(r.match)) criteriaByMatch.set(r.match, [])
+        criteriaByMatch.get(r.match).push({
+            pred:   df.namedNode(r.on),
+            weight: parseFloat(r.weight),
+            minSim: r.minSim != null ? parseFloat(r.minSim) : null,
+            strip:  r.stripList ? buildStripper(r.stripList) : null,
+        })
     }
-
-    // Weighted aggregate: sum(sim_i * weight_i) over all criteria, vs. minScore.
-    // A criterion may also declare a hard floor via :minSimilarity (e.g. PLZ
-    // must equal 1.0); failing the floor short-circuits regardless of aggregate.
-    const matches = (a, b) => {
-        const va = valuesFor.get(a), vb = valuesFor.get(b)
-        const scores = []
-        let weightedSum = 0
-        for (let i = 0; i < criteria.length; i++) {
-            if (va[i] == null || vb[i] == null) return null
-            const c = criteria[i]
-            const a2 = c.strip ? c.strip(va[i]) : va[i]
-            const b2 = c.strip ? c.strip(vb[i]) : vb[i]
-            const sim = similarity(a2, b2)
-            if (c.minSim != null && sim < c.minSim) return null
-            scores.push({ pred: c.pred, sim, weight: c.weight, valueA: va[i], valueB: vb[i],
-                          strippedA: c.strip ? a2 : null, strippedB: c.strip ? b2 : null })
-            weightedSum += sim * c.weight
-        }
-        if (weightedSum < minScore) return null
-        return { scores, aggregate: weightedSum }
-    }
-
-    const parent = new Map(subjects.map(s => [s, s]))
-    const find = (x) => {
-        let r = x
-        while (parent.get(r) !== r) r = parent.get(r)
-        let c = x
-        while (parent.get(c) !== r) { const n = parent.get(c); parent.set(c, r); c = n }
-        return r
-    }
-    const union = (a, b) => {
-        const ra = find(a), rb = find(b)
-        if (ra !== rb) parent.set(ra, rb)
-    }
-
-    const evidence = []
-    let sameAsUnions = 0
+    // owl:sameAs assertions are shared; each pass only acts on the pairs whose
+    // endpoints are in its own subject set (gated by parent.has below).
     const sameAsRows = await sparqlSelect(`
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         SELECT ?a ?b WHERE { ?a owl:sameAs ?b }`, [defStore])
-    for (const { a, b } of sameAsRows) {
-        if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++; evidence.push({ a, b, manual: true }) }
-    }
-
-    for (let i = 0; i < subjects.length; i++) {
-        for (let j = i + 1; j < subjects.length; j++) {
-            const m = matches(subjects[i], subjects[j])
-            if (m) { union(subjects[i], subjects[j]); evidence.push({ a: subjects[i], b: subjects[j], ...m }) }
-        }
-    }
-
-    const clusters = new Map()
-    for (const s of subjects) {
-        const root = find(s)
-        if (!clusters.has(root)) clusters.set(root, [])
-        clusters.get(root).push(s)
-    }
-    const clusterMembers = [...clusters.values()]
-        .map(m => [...m].sort())
-        .sort((a, b) => b.length - a.length || a[0].localeCompare(b[0]))
-
-    let multiSource = 0
-    const clusterIriByRoot = new Map()
-    for (const members of clusterMembers) {
-        const id = createHash("sha1").update(members.join("|")).digest("hex").slice(0, 12)
-        const minted = df.namedNode(namespace + mintedPrefix + id)
-        clusterIriByRoot.set(find(members[0]), minted)
-        if (members.length > 1) multiSource++
-        store.addQuad(df.quad(minted, RDF_TYPE, MATCH_CLUSTER, MATCH_GRAPH))
-        for (const s of members) {
-            store.addQuad(df.quad(minted, HAS_MEMBER, df.namedNode(s), MATCH_GRAPH))
-        }
-    }
 
     const MATCH_EVIDENCE     = df.namedNode(CDP + "MatchEvidence")
     const HAS_MATCH_EVIDENCE = df.namedNode(CDP + "hasMatchEvidence")
@@ -376,39 +300,131 @@ const runMatch = async (store, outPath) => {
     const VIA_MANUAL_MATCH   = df.namedNode(CDP + "viaManualMatch")
     const XSD_DECIMAL        = df.namedNode("http://www.w3.org/2001/XMLSchema#decimal")
     const XSD_BOOLEAN        = df.namedNode("http://www.w3.org/2001/XMLSchema#boolean")
-    for (const ev of evidence) {
-        const evNode = df.blankNode()
-        const cluster = clusterIriByRoot.get(find(ev.a))
-        store.addQuad(df.quad(cluster, HAS_MATCH_EVIDENCE, evNode, MATCH_GRAPH))
-        store.addQuad(df.quad(evNode, RDF_TYPE, MATCH_EVIDENCE, MATCH_GRAPH))
-        store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.a), MATCH_GRAPH))
-        store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.b), MATCH_GRAPH))
-        if (ev.manual) {
-            store.addQuad(df.quad(evNode, VIA_MANUAL_MATCH, df.literal("true", XSD_BOOLEAN), MATCH_GRAPH))
-        } else {
-            store.addQuad(df.quad(evNode, AGGREGATE_SCORE, df.literal(ev.aggregate.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
-            store.addQuad(df.quad(evNode, SIM_ALGORITHM, df.literal(SIMILARITY_ALGORITHM), MATCH_GRAPH))
-            for (const s of ev.scores) {
-                const cNode = df.blankNode()
-                store.addQuad(df.quad(evNode, ON_CRITERION, cNode, MATCH_GRAPH))
-                store.addQuad(df.quad(cNode, ON, s.pred, MATCH_GRAPH))
-                store.addQuad(df.quad(cNode, SIMILARITY, df.literal(s.sim.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
-                store.addQuad(df.quad(cNode, WEIGHT, df.literal(s.weight.toFixed(2), XSD_DECIMAL), MATCH_GRAPH))
-                store.addQuad(df.quad(cNode, VALUE_A, df.literal(s.valueA), MATCH_GRAPH))
-                store.addQuad(df.quad(cNode, VALUE_B, df.literal(s.valueB), MATCH_GRAPH))
-                if (s.strippedA !== null) {
-                    store.addQuad(df.quad(cNode, STRIPPED_A, df.literal(s.strippedA), MATCH_GRAPH))
-                    store.addQuad(df.quad(cNode, STRIPPED_B, df.literal(s.strippedB), MATCH_GRAPH))
+
+    for (const rule of rules) {
+        const namespace    = rule.ns
+        const mintedPrefix = rule.prefix
+        const minScore     = parseFloat(rule.minScore)
+        const criteria     = criteriaByMatch.get(rule.match) ?? []
+
+        // Subjects of this rule's target class only — passes never cross types.
+        const subjects = [...new Set(store.getQuads(null, RDF_TYPE, df.namedNode(rule.targetClass), MAPPED_GRAPH)
+            .filter(qu => qu.subject.termType === "NamedNode")
+            .map(qu => qu.subject.value))]
+
+        const valuesFor = new Map()
+        for (const s of subjects) {
+            const subj = df.namedNode(s)
+            valuesFor.set(s, criteria.map(c => {
+                const qs = store.getQuads(subj, c.pred, null, MAPPED_GRAPH)
+                return qs.length ? qs[0].object.value : null
+            }))
+        }
+
+        // Weighted aggregate: sum(sim_i * weight_i) over all criteria, vs. minScore.
+        // A criterion may also declare a hard floor via :minSimilarity (e.g. PLZ
+        // must equal 1.0); failing the floor short-circuits regardless of aggregate.
+        const matches = (a, b) => {
+            const va = valuesFor.get(a), vb = valuesFor.get(b)
+            const scores = []
+            let weightedSum = 0
+            for (let i = 0; i < criteria.length; i++) {
+                if (va[i] == null || vb[i] == null) return null
+                const c = criteria[i]
+                const a2 = c.strip ? c.strip(va[i]) : va[i]
+                const b2 = c.strip ? c.strip(vb[i]) : vb[i]
+                const sim = similarity(a2, b2)
+                if (c.minSim != null && sim < c.minSim) return null
+                scores.push({ pred: c.pred, sim, weight: c.weight, valueA: va[i], valueB: vb[i],
+                              strippedA: c.strip ? a2 : null, strippedB: c.strip ? b2 : null })
+                weightedSum += sim * c.weight
+            }
+            if (weightedSum < minScore) return null
+            return { scores, aggregate: weightedSum }
+        }
+
+        const parent = new Map(subjects.map(s => [s, s]))
+        const find = (x) => {
+            let r = x
+            while (parent.get(r) !== r) r = parent.get(r)
+            let c = x
+            while (parent.get(c) !== r) { const n = parent.get(c); parent.set(c, r); c = n }
+            return r
+        }
+        const union = (a, b) => {
+            const ra = find(a), rb = find(b)
+            if (ra !== rb) parent.set(ra, rb)
+        }
+
+        const evidence = []
+        let sameAsUnions = 0
+        for (const { a, b } of sameAsRows) {
+            if (parent.has(a) && parent.has(b)) { union(a, b); sameAsUnions++; evidence.push({ a, b, manual: true }) }
+        }
+
+        for (let i = 0; i < subjects.length; i++) {
+            for (let j = i + 1; j < subjects.length; j++) {
+                const m = matches(subjects[i], subjects[j])
+                if (m) { union(subjects[i], subjects[j]); evidence.push({ a: subjects[i], b: subjects[j], ...m }) }
+            }
+        }
+
+        const clusters = new Map()
+        for (const s of subjects) {
+            const root = find(s)
+            if (!clusters.has(root)) clusters.set(root, [])
+            clusters.get(root).push(s)
+        }
+        const clusterMembers = [...clusters.values()]
+            .map(m => [...m].sort())
+            .sort((a, b) => b.length - a.length || a[0].localeCompare(b[0]))
+
+        let multiSource = 0
+        const clusterIriByRoot = new Map()
+        for (const members of clusterMembers) {
+            const id = createHash("sha1").update(members.join("|")).digest("hex").slice(0, 12)
+            const minted = df.namedNode(namespace + mintedPrefix + id)
+            clusterIriByRoot.set(find(members[0]), minted)
+            if (members.length > 1) multiSource++
+            store.addQuad(df.quad(minted, RDF_TYPE, MATCH_CLUSTER, MATCH_GRAPH))
+            for (const s of members) {
+                store.addQuad(df.quad(minted, HAS_MEMBER, df.namedNode(s), MATCH_GRAPH))
+            }
+        }
+
+        for (const ev of evidence) {
+            const evNode = df.blankNode()
+            const cluster = clusterIriByRoot.get(find(ev.a))
+            store.addQuad(df.quad(cluster, HAS_MATCH_EVIDENCE, evNode, MATCH_GRAPH))
+            store.addQuad(df.quad(evNode, RDF_TYPE, MATCH_EVIDENCE, MATCH_GRAPH))
+            store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.a), MATCH_GRAPH))
+            store.addQuad(df.quad(evNode, PAIR, df.namedNode(ev.b), MATCH_GRAPH))
+            if (ev.manual) {
+                store.addQuad(df.quad(evNode, VIA_MANUAL_MATCH, df.literal("true", XSD_BOOLEAN), MATCH_GRAPH))
+            } else {
+                store.addQuad(df.quad(evNode, AGGREGATE_SCORE, df.literal(ev.aggregate.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
+                store.addQuad(df.quad(evNode, SIM_ALGORITHM, df.literal(SIMILARITY_ALGORITHM), MATCH_GRAPH))
+                for (const s of ev.scores) {
+                    const cNode = df.blankNode()
+                    store.addQuad(df.quad(evNode, ON_CRITERION, cNode, MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, ON, s.pred, MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, SIMILARITY, df.literal(s.sim.toFixed(3), XSD_DECIMAL), MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, WEIGHT, df.literal(s.weight.toFixed(2), XSD_DECIMAL), MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, VALUE_A, df.literal(s.valueA), MATCH_GRAPH))
+                    store.addQuad(df.quad(cNode, VALUE_B, df.literal(s.valueB), MATCH_GRAPH))
+                    if (s.strippedA !== null) {
+                        store.addQuad(df.quad(cNode, STRIPPED_A, df.literal(s.strippedA), MATCH_GRAPH))
+                        store.addQuad(df.quad(cNode, STRIPPED_B, df.literal(s.strippedB), MATCH_GRAPH))
+                    }
                 }
             }
         }
+
+        console.log(`match: ${rule.match.split("#").pop()} ${subjects.length} entities → ${clusters.size} clusters (${multiSource} multi-source, ${sameAsUnions} sameAs unions)`)
     }
 
     const matchQuads = store.getQuads(null, null, null, MATCH_GRAPH)
-
-    console.log(`match: ${subjects.length} entities → ${clusters.size} clusters (${multiSource} multi-source, ${sameAsUnions} sameAs unions)`)
-
-    await writeTurtleFile(abs(outPath), matchQuads, { cdp: CDP, cdf: namespace, ...COMMON_PREFIXES })
+    await writeTurtleFile(abs(outPath), matchQuads, { cdp: CDP, cdf: rules[0].ns, ...COMMON_PREFIXES })
     console.log(`match: wrote cluster log → ${outPath}`)
 }
 
