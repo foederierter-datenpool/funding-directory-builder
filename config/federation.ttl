@@ -216,25 +216,36 @@
         [ :from :caritas-Teaser   ; :to :t-streetAddress, :t-postalCode, :t-locality ;
                                     :via :caritasAddressNode                                              ] .
 
-:sozialplattform-mapping a :Mapping ;
+# Sozialplattform is offer-first: the clean step splits each row into an office
+# org + an offer service (see sozialplattform.sparql), so it has two mappings.
+:sp-org-mapping a :Mapping ;
     :fromSource    :sozialplattformSource ;
     :toTarget      :organizationSchema ;
     :sourceGraph   <urn:source:sozialplattform> ;
     :hasFieldMapping
-        [ :from :sp-offer_id                     ; :to :t-identifier       ] ,
-        [ :from :sp-office_title                 ; :to :t-name             ] ,
-        [ :from :sp-offer_title                  ; :to :t-availableService ] ,
-        [ :from :sp-offer_type                   ; :to :t-category         ] ,
-        [ :from :sp-offer_chat_topic             ; :to :t-audience         ] ,
-        [ :from :sp-offer_service_area           ; :to :t-areaServed       ] ,
-        [ :from :sp-office_opening_hours         ; :to :t-openingHours     ] ,
-        [ :from :sp-office_opening_hours_notes   ; :to :t-openingHours     ] ,
-        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress    ] ,
-        [ :from :sp-office_address-postal_code   ; :to :t-postalCode       ] ,
-        [ :from :sp-office_address-locality      ; :to :t-locality         ] ,
-        [ :from :sp-office_address-country_code  ; :to :t-country          ] ,
-        [ :from :sp-office_phone                 ; :to :t-telephone        ] ,
-        [ :from :sp-office_email                 ; :to :t-email            ] .
+        [ :from :sp-office_title                 ; :to :t-name         ] ,
+        [ :from :sp-office_opening_hours         ; :to :t-openingHours  ] ,
+        [ :from :sp-office_opening_hours_notes   ; :to :t-openingHours  ] ,
+        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress ] ,
+        [ :from :sp-office_address-postal_code   ; :to :t-postalCode    ] ,
+        [ :from :sp-office_address-locality      ; :to :t-locality      ] ,
+        [ :from :sp-office_address-country_code  ; :to :t-country       ] ,
+        [ :from :sp-office_phone                 ; :to :t-telephone     ] ,
+        [ :from :sp-office_email                 ; :to :t-email         ] .
+
+:sp-service-mapping a :Mapping ;
+    :fromSource    :sozialplattformSource ;
+    :toTarget      :serviceSchema ;
+    :sourceGraph   <urn:source:sozialplattform> ;
+    :hasFieldMapping
+        [ :from :sp-offer_id                        ; :to :t-identifier ] ,
+        [ :from :sp-offer_title                     ; :to :t-name       ] ,
+        [ :from :sp-offer_type                      ; :to :t-category   ] ,
+        [ :from :sp-offer_chat_topic                ; :to :t-audience   ] ,
+        [ :from :sp-offer_service_area              ; :to :t-areaServed ] ,
+        [ :from :sp-offer_external_service_link_url ; :to :t-detailUrl  ] ;
+    :hasRelationship
+        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :organizationSchema ] .
 
 :dhs-mapping a :Mapping ;
     :fromSource    :dhsSource ;

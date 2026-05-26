@@ -1,29 +1,62 @@
-# Skolemize each sozialplattform entry from its xyz:offer_id into a stable
-# cdp:sp-<offer_id> IRI carrying all of its xyz:* properties; the office_address
-# sub-blank-node is preserved by virtue of matching every triple in the source
-# except the facade-x root scaffolding. Tag each entry with cdp:fromSource so
-# downstream consumers can identify entries and bucket them by source without
-# prefix-matching IRIs. Also collapses runs of NBSP / regular whitespace to a
-# single space — the source has stray U+00A0 characters inside string literals
-# (e.g. "Straße  18").
+# Sozialplattform is an *offer-first* dataset: each row IS a counselling offer
+# (→ a service) keyed by a stable xyz:offer_id, with the providing office merely
+# denormalised onto the same row — the office has NO id of its own. So we split
+# each row into two entities:
+#   • the service  → cdp:sp-service-<offer_id>
+#   • its office   → cdp:sp-org-<hash(office_title | office_address_short)>,
+#     derived since the office is unidentified — identical offices across offers
+#     thus collapse onto one org IRI (deduplication happens here, in clean).
+# A single variable-predicate pattern routes each scalar by prefix: office_* →
+# the org, offer_* → the service; the service links back via cdp:providedBy. The
+# office_address sub-fields are reattached to the org under a stable IRI. Subjects
+# are typed (cdp:targetSchema) so the map routes each to its schema. All string
+# literals get NBSP/whitespace runs collapsed (the source has stray U+00A0,
+# e.g. "Straße  18").
 
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
-PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
 
 CONSTRUCT {
-    ?subj  ?p ?cleaned .
-    ?org cdp:fromSource cdp:sozialplattformSource .
+    ?office  cdp:fromSource     cdp:sozialplattformSource ;
+             cdp:targetSchema   cdp:organizationSchema ;
+             xyz:office_address ?addrNode .
+    ?service cdp:fromSource     cdp:sozialplattformSource ;
+             cdp:targetSchema   cdp:serviceSchema ;
+             cdp:providedBy     ?office .
+    ?subj ?fieldP ?fieldVal .
+    ?addrNode xyz:address_line1 ?addrLine1 ;
+              xyz:postal_code   ?addrPlz ;
+              xyz:locality      ?addrLocality ;
+              xyz:country_code  ?addrCountry .
 }
 WHERE {
-    ?orig ?p ?o .
-    FILTER NOT EXISTS { ?orig a fx:root }
+    ?item xyz:offer_id ?offerIdRaw .
+    BIND(IRI(CONCAT(STR(cdp:), "sp-service-", STR(?offerIdRaw))) AS ?service)
+
+    # Office identity: a hash of its whitespace-normalised title + short address,
+    # because the source carries no office id. Repeated offices → one org IRI.
+    OPTIONAL { ?item xyz:office_title         ?otitleRaw }
+    OPTIONAL { ?item xyz:office_address_short ?oaddrRaw }
+    BIND(REPLACE(COALESCE(STR(?otitleRaw), ""), "[\u00A0\\s]+", " ") AS ?otitle)
+    BIND(REPLACE(COALESCE(STR(?oaddrRaw), ""), "[\u00A0\\s]+", " ") AS ?oaddr)
+    BIND(IRI(CONCAT(STR(cdp:), "sp-org-", SUBSTR(SHA1(CONCAT(?otitle, "|", ?oaddr)), 1, 12))) AS ?office)
+    BIND(IRI(CONCAT(STR(?office), "-address")) AS ?addrNode)
+
+    # Route each office_* / offer_* scalar to the org / service respectively. One
+    # variable-predicate pattern (engines choke on several at once in a join).
     OPTIONAL {
-        ?orig xyz:offer_id ?id .
-        BIND(IRI(CONCAT(STR(cdp:), "sp-", ?id)) AS ?org)
+        ?item ?fieldP ?fieldRaw .
+        FILTER(isLiteral(?fieldRaw))
+        BIND(STRSTARTS(STR(?fieldP), CONCAT(STR(xyz:), "office_")) AS ?isOffice)
+        FILTER(?isOffice || STRSTARTS(STR(?fieldP), CONCAT(STR(xyz:), "offer_")))
+        BIND(IF(?isOffice, ?office, ?service) AS ?subj)
+        BIND(STRDT(REPLACE(STR(?fieldRaw), "[\u00A0\\s]+", " "), datatype(?fieldRaw)) AS ?fieldVal)
     }
-    BIND(COALESCE(?org, ?orig) AS ?subj)
-    BIND(IF(isLiteral(?o),
-            STRDT(REPLACE(STR(?o), "[\u00A0\\s]+", " "), datatype(?o)),
-            ?o) AS ?cleaned)
+
+    # office_address sub-node → reattach the mapped subfields under a stable IRI.
+    # Explicit (single-valued) so they don't multiply the routing rows above.
+    OPTIONAL { ?item xyz:office_address/xyz:address_line1 ?al1 . BIND(REPLACE(STR(?al1), "[\u00A0\\s]+", " ") AS ?addrLine1) }
+    OPTIONAL { ?item xyz:office_address/xyz:postal_code   ?aplz . BIND(REPLACE(STR(?aplz), "[\u00A0\\s]+", " ") AS ?addrPlz) }
+    OPTIONAL { ?item xyz:office_address/xyz:locality      ?aloc . BIND(REPLACE(STR(?aloc), "[\u00A0\\s]+", " ") AS ?addrLocality) }
+    OPTIONAL { ?item xyz:office_address/xyz:country_code  ?acc  . BIND(REPLACE(STR(?acc),  "[\u00A0\\s]+", " ") AS ?addrCountry) }
 }
