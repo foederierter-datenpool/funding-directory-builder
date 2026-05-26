@@ -2,22 +2,36 @@
 # xyz:type + xyz:id, so skolemizing each to cdp:awo-<id> unifies them. Copies the
 # org's scalar literals (whitespace collapsed; isLiteral skips nested arrays and
 # the facade-x null IRI), joins the org's address from the locations_filtered
-# table on organisation_id, folds in the first service's BAGFW category, and
-# resolves parent_id to the parent's name via a self-join.
+# table on organisation_id, and resolves parent_id to the parent's name via a
+# self-join. Each element of the org's services[] also becomes its own entity
+# (cdp:awo-service-<id>) linked back via cdp:providedBy. Clean stays in xyz:/cdp:
+# vocabulary — no schema: yet; each subject instead carries cdp:targetSchema so
+# the map routes it to the organisation or service schema (where the schema: type
+# is assigned). The org still folds in the first service's BAGFW category for now
+# — that moves onto the service when the service mapping is wired.
 
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
-    ?org cdp:fromSource cdp:awoSource ;
-         ?p              ?scalar ;
-         xyz:adresse     ?adresse ;
-         xyz:plz         ?plz ;
-         xyz:ort         ?ort ;
-         xyz:ortsteil    ?ortsteil ;
-         xyz:category    ?category ;
-         xyz:parent_name ?parentName .
+    ?org cdp:fromSource   cdp:awoSource ;
+         cdp:targetSchema cdp:organizationSchema ;
+         ?p               ?scalar ;
+         xyz:adresse      ?adresse ;
+         xyz:plz          ?plz ;
+         xyz:ort          ?ort ;
+         xyz:ortsteil     ?ortsteil ;
+         xyz:category     ?category ;
+         xyz:parent_name  ?parentName .
+
+    ?svc cdp:fromSource   cdp:awoSource ;
+         cdp:targetSchema cdp:serviceSchema ;
+         cdp:providedBy   ?org ;
+         xyz:id           ?svcId ;
+         xyz:name         ?svcName ;
+         xyz:category     ?svcCategory ;
+         xyz:area_served  ?svcArea .
 }
 WHERE {
     ?node xyz:type ?type ; xyz:id ?id .
@@ -46,6 +60,28 @@ WHERE {
         ?node xyz:services/rdf:_1/xyz:bagfw_category ?cat .
         ?cat xyz:nummer ?cnum ; xyz:name ?cname .
         BIND(CONCAT(STR(?cnum), " ", STR(?cname)) AS ?category)
+    }
+
+    # One service entity per services[] element (rdf:_N container members): its
+    # own id, the BAGFW category as name + category, and the location resolved
+    # via location_id against the locations table (its ort as area served).
+    OPTIONAL {
+        ?node xyz:services ?svcArr .
+        ?svcArr ?svcMember ?svcNode .
+        FILTER(STRSTARTS(STR(?svcMember), "http://www.w3.org/1999/02/22-rdf-syntax-ns#_"))
+        ?svcNode xyz:id ?svcId .
+        BIND(IRI(CONCAT(STR(cdp:), "awo-service-", STR(?svcId))) AS ?svc)
+        OPTIONAL {
+            ?svcNode xyz:bagfw_category ?svcBc .
+            ?svcBc xyz:name ?svcName ; xyz:nummer ?svcNum .
+            BIND(CONCAT(STR(?svcNum), " ", STR(?svcName)) AS ?svcCategory)
+        }
+        # ort lives only on the full locations table row, not the skinny
+        # location embedded in the service, so it pins to the right node.
+        OPTIONAL {
+            ?svcNode xyz:location_id ?svcLocId .
+            ?svcLoc xyz:id ?svcLocId ; xyz:ort ?svcArea .
+        }
     }
 
     OPTIONAL {

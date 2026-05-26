@@ -76,7 +76,7 @@ const sorted = topoSort(steps, (iri) => preds.get(iri) ?? [])
 const XYZ = "http://sparql.xyz/facade-x/data/"
 const CDP = "https://civic-data.de/pipeline#"
 
-const buildDirectInsert = ({ sourceGraph, source, targetClass }, fields) => {
+const buildDirectInsert = ({ sourceGraph, source, targetClass, target }, fields) => {
     const prefixes = {
         xyz:    XYZ,
         cdp:    CDP,
@@ -105,9 +105,16 @@ const buildDirectInsert = ({ sourceGraph, source, targetClass }, fields) => {
     const topLevel  = fields.filter(f => !f.parentPath)
     const subFields = fields.filter(f => f.parentPath)
 
-    // Source subjects = federation IRIs after the clean step, so ?org is
-    // identified directly via cdp:fromSource — no minting from a key field.
+    // Source subjects = federation IRIs after the clean step, identified via
+    // cdp:fromSource — no minting from a key field. Where clean reshapes one
+    // source into several entity kinds it tags each subject with cdp:targetSchema;
+    // select only those for this mapping's schema. Subjects with no marker
+    // (single-entity sources like caritas/dhs) match unconditionally.
     const bgp = [`?org cdp:fromSource ${short(source)} .`]
+    if (target) {
+        bgp.push(`OPTIONAL { ?org cdp:targetSchema ?_ts }`)
+        bgp.push(`FILTER(!bound(?_ts) || ?_ts = ${short(target)})`)
+    }
     for (const f of topLevel) bgp.push(optLit("?org", f.fieldPath))
 
     const byParent = new Map()
@@ -122,9 +129,9 @@ const buildDirectInsert = ({ sourceGraph, source, targetClass }, fields) => {
         bgp.push(`OPTIONAL {\n    ?org xyz:${parent} ${pv} .\n${inner}\n  }`)
     }
 
-    // The target schema's :targetClass (if any) becomes the record's rdf:type,
-    // making the entity type explicit on every mapped record. It rides the same
-    // path as cdp:fromSource, so all sources get typed uniformly.
+    // The target schema's :targetClass becomes the record's rdf:type here in the
+    // mapped graph — this is where schema: vocabulary first enters; the clean step
+    // stays in xyz:/cdp: only.
     const typeClause = targetClass ? `a ${short(targetClass)} ; ` : ""
 
     return `${buildPrefixBlock(prefixes)}
@@ -144,10 +151,11 @@ ${insertBlock}
 const runMap = async (queriesDir) => {
     const mappings = await sparqlSelect(`
         PREFIX : <https://civic-data.de/pipeline#>
-        SELECT ?mapping ?source ?sourceGraph ?targetClass WHERE {
+        SELECT ?mapping ?source ?sourceGraph ?target ?targetClass WHERE {
             ?mapping a :Mapping ;
                 :fromSource ?source .
             OPTIONAL { ?mapping :sourceGraph ?sourceGraph }
+            OPTIONAL { ?mapping :toTarget ?target }
             OPTIONAL { ?mapping :toTarget/:targetClass ?targetClass }
         } ORDER BY ?mapping`, [defStore])
 
