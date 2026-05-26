@@ -194,6 +194,43 @@ const runMap = async (queriesDir) => {
             await sparqlInsertDelete(fs.readFileSync(abs(v.script), "utf8"), store)
         }
     }
+
+    // A mapping's :hasRelationship turns the clean step's source-level link
+    // (e.g. :providedBy) into a target predicate (schema:provider), matching the
+    // two ends by their cdp:targetSchema. Both ends are still source IRIs here;
+    // the merge step rewrites them to the minted cluster IRIs.
+    const linkRows = await sparqlSelect(`
+        PREFIX : <https://civic-data.de/pipeline#>
+        SELECT ?mapping ?sourceGraph ?fromSchema ?sourcePredicate ?targetPredicate ?toSchema WHERE {
+            ?mapping a :Mapping ;
+                :sourceGraph     ?sourceGraph ;
+                :toTarget        ?fromSchema ;
+                :hasRelationship ?rel .
+            ?rel :sourcePredicate ?sourcePredicate ;
+                 :toTargetField   ?field ;
+                 :toTargetSchema  ?toSchema .
+            ?field :targetPredicate ?targetPredicate .
+        } ORDER BY ?mapping`, [defStore])
+
+    for (const rel of linkRows) {
+        const prefixes = { cdp: CDP, schema: "http://schema.org/" }
+        const short = (iri) => { const s = shrink(iri, prefixes); return s === iri ? `<${iri}>` : s }
+        const query = `${buildPrefixBlock(prefixes)}
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?from ${short(rel.targetPredicate)} ?to .
+    }
+} WHERE {
+    GRAPH <${rel.sourceGraph}> {
+        ?from ${short(rel.sourcePredicate)} ?to ;
+              cdp:targetSchema ${short(rel.fromSchema)} .
+        ?to cdp:targetSchema ${short(rel.toSchema)} .
+    }
+}`
+        console.log(`map  ${rel.mapping.split("#").pop()} link (${short(rel.targetPredicate)})`)
+        await sparqlInsertDelete(query, store)
+    }
 }
 
 // ---- Shared graphs and prefixes ----------------------------------------
@@ -232,9 +269,9 @@ const runMatch = async (store, outPath) => {
             ?match a :MatchRule ;
                 :forTarget           ?target ;
                 :targetNamespace     ?ns ;
-                :mintedSubjectPrefix ?prefix ;
-                :minScore            ?minScore .
+                :mintedSubjectPrefix ?prefix .
             ?target :targetClass ?targetClass .
+            OPTIONAL { ?match :minScore ?minScore }
         } ORDER BY ?match`, [defStore])
     if (!rules.length) throw new Error(":MatchRule config missing in federation.ttl")
 
@@ -333,6 +370,9 @@ const runMatch = async (store, outPath) => {
         // A criterion may also declare a hard floor via :minSimilarity (e.g. PLZ
         // must equal 1.0); failing the floor short-circuits regardless of aggregate.
         const matches = (a, b) => {
+            // No criteria → no basis to declare two records the same; every
+            // subject stays its own cluster (independent of :minScore).
+            if (!criteria.length) return null
             const va = valuesFor.get(a), vb = valuesFor.get(b)
             const scores = []
             let weightedSum = 0
@@ -458,8 +498,14 @@ const runMerge = async (store, outPath, provOutPath) => {
     for (const qu of fedQuads) {
         const minted = mintedFor.get(qu.subject.value)
         if (!minted) continue
-        store.addQuad(df.quad(minted, qu.predicate, qu.object, MERGED_GRAPH))
-        const triple = df.quad(minted, qu.predicate, qu.object)
+        // Rewrite IRI objects that are themselves matched subjects to their minted
+        // cluster IRI, so inter-entity links (e.g. schema:provider) point at the
+        // merged entity rather than the pre-merge source IRI.
+        const object = qu.object.termType === "NamedNode" && mintedFor.has(qu.object.value)
+            ? mintedFor.get(qu.object.value)
+            : qu.object
+        store.addQuad(df.quad(minted, qu.predicate, object, MERGED_GRAPH))
+        const triple = df.quad(minted, qu.predicate, object)
         provQuads.push(df.quad(triple, originPredNode, qu.subject))
     }
 

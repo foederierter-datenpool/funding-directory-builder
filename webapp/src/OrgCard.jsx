@@ -113,7 +113,7 @@ function OrgCardWide({ org, highlight }) {
 
 export default function OrgCard({ org, compact, highlight }) {
     return (
-        <Card title={org.label}>
+        <Card title={org.label} tag={org.type}>
             {compact ? <OrgCardNarrow org={org} highlight={highlight} /> : <OrgCardWide org={org} highlight={highlight} />}
         </Card>
     )

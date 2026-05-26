@@ -1,7 +1,7 @@
 // Parses merged + provenance TTL into org objects: each field's values and the
 // :Source(s) that contributed them, ordered by config. Pure (ttl in → data out).
 // Reads:  TTL strings passed by mergeOrgs.js; resolves sources via sourceMeta.js
-// Does:   returns org[] (each {iri, label, fields[], sources[]})
+// Does:   returns org[] (each {iri, label, type, fields[], sources[]})
 
 import { localName, parseReifications, parseTtl, shrink } from "../../utils.js"
 import { compareSources, loadSourceMeta } from "./sourceMeta.js"
@@ -71,8 +71,9 @@ export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
         const org = orgs[orgIndex.get(orgIri)]
         const fieldIndex = fieldIndexByOrg.get(orgIri)
 
-        // rdf:type carries the entity class, not a displayable field value.
-        if (predIri === RDF_TYPE) continue
+        // rdf:type carries the entity class — surface it in the card header
+        // (see OrgCard), not as a field row.
+        if (predIri === RDF_TYPE) { org.type = prefixedIri(value); continue }
 
         if (!fieldIndex.has(predIri)) {
             fieldIndex.set(predIri, org.fields.length)

@@ -11,7 +11,7 @@
 :federation a :Federation ;
     :hasSource       :caritasSource, :sozialplattformSource, :dhsSource, :awoSource ;
     :hasTargetSchema :organizationSchema, :serviceSchema ;
-    :hasMatchRule    :orgMatch ;
+    :hasMatchRule    :orgMatch, :serviceMatch ;
     :hasMergeRule    :merge ;
     :hasResolveRule  :resolve .
 
@@ -26,9 +26,9 @@
                     :t-openingHours, :t-parentOrganization,
                     :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
 
-:serviceSchema a :TargetSchemaDraft ; # remove draft TODO
+:serviceSchema a :TargetSchema ;
     :targetClass schema:Service ;
-    :hasTargetField :t-identifier, :t-name .
+    :hasTargetField :t-identifier, :t-name, :t-category, :t-codeValue, :t-areaServed, :t-provider .
 
 :t-identifier           a :TargetField ; :targetPredicate schema:identifier .
 :t-name                 a :TargetField ; :targetPredicate schema:name .
@@ -53,6 +53,7 @@
 :t-openingHours         a :TargetField ; :targetPredicate schema:openingHours .
 :t-parentOrganization   a :TargetField ; :targetPredicate schema:parentOrganization .
 :t-provider             a :TargetField ; :targetPredicate schema:provider .
+:t-codeValue            a :TargetField ; :targetPredicate schema:codeValue .
 
 # Temporal fields, all unmapped for now. :t-harvestedAt would carry a
 # pipeline-side timestamp; the :t-source* trio invites sources to start
@@ -172,7 +173,8 @@
     rdfs:label    "Arbeiterwohlfahrt (AWO)" ;
     skos:notation "awo" ;
     :hasField   :awo-id, :awo-name, :awo-name_zusatz, :awo-webseite, :awo-parent_name,
-                :awo-adresse, :awo-plz, :awo-ort, :awo-ortsteil, :awo-category .
+                :awo-adresse, :awo-plz, :awo-ort, :awo-ortsteil, :awo-category,
+                :awo-svc-id, :awo-svc-bagfw, :awo-svc-area .
 
 :awo-id          a :SourceField ; :fieldPath "id"          .
 :awo-name        a :SourceField ; :fieldPath "name"        .
@@ -184,6 +186,14 @@
 :awo-ort         a :SourceField ; :fieldPath "ort"         .
 :awo-ortsteil    a :SourceField ; :fieldPath "ortsteil"    .
 :awo-category    a :SourceField ; :fieldPath "category"    .
+
+# Service-side source fields — one schema:Service per services[] element.
+:awo-svc-id    a :SourceField ; :fieldPath "id"          .
+:awo-svc-area  a :SourceField ; :fieldPath "area_served" .
+:awo-svc-bagfw a :SourceField ; :fieldPath "bagfw_category" ;
+    :hasSubField :awo-svc-bagfw-nummer, :awo-svc-bagfw-name .
+:awo-svc-bagfw-nummer a :SubField ; :fieldPath "nummer" .
+:awo-svc-bagfw-name   a :SubField ; :fieldPath "name" .
 
 # ---- Transform nodes --------------------------------------------
 
@@ -263,6 +273,18 @@
         [ :from :awo-ort         ; :to :t-locality           ] ,
         [ :from :awo-category    ; :to :t-category           ] .
 
+:awo-service-mapping a :Mapping ;
+    :fromSource    :awoSource ;
+    :toTarget      :serviceSchema ;
+    :sourceGraph   <urn:source:awo> ;
+    :hasFieldMapping
+        [ :from :awo-svc-id           ; :to :t-identifier ] ,
+        [ :from :awo-svc-bagfw-name   ; :to :t-category   ] ,
+        [ :from :awo-svc-bagfw-nummer ; :to :t-codeValue  ] ,
+        [ :from :awo-svc-area         ; :to :t-areaServed ] ;
+    :hasRelationship
+        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :organizationSchema ] .
+
 # ---- Match --------------------------------------------------------------
 
 :orgMatch a :MatchRule ;
@@ -276,7 +298,7 @@
         [ :on schema:postalCode    ; :weight 0.3 ; :minSimilarity 1.0 ] ,
         [ :on schema:streetAddress ; :weight 0.2 ] .
 
-:serviceMatch a :MatchRuleDraft ; # remove draft TODO
+:serviceMatch a :MatchRule ;
     :forTarget           :serviceSchema ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "service-" .

@@ -16,6 +16,9 @@ import { loadMatch } from "./loadMatch.js"
 
 const COLUMNS = ["Source", "MatchCluster"]
 const COLORS = { Source: "#d4e7ff", MatchCluster: "#f4cfe0" }
+// Org nodes keep COLORS (blue source → pink cluster); service nodes are recoloured
+// per-node on both sides so service rows stand apart from org rows.
+const SERVICE_COLOR = "#cce9cf"
 const CENTER_COLUMNS = ["MatchCluster"]
 const SCHEMA_NAME = "http://schema.org/name"
 const SCHEMA_IDENTIFIER = "http://schema.org/identifier"
@@ -114,10 +117,12 @@ export default function MatchGraph() {
             if (n.type === "Source") {
                 n.label = sourceCode(n.id)
                 n.subtitle = orgInfo.get(n.id)?.get(SCHEMA_IDENTIFIER)?.[0]
+                if (clusterOf.get(n.id)?.startsWith(`${CDF_NS}service-`)) n.color = SERVICE_COLOR
             } else if (n.type === "MatchCluster") {
                 const named = members.get(n.id)?.find((m) => orgInfo.get(m)?.get(SCHEMA_NAME))
                 if (named) n.label = orgInfo.get(named).get(SCHEMA_NAME)[0]
                 n.subtitle = n.id.startsWith(CDF_NS) ? `cdf:${n.id.slice(CDF_NS.length)}` : n.id
+                if (n.id.startsWith(`${CDF_NS}service-`)) n.color = SERVICE_COLOR
             }
         }
         const cluster = (n) => n.type === "MatchCluster" ? n.id : clusterOf.get(n.id)
@@ -142,6 +147,16 @@ export default function MatchGraph() {
                     <input type="checkbox" checked={hideSingletons} onChange={(e) => setHideSingletons(e.target.checked)} />
                     Only show clusters
                 </label>
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "0.75rem", marginLeft: "auto", color: "#666" }}>
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+                        <span style={{ width: 11, height: 11, background: COLORS.MatchCluster, border: "1px solid #888", borderRadius: 2, display: "inline-block" }} />
+                        Organisation
+                    </span>
+                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
+                        <span style={{ width: 11, height: 11, background: SERVICE_COLOR, border: "1px solid #888", borderRadius: 2, display: "inline-block" }} />
+                        Service
+                    </span>
+                </span>
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
                 <ColumnGraph key={hideSingletons ? "hide" : "show"} nodes={nodes} edges={edges} columns={COLUMNS} colors={COLORS} centerColumns={CENTER_COLUMNS} onNodeClick={handleNodeClick} />

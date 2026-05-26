@@ -160,7 +160,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
             position: isVertical ? { x: pos.y, y: pos.x } : pos,
             data: { label: n.label, subtitle: n.subtitle, props: n.props, targetPos, sourcePos },
             style: {
-                background: colors[n.type] ?? "#eee",
+                background: n.color ?? colors[n.type] ?? "#eee",
                 border: `1px ${n.dashed ? "dashed" : "solid"} #888`,
                 borderRadius: 4,
                 fontSize: 12,
