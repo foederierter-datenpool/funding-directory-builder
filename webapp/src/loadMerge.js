@@ -3,7 +3,7 @@
 // Reads:  TTL strings passed by mergeOrgs.js; resolves sources via sourceMeta.js
 // Does:   returns org[] (each {iri, label, type, fields[], sources[]})
 
-import { localName, parseReifications, parseTtl, shrink } from "../../utils.js"
+import { parseReifications, parseTtl, shrink } from "../../utils.js"
 import { compareSources, loadSourceMeta } from "./sourceMeta.js"
 
 const NS = "https://civic-data.de/pipeline#"
@@ -16,6 +16,7 @@ const PREFIXES = {
     dct:    "http://purl.org/dc/terms/",
     foaf:   "http://xmlns.com/foaf/0.1/",
     cdp:    NS,
+    cdf:    "https://civic-data.de/federated-directory#",
 }
 const prefixedIri = (iri) => shrink(iri, PREFIXES)
 
@@ -66,7 +67,7 @@ export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
         if (!orgIndex.has(orgIri)) {
             orgIndex.set(orgIri, orgs.length)
             fieldIndexByOrg.set(orgIri, new Map())
-            orgs.push({ iri: orgIri, label: localName(orgIri), fields: [] })
+            orgs.push({ iri: orgIri, label: prefixedIri(orgIri), fields: [] })
         }
         const org = orgs[orgIndex.get(orgIri)]
         const fieldIndex = fieldIndexByOrg.get(orgIri)
