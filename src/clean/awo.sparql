@@ -1,8 +1,8 @@
-# The fetcher merges AWO's two source files into one document; both carry
-# xyz:id per org, so skolemizing each occurrence to cdp:awo-<id> unifies them
-# (xyz:type identifies an org — nested objects also carry xyz:id). Copies the
+# The fetcher merges AWO's source files into one document; org records carry
+# xyz:type + xyz:id, so skolemizing each to cdp:awo-<id> unifies them. Copies the
 # org's scalar literals (whitespace collapsed; isLiteral skips nested arrays and
-# the facade-x null IRI), flattens the single location/service to scalars, and
+# the facade-x null IRI), joins the org's address from the locations_filtered
+# table on organisation_id, folds in the first service's BAGFW category, and
 # resolves parent_id to the parent's name via a self-join.
 
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
@@ -29,17 +29,18 @@ WHERE {
     FILTER(isLiteral(?raw))
     BIND(STRDT(REPLACE(STR(?raw), "[\u00A0\\s]+", " "), datatype(?raw)) AS ?scalar)
 
+    # Address from the locations_filtered table, joined on organisation_id —
+    # not from the org's services. Orgs absent from that table (the services-
+    # file-only ones) get no address; their service will carry the location
+    # instead. plz+ort are always present on a location node and absent on
+    # service nodes, so requiring them pins the join to a real location.
     OPTIONAL {
-        ?node xyz:locations/rdf:_1 ?loc .
-        OPTIONAL { ?loc xyz:adresse  ?adresse }
-        OPTIONAL { ?loc xyz:ort      ?ort }
-        OPTIONAL { ?loc xyz:ortsteil ?ortsteil }
+        ?locNode xyz:organisation_id ?id ;
+                 xyz:plz              ?plz ;
+                 xyz:ort              ?ort .
+        OPTIONAL { ?locNode xyz:adresse  ?adresse }
+        OPTIONAL { ?locNode xyz:ortsteil ?ortsteil }
     }
-
-    # plz: embedded location (organisations) or skinny service location (all-only).
-    OPTIONAL { ?node xyz:locations/rdf:_1/xyz:plz             ?p1 }
-    OPTIONAL { ?node xyz:services/rdf:_1/xyz:location/xyz:plz ?p2 }
-    BIND(COALESCE(?p1, ?p2) AS ?plz)
 
     OPTIONAL {
         ?node xyz:services/rdf:_1/xyz:bagfw_category ?cat .
