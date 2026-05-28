@@ -50,8 +50,8 @@ function ValueEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, tar
     const dx = targetX - sourceX
     const dy = targetY - sourceY
     const len = Math.hypot(dx, dy) || 1
-    const tShift = (((idx % 5) - 2) / 2) * 0.15
-    const perp   = ((idx % 3) - 1) * 14
+    const tShift = data.centered ? 0 : (((idx % 5) - 2) / 2) * 0.15
+    const perp   = data.centered ? 0 : ((idx % 3) - 1) * 14
     const labelX = midX + dx * tShift + (-dy / len) * perp
     const labelY = midY + dy * tShift + ( dx / len) * perp
 
@@ -90,8 +90,9 @@ function ValueEdge({ id, sourceX, sourceY, targetX, targetY, sourcePosition, tar
                         cursor: "default",
                         maxWidth: 150,
                         wordBreak: "break-word",
+                        whiteSpace: "pre-line",
                         display: "-webkit-box",
-                        WebkitLineClamp: 2,
+                        WebkitLineClamp: 3,
                         WebkitBoxOrient: "vertical",
                         overflow: "hidden",
                         ...(highlight && { zIndex: 1000, boxShadow: "0 4px 14px rgba(0,0,0,0.35)" }),
@@ -161,7 +162,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
             data: { label: n.label, subtitle: n.subtitle, props: n.props, targetPos, sourcePos },
             style: {
                 background: n.color ?? colors[n.type] ?? "#eee",
-                border: `1px ${n.dashed ? "dashed" : "solid"} #888`,
+                border: `1px ${n.dashed ? "dashed" : "solid"} ${n.borderColor ?? "#888"}`,
                 borderRadius: 4,
                 fontSize: 12,
                 padding: 6,
@@ -174,7 +175,7 @@ function toFlow({ nodes, edges }, columns, colors, centerColumns, direction, col
         id: `e-${i}`,
         source: e.from,
         target: e.to,
-        ...(e.value !== undefined && { type: "value", data: { value: e.value, idx: i, bg: e.valueBg } }),
+        ...(e.value !== undefined && { type: "value", data: { value: e.value, idx: i, bg: e.valueBg, centered: e.centered } }),
         markerEnd: { type: MarkerType.ArrowClosed },
     }))
 
