@@ -3,12 +3,13 @@
 // Reads:  TTL strings passed by mergeOrgs.js; resolves sources via sourceMeta.js
 // Does:   returns org[] (each {iri, label, type, fields[], sources[]})
 
-import { parseReifications, parseTtl, shrink } from "../../utils.js"
+import { parseTtl, shrink } from "../../utils.js"
 import { compareSources, loadSourceMeta } from "./sourceMeta.js"
 
 const NS = "https://civic-data.de/pipeline#"
 const PROV_DERIVED_FROM = "http://www.w3.org/ns/prov#wasDerivedFrom"
 const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+const RDF_REIFIES = "http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies"
 const FROM_SOURCE = `${NS}fromSource`
 
 const PREFIXES = {
@@ -25,34 +26,32 @@ export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
     const provQuads = parseTtl(provTtl)
     const sourceMeta = federationTtl ? loadSourceMeta(federationTtl) : new Map()
 
-    // Walk provenance: gather reification bnode → inner triple, and bnode → source set,
-    // then index (s|p|o) → Set<source>.
-    const reifies = parseReifications(provQuads)
-    const bnodeSources = new Map()
+    // Each prov:wasDerivedFrom in provenance.ttl annotates a merged triple
+    // `<<s p o>>` with the source record IRI it came from. n3.js exposes the
+    // quoted-triple subject either directly as a Quad term, or via an
+    // auto-generated reifier bnode + rdf:reifies triple — accept both shapes.
+    const reifies = new Map()
     for (const q of provQuads) {
-        if (q.predicate.value === PROV_DERIVED_FROM) {
-            if (!bnodeSources.has(q.subject.value)) bnodeSources.set(q.subject.value, new Set())
-            bnodeSources.get(q.subject.value).add(q.object.value)
-        }
+        if (q.predicate.value === RDF_REIFIES && q.object.termType === "Quad") reifies.set(q.subject.value, q.object)
+    }
+    const annotations = []
+    for (const q of provQuads) {
+        if (q.predicate.value !== PROV_DERIVED_FROM) continue
+        const t = q.subject.termType === "Quad" ? q.subject : reifies.get(q.subject.value)
+        if (t) annotations.push({ s: t.subject.value, p: t.predicate.value, o: t.object.value, rec: q.object.value })
     }
     // Resolve each record to its :Source via cdp:fromSource (reified in
     // provenance) so downstream code deals only in Source IRIs, not record IRIs.
     const sourceOfRecord = new Map()
-    for (const [bnode, triple] of reifies) {
-        if (triple.p === FROM_SOURCE) {
-            for (const rec of bnodeSources.get(bnode) ?? []) sourceOfRecord.set(rec, triple.o)
-        }
-    }
+    for (const { p, o, rec } of annotations) if (p === FROM_SOURCE) sourceOfRecord.set(rec, o)
     const toSources = (records) => [...new Set([...records].map((r) => sourceOfRecord.get(r)))]
 
     const provIndex = new Map()
     const tripleKey = (s, p, o) => `${s}\t${p}\t${o}`
-    for (const [bnode, triple] of reifies) {
-        const sources = bnodeSources.get(bnode)
-        if (!sources) continue
-        const key = tripleKey(triple.s, triple.p, triple.o)
+    for (const { s, p, o, rec } of annotations) {
+        const key = tripleKey(s, p, o)
         if (!provIndex.has(key)) provIndex.set(key, new Set())
-        for (const src of sources) provIndex.get(key).add(src)
+        provIndex.get(key).add(rec)
     }
 
     // Walk merged.ttl in parse order so card order = pipeline order.
@@ -81,18 +80,21 @@ export function loadMerge(mergedTtl, provTtl, federationTtl = "") {
             org.fields.push({ predicate: predIri, predLabel: prefixedIri(predIri), values: [] })
         }
         const field = org.fields[fieldIndex.get(predIri)]
-        const sources = toSources(provIndex.get(tripleKey(orgIri, predIri, value)) ?? [])
+        const records = [...(provIndex.get(tripleKey(orgIri, predIri, value)) ?? [])]
+        const sources = toSources(records)
         const displayValue = q.object.termType === "NamedNode" ? prefixedIri(value) : value
-        field.values.push({ value: displayValue, raw: value, sources })
+        field.values.push({ value: displayValue, raw: value, sources, records })
     }
 
     // Per-field: sort values by source-count desc so the most-supported one is index 0.
-    // Per-org: collect the union of contributing sources, ordered by config.
+    // Per-org: one column per contributing record (two records from the same source
+    // get two columns), ordered by source then record IRI.
     for (const org of orgs) {
         for (const f of org.fields) f.values.sort((a, b) => b.sources.length - a.sources.length)
         const all = new Set()
-        for (const f of org.fields) for (const v of f.values) for (const s of v.sources) all.add(s)
-        org.sources = [...all].sort((a, b) => compareSources(a, b, sourceMeta))
+        for (const f of org.fields) for (const v of f.values) for (const r of v.records) all.add(r)
+        org.columns = [...all].map((r) => ({ record: r, source: sourceOfRecord.get(r) }))
+            .sort((a, b) => compareSources(a.source, b.source, sourceMeta) || a.record.localeCompare(b.record))
     }
     return orgs
 }

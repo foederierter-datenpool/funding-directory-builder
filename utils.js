@@ -4,8 +4,7 @@
 
 import { Parser } from "n3"
 
-const RDF_TYPE    = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-const RDF_REIFIES = "http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies"
+const RDF_TYPE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 
 export const localName = (iri) => iri.replace(/^.*[#/]/, "")
 
@@ -80,23 +79,6 @@ export function groupBySubject(quads, { literalsOnly = false } = {}) {
         let arr = row.get(p)
         if (!arr) { arr = []; row.set(p, arr) }
         arr.push(q.object.value)
-    }
-    return out
-}
-
-// Map<reifierId, {s, p, o}> — one entry per RDF-star reification triple
-// `?reifier rdf:reifies <<?s ?p ?o>>`. Reifier IDs come from q.subject.value
-// (typically a blank node).
-export function parseReifications(quads) {
-    const out = new Map()
-    for (const q of quads) {
-        if (q.predicate.value === RDF_REIFIES && q.object.termType === "Quad") {
-            out.set(q.subject.value, {
-                s: q.object.subject.value,
-                p: q.object.predicate.value,
-                o: q.object.object.value,
-            })
-        }
     }
     return out
 }

@@ -10,8 +10,8 @@ import Card, { KeyValueTable } from "./Card.jsx"
 import { loadHarvestBySource, loadSourceMeta } from "./sourceMeta.js"
 import React, { useState } from "react"
 
-// org.sources are :Source IRIs (resolved in loadMerge); look up display data
-// in config (notation, label) and the harvest log (time).
+// org.columns are one entry per contributing record (resolved in loadMerge); look
+// up source display data in config (notation, label) and the harvest log (time).
 const sourceMeta = loadSourceMeta(federationTtl)
 const harvestBySource = loadHarvestBySource(logTtl)
 const sourceCode = (iri) => sourceMeta.get(iri).notation
@@ -80,15 +80,15 @@ function OrgCardNarrow({ org, highlight }) {
 }
 
 function OrgCardWide({ org, highlight }) {
-    const sources = org.sources
+    const columns = org.columns
     return (
         <table>
             <thead>
                 <tr>
                     <th></th>
-                    {sources.map((s) => (
-                        <th key={s} title={tagTitle(s)}>
-                            <span className="source-tag">{sourceCode(s)}</span>
+                    {columns.map((c) => (
+                        <th key={c.record} title={tagTitle(c.source)}>
+                            <span className="source-tag">{sourceCode(c.source)}</span>
                         </th>
                     ))}
                 </tr>
@@ -99,9 +99,9 @@ function OrgCardWide({ org, highlight }) {
                     return (
                         <tr key={f.predicate}>
                             <td>{f.predLabel}</td>
-                            {sources.map((s) => {
-                                const v = f.values.find((val) => val.sources.includes(s))
-                                return <td key={s} title={v?.raw ?? v?.value}><span className="value-text" style={{ maxWidth: "50ch", ...conflict }}>{v?.value ?? ""}</span></td>
+                            {columns.map((c) => {
+                                const v = f.values.find((val) => val.records.includes(c.record))
+                                return <td key={c.record} title={v?.raw ?? v?.value}>{v && <span className="value-text" style={{ maxWidth: "50ch", ...conflict }}>{v.value}</span>}</td>
                             })}
                         </tr>
                     )
