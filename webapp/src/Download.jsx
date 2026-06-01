@@ -1,11 +1,10 @@
-// Download view: choose target fields + format, or an external-schema export.
-// Reads:  config/federation.ttl, data/pipeline/final.ttl (+ exporters/sozialplattform.js)
-// Does:   triggers a browser download (.ttl / .jsonld / .json / .csv, or Sozialplattform JSON)
+// Download view: choose target fields + format.
+// Reads:  config/federation.ttl, data/pipeline/final.ttl
+// Does:   triggers a browser download (.ttl / .jsonld / .json / .csv)
 
 import { datasetToTurtleWriter } from "@foerderfunke/sem-ops-utils/core"
 import { turtleToJsonLdObj } from "@foerderfunke/sem-ops-utils/jsonld"
 import { groupBySubject, parseTtl, shrink, subjectsOfType } from "../../utils.js"
-import { toSozialplattformJson } from "./exporters/sozialplattform.js"
 import federationTtl from "../../config/federation.ttl?raw"
 import finalTtl from "../../data/pipeline/final.ttl?raw"
 import React, { useState } from "react"
@@ -100,20 +99,9 @@ function triggerDownload(content, mime, filename) {
     URL.revokeObjectURL(url)
 }
 
-const EXTERNAL_TARGETS = [
-    {
-        value: "sozialplattform",
-        label: "Sozialplattform JSON",
-        filename: "sozialplattform.json",
-        mime: "application/json",
-        build: async () => JSON.stringify(await toSozialplattformJson(finalTtl), null, 2),
-    },
-]
-
 export default function Download() {
     const [selected, setSelected] = useState(() => new Set(TARGET_FIELDS.map((f) => f.predicate)))
     const [format, setFormat] = useState("ttl")
-    const [externalTarget, setExternalTarget] = useState(EXTERNAL_TARGETS[0].value)
 
     const toggle = (pred) => {
         const next = new Set(selected)
@@ -126,11 +114,6 @@ export default function Download() {
         const fields = TARGET_FIELDS.filter((f) => selected.has(f.predicate))
         const content = await buildFile(fields, format)
         triggerDownload(content, fmt.mime, `final.${fmt.ext}`)
-    }
-
-    const onDownloadExternal = async () => {
-        const target = EXTERNAL_TARGETS.find((t) => t.value === externalTarget)
-        triggerDownload(await target.build(), target.mime, target.filename)
     }
 
     return (
@@ -153,16 +136,6 @@ export default function Download() {
                     </select>
                 </label>
                 <button onClick={onDownload} disabled={selected.size === 0}>Download</button>
-            </div>
-
-            <hr style={{ margin: "1.5rem 0", border: 0, borderTop: "1px solid #ddd" }} />
-
-            <h3 style={{ margin: "0 0 0.75rem" }}>Map to other schema</h3>
-            <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                <select value={externalTarget} onChange={(e) => setExternalTarget(e.target.value)}>
-                    {EXTERNAL_TARGETS.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}
-                </select>
-                <button onClick={onDownloadExternal}>Download</button>
             </div>
         </div>
     )

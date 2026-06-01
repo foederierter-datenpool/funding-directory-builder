@@ -3,15 +3,16 @@ import React from "react"
 export default function About() {
     return (
         <div className="page" style={{ maxWidth: "100ch", lineHeight: 1.5 }}>
-            <h2>Federated directory of social support services in Germany</h2>
-            <p>Builds a federated directory by mapping heterogeneous source schemas into a unified target schema.<br/>The directory can be queried, downloaded, or accessed via APIs.<br/>This site serves both its users and those interested in the federation process itself.<br/>Toggle "Show federation process" in the top bar to inspect the steps.</p>
+            <h2>Federated directory of funding programmes in Germany & the EU</h2>
+            <p>Builds a federated directory of funding opportunities (Förderprogramme) by mapping heterogeneous source schemas into a unified target schema.<br/>Sources: Förderdatenbank des Bundes, DSEE-Förderdatenbank, Förderfinder Bayern, and the EU Funding &amp; Tenders Portal.<br/>The directory can be queried, downloaded, or accessed via APIs.<br/>This site serves both its users and those interested in the federation process itself.<br/>Toggle "Show federation process" in the top bar to inspect the steps.</p>
 
             <details style={{ marginTop: "2rem" }}>
                 <summary style={{ cursor: "pointer", fontSize: 13, color: "#666" }}>Technical roadmap</summary>
 
                 <p><strong>Semantic modelling</strong></p>
                 <ul>
-                    <li>Model services as their own entity type - one organisation can offer many</li>
+                    <li>Richer target schema: eligibility, funding amount, deadlines, applicant types, region</li>
+                    <li>Match the same programme across sources (currently every record is its own entry)</li>
                     <li>Strategy for minting stable IRIs for entities of the federated directory</li>
                     <li>Complement <i>sameAs</i> with <i>differentFrom</i> to manually avoid false matches</li>
                 </ul>

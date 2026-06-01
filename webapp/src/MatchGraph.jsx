@@ -150,7 +150,7 @@ export default function MatchGraph() {
                 <span style={{ display: "inline-flex", alignItems: "center", gap: "0.75rem", marginLeft: "auto", color: "#666" }}>
                     <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
                         <span style={{ width: 11, height: 11, background: COLORS.MatchCluster, border: "1px solid #888", borderRadius: 2, display: "inline-block" }} />
-                        Organisation
+                        Funding opportunity
                     </span>
                     <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
                         <span style={{ width: 11, height: 11, background: SERVICE_COLOR, border: "1px solid #888", borderRadius: 2, display: "inline-block" }} />

@@ -106,7 +106,7 @@ function OrgCombobox({ orgs, value, onChange, disabled }) {
                 type="text"
                 disabled={disabled}
                 value={open ? filter : (selected?.name || selected?.id || "")}
-                placeholder={disabled ? "" : "Pick organisation…"}
+                placeholder={disabled ? "" : "Pick funding opportunity…"}
                 onChange={(e) => { setFilter(e.target.value); if (!open) setOpen(true) }}
                 onFocus={() => { setFilter(""); setOpen(true) }}
                 style={{
