@@ -1,0 +1,26 @@
+# EU Funding & Tenders Portal (SEDIA): the fetcher writes the results[] array as
+# one JSON file, so this runs once over all topics. Facade-x shape per result:
+#   xyz:reference (literal id), xyz:summary (plain title text),
+#   xyz:metadata → { xyz:title [rdf:_1 …] , xyz:descriptionByte [rdf:_1 <html>] }.
+# The top-level xyz:title is usually xyz:null, so the title comes from
+# metadata.title (falling back to summary). descriptionByte is HTML — clean emits
+# it raw; the :via transform node (src/transforms/euportal-text.sparql) strips it.
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?prog cdp:fromSource cdp:euportalSource ;
+          xyz:title       ?title ;
+          xyz:description  ?descRaw .
+} WHERE {
+    ?res xyz:reference ?ref .
+    BIND(IRI(CONCAT(STR(cdp:), "eu-", ENCODE_FOR_URI(STR(?ref)))) AS ?prog)
+
+    OPTIONAL { ?res xyz:metadata/xyz:title/rdf:_1 ?metaTitle }
+    OPTIONAL { ?res xyz:summary ?summary }
+    BIND(COALESCE(?metaTitle, ?summary) AS ?title)
+
+    OPTIONAL { ?res xyz:metadata/xyz:descriptionByte/rdf:_1 ?descRaw }
+}

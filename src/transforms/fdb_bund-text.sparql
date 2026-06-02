@@ -1,0 +1,29 @@
+# Förderdatenbank Bund value transform (runs in the map step via :via). The clean
+# step left gsb:title / gsb:teaserText as their raw CDATA-wrapped HTML; here we
+# strip the CDATA markers and tags down to plain text and map to the target
+# schema. Both fields of this source need stripping, so this transform also sets
+# the rdf:type + cdp:fromSource the direct mapping would otherwise emit.
+
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?prog a schema:FundingScheme ;
+              cdp:fromSource     cdp:fdbBundSource ;
+              schema:name        ?name ;
+              schema:description ?desc .
+    }
+} WHERE {
+    GRAPH <urn:source:fdbBund> {
+        ?prog cdp:fromSource cdp:fdbBundSource .
+        OPTIONAL { ?prog xyz:title       ?titleRaw }
+        OPTIONAL { ?prog xyz:description ?descRaw }
+    }
+    # CDATA markers → tags → whitespace runs (incl. NBSP  ) → trim.
+    BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?titleRaw),
+        "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?name)
+    BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?descRaw),
+        "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?desc)
+}

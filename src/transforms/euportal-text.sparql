@@ -1,0 +1,24 @@
+# EU Funding & Tenders Portal value transform (runs in the map step via :via).
+# metadata.descriptionByte is HTML (with &amp; / &lt; / &gt; entities); clean left
+# it raw. Here we strip tags, decode the few common entities, collapse whitespace
+# and map to schema:description. The title is plain text already, so it is mapped
+# directly (which is what sets this record's rdf:type + cdp:fromSource).
+
+PREFIX xyz:    <http://sparql.xyz/facade-x/data/>
+PREFIX schema: <http://schema.org/>
+PREFIX cdp:    <https://civic-data.de/pipeline#>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?prog cdp:fromSource     cdp:euportalSource ;
+              schema:description ?desc .
+    }
+} WHERE {
+    GRAPH <urn:source:euportal> {
+        ?prog cdp:fromSource cdp:euportalSource ;
+              xyz:description ?descRaw .
+    }
+    # tags → entities → whitespace runs → trim.
+    BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(STR(?descRaw),
+        "<[^>]*>", " "), "&amp;", "&"), "&lt;", "<"), "&gt;", ">"), "[ \\s]+", " "), "^ +| +$", "") AS ?desc)
+}

@@ -1,0 +1,34 @@
+# DSEE Förderdatenbank publishes one HTML detail page per programme, so this runs
+# once per lifted page. Facade-x (html lift) shape: elements are xhtml: typed,
+# class is xhtml:class, text is html:innerText. The title is the
+# <h1 class="col-span-2 …">; the lead description is the first child <div> of the
+# <div class="prose …"> block; the <link rel="canonical"> carries the slug.
+# innerText is already plain text here, so no value transform is needed — clean
+# emits the final values directly (the map does a direct field mapping).
+
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
+PREFIX html:  <https://html.spec.whatwg.org/#>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX cdp:   <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?prog cdp:fromSource cdp:dseeSource ;
+          xyz:title       ?title ;
+          xyz:description  ?desc .
+} WHERE {
+    ?link a xhtml:link ; xhtml:rel "canonical" ; xhtml:href ?url .
+    FILTER(CONTAINS(STR(?url), "/foerderprogramme/"))
+    BIND(REPLACE(REPLACE(STR(?url), "^.*/foerderprogramme/", ""), "/$", "") AS ?slug)
+    BIND(IRI(CONCAT(STR(cdp:), "dsee-", ?slug)) AS ?prog)
+
+    ?h1 a xhtml:h1 ; xhtml:class ?h1Class ; html:innerText ?title .
+    FILTER(CONTAINS(?h1Class, "col-span-2"))
+
+    OPTIONAL {
+        ?prose a xhtml:div ; xhtml:class ?proseClass .
+        FILTER(CONTAINS(?proseClass, "prose") && CONTAINS(?proseClass, "mb-8"))
+        ?prose rdf:_1 ?lead .
+        ?lead html:innerText ?desc .
+    }
+}

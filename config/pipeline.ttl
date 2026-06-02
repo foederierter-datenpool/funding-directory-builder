@@ -5,119 +5,122 @@
 # Execution order is derived from p-plan:isPrecededBy via topological sort
 
 :pipeline a p-plan:Plan ;
-    rdfs:label "Directory Federation Pipeline" ;
-    :ingestLog "data/ingest/ingest-log.ttl" ;
-    :plz       "10115", "10365", "10963", "10969" .
+    rdfs:label "Funding Directory Federation Pipeline" ;
+    :ingestLog "data/ingest/ingest-log.ttl" .
 
 # ---- Fetch -------------------------------------------------------------
 
-:fetchCaritas a :Fetch, p-plan:Step ;
-    :fromSource :caritasSource ;
-    :fetchUrl   "https://www.caritas.de/Api/search/searchbyquery" ;
-    :format     "json" ;
-    :script     "src/fetchers/caritas.js" ;
-    :outputDir  "data/ingest/raw/caritas/" .
+:fetchFdbBund a :Fetch, p-plan:Step ;
+    :fromSource   :fdbBundSource ;
+    :format       "xml" ;
+    :staticSource "static-sources/fdb_bund/" ;
+    :script       "src/fetchers/fdb_bund.js" ;
+    :limit        50 ;
+    :outputDir    "data/ingest/raw/fdb_bund/" .
 
-:fetchSozialplattform a :Fetch, p-plan:Step ;
-    :fromSource :sozialplattformSource ;
-    :fetchUrl   "https://sozialplattform.de/content/de/api/v1/consultation/search" ;
-    :format     "json" ;
-    :script     "src/fetchers/sozialplattform.js" ;
-    :outputDir  "data/ingest/raw/sozialplattform/" .
-
-:fetchDhs a :Fetch, p-plan:Step ;
-    :fromSource :dhsSource ;
-    :fetchUrl   "https://www.dhs.de/service/suchthilfeverzeichnis/" ;
+:fetchDsee a :Fetch, p-plan:Step ;
+    :fromSource :dseeSource ;
+    :fetchUrl   "https://foerderdatenbank.d-s-e-e.de" ;
     :format     "html" ;
-    :script     "src/fetchers/dhs.js" ;
-    :outputDir  "data/ingest/raw/dhs/" .
+    :script     "src/fetchers/dsee.js" ;
+    :limit      50 ;
+    :outputDir  "data/ingest/raw/dsee/" .
 
-:fetchAwo a :Fetch, p-plan:Step ;
-    :fromSource   :awoSource ;
-    :format       "json" ;
-    :staticSource "static-sources/awo/" ;
-    :script       "src/fetchers/awo.js" ;
-    :outputDir    "data/ingest/raw/awo/" .
+:fetchEuportal a :Fetch, p-plan:Step ;
+    :fromSource :euportalSource ;
+    :fetchUrl   "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
+    :format     "json" ;
+    :script     "src/fetchers/euportal.js" ;
+    :limit      50 ;
+    :outputDir  "data/ingest/raw/euportal/" .
+
+:fetchFoerderfinder a :Fetch, p-plan:Step ;
+    :fromSource :foerderfinderSource ;
+    :fetchUrl   "https://foerderfinder.digital/bayern/suche/apicall" ;
+    :format     "json" ;
+    :script     "src/fetchers/foerderfinder.js" ;
+    :limit      50 ;
+    :outputDir  "data/ingest/raw/foerderfinder/" .
 
 # ---- Lift --------------------------------------------------------------
 
-:liftCaritas a :Lift, p-plan:Step ;
-    p-plan:isPrecededBy :fetchCaritas ;
-    :liftQuery "src/lift/json.sparql" ;
-    :inputDir  "data/ingest/raw/caritas/" ;
-    :outputDir "data/ingest/lifted/caritas/" .
+:liftFdbBund a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchFdbBund ;
+    :liftQuery "src/lift/xml.sparql" ;
+    :inputDir  "data/ingest/raw/fdb_bund/" ;
+    :outputDir "data/ingest/lifted/fdb_bund/" .
 
-:liftSozialplattform a :Lift, p-plan:Step ;
-    p-plan:isPrecededBy :fetchSozialplattform ;
-    :liftQuery "src/lift/json.sparql" ;
-    :inputDir  "data/ingest/raw/sozialplattform/" ;
-    :outputDir "data/ingest/lifted/sozialplattform/" .
-
-:liftDhs a :Lift, p-plan:Step ;
-    p-plan:isPrecededBy :fetchDhs ;
+:liftDsee a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchDsee ;
     :liftQuery "src/lift/html.sparql" ;
     :param     [ :name "selector" ; :value "html" ] ;
-    :inputDir  "data/ingest/raw/dhs/" ;
-    :outputDir "data/ingest/lifted/dhs/" .
+    :inputDir  "data/ingest/raw/dsee/" ;
+    :outputDir "data/ingest/lifted/dsee/" .
 
-:liftAwo a :Lift, p-plan:Step ;
-    p-plan:isPrecededBy :fetchAwo ;
+:liftEuportal a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchEuportal ;
     :liftQuery "src/lift/json.sparql" ;
-    :inputDir  "data/ingest/raw/awo/" ;
-    :outputDir "data/ingest/lifted/awo/" .
+    :inputDir  "data/ingest/raw/euportal/" ;
+    :outputDir "data/ingest/lifted/euportal/" .
+
+:liftFoerderfinder a :Lift, p-plan:Step ;
+    p-plan:isPrecededBy :fetchFoerderfinder ;
+    :liftQuery "src/lift/json.sparql" ;
+    :inputDir  "data/ingest/raw/foerderfinder/" ;
+    :outputDir "data/ingest/lifted/foerderfinder/" .
 
 # ---- Clean -------------------------------------------------------------
 
-:cleanCaritas a :Clean, p-plan:Step ;
-    p-plan:isPrecededBy :liftCaritas ;
-    :cleanQuery "src/clean/caritas.sparql" ;
-    :inputDir   "data/ingest/lifted/caritas/" ;
-    :output     "data/pipeline/cleaned/caritas.ttl" .
+:cleanFdbBund a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftFdbBund ;
+    :cleanQuery "src/clean/fdb_bund.sparql" ;
+    :inputDir   "data/ingest/lifted/fdb_bund/" ;
+    :output     "data/pipeline/cleaned/fdbBund.ttl" .
 
-:cleanSozialplattform a :Clean, p-plan:Step ;
-    p-plan:isPrecededBy :liftSozialplattform ;
-    :cleanQuery "src/clean/sozialplattform.sparql" ;
-    :inputDir   "data/ingest/lifted/sozialplattform/" ;
-    :output     "data/pipeline/cleaned/sozialplattform.ttl" .
+:cleanDsee a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftDsee ;
+    :cleanQuery "src/clean/dsee.sparql" ;
+    :inputDir   "data/ingest/lifted/dsee/" ;
+    :output     "data/pipeline/cleaned/dsee.ttl" .
 
-:cleanDhs a :Clean, p-plan:Step ;
-    p-plan:isPrecededBy :liftDhs ;
-    :cleanQuery "src/clean/dhs.sparql" ;
-    :inputDir   "data/ingest/lifted/dhs/" ;
-    :output     "data/pipeline/cleaned/dhs.ttl" .
+:cleanEuportal a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftEuportal ;
+    :cleanQuery "src/clean/euportal.sparql" ;
+    :inputDir   "data/ingest/lifted/euportal/" ;
+    :output     "data/pipeline/cleaned/euportal.ttl" .
 
-:cleanAwo a :Clean, p-plan:Step ;
-    p-plan:isPrecededBy :liftAwo ;
-    :cleanQuery "src/clean/awo.sparql" ;
-    :inputDir   "data/ingest/lifted/awo/" ;
-    :output     "data/pipeline/cleaned/awo.ttl" .
+:cleanFoerderfinder a :Clean, p-plan:Step ;
+    p-plan:isPrecededBy :liftFoerderfinder ;
+    :cleanQuery "src/clean/foerderfinder.sparql" ;
+    :inputDir   "data/ingest/lifted/foerderfinder/" ;
+    :output     "data/pipeline/cleaned/foerderfinder.ttl" .
 
 # ---- Load --------------------------------------------------------------
 
-:loadCaritas a :Load, p-plan:Step ;
-    p-plan:isPrecededBy :cleanCaritas ;
-    :input "data/pipeline/cleaned/caritas.ttl" ;
-    :graph "urn:source:caritas" .
+:loadFdbBund a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanFdbBund ;
+    :input "data/pipeline/cleaned/fdbBund.ttl" ;
+    :graph "urn:source:fdbBund" .
 
-:loadSozialplattform a :Load, p-plan:Step ;
-    p-plan:isPrecededBy :cleanSozialplattform ;
-    :input "data/pipeline/cleaned/sozialplattform.ttl" ;
-    :graph "urn:source:sozialplattform" .
+:loadDsee a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanDsee ;
+    :input "data/pipeline/cleaned/dsee.ttl" ;
+    :graph "urn:source:dsee" .
 
-:loadDhs a :Load, p-plan:Step ;
-    p-plan:isPrecededBy :cleanDhs ;
-    :input "data/pipeline/cleaned/dhs.ttl" ;
-    :graph "urn:source:dhs" .
+:loadEuportal a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanEuportal ;
+    :input "data/pipeline/cleaned/euportal.ttl" ;
+    :graph "urn:source:euportal" .
 
-:loadAwo a :Load, p-plan:Step ;
-    p-plan:isPrecededBy :cleanAwo ;
-    :input "data/pipeline/cleaned/awo.ttl" ;
-    :graph "urn:source:awo" .
+:loadFoerderfinder a :Load, p-plan:Step ;
+    p-plan:isPrecededBy :cleanFoerderfinder ;
+    :input "data/pipeline/cleaned/foerderfinder.ttl" ;
+    :graph "urn:source:foerderfinder" .
 
 # ---- Map ---------------------------------------------------------------
 
 :mapStep a :Map, p-plan:Step ;
-    p-plan:isPrecededBy :loadCaritas, :loadSozialplattform, :loadDhs, :loadAwo ;
+    p-plan:isPrecededBy :loadFdbBund, :loadDsee, :loadEuportal, :loadFoerderfinder ;
     :output               "data/pipeline/mapped.ttl" ;
     :directMappingQueries "data/pipeline/direct-mapping-queries/" .
 

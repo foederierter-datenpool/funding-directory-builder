@@ -2,317 +2,117 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix dct:    <http://purl.org/dc/terms/> .
-@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix prov:   <http://www.w3.org/ns/prov#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 
 # ---- Federation ---------------------------------------------------------
 
 :federation a :Federation ;
-    :hasSource       :caritasSource, :sozialplattformSource, :dhsSource, :awoSource ;
-    :hasTargetSchema :organizationSchema, :serviceSchema ;
-    :hasMatchRule    :orgMatch, :serviceMatch ;
+    :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
+    :hasTargetSchema :fundingOpportunitySchema ;
+    :hasMatchRule    :fundingMatch ;
     :hasMergeRule    :merge ;
     :hasResolveRule  :resolve .
 
-# ---- Target schemas -----------------------------------------------------
+# ---- Target schema ------------------------------------------------------
 
-:organizationSchema a :TargetSchema ;
-    :targetClass schema:Organization ;
-    :hasTargetField :t-identifier, :t-name, :t-alternateName, :t-description,
-                    :t-streetAddress, :t-postalCode, :t-locality, :t-country, :t-areaServed,
-                    :t-telephone, :t-email, :t-homepage, :t-detailUrl,
-                    :t-category, :t-availableService, :t-audience, :t-accessibilitySummary,
-                    :t-openingHours, :t-parentOrganization,
-                    :t-harvestedAt, :t-sourceCreated, :t-sourceModified, :t-sourceReviewed .
+# A funding opportunity (Förderprogramm / call / topic). schema:FundingScheme is
+# the closest schema.org class. First version is deliberately minimal — title and
+# description only; eligibility / money / deadlines come later.
+:fundingOpportunitySchema a :TargetSchema ;
+    :targetClass schema:FundingScheme ;
+    :hasTargetField :t-name, :t-description .
 
-:serviceSchema a :TargetSchema ;
-    :targetClass schema:Service ;
-    :hasTargetField :t-identifier, :t-name, :t-category, :t-codeValue, :t-areaServed, :t-provider .
-
-:t-identifier           a :TargetField ; :targetPredicate schema:identifier .
-:t-name                 a :TargetField ; :targetPredicate schema:name .
-:t-alternateName        a :TargetField ; :targetPredicate schema:alternateName .
-:t-description          a :TargetField ; :targetPredicate schema:description .
-
-:t-streetAddress        a :TargetField ; :targetPredicate schema:streetAddress .
-:t-postalCode           a :TargetField ; :targetPredicate schema:postalCode .
-:t-locality             a :TargetField ; :targetPredicate schema:addressLocality .
-:t-country              a :TargetField ; :targetPredicate schema:addressCountry .
-:t-areaServed           a :TargetField ; :targetPredicate schema:areaServed .
-
-:t-telephone            a :TargetField ; :targetPredicate schema:telephone .
-:t-email                a :TargetField ; :targetPredicate schema:email .
-:t-homepage             a :TargetField ; :targetPredicate foaf:homepage .
-:t-detailUrl            a :TargetField ; :targetPredicate schema:mainEntityOfPage .
-
-:t-category             a :TargetField ; :targetPredicate schema:category .
-:t-availableService     a :TargetField ; :targetPredicate schema:availableService .
-:t-audience             a :TargetField ; :targetPredicate schema:audience .
-:t-accessibilitySummary a :TargetField ; :targetPredicate schema:accessibilitySummary .
-:t-openingHours         a :TargetField ; :targetPredicate schema:openingHours .
-:t-parentOrganization   a :TargetField ; :targetPredicate schema:parentOrganization .
-:t-provider             a :TargetField ; :targetPredicate schema:provider .
-:t-codeValue            a :TargetField ; :targetPredicate schema:codeValue .
-
-# Temporal fields, all unmapped for now. :t-harvestedAt would carry a
-# pipeline-side timestamp; the :t-source* trio invites sources to start
-# emitting their own create / modify / last-checked timestamps as part of
-# their data-audit processes.
-:t-harvestedAt          a :TargetField ; :targetPredicate prov:generatedAtTime .
-:t-sourceCreated        a :TargetField ; :targetPredicate dct:created .
-:t-sourceModified       a :TargetField ; :targetPredicate dct:modified .
-:t-sourceReviewed       a :TargetField ; :targetPredicate schema:lastReviewed .
+:t-name        a :TargetField ; :targetPredicate schema:name .
+:t-description a :TargetField ; :targetPredicate schema:description .
 
 # ---- Sources ------------------------------------------------------------
 
-:caritasSource a :Source ;
-    rdfs:label    "Caritas" ;
-    skos:notation "ca" ;
-    :hasField   :caritas-Categories, :caritas-ContentType, :caritas-ContentTypeGuid, :caritas-Date, :caritas-Distance,
-                :caritas-Format, :caritas-Guid, :caritas-Index, :caritas-LeadLine, :caritas-Link,
-                :caritas-OnlineConsultingUrl, :caritas-SearchResultHtml, :caritas-SubTitle, :caritas-Teaser,
-                :caritas-Title, :caritas-ViewType .
+# Each source's clean step emits xyz:title + xyz:description (see src/clean/*),
+# so every source field path is "title" / "description".
 
-:caritas-Categories          a :SourceField ; :fieldPath "Categories"          .
-:caritas-ContentType         a :SourceField ; :fieldPath "ContentType"         .
-:caritas-ContentTypeGuid     a :SourceField ; :fieldPath "ContentTypeGuid"     .
-:caritas-Date                a :SourceField ; :fieldPath "Date"                .
-:caritas-Distance            a :SourceField ; :fieldPath "Distance"            .
-:caritas-Format              a :SourceField ; :fieldPath "Format"              .
-:caritas-Guid                a :SourceField ; :fieldPath "Guid"                .
-:caritas-Index               a :SourceField ; :fieldPath "Index"               .
-:caritas-LeadLine            a :SourceField ; :fieldPath "LeadLine"            .
-:caritas-Link                a :SourceField ; :fieldPath "Link"                .
-:caritas-OnlineConsultingUrl a :SourceField ; :fieldPath "OnlineConsultingUrl" .
-:caritas-SearchResultHtml    a :SourceField ; :fieldPath "SearchResultHtml"    .
-:caritas-SubTitle            a :SourceField ; :fieldPath "SubTitle"            .
-:caritas-Teaser              a :SourceField ; :fieldPath "Teaser"              .
-:caritas-Title               a :SourceField ; :fieldPath "Title"               .
-:caritas-ViewType            a :SourceField ; :fieldPath "ViewType"            .
+:fdbBundSource a :Source ;
+    rdfs:label    "Förderdatenbank Bund" ;
+    skos:notation "fdb" ;
+    :hasField     :fdb-title, :fdb-description .
+:fdb-title       a :SourceField ; :fieldPath "title" .
+:fdb-description a :SourceField ; :fieldPath "description" .
 
-# -------------------------------------------------------------------------
+:dseeSource a :Source ;
+    rdfs:label    "Förderdatenbank DSEE" ;
+    skos:notation "dsee" ;
+    :hasField     :dsee-title, :dsee-description .
+:dsee-title       a :SourceField ; :fieldPath "title" .
+:dsee-description a :SourceField ; :fieldPath "description" .
 
-:sozialplattformSource a :Source ;
-    rdfs:label    "Sozialplattform" ;
-    skos:notation "sp" ;
-    :hasField   :sp-offer_chat_topic, :sp-offer_external_id_booking, :sp-offer_external_service_booking,
-                :sp-offer_external_service_consulting, :sp-offer_external_service_link_text,
-                :sp-offer_external_service_link_url, :sp-offer_external_service_type, :sp-offer_id, :sp-offer_nid,
-                :sp-offer_service_area, :sp-offer_title, :sp-offer_type, :sp-office_address, :sp-office_address_short,
-                :sp-office_email, :sp-office_external_id_booking, :sp-office_external_id_consulting,
-                :sp-office_external_service_booking, :sp-office_external_service_consulting,
-                :sp-office_external_service_type, :sp-office_opening_hours, :sp-office_opening_hours_notes,
-                :sp-office_phone, :sp-office_title, :sp-search_score .
+:euportalSource a :Source ;
+    rdfs:label    "EU Funding & Tenders Portal" ;
+    skos:notation "eu" ;
+    :hasField     :eu-title, :eu-description .
+:eu-title       a :SourceField ; :fieldPath "title" .
+:eu-description a :SourceField ; :fieldPath "description" .
 
-:sp-offer_chat_topic                   a :SourceField ; :fieldPath "offer_chat_topic"                   .
-:sp-offer_external_id_booking          a :SourceField ; :fieldPath "offer_external_id_booking"          .
-:sp-offer_external_service_booking     a :SourceField ; :fieldPath "offer_external_service_booking"     .
-:sp-offer_external_service_consulting  a :SourceField ; :fieldPath "offer_external_service_consulting"  .
-:sp-offer_external_service_link_text   a :SourceField ; :fieldPath "offer_external_service_link_text"   .
-:sp-offer_external_service_link_url    a :SourceField ; :fieldPath "offer_external_service_link_url"    .
-:sp-offer_external_service_type        a :SourceField ; :fieldPath "offer_external_service_type"        .
-:sp-offer_id                           a :SourceField ; :fieldPath "offer_id"                           .
-:sp-offer_nid                          a :SourceField ; :fieldPath "offer_nid"                          .
-:sp-offer_service_area                 a :SourceField ; :fieldPath "offer_service_area"                 .
-:sp-offer_title                        a :SourceField ; :fieldPath "offer_title"                        .
-:sp-offer_type                         a :SourceField ; :fieldPath "offer_type"                         .
-:sp-office_address                     a :SourceField ; :fieldPath "office_address" ;
-    :hasSubField :sp-office_address-address_line1, :sp-office_address-address_line3, :sp-office_address-country_code,
-                 :sp-office_address-langcode, :sp-office_address-locality, :sp-office_address-postal_code .
+:foerderfinderSource a :Source ;
+    rdfs:label    "Förderfinder Bayern" ;
+    skos:notation "ff" ;
+    :hasField     :ff-title, :ff-description .
+:ff-title       a :SourceField ; :fieldPath "title" .
+:ff-description a :SourceField ; :fieldPath "description" .
 
-:sp-office_address-address_line1 a :SubField ; :fieldPath "address_line1" .
-:sp-office_address-address_line3 a :SubField ; :fieldPath "address_line3" .
-:sp-office_address-country_code  a :SubField ; :fieldPath "country_code"  .
-:sp-office_address-langcode      a :SubField ; :fieldPath "langcode"      .
-:sp-office_address-locality      a :SubField ; :fieldPath "locality"      .
-:sp-office_address-postal_code   a :SubField ; :fieldPath "postal_code"   .
+# ---- Transform nodes ----------------------------------------------------
 
-:sp-office_address_short               a :SourceField ; :fieldPath "office_address_short"               .
-:sp-office_email                       a :SourceField ; :fieldPath "office_email"                       .
-:sp-office_external_id_booking         a :SourceField ; :fieldPath "office_external_id_booking"         .
-:sp-office_external_id_consulting      a :SourceField ; :fieldPath "office_external_id_consulting"      .
-:sp-office_external_service_booking    a :SourceField ; :fieldPath "office_external_service_booking"    .
-:sp-office_external_service_consulting a :SourceField ; :fieldPath "office_external_service_consulting" .
-:sp-office_external_service_type       a :SourceField ; :fieldPath "office_external_service_type"       .
-:sp-office_opening_hours               a :SourceField ; :fieldPath "office_opening_hours"               .
-:sp-office_opening_hours_notes         a :SourceField ; :fieldPath "office_opening_hours_notes"         .
-:sp-office_phone                       a :SourceField ; :fieldPath "office_phone"                       .
-:sp-office_title                       a :SourceField ; :fieldPath "office_title"                       .
-:sp-search_score                       a :SourceField ; :fieldPath "search_score"                       .
-
-# -------------------------------------------------------------------------
-
-:dhsSource a :Source ;
-    rdfs:label    "Deutsche Hauptstelle für Suchtfragen (DHS)" ;
-    skos:notation "dhs" ;
-    :hasField   :dhs-angebote, :dhs-arbeit, :dhs-art, :dhs-barrierefrei, :dhs-department, :dhs-detailLink, :dhs-email,
-                :dhs-entryId, :dhs-name, :dhs-plzort, :dhs-strasse, :dhs-telefon, :dhs-traeger, :dhs-website,
-                :dhs-zeiten, :dhs-zielgruppe .
-
-:dhs-angebote     a :SourceField ; :fieldPath "angebote"     .
-:dhs-arbeit       a :SourceField ; :fieldPath "arbeit"       .
-:dhs-art          a :SourceField ; :fieldPath "art"          .
-:dhs-barrierefrei a :SourceField ; :fieldPath "barrierefrei" .
-:dhs-department   a :SourceField ; :fieldPath "department"   .
-:dhs-detailLink   a :SourceField ; :fieldPath "detailLink"   .
-:dhs-email        a :SourceField ; :fieldPath "email"        .
-:dhs-entryId      a :SourceField ; :fieldPath "entryId"      .
-:dhs-name         a :SourceField ; :fieldPath "name"         .
-:dhs-plzort       a :SourceField ; :fieldPath "plzort"       .
-:dhs-strasse      a :SourceField ; :fieldPath "strasse"      .
-:dhs-telefon      a :SourceField ; :fieldPath "telefon"      .
-:dhs-traeger      a :SourceField ; :fieldPath "traeger"      .
-:dhs-website      a :SourceField ; :fieldPath "website"      .
-:dhs-zeiten       a :SourceField ; :fieldPath "zeiten"       .
-:dhs-zielgruppe   a :SourceField ; :fieldPath "zielgruppe"   .
-
-# -------------------------------------------------------------------------
-
-:awoSource a :Source ;
-    rdfs:label    "Arbeiterwohlfahrt (AWO)" ;
-    skos:notation "awo" ;
-    :hasField   :awo-id, :awo-name, :awo-name_zusatz, :awo-webseite, :awo-parent_name,
-                :awo-adresse, :awo-plz, :awo-ort, :awo-ortsteil, :awo-category,
-                :awo-svc-id, :awo-svc-bagfw, :awo-svc-area .
-
-:awo-id          a :SourceField ; :fieldPath "id"          .
-:awo-name        a :SourceField ; :fieldPath "name"        .
-:awo-name_zusatz a :SourceField ; :fieldPath "name_zusatz" .
-:awo-webseite    a :SourceField ; :fieldPath "webseite"    .
-:awo-parent_name a :SourceField ; :fieldPath "parent_name" .
-:awo-adresse     a :SourceField ; :fieldPath "adresse"     .
-:awo-plz         a :SourceField ; :fieldPath "plz"         .
-:awo-ort         a :SourceField ; :fieldPath "ort"         .
-:awo-ortsteil    a :SourceField ; :fieldPath "ortsteil"    .
-:awo-category    a :SourceField ; :fieldPath "category"    .
-
-# Service-side source fields — one schema:Service per services[] element.
-:awo-svc-id    a :SourceField ; :fieldPath "id"          .
-:awo-svc-area  a :SourceField ; :fieldPath "area_served" .
-:awo-svc-bagfw a :SourceField ; :fieldPath "bagfw_category" ;
-    :hasSubField :awo-svc-bagfw-nummer, :awo-svc-bagfw-name .
-:awo-svc-bagfw-nummer a :SubField ; :fieldPath "nummer" .
-:awo-svc-bagfw-name   a :SubField ; :fieldPath "name" .
-
-# ---- Transform nodes --------------------------------------------
-
-:caritasAddressNode a :TransformNode ; :script "src/transforms/caritas-address.sparql" .
-:dhsAddressNode     a :TransformNode ; :script "src/transforms/dhs-address.sparql" .
-:dhsContactNode     a :TransformNode ; :script "src/transforms/dhs-contact.sparql" .
+# HTML / CDATA → plain text. The clean step does structural extraction and leaves
+# rich-text values raw; these transforms turn them into plain text during map.
+:fdbTextNode a :TransformNode ; :script "src/transforms/fdb_bund-text.sparql" .
+:euTextNode  a :TransformNode ; :script "src/transforms/euportal-text.sparql" .
 
 # ---- Mappings -----------------------------------------------------------
 
-:caritas-mapping a :Mapping ;
-    :fromSource    :caritasSource ;
-    :toTarget      :organizationSchema ;
-    :sourceGraph   <urn:source:caritas> ;
+# Bund: both gsb:title and gsb:teaserText are CDATA-wrapped HTML, so both fields
+# go through the transform node (which also sets rdf:type + cdp:fromSource).
+:fdb-mapping a :Mapping ;
+    :fromSource  :fdbBundSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :sourceGraph <urn:source:fdbBund> ;
     :hasFieldMapping
-        [ :from :caritas-Guid     ; :to :t-identifier                                                     ] ,
-        [ :from :caritas-Title    ; :to :t-name                                                           ] ,
-        [ :from :caritas-SubTitle ; :to :t-alternateName                                                  ] ,
-        [ :from :caritas-LeadLine ; :to :t-category                                                       ] ,
-        [ :from :caritas-Link     ; :to :t-detailUrl                                                      ] ,
-        [ :from :caritas-Teaser   ; :to :t-streetAddress, :t-postalCode, :t-locality ;
-                                    :via :caritasAddressNode                                              ] .
+        [ :from :fdb-title       ; :to :t-name        ; :via :fdbTextNode ] ,
+        [ :from :fdb-description ; :to :t-description ; :via :fdbTextNode ] .
 
-# Sozialplattform is offer-first: the clean step splits each row into an office
-# org + an offer service (see sozialplattform.sparql), so it has two mappings.
-:sp-org-mapping a :Mapping ;
-    :fromSource    :sozialplattformSource ;
-    :toTarget      :organizationSchema ;
-    :sourceGraph   <urn:source:sozialplattform> ;
+# DSEE: html:innerText is already plain text → direct mapping.
+:dsee-mapping a :Mapping ;
+    :fromSource  :dseeSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :sourceGraph <urn:source:dsee> ;
     :hasFieldMapping
-        [ :from :sp-office_title                 ; :to :t-name         ] ,
-        [ :from :sp-office_opening_hours         ; :to :t-openingHours  ] ,
-        [ :from :sp-office_opening_hours_notes   ; :to :t-openingHours  ] ,
-        [ :from :sp-office_address-address_line1 ; :to :t-streetAddress ] ,
-        [ :from :sp-office_address-postal_code   ; :to :t-postalCode    ] ,
-        [ :from :sp-office_address-locality      ; :to :t-locality      ] ,
-        [ :from :sp-office_address-country_code  ; :to :t-country       ] ,
-        [ :from :sp-office_phone                 ; :to :t-telephone     ] ,
-        [ :from :sp-office_email                 ; :to :t-email         ] .
+        [ :from :dsee-title       ; :to :t-name        ] ,
+        [ :from :dsee-description ; :to :t-description ] .
 
-:sp-service-mapping a :Mapping ;
-    :fromSource    :sozialplattformSource ;
-    :toTarget      :serviceSchema ;
-    :sourceGraph   <urn:source:sozialplattform> ;
+# EU: title (metadata.title) is plain → direct; descriptionByte is HTML → transform.
+:eu-mapping a :Mapping ;
+    :fromSource  :euportalSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :sourceGraph <urn:source:euportal> ;
     :hasFieldMapping
-        [ :from :sp-offer_id                        ; :to :t-identifier ] ,
-        [ :from :sp-offer_title                     ; :to :t-name       ] ,
-        [ :from :sp-offer_type                      ; :to :t-category   ] ,
-        [ :from :sp-offer_chat_topic                ; :to :t-audience   ] ,
-        [ :from :sp-offer_service_area              ; :to :t-areaServed ] ,
-        [ :from :sp-offer_external_service_link_url ; :to :t-detailUrl  ] ;
-    :hasRelationship
-        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :organizationSchema ] .
+        [ :from :eu-title       ; :to :t-name        ] ,
+        [ :from :eu-description ; :to :t-description ; :via :euTextNode ] .
 
-:dhs-mapping a :Mapping ;
-    :fromSource    :dhsSource ;
-    :toTarget      :organizationSchema ;
-    :sourceGraph   <urn:source:dhs> ;
+# Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
+:foerderfinder-mapping a :Mapping ;
+    :fromSource  :foerderfinderSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :sourceGraph <urn:source:foerderfinder> ;
     :hasFieldMapping
-        [ :from :dhs-entryId      ; :to :t-identifier                                              ] ,
-        [ :from :dhs-name         ; :to :t-name                                                    ] ,
-        [ :from :dhs-department   ; :to :t-alternateName                                           ] ,
-        [ :from :dhs-detailLink   ; :to :t-detailUrl                                               ] ,
-        [ :from :dhs-website      ; :to :t-homepage                                                ] ,
-        [ :from :dhs-art          ; :to :t-category                                                ] ,
-        [ :from :dhs-angebote     ; :to :t-availableService                                        ] ,
-        [ :from :dhs-arbeit       ; :to :t-availableService                                        ] ,
-        [ :from :dhs-zielgruppe   ; :to :t-audience                                                ] ,
-        [ :from :dhs-zeiten       ; :to :t-openingHours                                            ] ,
-        [ :from :dhs-barrierefrei ; :to :t-accessibilitySummary                                    ] ,
-        [ :from :dhs-traeger      ; :to :t-parentOrganization                                      ] ,
-        [ :from :dhs-strasse      ; :to :t-streetAddress           ; :via :dhsAddressNode          ] ,
-        [ :from :dhs-plzort       ; :to :t-postalCode, :t-locality ; :via :dhsAddressNode          ] ,
-        [ :from :dhs-telefon      ; :to :t-telephone               ; :via :dhsContactNode          ] ,
-        [ :from :dhs-email        ; :to :t-email                   ; :via :dhsContactNode          ] .
-
-:awo-mapping a :Mapping ;
-    :fromSource    :awoSource ;
-    :toTarget      :organizationSchema ;
-    :sourceGraph   <urn:source:awo> ;
-    :hasFieldMapping
-        [ :from :awo-id          ; :to :t-identifier         ] ,
-        [ :from :awo-name        ; :to :t-name               ] ,
-        [ :from :awo-name_zusatz ; :to :t-alternateName      ] ,
-        [ :from :awo-webseite    ; :to :t-homepage           ] ,
-        [ :from :awo-parent_name ; :to :t-parentOrganization ] ,
-        [ :from :awo-adresse     ; :to :t-streetAddress      ] ,
-        [ :from :awo-plz         ; :to :t-postalCode         ] ,
-        [ :from :awo-ort         ; :to :t-locality           ] ,
-        [ :from :awo-category    ; :to :t-category           ] .
-
-:awo-service-mapping a :Mapping ;
-    :fromSource    :awoSource ;
-    :toTarget      :serviceSchema ;
-    :sourceGraph   <urn:source:awo> ;
-    :hasFieldMapping
-        [ :from :awo-svc-id           ; :to :t-identifier ] ,
-        [ :from :awo-svc-bagfw-name   ; :to :t-category   ] ,
-        [ :from :awo-svc-bagfw-nummer ; :to :t-codeValue  ] ,
-        [ :from :awo-svc-area         ; :to :t-areaServed ] ;
-    :hasRelationship
-        [ :sourcePredicate :providedBy ; :toTargetField :t-provider ; :toTargetSchema :organizationSchema ] .
+        [ :from :ff-title       ; :to :t-name        ] ,
+        [ :from :ff-description ; :to :t-description ] .
 
 # ---- Match --------------------------------------------------------------
 
-:orgMatch a :MatchRule ;
-    :forTarget           :organizationSchema ;
+# No criteria yet: every record stays its own cluster (no cross-source merge in
+# this first version). Cross-source matching of the same programme comes later.
+:fundingMatch a :MatchRule ;
+    :forTarget           :fundingOpportunitySchema ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
-    :mintedSubjectPrefix "org-" ;
-    :matchKnowledgeGraph "config/match-knowledge.ttl" ;
-    :minScore            0.85 ;
-    :hasMatchCriterion
-        [ :on schema:name          ; :weight 0.5 ; :stripBeforeMatch :berlinBezirke ] ,
-        [ :on schema:postalCode    ; :weight 0.3 ; :minSimilarity 1.0 ] ,
-        [ :on schema:streetAddress ; :weight 0.2 ] .
-
-:serviceMatch a :MatchRule ;
-    :forTarget           :serviceSchema ;
-    :targetNamespace     "https://civic-data.de/federated-directory#" ;
-    :mintedSubjectPrefix "service-" .
+    :mintedSubjectPrefix "funding-" .
 
 # ---- Merge --------------------------------------------------------------
 
@@ -322,5 +122,4 @@
 # ---- Resolve ------------------------------------------------------------
 
 :resolve a :ResolveRule ;
-    :defaultStrategy :alphabeticFirst ;
-    :hasOverride     [ :on schema:availableService ; :strategy :concatenateAll ] .
+    :defaultStrategy :alphabeticFirst .

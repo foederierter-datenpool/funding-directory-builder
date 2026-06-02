@@ -19,12 +19,13 @@ const run = (cmd, args) => {
 const rows = await sparqlSelect(`
     PREFIX :       <https://civic-data.de/pipeline#>
     PREFIX p-plan: <http://purl.org/net/p-plan#>
-    SELECT ?step ?type ?script ?fetchUrl ?staticSource ?liftQuery ?inPath ?inDir ?outPath ?outDir ?fromSource ?paramName ?paramValue ?pred WHERE {
+    SELECT ?step ?type ?script ?fetchUrl ?staticSource ?limit ?liftQuery ?inPath ?inDir ?outPath ?outDir ?fromSource ?paramName ?paramValue ?pred WHERE {
         ?step a ?type .
         FILTER(?type IN (:Fetch, :Lift))
         OPTIONAL { ?step :script               ?script       }
         OPTIONAL { ?step :fetchUrl             ?fetchUrl     }
         OPTIONAL { ?step :staticSource         ?staticSource }
+        OPTIONAL { ?step :limit                ?limit        }
         OPTIONAL { ?step :liftQuery            ?liftQuery  }
         OPTIONAL { ?step :input                ?inPath     }
         OPTIONAL { ?step :inputDir             ?inDir      }
@@ -41,7 +42,7 @@ for (const r of rows) {
     if (!steps.has(r.step)) {
         steps.set(r.step, {
             type: r.type.split("#").pop(),
-            script: r.script, fetchUrl: r.fetchUrl, staticSource: r.staticSource, liftQuery: r.liftQuery,
+            script: r.script, fetchUrl: r.fetchUrl, staticSource: r.staticSource, limit: r.limit, liftQuery: r.liftQuery,
             inPath: r.inPath, inDir: r.inDir, outPath: r.outPath, outDir: r.outDir,
             fromSource: r.fromSource, params: [],
         })
@@ -78,10 +79,6 @@ const [{ logPath: LOG_PATH }] = await sparqlSelect(`
     PREFIX : <${NS}>
     SELECT ?logPath WHERE { :pipeline :ingestLog ?logPath }`, [defStore])
 
-const PLZS = (await sparqlSelect(`
-    PREFIX : <${NS}>
-    SELECT ?plz WHERE { :pipeline :plz ?plz } ORDER BY ?plz`, [defStore])).map(r => r.plz)
-
 const runStart = new Date()
 const harvests = []
 
@@ -93,9 +90,14 @@ for (const iri of sorted) {
         // Live sources pass their :fetchUrl; static-file sources pass the
         // absolute :staticSource dir instead. The script gets whichever applies.
         const origin = s.fetchUrl ?? (s.staticSource ? abs(s.staticSource) : "")
-        console.log(`fetch  ${s.fetchUrl ?? s.staticSource} (PLZs ${PLZS.join(", ")}) → ${s.outDir ?? s.outPath}`)
+        // :limit caps records fetched for this source (0 / absent = no cap).
+        const limit = s.limit ?? "0"
+        console.log(`fetch  ${s.fetchUrl ?? s.staticSource} (limit ${limit}) → ${s.outDir ?? s.outPath}`)
+        // Clear any prior output first, so a smaller :limit (or changed records)
+        // can't leave stale files behind — the fetch always reflects this run only.
+        if (s.outDir) fs.rmSync(outAbs, { recursive: true, force: true })
         fs.mkdirSync(path.dirname(outAbs), { recursive: true })
-        run("node", [abs(s.script), outAbs, origin, PLZS.join(",")])
+        run("node", [abs(s.script), outAbs, origin, String(limit)])
         if (s.fromSource) harvests.push({ source: s.fromSource, time: new Date().toISOString() })
 
     } else if (s.type === "Lift") {
@@ -115,6 +117,8 @@ for (const iri of sorted) {
             const inAbs = abs(s.inDir)
             const outAbs = abs(s.outDir)
             const files = fs.readdirSync(inAbs).filter(f => !f.startsWith(".")).sort()
+            // Clear stale lifted files first — the clean step reads every .ttl here.
+            fs.rmSync(outAbs, { recursive: true, force: true })
             fs.mkdirSync(outAbs, { recursive: true })
             console.log(`lift   ${s.inDir} (${files.length} files) → ${s.outDir}`)
             for (const f of files) {

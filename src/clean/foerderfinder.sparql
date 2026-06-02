@@ -1,0 +1,21 @@
+# Förderfinder Bayern: the fetcher writes the items[] array as one JSON file, so
+# this runs once over all programmes. Facade-x shape per item:
+#   xyz:id (UUID) , xyz:attributes → { xyz:titel , xyz:teaser , … }.
+# titel and teaser are already plain text (the HTML lives in attributes.
+# beschreibung, unused in v1), so clean emits the final values directly and the
+# map does a direct field mapping — no value transform needed.
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+
+CONSTRUCT {
+    ?prog cdp:fromSource cdp:foerderfinderSource ;
+          xyz:title       ?title ;
+          xyz:description  ?desc .
+} WHERE {
+    ?item xyz:id ?id ; xyz:attributes ?attr .
+    BIND(IRI(CONCAT(STR(cdp:), "ff-", STR(?id))) AS ?prog)
+
+    ?attr xyz:titel ?title .
+    OPTIONAL { ?attr xyz:teaser ?desc }
+}
