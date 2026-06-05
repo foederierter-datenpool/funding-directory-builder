@@ -8,5 +8,8 @@ package-lock.json
 data/
 tools/
 
+# built webapp (npm run webapp:build)
+/webapp/dist/
+
 # Förderdatenbank Bund raw export — 110MB, exceeds GitHub 100MB file limit (host via LFS/external)
-static-sources/fdb_bund/*.xml
+sources/fdbBund/static/*.xml

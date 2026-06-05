@@ -10,9 +10,10 @@ import fs from "fs"
 
 const OUT_DIR = process.argv[2]
 const SRC_DIR = process.argv[3]
-// process.argv[4] is :limit from pipeline.ttl (0 / absent = no cap).
+// argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
 
-const LIMIT = Number(process.argv[4]) || Infinity
+const { limit } = JSON.parse(process.argv[4] || "{}")
+const LIMIT = Number(limit?.[0]) || Infinity
 const SRC_FILE = path.join(SRC_DIR, "foerderprogramme_export.xml")
 
 const xml = fs.readFileSync(SRC_FILE, "utf8")

@@ -1,10 +1,15 @@
 {
-  "name": "directory-builder",
-  "version": "0.0.1",
+  "name": "funding-directory-builder",
+  "version": "0.1.0",
   "type": "module",
+  "scripts": {
+    "pipeline": "directory-builder",
+    "ingest": "directory-builder ingest",
+    "federate": "directory-builder federate",
+    "webapp": "directory-builder webapp",
+    "webapp:build": "directory-builder webapp build --base /funding-directory-builder/"
+  },
   "dependencies": {
-    "@foerderfunke/sem-ops-utils": "^0.5.1",
-    "fuzzball": "^2.2.6",
-    "sparqljs": "^3.7.4"
+    "@directory-builder/core": "^0.1.2"
   }
 }

@@ -1,33 +1,31 @@
-# directory-builder
-Builds a federated directory from multiple input sources.
+# funding-directory-builder
+Builds a federated directory of funding opportunities (Förderprogramme) from multiple input sources.
 
 ## How it works
+This repo is a **use case** of [`@directory-builder/core`](https://github.com/foederierter-datenpool/directory-builder-core)
+and holds no engine or webapp code — only what is specific to this federation:
 
-The logic is **declarative**. The `config/*.ttl` files hold the policy — what to map, how to weight matches, how to merge and resolve — and the code is a generic, source-agnostic engine that interprets them. Each stage then emits more declarative RDF under `data/`, which the next stage and the webapp read in turn. Adding a new source is therefore *almost* config-only.
+- **Decisions** live in `config/federation.ttl`: the sources and their facts
+  (URL, format, lift params), the target schema and field mappings, the
+  match/merge/resolve rules, run parameters, repository URL and title.
+  `config/match-knowledge.ttl` will hold curated `owl:sameAs` pairs once
+  cross-source programme matching is enabled.
+- **Per-source code** lives in `sources/<name>/`: a `fetch.js` (how to get the
+  data), a `clean.sparql` (how to reshape its lifted RDF), and
+  `transform-text.sparql` where rich-text values need flattening.
+- **Webapp material** lives in `webapp/`: the About page prose and the Query
+  page's starting query.
 
-The exceptions sit at the system's edges, where bespoke code is unavoidable: **fetchers** (`src/fetchers/*.js`, one per source) on the way in, and **exporters** (`webapp/src/exporters/*`) on the way out. The per-source `*.sparql` lift/clean queries are source-specific too, but declarative.
+Everything else is convention: every file path follows from the source names,
+so the config contains no paths at all. The engines journal each executed step
+as p-plan RDF, and the webapp renders those journals and the pipeline's
+artifacts directly — the site is a pure function of `config/` + `data/`,
+fetched at runtime.
 
-
-**The declarative core:**
-
-| File | Holds                                                                                            | Interpreted by |
-|---|--------------------------------------------------------------------------------------------------|---|
-| `config/federation.ttl` | target schema, field mappings, match criteria + weights, merge & resolve rules, per-source label | `pipeline.js` (Map/Match/Merge/Resolve); webapp (`sourceMeta.js`, OrgCard, Map, Match, Download) |
-| `config/pipeline.ttl` | step graph + order, source URLs / static dirs, file paths, graph URIs                            | `ingest.js`, `pipeline.js`; webapp (Pipeline, Sources, Map) |
-| `config/match-knowledge.ttl` | manual `owl:sameAs` pairs, stop-token lists                                                      | `pipeline.js` (Match); webapp (Match) |
-| `src/{lift,clean,transforms}/*.sparql` | how to lift raw→RDF, clean, and transform — per source                                           | `ingest.js` (Lift); `pipeline.js` (Clean, Map) |
-
-**Generated — deterministic artifacts:**
-
-| Artifact | Produced by | Holds | Consumed by |
-|---|---|---|---|
-| `data/ingest/lifted/*` | Lift | raw source data as RDF | `pipeline.js` (Clean) |
-| `data/ingest/ingest-log.ttl` | Fetch | per-source harvest timestamps | webapp (Sources, OrgCard) |
-| `data/pipeline/cleaned/*.ttl` | Clean | normalized per-source records | `pipeline.js` (Map); webapp (Map data-flow) |
-| `data/pipeline/mapped.ttl` | Map | records in the target schema + `cdp:fromSource` per record | `pipeline.js` (Match); webapp (Map, Match, Sources) |
-| `data/pipeline/matches.ttl` | Match | match clusters (`:hasMember`) | `pipeline.js` (Merge); webapp (Match) |
-| `data/pipeline/merged.ttl` + `provenance.ttl` | Merge | merged orgs + per-value source provenance (reified `cdp:fromSource`) | `pipeline.js` (Resolve); webapp (Merge, OrgCard) |
-| `data/pipeline/final.ttl` | Resolve | the consumer-facing directory | webapp (Directory, Query, Download) |
+Note: the Förderdatenbank Bund source is declared `:enabled false` — its
+~110MB XML export exceeds GitHub's file limit and isn't in the repo yet. The
+pipeline skips it and the webapp hides it until its files land under
+`sources/fdbBund/static/`.
 
 ## Prerequisites
 - Node.js
@@ -36,21 +34,22 @@ The exceptions sit at the system's edges, where bespoke code is unavoidable: **f
 ## Setup
 ```sh
 npm install
-cd webapp && npm install
 ```
 
 ## Run the pipeline
-From `src/`:
 ```sh
-node ingest.js
-node pipeline.js
+npm run pipeline   # ingest + federate
+npm run ingest     # fetch + lift only
+npm run federate   # clean → map → match → merge → resolve only
 ```
 Outputs &rarr; `data/`
 
 ## Run the webapp
-From `webapp/`:
+The webapp ships with `@directory-builder/core`; this repo holds no webapp
+code — only the prose under `webapp/` it injects at runtime.
 ```sh
-npm run dev
+npm run webapp         # dev server against this repo's config/ + data/
+npm run webapp:build   # production build → webapp/dist/
 ```
 
 ## Deployment

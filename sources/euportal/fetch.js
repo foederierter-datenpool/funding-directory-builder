@@ -10,9 +10,10 @@ import fs from "fs"
 
 const OUT_DIR = process.argv[2]
 const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/prod/rest/search"
-// process.argv[4] is :limit from pipeline.ttl (0 / absent = no cap → all topics).
+// argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
 
-const LIMIT = Number(process.argv[4]) || Infinity
+const { limit } = JSON.parse(process.argv[4] || "{}")
+const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
 const query = { bool: { must: [{ terms: { type: ["1"] } }] } }
 

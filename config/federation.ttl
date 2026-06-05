@@ -1,18 +1,21 @@
 @prefix :       <https://civic-data.de/pipeline#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix dct:    <http://purl.org/dc/terms/> .
 @prefix prov:   <http://www.w3.org/ns/prov#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
 
 # ---- Federation ---------------------------------------------------------
 
 :federation a :Federation ;
+    rdfs:label       "Federated directory of funding programmes in Germany & the EU" ;
     :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
     :hasTargetSchema :fundingOpportunitySchema ;
     :hasMatchRule    :fundingMatch ;
     :hasMergeRule    :merge ;
-    :hasResolveRule  :resolve .
+    :hasResolveRule  :resolve ;
+    :hasRunParam     [ :name "limit" ; :value "50" ] ;
+    :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
 
 # ---- Target schema ------------------------------------------------------
 
@@ -28,12 +31,12 @@
 
 # ---- Sources ------------------------------------------------------------
 
-# Each source's clean step emits xyz:title + xyz:description (see src/clean/*),
-# so every source field path is "title" / "description".
-
 :fdbBundSource a :Source ;
     rdfs:label    "Förderdatenbank Bund" ;
     skos:notation "fdb" ;
+    :enabled      false ;
+    :retrieval    "Files" ;
+    :format       ft:XML ;
     :hasField     :fdb-title, :fdb-description .
 :fdb-title       a :SourceField ; :fieldPath "title" .
 :fdb-description a :SourceField ; :fieldPath "description" .
@@ -41,6 +44,10 @@
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
     skos:notation "dsee" ;
+    :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
+    :retrieval    "Scrape" ;
+    :format       ft:HTML ;
+    :hasLiftParam [ :name "selector" ; :value "html" ] ;
     :hasField     :dsee-title, :dsee-description .
 :dsee-title       a :SourceField ; :fieldPath "title" .
 :dsee-description a :SourceField ; :fieldPath "description" .
@@ -48,6 +55,9 @@
 :euportalSource a :Source ;
     rdfs:label    "EU Funding & Tenders Portal" ;
     skos:notation "eu" ;
+    :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
     :hasField     :eu-title, :eu-description .
 :eu-title       a :SourceField ; :fieldPath "title" .
 :eu-description a :SourceField ; :fieldPath "description" .
@@ -55,28 +65,24 @@
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
     skos:notation "ff" ;
+    :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
     :hasField     :ff-title, :ff-description .
 :ff-title       a :SourceField ; :fieldPath "title" .
 :ff-description a :SourceField ; :fieldPath "description" .
 
-# ---- Transform nodes ----------------------------------------------------
-
-# HTML / CDATA → plain text. The clean step does structural extraction and leaves
-# rich-text values raw; these transforms turn them into plain text during map.
-:fdbTextNode a :TransformNode ; :script "src/transforms/fdb_bund-text.sparql" .
-:euTextNode  a :TransformNode ; :script "src/transforms/euportal-text.sparql" .
-
 # ---- Mappings -----------------------------------------------------------
 
 # Bund: both gsb:title and gsb:teaserText are CDATA-wrapped HTML, so both fields
-# go through the transform node (which also sets rdf:type + cdp:fromSource).
+# go through the text transform (which also sets rdf:type + cdp:fromSource).
 :fdb-mapping a :Mapping ;
     :fromSource  :fdbBundSource ;
     :toTarget    :fundingOpportunitySchema ;
     :sourceGraph <urn:source:fdbBund> ;
     :hasFieldMapping
-        [ :from :fdb-title       ; :to :t-name        ; :via :fdbTextNode ] ,
-        [ :from :fdb-description ; :to :t-description ; :via :fdbTextNode ] .
+        [ :from :fdb-title       ; :to :t-name        ; :via "text" ] ,
+        [ :from :fdb-description ; :to :t-description ; :via "text" ] .
 
 # DSEE: html:innerText is already plain text → direct mapping.
 :dsee-mapping a :Mapping ;
@@ -94,7 +100,7 @@
     :sourceGraph <urn:source:euportal> ;
     :hasFieldMapping
         [ :from :eu-title       ; :to :t-name        ] ,
-        [ :from :eu-description ; :to :t-description ; :via :euTextNode ] .
+        [ :from :eu-description ; :to :t-description ; :via "text" ] .
 
 # Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
 :foerderfinder-mapping a :Mapping ;
