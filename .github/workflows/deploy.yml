@@ -36,9 +36,7 @@ jobs:
                   key: sparql-anything-${{ hashFiles('package.json') }}
 
             - run: npm install
-
             - run: npm run pipeline
-
             - run: npm run webapp:build
 
             - uses: peaceiris/actions-gh-pages@v4
