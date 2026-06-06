@@ -6,10 +6,11 @@
     "pipeline": "directory-builder",
     "ingest": "directory-builder ingest",
     "federate": "directory-builder federate",
+    "validate": "directory-builder validate",
     "webapp": "directory-builder webapp",
     "webapp:build": "directory-builder webapp build --base /funding-directory-builder/"
   },
   "dependencies": {
-    "@directory-builder/core": "^0.1.2"
+    "@directory-builder/core": "^0.1.3"
   }
 }
