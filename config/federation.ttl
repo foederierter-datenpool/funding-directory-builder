@@ -1,7 +1,6 @@
 @prefix :       <https://civic-data.de/pipeline#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix prov:   <http://www.w3.org/ns/prov#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 @prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
 
@@ -12,7 +11,6 @@
     :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
     :hasTargetSchema :fundingOpportunitySchema ;
     :hasMatchRule    :fundingMatch ;
-    :hasMergeRule    :merge ;
     :hasResolveRule  :resolve ;
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
     :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
@@ -79,7 +77,6 @@
 :fdb-mapping a :Mapping ;
     :fromSource  :fdbBundSource ;
     :toTarget    :fundingOpportunitySchema ;
-    :sourceGraph <urn:source:fdbBund> ;
     :hasFieldMapping
         [ :from :fdb-title       ; :to :t-name        ; :via "text" ] ,
         [ :from :fdb-description ; :to :t-description ; :via "text" ] .
@@ -88,7 +85,6 @@
 :dsee-mapping a :Mapping ;
     :fromSource  :dseeSource ;
     :toTarget    :fundingOpportunitySchema ;
-    :sourceGraph <urn:source:dsee> ;
     :hasFieldMapping
         [ :from :dsee-title       ; :to :t-name        ] ,
         [ :from :dsee-description ; :to :t-description ] .
@@ -97,7 +93,6 @@
 :eu-mapping a :Mapping ;
     :fromSource  :euportalSource ;
     :toTarget    :fundingOpportunitySchema ;
-    :sourceGraph <urn:source:euportal> ;
     :hasFieldMapping
         [ :from :eu-title       ; :to :t-name        ] ,
         [ :from :eu-description ; :to :t-description ; :via "text" ] .
@@ -106,7 +101,6 @@
 :foerderfinder-mapping a :Mapping ;
     :fromSource  :foerderfinderSource ;
     :toTarget    :fundingOpportunitySchema ;
-    :sourceGraph <urn:source:foerderfinder> ;
     :hasFieldMapping
         [ :from :ff-title       ; :to :t-name        ] ,
         [ :from :ff-description ; :to :t-description ] .
@@ -119,11 +113,6 @@
     :forTarget           :fundingOpportunitySchema ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "funding-" .
-
-# ---- Merge --------------------------------------------------------------
-
-:merge a :MergeRule ;
-    :originPredicate prov:wasDerivedFrom .
 
 # ---- Resolve ------------------------------------------------------------
 
