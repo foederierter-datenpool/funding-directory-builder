@@ -10,8 +10,6 @@
     rdfs:label       "Federated directory of funding programmes in Germany & the EU" ;
     :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
     :hasTargetSchema :fundingOpportunitySchema ;
-    :hasMatchRule    :fundingMatch ;
-    :hasResolveRule  :resolve ;
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
     :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
 
