@@ -1,0 +1,42 @@
+# Mock sources, one container each (the federation model): every source is its
+# own service on its own port, pinned to a published per-source image.
+#
+#   docker compose pull && docker compose up   # use published ghcr images
+#   docker compose up --build                  # rebuild locally instead
+#
+# nonprofita -> JSON API   at http://localhost:8081/services
+# foundationb -> HTML pages  at http://localhost:8082/
+# acme     -> JSON API   at http://localhost:8083/offers  (duplicates of the other two)
+services:
+  nonprofita:
+    image: ghcr.io/foederierter-datenpool/mock-service-api:nonprofita
+    build:
+      context: .
+      args:
+        SOURCE: nonprofita
+        ROWS: "100000"
+    ports:
+      - "8081:8080"
+    restart: no
+
+  foundationb:
+    image: ghcr.io/foederierter-datenpool/mock-service-api:foundationb
+    build:
+      context: .
+      args:
+        SOURCE: foundationb
+        ROWS: "100000"
+    ports:
+      - "8082:8080"
+    restart: no
+
+  acme:
+    image: ghcr.io/foederierter-datenpool/mock-service-api:acme
+    build:
+      context: .
+      args:
+        SOURCE: acme
+        ROWS: "100000"
+    ports:
+      - "8083:8080"
+    restart: no

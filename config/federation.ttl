@@ -15,8 +15,7 @@
 
 # ---- Target schema ------------------------------------------------------
 
-# A funding opportunity (Förderprogramm / call / topic). schema:FundingScheme is
-# the closest schema.org class. First version is deliberately minimal — title and
+# A funding opportunity (Förderprogramm / call / topic). First version is deliberately minimal — title and
 # description only; eligibility / money / deadlines come later.
 :fundingOpportunitySchema a :TargetSchema ;
     :targetClass schema:FundingScheme ;
@@ -24,14 +23,17 @@
 
 :t-name        a :TargetField ; :targetPredicate schema:name .
 :t-description a :TargetField ; :targetPredicate schema:description .
+:t-areas a :TargetFields ; :targetPredicate schema:areas
+
 
 # ---- Sources ------------------------------------------------------------
 
 :fdbBundSource a :Source ;
     rdfs:label    "Förderdatenbank Bund" ;
     skos:notation "fdb" ;
-    :enabled      false ;
-    :retrieval    "Files" ;
+    :enabled      true ;
+    :fetchUrl     "https://www.foerderdatenbank.de/FDB/WS/export" ;
+    :retrieval    "API" ;
     :format       ft:XML ;
     :hasField     :fdb-title, :fdb-description .
 :fdb-title       a :SourceField ; :fieldPath "title" .
@@ -40,6 +42,7 @@
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
     skos:notation "dsee" ;
+    :enabled      false ;
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
@@ -51,6 +54,7 @@
 :euportalSource a :Source ;
     rdfs:label    "EU Funding & Tenders Portal" ;
     skos:notation "eu" ;
+    :enabled      false ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
@@ -61,6 +65,7 @@
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
     skos:notation "ff" ;
+    :enabled      false ;
     :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
     :retrieval    "API" ;
     :format       ft:JSON ;

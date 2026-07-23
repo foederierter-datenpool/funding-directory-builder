@@ -54,3 +54,9 @@ npm run webapp:build   # production build → webapp/dist/
 
 ## Deployment
 Pushes to `main` trigger `.github/workflows/deploy.yml`, which runs the pipeline, builds the webapp, and force-pushes the result as a single-commit onto the `gh-pages` branch where the static webapp is being served from via GitHub Pages.
+
+## Roadmap
+
+- Retrieve Title and Description for a proof of concept ✅
+- Retrieve Funding Area as an example for a structured field that can be federated deterministically ⏳
+- Think about entity resolution 
