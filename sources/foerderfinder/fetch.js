@@ -6,7 +6,7 @@ import fs from "fs"
 // beschreibung / XFLB 2.0.0). foerderfinder.digital serves Bayern only (~212
 // programmes). We page the /search endpoint (q="" = all) and write the items[]
 // array as one JSON file; the Lift step (src/lift/json.sparql) turns it into RDF
-// and the clean step extracts title (attributes.titel) + description
+// and the extract step picks out title (attributes.titel) + description
 // (attributes.teaser — both already plain text). withPayload stays false; the
 // flattened attributes carry everything v1 needs.
 
