@@ -8,11 +8,11 @@ and holds no engine or webapp code — only what is specific to this federation:
 - **Decisions** live in `config/federation.ttl`: the sources and their facts
   (URL, format, lift params), the target schema and field mappings, the
   match/merge/resolve rules, run parameters, repository URL and title.
-  `config/match-knowledge.ttl` will hold curated `owl:sameAs` pairs once
+  `config/curation.ttl` will hold curated `owl:sameAs` pairs once
   cross-source programme matching is enabled.
 - **Per-source code** lives in `sources/<name>/`: a `fetch.js` (how to get the
-  data), a `clean.sparql` (how to reshape its lifted RDF), and
-  `transform-text.sparql` where rich-text values need flattening.
+  data) and an `extract.sparql` (how to reshape its lifted RDF, and flatten
+  rich-text values where a source carries HTML).
 - **Webapp material** lives in `webapp/`: the About page prose and the Query
   page's starting query.
 

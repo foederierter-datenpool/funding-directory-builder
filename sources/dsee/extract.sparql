@@ -3,8 +3,8 @@
 # class is xhtml:class, text is html:innerText. The title is the
 # <h1 class="col-span-2 …">; the lead description is the first child <div> of the
 # <div class="prose …"> block; the <link rel="canonical"> carries the slug.
-# innerText is already plain text here, so no value transform is needed — clean
-# emits the final values directly (the map does a direct field mapping).
+# innerText is already plain text here, so extract emits the final values
+# directly and the map step only renames them onto the target schema.
 
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xhtml: <http://www.w3.org/1999/xhtml#>

@@ -5,7 +5,7 @@ import fs from "fs"
 // the root is page 1, then /p2 … /pN. Each listing links to detail pages at
 // /foerderprogramme/<slug>. We collect every detail URL across all listing
 // pages, then fetch each detail page and write it as <slug>.html — the per-file
-// Lift step (src/lift/html.sparql) turns each into RDF; the clean step extracts
+// Lift step (src/lift/html.sparql) turns each into RDF; the extract step picks out
 // title + description. Pattern: scrape listing index → fetch details, throttled.
 
 const OUT_DIR = process.argv[2]

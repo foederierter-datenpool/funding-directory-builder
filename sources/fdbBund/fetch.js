@@ -8,7 +8,7 @@ import { unzipSync } from "fflate"
 // type="gsb:ServiceOffer" documents (the actual funding programmes), wrap each
 // back into <documents>…</documents> (the shape the Lift step expects) and write
 // it out as its own small standalone XML file. Field extraction (title /
-// description) stays declarative in the clean step.
+// description) stays declarative in the extract step.
 //
 // Endpoint: GET https://www.foerderdatenbank.de/FDB/WS/export (no auth, no
 // params; server caches ~24h by default). See sources/fdbBund schema docs.

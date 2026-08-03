@@ -10,6 +10,7 @@
     rdfs:label       "Federated directory of funding programmes in Germany & the EU" ;
     :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
     :hasTargetSchema :fundingOpportunitySchema ;
+    :harvestingModeActive false ;
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
     :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
 
@@ -23,7 +24,10 @@
 
 :t-name        a :TargetField ; :targetPredicate schema:name .
 :t-description a :TargetField ; :targetPredicate schema:description .
-:t-areas a :TargetFields ; :targetPredicate schema:areas
+# Förderbereich, drafted in TargetSchemaNotes.md but not yet wired: no source
+# field maps to it, so it stays out of :hasTargetField above. schema:areas is
+# not a schema.org term, so the predicate is still open.
+:t-areas       a :TargetField ; :targetPredicate schema:areas .
 
 
 # ---- Sources ------------------------------------------------------------
@@ -42,7 +46,7 @@
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
     skos:notation "dsee" ;
-    :enabled      false ;
+    :enabled      true ;
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
@@ -54,7 +58,7 @@
 :euportalSource a :Source ;
     rdfs:label    "EU Funding & Tenders Portal" ;
     skos:notation "eu" ;
-    :enabled      false ;
+    :enabled      true ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
@@ -65,7 +69,7 @@
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
     skos:notation "ff" ;
-    :enabled      false ;
+    :enabled      true ;
     :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
@@ -75,14 +79,14 @@
 
 # ---- Mappings -----------------------------------------------------------
 
-# Bund: both gsb:title and gsb:teaserText are CDATA-wrapped HTML, so both fields
-# go through the text transform (which also sets rdf:type + cdp:fromSource).
+# Bund: the extract step flattens both CDATA-wrapped HTML fields, so the values
+# arrive here as plain text → direct mapping.
 :fdb-mapping a :Mapping ;
     :fromSource  :fdbBundSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
-        [ :from :fdb-title       ; :to :t-name        ; :via "text" ] ,
-        [ :from :fdb-description ; :to :t-description ; :via "text" ] .
+        [ :from :fdb-title       ; :to :t-name        ] ,
+        [ :from :fdb-description ; :to :t-description ] .
 
 # DSEE: html:innerText is already plain text → direct mapping.
 :dsee-mapping a :Mapping ;
@@ -92,13 +96,13 @@
         [ :from :dsee-title       ; :to :t-name        ] ,
         [ :from :dsee-description ; :to :t-description ] .
 
-# EU: title (metadata.title) is plain → direct; descriptionByte is HTML → transform.
+# EU: descriptionByte is HTML, flattened at extract → direct mapping.
 :eu-mapping a :Mapping ;
     :fromSource  :euportalSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
         [ :from :eu-title       ; :to :t-name        ] ,
-        [ :from :eu-description ; :to :t-description ; :via "text" ] .
+        [ :from :eu-description ; :to :t-description ] .
 
 # Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
 :foerderfinder-mapping a :Mapping ;

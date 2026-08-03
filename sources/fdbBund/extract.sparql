@@ -2,10 +2,9 @@
 # programme, so this runs once per lifted document. Facade-x shape:
 #   xyz:document (xyz:name = slug) → rdf:_N → xyz:property (xyz:name "gsb:title"…)
 #                                           → rdf:_1 → xyz:text/value → rdf:_1 = literal.
-# Clean only does structural extraction — it picks the right properties and emits
-# their RAW values (gsb:title / gsb:teaserText are CDATA-wrapped HTML). Turning
-# that HTML into plain text is a value transform, done by the :via transform node
-# (src/transforms/fdb_bund-text.sparql) during the map step.
+# gsb:title and gsb:teaserText are CDATA-wrapped HTML, so extract picks the right
+# properties and flattens their values to plain text. The map step then only
+# renames the fields onto the target schema.
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
@@ -13,16 +12,21 @@ PREFIX cdp: <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
     ?prog cdp:fromSource   cdp:fdbBundSource ;
-          xyz:title        ?titleRaw ;
-          xyz:description   ?descRaw .
+          xyz:title        ?title ;
+          xyz:description  ?desc .
 } WHERE {
     ?doc a xyz:document ; xyz:name ?slug .
     BIND(IRI(CONCAT(STR(cdp:), "fdb-", ?slug)) AS ?prog)
 
+    # CDATA markers → tags → whitespace runs (incl. NBSP) → trim.
     OPTIONAL {
         ?tp a xyz:property ; xyz:name "gsb:title" ; rdf:_1/rdf:_1 ?titleRaw .
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?titleRaw),
+            "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?title)
     }
     OPTIONAL {
         ?dp a xyz:property ; xyz:name "gsb:teaserText" ; rdf:_1/rdf:_1 ?descRaw .
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?descRaw),
+            "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?desc)
     }
 }

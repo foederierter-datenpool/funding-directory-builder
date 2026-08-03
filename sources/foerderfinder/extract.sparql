@@ -2,8 +2,8 @@
 # this runs once over all programmes. Facade-x shape per item:
 #   xyz:id (UUID) , xyz:attributes → { xyz:titel , xyz:teaser , … }.
 # titel and teaser are already plain text (the HTML lives in attributes.
-# beschreibung, unused in v1), so clean emits the final values directly and the
-# map does a direct field mapping — no value transform needed.
+# beschreibung, unused in v1), so extract emits the final values directly and the
+# map step only renames them onto the target schema.
 
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
