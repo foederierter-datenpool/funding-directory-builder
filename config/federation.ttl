@@ -56,12 +56,35 @@
 :t-deadlineModel a :TargetField ; :targetPredicate cdf:deadlineModel .
 :t-deadline      a :TargetField ; :targetPredicate schema:applicationDeadline .
 
-# Whether the opportunity can still be applied for. Ended programmes are kept in
-# the directory deliberately — they are still worth showing — so a consumer needs
-# something to judge by: this, or the deadline. Only the EU portal states it
-# today. fdbBund's "absent" flag is not it: upstream says absence means only that
-# a programme left the export, which may be closure, reorganisation or a
-# restructure, and its editorial status_note is unparsed for now.
+# active | ended. Ended programmes are kept in the directory deliberately — they
+# are still worth showing — so a consumer needs something to judge by: this, or
+# the deadline.
+#
+# Two values, not the EU portal's three: Forthcoming and Open differ only in
+# whether you can submit today, which is a fact about dates, and a coarser
+# vocabulary is what lets a source that states no status of its own be read
+# against it. "ended" rather than "inactive" on purpose — inactive reads as
+# temporarily suspended, which is a real third case (fdbBund's "Antragstellung
+# derzeit nicht möglich") that should get its own value rather than be conflated.
+#
+# Only the EU portal fills it today, because it is the only source that states a
+# status outright. The others are each blocked on something specific:
+#
+#   Förderfinder could derive "ended" from its programme validity end, but that
+#   is a comparison against *now*, and NOW() in an extract makes federate
+#   non-deterministic — the same snapshot would yield a different directory.ttl
+#   tomorrow. It waits on the engine exposing the harvest time it already records
+#   in data/ingest/ingest-log.ttl, so the comparison can be pure.
+#
+#   fdbBund has an editorial status_note ("Antragstellung nicht mehr möglich",
+#   182 rows) which is the cheapest real coverage here, parked by decision. Its
+#   "absent" flag is not a substitute: upstream says absence means only that a
+#   programme left the export, which may be closure, reorganisation or a
+#   restructure.
+#
+#   DSEE states nothing. "Fortlaufende Förderung" is a deadline model, already
+#   mapped to cdf:deadlineModel = rolling; it says nothing about whether the
+#   programme still exists.
 :t-status a :TargetField ; :targetPredicate cdf:status .
 
 

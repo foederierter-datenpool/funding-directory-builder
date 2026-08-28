@@ -45,14 +45,21 @@ CONSTRUCT {
         ?res xyz:metadata/xyz:deadlineModel/rdf:_1 ?dmRaw .
         BIND(REPLACE(LCASE(STR(?dmRaw)), "[^a-z0-9]+", "_") AS ?deadlineModel)
     }
-    # 31094501 / 31094502 / 31094503 are the portal's own status codes; nothing
-    # but this source publishes them, so they are translated to shared slugs.
+    # The portal's own status ids, whose labels are stated in its reference data
+    # (.../data/referenceData/grantsTenders.json): 31094501 Forthcoming,
+    # 31094502 Open, 31094503 Closed.
+    #
+    # Forthcoming and Open both collapse to "active". They differ in whether you
+    # can submit *today* — a forthcoming topic is announced with its window still
+    # ahead — but that is a fact about dates, and the target vocabulary is two
+    # values so that the sources which do not state a status at all can still be
+    # read against it.
     OPTIONAL {
         ?res xyz:metadata/xyz:status/rdf:_1 ?statusCode .
         VALUES (?statusCode ?status) {
-            ("31094501" "forthcoming")
-            ("31094502" "open")
-            ("31094503" "closed")
+            ("31094501" "active")
+            ("31094502" "active")
+            ("31094503" "ended")
         }
     }
     # "2023-04-12T22:00:00.000+0000" → "2023-04-12". The time is a UTC artefact
