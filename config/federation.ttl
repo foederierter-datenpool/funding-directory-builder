@@ -92,6 +92,7 @@
 
 :fdbBundSource a :Source ;
     rdfs:label    "Förderdatenbank Bund" ;
+    :dedupWithinSource false ;
     skos:notation "fdb" ;
     :enabled      true ;
     :fetchUrl     "https://fdb.cdl.correlaid.org/data/programme.csv" ;
@@ -119,6 +120,7 @@
 
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
+    :dedupWithinSource false ;
     skos:notation "dsee" ;
     :enabled      true ;
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
@@ -136,6 +138,7 @@
 
 :euportalSource a :Source ;
     rdfs:label    "EU Funding & Tenders Portal" ;
+    :dedupWithinSource false ;
     skos:notation "eu" ;
     :enabled      true ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
@@ -152,6 +155,15 @@
 
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
+    # Every record in this source already has a unique upstream id, so two of its
+    # own records are never the same opportunity — same-source pairs are noise, and
+    # fuzzy matching them produces false positives that no threshold fixes. It did:
+    # Förderfinder's "…Dauerpflegeeinrichtungen (ohne Öffnung in den sozialen
+    # Nahraum)" and "…mit einer Öffnung in den sozialen Nahraum" merged, two
+    # deliberately opposite Förderleistungen of one Richtlinie whose only
+    # distinguishing words are "ohne" and "mit einer". Cross-source pairs are the
+    # only ones worth scoring here.
+    :dedupWithinSource false ;
     skos:notation "ff" ;
     :enabled      true ;
     :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
@@ -225,12 +237,52 @@
 
 # ---- Match --------------------------------------------------------------
 
-# No criteria yet: every record stays its own cluster (no cross-source merge in
-# this first version). Cross-source matching of the same programme comes later.
+# Same programme, two portals. Measured against the full corpora (fdbBund's 2531
+# rows against all 218 Förderfinder records), not against the development sample —
+# a limited run contains no cross-source overlap at all.
+#
+# :matchAlgorithm is set because the engine's default, token_set_ratio, is wrong
+# for this data: it scores a subset as 100, and German programme titles are
+# systematically prefixed and suffixed. "Digitalbonus" against "Digitalbonus
+# Thüringen" scores 100 and is a different programme; so does "Kommunales
+# Wohnraumförderungsprogramm" against "Kommunales Förderprogramm zur Schaffung von
+# Mietwohnraum". Fourteen pairs hit exactly 100, several of them wrong, so nothing
+# can be thresholded above it. token_sort_ratio separates: true matches 89-100,
+# those same false ones 52-69.
+#
+# There is deliberately no :hasHardCriterion. A gate on dct:spatial looked
+# attractive — Förderfinder is Bayern-only and most false positives are simply the
+# wrong Land — but the fixture tests showed it does nothing here and costs real
+# recall:
+#
+#   It never fires. token_sort_ratio already scores the wrong-Land pairs far below
+#   the threshold ("Digitalbonus" against "Digitalbonus Thüringen" is 69, the FSJ
+#   pair 79). The 76 → 33 reduction that motivated it was measured against
+#   token_set_ratio, which this rule does not use.
+#
+#   It would foreclose whole sources. A hard criterion requires the value present
+#   and equal in *both* records, and euportal emits no dct:spatial at all, so every
+#   EU record would become permanently unmatchable — along with the 53 of 200
+#   resolved records that carry no location. fdbBund × euportal overlap could then
+#   never be found.
+#
+# Without a hard criterion every subject lands in one bucket, so this is an O(n²)
+# scan. Fine at the current corpus; revisit if it becomes the bottleneck, and
+# prefer a gate on a single-valued field that every source fills.
+#
+# 0.9 is deliberately conservative: 5 pairs clear it, and the yield is flat from
+# 0.95 down to 0.90 before the dubious tail starts at 0.80. Genuine matches are
+# missed at this setting ("Alpha Asyl - Kurse zur Alphabetisierung" at 0.89,
+# "Überregionale Offene Behindertenarbeit" at 0.80). Recall is recoverable once a
+# labelled set exists; a directory that merges Digitalbonus Bayern with Digitalbonus
+# Thüringen is actively wrong.
 :fundingMatch a :MatchRule ;
     :forTarget           :fundingOpportunitySchema ;
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
-    :mintedSubjectPrefix "funding-" .
+    :mintedSubjectPrefix "funding-" ;
+    :matchAlgorithm      "token_sort_ratio" ;
+    :minScore             0.9 ;
+    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] .
 
 # ---- Resolve ------------------------------------------------------------
 
