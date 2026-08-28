@@ -5,6 +5,25 @@
 # <div class="prose …"> block; the <link rel="canonical"> carries the slug.
 # innerText is already plain text here, so extract emits the final values
 # directly and the map step only renames them onto the target schema.
+#
+# The facts box is a uniform pattern — <div><div class="font-bold">Label:</div>
+# <div>value</div></div> — so one shape reaches Regionen, Engagementbereiche and
+# Bewerbungsfrist by matching on the bold label. Regionen and Engagementbereiche
+# wrap *multiple* values in <li> items but render a single value as bare text,
+# so both branches accept either shape; matching only the list form silently
+# drops every "Bundesweit" programme. Bewerbungsfrist is always bare text.
+#
+# Engagementbereiche are DSEE's own axis, not the XÖV Förderbereich the other
+# sources use (Bauten und Denkmalschutz, Kinder und Jugendliche, …). They are
+# emitted as fundingArea slugs anyway; whether the two axes should be separated
+# is a later decision, not a blocker.
+#
+# Only "Fortlaufende Förderung" is read out of Bewerbungsfrist, as
+# deadline_model = rolling. The dated values are not parsed: they are German
+# prose, several carry two dates in one string ("31. Oktober 2026 30. April
+# 2027"), and one mixes both ("30. Juni 2027 Antragstellung fortlaufend
+# möglich"). Guessing which is the application deadline is exactly the
+# information-extraction problem this pipeline is not the place for.
 
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
@@ -14,8 +33,12 @@ PREFIX cdp:   <https://civic-data.de/pipeline#>
 
 CONSTRUCT {
     ?prog cdp:fromSource cdp:dseeSource ;
-          xyz:title       ?title ;
-          xyz:description  ?desc .
+          xyz:title         ?title ;
+          xyz:description   ?desc ;
+          xyz:url           ?url ;
+          xyz:fundingArea   ?area ;
+          xyz:location      ?nuts ;
+          xyz:deadlineModel ?deadlineModel .
 } WHERE {
     ?link a xhtml:link ; xhtml:rel "canonical" ; xhtml:href ?url .
     FILTER(CONTAINS(STR(?url), "/foerderprogramme/"))
@@ -25,10 +48,68 @@ CONSTRUCT {
     ?h1 a xhtml:h1 ; xhtml:class ?h1Class ; html:innerText ?title .
     FILTER(CONTAINS(?h1Class, "col-span-2"))
 
-    OPTIONAL {
-        ?prose a xhtml:div ; xhtml:class ?proseClass .
-        FILTER(CONTAINS(?proseClass, "prose") && CONTAINS(?proseClass, "mb-8"))
-        ?prose rdf:_1 ?lead .
-        ?lead html:innerText ?desc .
+    {
+        OPTIONAL {
+            ?prose a xhtml:div ; xhtml:class ?proseClass .
+            FILTER(CONTAINS(?proseClass, "prose") && CONTAINS(?proseClass, "mb-8"))
+            ?prose rdf:_1 ?lead .
+            ?lead html:innerText ?desc .
+        }
+    } UNION {
+        # Engagementbereiche → fundingArea slugs.
+        ?block rdf:_1 ?lbl ; rdf:_2 ?val .
+        ?lbl xhtml:class "font-bold" ; html:innerText "Engagementbereiche:" .
+        {
+            ?val rdf:_1 ?ul . ?ul a xhtml:ul ; ?li ?item .
+            FILTER(STRSTARTS(STR(?li), CONCAT(STR(rdf:), "_")))
+            ?item html:innerText ?raw .
+        } UNION {
+            ?val rdf:_1 ?bare . FILTER(isLiteral(?bare))
+            ?val html:innerText ?raw .
+        }
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
+        BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?area)
+    } UNION {
+        # Regionen → NUTS, same closed table as the other sources.
+        ?block rdf:_1 ?lbl ; rdf:_2 ?val .
+        ?lbl xhtml:class "font-bold" ; html:innerText "Regionen:" .
+        {
+            ?val rdf:_1 ?ul . ?ul a xhtml:ul ; ?li ?item .
+            FILTER(STRSTARTS(STR(?li), CONCAT(STR(rdf:), "_")))
+            ?item html:innerText ?region .
+        } UNION {
+            # A single region is rendered as bare text, with no <ul> to walk —
+            # which is how every "Bundesweit" programme is shaped. The two
+            # shapes are told apart by rdf:_1: a literal for bare text, a node
+            # for the <ul>. (FILTER NOT EXISTS would read more directly but
+            # crashes Comunica when it closes over an outer variable.)
+            ?val rdf:_1 ?bare . FILTER(isLiteral(?bare))
+            ?val html:innerText ?region .
+        }
+        VALUES (?region ?nuts) {
+            ("Bundesweit"             "DE")
+            ("Baden-Württemberg"      "DE1")
+            ("Bayern"                 "DE2")
+            ("Berlin"                 "DE3")
+            ("Brandenburg"            "DE4")
+            ("Bremen"                 "DE5")
+            ("Hamburg"                "DE6")
+            ("Hessen"                 "DE7")
+            ("Mecklenburg-Vorpommern" "DE8")
+            ("Niedersachsen"          "DE9")
+            ("Nordrhein-Westfalen"    "DEA")
+            ("Rheinland-Pfalz"        "DEB")
+            ("Saarland"               "DEC")
+            ("Sachsen"                "DED")
+            ("Sachsen-Anhalt"         "DEE")
+            ("Schleswig-Holstein"     "DEF")
+            ("Thüringen"              "DEG")
+        }
+    } UNION {
+        ?block rdf:_1 ?lbl ; rdf:_2 ?val .
+        ?lbl xhtml:class "font-bold" ; html:innerText "Bewerbungsfrist:" .
+        ?val html:innerText ?frist .
+        FILTER(STRSTARTS(?frist, "Fortlaufende Förderung"))
+        BIND("rolling" AS ?deadlineModel)
     }
 }

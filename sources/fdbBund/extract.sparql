@@ -1,32 +1,62 @@
-# Förderdatenbank Bund: the fetcher splits the export into one standalone XML per
-# programme, so this runs once per lifted document. Facade-x shape:
-#   xyz:document (xyz:name = slug) → rdf:_N → xyz:property (xyz:name "gsb:title"…)
-#                                           → rdf:_1 → xyz:text/value → rdf:_1 = literal.
-# gsb:title and gsb:teaserText are CDATA-wrapped HTML, so extract picks the right
-# properties and flattens their values to plain text. The map step then only
-# renames the fields onto the target schema.
+# Förderdatenbank Bund, via the CSV that fdb-scraper publishes weekly. The fetch
+# writes it as one JSON array (see fetch.js for why not .csv), so this runs once
+# over all programmes. Facade-x shape per record: xyz:<column> for scalar columns,
+# xyz:<column> → rdf:_N for the columns whose cells hold a JSON array.
+#
+# Almost nothing to do here: the upstream scraper already decoded the export's
+# closed vocabularies and validated every cell, so the values arrive as slugs
+# rather than as the raw export's generic classifier containers.
+#
+# funding_location → NUTS is the one translation. It is keyed on the export's own
+# codes, not on labels, so it is a different table from the other sources' — and
+# the codes are kept verbatim upstream, including the "schlesig_holstein" typo and
+# the two Länder that arrive as ISO-ish "de_ni"/"de_st". "sonstige" means "abroad,
+# unspecified", which NUTS has no code for, so it is left unmapped rather than
+# forced onto DE.
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
-    ?prog cdp:fromSource   cdp:fdbBundSource ;
-          xyz:title        ?title ;
-          xyz:description  ?desc .
+    ?prog cdp:fromSource cdp:fdbBundSource ;
+          xyz:title       ?title ;
+          xyz:description ?desc ;
+          xyz:url         ?url ;
+          xyz:location    ?nuts ;
+          xyz:funderLevel ?level .
 } WHERE {
-    ?doc a xyz:document ; xyz:name ?slug .
-    BIND(IRI(CONCAT(STR(cdp:), "fdb-", ?slug)) AS ?prog)
+    ?rec xyz:id_url ?idUrl ; xyz:title ?title .
+    BIND(IRI(CONCAT(STR(cdp:), "fdb-", ENCODE_FOR_URI(STR(?idUrl)))) AS ?prog)
 
-    # CDATA markers → tags → whitespace runs (incl. NBSP) → trim.
-    OPTIONAL {
-        ?tp a xyz:property ; xyz:name "gsb:title" ; rdf:_1/rdf:_1 ?titleRaw .
-        BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?titleRaw),
-            "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?title)
-    }
-    OPTIONAL {
-        ?dp a xyz:property ; xyz:name "gsb:teaserText" ; rdf:_1/rdf:_1 ?descRaw .
-        BIND(REPLACE(REPLACE(REPLACE(REPLACE(STR(?descRaw),
-            "<!\\[CDATA\\[|\\]\\]>", ""), "<[^>]*>", " "), "[ \\s]+", " "), "^ +| +$", "") AS ?desc)
+    {
+        OPTIONAL { ?rec xyz:description ?desc }
+        OPTIONAL { ?rec xyz:url ?url }
+    } UNION {
+        ?rec xyz:funding_location ?gSeq . ?gSeq ?gI ?code .
+        FILTER(STRSTARTS(STR(?gI), CONCAT(STR(rdf:), "_")))
+        VALUES (?code ?nuts) {
+            ("_bundesweit"            "DE")
+            ("baden_wuerttemberg"     "DE1")
+            ("bayern"                 "DE2")
+            ("berlin"                 "DE3")
+            ("brandenburg"            "DE4")
+            ("bremen"                 "DE5")
+            ("hamburg"                "DE6")
+            ("hessen"                 "DE7")
+            ("mecklenburg_vorpommern" "DE8")
+            ("de_ni"                  "DE9")
+            ("nordrhein_westfalen"    "DEA")
+            ("rheinland_pfalz"        "DEB")
+            ("saarland"               "DEC")
+            ("sachsen"                "DED")
+            ("de_st"                  "DEE")
+            ("schlesig_holstein"      "DEF")
+            ("thueringen"             "DEG")
+        }
+    } UNION {
+        # bund / eu / land — the same slugs the other sources produce.
+        ?rec xyz:funding_body ?bSeq . ?bSeq ?bI ?level .
+        FILTER(STRSTARTS(STR(?bI), CONCAT(STR(rdf:), "_")))
     }
 }

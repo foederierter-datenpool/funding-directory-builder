@@ -3,6 +3,8 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 @prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix cdf:    <https://civic-data.de/federated-directory#> .
 
 # ---- Federation ---------------------------------------------------------
 
@@ -17,18 +19,42 @@
 
 # ---- Target schema ------------------------------------------------------
 
-# A funding opportunity (Förderprogramm / call / topic). First version is deliberately minimal — title and
-# description only; eligibility / money / deadlines come later.
+# A funding opportunity (Förderprogramm / call / topic). One schema, deliberately:
+# a funder tier was considered and dropped — :foerdergeber in the sources is a
+# funder *level* ("Land"), not a funder name, and "browse by funder" is not one
+# of the questions this directory answers.
+#
+# Only fields some source actually fills are declared. Money, sub-areas and
+# funding-rate models are drafted in Plan.md and deliberately absent: no source
+# carries them structurally, and a declared field nothing maps to is noise in
+# the config and in the webapp.
 :fundingOpportunitySchema a :TargetSchema ;
     :targetClass schema:FundingScheme ;
-    :hasTargetField :t-name, :t-description .
+    :hasTargetField :t-name, :t-description, :t-url,
+                    :t-fundingArea, :t-location, :t-fundingType,
+                    :t-eligibleApplicant, :t-funderLevel,
+                    :t-deadlineModel, :t-deadline .
 
 :t-name        a :TargetField ; :targetPredicate schema:name .
 :t-description a :TargetField ; :targetPredicate schema:description .
-# Förderbereich, drafted in TargetSchemaNotes.md but not yet wired: no source
-# field maps to it, so it stays out of :hasTargetField above. schema:areas is
-# not a schema.org term, so the predicate is still open.
-:t-areas       a :TargetField ; :targetPredicate schema:areas .
+:t-url         a :TargetField ; :targetPredicate schema:url .
+
+# Reuse an established term only where one honestly fits — dct:spatial for the
+# funding region, schema:applicationDeadline for the date. Everything else is
+# minted under cdf: rather than bent out of a foreign vocabulary; there is no
+# schema:areas, which is why the earlier :t-areas draft could never be wired.
+#
+# The four list-valued fields carry one value per category the source states, so
+# they are :multiValued (merge must not read them as cross-source conflicts) and
+# get a :keepAll override below (resolve must not collapse them to one literal).
+:t-fundingArea       a :TargetField ; :targetPredicate cdf:fundingArea       ; :multiValued true .
+:t-location          a :TargetField ; :targetPredicate dct:spatial           ; :multiValued true .
+:t-fundingType       a :TargetField ; :targetPredicate cdf:fundingType       ; :multiValued true .
+:t-eligibleApplicant a :TargetField ; :targetPredicate cdf:eligibleApplicant ; :multiValued true .
+
+:t-funderLevel   a :TargetField ; :targetPredicate cdf:funderLevel .
+:t-deadlineModel a :TargetField ; :targetPredicate cdf:deadlineModel .
+:t-deadline      a :TargetField ; :targetPredicate schema:applicationDeadline .
 
 
 # ---- Sources ------------------------------------------------------------
@@ -37,12 +63,26 @@
     rdfs:label    "Förderdatenbank Bund" ;
     skos:notation "fdb" ;
     :enabled      true ;
-    :fetchUrl     "https://www.foerderdatenbank.de/FDB/WS/export" ;
+    :fetchUrl     "https://fdb.cdl.correlaid.org/data/programme.csv" ;
     :retrieval    "API" ;
-    :format       ft:XML ;
-    :hasField     :fdb-title, :fdb-description .
+    # The fetch downloads CSV and writes JSON: its multi-valued columns hold a
+    # JSON array inside one cell, which no lift or extract can split into
+    # several values. See sources/fdbBund/fetch.js.
+    :format       ft:JSON ;
+    :hasField     :fdb-title, :fdb-description, :fdb-url,
+                  :fdb-location, :fdb-funderLevel .
 :fdb-title       a :SourceField ; :fieldPath "title" .
 :fdb-description a :SourceField ; :fieldPath "description" .
+:fdb-url         a :SourceField ; :fieldPath "url" .
+# funding_location and funding_body only. The export's other three coded columns
+# — funding_area, funding_type, eligible_applicants — ship their own slugs, and
+# those disagree with the ones the label-derived normalisation produces for the
+# same concept: "kultur_medien_sport" vs kultur_medien_und_sport, "kommune" vs
+# kommunen, "darlehen" vs kredit_darlehen. Reconciling them is a crosswalk table,
+# not a normalisation rule, so they stay unmapped until config/vocab.ttl exists
+# rather than being published as near-duplicate facet entries.
+:fdb-location    a :SourceField ; :fieldPath "location" .
+:fdb-funderLevel a :SourceField ; :fieldPath "funderLevel" .
 
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
@@ -52,9 +92,14 @@
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
     :hasLiftParam [ :name "selector" ; :value "html" ] ;
-    :hasField     :dsee-title, :dsee-description .
-:dsee-title       a :SourceField ; :fieldPath "title" .
-:dsee-description a :SourceField ; :fieldPath "description" .
+    :hasField     :dsee-title, :dsee-description, :dsee-url,
+                  :dsee-fundingArea, :dsee-location, :dsee-deadlineModel .
+:dsee-title         a :SourceField ; :fieldPath "title" .
+:dsee-description   a :SourceField ; :fieldPath "description" .
+:dsee-url           a :SourceField ; :fieldPath "url" .
+:dsee-fundingArea   a :SourceField ; :fieldPath "fundingArea" .
+:dsee-location      a :SourceField ; :fieldPath "location" .
+:dsee-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
 
 :euportalSource a :Source ;
     rdfs:label    "EU Funding & Tenders Portal" ;
@@ -63,9 +108,13 @@
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
-    :hasField     :eu-title, :eu-description .
-:eu-title       a :SourceField ; :fieldPath "title" .
-:eu-description a :SourceField ; :fieldPath "description" .
+    :hasField     :eu-title, :eu-description, :eu-url,
+                  :eu-deadlineModel, :eu-deadline .
+:eu-title         a :SourceField ; :fieldPath "title" .
+:eu-description   a :SourceField ; :fieldPath "description" .
+:eu-url           a :SourceField ; :fieldPath "url" .
+:eu-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
+:eu-deadline      a :SourceField ; :fieldPath "deadline" .
 
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
@@ -74,44 +123,67 @@
     :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
-    :hasField     :ff-title, :ff-description .
-:ff-title       a :SourceField ; :fieldPath "title" .
-:ff-description a :SourceField ; :fieldPath "description" .
+    :hasField     :ff-title, :ff-description, :ff-fundingArea, :ff-location,
+                  :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel .
+:ff-title             a :SourceField ; :fieldPath "title" .
+:ff-description       a :SourceField ; :fieldPath "description" .
+# The five XÖV-coded categories, normalised to slugs at extract. No :ff-url —
+# the API payload carries no canonical detail page and the site is an SPA, so
+# there is nothing to link to without inventing a URL pattern.
+:ff-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:ff-location          a :SourceField ; :fieldPath "location" .
+:ff-fundingType       a :SourceField ; :fieldPath "fundingType" .
+:ff-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:ff-funderLevel       a :SourceField ; :fieldPath "funderLevel" .
 
 # ---- Mappings -----------------------------------------------------------
 
-# Bund: the extract step flattens both CDATA-wrapped HTML fields, so the values
-# arrive here as plain text → direct mapping.
+# Bund: the published CSV is already plain text and already decoded → direct mapping.
 :fdb-mapping a :Mapping ;
     :fromSource  :fdbBundSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
         [ :from :fdb-title       ; :to :t-name        ] ,
-        [ :from :fdb-description ; :to :t-description ] .
+        [ :from :fdb-description ; :to :t-description ] ,
+        [ :from :fdb-url         ; :to :t-url         ] ,
+        [ :from :fdb-location    ; :to :t-location    ] ,
+        [ :from :fdb-funderLevel ; :to :t-funderLevel ] .
 
 # DSEE: html:innerText is already plain text → direct mapping.
 :dsee-mapping a :Mapping ;
     :fromSource  :dseeSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
-        [ :from :dsee-title       ; :to :t-name        ] ,
-        [ :from :dsee-description ; :to :t-description ] .
+        [ :from :dsee-title         ; :to :t-name          ] ,
+        [ :from :dsee-description   ; :to :t-description   ] ,
+        [ :from :dsee-url           ; :to :t-url           ] ,
+        [ :from :dsee-fundingArea   ; :to :t-fundingArea   ] ,
+        [ :from :dsee-location      ; :to :t-location      ] ,
+        [ :from :dsee-deadlineModel ; :to :t-deadlineModel ] .
 
 # EU: descriptionByte is HTML, flattened at extract → direct mapping.
 :eu-mapping a :Mapping ;
     :fromSource  :euportalSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
-        [ :from :eu-title       ; :to :t-name        ] ,
-        [ :from :eu-description ; :to :t-description ] .
+        [ :from :eu-title         ; :to :t-name          ] ,
+        [ :from :eu-description   ; :to :t-description   ] ,
+        [ :from :eu-url           ; :to :t-url           ] ,
+        [ :from :eu-deadlineModel ; :to :t-deadlineModel ] ,
+        [ :from :eu-deadline      ; :to :t-deadline      ] .
 
 # Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
 :foerderfinder-mapping a :Mapping ;
     :fromSource  :foerderfinderSource ;
     :toTarget    :fundingOpportunitySchema ;
     :hasFieldMapping
-        [ :from :ff-title       ; :to :t-name        ] ,
-        [ :from :ff-description ; :to :t-description ] .
+        [ :from :ff-title             ; :to :t-name              ] ,
+        [ :from :ff-description       ; :to :t-description       ] ,
+        [ :from :ff-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :ff-location          ; :to :t-location          ] ,
+        [ :from :ff-fundingType       ; :to :t-fundingType       ] ,
+        [ :from :ff-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :ff-funderLevel       ; :to :t-funderLevel       ] .
 
 # ---- Match --------------------------------------------------------------
 
@@ -124,5 +196,12 @@
 
 # ---- Resolve ------------------------------------------------------------
 
+# keepAll on the list-valued fields: without it, resolve collapses each list to
+# a single value and a programme with four eligible-applicant categories keeps
+# one. The scalar fields keep the default.
 :resolve a :ResolveRule ;
-    :defaultStrategy :alphabeticFirst .
+    :defaultStrategy :alphabeticFirst ;
+    :hasOverride [ :on cdf:fundingArea       ; :strategy :keepAll ] ,
+                 [ :on dct:spatial           ; :strategy :keepAll ] ,
+                 [ :on cdf:fundingType       ; :strategy :keepAll ] ,
+                 [ :on cdf:eligibleApplicant ; :strategy :keepAll ] .

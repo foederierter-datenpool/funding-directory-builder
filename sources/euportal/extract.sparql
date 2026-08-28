@@ -5,18 +5,51 @@
 # The top-level xyz:title is usually xyz:null, so the title comes from
 # metadata.title (falling back to summary). descriptionByte is HTML, which extract
 # flattens to plain text; the map step then only renames the fields.
+#
+# deadlineModel and deadlineDate need no interpretation: the portal states the
+# model in the same enum this directory uses (single-stage / two-stage /
+# multiple cut-off), so it is only slugified. Every record here carries at most
+# one deadlineDate, but rdf:_1 is taken explicitly — for a two-stage procedure
+# the first date is the sketch deadline, which is the one to publish.
+#
+# xyz:url is the topicDetails *JSON* endpoint, not something to hand a human, so
+# schema:url is the same topic identifier under the portal's public
+# topic-details route. It comes from metadata.identifier
+# ("HORIZON-HLTH-2023-IND-06-05") — NOT from xyz:reference, which is an internal
+# composite ("45700333HORIZONCoordinationandSupportActions1673481600000bg") that
+# the portal's own JSON URL does not use.
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
     ?prog cdp:fromSource cdp:euportalSource ;
-          xyz:title       ?title ;
-          xyz:description ?desc .
+          xyz:title         ?title ;
+          xyz:description   ?desc ;
+          xyz:url           ?url ;
+          xyz:deadlineModel ?deadlineModel ;
+          xyz:deadline      ?deadline .
 } WHERE {
     ?res xyz:reference ?ref .
     BIND(IRI(CONCAT(STR(cdp:), "eu-", ENCODE_FOR_URI(STR(?ref)))) AS ?prog)
+    OPTIONAL {
+        ?res xyz:metadata/xyz:identifier/rdf:_1 ?topicId .
+        BIND(CONCAT("https://ec.europa.eu/info/funding-tenders/opportunities/portal",
+                    "/screen/opportunities/topic-details/", STR(?topicId)) AS ?url)
+    }
+
+    OPTIONAL {
+        ?res xyz:metadata/xyz:deadlineModel/rdf:_1 ?dmRaw .
+        BIND(REPLACE(LCASE(STR(?dmRaw)), "[^a-z0-9]+", "_") AS ?deadlineModel)
+    }
+    # "2023-04-12T22:00:00.000+0000" → "2023-04-12". The time is a UTC artefact
+    # of the portal's own storage, not a stated cut-off hour.
+    OPTIONAL {
+        ?res xyz:metadata/xyz:deadlineDate/rdf:_1 ?ddRaw .
+        BIND(STRDT(SUBSTR(STR(?ddRaw), 1, 10), xsd:date) AS ?deadline)
+    }
 
     OPTIONAL { ?res xyz:metadata/xyz:title/rdf:_1 ?metaTitle }
     OPTIONAL { ?res xyz:summary ?summary }

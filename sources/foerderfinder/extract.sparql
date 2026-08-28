@@ -2,20 +2,92 @@
 # this runs once over all programmes. Facade-x shape per item:
 #   xyz:id (UUID) , xyz:attributes → { xyz:titel , xyz:teaser , … }.
 # titel and teaser are already plain text (the HTML lives in attributes.
-# beschreibung, unused in v1), so extract emits the final values directly and the
-# map step only renames them onto the target schema.
+# beschreibung, unused here), so extract emits those directly.
+#
+# The five category fields are XFLB/XÖV-coded and arrive as rdf:_N sequences of
+# German labels under xyz:attributes. They are normalised to slugs here rather
+# than mapped through a lookup table: this source and the Förderdatenbank spell
+# the same XÖV concept differently ("Aus und Weiterbildung" vs
+# "Aus- & Weiterbildung"), and the normalisation below folds both onto
+# aus_und_weiterbildung with no table to maintain. Deriving the crosswalk from
+# the labels also means an upstream category this repo has never seen lands as a
+# well-formed slug instead of being silently dropped.
+#
+# Known limit, for when fdbBund lands: normalisation cannot pair labels that use
+# different *words*. finanzierungsform is that case — "Kredit/Darlehen" here vs
+# "Darlehen" there — and needs an explicit pair, which is the point at which
+# config/vocab.ttl starts earning its keep.
+#
+# The categories are UNION branches, not parallel OPTIONALs: as OPTIONALs they
+# multiply out (4 areas × 3 types × 5 applicants … per programme) and the query
+# does not finish. Each branch binds one category and leaves the others unbound,
+# which CONSTRUCT simply skips.
+#
+# No URL: the payload carries no canonical detail page, and foerderfinder.digital
+# is an SPA, so a guessed pattern could not even be verified by fetching it.
 
-PREFIX xyz: <http://sparql.xyz/facade-x/data/>
-PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
+PREFIX cdp:  <https://civic-data.de/pipeline#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
     ?prog cdp:fromSource cdp:foerderfinderSource ;
-          xyz:title       ?title ;
-          xyz:description  ?desc .
+          xyz:title             ?title ;
+          xyz:description       ?desc ;
+          xyz:fundingArea       ?area ;
+          xyz:fundingType       ?type ;
+          xyz:eligibleApplicant ?applicant ;
+          xyz:funderLevel       ?level ;
+          xyz:location          ?nuts .
 } WHERE {
     ?item xyz:id ?id ; xyz:attributes ?attr .
     BIND(IRI(CONCAT(STR(cdp:), "ff-", STR(?id))) AS ?prog)
-
     ?attr xyz:titel ?title .
-    OPTIONAL { ?attr xyz:teaser ?desc }
+
+    {
+        OPTIONAL { ?attr xyz:teaser ?desc }
+    } UNION {
+        ?attr xyz:foerderbereich ?seq . ?seq ?i ?raw .
+        FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
+        BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?area)
+    } UNION {
+        ?attr xyz:finanzierungsform ?seq . ?seq ?i ?raw .
+        FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
+        BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?type)
+    } UNION {
+        ?attr xyz:foerdernehmer ?seq . ?seq ?i ?raw .
+        FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
+        BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?applicant)
+    } UNION {
+        ?attr xyz:foerdergeber ?seq . ?seq ?i ?raw .
+        FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
+        BIND(LCASE(?raw) AS ?level)
+    } UNION {
+        # Fördergebiet → NUTS. A closed 17-value table, unlike the axes above:
+        # the target is a code, not a slug of the label, so nothing to derive.
+        ?attr xyz:foerdergebiet ?seq . ?seq ?i ?raw .
+        FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
+        VALUES (?raw ?nuts) {
+            ("Bundesweit"             "DE")
+            ("Baden-Württemberg"      "DE1")
+            ("Bayern"                 "DE2")
+            ("Berlin"                 "DE3")
+            ("Brandenburg"            "DE4")
+            ("Bremen"                 "DE5")
+            ("Hamburg"                "DE6")
+            ("Hessen"                 "DE7")
+            ("Mecklenburg-Vorpommern" "DE8")
+            ("Niedersachsen"          "DE9")
+            ("Nordrhein-Westfalen"    "DEA")
+            ("Rheinland-Pfalz"        "DEB")
+            ("Saarland"               "DEC")
+            ("Sachsen"                "DED")
+            ("Sachsen-Anhalt"         "DEE")
+            ("Schleswig-Holstein"     "DEF")
+            ("Thüringen"              "DEG")
+        }
+    }
 }
