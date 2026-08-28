@@ -1,3 +1,4 @@
+import { pathToFileURL } from "url"
 import path from "path"
 import fs from "fs"
 
@@ -21,17 +22,10 @@ import fs from "fs"
 // exposes as rdf:_N sequences like every other list-valued source in this
 // federation. A CSV whose cells were scalar would need none of this.
 
-const OUT_DIR = process.argv[2]
-const CSV_URL = process.argv[3] ?? "https://fdb.cdl.correlaid.org/data/programme.csv"
-// argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
-
-const { limit } = JSON.parse(process.argv[4] || "{}")
-const LIMIT = Number(limit?.[0]) || Infinity
-
 // Minimal RFC 4180 reader. Descriptions run to tens of thousands of characters and
 // contain both quotes and newlines, so splitting on "\n" corrupts the table — the
 // quote state has to be tracked.
-function parseCsv(text) {
+export function parseCsv(text) {
     const rows = []
     let row = [], field = "", quoted = false
     for (let i = 0; i < text.length; i++) {
@@ -49,31 +43,49 @@ function parseCsv(text) {
     return rows
 }
 
-const res = await fetch(CSV_URL, { headers: { Accept: "text/csv" } })
-if (!res.ok) throw new Error(`FDB CSV failed: ${res.status} ${res.statusText}`)
-const text = await res.text()
-
-const [header, ...rows] = parseCsv(text)
-if (!header?.includes("id_url")) {
-    throw new Error(`FDB CSV has no id_url column — got [${header?.slice(0, 5)}…]. Upstream schema changed?`)
-}
-
 // Cells holding a JSON array become arrays; everything else stays a string. Empty
 // stays empty so the extract's isLiteral/non-empty guards behave as for any source.
-const value = (cell) => {
+export const value = (cell) => {
     if (!cell.startsWith("[")) return cell
     try { return JSON.parse(cell) } catch { return cell }
 }
 
-const records = rows
-    .filter((r) => r.length === header.length)
-    .slice(0, LIMIT === Infinity ? undefined : LIMIT)
-    .map((r) => Object.fromEntries(header.map((h, i) => [h, value(r[i])])))
+// Header row + data rows → records, dropping rows whose arity does not match the
+// header (a truncated download rather than a schema change).
+export function toRecords(rows, header, limit = Infinity) {
+    return rows
+        .filter((r) => r.length === header.length)
+        .slice(0, limit === Infinity ? undefined : limit)
+        .map((r) => Object.fromEntries(header.map((h, i) => [h, value(r[i])])))
+}
 
-fs.mkdirSync(OUT_DIR, { recursive: true })
-fs.writeFileSync(path.join(OUT_DIR, "programme.json"), JSON.stringify(records))
+// Script entry. Guarded so the parsing above can be imported and unit-tested
+// without a network call — it is the one piece of real logic in any fetch.js here,
+// and the golden-file tests enter after it.
+async function main() {
+    const OUT_DIR = process.argv[2]
+    const CSV_URL = process.argv[3] ?? "https://fdb.cdl.correlaid.org/data/programme.csv"
+    // argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
+    const { limit } = JSON.parse(process.argv[4] || "{}")
+    const LIMIT = Number(limit?.[0]) || Infinity
 
-const skipped = rows.length - rows.filter((r) => r.length === header.length).length
-console.log(`  ${records.length} programmes of ${rows.length}`
-    + `${skipped ? ` (${skipped} malformed rows skipped)` : ""}`
-    + ` (limit ${LIMIT === Infinity ? "none" : LIMIT}) → ${OUT_DIR}`)
+    const res = await fetch(CSV_URL, { headers: { Accept: "text/csv" } })
+    if (!res.ok) throw new Error(`FDB CSV failed: ${res.status} ${res.statusText}`)
+    const text = await res.text()
+
+    const [header, ...rows] = parseCsv(text)
+    if (!header?.includes("id_url")) {
+        throw new Error(`FDB CSV has no id_url column — got [${header?.slice(0, 5)}…]. Upstream schema changed?`)
+    }
+    const records = toRecords(rows, header, LIMIT)
+
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(path.join(OUT_DIR, "programme.json"), JSON.stringify(records))
+
+    const skipped = rows.length - rows.filter((r) => r.length === header.length).length
+    console.log(`  ${records.length} programmes of ${rows.length}`
+        + `${skipped ? ` (${skipped} malformed rows skipped)` : ""}`
+        + ` (limit ${LIMIT === Infinity ? "none" : LIMIT}) → ${OUT_DIR}`)
+}
+
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) await main()

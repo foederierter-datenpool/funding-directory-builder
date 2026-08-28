@@ -101,7 +101,8 @@
     # several values. See sources/fdbBund/fetch.js.
     :format       ft:JSON ;
     :hasField     :fdb-title, :fdb-description, :fdb-url,
-                  :fdb-location, :fdb-funderLevel .
+                  :fdb-location, :fdb-funderLevel, :fdb-fundingArea,
+                  :fdb-eligibleApplicant, :fdb-fundingType .
 :fdb-title       a :SourceField ; :fieldPath "title" .
 :fdb-description a :SourceField ; :fieldPath "description" .
 :fdb-url         a :SourceField ; :fieldPath "url" .

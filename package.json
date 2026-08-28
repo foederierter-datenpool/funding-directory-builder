@@ -8,7 +8,10 @@
     "federate": "directory-builder federate",
     "validate": "directory-builder validate",
     "webapp": "directory-builder webapp",
-    "webapp:build": "directory-builder webapp build"
+    "webapp:build": "directory-builder webapp build",
+    "test": "node --test test/*.test.js",
+    "test:update": "UPDATE_FIXTURES=1 node --test test/extract.test.js",
+    "test:coverage": "node test/coverage.js"
   },
   "dependencies": {
     "@directory-builder/core": "^0.3.8",
