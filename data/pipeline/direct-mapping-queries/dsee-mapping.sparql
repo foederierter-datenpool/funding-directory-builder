@@ -1,0 +1,30 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX cdf: <https://civic-data.de/federated-directory#>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?entity a schema:FundingScheme ; cdp:fromSource cdp:dseeSource .
+        ?entity schema:name ?title .
+        ?entity schema:description ?description .
+        ?entity schema:url ?url .
+        ?entity cdf:fundingArea ?fundingArea .
+        ?entity dct:spatial ?location .
+        ?entity cdf:deadlineModel ?deadlineModel .
+    }
+} WHERE {
+    GRAPH <urn:source:dsee> {
+        ?entity cdp:fromSource cdp:dseeSource .
+        OPTIONAL { ?entity cdp:targetSchema ?_ts }
+        FILTER(!bound(?_ts) || ?_ts = cdp:fundingOpportunitySchema)
+        OPTIONAL { ?entity xyz:title ?title . FILTER(isLiteral(?title) && REPLACE(STR(?title), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:description ?description . FILTER(isLiteral(?description) && REPLACE(STR(?description), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:url ?url . FILTER(isLiteral(?url) && REPLACE(STR(?url), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:fundingArea ?fundingArea . FILTER(isLiteral(?fundingArea) && REPLACE(STR(?fundingArea), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:location ?location . FILTER(isLiteral(?location) && REPLACE(STR(?location), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:deadlineModel ?deadlineModel . FILTER(isLiteral(?deadlineModel) && REPLACE(STR(?deadlineModel), "\\s+", "") != "") }
+    }
+}

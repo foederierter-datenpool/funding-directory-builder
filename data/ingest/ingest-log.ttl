@@ -1,0 +1,22 @@
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+:fetchFdbBund a :Fetch, p-plan:Step ; :fromSource :fdbBundSource .
+:fetchDsee a :Fetch, p-plan:Step ; :fromSource :dseeSource .
+:fetchEuportal a :Fetch, p-plan:Step ; :fromSource :euportalSource .
+:fetchFoerderfinder a :Fetch, p-plan:Step ; :fromSource :foerderfinderSource .
+:liftFdbBund a :Lift, p-plan:Step ; :fromSource :fdbBundSource ; p-plan:isPrecededBy :fetchFdbBund .
+:liftDsee a :Lift, p-plan:Step ; :fromSource :dseeSource ; p-plan:isPrecededBy :fetchDsee .
+:liftEuportal a :Lift, p-plan:Step ; :fromSource :euportalSource ; p-plan:isPrecededBy :fetchEuportal .
+:liftFoerderfinder a :Lift, p-plan:Step ; :fromSource :foerderfinderSource ; p-plan:isPrecededBy :fetchFoerderfinder .
+
+:run20260828144053 a :IngestRun ;
+    prov:startedAtTime "2026-08-28T14:40:53.226Z"^^xsd:dateTime ;
+    prov:endedAtTime   "2026-08-28T14:42:29.415Z"^^xsd:dateTime ;
+    :harvested
+        [ :ofSource :fdbBundSource ; prov:atTime "2026-08-28T14:41:00.450Z"^^xsd:dateTime ] ,
+        [ :ofSource :dseeSource ; prov:atTime "2026-08-28T14:41:11.511Z"^^xsd:dateTime ] ,
+        [ :ofSource :euportalSource ; prov:atTime "2026-08-28T14:41:15.111Z"^^xsd:dateTime ] ,
+        [ :ofSource :foerderfinderSource ; prov:atTime "2026-08-28T14:41:17.463Z"^^xsd:dateTime ] .

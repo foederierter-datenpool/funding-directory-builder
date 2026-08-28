@@ -1,0 +1,11 @@
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+
+:extractFdbBund a :Extract, p-plan:Step ; :fromSource :fdbBundSource ; p-plan:isPrecededBy :liftFdbBund .
+:extractDsee a :Extract, p-plan:Step ; :fromSource :dseeSource ; p-plan:isPrecededBy :liftDsee .
+:extractEuportal a :Extract, p-plan:Step ; :fromSource :euportalSource ; p-plan:isPrecededBy :liftEuportal .
+:extractFoerderfinder a :Extract, p-plan:Step ; :fromSource :foerderfinderSource ; p-plan:isPrecededBy :liftFoerderfinder .
+:mapStep a :Map, p-plan:Step ; p-plan:isPrecededBy :extractFdbBund, :extractDsee, :extractEuportal, :extractFoerderfinder .
+:matchStep a :Match, p-plan:Step ; p-plan:isPrecededBy :mapStep .
+:mergeStep a :Merge, p-plan:Step ; p-plan:isPrecededBy :matchStep .
+:resolveStep a :Resolve, p-plan:Step ; p-plan:isPrecededBy :mergeStep .

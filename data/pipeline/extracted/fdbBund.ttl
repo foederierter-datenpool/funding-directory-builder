@@ -1,0 +1,444 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix cdp: <https://civic-data.de/pipeline#>.
+
+cdp:fdb-bund-bkm-medialeistungen cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Vergabe von Medialeistungen im Rahmen des Filmförderungsgesetzes 2025";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BKM/medialeistungen.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmbf-e2health-validierungsstudien-modul1 cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Forschungsprojekten zum Thema Klinische Validierungsstudien (?e2Health ? In silico-Forschung für die Medizin der Zukunft?) ? Modul 1";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMBF/e2health-validierungsstudien-modul1.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "digitalisierung", "forschung_und_innovation_themenspezifisch", "gesundheit_und_soziales";
+    xyz:eligibleApplicant "forschungseinrichtungen", "unternehmen", "hochschule";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmbf-foerderung-forschende-fachaerztinnen-unimedizin cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von forschenden Fachärztinnen und Fachärzten in der Universitätsmedizin";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMBF/foerderung-forschende-fachaerztinnen-unimedizin.html";
+    xyz:fundingArea "forschung_und_innovation_themenspezifisch", "gesundheit_und_soziales", "aus_und_weiterbildung";
+    xyz:eligibleApplicant "forschungseinrichtungen", "hochschule".
+cdp:fdb-bund-bmbf-interakt-gamification-techno-psychisch-gesund-kind cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Projekten zum Thema ?Interaktive und Gamification -basierte Technologien zur Förderung der psychischen Gesundheit im Kindesalter?";
+    xyz:description "Das Bundesministerium für Bildung und Forschung (BMBF) unterstützt Projekte, die mittels interaktiver Technologien zur Unterstützung psychotherapeutischer Maßnahmen für Kinder sowie zur Vermittlung entsprechender, im Alltag anwendbarer Fähigkeiten und Fertigkeiten beitragen. Gefördert werden Forschungs- und Entwicklungsaktivitäten in 2 Modulen: Modul 1 ? Thematische Verbundprojekte: Gefördert werden vorwettbewerbliche wissenschaftliche Verbundvorhaben zur partizipativen Entwicklung, Erprobung und Überprüfung interaktiver, digitaler Technologien zur Förderung der psychischen Gesundheit im Kindesalter in Form eines Proof of Concept , Modul 2 ? Wissenschaftliches Begleitprojekt: Gefördert wird ein Begleitprojekt, das sich elementaren und für alle Projekte gültigen Fragestellungen widmet, die sich aus der Techniknutzung innerhalb therapeutischer Anwendungsszenarien sowie damit einhergehenden Auswirkungen und Besonderheiten der Mensch-Technik-Interaktion ergeben. Sie erhalten die Förderung als Zuschuss in Modul 1 für 36 Monate und in Modul 2 für insgesamt 40 Monate. Als Unternehmen der gewerblichen Wirtschaft und als Forschungseinrichtung mit einem wirtschaftlichen Vorhaben erhalten Sie meistens 50 Prozent Ihrer förderfähigen Kosten als Zuschuss. Als kleines oder mittleres Unternehmen (KMU) können Sie unter bestimmten Voraussetzungen einen Bonus erhalten. Hierfür müssen Sie die Kriterien der EU für KMU erfüllen. Als Hochschule oder außeruniversitäre Einrichtung können Sie bis zu 100 Prozent der zuwendungsfähigen Ausgaben erhalten. Wenn Sie als Hochschule oder Universitätsklinik ein nichtwirtschaftliches Forschungsvorhaben planen, können Sie zusätzlich zu Ihren zuwendungsfähigen Ausgaben eine Projektpauschale in Höhe von 20 Prozent erhalten. Sie erhalten maximal 1.600.000 EUR pro Verbund. Ihren Antrag stellen Sie in einem zweistufigen Verfahren. In der 1. Stufe reichen Sie bitte Ihre Projektskizze bei der VDI / VDE Innovation + Technik GmbH ein. In der 2. Verfahrensstufe werden Sie für Ihre positiv bewertete Projektskizze aufgefordert, einen förmlichen Förderantrag vorzulegen. Für die Erstellung Ihres Antrags nutzen Sie bitte das elektronische Antragssystem easy-Online.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMBF/interakt-gamification-techno-psychisch-gesund-kind.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "unternehmen", "hochschule", "existenzgruenderin";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmbf-kombinationstherapien-unf-therapieadhaerenz cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Projekten zum Thema Transnationale Forschungsprojekte innerhalb der Europäischen Partnerschaft One Health Antimicrobial Resistance zu Kombinationstherapien und Therapieadhärenz";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMBF/kombinationstherapien-unf-therapieadhaerenz.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "forschung_und_innovation_themenspezifisch";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "unternehmen", "hochschule";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmbf-praevention-darmkrebs-juengere-kuenftige cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Forschungsverbünde zur Prävention von Darmkrebs in jüngeren und künftigen Generationen";
+    xyz:description "Das Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) fördert Forschungsverbünde, die schnelle Fortschritte in der Forschung bei jungen Menschen mit Darmkrebs erzielen können. In Forschungsverbünden befassen Sie sich mit folgenden Themen: Ursachenforschung zum Anstieg der Häufigkeit von Darmkrebs bei jüngeren Menschen, Entwicklung und Testung von Vorgehensweisen in der Sekundärprävention von Darmkrebs, insbesondere Früherkennungsverfahren, Forschung zur Tertiärprävention von Darmkrebs, zum Beispiel relevante Faktoren bei jüngeren Patienten. Sie erhalten die Förderung als Zuschuss für einen Zeitraum von meistens bis zu 4 Jahren. Nach einer Zwischenevaluation ist die Förderung für weitere 4 Jahre möglich. Als Unternehmen der gewerblichen Wirtschaft und als Forschungseinrichtungen mit einem wirtschaftlichen Vorhaben erhalten Sie meistens 50 Prozent Ihrer förderfähigen Kosten als Zuschuss. Als Hochschule oder außeruniversitäre Einrichtung können Sie bis zu 100 Prozent der zuwendungsfähigen Ausgaben erhalten. Wenn Sie als Hochschule oder Uniklinik ein Forschungsvorhaben planen, können Sie zusätzlich zu Ihren zuwendungsfähigen Ausgaben eine Projektpauschale in Höhe von 20 Prozent erhalten. Das Förderverfahren ist zweistufig. In der 1. Stufe reichen Sie eine Projektskizze beim DLR Projektträger ein. Für die Erstellung Ihrer Projektskizze nutzen Sie bitte das elektronische Antragssystem easy-Online (siehe weiterführende Links). In der 2. Verfahrensstufe werden Sie für Ihre positiv bewertete Projektskizze aufgefordert, einen förmlichen Förderantrag vorzulegen. Für die Erstellung Ihres Antrags nutzen Sie bitte das elektronische Antragssystem easy-Online (siehe weiterführende Links).";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMBF/praevention-darmkrebs-juengere-kuenftige.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "forschung_und_innovation_themenspezifisch";
+    xyz:eligibleApplicant "forschungseinrichtungen", "unternehmen", "hochschule";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmfsfj-bildung-u-engagement-ein-leben-lang-bell cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung im Rahmen des ESF-Plus Programms \"Bildung und Engagement ein Leben lang\" (BELL)";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMFSFJ/bildung-u-engagement-ein-leben-lang-bell.html";
+    xyz:fundingArea "kultur_medien_und_sport", "gesundheit_und_soziales", "aus_und_weiterbildung";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "bildungseinrichtung".
+cdp:fdb-bund-bmu-massnahmen-zur-anpassung-an-den-klimawandel cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Maßnahmen zur Anpassung an die Folgen des Klimawandels";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMU/massnahmen-zur-anpassung-an-den-klimawandel.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "smart_cities_und_regionen", "umwelt_und_naturschutz";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "unternehmen", "hochschule", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmwi-bundesfoerderung-effiziente-gebaeude-komm-kredit cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Bundesförderung für effiziente Gebäude (BEG) für Kommunen ? Kredit";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/bundesfoerderung-effiziente-gebaeude-komm-kredit.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "smart_cities_und_regionen", "wohnungsbau_und_modernisierung", "energieeffizienz_und_erneuerbare_energien";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-bund-bmwi-bundesfoerderung-effiziente-nichtwohngebaeude cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Bundesförderung für effiziente Gebäude ? Nichtwohngebäude (BEG NWG)";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/bundesfoerderung-effiziente-nichtwohngebaeude.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "privatpersonen", "unternehmen";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-bund-bmwi-internationale-klimaschutzinitiative-2022 cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Internationale Klimaschutzinitiative (IKI)";
+    xyz:description "Ziel und Gegenstand Die Internationale Klimaschutzinitiative (IKI) des Bundesministeriums für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN) finanziert Klima- und Biodiversitätsprojekte in Entwicklungs- und Schwellenländern sowie in den Transformationsstaaten. Gefördert werden Projekte zu übergreifenden Maßnahmen in den folgenden vier Förderbereichen: Minderung von Treibhausgasemissionen, Anpassung an die Folgen des Klimawandels, Erhalt natürlicher Kohlenstoffsenken mit Schwerpunkt auf die Vermeidung von Entwaldung und Walddegradierung ( REDD+-- Reducing Emissions from Deforestation and Forest Degradation, deutsch: Verringerung von Emissionen aus Entwaldung und Waldschädigung ), Schutz der biologischen Vielfalt. Die Projekte sollen die Kooperationsländer beim Erreichen der Ziele des Übereinkommens von Paris (ÜvP), der Klimarahmenkonvention der Vereinten Nationen (VN), der national festgelegten Klimaschutzbeiträge (Nationally Determined Contributions ? NDCs) und des Übereinkommens über die biologische Vielfalt ( CBD-- Convention on Biological Diversity, deutsch: Übereinkommen über die biologische Vielfalt ) unterstützen. Das Förderinstrument ? IKI--Internationale Klimaschutzinitiative Large Grants? schreibt jährlich einen Ideenwettbewerb über Themen- und Länderschwerpunkte aus für Großprojekte mit einer Projektdauer von bis zu 8 Jahren und einer Förderhöhe zwischen 5.000.000 EUR und 20 .000.000 EUR . Die IKI--Internationale Klimaschutzinitiative Large Grants Auswahlverfahren für Großprojekte richten sich an Zusammenschlüsse von Organisationen und Unternehmen in einem Konsortium. Durch das Förderinstrument ? IKI--Internationale Klimaschutzinitiative Invest? werden jährlich Finanzierungsfonds und Multilaterale Initiativen gefördert. Die Einzahlungen der IKI--Internationale Klimaschutzinitiative verfolgen das Ziel der Stärkung der multilateralen Zusammenarbeit und der Mobilisierung privaten Kapitals für Investitionen in den Klima- und Biodiversitätsschutz. Förderfähig sind internationale Organisationen, multilaterale Entwicklungsbanken sowie die KfW , bei denen die Bundesrepublik als Mitglied/Anteilseigner über Mitbestimmungsrechte verfügt. Unter dem Förderinstrument ? IKI--Internationale Klimaschutzinitiative Medium Grants? werden jährlich Förderschwerpunkte für Kleinprojekte mit einer Projektdauer von 2 bis 3 Jahren und einer Förderhöhe zwischen 300.000 EUR und 800.000 EUR vorgegeben. Sie richten sich an gemeinnützige Organisationen und Unternehmen mit Sitz in Deutschland spätestens zum Zeitpunkt der ersten Auszahlung Das Förderinstrument ? IKI--Internationale Klimaschutzinitiative Small Grants? unterstützt Projekte mit einer Projektdauer von 1 bis 3 Jahren, die über einen internationalen Wettbewerb ausgewählt werden, mit jeweils bis zu 200.000 EUR . ? IKI--Internationale Klimaschutzinitiative Small Grants? richtet sich an regionale, nationale und lokale Organisationen mit Sitz in Entwicklungs- und Schwellenländern. Antragsberechtigte Antragsberechtigt sind unterschiedliche Akteure aus dem In- und Ausland, wie Nichtregierungsorganisationen, Wirtschaftsunternehmen, Hochschulen und Forschungseinrichtungen, Durchführungsorganisationen der Bundesrepublik Deutschland, Institutionen in den Kooperationsländern (unter anderem akkreditierte nationale Umsetzungsorganisationen bei internationalen oder multilateralen Organisationen) sowie internationale zwischenstaatliche Organisationen und Einrichtungen, wie Entwicklungsbanken, Organisationen und Programme der Vereinten Nationen. Art und Höhe der Förderung Die Förderung erfolgt in Form eines Zuschusses für einen Zeitraum von bis zu 8 Jahren. Die Höhe der Förderung ist abhängig von der geplanten Maßnahme.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/internationale-klimaschutzinitiative-2022.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "unternehmen", "hochschule";
+    xyz:fundingType "zuschuss".
+cdp:fdb-bund-bmwsb-pilotprojekte-innovationen-im-gebaeudebereich cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Pilotprojekten zu Innovationen im Gebäudebereich";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWSB/pilotprojekte-innovationen-im-gebaeudebereich.html";
+    xyz:fundingArea "staedtebau_und_stadterneuerung", "forschung_und_innovation_themenspezifisch", "umwelt_und_naturschutz", "wohnungsbau_und_modernisierung";
+    xyz:eligibleApplicant "forschungseinrichtungen", "privatpersonen", "unternehmen".
+cdp:fdb-bund-lr-agrar-und-ernaehrungswirtschaft-betriebsmittel cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Agrar- und Ernährungswirtschaft ? Betriebsmittel";
+    xyz:description "Die Landwirtschaftliche Rentenbank unterstützt Sie als agrar- und ernährungswirtschaftliches Unternehmen mit einem zinsgünstigen Kredit. Die Landwirtschaftliche Rentenbank gewährt Ihnen einen Kredit für folgende Vorhaben: Erwerb von Betriebsmitteln, Unternehmenskauf sowie Unternehmensübernahme. Die Förderung besteht in einem zinsgünstigen Darlehen. Die Höhe des Darlehens beträgt pro Unternehmen und Jahr bis zu EUR 10 Millionen. Damit können Sie bis zu 100 Prozent der förderfähigen Kosten finanzieren. Sie beantragen die Förderung über Ihre Hausbank bei der Landwirtschaftlichen Rentenbank. Sie können das Darlehen mit anderen Förderprogrammen kombinieren.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/LR/agrar-und-ernaehrungswirtschaft-betriebsmittel.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE";
+    xyz:fundingArea "unternehmensfinanzierung", "landwirtschaft_und_laendliche_entwicklung";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-eu-challenge-world-class-manufacturing cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Challenge Towards World Class Manufacturing (WCM)";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/EU/challenge-world-class-manufacturing.html";
+    xyz:funderLevel "eu";
+    xyz:location "DE";
+    xyz:fundingArea "aus_und_weiterbildung", "aussenwirtschaft";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-eu-europaeischer-verteidigungsfonds cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Europäischer Verteidigungsfonds";
+    xyz:description "Ziel des Fonds ist es, die Wettbewerbsfähigkeit, Innovation, Effizienz und technologische Autonomie der Verteidigungsindustrie der Europäischen Union zu steigern sowie durch die Unterstützung die grenzüberschreitende Zusammenarbeit zwischen strategischen Partnern in der Verteidigungsindustrie zu fördern. Mitfinanziert werden Maßnahmen in der Entwicklungsphase sowohl für neue Verteidigungsgüter und -technologien als auch für die Optimierung bestehender Güter und Technologien. Die Maßnahmen müssen sich auf Folgendes konzentrieren: ein ganzheitliches Konzept des modernen Gefechtsfeldes herausbilden, einen entscheidenden technologischen Impuls in allen Fähigkeitsbereichen sowie innovative, zukunftsorientierte Verteidigungslösungen ermöglichen, den Fähigkeitenaufbau fördern sowie den Aufbau ambitionierter Verteidigungssysteme unterstützen. Zu den weiteren Zielen des Programms gehören die Unterstützung der grenzüberschreitenden Zusammenarbeit zwischen Unternehmen und die Schaffung gemeinsamer technischer Standards. Aus dem Fonds werden je nach Voraussetzungen bis zu 100 Prozent der förderfähigen Kosten finanziert. Konkrete Fördermöglichkeiten finden Sie in Ausschreibungen im Rahmen jährlicher Arbeitsprogramme, die Sie auf der Webseite des Europäischen Verteidigungsfonds abrufen können.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/EU/europaeischer-verteidigungsfonds.html";
+    xyz:funderLevel "eu";
+    xyz:location "DE";
+    xyz:fundingArea "forschung_und_innovation_themenspezifisch";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-baden-wuerttemberg-denkmalschutz-sonderprogramm-bw cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung im Rahmen des Denkmalschutz-Sonderprogramms";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Baden-Wuerttemberg/Denkmalschutz-Sonderprogramm-BW.html";
+    xyz:funderLevel "bund";
+    xyz:location "DE1";
+    xyz:fundingArea "kultur_medien_und_sport", "staedtebau_und_stadterneuerung", "umwelt_und_naturschutz", "infrastruktur", "regionalfoerderung";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "privatpersonen", "unternehmen", "hochschule", "existenzgruenderin", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-bayern-ausfallbuergschaften-bbb-fit-bay cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Ausfallbürgschaften der Bürgschaftsbank Bayern - Sonderprogramm BBB fit";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Bayern/ausfallbuergschaften-bbb-fit-bay.html";
+    xyz:funderLevel "land";
+    xyz:location "DE2";
+    xyz:fundingArea "existenzgruendung_und_festigung", "unternehmensfinanzierung";
+    xyz:eligibleApplicant "unternehmen", "existenzgruenderin";
+    xyz:fundingType "buergschaft".
+cdp:fdb-land-bayern-verbesserung-der-mobilitaet-im-laendlichen-raum cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Ergänzende Nahverkehrsangebote zur Verbesserung der Mobilität im ländlichen Raum mit bedarfsorientierten Bedienformen des allgemeinen ÖPNV und Pilotprojekten landkreisübergreifender Expressbusverbindungen im Omnibusverkehr (ErNa)";
+    xyz:description "Der Freistaat Bayern unterstützt Sie bei Verkehrsprojekten des öffentlichen Personennahverkehrs ( ÖPNV ) zur Verbesserung der Mobilität in Räumen mit besonderem Handlungsbedarf beziehungsweise im ländlichen Raum, um die Erschließung im ÖPNV in allen Landesteilen Bayerns auszubauen und die Fahrtmöglichkeiten ganztägig zu verbessern. Dabei hat der Freistaat ein besonderes Interesse an der Förderung von Angeboten mit sauberen leichten Nutzfahrzeugen, am Einsatz hochautomatisierter Fahrzeuge (Level 4) und autonomer Fahrzeuge (Level 5) sowie neuer, serienreifer Technologien in der Mobilität. Sie bekommen die Förderung vor allem für die Einrichtung und die wesentliche Erweiterung von flexiblen und bedarfsorientierten Bedienformen im ÖPNV sowie landkreisübergreifenden Expressbusverbindungen. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses ist im Rahmen einer Anschubfinanzierung degressiv gestaffelt und beträgt im 1. Jahr 65 Prozent, im 2. Jahr 55 Prozent, im 3. Jahr 45 Prozent, im 4. Jahr 40 Prozent und nach Ablauf der Anschubfinanzierung 35 Prozent der entstehenden Ausgaben der ÖPNV -Aufgabenträger für die Übernahme der Betriebskostendefizite. Für Projekte, die sich überwiegend in Räumen mit besonderem Handlungsbedarf im Sinne des jeweils geltenden Landesentwicklungsprogramms befinden und/oder die vollständig mit sauberen leichten Nutzfahrzeugen betrieben werden, wird der Fördersatz um jeweils 5 Prozentpunkte erhöht. Richten Sie Ihren Antrag bitte vor Beginn der Maßnahmen an die örtlich zuständige Bezirksregierung.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Bayern/verbesserung-der-mobilitaet-im-laendlichen-raum.html";
+    xyz:funderLevel "land";
+    xyz:location "DE2";
+    xyz:fundingArea "infrastruktur", "mobilitaet", "regionalfoerderung", "landwirtschaft_und_laendliche_entwicklung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-berlin-energieberatung-fuer-effizienz-und-optimierung cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Energieberatung für Effizienz und Optimierung (ENEO)";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Berlin/energieberatung-fuer-effizienz-und-optimierung.html";
+    xyz:funderLevel "land";
+    xyz:location "DE3";
+    xyz:fundingArea "wohnungsbau_und_modernisierung", "energieeffizienz_und_erneuerbare_energien", "beratung";
+    xyz:eligibleApplicant "verband_vereinigung", "privatpersonen", "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-brandenburg-qualifizierte-ausbildung-im-verbundsystem cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Qualifizierte Ausbildung im Verbundsystem";
+    xyz:description "Das Land Brandenburg unterstützt Sie mit Unterstützung des Europäischen Sozialfonds Plus ( ESF +) bei Maßnahmen, die der Stärkung der Ausbildungsbereitschaft und der Ausbildungskompetenzen von Betrieben dienen und zur Verbesserung der Ausbildungsqualität beitragen. Sie erhalten die Förderung für Vorhaben in den folgenden Bereichen: Allgemeine Verbundausbildung: Durchführung von Ausbildungsabschnitten bei einem Verbundpartner des den Ausbildungsvertrag abschließenden Betriebes, außerdem die Vermittlung von Zusatzqualifikationen sowie die Durchführung fachspezifischer Lehrgänge zur Prüfungsvorbereitung. Um die Integration bisher unversorgter Jugendliche zu verbessern, werden außerdem branchenspezifische Servicestellen gefördert.; Überbetriebliche Lehrlingsunterweisung im Handwerk ( ÜLU ): Durchführung anerkannter überbetrieblicher Lehrgänge im Handwerk in der Grundstufe (1. Ausbildungsjahr) sowie in der Fachstufe (2.?4. Ausbildungsjahr), Lehrgänge der Grundstufe in handwerklichen Bauberufen sowie die Unterbringung im Internat; Ausbildungsförderung in der Landwirtschaft: Teilnahme von Auszubildenden an Lehrgängen der überbetrieblichen Ausbildung und erforderliche Unterbringung, außerdem die Bildung von Ausbildungsnetzwerken; Servicestellen Verbundausbildung: Integration unversorgter Jugendlicher in Ausbildung, Bekanntmachung der Verbundausbildung und anderer Unterstützungsangebote sowie Koordinierungsstellen ?Gutes Lernen im Betrieb?: Organisation von Bildungsangeboten und Mentoring. Mit den Maßnahmen soll Jugendlichen eine betriebliche Ausbildung in einem Brandenburger Unternehmen ermöglicht werden. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses ist von der Art und dem Umfang Ihres geplanten Vorhabens abhängig: für die allgemeine Verbundausbildung: bis zu 90 Prozent Ihrer förderfähigen Gesamtausgaben, für die überbetriebliche Lehrlingsunterweisung: in der Grundstufe bis zu 2 Drittel der anerkannten Lehrgangskosten, in der Fachstufe in Höhe des Fördersatzes des Bundes (zusammen bis zu 2 Drittel der anerkannten Lehrgangskosten), Lehrgänge der Grundstufe in Handwerksbauberufen EUR 48,00 pro Auszubildender oder Auszubildendem und Woche (bei Internatsunterbringung EUR 38,00 zusätzlich), Ausbildungsförderung in der Landwirtschaft: für überbetriebliche Lehrgänge bis zu EUR 412,00 je Auszubildender oder Auszubildendem und Lehrgangswoche, für Netzwerke bis zu 90 Prozent der förderfähigen Gesamtausgaben bei neuen und bis zu 70 Prozent bei bestehenden Netzwerken, für Servicestellen Verbundausbildung: bis zu EUR 80.000 pro Jahr über eine Laufzeit von bis zu 3 Jahren, Gutes Lernen im Betrieb: bis zu EUR 50.000 je Kammer und Ausbildungsjahr über eine Laufzeit von bis zu 3 Jahren. Die Anträge für die einzelnen Maßnahmen können Sie wie folgt stellen: Für die allgemeine Verbundausbildung reichen Sie Ihren Antrag mindestens 4 Wochen vor Maßnahmenbeginn ein. Für das Modul ?Zusatzqualifikationen/Schlüsselkompetenzen, Prüfungsvorbereitung? können Sie jederzeit einen Antrag stellen. Für die überbetriebliche Lehrlingsunterweisung reichen Sie Ihre Anträge in Form eines Sammelantrages je Handwerkskammer für ein Kalenderjahr bis zum 1.11. des Vorjahres ein. Anträge für überbetriebliche Lehrgänge in der Landwirtschaft stellen Sie mindestens 6 Wochen vor Beginn der Maßnahme. Anträge für die Servicestellen Verbundausbildung und Koordinierungsstellen ?Gutes Lernen im Betrieb? können Sie jeweils bis zu den bei der ILB genannten Stichtagen einreichen. Stellen Sie bitte Ihren Antrag über das Kundenportal der Investitionsbank des Landes Brandenburg.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Brandenburg/qualifizierte-ausbildung-im-verbundsystem.html";
+    xyz:funderLevel "land";
+    xyz:location "DE4";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:eligibleApplicant "verband_vereinigung", "unternehmen", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-bremen-erp-bremer-foerderkredit-haftung cdp:fromSource cdp:fdbBundSource;
+    xyz:title "ERP -Bremer Förderkredit KMU mit Haftungsfreistellung (ERP-BFKH KMU)";
+    xyz:description "Die Bremer Aufbau-Bank unterstützt Sie als junges oder etabliertes Unternehmen bei der mittel- und langfristigen Finanzierung von Investitionen im Land Bremen. Sie erhalten die Förderung als kleines oder mittleres Unternehmen ( KMU ) zum Beispiel zur Finanzierung in den folgenden Bereichen: Erwerb von Grundstücken und Gebäuden, Baumaßnahmen, Kauf von Maschinen, Anlagen und Einrichtungsgegenständen, Beschaffung und Aufstockung des Material-, Waren- oder Ersatzteillagers, Betriebsmittel zur Deckung wachstumsbedingten Liquiditätsbedarfes. Sie erhalten die Förderung als Darlehen mit Haftungsfreistellung. Für Finanzierungspartner (Banken und Sparkassen) ist eine Haftungsfreistellung von 50 Prozent möglich. Das bedeutet, die Bremer Aufbau-Bank vereinbart mit Ihrer Bank eine Risikoverteilung. Das Kreditausfallrisiko übernimmt mit 50 Prozent die Bremer Aufbau-Bank und die restlichen 50 Prozent trägt Ihre Bank. Häufig sind Banken erst durch diese Risikoübernahme zur Finanzierung eines Vorhabens bereit. Als Kreditnehmerin und Kreditnehmer haften Sie zu 100 Prozent für die Rückzahlung. Die Höhe des Darlehens beträgt pro Vorhaben bis zu EUR 5 Millionen mit einer Haftungsfreistellung von 50 Prozent. Das Gesamtrisiko aus der Haftungsfreistellung ist damit auf EUR 2,5 Millionen pro Vorhaben begrenzt. Ihren Antrag stellen Sie bitte vor Beginn der Maßnahmen bei Ihrer Hausbank. Der Förderantrag wird von dort an die Bremer Aufbau-Bank weitergeleitet. Für die Erstellung Ihres Antrags nutzen Sie bitte die Antragsformulare.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Bremen/erp-bremer-foerderkredit-haftung.html";
+    xyz:funderLevel "land";
+    xyz:location "DE5";
+    xyz:fundingArea "existenzgruendung_und_festigung", "unternehmensfinanzierung";
+    xyz:eligibleApplicant "unternehmen", "existenzgruenderin";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-land-hamburg-foerderrichtlinie-fuer-den-neubau-von-wohnraum cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung des Neubaus von Sonderwohnformen";
+    xyz:description "Das Land Hamburg fördert die Schaffung von Mietwohnungen für Menschen mit körperlichen, geistigen und/oder psychischen Einschränkungen sowie für pflegebedürftige Menschen, die sich am Wohnungsmarkt nicht selbst versorgen können. Sie können eine Förderung für folgende Sonderwohnformen erhalten: Typ 1: Gemeinschaftliches Wohnen in einer Großraumwohnung für mindestens 3 und höchstens 10 Personen mit individuellen und gemeinschaftlichen Flächen innerhalb der Wohnung, Typ 2: Gemeinschaftliches Wohnen mit abgeschlossenen Wohnungen für jeweils ein bis 2 Personen und zugehörigen gemeinsamen Wohnräumen zur gemeinschaftlichen Nutzung in einem Gebäude oder einer Wohnanlage. Das Förderangebot ist in Modulen aufgebaut. Das Grundmodul umfasst den Neubau mit Grundstücksankauf oder auf eingebrachtem Grundstück. Die Ergänzungsmodule sind: energiesparendes Bauen, nachhaltiges Bauen, barrierefreie Ausstattung, Gemeinschaftsräume, Aufzugsanlagen, Sicherheitstreppenräume, Stellplatzförderung, Vollsteinförderung, Backsteinförderung, lagetypische grundstücksbedingte Sonderbaukosten, städtebauliche Gestaltungsauflagen, Wettbewerbe. Sie erhalten die Förderung als zinsverbilligtes Darlehen in Verbindung mit laufenden und einmaligen Zuschüssen. Die Höhe der Förderung ist abhängig von Art und Umfang Ihres Vorhabens. Die Laufzeit der Darlehen beträgt bis zu 30 Jahre. Ihren Antrag richten Sie vor Beginn der zu fördernden Maßnahme und unter Verwendung der Antragsformulare an die Hamburgische Investitions- und Förderbank (IFB Hamburg). Mit den Baumaßnahmen dürfen Sie erst nach schriftlicher Zustimmung der IFB Hamburg beginnen.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Hamburg/foerderrichtlinie-fuer-den-neubau-von-wohnraum.html";
+    xyz:funderLevel "land";
+    xyz:location "DE6";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:eligibleApplicant "verband_vereinigung", "privatpersonen", "unternehmen";
+    xyz:fundingType "zuschuss", "kredit_darlehen".
+cdp:fdb-land-hamburg-neubau-mietwohnung-3weg cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung für den Neubau von Mietwohnungen ? 3. Förderweg";
+    xyz:description "Die Freie und Hansestadt Hamburg fördert den Neubau von preisgünstigen Mietwohnungen für Haushalte mit geringem und mittlerem Einkommen, die bestimmte Einkommensgrenzen einhalten oder einen Wohnberechtigungsschein haben. Begünstigt werden vor allem Familien, Menschen ab 60 Jahren, Menschen mit Behinderung und Menschen, die als vordringlich wohnungssuchend anerkannt sind. Sie erhalten die Förderung für Grundstückserwerb, den Neubau von Mietwohnungen in Mehrfamilienhäusern, die Erweiterung von bestehenden Gebäuden und barrierereduzierte Grundausstattung. Das Förderangebot ist in Modulen aufgebaut. Ein verpflichtendes Grundmodul können Sie mit frei wählbaren Ergänzungsmodulen kombinieren. Sie erhalten je nach Maßnahme ein zinsvergünstigtes Darlehen sowie laufende und einmalige Zuschüsse. Die Höhe der Förderung ist abhängig von Art und Umfang Ihres Vorhabens.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Hamburg/neubau-mietwohnung-3weg.html";
+    xyz:funderLevel "land";
+    xyz:location "DE6";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:eligibleApplicant "privatpersonen", "unternehmen";
+    xyz:fundingType "zuschuss", "kredit_darlehen".
+cdp:fdb-land-hessen-ausbau-inklusiver-kommunaler-angebote cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderrichtlinie zum Ausbau inklusiver kommunaler Angebote im Sinne der UN-Behindertenrechtskonvention";
+    xyz:description "Das Land Hessen unterstützt Sie als kommunale Gebietskörperschaft dabei, Barrieren im kommunalen Bereich zu beseitigen und gleichwertige und diskriminierungsfreie Lebensbedingungen für alle Menschen zu schaffen. Sie erhalten die Förderung für Investitionen bei Baumaßnahmen sowie damit verbundene Ausstattungsinvestitionen und Dienstleistungen (als notwenige Begleitmaßnahmen), die dem Abbau vorhandener Barrieren in Gebäuden und Einrichtungen dienen oder inklusive Begegnungsstätten für Menschen mit und ohne Behinderungen schaffen. Das sind beispielsweise Maßnahmen für hörbehinderte Menschen, wie Induktionsschleifen, optische Warn- und Notrufsysteme, optische Türeinlasssysteme, für blinde und sehbehinderte Menschen, wie Bodenleitsysteme, Tastmodelle, visuelle Kontraste, für kognitiv eingeschränkte Menschen, wie rientierungssysteme im Gebäude, Einsatz von Leichter Sprache auf Schildern, für mobilitätseingeschränkte Menschen, wie Aufzüge, Rampen, elektronisch zu öffnende Türen, zur Förderung der Begegnung von Menschen mit und ohne Behinderungen im Sozialraum, wie barrierefreie Begegnungsplätze oder inklusive Mehrgenerationenspielplätze. Im Rahmen eines inklusiven Gesamtkonzepts können Sie außerdem eine Förderung für nichtbauliche Elemente bekommen, die für die Wirksamkeit des Gesamten sinnvoll sind, wie zum Beispiel mobile Höranlagen. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt normalerweise bis zu 80 Prozent der zuwendungsfähigen Ausgaben, im Fall von Maßnahmen, die überörtliche und überregionale Bedeutung haben und allen hessischen Bürgerinnen und Bürgern offenstehen, auch bis zu 90 Prozent. Die zuwendungsfähigen Gesamtausgaben müssen normalerweise mindestens EUR 50.000 betragen. Richten Sie Ihren Antrag bitte bis zum 28.2. eines Jahres an das Hessische Ministerium für Arbeit, Integration, Jugend und Soziales.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Hessen/ausbau-inklusiver-kommunaler-angebote.html";
+    xyz:funderLevel "land";
+    xyz:location "DE7";
+    xyz:fundingArea "gesundheit_und_soziales", "infrastruktur";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-hessen-etablierung-von-familienzentren cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Etablierung von Familienzentren";
+    xyz:description "Das Land Hessen unterstützt Sie, wenn Sie Einrichtungen für Menschen aller Generationen und Kulturen als Familienzentren etablieren möchten. Sie erhalten die Förderung für die Errichtung und Inbetriebnahme von weiteren Familienzentren als wohnortnahe Kontakt- und Anlaufstellen für Familien in Hessen unter besonderer Berücksichtigung der Etablierung von Familienzentren im ländlichen Raum und die strukturelle, qualitative und nachhaltige Sicherung der familienbezogenen Angebote und Maßnahmen in den bestehenden Familienzentren. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt bis zu EUR 18.000 pro Einrichtung und Jahr. Richten Sie Ihren Antrag bitte bis zum 31.10. des Vorjahres an das Regierungspräsidium Kassel.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Hessen/etablierung-von-familienzentren.html";
+    xyz:funderLevel "land";
+    xyz:location "DE7";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-mecklenburg-vorpommern-integration-migration-mv cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Integration von Migranten";
+    xyz:description "Mecklenburg-Vorpommern unterstützt Sie bei bedarfsgerechten und regionalen Integrationsvorhaben, die zu einer besseren Teilhabe von Menschen mit Migrationshintergrund beitragen. Sie erhalten die Förderung für folgende Vorhaben: Projekte der migrationsspezifischen einschließlich der psychosozialen Beratung, die vorhandene Strukturen der Migrationserstberatung ergänzen, Projekte zur Verbesserung der Kommunikation, Verständigung und gesellschaftlichen Integration und Projekte zur Stärkung der Partizipation der Migrantinnen und Migranten sowie die Unterstützung von Vereinen und Initiativen von Migranten bei der Entwicklung von Hilfen zur Selbsthilfe sowie die verstärkte Einbeziehung von Migrantinnen und Migranten in das bürgerschaftliche Engagement von Vereinen, Verbänden und Parteien. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt normalerweise bis zu 80 Prozent der zuwendungsfähigen Ausgaben. Ihren Antrag richten Sie bitte vor Beginn Ihres Vorhabens bis zum 31.10. des vorangehenden Jahres an das Landesamt für Gesundheit und Soziales.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Mecklenburg-Vorpommern/integration-migration-mv.html";
+    xyz:funderLevel "land";
+    xyz:location "DE8";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:eligibleApplicant "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-niedersachsen-klimaschutz-und-energieeffizienz cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Klimaschutz und Energieeffizienz bei Unternehmen, bei öffentlichen Trägern und Kultureinrichtungen (Richtlinie ?Klimaschutz und Energieeffizienz?)";
+    xyz:description "Das Land Niedersachsen unterstützt Sie mit Mitteln des Europäischen Fonds für regionale Entwicklung ( EFRE ) bei Maßnahmen zum Klimaschutz und zur Energieeinsparung. Sie erhalten die Förderung für Investitionen in die energetische, über den gesetzlichen Standard hinausgehende Sanierung von Nichtwohngebäuden in Ihrem Eigentum, Investitionen in energieeffiziente oder treibhausgasmindernde Produktionsprozesse und -anlagen in Ihrem Eigentum, die Errichtung von Wärmenetzen im Zusammenhang mit energetischen Sanierungen von Gebäuden und Anlagen und der Nutzung von Abwärme, die nicht ausschließlich für diesen Zweck hergestellt wurde, sowie die Organisation betrieblicher Energieeffizienz- und Klimaschutz-Netzwerkeprojekte in Niedersachsen. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses aus EFRE -Mitteln beträgt normalerweise bis zu 40 Prozent der zuwendungsfähigen Ausgaben im Programmgebiet ?stärker entwickelte Region ? SER? und 60 Prozent im Programmgebiet ?Übergangsregion ? ÜR?. Die Förderung kann durch Landesmittel auf 60 Prozent der zuwendungsfähigen Ausgaben im Programmgebiet SER und 70 Prozent im Programmgebiet ÜR erhöht werden, für Kultureinrichtungen kann die Ergänzung höher ausfallen. Der Zuschuss beträgt maximal EUR 2 Millionen (gilt nicht für Kultureinrichtungen), für die Organisation von Netzwerk-Projekten maximal EUR 200.000, und muss EUR 25.000 übersteigen. Richten Sie Ihren Antrag bitte an die Investitions- und Förderbank Niedersachsen (NBank). Es können Antragsstichtage festgelegt werden, die im Internet veröffentlicht werden.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Niedersachsen/klimaschutz-und-energieeffizienz.html";
+    xyz:funderLevel "land";
+    xyz:location "DE9";
+    xyz:fundingArea "umwelt_und_naturschutz", "energieeffizienz_und_erneuerbare_energien";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-nrw-beteiligungskapital-fuer-kmu cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Beteiligungskapital für kleine und mittlere Unternehmen";
+    xyz:description "Die Kapitalbeteiligungsgesellschaft NRW (KBG) unterstützt Sie durch die Übernahme von Beteiligungen für Investitionen und investitionsabhängige Betriebsmittel. Die Förderung erhalten Sie für folgende Vorhaben: Existenzgründungen, Gründungs- und Festigungskosten für junge Unternehmen, die maximal 2 Jahre alt sind, Betriebsübernahmen sowie Zukunftsinvestitionen von etablierten Unternehmen, die mindestens 2 Jahre alt sind. Sie erhalten die Förderung als stille Beteiligung. Die Höhe der Beteiligung beträgt zwischen EUR 50.000 und EUR 1,5 Millionen. Die Laufzeit beträgt 7 bis 10 Jahre. Richten Sie Ihren Antrag bitte vor Beginn des Projekts an die Kapitalbeteiligungsgesellschaft NRW (KBG).";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/NRW/beteiligungskapital-fuer-KMU.html";
+    xyz:funderLevel "land";
+    xyz:location "DEA";
+    xyz:fundingArea "existenzgruendung_und_festigung", "unternehmensfinanzierung";
+    xyz:eligibleApplicant "unternehmen", "existenzgruenderin";
+    xyz:fundingType "beteiligung".
+cdp:fdb-land-nrw-neue-wege-in-nrw cdp:fromSource cdp:fdbBundSource;
+    xyz:title "NeueWege.IN.NRW ? Innovative Mobilität und Logistik";
+    xyz:description "Das Land Nordrhein-Westfalen unterstützt Sie auf Grundlage der EFRE /JTF-Rahmenrichtlinie NRW bei Forschungs-, Entwicklungs- und Innovationsprojekten, die nachhaltige Mobilitäts- oder Logistikansätze auf Schiene, Straße, Wasser oder in der Luft verfolgen und ein hohes ökonomisches und ökologisches Potenzial für NRW aufweisen. Sie erhalten die Förderung bevorzugt für Kooperationsvorhaben in folgenden Themenschwerpunkten: neue, vernetzte multi- und intermodale Mobilitäts- und Logistiklösungen, Erprobung neuer klimafreundlicher Technologien und Prototypen automatisierter und vernetzter Mobilität, Digitalisierung von Mobilitätsdaten für die Mobilität als Dienstleistung und für Logistikanwendungen, neue Ansätze intelligenter Verkehrsmanagementsysteme und integrierter Vorhaben. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt für kleine Unternehmen bei Verbundvorhaben mit technischen Innovationen höchstens 80 Prozent, bei entsprechenden Einzelvorhaben höchstens 70 Prozent und bei Prozess- oder Organisationsinnovationen höchstens 50 Prozent, für mittlere Unternehmen bei Verbundvorhaben mit technischen Innovationen höchstens 75 Prozent, bei entsprechenden Einzelvorhaben höchstens 60 Prozent und bei Prozess- oder Organisationsinnovationen höchstens 50 Prozent sowie für Akteurinnen und Akteure, die das Projekt im nichtwirtschaftlichen Bereich durchführen (zum Beispiel Hochschulen und Forschungseinrichtungen), 90 Prozent der zuwendungsfähigen Ausgaben bei einer Projektlaufzeit von maximal 36 Monaten. Das Antragsverfahren ist zweistufig. Zunächst reichen Sie bitte Ihre Projektskizze über das Submission Tool zu festgelegten Einreichungsterminen bei der Innovationsförderagentur NRW (IN. NRW ) ein. Wird Ihre Projektskizze positiv bewertet, können Sie Ihren Antrag über das EFRE -Online-Portal bei der Innovationsförderagentur NRW stellen.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/NRW/neue-wege-in-nrw.html";
+    xyz:funderLevel "land";
+    xyz:location "DEA";
+    xyz:fundingArea "forschung_und_innovation_themenspezifisch", "mobilitaet";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "forschungseinrichtungen", "unternehmen", "hochschule";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-nrw-rahmenrichtlinien-vertragsnaturschutz cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Rahmenrichtlinien Vertragsnaturschutz";
+    xyz:description "Das Land Nordrhein-Westfalen unterstützt Sie aus Mitteln des Europäischen Landwirtschaftsfonds für die Entwicklung des ländlichen Raums ( ELER ) bei Maßnahmen des Vertragsnaturschutzes, die der Eindämmung und Umkehrung des Verlusts an biologischer Vielfalt und dem Erhalt von Arten, Lebensräumen und Landschaften dienen. Mit der Förderung können Sie folgende Vorhaben finanzieren: naturschutzgerechte Bewirtschaftung von Ackerflächen sowie die Umwandlung von Acker in Grünland mit anschließender extensiver Grünlandnutzung, naturschutzgerechte Bewirtschaftung von Grünland und Pflege von Offenlandbiotopen, Pflege und Ergänzungspflanzung von Streuobstwiesen, Pflege von Hecken. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses richtet sich nach der Art Ihrer Maßnahme. Die Bagatellgrenze beträgt EUR 100,00 bezogen auf die Grundbewilligung pro Jahr. Stellen Sie Ihren Antrag bitte über das elektronische Antragsverfahren zum 30.6. des jeweiligen Jahres vor Beginn des Förderzeitraumes bei den unteren Landschaftsbehörden der Kreise und kreisfreien Städte.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/NRW/rahmenrichtlinien-vertragsnaturschutz.html";
+    xyz:funderLevel "land";
+    xyz:location "DEA";
+    xyz:fundingArea "umwelt_und_naturschutz", "landwirtschaft_und_laendliche_entwicklung";
+    xyz:eligibleApplicant "verband_vereinigung", "privatpersonen", "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-rheinland-pfalz-startup-innovativ cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung für innovative Gründungen und junge Unternehmen (startup innovativ)";
+    xyz:description "Das Land Rheinlandpfalz unterstützt im Rahmen des Wettbewerbs ? startup innovativ? wissensbasierte und innovative Unternehmensgründungen in ihrer Aufbauphase. Sie bekommen die Förderung für folgende projektbezogene Vorhaben: Personalkosten, Durchführung von Machbarkeitsstudien, Entwicklung von Prototypen und deren Test beziehungsweise. Umsetzung, Markteinführung des Produkts oder der Dienstleistung, investive Maßnahmen wie Anschaffungs- und Herstellungsausgaben für Wirtschaftsgüter (beispielsweise Maschinen, Anlagen, EDV-Technik), Muster- und Patentanmeldungen, Entwicklung und der Erwerb von Normen und Standards und Errichtung eines betriebsspezifischen Qualitätsmanagementsystems, nicht investive Maßnahmen wie technische Beratungs- und Entwicklungsleistungen, Fort- und Weiterbildung von Mitarbeitenden sowie Aufwendungen entsprechend dem Landesreisekostengesetz. Sie bekommen die Förderung als einmaligen Zuschuss. Die Höhe des Zuschusses beträgt bis zu 75 Prozent der zuwendungsfähigen Ausgaben, jedoch höchstens EUR 100.000 je Gründungsvorhaben. Die Mindestförderhöhe beträgt EUR 10.000. Richten Sie Ihren Antrag bitte vor Beginn der zu fördernden Maßnahme und ausschließlich elektronisch im Rahmen von jährlichen Aufrufen an das Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Rheinland-Pfalz/startup-innovativ.html";
+    xyz:funderLevel "land";
+    xyz:location "DEB";
+    xyz:fundingArea "existenzgruendung_und_festigung";
+    xyz:eligibleApplicant "existenzgruenderin";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-saarland-staedtebaufoerderung cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Städtebauförderrichtlinien (StbFRL)";
+    xyz:description "Das Saarland fördert die Vorbereitung, Durchführung, Abwicklung und Finanzierung von Maßnahmen der nachhaltigen Stadtentwicklung. Sie bekommen die Förderung für die Vorbereitung von städtebaulichen Maßnahmen, Ordnungsmaßnahmen (unter anderem Bodenordnung, Grunderwerb, Umzug von Bewohnern und Betrieben, Freilegung von Grundstücken), Baumaßnahmen (unter anderem Modernisierung und Instandsetzung von Gebäuden in privatem Eigentum oder der Gemeinde, Gemeinbedarfs- und Folgeeinrichtungen, Neubau und Ersatzbau von Wohnungen, die Verlagerung oder Änderung von Betrieben), Maßnahmen anderer Finanzierungsträger sowie Vergütungen für Beauftragte und Kosten beim Abschluss der städtebaulichen Maßnahme, Maßnahmen der integrierten nachhaltigen Stadtentwicklung im Rahmen des saarländischen operationellen Programms ?Investitionen in Wachstum und Beschäftigung? für den Europäischen Fonds für Regionale Entwicklung ( EFRE ). Die Förderung erfolgt seit dem Programmjahr 2020 im Rahmen folgender Programme: Lebendige Zentren ? Erhalt und Entwicklung der Stadt- und Ortskerne, Sozialer Zusammenhalt ? Zusammenleben im Quartier gemeinsam gestalten, Wachstum und nachhaltige Erneuerung ? Lebenswerte Quartiere gestalten. Sie erhalten die Förderung als Zuschuss. Die Höhe der Förderung beträgt zwei Drittel der zuwendungsfähigen Ausgaben. Richten Sie Ihren Antrag bitte über die zuständige Kommunalaufsicht und direkt an das Ministerium für Inneres, Bauen und Sport. Das Ministerium für Inneres, Bauen und Sport stellt das Jahresprogramm auf.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Saarland/staedtebaufoerderung.html";
+    xyz:funderLevel "land";
+    xyz:location "DEC";
+    xyz:fundingArea "smart_cities_und_regionen", "staedtebau_und_stadterneuerung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-saarland-startkapital-programm-des-saarlandes cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Startkapital-Programm des Saarlandes";
+    xyz:description "Das Saarland stellt Ihnen als Existenzgründerin und Existenzgründer, Freiberuflerin und Freiberufler oder als Unternehmerin und Unternehmer Startkapital in Form von langfristigen Darlehen für Ihr noch junges Unternehmen zur Verfügung. Sie bekommen die Förderung zur Finanzierung von Investitionen und zur Anschaffung von Betriebsmitteln. Sie erhalten die Förderung als zinsgünstiges Darlehen. Die Höhe Ihres Darlehens beträgt bis zu 100 Prozent Ihres Gesamtfinanzierungsbedarfs. Der Höchstbetrag liegt bei EUR 25.000 innerhalb von 5 Jahren nach Aufnahme Ihrer selbstständigen Tätigkeit. Ihr Mindestkredit sollte EUR 2.500 betragen. Die Laufzeit Ihres Kredits beträgt bis zu 10 Jahre bei 2 tilgungsfreien Anlaufjahren. In den ersten 24 Monaten Ihrer Kreditlaufzeit trägt das Saarland die Zinsen. Unter besonderen Voraussetzungen kann die Zinssubvention auf 36 Monate verlängert werden. Schaffen Sie innerhalb von 2 Jahren mindestens 3 zusätzliche Vollarbeits- oder Ausbildungsplätze, können bis zu 20 Prozent Ihres Kreditbetrags in einen Zuschuss umgewandelt werden. Nehmen Sie freiwillig an einem der Förderprogramme ?Förderung unternehmerischen Know-hows? oder ?Beratungsprogramm Saarland? teil, wird Ihnen eine Zinssatzreduzierung um 1 Prozentpunkt gewährt. Bitte stellen Sie Ihren Antrag vor Beginn Ihres Vorhabens bei Ihrer Hausbank. Diese leitet ihn dann an die SIKB weiter. Bitte legen Sie Ihrem Antrag außerdem Ihr Unternehmenskonzept sowie den Nachweis über Ihre fachliche und berufliche Qualifikation bei.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Saarland/startkapital-programm-des-saarlandes.html";
+    xyz:funderLevel "land";
+    xyz:location "DEC";
+    xyz:fundingArea "existenzgruendung_und_festigung", "unternehmensfinanzierung", "frauenfoerderung";
+    xyz:eligibleApplicant "unternehmen", "existenzgruenderin";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-land-sachsen-anhalt-igb-offene-pari-passu-beteiligungen cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Beteiligungsgrundsätze der IBG Beteiligungsgesellschaft Sachsen-Anhalt mbH ? Offene Pari-Passu Beteiligungen und marktkonforme Wandlungsmaßnahmen (Keine Beihilfe)";
+    xyz:description "Die IBG Beteiligungsgesellschaft übernimmt offene Beteiligungen an technologieorientierten kleinen oder mittleren Unternehmen, die sich in der Gründungs- oder Wachstumsphase befinden. Es können auch stille Beteiligungen in offenes Kapital gewandelt werden. Die Beteiligung wird für folgende Vorhaben übernommen: Forschungs- und Entwicklungsarbeiten, dazu gehören auch die Herstellung und Erprobung von Prototypen, die Durchführung von Demonstrations- und Pilotvorhaben, Anpassungsentwicklungen bis zur Markteinführung der technisch neuen oder wesentlich verbesserten Produkte, Verfahren oder technischen Dienstleistungen, Markteinführung und Wachstumsfinanzierungen. Sie erhalten die Förderung als offene Beteiligung und/oder als Wandlung einer schon bestehenden stillen Beteiligung in offenes Kapital. Die Höhe der Beteiligung kann bis zu EUR 10 Millionen betragen. Offene Beteiligungen können als Minderheitsbeteiligung grundsätzlich bis zu 25 Prozent des Kapitals übernommen werden. Richten Sie Ihren Antrag bitte an die IBG Beteiligungsgesellschaft Sachsen-Anhalt mbH, c/o bmp Ventures AG .";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/igb-offene-pari-passu-beteiligungen.html";
+    xyz:funderLevel "land";
+    xyz:location "DEE";
+    xyz:fundingArea "existenzgruendung_und_festigung", "unternehmensfinanzierung", "forschung_und_innovation_themenoffen";
+    xyz:eligibleApplicant "unternehmen", "existenzgruenderin";
+    xyz:fundingType "beteiligung".
+cdp:fdb-land-sachsen-anhalt-regio-aktiv-famico cdp:fromSource cdp:fdbBundSource;
+    xyz:title "?REGIO AKTIV? ? Familien stärken ? Perspektiven eröffnen (FAMICO)";
+    xyz:description "Das Land Sachsen-Anhalt fördert Sie im Rahmen des Programms ?REGIO AKTIV? aus Mitteln des Europäischen Sozialfonds Plus ( ESF+ ), wenn Sie erwerbsfähige Hilfebedürftige aus Familienbedarfsgemeinschaften bei der Integration in sozialversicherungspflichtige Beschäftigung, in Ausbildung oder andere weiterführende Maßnahmen unterstützen. Sie erhalten die Förderung für Familienintegrationscoachings, die folgende Elemente umsetzen: intensive ganzheitliche individuelle Betreuung und stärkenorientierte Beratung ausgewählter Familien und begleitete Integration in sozialversicherungspflichtige Beschäftigung oder Ausbildung. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses ist davon abhängig, welches Vorhaben Sie umsetzen. Der Förderzeitraum beträgt 6 Jahre und kann verlängert werden. Richten Sie Ihren Antrag bitte an das Landesverwaltungsamt Sachsen-Anhalt.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/regio-aktiv-famico.html";
+    xyz:funderLevel "land";
+    xyz:location "DEE";
+    xyz:fundingArea "gesundheit_und_soziales", "arbeit";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-sachsen-anhalt-regio-aktiv-reko cdp:fromSource cdp:fdbBundSource;
+    xyz:title "?REGIO AKTIV? ? Regionale Koordination (REKO)";
+    xyz:description "Das Land Sachsen-Anhalt unterstützt Sie als Landkreis oder kreisfreie Stadt m Rahmen des Programm ?REGIO AKTIV? aus Mitteln des Europäischen Sozialfonds ( ESF+ ), wenn Sie regionale Koordinatoren beschäftigen, die Sie bei der Umsetzung arbeitsmarktpolitischer Maßnahmen unterstützen. Die Regionale Koordination ist als Geschäftsstelle des Regionalen Arbeitskreises (RAK) eingerichtet und in die Struktur Ihrer Verwaltung eingebunden. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses abhängig von Ihren zuwendungsfähigen Ausgaben. Der Förderzeitraum beträgt 6 Jahre und kann verlängert werden. Richten Sie Ihren Antrag bitte an das Landesverwaltungsamt Sachsen-Anhalt.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/regio-aktiv-reko.html";
+    xyz:funderLevel "land";
+    xyz:location "DEE";
+    xyz:fundingArea "arbeit";
+    xyz:eligibleApplicant "kommunen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-sachsen-anhalt-ueberbetriebliche-berufsbildungsstaetten cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung überbetrieblicher Berufsbildungsstätten (ÜBS)";
+    xyz:description "Das Land Sachsen-Anhalt unterstützt Sie bei Investitionen in eine angemessene Infrastruktur von überbetrieblichen Berufsbildungsstätten (ÜBS). Sie erhalten die Förderung für den Umbau, die Erweiterung, die Modernisierung und die Ausstattung von bestehenden überbetrieblichen Bildungsstätten. Die Berufsbildungsstätten müssen der ergänzenden überbetrieblichen Ausbildung von Auszubildenden in betrieblichen Ausbildungsverhältnissen nach dem Berufsbildungsgesetz oder der Handwerksordnung und auch der beruflichen Weiterbildung dienen. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt bis zu 15 Prozent der zuwendungsfähigen Ausgaben. Ihr geplantes Vorhaben müssen Sie zunächst dem Bundesinstitut für Berufsbildung ( BIBB ) oder dem Bundesamt für Wirtschaft und Ausfuhrkontrolle ( BAFA ) sowie dem Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt anzeigen. Nachdem Ihre Förderfähigkeit festgestellt wurde, reichen Sie Ihren Antrag bitte beim Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung Sachsen-Anhalt ein.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/ueberbetriebliche-berufsbildungsstaetten.html";
+    xyz:funderLevel "land";
+    xyz:location "DEE";
+    xyz:fundingArea "infrastruktur", "aus_und_weiterbildung";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-sachsen-anhalt-weiterbildung-betrieb cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung der beruflichen Weiterbildung von Beschäftigten in Unternehmen (Sachsen-Anhalt WEITERBILDUNG betrieblicher Zugang)";
+    xyz:description "Das Land Sachsen-Anhalt unterstützt Sie mit Mitteln aus dem Europäischen Sozialfonds Plus ( ESF+ ) bei Maßnahmen der betrieblichen Weiterbildung einschließlich ausbildungsbegleitender Zusatzqualifikationen für Auszubildende in betrieblichen Ausbildungsverhältnissen. Gefördert werden die Teilnahme an externen Weiterbildungsmaßnahmen, vor allem in Form von Seminaren, Lehrgängen, berufsbegleitenden Studienangeboten und wissenschaftlichen Weiterbildungen, die Durchführung betrieblicher Weiterbildungsmaßnahmen durch unternehmensexterne Dozentinnen und Dozenten, insbesondere die Durchführung von Inhouse -Seminaren und -Lehrgängen (Honorarausgaben), unabhängig von Weiterbildungsinhalten eigenständig angebotene Einzel- und Gruppencoachings und Supervisionen in einem Umfang von insgesamt höchstens 15 Zeitstunden je Beschäftigte und Beschäftigten oder Betriebsinhaberin und Betriebsinhaber innerhalb eines Zeitraums von einem Jahr, Fernlehrgänge, die auf der Grundlage des Fernunterrichtsschutzgesetzes von der Staatlichen Zentralstelle für Fernunterricht zugelassen sind, sowie unter bestimmten Voraussetzungen Weiterbildungsmaßnahmen, die auf Formen und Methoden des selbstgesteuerten Lernens zurückgreifen oder Weiterbildungsmaßnahmen in Form von E-Learning , Blended Learning , Online-Formaten oder sonstigen Webinar ähnlichen Formaten. Die Weiterbildungen können als berufsbegleitende Weiterbildungen sowohl in Teilzeit als auch als Vollzeitmaßnahmen durchgeführt werden. Sie erhalten die Förderung besonders für Weiterbildungsmaßnahmen mit Bezug zur Sicherung und Erhöhung der Beschäftigungsfähigkeit sowie zur Gestaltung ökologischer und digitaler Transformationsprozesse im Unternehmen, zu Themen der Personal- und Organisationsentwicklung, der Gestaltung digitaler Transformationsprozesse, zur Gestaltung fairer und nachhaltiger Arbeitsbedingungen in den Unternehmen sowie zur Entwicklung und Umsetzung einer zukunftsgerechten und mitarbeiterorientierten Personalpolitik, zur Erhöhung der Qualifikation und Beschäftigungsfähigkeit von geringqualifizierten, älteren oder atypisch Beschäftigten, von Menschen mit Behinderungen sowie von Beschäftigten mit Migrationshintergrund. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt für Unternehmen bis einschließlich 10 Beschäftigte 60 Prozent, für Unternehmen bis einschließlich 249 Beschäftigte 50 Prozent und für Unternehmen mit 250 und mehr Beschäftigten 40 Prozent der zuwendungsfähigen Ausgaben, maximal jedoch EUR 100.000 je betriebliches Weiterbildungsvorhaben. Abhängig von Antragstellerin oder Antragsteller und Teilnehmenden kann sich der Zuschuss um 10 Prozent beziehungsweise 20 Prozent erhöhen. Die zuwendungsfähigen Ausgaben müssen mehr als EUR 1.000 betragen, bei Vorhaben von Unternehmen mit 250 und mehr Beschäftigten mehr als EUR 10.000. Richten Sie Ihren Antrag bitte vor Beginn Ihres Vorhabens über das Kundenportal an die Investitionsbank Sachsen-Anhalt ( IB ).";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen-Anhalt/weiterbildung-betrieb.html";
+    xyz:funderLevel "land";
+    xyz:location "DEE";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-sachsen-efre-jtf-technologiefoerderung-technologietransfer cdp:fromSource cdp:fdbBundSource;
+    xyz:title "EFRE/JTF-Technologieförderung 2021 bis 2027 ? Technologietransferförderung";
+    xyz:description "Der Freistaat Sachsen fördert Ihre Maßnahmen zur Umsetzung der Innovationsstrategie und Stärkung der Innovationskraft der sächsischen Wirtschaft und deren Wettbewerbsfähigkeit. Die Mittel stammen aus dem Europäischen Fonds für regionale Entwicklung ( EFRE ) und dem Just Transition Fund (JTF). Sie erhalten die Förderung für Maßnahmen zum Erwerb technologischen Wissens zur Prozess- oder Organisationsinnovation wie Patente, Lizenzen, nicht patentiertes technologisches Wissen sowie für Anpassungsentwicklungen und Beratungsleistungen. Sie erhalten die Förderung als Zuschuss. Die Höhe der Förderung beträgt 50 Prozent der zuwendungsfähigen Kosten. Richten Sie Ihren Antrag bitte vor Beginn der zu fördernden Maßnahme über das SAB -Antragsportal an die Sächsische Aufbaubank ? Förderbank ? ( SAB ).";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen/efre-jtf-technologiefoerderung-technologietransfer.html";
+    xyz:funderLevel "land";
+    xyz:location "DED";
+    xyz:fundingArea "forschung_und_innovation_themenoffen";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-sachsen-esf-plus-tandem-sachsen cdp:fromSource cdp:fdbBundSource;
+    xyz:title "ESF Plus 2021?2027 ? Familienförderung zur Bekämpfung der (Langzeit-)Arbeitslosigkeit ? TANDEM Sachsen (ESF Plus FRL TANDEM Sachsen)";
+    xyz:description "Der Freistaat Sachsen unterstützt Sie mit Mitteln des Europäischen Sozialfonds Plus ( ESF Plus) bei Maßnahmen für eine ganzheitliche, beschäftigungsorientierte Familienförderung. Sie erhalten die Förderung als Zusatzleistungen für Bedarfsgemeinschaften mit Kindern durch Beratungsteams in Ergänzung zu den Regelleistungen der aktiven Arbeitsförderung nach dem Sozialgesetzbuch sowie für Maßnahmen, die bei Beschäftigungsintegration und gesellschaftlicher Teilhabe die Familien ganzheitlich berücksichtigen, das sind vor allem folgende: Maßnahmen zur Stabilisierung und Verbesserung der Beschäftigungsfähigkeit, beschäftigungsorientiertes Intensivcoaching und Einwerben von Beschäftigungsmöglichkeiten, ganzheitliche intensive sozialpädagogische Beratung und psychosoziale Unterstützung der Familie, psychologische Beratung, Netzwerkarbeit und Lotsenfunktion für die Familien, Bereitstellung von ergänzenden bedarfsgerechten sozialintegrativen und qualifizierenden Förderangeboten für Kinder und Erwachsene, Planung und Steuerung von Fallkonferenzen, Planung und Steuerung von Gruppenangeboten zur Stabilisierung und mit dem Ziel der Beschäftigungsorientierung, Koordinierung und wissenschaftliche Begleitung zur kontinuierlichen Qualitätssicherung und -entwicklung der Maßnahmen. Außerdem wird die Koordinierung und wissenschaftliche Begleitung zur kontinuierlichen Qualitätssicherung und -entwicklung der Vorhaben durch eine landesweit tätige Servicestelle gefördert. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt normalerweise bis zu 95 Prozent der zuwendungsfähigen Ausgaben und für juristische Personen des öffentlichen Rechts aus dem kommunalen Bereich bis zu 90 Prozent für einen Projektzeitraum von bis zu 36 Monaten. Richten Sie Ihren Antrag bitte vor Beginn der zu fördernden Maßnahme und unter Verwendung der Antragsformulare an die Sächsische Aufbaubank ? Förderbank ? ( SAB ). Weitere Informationen und Stichtage sind im Internet erhältlich. Die Förderung der landesweiten Servicestelle TANDEM Sachsen erfolgt im Rahmen von gesonderten Ausschreibungen.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Sachsen/esf-plus-tandem-sachsen.html";
+    xyz:funderLevel "land";
+    xyz:location "DED";
+    xyz:fundingArea "arbeit", "aus_und_weiterbildung";
+    xyz:eligibleApplicant "oeffentliche_einrichtung", "verband_vereinigung", "privatpersonen", "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-schleswig-holstein-e-sport-foerderrichtlinie cdp:fromSource cdp:fdbBundSource;
+    xyz:title "E-Sport-Förderrichtlinie";
+    xyz:description "Das Land Schleswig-Holstein unterstützt Einrichtungen, Maßnahmen und Projekte zur Entwicklung eines landesweiten Angebotes für E-Sport in Verbindung mit digitaler Kompetenz sowie des Landesfachverbands ? der ?E-Sport-Verband Schleswig-Holstein e.V. ? (EVSH). Sie erhalten die Förderung für Ausstattung der technischen E-Sport-Infrastruktur, Einrichtungsgegenstände und kleinere Umbaumaßnahmen (beispielsweise Legen von Kabelkanälen), Umbaumaßnahmen von Räumen sowie Informationsveranstaltungen von Sport- oder E-Sportvereinen/Sportverbänden oder von anerkannten öffentlichen oder freien Trägern der Kinder- und Jugendhilfe zu den Themen ?Förderung der Medienkompetenz?, ?Prävention von Süchten bei neuen Medien? sowie ?Prävention von sexualisierter Gewalt im Internet?. Sie bekommen die Förderung vor allem für solche Maßnahmen, die ausdrücklich eine Verbindung mit Sport- und Bewegungsangeboten vorsehen, sowie für Projekte interkommunaler oder regionaler Zusammenarbeit. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt für Ausstattung der technischen E-Sport-Infrastruktur, Einrichtungsgegenstände und kleinere Umbaumaßnahmen bis zu 90 Prozent der zuwendungsfähigen Kosten. Die Bagatellgrenze beträgt EUR 3.000; Umbaumaßnahmen von Räumen bis zu 50 Prozent der zuwendungsfähigen Ausgaben, jedoch höchstens EUR 15.000. Die Bagatellgrenze beträgt EUR 5000; Informationsveranstaltungen bis zu EUR 1.500 für Honorare und Unterbringung sowie Fahrtkostenerstattung von Referierenden bei zwei- oder dreitägigen Seminaren. Richten Sie bitte Ihren Antrag vor Beginn des Vorhabens zu den festgelegten Stichtagen schriftlich an das Ministerium für Inneres, Kommunales, Wohnen und Sport.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/e-sport-foerderrichtlinie.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "digitalisierung", "kultur_medien_und_sport";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-schleswig-holstein-ib-sh-breitband-foerderdarlehen-unternehmen-plus cdp:fromSource cdp:fdbBundSource;
+    xyz:title "IB.SH Breitband-Förderdarlehen Unternehmen Plus";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/ib-sh-breitband-foerderdarlehen-unternehmen-plus.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "digitalisierung", "infrastruktur";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "kredit_darlehen".
+cdp:fdb-land-schleswig-holstein-jugendferienwerksrichtlinie cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Ferien- und Freizeitmaßnahmen mit Kindern und Jugendlichen (Jugendferienwerksrichtlinie)";
+    xyz:description "Das Land Schleswig-Holstein unterstützt Sie als Jugendamt bei Ferien- und Freizeitmaßnahmen für Kinder und Jugendliche (Jugendferienwerkskinder) aus finanziell leistungsschwachen Familien sowie bei Familienurlauben gering verdienender oder kinderreicher Familien. Zielgruppe der Förderung sind Familien und Erziehungsberechtigte, die Leistungen nach dem Zweiten Buch Sozialgesetzbuch ( SGB II) oder Zwölften Buch Sozialgesetzbuch ( SGB XII), Wohngeld, Kinderzuschlag oder Leistungen nach dem Asylbewerberleistungsgesetz erhalten, deren regelmäßiges Nettoeinkommen 180 Prozent der geltenden Sozialhilfesätze nicht übersteigt oder die 3 oder mehr Kinder haben und über ein regelmäßiges Nettoeinkommen von höchstens 230 Prozent der geltenden Sozialhilfesätze verfügen. Sie bekommen die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt bei Ferienwerksmaßnahmen bis zu EUR 12,00 je Tag und teilnehmendem Jugendferienwerkskind und berücksichtigungsfähiger Betreuungskraft, Familienurlauben bis zu EUR 18,00 je Familienmitglied und Reisetag, jedoch höchstens 65 Prozent der zuwendungsfähigen Gesamtausgaben des Familienurlaubs. Richten Sie bitte Ihren Antrag bis spätestens zum 31.1. des jeweiligen Haushaltsjahres an das Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung, Landesjugendamt. Familien oder Erziehungsberechtigte können ihren Familienurlaub bis zum 31.10. eines Jahres bei Ihnen als zuständigem Jugendamt beantragen.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/jugendferienwerksrichtlinie.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-schleswig-holstein-lpw-21-27-foerderung-digitale-spiele cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Landesprogramm Wirtschaft 2021?2027 ? Förderung von digitalen Spielen";
+    xyz:description "Das Land Schleswig-Holstein unterstützt im Rahmen des Landesprogramms Wirtschaft 2021?2027 aus Mitteln der Gemeinschaftsaufgabe ?Verbesserung der regionalen Wirtschaftsstruktur ( GRW )? und des Europäischen Fonds für Regionale Entwicklung ( EFRE ) Sie als kleines oder mittleres Unternehmen ( KMU ) bei der Entwicklung von digitalen Spielen oder interaktiven Inhalten. Sie bekommen die Förderung für ein Vorhaben in jeweils einer der folgenden Entwicklungsstufen eines digitalen Spiels: Modul 1: Konzeptentwicklung, Modul 2: Prototypentwicklung, Modul 3: Produktion. Sie bekommen die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt bis zu 80 Prozent der zuwendungsfähigen Kosten, jedoch höchstens EUR 20.000 für eine Konzeptentwicklung (Modul 1), EUR 100.000 für eine Prototypentwicklung (Modul 2) sowie EUR 200.000 für die Produktion (Modul 3). Richten Sie Ihren Antrag bitte vor Beginn der zu fördernden Maßnahme und digital über das Serviceportal des Landes an die Wirtschaftsförderung und Technologietransfer Schleswig-Holstein GmbH (WTSH).";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/lpw-21-27-foerderung-digitale-spiele.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "digitalisierung", "kultur_medien_und_sport";
+    xyz:eligibleApplicant "unternehmen";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-schleswig-holstein-moorschutzprogramm-naturschutz-natura-2000 cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung von Schutz-, Entwicklungs-, Pflege- und Wiederherstellungsmaßnahmen in Naturschutz- und Natura-2000-Gebieten und auf Flächen des Moorschutzprogramms Schleswig-Holstein";
+    xyz:description "Das Land Schleswig-Holstein unterstützt Sie auf Grundlage des Landesnaturschutzgesetzes bei Maßnahmen in Naturschutz- und Natura-2000-Gebieten sowie auf den Flächen des Moorschutzprogramms. Die Förderung erhalten Sie für Entwicklungs-, Pflege- und Wiederherstellungsmaßnahmen, die zum Schutz und zur zielgerechten Entwicklung oder Wiederherstellung von Habitaten der Gebiete und ihrer Bestandteile erforderlich sind. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses ist abhängig von Art und Umfang Ihrer Maßnahme. Richten Sie Ihren Antrag mit Vorschlägen bitte vor Beginn Ihres Vorhabens bis zum 1.11. eines Jahres für das Folgejahr an das Landesamt für Umwelt. Nachdem die Maßnahme festgelegt worden ist, leitet das Landesamt die Projektliste und den Antrag zur Bewilligung an das Ministerium für Energiewende, Klimaschutz, Umwelt und Natur weiter. Bei einer Maßnahme des gemeinschaftlichen Wiesenvogelschutzes richten Sie Ihren Antrag bitte direkt an das Ministerium für Energiewende, Klimaschutz, Umwelt und Natur.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/moorschutzprogramm-naturschutz-natura-2000.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-schleswig-holstein-sportfoederung-sh cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung des Sports in Schleswig-Holstein";
+    xyz:description "";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Schleswig-Holstein/sportfoederung-sh.html";
+    xyz:funderLevel "land";
+    xyz:location "DEF";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-thueringen-eu-schulobst-u-gemueseprogramm-thueringen-rl-spog cdp:fromSource cdp:fdbBundSource;
+    xyz:title "EU-Schulobst- und -gemüseprogramm in Thüringen (RL-SPOG)";
+    xyz:description "Der Freistaat Thüringen unterstützt Sie, wenn Sie frisches Obst und Gemüse an Kinder verteilen und begleitende pädagogische Maßnahmen durchführen möchten. Sie erhalten eine Förderung für die Lieferung der Produkte einschließlich der Ausgaben für Logistik und Verteilung sowie Öffentlichkeitsarbeit und andere flankierende Maßnahmen, für begleitende pädagogische Maßnahmen. Das Programm richtet sich an Thüringer Grund- und Gemeinschaftsschulen der Klassenstufen 1 bis 4 sowie an Förderschulen und Förderzentren. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt EUR 0,34 je Portion bei konventionellen Erzeugnissen und EUR 0,39 bei Bioerzeugnissen. Sie erhalten 2 Portionen je Schülerin und Schüler und Schulwoche. Die Portionsgröße beträgt innerhalb eines Monats durchschnittlich mindestens 100 Gramm. Die Höhe der Förderung für Öffentlichkeitsarbeit, Überwachung und Bewertung beträgt bis zu 100 Prozent der zuwendungsfähigen Ausgaben. Die Höhe der Förderung für begleitende pädagogische Maßnahmen beträgt bis zu EUR 750,00. Für pädagogische und flankierende Maßnahmen über EUR 750,00 beträgt die Förderung bis zu 70 Prozent der zuwendungsfähigen Ausgaben. Die Bagatellgrenze liegt bei EUR 100,00. Richten Sie Ihren Antrag bitte formgebunden an das Thüringer Landesamt für Landwirtschaft und Ländlichen Raum (TLLLR). Anträge für die Abgabe von Obst und Gemüse reichen Sie bis zum 1.5. für das folgende Schuljahr ein. Anträge für begleitende pädagogische Maßnahmen und für Öffentlichkeitsarbeit stellen Sie mindestens 6 Wochen vor der Durchführung.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Thueringen/eu-schulobst-u-gemueseprogramm-thueringen-rl-spog.html";
+    xyz:funderLevel "land";
+    xyz:location "DEG";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-thueringen-ganztag-investitionsprogramm cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Förderung für den Ausbau ganztägiger Bildungs- und Betreuungsangebote für Kinder im Grundschulalter";
+    xyz:description "Dieses Förderprogramm richtet sich an Sie, wenn Sie als öffentlicher oder freier Träger in Thüringen tätig sind. Bei der Förderung geht es um den quantitativen und qualitativen Ausbau von Ganztagsangeboten für Kinder im Grundschulalter. Gefördert werden Angebote in Ganztagsgrundschulen, schulnahe Betreuungsangebote sowie Tageseinrichtungen (Horte). Sie erhalten finanzielle Unterstützung für Ihre Investitionsprojekte. Eine Förderung können Sie erhalten für: Neubauten, Umbauten oder Erweiterungen, Sanierung von Gebäuden. Ausstattung von Räumen für die Ganztagsbetreuung. Ziel der Förderung ist es, den Rechtsanspruch auf Ganztagsbetreuung ab dem Jahr 2026 abzusichern. Durch Ihre Maßnahmen schaffen Sie moderne und bedarfsgerechte Bildungs- und Betreuungsplätze. Bitte beachten Sie, dass Sie keinen Rechtsanspruch auf die Förderung haben. Die Bewilligung erfolgt im Rahmen der verfügbaren Mittel.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Thueringen/ganztag-investitionsprogramm.html";
+    xyz:funderLevel "bund";
+    xyz:location "DEG";
+    xyz:fundingArea "infrastruktur", "aus_und_weiterbildung";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung", "bildungseinrichtung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-thueringen-regionalentwicklung-demographischer-wandel cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Regionalentwicklung und Gestaltung des demografischen Wandels";
+    xyz:description "Der Freistaat Thüringen unterstützt Sie bei investiven und nicht investiven Maßnahmen im Bereich der Regionalentwicklung und der Gestaltung der Folgen des demografischen Wandels. Sie erhalten die Förderung für Maßnahmen der Regionalentwicklung, wie Erstellung und Weiterentwicklung von regionalen Entwicklungskonzepten, Strategien, Machbarkeitsstudien, Standortuntersuchungen sowie Umsetzung von Schlüsselmaßnahmen, Projekte und Maßnahmen zur Gestaltung der Folgen des demografischen Wandels sowie Modellprojekte zur Herstellung oder Gewährleistung gleichwertiger Lebensverhältnisse oder Sicherung der Daseinsvorsorge. Sie erhalten die Förderung als Zuschuss. Die Höhe des Zuschusses beträgt bei Maßnahmen zur Regionalförderung bis zu 80 Prozent der zuwendungsfähigen Ausgaben, Projekten und Maßnahmen zur Gestaltung der Folgen des demografischen Wandels bis zu 80 Prozent der zuwendungsfähigen Ausgaben bis zu einem Höchstbetrag von EUR 20.000, Modellprojekten bis zu 90 Prozent der zuwendungsfähigen Ausgaben bis zu einem Höchstbetrag von EUR 200.000. Die Bagatellgrenze für Vorhaben der Regionalentwicklung und für Modellprojekte liegt bei EUR 10.000 der zuwendungsfähigen Ausgaben. Reichen Sie Ihren Antrag bitte bis zum 30.9. für das Folgejahr beim Thüringer Ministerium für Infrastruktur und Landwirtschaft ein.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Thueringen/regionalentwicklung-demographischer-wandel.html";
+    xyz:funderLevel "land";
+    xyz:location "DEG";
+    xyz:fundingArea "mobilitaet", "regionalfoerderung";
+    xyz:eligibleApplicant "kommunen", "oeffentliche_einrichtung", "verband_vereinigung";
+    xyz:fundingType "zuschuss".
+cdp:fdb-land-thueringen-verbesserung-regionaler-wirtschaftsstruktur-grw cdp:fromSource cdp:fdbBundSource;
+    xyz:title "Gemeinschaftsaufgabe ?Verbesserung der regionalen Wirtschaftsstruktur? ( GRW ) ? Gewerbliche Wirtschaft und wirtschaftsnahe Forschungseinrichtungen";
+    xyz:description "Das Land Thüringen fördert aus Mitteln der Gemeinschaftsaufgabe ?Verbesserung der regionalen Wirtschaftsstruktur? ( GRW ) volkswirtschaftlich besonders förderungswürdige Investitionsvorhaben der gewerblichen Wirtschaft und wirtschaftsnaher Forschungseinrichtungen. Unterstützt werden Investitionsvorhaben vor allem von kleinen und mittleren Unternehmen (gemäß KMU -Definition der EU ), die Beschäftigung und Einkommen schaffen, Wachstum und Wohlstand erhöhen, Standortnachteile ausgleichen und regionale Uneinheitlichkeiten abbauen sowie Transformationsprozesse hin zu einer klimaneutralen und nachhaltigen Wirtschaft beschleunigen. Sie erhalten die Förderung für Errichtung einer neuen Betriebsstätte, Ausbau der Kapazitäten einer bestehenden Betriebsstätte (nur KMU ) Diversifizierung der Produktion einer bestehenden Betriebsstätte durch vorher dort nicht hergestellte Produkte (nur KMU ), grundlegende Änderung des gesamten Produktionsprozesses einer bestehenden Betriebsstätte (nur KMU ), Diversifizierung der Tätigkeit einer Betriebsstätte, sofern die neue Tätigkeit nicht dieselbe oder eine ähnliche Tätigkeit wie die früher in der Betriebsstätte ausgeübte Tätigkeit ist, Erwerb der Vermögenswerte einer Betriebsstätte, die geschlossen wurde oder ohne diesen Erwerb geschlossen worden wäre, besondere Investitionsvorhaben zur Beschleunigung der Transformation hin zu einer klimaneutralen und nach haltigen Wirtschaft, Bauinvestitionen zur Errichtung und zum Aufbau von Forschungsinfrastrukturen auf der Grundlage von Artikel 26 der AGVO beziehungsweise bauliche Investitionen und Investitionen in die Erstausstattung als Unternehmen, wenn die Regelungen zur Förderung von Forschungsinfrastrukturen auf der Grundlage von Artikel 26 der AGVO nicht in Frage kommt. Sie erhalten die Förderung als sachkapitalbezogenen oder lohnkostenbezogenen Zuschuss. Die Höhe der Förderung richtet sich nach dem jeweiligen Fördergebiet (C- oder D-Fördergebiet). Die maximalen Beihilfehöchstgrenzen betragen im C-Fördergebiet (Landkreise Altenburger Land, Greiz, Saalfeld-Rudolstadt und der kreisfreien Stadt Suhl) für kleine Unternehmen 40 Prozent, für mittlere Unternehmen 30 Prozent und für große Unternehmen 20 Prozent, C-Fördergebiet (Landkreise Gotha, Hildburghausen, Kyffhäuserkreis, Nordhausen, Saale-Orla-Kreis, Schmalkalden-Meiningen, Sonneberg, Unstrut-Hainich-Kreis, Wartburgkreis sowie in der kreisfreien Stadt Gera und der Stadt Kölleda) für kleine Unternehmen 35 Prozent, für mittlere Unternehmen 25 Prozent und für große Unternehmen 15 Prozent, C-Fördergebiet (Stadt Eisenach) für kleine Unternehmen 30 Prozent, für mittlere Unternehmen 20 Prozent und für große Unternehmen 10 Prozent, D-Fördergebiet (Landkreise Eichsfeld, Ilm-Kreis, Saale-Holzland-Kreis, Sömmerda (ohne Kölleda), Weimarer Land sowie in den kreisfreien Städten Erfurt, Jena und Weimar) für kleine Unternehmen 20 Prozent, für mittlere Unternehmen 10 Prozent und für große Unternehmen 10 Prozent. Bei Investitionsvorhaben mit besonderen Umweltschutzeffekten betragen die maximalen Höchstgrenzen im C-Fördergebiet für kleine Unternehmen 65 Prozent, für mittlere Unternehmen 55 Prozent und für große Unternehmen 45 Prozent, D-Fördergebiet für kleine Unternehmen 60 Prozent, für mittlere Unternehmen 50 Prozent und für große Unternehmen 40 Prozent der zuwendungsfähigen Ausgaben. Bei Investitionsvorhaben mit besonderen Energieeffizienzeffekten betragen die maximalen Höchstgrenzen im C-Fördergebiet für kleine Unternehmen 55 Prozent, für mittlere Unternehmen 45 Prozent und für große Unternehmen 35 Prozent, D-Fördergebiet für kleine Unternehmen 50 Prozent, für mittlere Unternehmen 40 Prozent und für große Unternehmen 30 Prozent der zuwendungsfähigen Ausgaben. Bei Investitionsvorhaben von gemeinnützigen, wirtschaftsnahen, außeruniversitären Forschungseinrichtungen beträgt der Förderhöchstsatz 50 Prozent der zuwendungsfähigen Ausgaben. Bei Kooperationsnetzwerken beträgt der Förderhöchstsatz 75 Prozent der zuwendungsfähigen Ausgaben. Innovationscluster können mit bis zu 55 Prozent bei Investitionskosten beziehungsweise bis zu 50 Prozent für Personal- und Verwaltunskosten gefördert werden. Reichen Sie bitte Ihren Antrag vor Beginn des Vorhabens bei der Thüringer Aufbaubank über das TAB -Online-Portal ein.";
+    xyz:url "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Land/Thueringen/verbesserung-regionaler-Wirtschaftsstruktur-grw.html";
+    xyz:funderLevel "land";
+    xyz:location "DEG";
+    xyz:fundingArea "arbeit", "unternehmensfinanzierung", "regionalfoerderung", "forschung_und_innovation_themenoffen";
+    xyz:eligibleApplicant "verband_vereinigung", "forschungseinrichtungen", "unternehmen";
+    xyz:fundingType "zuschuss".

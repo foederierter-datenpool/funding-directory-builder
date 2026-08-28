@@ -1,0 +1,302 @@
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix cdf:    <https://civic-data.de/federated-directory#> .
+
+# ---- Federation ---------------------------------------------------------
+
+:federation a :Federation ;
+    rdfs:label       "Federated directory of funding programmes in Germany & the EU" ;
+    :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
+    :hasTargetSchema :fundingOpportunitySchema ;
+    :harvestingModeActive false ;
+    :hasRunParam     [ :name "limit" ; :value "50" ] ;
+    :baseUrl         "https://foederierter-datenpool.github.io/funding-directory-builder/" ;
+    :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
+
+# ---- Target schema ------------------------------------------------------
+
+# A funding opportunity (Förderprogramm / call / topic). One schema, deliberately:
+# a funder tier was considered and dropped — :foerdergeber in the sources is a
+# funder *level* ("Land"), not a funder name, and "browse by funder" is not one
+# of the questions this directory answers.
+#
+# Only fields some source actually fills are declared. Money, sub-areas and
+# funding-rate models are drafted in Plan.md and deliberately absent: no source
+# carries them structurally, and a declared field nothing maps to is noise in
+# the config and in the webapp.
+:fundingOpportunitySchema a :TargetSchema ;
+    :targetClass schema:FundingScheme ;
+    :hasTargetField :t-name, :t-description, :t-url,
+                    :t-fundingArea, :t-location, :t-fundingType,
+                    :t-eligibleApplicant, :t-funderLevel,
+                    :t-deadlineModel, :t-deadline, :t-status .
+
+:t-name        a :TargetField ; :targetPredicate schema:name .
+:t-description a :TargetField ; :targetPredicate schema:description .
+:t-url         a :TargetField ; :targetPredicate schema:url .
+
+# Reuse an established term only where one honestly fits — dct:spatial for the
+# funding region, schema:applicationDeadline for the date. Everything else is
+# minted under cdf: rather than bent out of a foreign vocabulary; there is no
+# schema:areas, which is why the earlier :t-areas draft could never be wired.
+#
+# The four list-valued fields carry one value per category the source states, so
+# they are :multiValued (merge must not read them as cross-source conflicts) and
+# get a :keepAll override below (resolve must not collapse them to one literal).
+:t-fundingArea       a :TargetField ; :targetPredicate cdf:fundingArea       ; :multiValued true .
+:t-location          a :TargetField ; :targetPredicate dct:spatial           ; :multiValued true .
+:t-fundingType       a :TargetField ; :targetPredicate cdf:fundingType       ; :multiValued true .
+:t-eligibleApplicant a :TargetField ; :targetPredicate cdf:eligibleApplicant ; :multiValued true .
+
+:t-funderLevel   a :TargetField ; :targetPredicate cdf:funderLevel .
+:t-deadlineModel a :TargetField ; :targetPredicate cdf:deadlineModel .
+:t-deadline      a :TargetField ; :targetPredicate schema:applicationDeadline .
+
+# active | ended. Ended programmes are kept in the directory deliberately — they
+# are still worth showing — so a consumer needs something to judge by: this, or
+# the deadline.
+#
+# Two values, not the EU portal's three: Forthcoming and Open differ only in
+# whether you can submit today, which is a fact about dates, and a coarser
+# vocabulary is what lets a source that states no status of its own be read
+# against it. "ended" rather than "inactive" on purpose — inactive reads as
+# temporarily suspended, which is a real third case (fdbBund's "Antragstellung
+# derzeit nicht möglich") that should get its own value rather than be conflated.
+#
+# Only the EU portal fills it today, because it is the only source that states a
+# status outright. The others are each blocked on something specific:
+#
+#   Förderfinder could derive "ended" from its programme validity end, but that
+#   is a comparison against *now*, and NOW() in an extract makes federate
+#   non-deterministic — the same snapshot would yield a different directory.ttl
+#   tomorrow. It waits on the engine exposing the harvest time it already records
+#   in data/ingest/ingest-log.ttl, so the comparison can be pure.
+#
+#   fdbBund has an editorial status_note ("Antragstellung nicht mehr möglich",
+#   182 rows) which is the cheapest real coverage here, parked by decision. Its
+#   "absent" flag is not a substitute: upstream says absence means only that a
+#   programme left the export, which may be closure, reorganisation or a
+#   restructure.
+#
+#   DSEE states nothing. "Fortlaufende Förderung" is a deadline model, already
+#   mapped to cdf:deadlineModel = rolling; it says nothing about whether the
+#   programme still exists.
+:t-status a :TargetField ; :targetPredicate cdf:status .
+
+
+# ---- Sources ------------------------------------------------------------
+
+:fdbBundSource a :Source ;
+    rdfs:label    "Förderdatenbank Bund" ;
+    :dedupWithinSource false ;
+    skos:notation "fdb" ;
+    :enabled      true ;
+    :fetchUrl     "https://fdb.cdl.correlaid.org/data/programme.csv" ;
+    :retrieval    "API" ;
+    # The fetch downloads CSV and writes JSON: its multi-valued columns hold a
+    # JSON array inside one cell, which no lift or extract can split into
+    # several values. See sources/fdbBund/fetch.js.
+    :format       ft:JSON ;
+    :hasField     :fdb-title, :fdb-description, :fdb-url,
+                  :fdb-location, :fdb-funderLevel, :fdb-fundingArea,
+                  :fdb-eligibleApplicant, :fdb-fundingType .
+:fdb-title       a :SourceField ; :fieldPath "title" .
+:fdb-description a :SourceField ; :fieldPath "description" .
+:fdb-url         a :SourceField ; :fieldPath "url" .
+# All five coded columns. The export ships its own slugs, cut from the same XÖV
+# concepts by a different hand ("kultur_medien_sport", "kommune", "darlehen"), so
+# extract folds them onto the label-derived form the other sources produce —
+# except where the concepts genuinely differ, which extract documents case by
+# case.
+:fdb-location    a :SourceField ; :fieldPath "location" .
+:fdb-funderLevel a :SourceField ; :fieldPath "funderLevel" .
+:fdb-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:fdb-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:fdb-fundingType       a :SourceField ; :fieldPath "fundingType" .
+
+:dseeSource a :Source ;
+    rdfs:label    "Förderdatenbank DSEE" ;
+    :dedupWithinSource false ;
+    skos:notation "dsee" ;
+    :enabled      true ;
+    :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
+    :retrieval    "Scrape" ;
+    :format       ft:HTML ;
+    :hasLiftParam [ :name "selector" ; :value "html" ] ;
+    :hasField     :dsee-title, :dsee-description, :dsee-url,
+                  :dsee-fundingArea, :dsee-location, :dsee-deadlineModel .
+:dsee-title         a :SourceField ; :fieldPath "title" .
+:dsee-description   a :SourceField ; :fieldPath "description" .
+:dsee-url           a :SourceField ; :fieldPath "url" .
+:dsee-fundingArea   a :SourceField ; :fieldPath "fundingArea" .
+:dsee-location      a :SourceField ; :fieldPath "location" .
+:dsee-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
+
+:euportalSource a :Source ;
+    rdfs:label    "EU Funding & Tenders Portal" ;
+    :dedupWithinSource false ;
+    skos:notation "eu" ;
+    :enabled      true ;
+    :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
+    :hasField     :eu-title, :eu-description, :eu-url,
+                  :eu-deadlineModel, :eu-deadline, :eu-status .
+:eu-title         a :SourceField ; :fieldPath "title" .
+:eu-description   a :SourceField ; :fieldPath "description" .
+:eu-url           a :SourceField ; :fieldPath "url" .
+:eu-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
+:eu-deadline      a :SourceField ; :fieldPath "deadline" .
+:eu-status        a :SourceField ; :fieldPath "status" .
+
+:foerderfinderSource a :Source ;
+    rdfs:label    "Förderfinder Bayern" ;
+    # Every record in this source already has a unique upstream id, so two of its
+    # own records are never the same opportunity — same-source pairs are noise, and
+    # fuzzy matching them produces false positives that no threshold fixes. It did:
+    # Förderfinder's "…Dauerpflegeeinrichtungen (ohne Öffnung in den sozialen
+    # Nahraum)" and "…mit einer Öffnung in den sozialen Nahraum" merged, two
+    # deliberately opposite Förderleistungen of one Richtlinie whose only
+    # distinguishing words are "ohne" and "mit einer". Cross-source pairs are the
+    # only ones worth scoring here.
+    :dedupWithinSource false ;
+    skos:notation "ff" ;
+    :enabled      true ;
+    :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
+    :hasField     :ff-title, :ff-description, :ff-fundingArea, :ff-location,
+                  :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel .
+:ff-title             a :SourceField ; :fieldPath "title" .
+:ff-description       a :SourceField ; :fieldPath "description" .
+# The five XÖV-coded categories, normalised to slugs at extract. No :ff-url —
+# the API payload carries no canonical detail page and the site is an SPA, so
+# there is nothing to link to without inventing a URL pattern.
+:ff-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:ff-location          a :SourceField ; :fieldPath "location" .
+:ff-fundingType       a :SourceField ; :fieldPath "fundingType" .
+:ff-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:ff-funderLevel       a :SourceField ; :fieldPath "funderLevel" .
+
+# ---- Mappings -----------------------------------------------------------
+
+# Bund: the published CSV is already plain text and already decoded → direct mapping.
+:fdb-mapping a :Mapping ;
+    :fromSource  :fdbBundSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :fdb-title       ; :to :t-name        ] ,
+        [ :from :fdb-description ; :to :t-description ] ,
+        [ :from :fdb-url         ; :to :t-url         ] ,
+        [ :from :fdb-location          ; :to :t-location          ] ,
+        [ :from :fdb-funderLevel       ; :to :t-funderLevel       ] ,
+        [ :from :fdb-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :fdb-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :fdb-fundingType       ; :to :t-fundingType       ] .
+
+# DSEE: html:innerText is already plain text → direct mapping.
+:dsee-mapping a :Mapping ;
+    :fromSource  :dseeSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :dsee-title         ; :to :t-name          ] ,
+        [ :from :dsee-description   ; :to :t-description   ] ,
+        [ :from :dsee-url           ; :to :t-url           ] ,
+        [ :from :dsee-fundingArea   ; :to :t-fundingArea   ] ,
+        [ :from :dsee-location      ; :to :t-location      ] ,
+        [ :from :dsee-deadlineModel ; :to :t-deadlineModel ] .
+
+# EU: descriptionByte is HTML, flattened at extract → direct mapping.
+:eu-mapping a :Mapping ;
+    :fromSource  :euportalSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :eu-title         ; :to :t-name          ] ,
+        [ :from :eu-description   ; :to :t-description   ] ,
+        [ :from :eu-url           ; :to :t-url           ] ,
+        [ :from :eu-deadlineModel ; :to :t-deadlineModel ] ,
+        [ :from :eu-deadline      ; :to :t-deadline      ] ,
+        [ :from :eu-status        ; :to :t-status        ] .
+
+# Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
+:foerderfinder-mapping a :Mapping ;
+    :fromSource  :foerderfinderSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :ff-title             ; :to :t-name              ] ,
+        [ :from :ff-description       ; :to :t-description       ] ,
+        [ :from :ff-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :ff-location          ; :to :t-location          ] ,
+        [ :from :ff-fundingType       ; :to :t-fundingType       ] ,
+        [ :from :ff-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :ff-funderLevel       ; :to :t-funderLevel       ] .
+
+# ---- Match --------------------------------------------------------------
+
+# Same programme, two portals. Measured against the full corpora (fdbBund's 2531
+# rows against all 218 Förderfinder records), not against the development sample —
+# a limited run contains no cross-source overlap at all.
+#
+# :matchAlgorithm is set because the engine's default, token_set_ratio, is wrong
+# for this data: it scores a subset as 100, and German programme titles are
+# systematically prefixed and suffixed. "Digitalbonus" against "Digitalbonus
+# Thüringen" scores 100 and is a different programme; so does "Kommunales
+# Wohnraumförderungsprogramm" against "Kommunales Förderprogramm zur Schaffung von
+# Mietwohnraum". Fourteen pairs hit exactly 100, several of them wrong, so nothing
+# can be thresholded above it. token_sort_ratio separates: true matches 89-100,
+# those same false ones 52-69.
+#
+# There is deliberately no :hasHardCriterion. A gate on dct:spatial looked
+# attractive — Förderfinder is Bayern-only and most false positives are simply the
+# wrong Land — but the fixture tests showed it does nothing here and costs real
+# recall:
+#
+#   It never fires. token_sort_ratio already scores the wrong-Land pairs far below
+#   the threshold ("Digitalbonus" against "Digitalbonus Thüringen" is 69, the FSJ
+#   pair 79). The 76 → 33 reduction that motivated it was measured against
+#   token_set_ratio, which this rule does not use.
+#
+#   It would foreclose whole sources. A hard criterion requires the value present
+#   and equal in *both* records, and euportal emits no dct:spatial at all, so every
+#   EU record would become permanently unmatchable — along with the 53 of 200
+#   resolved records that carry no location. fdbBund × euportal overlap could then
+#   never be found.
+#
+#   It cannot express a multi-valued field. The engine's valOf reads only the first
+#   quad (match.js), so a gate on dct:spatial would compare one arbitrary NUTS code
+#   per record — two nationwide programmes listing the same Länder in a different
+#   order would fail the gate. Any future hard criterion must be single-valued.
+#
+# Without a hard criterion every subject lands in one bucket, so this is an O(n²)
+# scan. Fine at the current corpus; revisit if it becomes the bottleneck, and
+# prefer a gate on a single-valued field that every source fills.
+#
+# 0.9 is deliberately conservative: 5 pairs clear it, and the yield is flat from
+# 0.95 down to 0.90 before the dubious tail starts at 0.80. Genuine matches are
+# missed at this setting ("Alpha Asyl - Kurse zur Alphabetisierung" at 0.89,
+# "Überregionale Offene Behindertenarbeit" at 0.80). Recall is recoverable once a
+# labelled set exists; a directory that merges Digitalbonus Bayern with Digitalbonus
+# Thüringen is actively wrong.
+:fundingMatch a :MatchRule ;
+    :forTarget           :fundingOpportunitySchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "funding-" ;
+    :matchAlgorithm      "token_sort_ratio" ;
+    :minScore             0.9 ;
+    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] .
+
+# ---- Resolve ------------------------------------------------------------
+
+# keepAll on the list-valued fields: without it, resolve collapses each list to
+# a single value and a programme with four eligible-applicant categories keeps
+# one. The scalar fields keep the default.
+:resolve a :ResolveRule ;
+    :defaultStrategy :alphabeticFirst ;
+    :hasOverride [ :on cdf:fundingArea       ; :strategy :keepAll ] ,
+                 [ :on dct:spatial           ; :strategy :keepAll ] ,
+                 [ :on cdf:fundingType       ; :strategy :keepAll ] ,
+                 [ :on cdf:eligibleApplicant ; :strategy :keepAll ] .

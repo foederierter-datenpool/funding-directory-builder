@@ -1,0 +1,34 @@
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX cdp: <https://civic-data.de/pipeline#>
+PREFIX cdf: <https://civic-data.de/federated-directory#>
+PREFIX schema: <http://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT {
+    GRAPH <urn:mapped> {
+        ?entity a schema:FundingScheme ; cdp:fromSource cdp:fdbBundSource .
+        ?entity schema:name ?title .
+        ?entity schema:description ?description .
+        ?entity schema:url ?url .
+        ?entity dct:spatial ?location .
+        ?entity cdf:funderLevel ?funderLevel .
+        ?entity cdf:fundingArea ?fundingArea .
+        ?entity cdf:eligibleApplicant ?eligibleApplicant .
+        ?entity cdf:fundingType ?fundingType .
+    }
+} WHERE {
+    GRAPH <urn:source:fdbBund> {
+        ?entity cdp:fromSource cdp:fdbBundSource .
+        OPTIONAL { ?entity cdp:targetSchema ?_ts }
+        FILTER(!bound(?_ts) || ?_ts = cdp:fundingOpportunitySchema)
+        OPTIONAL { ?entity xyz:title ?title . FILTER(isLiteral(?title) && REPLACE(STR(?title), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:description ?description . FILTER(isLiteral(?description) && REPLACE(STR(?description), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:url ?url . FILTER(isLiteral(?url) && REPLACE(STR(?url), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:location ?location . FILTER(isLiteral(?location) && REPLACE(STR(?location), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:funderLevel ?funderLevel . FILTER(isLiteral(?funderLevel) && REPLACE(STR(?funderLevel), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:fundingArea ?fundingArea . FILTER(isLiteral(?fundingArea) && REPLACE(STR(?fundingArea), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:eligibleApplicant ?eligibleApplicant . FILTER(isLiteral(?eligibleApplicant) && REPLACE(STR(?eligibleApplicant), "\\s+", "") != "") }
+        OPTIONAL { ?entity xyz:fundingType ?fundingType . FILTER(isLiteral(?fundingType) && REPLACE(STR(?fundingType), "\\s+", "") != "") }
+    }
+}

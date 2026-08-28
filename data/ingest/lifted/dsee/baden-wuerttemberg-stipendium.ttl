@@ -1,0 +1,961 @@
+PREFIX fx:  <http://sparql.xyz/facade-x/ns/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+
+[ rdf:type  <http://www.w3.org/1999/xhtml#html> , fx:root;
+  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#head>;
+              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#charset>
+                                  "utf-8"
+                        ];
+              rdf:_10   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "strict-origin-when-cross-origin";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "referrer"
+                        ];
+              rdf:_11   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "website";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:type"
+                        ];
+              rdf:_12   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Deutsche Stiftung für Engagement und Ehrenamt";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:site_name"
+                        ];
+              rdf:_13   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Baden-Württemberg-STIPENDIUM";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:title"
+                        ];
+              rdf:_14   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:description"
+                        ];
+              rdf:_15   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Baden-Württemberg-STIPENDIUM";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "twitter:title"
+                        ];
+              rdf:_16   [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "twitter:description"
+                        ];
+              rdf:_17   [ rdf:type  <http://www.w3.org/1999/xhtml#link>;
+                          <http://www.w3.org/1999/xhtml#href>
+                                  "/favicon-32x32.png";
+                          <http://www.w3.org/1999/xhtml#rel>
+                                  "icon";
+                          <http://www.w3.org/1999/xhtml#sizes>
+                                  "32x32";
+                          <http://www.w3.org/1999/xhtml#type>
+                                  "image/png"
+                        ];
+              rdf:_18   [ rdf:type  <http://www.w3.org/1999/xhtml#link>;
+                          <http://www.w3.org/1999/xhtml#href>
+                                  "/favicon-16x16.png";
+                          <http://www.w3.org/1999/xhtml#rel>
+                                  "icon";
+                          <http://www.w3.org/1999/xhtml#sizes>
+                                  "16x16";
+                          <http://www.w3.org/1999/xhtml#type>
+                                  "image/png"
+                        ];
+              rdf:_19   [ rdf:type  <http://www.w3.org/1999/xhtml#script>;
+                          rdf:_1    "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+                          <http://www.w3.org/1999/xhtml#type>
+                                  "module";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();"
+                        ];
+              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#link>;
+                          <http://www.w3.org/1999/xhtml#href>
+                                  "https://foerderdatenbank.d-s-e-e.de/";
+                          <http://www.w3.org/1999/xhtml#rel>
+                                  "home"
+                        ];
+              rdf:_20   [ rdf:type  <http://www.w3.org/1999/xhtml#script>;
+                          <http://www.w3.org/1999/xhtml#crossorigin>
+                                  "";
+                          <http://www.w3.org/1999/xhtml#onload>
+                                  "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+                          <http://www.w3.org/1999/xhtml#src>
+                                  "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+                          <http://www.w3.org/1999/xhtml#type>
+                                  "module"
+                        ];
+              rdf:_21   [ rdf:type  <http://www.w3.org/1999/xhtml#link>;
+                          <http://www.w3.org/1999/xhtml#href>
+                                  "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+                          <http://www.w3.org/1999/xhtml#rel>
+                                  "stylesheet"
+                        ];
+              rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#link>;
+                          <http://www.w3.org/1999/xhtml#href>
+                                  "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium";
+                          <http://www.w3.org/1999/xhtml#rel>
+                                  "canonical"
+                        ];
+              rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:url"
+                        ];
+              rdf:_5    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "twitter:url"
+                        ];
+              rdf:_6    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "de";
+                          <http://www.w3.org/1999/xhtml#property>
+                                  "og:locale"
+                        ];
+              rdf:_7    [ rdf:type  <http://www.w3.org/1999/xhtml#title>;
+                          rdf:_1    "Baden-Württemberg-STIPENDIUM  –  Förderdatenbank";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "Baden-Württemberg-STIPENDIUM  –  Förderdatenbank";
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Baden-Württemberg-STIPENDIUM  –  Förderdatenbank"
+                        ];
+              rdf:_8    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "description"
+                        ];
+              rdf:_9    [ rdf:type  <http://www.w3.org/1999/xhtml#meta>;
+                          <http://www.w3.org/1999/xhtml#content>
+                                  "width=device-width,initial-scale=1,viewport-fit=cover";
+                          <http://www.w3.org/1999/xhtml#name>
+                                  "viewport"
+                        ];
+              <https://html.spec.whatwg.org/#innerHTML>
+                      "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Baden-Württemberg-STIPENDIUM  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Baden-Württemberg-STIPENDIUM\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Baden-Württemberg-STIPENDIUM\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\">";
+              <https://html.spec.whatwg.org/#innerText>
+                      "Baden-Württemberg-STIPENDIUM  –  Förderdatenbank"
+            ];
+  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#body>;
+              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#nav>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    "Newsletter";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "Newsletter";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Newsletter"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "flex flex-row my-2";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "Newsletter"
+                                                ];
+                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                                          <http://www.w3.org/1999/xhtml#alt>
+                                                                                  "Logo X";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+                                                                          <http://www.w3.org/1999/xhtml#height>
+                                                                                  "24";
+                                                                          <http://www.w3.org/1999/xhtml#src>
+                                                                                  "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+                                                                          <http://www.w3.org/1999/xhtml#width>
+                                                                                  "24"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                                          rdf:_1    "X";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "sr-only";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "X";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "X"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "group block p-1";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://x.com/d_s_e_e";
+                                                              <http://www.w3.org/1999/xhtml#target>
+                                                                      "_blank";
+                                                              <http://www.w3.org/1999/xhtml#title>
+                                                                      "X";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "X"
+                                                            ];
+                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                                          <http://www.w3.org/1999/xhtml#alt>
+                                                                                  "Logo Facebook";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+                                                                          <http://www.w3.org/1999/xhtml#height>
+                                                                                  "24";
+                                                                          <http://www.w3.org/1999/xhtml#src>
+                                                                                  "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+                                                                          <http://www.w3.org/1999/xhtml#width>
+                                                                                  "24"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                                          rdf:_1    "Facebook";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "sr-only";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "Facebook";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Facebook"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "group block p-1";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://www.facebook.com/EngagementStiftung/";
+                                                              <http://www.w3.org/1999/xhtml#target>
+                                                                      "_blank";
+                                                              <http://www.w3.org/1999/xhtml#title>
+                                                                      "Facebook";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Facebook"
+                                                            ];
+                                                  rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                                          <http://www.w3.org/1999/xhtml#alt>
+                                                                                  "Logo Instagram";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+                                                                          <http://www.w3.org/1999/xhtml#height>
+                                                                                  "24";
+                                                                          <http://www.w3.org/1999/xhtml#src>
+                                                                                  "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+                                                                          <http://www.w3.org/1999/xhtml#width>
+                                                                                  "24"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                                          rdf:_1    "Instagram";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "sr-only";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "Instagram";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Instagram"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "group block p-1";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://www.instagram.com/engagement_und_ehrenamt/";
+                                                              <http://www.w3.org/1999/xhtml#target>
+                                                                      "_blank";
+                                                              <http://www.w3.org/1999/xhtml#title>
+                                                                      "Instagram";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Instagram"
+                                                            ];
+                                                  rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                                          <http://www.w3.org/1999/xhtml#alt>
+                                                                                  "Logo LinkedIn";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+                                                                          <http://www.w3.org/1999/xhtml#height>
+                                                                                  "24";
+                                                                          <http://www.w3.org/1999/xhtml#src>
+                                                                                  "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+                                                                          <http://www.w3.org/1999/xhtml#width>
+                                                                                  "24"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                                          rdf:_1    "LinkedIn";
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "sr-only";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "LinkedIn";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "LinkedIn"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "group block p-1";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://www.linkedin.com/company/dsee/";
+                                                              <http://www.w3.org/1999/xhtml#target>
+                                                                      "_blank";
+                                                              <http://www.w3.org/1999/xhtml#title>
+                                                                      "LinkedIn";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "LinkedIn"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "flex flex-row divide-x my-2";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "X Facebook Instagram LinkedIn"
+                                                ];
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "Newsletter X Facebook Instagram LinkedIn"
+                                    ];
+                          <http://www.w3.org/1999/xhtml#class>
+                                  "container flex flex-row justify-end my-4";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Newsletter X Facebook Instagram LinkedIn"
+                        ];
+              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#header>;
+                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                  rdf:_1    "Zur Startseite";
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "sr-only";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "Zur Startseite";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "Zur Startseite"
+                                                ];
+                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                  <http://www.w3.org/1999/xhtml#alt>
+                                                          "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+                                                  <http://www.w3.org/1999/xhtml#fetchpriority>
+                                                          "high";
+                                                  <http://www.w3.org/1999/xhtml#height>
+                                                          "92";
+                                                  <http://www.w3.org/1999/xhtml#src>
+                                                          "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+                                                  <http://www.w3.org/1999/xhtml#width>
+                                                          "300"
+                                                ];
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "block my-2 w-full max-w-md";
+                                      <http://www.w3.org/1999/xhtml#href>
+                                              "https://foerderdatenbank.d-s-e-e.de/";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "Zur Startseite"
+                                    ];
+                          rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                      rdf:_1    "Förderdatenbank der DSEE";
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "my-2 font-medium text-2xl";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "Förderdatenbank der DSEE";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "Förderdatenbank der DSEE"
+                                    ];
+                          <http://www.w3.org/1999/xhtml#class>
+                                  "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Zur Startseite Förderdatenbank der DSEE"
+                        ];
+              rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#main>;
+                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#nav>;
+                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    "Förderdatenbank der DSEE";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "link";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://foerderdatenbank.d-s-e-e.de/";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "Förderdatenbank der DSEE";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Förderdatenbank der DSEE"
+                                                            ];
+                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                              rdf:_1    "&gt;";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "px-1 text-gray";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "&gt;";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      ">"
+                                                            ];
+                                                  rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#span>;
+                                                              rdf:_1    "Baden-Württemberg-STIPENDIUM";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "Baden-Württemberg-STIPENDIUM";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Baden-Württemberg-STIPENDIUM"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Baden-Württemberg-STIPENDIUM</span>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "Förderdatenbank der DSEE>Baden-Württemberg-STIPENDIUM"
+                                                ];
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "container";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Baden-Württemberg-STIPENDIUM</span>\n</div>";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "Förderdatenbank der DSEE>Baden-Württemberg-STIPENDIUM"
+                                    ];
+                          rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#article>;
+                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#header>;
+                                                                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h1>;
+                                                                                      rdf:_1    "Baden-Württemberg-STIPENDIUM";
+                                                                                      <http://www.w3.org/1999/xhtml#class>
+                                                                                              "col-span-2 font-bold text-2xl";
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "Baden-Württemberg-STIPENDIUM";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Baden-Württemberg-STIPENDIUM"
+                                                                                    ];
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "mb-8";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "<h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Baden-Württemberg-STIPENDIUM"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                  rdf:_1    "Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein."
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                  rdf:_1    "Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.";
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#br> ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n<br>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt."
+                                                                                                ];
+                                                                                      rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                  rdf:_1    "Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen."
+                                                                                                ];
+                                                                                      rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                  rdf:_1    "Die verschiedenen Programmlinien:";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Die verschiedenen Programmlinien:";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Die verschiedenen Programmlinien:"
+                                                                                                ];
+                                                                                      rdf:_5    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                  rdf:_1    "Baden-Württemberg-STIPENDIUM für Studierende";
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#br> ];
+                                                                                                  rdf:_3    "Baden-Württemberg-STIPENDIUM für Berufstätige";
+                                                                                                  rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#br> ];
+                                                                                                  rdf:_5    "Baden-Württemberg-STIPENDIUM für Studierende – BWS plus";
+                                                                                                  rdf:_6    [ rdf:type  <http://www.w3.org/1999/xhtml#br> ];
+                                                                                                  rdf:_7    "Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Baden-Württemberg-STIPENDIUM für Studierende\n<br>\nBaden-Württemberg-STIPENDIUM für Berufstätige\n<br>\nBaden-Württemberg-STIPENDIUM für Studierende – BWS plus\n<br>\nWalter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM"
+                                                                                                ];
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n<p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n <br></p>\n<p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n<p>Die verschiedenen Programmlinien:</p>\n<p>Baden-Württemberg-STIPENDIUM für Studierende\n <br>\n Baden-Württemberg-STIPENDIUM für Berufstätige\n <br>\n Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n <br>\n Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM"
+                                                                                    ];
+                                                                          rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h3>;
+                                                                                                  rdf:_1    "Weitere Informationen";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Weitere Informationen";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Weitere Informationen"
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#ul>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#li>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                                                                                          rdf:_1    "Link zur Stiftung";
+                                                                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                                                                  "link";
+                                                                                                                          <http://www.w3.org/1999/xhtml#href>
+                                                                                                                                  "https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium";
+                                                                                                                          <http://www.w3.org/1999/xhtml#rel>
+                                                                                                                                  "noindex nofollow";
+                                                                                                                          <http://www.w3.org/1999/xhtml#target>
+                                                                                                                                  "_blank";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "Link zur Stiftung";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "Link zur Stiftung"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Link zur Stiftung"
+                                                                                                            ];
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#li>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                                                                                          rdf:_1    "Link zum Antragsformular";
+                                                                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                                                                  "link";
+                                                                                                                          <http://www.w3.org/1999/xhtml#href>
+                                                                                                                                  "https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium";
+                                                                                                                          <http://www.w3.org/1999/xhtml#rel>
+                                                                                                                                  "noindex nofollow";
+                                                                                                                          <http://www.w3.org/1999/xhtml#target>
+                                                                                                                                  "_blank";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "Link zum Antragsformular";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "Link zum Antragsformular"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Link zum Antragsformular"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Link zur Stiftung Link zum Antragsformular"
+                                                                                                ];
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n</ul>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Weitere Informationen Link zur Stiftung Link zum Antragsformular"
+                                                                                    ];
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "prose text-lg mb-8 space-y-6";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "<div>\n <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n  <br></p>\n <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n <p>Die verschiedenen Programmlinien:</p>\n <p>Baden-Württemberg-STIPENDIUM für Studierende\n  <br>\n  Baden-Württemberg-STIPENDIUM für Berufstätige\n  <br>\n  Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n  <br>\n  Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n </ul>\n</div>";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "col-span-2 space-y-4";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n  <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n   <br></p>\n  <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n  <p>Die verschiedenen Programmlinien:</p>\n  <p>Baden-Württemberg-STIPENDIUM für Studierende\n   <br>\n   Baden-Württemberg-STIPENDIUM für Berufstätige\n   <br>\n   Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n   <br>\n   Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n  </ul>\n </div>\n</div>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular"
+                                                            ];
+                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#aside>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#figure>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                                                                  <http://www.w3.org/1999/xhtml#height>
+                                                                                                          "347";
+                                                                                                  <http://www.w3.org/1999/xhtml#src>
+                                                                                                          "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg";
+                                                                                                  <http://www.w3.org/1999/xhtml#width>
+                                                                                                          "800"
+                                                                                                ];
+                                                                                      <http://www.w3.org/1999/xhtml#class>
+                                                                                              "ml-auto max-w-[600px]";
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">"
+                                                                                    ];
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "mb-10 max-w-sm";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n</figure>"
+                                                                        ];
+                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    "Regionen:";
+                                                                                                  <http://www.w3.org/1999/xhtml#class>
+                                                                                                          "font-bold";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Regionen:";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Regionen:"
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#ul>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#li>;
+                                                                                                                          rdf:_1    "Baden-Württemberg";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "Baden-Württemberg";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "Baden-Württemberg"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<li>Baden-Württemberg</li>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Baden-Württemberg"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Baden-Württemberg"
+                                                                                                ];
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Regionen: Baden-Württemberg"
+                                                                                    ];
+                                                                          rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    "Engagementbereiche:";
+                                                                                                  <http://www.w3.org/1999/xhtml#class>
+                                                                                                          "font-bold";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Engagementbereiche:";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Engagementbereiche:"
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#ul>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#li>;
+                                                                                                                          rdf:_1    "Bildung";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "Bildung";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "Bildung"
+                                                                                                                        ];
+                                                                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#li>;
+                                                                                                                          rdf:_1    "Kinder und Jugendliche";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "Kinder und Jugendliche";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "Kinder und Jugendliche"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<li>Bildung</li>\n<li>Kinder und Jugendliche</li>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Bildung Kinder und Jugendliche"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<ul>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n</ul>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Bildung Kinder und Jugendliche"
+                                                                                                ];
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n </ul>\n</div>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Engagementbereiche: Bildung Kinder und Jugendliche"
+                                                                                    ];
+                                                                          rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    "Bewerbungsfrist:";
+                                                                                                  <http://www.w3.org/1999/xhtml#class>
+                                                                                                          "font-bold";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Bewerbungsfrist:";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Bewerbungsfrist:"
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    "Fortlaufende Förderung";
+                                                                                                  <http://www.w3.org/1999/xhtml#class>
+                                                                                                          "mb-1";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Fortlaufende Förderung";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Fortlaufende Förderung"
+                                                                                                ];
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Bewerbungsfrist: Fortlaufende Förderung"
+                                                                                    ];
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "prose text-lg space-y-4";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung"
+                                                                        ];
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "grid lg:grid-cols-3 gap-16";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n   <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n    <br></p>\n   <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n   <p>Die verschiedenen Programmlinien:</p>\n   <p>Baden-Württemberg-STIPENDIUM für Studierende\n    <br>\n    Baden-Württemberg-STIPENDIUM für Berufstätige\n    <br>\n    Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n    <br>\n    Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung"
+                                                ];
+                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h2>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                                                                  rdf:_1    "Baden-Württemberg Stiftung Bildung";
+                                                                                                  <http://www.w3.org/1999/xhtml#class>
+                                                                                                          "link";
+                                                                                                  <http://www.w3.org/1999/xhtml#href>
+                                                                                                          "https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung";
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "Baden-Württemberg Stiftung Bildung";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Baden-Württemberg Stiftung Bildung"
+                                                                                                ];
+                                                                                      <http://www.w3.org/1999/xhtml#class>
+                                                                                              "mb-8 font-bold text-2xl";
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Baden-Württemberg Stiftung Bildung"
+                                                                                    ];
+                                                                          rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                              rdf:_1    "Kriegsbergstraße 42,";
+                                                                                                              rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#br> ];
+                                                                                                              rdf:_3    "70174 Stuttgart";
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "Kriegsbergstraße 42,\n<br>\n70174 Stuttgart";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Kriegsbergstraße 42, 70174 Stuttgart"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<p>Kriegsbergstraße 42,\n <br>\n 70174 Stuttgart</p>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Kriegsbergstraße 42, 70174 Stuttgart"
+                                                                                                ];
+                                                                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h3>;
+                                                                                                              rdf:_1    "E-Mail";
+                                                                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                                                                      "font-bold";
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "E-Mail";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "E-Mail"
+                                                                                                            ];
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                                                                                          rdf:_1    "info@bwstiftung.de";
+                                                                                                                          <http://www.w3.org/1999/xhtml#href>
+                                                                                                                                  "mailto:info@bwstiftung.de";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "info@bwstiftung.de";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "info@bwstiftung.de"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "info@bwstiftung.de"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "E-Mail info@bwstiftung.de"
+                                                                                                ];
+                                                                                      rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h3>;
+                                                                                                              rdf:_1    "Webseite";
+                                                                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                                                                      "font-bold";
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "Webseite";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Webseite"
+                                                                                                            ];
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                              rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                                                                                          rdf:_1    "www.bwstiftung.de/de/";
+                                                                                                                          <http://www.w3.org/1999/xhtml#href>
+                                                                                                                                  "https://www.bwstiftung.de/de/";
+                                                                                                                          <http://www.w3.org/1999/xhtml#target>
+                                                                                                                                  "_blank";
+                                                                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                                  "www.bwstiftung.de/de/";
+                                                                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                                                                  "www.bwstiftung.de/de/"
+                                                                                                                        ];
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "<a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a>";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "www.bwstiftung.de/de/"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Webseite www.bwstiftung.de/de/"
+                                                                                                ];
+                                                                                      rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#h3>;
+                                                                                                              rdf:_1    "Telefon";
+                                                                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                                                                      "font-bold";
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "Telefon";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "Telefon"
+                                                                                                            ];
+                                                                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                                                                              rdf:_1    "+49 711248 4760";
+                                                                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                                      "+49 711248 4760";
+                                                                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                                                                      "+49 711248 4760"
+                                                                                                            ];
+                                                                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                                                                          "<h3 class=\"font-bold\">Telefon</h3>\n<p>+49 711248 4760</p>";
+                                                                                                  <https://html.spec.whatwg.org/#innerText>
+                                                                                                          "Telefon +49 711248 4760"
+                                                                                                ];
+                                                                                      <http://www.w3.org/1999/xhtml#class>
+                                                                                              "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+                                                                                      <https://html.spec.whatwg.org/#innerHTML>
+                                                                                              "<div>\n <p>Kriegsbergstraße 42,\n  <br>\n  70174 Stuttgart</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>+49 711248 4760</p>\n</div>";
+                                                                                      <https://html.spec.whatwg.org/#innerText>
+                                                                                              "Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                                                                                    ];
+                                                                          <http://www.w3.org/1999/xhtml#class>
+                                                                                  "grow";
+                                                                          <https://html.spec.whatwg.org/#innerHTML>
+                                                                                  "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Kriegsbergstraße 42,\n   <br>\n   70174 Stuttgart</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>+49 711248 4760</p>\n </div>\n</div>";
+                                                                          <https://html.spec.whatwg.org/#innerText>
+                                                                                  "Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                                                                        ];
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "space-y-4 text-lg md:flex flex-row gap-12";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Kriegsbergstraße 42,\n    <br>\n    70174 Stuttgart</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>+49 711248 4760</p>\n  </div>\n </div>\n</div>";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Kriegsbergstraße 42,\n     <br>\n     70174 Stuttgart</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>+49 711248 4760</p>\n   </div>\n  </div>\n </div>\n</div>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                                                ];
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "container";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n    <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n     <br></p>\n    <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n    <p>Die verschiedenen Programmlinien:</p>\n    <p>Baden-Württemberg-STIPENDIUM für Studierende\n     <br>\n     Baden-Württemberg-STIPENDIUM für Berufstätige\n     <br>\n     Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n     <br>\n     Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Kriegsbergstraße 42,\n      <br>\n      70174 Stuttgart</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>+49 711248 4760</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                                    ];
+                          <http://www.w3.org/1999/xhtml#class>
+                                  "my-8";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Baden-Württemberg-STIPENDIUM</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n     <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n      <br></p>\n     <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n     <p>Die verschiedenen Programmlinien:</p>\n     <p>Baden-Württemberg-STIPENDIUM für Studierende\n      <br>\n      Baden-Württemberg-STIPENDIUM für Berufstätige\n      <br>\n      Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n      <br>\n      Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Kriegsbergstraße 42,\n       <br>\n       70174 Stuttgart</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>+49 711248 4760</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "Förderdatenbank der DSEE>Baden-Württemberg-STIPENDIUM Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760"
+                        ];
+              rdf:_4    [ rdf:type  <http://www.w3.org/1999/xhtml#footer>;
+                          rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                      rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#nav>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#p>;
+                                                              rdf:_1    "©2026";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "mr-6 p-1 opacity-70";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "©2026";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "©2026"
+                                                            ];
+                                                  rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    "Impressum";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://foerderdatenbank.d-s-e-e.de/impressum";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "Impressum";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Impressum"
+                                                            ];
+                                                  rdf:_3    [ rdf:type  <http://www.w3.org/1999/xhtml#a>;
+                                                              rdf:_1    "Datenschutzerklärung";
+                                                              <http://www.w3.org/1999/xhtml#class>
+                                                                      "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+                                                              <http://www.w3.org/1999/xhtml#href>
+                                                                      "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/";
+                                                              <https://html.spec.whatwg.org/#innerHTML>
+                                                                      "Datenschutzerklärung";
+                                                              <https://html.spec.whatwg.org/#innerText>
+                                                                      "Datenschutzerklärung"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "flex flex-row flex-wrap -mx-1";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+                                                  <https://html.spec.whatwg.org/#innerText>
+                                                          "©2026 Impressum Datenschutzerklärung"
+                                                ];
+                                      rdf:_2    [ rdf:type  <http://www.w3.org/1999/xhtml#div>;
+                                                  rdf:_1    [ rdf:type  <http://www.w3.org/1999/xhtml#img>;
+                                                              <http://www.w3.org/1999/xhtml#alt>
+                                                                      "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+                                                              <http://www.w3.org/1999/xhtml#height>
+                                                                      "92";
+                                                              <http://www.w3.org/1999/xhtml#src>
+                                                                      "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+                                                              <http://www.w3.org/1999/xhtml#width>
+                                                                      "300"
+                                                            ];
+                                                  <http://www.w3.org/1999/xhtml#class>
+                                                          "max-w-[240px]";
+                                                  <https://html.spec.whatwg.org/#innerHTML>
+                                                          "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">"
+                                                ];
+                                      <http://www.w3.org/1999/xhtml#class>
+                                              "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+                                      <https://html.spec.whatwg.org/#innerHTML>
+                                              "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+                                      <https://html.spec.whatwg.org/#innerText>
+                                              "©2026 Impressum Datenschutzerklärung"
+                                    ];
+                          <http://www.w3.org/1999/xhtml#class>
+                                  "container mt-24";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+                          <https://html.spec.whatwg.org/#innerText>
+                                  "©2026 Impressum Datenschutzerklärung"
+                        ];
+              rdf:_5    [ rdf:type  <http://www.w3.org/1999/xhtml#script>;
+                          rdf:_1    "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+                          <https://html.spec.whatwg.org/#innerHTML>
+                                  "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();"
+                        ];
+              <https://html.spec.whatwg.org/#innerHTML>
+                      "<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Baden-Württemberg-STIPENDIUM</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n      <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n       <br></p>\n      <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n      <p>Die verschiedenen Programmlinien:</p>\n      <p>Baden-Württemberg-STIPENDIUM für Studierende\n       <br>\n       Baden-Württemberg-STIPENDIUM für Berufstätige\n       <br>\n       Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n       <br>\n       Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Kriegsbergstraße 42,\n        <br>\n        70174 Stuttgart</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>+49 711248 4760</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+              <https://html.spec.whatwg.org/#innerText>
+                      "Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Baden-Württemberg-STIPENDIUM Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760 ©2026 Impressum Datenschutzerklärung"
+            ];
+  <http://www.w3.org/1999/xhtml#lang>
+          "de";
+  <https://html.spec.whatwg.org/#innerHTML>
+          "<head>\n <meta charset=\"utf-8\">\n <link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n <link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n <meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n <meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/baden-wuerttemberg-stipendium\">\n <meta property=\"og:locale\" content=\"de\">\n <title>Baden-Württemberg-STIPENDIUM  –  Förderdatenbank</title>\n <meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n <meta property=\"og:type\" content=\"website\">\n <meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n <meta property=\"og:title\" content=\"Baden-Württemberg-STIPENDIUM\">\n <meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n <meta name=\"twitter:title\" content=\"Baden-Württemberg-STIPENDIUM\">\n <meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n <script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n <script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n <link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\">\n</head>\n<body>\n <div class=\"container flex flex-row justify-end my-4\">\n  <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n   <nav class=\"flex flex-row my-2\">\n    <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n   </nav>\n   <div class=\"flex flex-row divide-x my-2\">\n    <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n   </div>\n  </div>\n </div>\n <header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n  <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n  <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n </header>\n <main class=\"my-8\">\n  <nav class=\"container\">\n   <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n    <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Baden-Württemberg-STIPENDIUM</span>\n   </div>\n  </nav>\n  <article class=\"container\">\n   <div class=\"grid lg:grid-cols-3 gap-16\">\n    <div class=\"col-span-2 space-y-4\">\n     <header class=\"mb-8\">\n      <h1 class=\"col-span-2 font-bold text-2xl\">Baden-Württemberg-STIPENDIUM</h1>\n     </header>\n     <div class=\"prose text-lg mb-8 space-y-6\">\n      <div>\n       <p>Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein.</p>\n       <p>Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt.\n        <br></p>\n       <p>Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen.</p>\n       <p>Die verschiedenen Programmlinien:</p>\n       <p>Baden-Württemberg-STIPENDIUM für Studierende\n        <br>\n        Baden-Württemberg-STIPENDIUM für Berufstätige\n        <br>\n        Baden-Württemberg-STIPENDIUM für Studierende – BWS plus\n        <br>\n        Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM</p>\n      </div>\n      <div>\n       <h3>Weitere Informationen</h3>\n       <ul>\n        <li><a href=\"https://www.bwstiftung.de/de/programm/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n        <li><a href=\"https://www.bwstiftung.de/de/ausschreibung/baden-wuerttemberg-stipendium\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n       </ul>\n      </div>\n     </div>\n    </div>\n    <aside>\n     <div class=\"mb-10 max-w-sm\">\n      <figure class=\"ml-auto max-w-[600px]\">\n       <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/5_2023-11-25-185236_eysu.svg\" width=\"800\" height=\"347\">\n      </figure>\n     </div>\n     <div class=\"prose text-lg space-y-4\">\n      <div>\n       <div class=\"font-bold\">Regionen:</div>\n       <div>\n        <ul>\n         <li>Baden-Württemberg</li>\n        </ul>\n       </div>\n      </div>\n      <div>\n       <div class=\"font-bold\">Engagementbereiche:</div>\n       <div>\n        <ul>\n         <li>Bildung</li>\n         <li>Kinder und Jugendliche</li>\n        </ul>\n       </div>\n      </div>\n      <div>\n       <div class=\"font-bold\">Bewerbungsfrist:</div>\n       <div class=\"mb-1\">Fortlaufende Förderung</div>\n      </div>\n     </div>\n    </aside>\n   </div>\n   <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n    <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n     <div class=\"grow\">\n      <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/31423-baden-wuerttemberg-stiftung-bildung\" class=\"link\">Baden-Württemberg Stiftung Bildung</a></h2>\n      <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n       <div>\n        <p>Kriegsbergstraße 42,\n         <br>\n         70174 Stuttgart</p>\n       </div>\n       <div>\n        <h3 class=\"font-bold\">E-Mail</h3>\n        <p><a href=\"mailto:info@bwstiftung.de\">info@bwstiftung.de</a></p>\n       </div>\n       <div>\n        <h3 class=\"font-bold\">Webseite</h3>\n        <p><a href=\"https://www.bwstiftung.de/de/\" target=\"_blank\">www.bwstiftung.de/de/</a></p>\n       </div>\n       <div>\n        <h3 class=\"font-bold\">Telefon</h3>\n        <p>+49 711248 4760</p>\n       </div>\n      </div>\n     </div>\n    </div>\n   </div>\n  </article>\n </main>\n <footer class=\"container mt-24\">\n  <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n   <nav class=\"flex flex-row flex-wrap -mx-1\">\n    <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n    <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n   </nav>\n   <div class=\"max-w-[240px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n   </div>\n  </div>\n </footer>\n <script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>\n</body>";
+  <https://html.spec.whatwg.org/#innerText>
+          "Baden-Württemberg-STIPENDIUM  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Baden-Württemberg-STIPENDIUM Baden-Württemberg-STIPENDIUM Die Baden-Württemberg Stiftung wurde im Jahr 2000 gegründet und ist eine der großen operativen Stiftungen in Deutschland. Als unabhängige und überparteiliche Stiftung des Landes sind wir in besonderem Maße den Menschen in Baden-Württemberg verpflichtet. Mit einem klaren Auftrag und mit einer klaren Haltung gestalten wir Wandel – in Gesellschaft und Kultur, in der Bildung sowie der Spitzenforschung. Für eine gemeinsame Zukunft, die nicht auf das Ich, sondern auf das Wir baut. Wir engagieren uns für eine lebendige Bürgergesellschaft und fördern soziale und kulturelle Teilhabe. Mit Ideen und Investitionen in Wirtschaft und Wissenschaft setzen wir uns für ein nachhaltig lebenswertes Baden-Württemberg ein. Für die berufliche und persönliche Entwicklung sind internationale Erfahrungen, Sprachkenntnisse und interkulturelle Kompetenzen so wichtig wie nie zuvor. Die Baden-Württemberg Stiftung ermöglicht deshalb mit verschiedenen Programmlinien jungen Menschen einen Auslandsaufenthalt. Seit 2001 unterstützt die Baden-Württemberg Stiftung mit der Vergabe des Baden-Württemberg-STIPENDIUMs den internationalen Austausch von Studierenden und jungen Berufstätigen. Sie sind alle Teil eines lebendigen Netzwerkes. Mit dem Stipendium wird sowohl jungen Menschen aus Baden-Württemberg ermöglicht, einige Zeit im Ausland zu verbringen, als auch ausländischen Stipendiatinnen und Stipendiaten, Baden-Württemberg kennen zu lernen. Die verschiedenen Programmlinien: Baden-Württemberg-STIPENDIUM für Studierende Baden-Württemberg-STIPENDIUM für Berufstätige Baden-Württemberg-STIPENDIUM für Studierende – BWS plus Walter-Hallstein-Programm im Baden-Württemberg-STIPENDIUM Weitere Informationen Link zur Stiftung Link zum Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung Baden-Württemberg Stiftung Bildung Kriegsbergstraße 42, 70174 Stuttgart E-Mail info@bwstiftung.de Webseite www.bwstiftung.de/de/ Telefon +49 711248 4760 ©2026 Impressum Datenschutzerklärung"
+] .
