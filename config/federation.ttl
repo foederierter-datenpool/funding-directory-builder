@@ -266,6 +266,11 @@
 #   resolved records that carry no location. fdbBund × euportal overlap could then
 #   never be found.
 #
+#   It cannot express a multi-valued field. The engine's valOf reads only the first
+#   quad (match.js), so a gate on dct:spatial would compare one arbitrary NUTS code
+#   per record — two nationwide programmes listing the same Länder in a different
+#   order would fail the gate. Any future hard criterion must be single-valued.
+#
 # Without a hard criterion every subject lands in one bucket, so this is an O(n²)
 # scan. Fine at the current corpus; revisit if it becomes the bottleneck, and
 # prefer a gate on a single-valued field that every source fills.

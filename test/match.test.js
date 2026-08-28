@@ -68,7 +68,8 @@ test("same title, different Land does not merge", () => {
     // "Digitalbonus" (Förderfinder, Bayern) against "Digitalbonus Thüringen".
     // token_set_ratio scores this 100 because one title is a subset of the other,
     // which is why the rule sets :matchAlgorithm rather than taking the default.
-    // The hard criterion on dct:spatial rejects it regardless.
+    // token_sort_ratio scores it 69, and that alone is what rejects it — there is
+    // no :hasHardCriterion on dct:spatial; see the note in federation.ttl.
     assert.equal(merged("Digitalbonus Thüringen").sources.size, 1)
 })
 
