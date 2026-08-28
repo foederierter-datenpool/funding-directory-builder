@@ -3,6 +3,19 @@ import fs from "fs"
 
 // EU Funding & Tenders Portal (SEDIA search API). We query Topic records
 // (type=1) — the fundable subjects, each carrying a title + descriptionByte.
+//
+// Closed topics are kept, not filtered out: a programme that has ended is still
+// worth showing, and the consumer decides from cdf:status and the deadline. The
+// portal states the status per topic (31094501 Forthcoming, 31094502 Open,
+// 31094503 Closed — 6756 / 11658 / 228533 of the index), and extract turns that
+// code into a slug.
+//
+// Be aware when reading a small sample: the API returns a fixed default order
+// that is roughly oldest-first and ignores both sort and range —
+// sort=deadlineDate:DESC, sort=startDate:DESC and a range filter on deadlineDate
+// each return the identical unsorted 246947 hits. So the first page is the
+// stalest page, and a limited run sees only long-closed topics. Raising :limit
+// is what fixes that, not a query change.
 // The endpoint is a POST: auth + paging in the query string, an Elasticsearch
 // query as a multipart "query" part. We write the results[] array as one JSON
 // file; the Lift step (src/lift/json.sparql) turns it into RDF and the clean

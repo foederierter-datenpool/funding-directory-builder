@@ -7,12 +7,18 @@
 # closed vocabularies and validated every cell, so the values arrive as slugs
 # rather than as the raw export's generic classifier containers.
 #
-# funding_location → NUTS is the one translation. It is keyed on the export's own
-# codes, not on labels, so it is a different table from the other sources' — and
-# the codes are kept verbatim upstream, including the "schlesig_holstein" typo and
-# the two Länder that arrive as ISO-ish "de_ni"/"de_st". "sonstige" means "abroad,
-# unspecified", which NUTS has no code for, so it is left unmapped rather than
-# forced onto DE.
+# What this file is mostly made of is crosswalks, because the export ships its own
+# slugs and they were cut from the same XÖV concepts by a different hand: no "und"
+# in the compounds (kultur_medien_sport), singular where the codelist is plural
+# (kommune). Those are the same concept and are folded onto the label-derived form
+# the other sources produce. Where the concepts genuinely differ they are kept
+# apart — see each table.
+#
+# funding_location → NUTS is keyed on the export's own codes, not on labels, so it
+# is a different table from the other sources' — and the codes are kept verbatim
+# upstream, including the "schlesig_holstein" typo and the two Länder that arrive
+# as ISO-ish "de_ni"/"de_st". "sonstige" means "abroad, unspecified", which NUTS
+# has no code for, so it is left unmapped rather than forced onto DE.
 
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX cdp: <https://civic-data.de/pipeline#>
@@ -23,8 +29,11 @@ CONSTRUCT {
           xyz:title       ?title ;
           xyz:description ?desc ;
           xyz:url         ?url ;
-          xyz:location    ?nuts ;
-          xyz:funderLevel ?level .
+          xyz:location          ?nuts ;
+          xyz:funderLevel       ?level ;
+          xyz:fundingArea       ?area ;
+          xyz:eligibleApplicant ?applicant ;
+          xyz:fundingType       ?type .
 } WHERE {
     ?rec xyz:id_url ?idUrl ; xyz:title ?title .
     BIND(IRI(CONCAT(STR(cdp:), "fdb-", ENCODE_FOR_URI(STR(?idUrl)))) AS ?prog)
@@ -58,5 +67,78 @@ CONSTRUCT {
         # bund / eu / land — the same slugs the other sources produce.
         ?rec xyz:funding_body ?bSeq . ?bSeq ?bI ?level .
         FILTER(STRSTARTS(STR(?bI), CONCAT(STR(rdf:), "_")))
+    } UNION {
+        # Förderbereich. Pure spelling: the export drops the "und" the codelist
+        # label carries. mobilitaet and frauenfoerderung have no XÖV counterpart
+        # and stay as themselves; corona is "Corona-Hilfe" spelled short.
+        ?rec xyz:funding_area ?aSeq . ?aSeq ?aI ?aCode .
+        FILTER(STRSTARTS(STR(?aI), CONCAT(STR(rdf:), "_")))
+        VALUES (?aCode ?area) {
+            ("arbeit"                                 "arbeit")
+            ("aus_weiterbildung"                      "aus_und_weiterbildung")
+            ("aussenwirtschaft"                       "aussenwirtschaft")
+            ("beratung"                               "beratung")
+            ("corona"                                 "corona_hilfe")
+            ("digitalisierung"                        "digitalisierung")
+            ("energieeffizienz_erneuerbare_energien"  "energieeffizienz_und_erneuerbare_energien")
+            ("existenzgruendung_festigung"            "existenzgruendung_und_festigung")
+            ("forschung_innovation_themenoffen"       "forschung_und_innovation_themenoffen")
+            ("forschung_innovation_themenspezifisch"  "forschung_und_innovation_themenspezifisch")
+            ("frauenfoerderung"                       "frauenfoerderung")
+            ("gesundheit_soziales"                    "gesundheit_und_soziales")
+            ("infrastruktur"                          "infrastruktur")
+            ("kultur_medien_sport"                    "kultur_medien_und_sport")
+            ("landwirtschaft_laendliche_entwicklung"  "landwirtschaft_und_laendliche_entwicklung")
+            ("messen_ausstellungen"                   "messen_und_ausstellungen")
+            ("mobilitaet"                             "mobilitaet")
+            ("regionalfoerderung"                     "regionalfoerderung")
+            ("smart_cities_regionen"                  "smart_cities_und_regionen")
+            ("staedtebau_stadterneuerung"             "staedtebau_und_stadterneuerung")
+            ("umwelt_naturschutz"                     "umwelt_und_naturschutz")
+            ("unternehmensfinanzierung"               "unternehmensfinanzierung")
+            ("wohnungsbau_modernisierung"             "wohnungsbau_und_modernisierung")
+        }
+    } UNION {
+        # Fördernehmende. Only three are the same concept under a different
+        # number (singular here, plural in the codelist). The rest are genuinely
+        # this export's own and are kept as such: the codelist has no
+        # Bildungseinrichtung, Hochschule or Existenzgründer/in, its "Behörden" is
+        # narrower than an Öffentliche Einrichtung, and its three company sizes
+        # are all folded into one "Unternehmen" here. Forcing those onto a
+        # near-miss would claim a precision the source does not have.
+        ?rec xyz:eligible_applicants ?eSeq . ?eSeq ?eI ?eCode .
+        FILTER(STRSTARTS(STR(?eI), CONCAT(STR(rdf:), "_")))
+        VALUES (?eCode ?applicant) {
+            ("forschungseinrichtung"  "forschungseinrichtungen")
+            ("kommune"                "kommunen")
+            ("privatperson"           "privatpersonen")
+            ("bildungseinrichtung"    "bildungseinrichtung")
+            ("existenzgruenderin"     "existenzgruenderin")
+            ("hochschule"             "hochschule")
+            ("oeffentliche_einrichtung" "oeffentliche_einrichtung")
+            ("unternehmen"            "unternehmen")
+            ("verband_vereinigung"    "verband_vereinigung")
+        }
+    } UNION {
+        # Finanzierungsform. "darlehen" is the codelist's 002, which Förderfinder
+        # writes as "Kredit/Darlehen" — same concept, different words, which is
+        # exactly what label normalisation cannot fold and a table can.
+        #
+        # Two are deliberately NOT merged. A Garantie is an independent
+        # undertaking; a Bürgschaft (§765 BGB) is accessory to a main debt, and
+        # this export states the distinction outright. And "beteiligung" is left
+        # separate from Förderfinder's "anteilsfinanzierung_kapitalbeteiligung",
+        # which conflates an equity stake with a co-financing share — an
+        # unresolved pair, better visible as two facets than silently merged.
+        ?rec xyz:funding_type ?tSeq . ?tSeq ?tI ?tCode .
+        FILTER(STRSTARTS(STR(?tI), CONCAT(STR(rdf:), "_")))
+        VALUES (?tCode ?type) {
+            ("darlehen"     "kredit_darlehen")
+            ("zuschuss"     "zuschuss")
+            ("beteiligung"  "beteiligung")
+            ("buergschaft"  "buergschaft")
+            ("garantie"     "garantie")
+            ("sonstige"     "sonstige")
+        }
     }
 }

@@ -33,7 +33,7 @@
     :hasTargetField :t-name, :t-description, :t-url,
                     :t-fundingArea, :t-location, :t-fundingType,
                     :t-eligibleApplicant, :t-funderLevel,
-                    :t-deadlineModel, :t-deadline .
+                    :t-deadlineModel, :t-deadline, :t-status .
 
 :t-name        a :TargetField ; :targetPredicate schema:name .
 :t-description a :TargetField ; :targetPredicate schema:description .
@@ -56,6 +56,14 @@
 :t-deadlineModel a :TargetField ; :targetPredicate cdf:deadlineModel .
 :t-deadline      a :TargetField ; :targetPredicate schema:applicationDeadline .
 
+# Whether the opportunity can still be applied for. Ended programmes are kept in
+# the directory deliberately — they are still worth showing — so a consumer needs
+# something to judge by: this, or the deadline. Only the EU portal states it
+# today. fdbBund's "absent" flag is not it: upstream says absence means only that
+# a programme left the export, which may be closure, reorganisation or a
+# restructure, and its editorial status_note is unparsed for now.
+:t-status a :TargetField ; :targetPredicate cdf:status .
+
 
 # ---- Sources ------------------------------------------------------------
 
@@ -74,15 +82,16 @@
 :fdb-title       a :SourceField ; :fieldPath "title" .
 :fdb-description a :SourceField ; :fieldPath "description" .
 :fdb-url         a :SourceField ; :fieldPath "url" .
-# funding_location and funding_body only. The export's other three coded columns
-# — funding_area, funding_type, eligible_applicants — ship their own slugs, and
-# those disagree with the ones the label-derived normalisation produces for the
-# same concept: "kultur_medien_sport" vs kultur_medien_und_sport, "kommune" vs
-# kommunen, "darlehen" vs kredit_darlehen. Reconciling them is a crosswalk table,
-# not a normalisation rule, so they stay unmapped until config/vocab.ttl exists
-# rather than being published as near-duplicate facet entries.
+# All five coded columns. The export ships its own slugs, cut from the same XÖV
+# concepts by a different hand ("kultur_medien_sport", "kommune", "darlehen"), so
+# extract folds them onto the label-derived form the other sources produce —
+# except where the concepts genuinely differ, which extract documents case by
+# case.
 :fdb-location    a :SourceField ; :fieldPath "location" .
 :fdb-funderLevel a :SourceField ; :fieldPath "funderLevel" .
+:fdb-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:fdb-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:fdb-fundingType       a :SourceField ; :fieldPath "fundingType" .
 
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
@@ -109,12 +118,13 @@
     :retrieval    "API" ;
     :format       ft:JSON ;
     :hasField     :eu-title, :eu-description, :eu-url,
-                  :eu-deadlineModel, :eu-deadline .
+                  :eu-deadlineModel, :eu-deadline, :eu-status .
 :eu-title         a :SourceField ; :fieldPath "title" .
 :eu-description   a :SourceField ; :fieldPath "description" .
 :eu-url           a :SourceField ; :fieldPath "url" .
 :eu-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
 :eu-deadline      a :SourceField ; :fieldPath "deadline" .
+:eu-status        a :SourceField ; :fieldPath "status" .
 
 :foerderfinderSource a :Source ;
     rdfs:label    "Förderfinder Bayern" ;
@@ -146,8 +156,11 @@
         [ :from :fdb-title       ; :to :t-name        ] ,
         [ :from :fdb-description ; :to :t-description ] ,
         [ :from :fdb-url         ; :to :t-url         ] ,
-        [ :from :fdb-location    ; :to :t-location    ] ,
-        [ :from :fdb-funderLevel ; :to :t-funderLevel ] .
+        [ :from :fdb-location          ; :to :t-location          ] ,
+        [ :from :fdb-funderLevel       ; :to :t-funderLevel       ] ,
+        [ :from :fdb-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :fdb-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :fdb-fundingType       ; :to :t-fundingType       ] .
 
 # DSEE: html:innerText is already plain text → direct mapping.
 :dsee-mapping a :Mapping ;
@@ -170,7 +183,8 @@
         [ :from :eu-description   ; :to :t-description   ] ,
         [ :from :eu-url           ; :to :t-url           ] ,
         [ :from :eu-deadlineModel ; :to :t-deadlineModel ] ,
-        [ :from :eu-deadline      ; :to :t-deadline      ] .
+        [ :from :eu-deadline      ; :to :t-deadline      ] ,
+        [ :from :eu-status        ; :to :t-status        ] .
 
 # Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
 :foerderfinder-mapping a :Mapping ;

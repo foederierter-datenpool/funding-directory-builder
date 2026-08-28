@@ -30,7 +30,8 @@ CONSTRUCT {
           xyz:description   ?desc ;
           xyz:url           ?url ;
           xyz:deadlineModel ?deadlineModel ;
-          xyz:deadline      ?deadline .
+          xyz:deadline      ?deadline ;
+          xyz:status        ?status .
 } WHERE {
     ?res xyz:reference ?ref .
     BIND(IRI(CONCAT(STR(cdp:), "eu-", ENCODE_FOR_URI(STR(?ref)))) AS ?prog)
@@ -43,6 +44,16 @@ CONSTRUCT {
     OPTIONAL {
         ?res xyz:metadata/xyz:deadlineModel/rdf:_1 ?dmRaw .
         BIND(REPLACE(LCASE(STR(?dmRaw)), "[^a-z0-9]+", "_") AS ?deadlineModel)
+    }
+    # 31094501 / 31094502 / 31094503 are the portal's own status codes; nothing
+    # but this source publishes them, so they are translated to shared slugs.
+    OPTIONAL {
+        ?res xyz:metadata/xyz:status/rdf:_1 ?statusCode .
+        VALUES (?statusCode ?status) {
+            ("31094501" "forthcoming")
+            ("31094502" "open")
+            ("31094503" "closed")
+        }
     }
     # "2023-04-12T22:00:00.000+0000" → "2023-04-12". The time is a UTC artefact
     # of the portal's own storage, not a stated cut-off hour.
