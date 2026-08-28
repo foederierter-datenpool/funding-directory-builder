@@ -3,13 +3,13 @@
 _local/
 
 node_modules/
-package-lock.json
 
 data/
 tools/
 
-# built webapp (npm run webapp:build)
+# built webapp (npm run webapp:build) — the engine owns webapp/, these are its artifacts
 /webapp/dist/
+/webapp/package-lock.json
 
 # Large static data files
 static-sources/
