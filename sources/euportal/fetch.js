@@ -35,25 +35,21 @@ const OUT_DIR = process.argv[2]
 const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/prod/rest/search"
 // argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
 
-const { limit } = JSON.parse(process.argv[4] || "{}")
+// Run params rather than constants, because these two decide what the directory
+// *contains* -- they are product decisions, not implementation detail, and belong
+// where a reviewer reading federation.ttl will see them. A comment here restating
+// them is the same fact in two places, and it had already drifted once.
+const { limit, fromYear, toYear, languages } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
 // Queried server-side; LANGUAGE_PREFERENCE below picks between them per topic.
-const LANGUAGES = ["en", "de"]
+const LANGUAGES = (languages?.[0] ?? "en,de").split(",").map((l) => l.trim()).filter(Boolean)
 
-// The cut, on deadlineDate. Measured from a full 2024+ harvest of 72,200 topics:
-// 2024 23,526 / 2025 19,189 / 2026 22,070 / 2027 7,367 / 2028 48.
-//
-// 2026 is the boundary because everything below it is a call whose deadline has
-// already passed -- 2024 and 2025 closed one to two years ago, before this
-// directory existed. The "keep ended programmes" rule was about *recently* ended
-// ones. 2026+ keeps every still-open call plus the current year's closed ones:
-// 29,485 topics, 41% of a 2024+ harvest, and a match space of ~1.4e8 pairs
-// against ~3.4e8.
-const FROM_YEAR = 2026
-// Deadlines run into the future, so the upper bound is generous rather than
-// today. An empty partition costs one request.
-const TO_YEAR = 2030
+// The cut, on deadlineDate. Set in federation.ttl; the reasoning lives there too.
+const FROM_YEAR = Number(fromYear?.[0]) || 2026
+// Deadlines run into the future, so the upper bound is generous rather than today.
+// An empty partition costs one request.
+const TO_YEAR = Number(toYear?.[0]) || 2030
 
 // Half-month partitions: [1st, 16th) and [16th, 1st of next month).
 const partitions = []

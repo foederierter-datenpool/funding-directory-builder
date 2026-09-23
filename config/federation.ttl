@@ -196,14 +196,29 @@
     :dedupWithinSource false ;
     skos:notation "eu" ;
     :enabled      true ;
-    # Full corpus from 2026 on: 29485 topics of ~287000. The fetcher partitions on
-    # deadlineDate in half-month bands, which is what gets past the API's 10000-result
-    # cap; a band that hits it fails the run rather than returning a prefix. The cut
-    # is a product decision -- everything earlier is a call whose deadline has already
-    # passed, 2024 and 2025 by one to two years, and the "keep ended programmes" rule
-    # was about *recently* ended ones. 15% of the
-    # index carries no deadlineDate and no range reaches it; see sources/euportal/fetch.js.
+    # What this source contains is decided here, not in the fetcher, because these are
+    # product decisions rather than implementation detail. ~1176 topics of an index of
+    # ~287000.
+    #
+    # The deadlineDate cut. Everything earlier is a call whose deadline has already
+    # passed -- 2024 and 2025 by one to two years -- and the "keep ended programmes"
+    # rule was about *recently* ended ones. Measured over a full 2024+ harvest:
+    # 2024 23526, 2025 19189, 2026 22070, 2027 7367, 2028 48.
+    :hasRunParam  [ :name "fromYear" ; :value "2026" ] ;
+    # Generous rather than today, since deadlines run into the future. An empty
+    # partition costs one request.
+    :hasRunParam  [ :name "toYear" ; :value "2030" ] ;
+    # The API returns one record per topic per language, all 24 official EU languages,
+    # and they are not translations -- the title is the same English string in every
+    # one. Neither language covers the corpus alone: over 1176 topics en misses 21,
+    # de misses 30, together none. The overlap is collapsed in the fetcher, preferring
+    # the first listed.
+    :hasRunParam  [ :name "languages" ; :value "en,de" ] ;
     :hasRunParam  [ :name "limit" ; :value "0" ] ;
+    # Two things the fetcher does that are not expressible here. It partitions the
+    # harvest into half-month bands, which is what gets past the API's 10000-result
+    # cap -- a band that hits it fails the run rather than returning a prefix. And 15%
+    # of the index carries no deadlineDate at all, so no range reaches it.
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
