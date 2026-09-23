@@ -32,6 +32,7 @@ CONSTRUCT {
           xyz:location          ?nuts ;
           xyz:funderLevel       ?level ;
           xyz:fundingArea       ?area ;
+          xyz:fundingSubarea    ?subarea ;
           xyz:eligibleApplicant ?applicant ;
           xyz:fundingType       ?type ;
           xyz:keywordsExtracted ?keyword ;
@@ -96,6 +97,24 @@ CONSTRUCT {
         # bund / eu / land — the same slugs the other sources produce.
         ?rec xyz:funding_body ?bSeq . ?bSeq ?bI ?level .
         FILTER(STRSTARTS(STR(?bI), CONCAT(STR(rdf:), "_")))
+    } UNION {
+        # Förderunterbereich, fdbBund's own second level: 124 values on 91% of rows,
+        # always "<parent>.<leaf>" (kultur_medien_sport.sport_sportstaetten). No XÖV
+        # codelist covers it, so unlike funding_area it is passed through rather than
+        # crosswalked -- the same call made for DSEE's Engagementbereiche.
+        #
+        # The whole dotted string is kept, not the leaf: leaves repeat across parents
+        # (betriebsmittel sits under both unternehmensfinanzierung and
+        # existenzgruendung_festigung), so a leaf alone is ambiguous.
+        #
+        # Consequence worth knowing: the prefix is fdbBund's *raw* area spelling,
+        # while cdf:fundingArea carries the crosswalked XÖV one -- so
+        # "existenzgruendung_festigung.betriebsmittel" sits beside
+        # "existenzgruendung_und_festigung". Crosswalking the prefix was considered
+        # and dropped: a parent missing from the table would make the row vanish
+        # silently, which is worse than a spelling that does not line up.
+        ?rec xyz:funding_subarea ?sSeq . ?sSeq ?sI ?subarea .
+        FILTER(STRSTARTS(STR(?sI), CONCAT(STR(rdf:), "_")))
     } UNION {
         # Förderbereich. Pure spelling: the export drops the "und" the codelist
         # label carries. mobilitaet and frauenfoerderung have no XÖV counterpart

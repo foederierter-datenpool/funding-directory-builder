@@ -36,7 +36,7 @@
 :fundingOpportunitySchema a :TargetSchema ;
     :targetClass schema:FundingScheme ;
     :hasTargetField :t-name, :t-description, :t-url,
-                    :t-fundingArea, :t-location, :t-fundingType,
+                    :t-fundingArea, :t-fundingSubarea, :t-location, :t-fundingType,
                     :t-eligibleApplicant, :t-funderLevel,
                     :t-deadlineModel, :t-deadline, :t-status,
                     :t-keywords, :t-legalCitation .
@@ -54,6 +54,10 @@
 # they are :multiValued (merge must not read them as cross-source conflicts) and
 # get a :keepAll override below (resolve must not collapse them to one literal).
 :t-fundingArea       a :TargetField ; :targetPredicate cdf:fundingArea       ; :multiValued true .
+# fdbBund's own second level, "<parent>.<leaf>". Only fdbBund has one -- DSEE's
+# Engagementbereiche are a single flat axis and the EU portal's destination is a
+# thematic grouping, not a sub-area -- so this is single-source for now.
+:t-fundingSubarea    a :TargetField ; :targetPredicate cdf:fundingSubarea    ; :multiValued true .
 :t-location          a :TargetField ; :targetPredicate dct:spatial           ; :multiValued true .
 :t-fundingType       a :TargetField ; :targetPredicate cdf:fundingType       ; :multiValued true .
 :t-eligibleApplicant a :TargetField ; :targetPredicate cdf:eligibleApplicant ; :multiValued true .
@@ -144,7 +148,7 @@
     # several values. See sources/fdbBund/fetch.js.
     :format       ft:JSON ;
     :hasField     :fdb-title, :fdb-description, :fdb-url,
-                  :fdb-location, :fdb-funderLevel, :fdb-fundingArea,
+                  :fdb-location, :fdb-funderLevel, :fdb-fundingArea, :fdb-fundingSubarea,
                   :fdb-eligibleApplicant, :fdb-fundingType,
                   :fdb-keywords, :fdb-legalCitation .
 :fdb-title       a :SourceField ; :fieldPath "title" .
@@ -158,6 +162,7 @@
 :fdb-location    a :SourceField ; :fieldPath "location" .
 :fdb-funderLevel a :SourceField ; :fieldPath "funderLevel" .
 :fdb-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:fdb-fundingSubarea    a :SourceField ; :fieldPath "fundingSubarea" .
 :fdb-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
 :fdb-fundingType       a :SourceField ; :fieldPath "fundingType" .
 # keywords 98% filled, legal_citation 68% — the citation is the clean reference
@@ -280,6 +285,7 @@
         [ :from :fdb-location          ; :to :t-location          ] ,
         [ :from :fdb-funderLevel       ; :to :t-funderLevel       ] ,
         [ :from :fdb-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :fdb-fundingSubarea    ; :to :t-fundingSubarea    ] ,
         [ :from :fdb-eligibleApplicant ; :to :t-eligibleApplicant ] ,
         [ :from :fdb-fundingType       ; :to :t-fundingType       ] ,
         [ :from :fdb-keywords          ; :to :t-keywords          ] ,
@@ -402,6 +408,7 @@
 :resolve a :ResolveRule ;
     :defaultStrategy :alphabeticFirst ;
     :hasOverride [ :on cdf:fundingArea       ; :strategy :keepAll ] ,
+                 [ :on cdf:fundingSubarea    ; :strategy :keepAll ] ,
                  [ :on dct:spatial           ; :strategy :keepAll ] ,
                  [ :on cdf:fundingType       ; :strategy :keepAll ] ,
                  [ :on cdf:eligibleApplicant ; :strategy :keepAll ] ,
