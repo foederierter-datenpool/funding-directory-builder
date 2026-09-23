@@ -33,8 +33,20 @@ CONSTRUCT {
           xyz:deadline      ?deadline ;
           xyz:status        ?status .
 } WHERE {
+    # Identity comes from metadata.identifier (ERC-2026-PERA), the topic id that does
+    # not move. reference does: it is <numeric>TOPICS<language> (48861989TOPICSen),
+    # so the same topic has 24 references, one per language, and which one this
+    # source sees depends on the fetcher's language preference. Minting from it made
+    # every language variant its own entity, and would silently re-mint a programme
+    # under a new IRI if its English variant ever stopped being published.
+    #
+    # Measured on the current corpus: 1176 records, 1176 with an identifier, 1176
+    # distinct. Still COALESCEd rather than required -- a record with no identifier
+    # should keep its old unstable IRI rather than disappear from the directory.
     ?res xyz:reference ?ref .
-    BIND(IRI(CONCAT(STR(cdp:), "eu-", ENCODE_FOR_URI(STR(?ref)))) AS ?prog)
+    OPTIONAL { ?res xyz:metadata/xyz:identifier/rdf:_1 ?ident }
+    BIND(COALESCE(?ident, ?ref) AS ?key)
+    BIND(IRI(CONCAT(STR(cdp:), "eu-", ENCODE_FOR_URI(STR(?key)))) AS ?prog)
     OPTIONAL {
         ?res xyz:metadata/xyz:identifier/rdf:_1 ?topicId .
         BIND(CONCAT("https://ec.europa.eu/info/funding-tenders/opportunities/portal",

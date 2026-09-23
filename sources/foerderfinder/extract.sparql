@@ -28,6 +28,7 @@
 
 PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
 PREFIX cdp:  <https://civic-data.de/pipeline#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
@@ -39,7 +40,9 @@ CONSTRUCT {
           xyz:eligibleApplicant ?applicant ;
           xyz:funderLevel       ?level ;
           xyz:location          ?nuts ;
-          xyz:status            ?status .
+          xyz:status            ?status ;
+          xyz:deadline          ?deadline ;
+          xyz:deadlineModel     ?deadlineModel .
 } WHERE {
     ?item xyz:id ?id ; xyz:attributes ?attr .
     BIND(IRI(CONCAT(STR(cdp:), "ff-", STR(?id))) AS ?prog)
@@ -91,6 +94,33 @@ CONSTRUCT {
             ("vereine"                                      "verband_vereinigung")
             ("behoerden"                                    "oeffentliche_einrichtung")
         }
+    } UNION {
+        # Antragsfrist, the only structured application deadline in any German
+        # source here. XFLB models it as a five-branch FristZeitlicheEingrenzung and
+        # only two of those branches say something this schema can hold:
+        #
+        #   fristdatum     35  a real date        -> schema:applicationDeadline
+        #   fristJaehrlich 44  "01.10." annually  -> deadline_model multiple cut-off
+        #   fristFest      27  {monate: 2}        -- a duration before project start,
+        #   fristSpanne    11  min/max duration      not a deadline at all
+        #   sonstige       25  "ja"               -- carries no information alone
+        #
+        # The three skipped ones are deliberate. A duration relative to an unstated
+        # event is not the date a reader is asking for, and "sonstige: ja" needs the
+        # free-text bemerkung, which is the information-extraction problem this
+        # pipeline keeps out of extract queries.
+        ?item xyz:payload/xyz:json/xyz:anfrage/xyz:flb/xyz:konkreteFLB/xyz:antragsinformationen/xyz:antragsfrist/xyz:zeitlicheEingrenzung ?ze .
+        ?ze xyz:fristdatum ?fristRaw .
+        BIND(STRDT(SUBSTR(STR(?fristRaw), 1, 10), xsd:date) AS ?deadline)
+    } UNION {
+        # An annually recurring cut-off ("01.10.") is a repeating application
+        # window, which is what the shared enum calls multiple cut-off. No date is
+        # emitted with it: the value carries a day and month but no year, and
+        # resolving it against the harvest time would assert a specific deadline
+        # the source never stated.
+        ?item xyz:payload/xyz:json/xyz:anfrage/xyz:flb/xyz:konkreteFLB/xyz:antragsinformationen/xyz:antragsfrist/xyz:zeitlicheEingrenzung ?ze2 .
+        ?ze2 xyz:fristJaehrlich ?jaehrlich .
+        BIND("multiple_cut_off" AS ?deadlineModel)
     } UNION {
         # cdf:status from the programme runtime end (foerderzeitraum.bis, 194 of
         # 204 records), compared against cdp:observedAt — the per-source harvest

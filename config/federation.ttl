@@ -265,7 +265,7 @@
     :format       ft:JSON ;
     :hasField     :ff-title, :ff-description, :ff-fundingArea, :ff-location,
                   :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel,
-                  :ff-status .
+                  :ff-status, :ff-deadline, :ff-deadlineModel .
 :ff-title             a :SourceField ; :fieldPath "title" .
 :ff-description       a :SourceField ; :fieldPath "description" .
 # The five XÖV-coded categories, normalised to slugs at extract. No :ff-url —
@@ -279,6 +279,11 @@
 # Derived at extract from the programme runtime end against cdp:observedAt — see
 # the note there, and on :t-status below.
 :ff-status            a :SourceField ; :fieldPath "status" .
+# The XFLB Antragsfrist. Only two of its five branches reach the schema: a real
+# date (35 records) and an annually recurring cut-off (44). See the note in
+# sources/foerderfinder/extract.sparql for why the other three do not.
+:ff-deadline          a :SourceField ; :fieldPath "deadline" .
+:ff-deadlineModel     a :SourceField ; :fieldPath "deadlineModel" .
 
 # ---- Mappings -----------------------------------------------------------
 
@@ -335,7 +340,9 @@
         [ :from :ff-fundingType       ; :to :t-fundingType       ] ,
         [ :from :ff-eligibleApplicant ; :to :t-eligibleApplicant ] ,
         [ :from :ff-funderLevel       ; :to :t-funderLevel       ] ,
-        [ :from :ff-status            ; :to :t-status            ] .
+        [ :from :ff-status            ; :to :t-status            ] ,
+        [ :from :ff-deadline          ; :to :t-deadline          ] ,
+        [ :from :ff-deadlineModel     ; :to :t-deadlineModel     ] .
 
 # ---- Match --------------------------------------------------------------
 
