@@ -82,8 +82,12 @@ test("similar title, different subject does not merge", () => {
 test("a genuine pair below the threshold stays split, knowingly", () => {
     // "Digitalbonus" (Förderfinder) and "Digitalbonus Bayern" (fdbBund) are the same
     // programme in the same Land, and token_sort_ratio scores them 0.77 — under the
-    // 0.9 the rule sets. Asserted so that lowering :minScore shows up here as an
+    // 0.85 the rule sets. Asserted so that lowering :minScore shows up here as an
     // intended change rather than passing silently.
+    //
+    // 0.77 is the measured cost of the current threshold: the corpus holds ~7 more
+    // true pairs in 75-80, against ~17 false ones, which is why the rule sits above
+    // that band and the remainder is a job for the judge rather than a number.
     assert.equal(merged("Digitalbonus Bayern").sources.size, 1)
     assert.equal(merged("Digitalbonus").sources.size, 1)
 })

@@ -380,7 +380,35 @@
     :targetNamespace     "https://civic-data.de/federated-directory#" ;
     :mintedSubjectPrefix "funding-" ;
     :matchAlgorithm      "token_sort_ratio" ;
-    :minScore             0.9 ;
+    # 0.85, lowered from 0.9 on measured evidence. Every cross-source pair scoring
+    # >=75 was enumerated over the real corpus (89 of them, 47 reachable after
+    # blocking) and read by hand:
+    #
+    #   band     reachable   true   false
+    #   >=90            13     13       0
+    #   85-90            4      3       1     <- gained by this change
+    #   80-85            6      4       2
+    #   75-80           24     ~7     ~17
+    #
+    # So this buys three real merges for one wrong one, taking precision from 13/13
+    # to 16/17. A trade, not a free gain -- an earlier reading of this said zero
+    # false and was wrong.
+    #
+    # The three true ones share a shape: one source prefixes or nominalises the same
+    # title ("Kurse zur Alphabetisierung fuer Asylsuchende" against "Alpha Asyl -
+    # Kurse zur Alphabetisierung fuer Asylsuchende", 89). The false one is
+    # "Stipendienprogramm fuer Medizinstudierende" (Sachsen-Anhalt, 3-year
+    # commitment) against "Stipendium fuer Medizinstudierende" (Bayern's rural
+    # programme, 5 years) -- same wording, different programme, and not separable
+    # by title alone.
+    #
+    # Not lower. 80-85 is +4 true against +2 false, and 75-80 is clearly bad at ~7
+    # against ~17 -- that band is where the Land name inflates unrelated titles
+    # ("Foerderung der Stiftung Naturschutz Schleswig-Holstein" against "Foerderung
+    # des Sports in Schleswig-Holstein", 76) and where one word inverts the meaning
+    # ("Regionale" against "ueberregionale" Offene Behindertenarbeit, 76). Those
+    # need a judge, not a threshold.
+    :minScore             0.85 ;
     :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] ;
     # Partition on the Land, without deciding anything: a record whose value is
     # missing is compared against everything rather than dropped, which is why this
