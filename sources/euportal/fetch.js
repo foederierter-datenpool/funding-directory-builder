@@ -176,20 +176,40 @@ if (fs.existsSync(DONE_MARKER)) {
     if (kept) console.log(`  resuming an interrupted harvest — ${kept} partition(s) already cached`)
 }
 
+// Several partitions at once. This is safe only because each one is its own child
+// process: the undici crash takes a single partition down, and it is retried. The
+// harvest is network-bound -- ~15 MB a page, one page at a time saturates nothing --
+// so the concurrency is what sets the wall-clock, not the request count.
+const CHILD_CONCURRENCY = 3
+
 fs.mkdirSync(CACHE_DIR, { recursive: true })
-let done = 0, harvested = 0
-for (const partition of partitions) {
-    if (!fs.existsSync(cacheFile(partition.label))) {
+let done = 0, harvested = 0, stop = false
+const pending = partitions.filter((p) => {
+    if (!fs.existsSync(cacheFile(p.label))) return true
+    harvested += JSON.parse(fs.readFileSync(cacheFile(p.label), "utf8")).items.length
+    done++
+    return false
+})
+if (done) console.log(`  ${done} partition(s) already cached, ${harvested} records`)
+
+let next = 0
+const worker = async () => {
+    while (!stop) {
+        const partition = pending[next++]
+        if (!partition) return
         // The crash is the expected failure here, not an exceptional one, so the
         // retry count is generous.
         await retry(() => runChild(partition.label), { attempts: 6 })
+        harvested += JSON.parse(fs.readFileSync(cacheFile(partition.label), "utf8")).items.length
+        process.stdout.write(`\r  ${++done}/${partitions.length} partitions, ${harvested} records`)
+        // A capped development run stops once it has enough rather than walking all
+        // 168 partitions to throw most of the result away. With concurrency the
+        // exact set that contributes is whichever finished first, so a capped run is
+        // not reproducible -- use CHILD_CONCURRENCY 1 when it needs to be.
+        if (harvested >= LIMIT) stop = true
     }
-    harvested += JSON.parse(fs.readFileSync(cacheFile(partition.label), "utf8")).items.length
-    process.stdout.write(`\r  ${++done}/${partitions.length} partitions, ${harvested} records`)
-    // A capped development run stops harvesting once it has enough, rather than
-    // walking all 168 partitions to throw most of the result away.
-    if (harvested >= LIMIT) break
 }
+await Promise.all(Array.from({ length: CHILD_CONCURRENCY }, worker))
 process.stdout.write("\n")
 
 // Only the partitions actually harvested feed emit; the rest have no cache file.
