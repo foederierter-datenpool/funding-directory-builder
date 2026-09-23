@@ -13,6 +13,11 @@
     :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
     :hasTargetSchema :fundingOpportunitySchema ;
     :harvestingModeActive false ;
+    # Development default only. Every source overrides it below, because the four
+    # have nothing in common: ~2550 rows in one lift file, ~200 in one, ~1330 HTML
+    # pages at one JVM each, and ~287000 EU topics. A source's own :hasRunParam
+    # replaces the federation's value of that name outright; names it doesn't
+    # mention still inherit. 0 means no cap. Needs core >= 0.5.0.
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
     :baseUrl         "https://foederierter-datenpool.github.io/funding-directory-builder/" ;
     :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
@@ -95,6 +100,8 @@
     :dedupWithinSource false ;
     skos:notation "fdb" ;
     :enabled      true ;
+    # ~2550 rows, one CSV fetch, one lift file — the cap buys nothing.
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
     :fetchUrl     "https://fdb.cdl.correlaid.org/data/programme.csv" ;
     :retrieval    "API" ;
     # The fetch downloads CSV and writes JSON: its multi-valued columns hold a
@@ -123,6 +130,10 @@
     :dedupWithinSource false ;
     skos:notation "dsee" ;
     :enabled      true ;
+    # ~1330 detail pages, one JVM per file on lift, so a full ingest costs ~45 min.
+    # Uncapped regardless: fetch clears the raw dir every run, so a cap saves no
+    # work — it only shrinks the corpus.
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
@@ -141,6 +152,11 @@
     :dedupWithinSource false ;
     skos:notation "eu" ;
     :enabled      true ;
+    # NOT the full corpus. 286811 topics exist but the API caps paging at 10000
+    # and ignores sort, so any prefix is the stalest long-closed calls; records are
+    # ~112 KB each. 500 is a pragmatic sample until partitioned fetch lands
+    # (directory-builder-core#11). See the note on this source below.
+    :hasRunParam  [ :name "limit" ; :value "500" ] ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
@@ -166,6 +182,9 @@
     :dedupWithinSource false ;
     skos:notation "ff" ;
     :enabled      true ;
+    # ~200 records total, one lift file. (218 in Aug 2026, 204 in Sep — the
+    # portal removes programmes, and the fetch checks its count against numFound.)
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
     :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
