@@ -38,7 +38,8 @@
     :hasTargetField :t-name, :t-description, :t-url,
                     :t-fundingArea, :t-location, :t-fundingType,
                     :t-eligibleApplicant, :t-funderLevel,
-                    :t-deadlineModel, :t-deadline, :t-status .
+                    :t-deadlineModel, :t-deadline, :t-status,
+                    :t-keywords, :t-legalCitation .
 
 :t-name        a :TargetField ; :targetPredicate schema:name .
 :t-description a :TargetField ; :targetPredicate schema:description .
@@ -95,6 +96,37 @@
 #   programme still exists.
 :t-status a :TargetField ; :targetPredicate cdf:status .
 
+# Both fdbBund-only, and declared anyway because they answer questions the other
+# fields cannot. keywords is the best search material in the corpus — 98% filled
+# and ~96 characters of topical terms, against a description that is 78% filled
+# and 1.4 KB of prose. legalCitation is the reference to the Richtlinie a programme
+# rests on, which is what a funding directory gets asked for and what distinguishes
+# one funding period from its successor. It is named for what the value *is* — a
+# citation — not for the concept it points at, because fdbBund has a separate
+# `legal_basis` column holding the full instrument text, which this does not carry.
+#
+# schema:keywords is reused because it honestly fits; the citation is minted, since
+# no established term means "the reference to the legal instrument this grant rests
+# on". Both source fields keep their upstream column names (keywordsExtracted,
+# legalCitation) rather than being tidied, because in both cases a *different* column
+# of that tidier name exists and is deliberately unused — see the extract.
+#
+# keywords is multi-valued, read from the upstream keywords_extracted column
+# rather than the raw keywords string. The raw form joins terms with spaces and
+# does not delimit multi-word concepts ("Erneuerbarer Wasserstoff" is one term,
+# "Umbaumaßnahmen Informationsveranstaltungen" is two), so it cannot be split by
+# rule; upstream ships the split already done. Note its table schema declares
+# that column fdb:origin "inferred" — a fine-tuned model split it, the
+# Förderdatenbank did not state it — so it is derived data, at the same 98%
+# coverage as the string it came from.
+#
+# fdbBund also carries legal_basis — the full Richtlinie text, 100% filled but
+# 16.8 KB per record, ~43 MB over the corpus. Deliberately not extracted: it
+# would dominate every artefact the pipeline writes to answer a question nobody
+# has asked of the directory.
+:t-keywords   a :TargetField ; :targetPredicate schema:keywords ; :multiValued true .
+:t-legalCitation a :TargetField ; :targetPredicate cdf:legalCitation .
+
 
 # ---- Sources ------------------------------------------------------------
 
@@ -113,7 +145,8 @@
     :format       ft:JSON ;
     :hasField     :fdb-title, :fdb-description, :fdb-url,
                   :fdb-location, :fdb-funderLevel, :fdb-fundingArea,
-                  :fdb-eligibleApplicant, :fdb-fundingType .
+                  :fdb-eligibleApplicant, :fdb-fundingType,
+                  :fdb-keywords, :fdb-legalCitation .
 :fdb-title       a :SourceField ; :fieldPath "title" .
 :fdb-description a :SourceField ; :fieldPath "description" .
 :fdb-url         a :SourceField ; :fieldPath "url" .
@@ -127,6 +160,10 @@
 :fdb-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
 :fdb-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
 :fdb-fundingType       a :SourceField ; :fieldPath "fundingType" .
+# keywords 98% filled, legal_citation 68% — the citation is the clean reference
+# ("Bekanntmachung des Ministeriums … Amtsblatt … Nr. 7 vom 13. Februar 2023").
+:fdb-keywords          a :SourceField ; :fieldPath "keywordsExtracted" .
+:fdb-legalCitation     a :SourceField ; :fieldPath "legalCitation" .
 
 :dseeSource a :Source ;
     rdfs:label    "Förderdatenbank DSEE" ;
@@ -222,7 +259,9 @@
         [ :from :fdb-funderLevel       ; :to :t-funderLevel       ] ,
         [ :from :fdb-fundingArea       ; :to :t-fundingArea       ] ,
         [ :from :fdb-eligibleApplicant ; :to :t-eligibleApplicant ] ,
-        [ :from :fdb-fundingType       ; :to :t-fundingType       ] .
+        [ :from :fdb-fundingType       ; :to :t-fundingType       ] ,
+        [ :from :fdb-keywords          ; :to :t-keywords          ] ,
+        [ :from :fdb-legalCitation     ; :to :t-legalCitation     ] .
 
 # DSEE: html:innerText is already plain text → direct mapping.
 :dsee-mapping a :Mapping ;
@@ -326,4 +365,5 @@
     :hasOverride [ :on cdf:fundingArea       ; :strategy :keepAll ] ,
                  [ :on dct:spatial           ; :strategy :keepAll ] ,
                  [ :on cdf:fundingType       ; :strategy :keepAll ] ,
-                 [ :on cdf:eligibleApplicant ; :strategy :keepAll ] .
+                 [ :on cdf:eligibleApplicant ; :strategy :keepAll ] ,
+                 [ :on schema:keywords       ; :strategy :keepAll ] .

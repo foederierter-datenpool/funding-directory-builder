@@ -33,12 +33,41 @@ CONSTRUCT {
           xyz:funderLevel       ?level ;
           xyz:fundingArea       ?area ;
           xyz:eligibleApplicant ?applicant ;
-          xyz:fundingType       ?type .
+          xyz:fundingType       ?type ;
+          xyz:keywordsExtracted ?keyword ;
+          xyz:legalCitation     ?legalCitation .
 } WHERE {
     ?rec xyz:id_url ?idUrl ; xyz:title ?title .
     BIND(IRI(CONCAT(STR(cdp:), "fdb-", ENCODE_FOR_URI(STR(?idUrl)))) AS ?prog)
 
+    # legal_citation passes through verbatim — no derivation, one value per record,
+    # so a plain OPTIONAL outside the UNION chain below multiplies nothing.
+    #
+    # Emitted under the source's own column name, not a tidier one. Most fields here
+    # are renamed on the way out (funding_body → funderLevel, funding_location →
+    # location) because the new name is clearer and nothing collides. These two do
+    # collide: fdbBund also has a `keywords` column and a `legal_basis` column, and
+    # this extract deliberately uses *neither* — keywords_extracted because the raw
+    # string cannot be split by rule, legal_citation because legal_basis is 16.8 KB
+    # of Richtlinie text per record. Naming the outputs `keywords` and `legalBasis`
+    # would read as though those columns were the source, which is exactly backwards.
+    OPTIONAL { ?rec xyz:legal_citation ?legalCitation }
+
     {
+        # keywords_extracted, not the raw keywords string. Upstream ships both: a
+        # space-joined blob and the same terms split into a JSON array. The split
+        # is not something this repo could redo — the separator is a space and
+        # multi-word terms are not delimited, so "E-Sport Digitalisierung" and
+        # "Erneuerbarer Wasserstoff Speicherung" cannot be told apart by rule.
+        #
+        # Worth knowing what it is: the column is declared fdb:origin "inferred"
+        # in the upstream table schema — split by a fine-tuned model, not stated
+        # by the Förderdatenbank. Same 98% coverage as the raw string, and the
+        # multi-word cases come out intact, but it is a derived field and the
+        # directory should not present it as the source's own vocabulary.
+        ?rec xyz:keywords_extracted ?kSeq . ?kSeq ?kI ?keyword .
+        FILTER(STRSTARTS(STR(?kI), CONCAT(STR(rdf:), "_")))
+    } UNION {
         OPTIONAL { ?rec xyz:description ?desc }
         OPTIONAL { ?rec xyz:url ?url }
     } UNION {
