@@ -1,6 +1,5 @@
 import { pathToFileURL } from "url"
-import path from "path"
-import fs from "fs"
+import { emit, fetchOk, retry } from "@directory-builder/core/fetch"
 
 // Live source: the Förderdatenbank Bund, via the CSV that CorrelAid's fdb-scraper
 // publishes weekly (https://github.com/CorrelAid/fdb_scraper). That scraper does the
@@ -69,23 +68,34 @@ async function main() {
     const { limit } = JSON.parse(process.argv[4] || "{}")
     const LIMIT = Number(limit?.[0]) || Infinity
 
-    const res = await fetch(CSV_URL, { headers: { Accept: "text/csv" } })
-    if (!res.ok) throw new Error(`FDB CSV failed: ${res.status} ${res.statusText}`)
-    const text = await res.text()
+    // One request, no paging, no partitions — so of the primitives this needs only
+    // the transport edge: a status check and a retry. fetchOk turns a non-OK status
+    // into an error instead of a body, and retries 5xx/429 with backoff while
+    // aborting on 4xx.
+    const text = await retry(
+        () => fetchOk(CSV_URL, { headers: { Accept: "text/csv" } }).then((r) => r.text()),
+        { attempts: 5 })
 
     const [header, ...rows] = parseCsv(text)
     if (!header?.includes("id_url")) {
         throw new Error(`FDB CSV has no id_url column — got [${header?.slice(0, 5)}…]. Upstream schema changed?`)
     }
     const records = toRecords(rows, header, LIMIT)
-
-    fs.mkdirSync(OUT_DIR, { recursive: true })
-    fs.writeFileSync(path.join(OUT_DIR, "programme.json"), JSON.stringify(records))
-
     const skipped = rows.length - rows.filter((r) => r.length === header.length).length
+
+    // emit writes the file and does the counting. The floor is what catches the
+    // failure that actually happens to a single-request source: the endpoint answers,
+    // the CSV parses, and it is nearly empty. A capped run states its own expectation
+    // because emit otherwise checks the count against the source's total.
+    await emit(records, {
+        outDir: OUT_DIR,
+        format: "json",
+        stem: "programme",
+        expect: LIMIT === Infinity ? { minRecords: 1000 } : { total: records.length },
+    })
     console.log(`  ${records.length} programmes of ${rows.length}`
         + `${skipped ? ` (${skipped} malformed rows skipped)` : ""}`
-        + ` (limit ${LIMIT === Infinity ? "none" : LIMIT}) → ${OUT_DIR}`)
+        + ` (limit ${LIMIT === Infinity ? "none" : LIMIT})`)
 }
 
 if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) await main()

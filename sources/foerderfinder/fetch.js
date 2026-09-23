@@ -1,5 +1,4 @@
-import path from "path"
-import fs from "fs"
+import { harvest, emit, fetchOk } from "@directory-builder/core/fetch"
 
 // Förderfinder Bayern: public, unauthenticated JSON read API behind the SPA at
 // foerderfinder.digital (Förderfinder Suite; data model = XFörderleistungs-
@@ -17,25 +16,28 @@ const BASE_URL = (process.argv[3] ?? "https://foerderfinder.digital/bayern/suche
 const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE = 50
-const get = async (offset) => {
-    const url = `${BASE_URL}/search?q=&offset=${offset}&limit=${PAGE}`
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(`Förderfinder search failed: ${res.status} ${await res.text()}`)
-    return res.json()
-}
+// A cap is rounded up to a page boundary: harvest fetches whole pages, and the
+// expectation below has to match what it actually pulls.
+const MAX_PAGES = LIMIT === Infinity ? undefined : Math.ceil(LIMIT / PAGE)
 
-const first = await get(0)
-const total = first.numFound ?? first.items.length
-const target = Math.min(LIMIT, total)
-const items = [...first.items]
-for (let offset = PAGE; items.length < target; offset += PAGE) {
-    const page = await get(offset)
-    if (!page.items?.length) break
-    items.push(...page.items)
-}
-const out = LIMIT === Infinity ? items : items.slice(0, LIMIT)
-
-fs.mkdirSync(OUT_DIR, { recursive: true })
-const outPath = path.join(OUT_DIR, "results.json")
-fs.writeFileSync(outPath, JSON.stringify(out, null, 2))
-console.log(`  ${out.length} programmes (of ${total}) → ${outPath}`)
+// Offset paging over one unpartitioned corpus, so harvest is called with no
+// partitions and page N maps to offset (N-1)*PAGE. numFound is the source's own
+// total, which is what makes the count check below possible: emit compares it
+// against what arrived, so a short harvest fails the run instead of quietly
+// producing a smaller directory.
+await emit(harvest({
+    fetchOne: async (_partition, page) => {
+        const url = `${BASE_URL}/search?q=&offset=${(page - 1) * PAGE}&limit=${PAGE}`
+        const json = await fetchOk(url).then((r) => r.json())
+        return { items: json.items ?? [], total: json.numFound }
+    },
+    retry: { attempts: 5 },
+    maxPages: MAX_PAGES,
+}), {
+    outDir: OUT_DIR,
+    format: "json",
+    stem: "results",
+    // An uncapped run is checked against numFound by default. A capped one states
+    // its own expectation, or emit would read the cap as a truncated harvest.
+    expect: LIMIT === Infinity ? {} : { total: MAX_PAGES * PAGE },
+})
