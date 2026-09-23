@@ -24,6 +24,17 @@ const JAR = path.join(ROOT, "tools/sparql-anything.jar")
 // :format → the bundled lift query, and the lift params federation.ttl declares.
 // Kept here rather than parsed out of the config: a test that read the config
 // would follow it into a broken state instead of failing.
+//
+// dsee's selector deliberately differs from federation.ttl, which says
+// "div.cdp-record". In production the fetcher chunks pages and lift splits the
+// chunk back into one TTL per record, so what extract.sparql actually receives is
+// a single record's triples -- which is exactly what these single-page fixtures
+// give it. Wrapping the fixtures and selecting the record instead would only
+// re-test core's splitting, and without splitting here a two-record fixture would
+// hand extract a store it is no longer written to disambiguate.
+//
+// The consequence: the chunk path is not covered by this suite. It is verified
+// against the real corpus by diffing extracted output across the change.
 const SOURCES = {
     dsee:          { lift: "html", params: { selector: "html" } },
     fdbBund:       { lift: "json", params: {} },

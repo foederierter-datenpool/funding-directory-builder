@@ -177,7 +177,13 @@
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
-    :hasLiftParam [ :name "selector" ; :value "html" ] ;
+    # The fetcher chunks pages into one file per 200 records, each wrapped in a
+    # <div class="cdp-record">, so the lift roots at the record rather than the
+    # document. This value is emit's RECORD_SELECTOR written a second time, with
+    # nothing enforcing the agreement -- change one and the lift yields nothing.
+    # Needs core >= 0.10.0, which splits the lifted chunk into one TTL per record;
+    # before that, chunking pushed a quadratic traversal into extract.sparql.
+    :hasLiftParam [ :name "selector" ; :value "div.cdp-record" ] ;
     :hasField     :dsee-title, :dsee-description, :dsee-url,
                   :dsee-fundingArea, :dsee-location, :dsee-deadlineModel .
 :dsee-title         a :SourceField ; :fieldPath "title" .

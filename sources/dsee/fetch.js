@@ -1,6 +1,4 @@
-import { pool, fetchOk } from "@directory-builder/core/fetch"
-import path from "path"
-import fs from "fs"
+import { pool, emit, fetchOk } from "@directory-builder/core/fetch"
 
 // DSEE Förderdatenbank is server-rendered HTML. The listing is paginated: the root
 // is page 1, then /p2 … /pN. Each listing links to detail pages at
@@ -19,6 +17,9 @@ import fs from "fs"
 // stopOnError stays at its default (true). A partial harvest nobody notices is the
 // worse failure while nothing validates volume; better to fail the run loudly. The
 // count check below is the cheap half of that until harvest validation lands.
+
+// Records per lifted file. See the note at the emit call below.
+const CHUNK = 200
 
 const OUT_DIR = process.argv[2]
 const BASE_URL = (process.argv[3] ?? "https://foerderdatenbank.d-s-e-e.de").replace(/\/$/, "")
@@ -60,22 +61,35 @@ console.log(`  ${lastPage} listing pages → ${slugs.size} distinct detail URLs`
 // Phase 2: the detail pages. Deduplicated above, because a duplicate here costs an
 // HTTP request now and a JVM at lift later, and nothing downstream can undo either.
 const queue = [...slugs.entries()].slice(0, LIMIT === Infinity ? undefined : LIMIT)
-fs.mkdirSync(OUT_DIR, { recursive: true })
-
-await pool(queue, async ([slug, url]) => {
-    fs.writeFileSync(path.join(OUT_DIR, `${slug}.html`), await text(url))
-}, {
-    concurrency: 3,
-    delayMs: 100,
-    retry: RETRY,
-    onProgress: ({ completed, total }) => process.stdout.write(`\r  ${completed}/${total}`),
+const { results } = await pool(queue, async ([slug, url]) => ({ name: slug, content: await text(url) }), {
+    limit: CONCURRENCY,
+    retry: { attempts: 4 },
+    onProgress: (done, total) => process.stdout.write(`  ${done}/${total}\r`),
 })
-process.stdout.write("\n")
 
-// Cheap completeness check: every enumerated URL must have produced a file. pool
-// rejects on a page that fails every attempt, so this catches the quieter case —
-// a write that silently did not happen.
-const written = fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".html")).length
-if (written !== queue.length)
-    throw new Error(`DSEE: enumerated ${queue.length} detail pages but wrote ${written}`)
-console.log(`  ${written} detail pages → ${OUT_DIR}`)
+// CHUNK is why this writes through emit rather than a file per page. Lift spawns
+// one JVM per raw file, so ~1330 pages was ~1330 JVM starts and roughly 45 minutes;
+// at 200 per file it is 7 starts.
+//
+// Chunking was tried once before and reverted, because it moved the cost into
+// extract rather than removing it: one store per lifted file is what keeps an
+// extract from cross-joining, so a chunked file made every pattern anchor to its
+// record and walk down from it, and total extract grew as n^1.2 in the chunk size
+// -- about 65 hours at this chunk size against 7 minutes unchunked.
+//
+// core 0.10.0 splits a lifted chunk into one TTL per record, recognising emit's own
+// wrapper, so lift keeps its 7 JVMs and extract keeps its one record per store.
+// extract.sparql therefore stays in its unchunked form: no anchoring, no traversal.
+// Chunk size is now purely a lift concern.
+//
+// expect.total is the enumerated URL count, which turns the phase-1 listing crawl
+// into the completeness check for phase 2: every detail page we found a link to
+// must have produced a document.
+await emit(results, {
+    outDir: OUT_DIR,
+    format: "html",
+    mode: "documents",
+    chunk: CHUNK,
+    stem: "programmes",
+    expect: { total: queue.length },
+})
