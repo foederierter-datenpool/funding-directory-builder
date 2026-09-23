@@ -58,10 +58,39 @@ CONSTRUCT {
         BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
         BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?type)
     } UNION {
+        # Foerdernehmende (XOeV). Emitted as-is.
         ?attr xyz:foerdernehmer ?seq . ?seq ?i ?raw .
         FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
         BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
         BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?applicant)
+    } UNION {
+        # The same value again, widened to its parent, so that fdbBund's coarse
+        # categories and this source's finer ones answer the same filter.
+        #
+        # The two taxonomies cannot be mapped onto each other in either direction:
+        # XOeV foerdernehmende has no Bildungseinrichtung or Hochschule, and
+        # fdbBund's foerderberechtigte has no Ehrenamt and folds three company
+        # sizes into one "unternehmen". So the target set is their union, with a
+        # hierarchy, and the finer value keeps its own meaning while also asserting
+        # the coarser one -- filtering "unternehmen" now finds a
+        # kleine_und_mittlere_unternehmen record, which it did not before.
+        #
+        # Only the three parents fdbBund actually uses are widened. Anything with
+        # no counterpart there (stiftungen, freiberufler, ehrenamt) stays as it is;
+        # inventing a parent for it would assert a category nothing else uses.
+        ?attr xyz:foerdernehmer ?seq2 . ?seq2 ?i2 ?raw2 .
+        FILTER(STRSTARTS(STR(?i2), CONCAT(STR(rdf:), "_")))
+        BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw2), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad2)
+        BIND(REPLACE(REPLACE(?pad2, "^_+", ""), "_+$", "") AS ?specific)
+        VALUES (?specific ?applicant) {
+            ("einzelunternehmen"                            "unternehmen")
+            ("kleine_und_mittlere_unternehmen"              "unternehmen")
+            ("grossunternehmen"                             "unternehmen")
+            ("unternehmen_mit_auslaendischem_mehrheitsbesitz" "unternehmen")
+            ("verbaende"                                    "verband_vereinigung")
+            ("vereine"                                      "verband_vereinigung")
+            ("behoerden"                                    "oeffentliche_einrichtung")
+        }
     } UNION {
         # cdf:status from the programme runtime end (foerderzeitraum.bis, 194 of
         # 204 records), compared against cdp:observedAt — the per-source harvest
