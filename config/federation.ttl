@@ -19,6 +19,14 @@
     # replaces the federation's value of that name outright; names it doesn't
     # mention still inherit. 0 means no cap. Needs core >= 0.5.0.
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
+    # Sized for the CI runner, not this laptop. The deploy workflow builds on
+    # ubuntu-latest, which is 2 cores and 7 GB, and the defaults (3 sources, 4 JVMs)
+    # assume more of both: a SPARQL Anything JVM already uses more than one core, so
+    # four of them on two cores contend rather than overlap, and each carries its own
+    # heap. Set here rather than left to the default because the machine that matters
+    # is the one that publishes.
+    :maxConcurrentLifts   2 ;
+    :maxConcurrentSources 2 ;
     :baseUrl         "https://foederierter-datenpool.github.io/funding-directory-builder/" ;
     :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
 
