@@ -68,9 +68,22 @@ export const lift = (source, fixturePath) => {
     return fs.readFileSync(out, "utf8")
 }
 
+// The per-source harvest time core hands to extract alongside the document, so an
+// extract deriving anything time-relative sees it here too. Pinned rather than
+// new Date(): that is what lets a golden file assert a time-relative derivation.
+// Förderfinder's runtime ends are 2027-2029, so this observation resolves them to
+// "active"; move it past an end date to exercise "ended".
+export const OBSERVED_AT = "2026-09-23T00:00:00.000Z"
+
+const observations = (source) => storeFromTurtles([`
+@prefix : <https://civic-data.de/pipeline#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+:${source}Source :observedAt "${OBSERVED_AT}"^^xsd:dateTime .
+`])
+
 export const extract = async (source, liftedTtl) => {
     const query = fs.readFileSync(path.join(ROOT, "sources", source, "extract.sparql"), "utf8")
-    return sparqlConstruct(query, [storeFromTurtles([liftedTtl])])
+    return sparqlConstruct(query, [storeFromTurtles([liftedTtl]), observations(source)])
 }
 
 // Sorted N-Triples. A golden file is only signal if the serialisation is stable;

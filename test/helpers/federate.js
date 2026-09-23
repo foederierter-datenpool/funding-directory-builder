@@ -47,9 +47,40 @@ export async function federateFixtures(records) {
         fs.writeFileSync(path.join(lifted, "fixture.ttl"), lift(source, fixture))
     }
 
+    writeIngestLog(root, Object.keys(records))
+
     await federate(root)
     return { root, directory: fs.readFileSync(path.join(root, PATHS.final), "utf8"),
              matches: fs.readFileSync(path.join(root, PATHS.matches), "utf8") }
+}
+
+// The harvest time each source was observed at, which core lifts out of the ingest
+// log and hands to extract as cdp:<source> cdp:observedAt. Without a log the pattern
+// simply does not bind, so an extract deriving anything time-relative — Förderfinder's
+// cdf:status, from the programme runtime end — emits nothing and the engine's drift
+// check fails the run.
+//
+// Pinned, not new Date(): a fixed observation time is exactly what makes a
+// time-relative derivation testable. The fixtures' runtime ends are 2027-2029, so
+// they resolve to "active" here and stay that way however long this test lives.
+// Move OBSERVED_AT forward to test the "ended" branch.
+const OBSERVED_AT = "2026-09-23T00:00:00.000Z"
+
+function writeIngestLog(root, sources) {
+    const harvested = sources
+        .map((s) => `        [ :ofSource :${s}Source ; prov:atTime "${OBSERVED_AT}"^^xsd:dateTime ]`)
+        .join(" ,\n")
+    const ttl = `@prefix :     <https://civic-data.de/pipeline#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+:runFixture a :IngestRun ;
+    :harvested
+${harvested} .
+`
+    const p = path.join(root, PATHS.ingestLog)
+    fs.mkdirSync(path.dirname(p), { recursive: true })
+    fs.writeFileSync(p, ttl)
 }
 
 // Minted cluster IRI → the source records it absorbed, read from the match log.

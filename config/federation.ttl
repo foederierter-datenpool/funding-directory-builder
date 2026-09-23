@@ -75,15 +75,18 @@
 # Only the EU portal fills it today, because it is the only source that states a
 # status outright. The others are each blocked on something specific:
 #
-#   Förderfinder could derive "ended" from its programme validity end, but that
-#   is a comparison against *now*, and NOW() in an extract makes federate
-#   non-deterministic — the same snapshot would yield a different directory.ttl
-#   tomorrow. It waits on the engine exposing the harvest time it already records
-#   in data/ingest/ingest-log.ttl, so the comparison can be pure.
+#   Förderfinder derives it from the programme runtime end (foerderzeitraum.bis,
+#   194 of 204 records) compared against cdp:observedAt, the per-source harvest
+#   time core 0.5.0 lifts out of data/ingest/ingest-log.ttl. NOW() would have made
+#   federate non-deterministic — the same snapshot yielding a different
+#   directory.ttl tomorrow — whereas the harvest time is a fact about the
+#   snapshot, so the comparison is pure and a federate-only re-run keeps the
+#   previous ingest's answer.
 #
-#   fdbBund has an editorial status_note ("Antragstellung nicht mehr möglich",
-#   182 rows) which is the cheapest real coverage here, parked by decision. Its
-#   "absent" flag is not a substitute: upstream says absence means only that a
+#   fdbBund states nothing usable. Its status_note is free-text editorial, empty
+#   on 2292 of 2551 rows, and spells one word three ways ("Antragstellung",
+#   "Antragsstellung", "Antagstellung") — no contract to rely on. Its "absent"
+#   flag is not a substitute either: upstream says absence means only that a
 #   programme left the export, which may be closure, reorganisation or a
 #   restructure.
 #
@@ -189,7 +192,8 @@
     :retrieval    "API" ;
     :format       ft:JSON ;
     :hasField     :ff-title, :ff-description, :ff-fundingArea, :ff-location,
-                  :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel .
+                  :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel,
+                  :ff-status .
 :ff-title             a :SourceField ; :fieldPath "title" .
 :ff-description       a :SourceField ; :fieldPath "description" .
 # The five XÖV-coded categories, normalised to slugs at extract. No :ff-url —
@@ -200,6 +204,9 @@
 :ff-fundingType       a :SourceField ; :fieldPath "fundingType" .
 :ff-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
 :ff-funderLevel       a :SourceField ; :fieldPath "funderLevel" .
+# Derived at extract from the programme runtime end against cdp:observedAt — see
+# the note there, and on :t-status below.
+:ff-status            a :SourceField ; :fieldPath "status" .
 
 # ---- Mappings -----------------------------------------------------------
 
@@ -252,7 +259,8 @@
         [ :from :ff-location          ; :to :t-location          ] ,
         [ :from :ff-fundingType       ; :to :t-fundingType       ] ,
         [ :from :ff-eligibleApplicant ; :to :t-eligibleApplicant ] ,
-        [ :from :ff-funderLevel       ; :to :t-funderLevel       ] .
+        [ :from :ff-funderLevel       ; :to :t-funderLevel       ] ,
+        [ :from :ff-status            ; :to :t-status            ] .
 
 # ---- Match --------------------------------------------------------------
 

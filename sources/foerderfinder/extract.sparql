@@ -38,7 +38,8 @@ CONSTRUCT {
           xyz:fundingType       ?type ;
           xyz:eligibleApplicant ?applicant ;
           xyz:funderLevel       ?level ;
-          xyz:location          ?nuts .
+          xyz:location          ?nuts ;
+          xyz:status            ?status .
 } WHERE {
     ?item xyz:id ?id ; xyz:attributes ?attr .
     BIND(IRI(CONCAT(STR(cdp:), "ff-", STR(?id))) AS ?prog)
@@ -61,6 +62,29 @@ CONSTRUCT {
         FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
         BIND(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LCASE(?raw), "&", " und "), "ä", "ae"), "ö", "oe"), "ü", "ue"), "ß", "ss"), "[^a-z0-9]+", "_") AS ?pad)
         BIND(REPLACE(REPLACE(?pad, "^_+", ""), "_+$", "") AS ?applicant)
+    } UNION {
+        # cdf:status from the programme runtime end (foerderzeitraum.bis, 194 of
+        # 204 records), compared against cdp:observedAt — the per-source harvest
+        # time the engine lifts out of data/ingest/ingest-log.ttl.
+        #
+        # This is why it waited on core 0.5.0. The comparison needs a "now", and
+        # NOW() in an extract makes federate non-deterministic: the same ingested
+        # snapshot would yield a different directory.ttl tomorrow. The harvest
+        # time is a fact *about the snapshot*, so the derivation stays pure — and
+        # a federate-only re-run deliberately keeps the previous ingest's answer,
+        # which is the correct "as observed at" semantics.
+        #
+        # Unlike fdbBund above, "active" is emitted as well as "ended": here the
+        # source states a runtime, so an end date still in the future is a claim
+        # the source makes, not silence. A sentinel year of 9999 means no stated
+        # end and lands on "active" without a special case.
+        #
+        # Full IRI rather than xyz:foerderzeitraum.bis — the dot is legal inside
+        # a prefixed local name but reads ambiguously, so it is spelled out.
+        ?attr <http://sparql.xyz/facade-x/data/foerderzeitraum.bis> ?endRaw .
+        cdp:foerderfinderSource cdp:observedAt ?observedAt .
+        BIND(IF(SUBSTR(STR(?endRaw), 1, 10) < SUBSTR(STR(?observedAt), 1, 10),
+                "ended", "active") AS ?status)
     } UNION {
         ?attr xyz:foerdergeber ?seq . ?seq ?i ?raw .
         FILTER(STRSTARTS(STR(?i), CONCAT(STR(rdf:), "_")))
