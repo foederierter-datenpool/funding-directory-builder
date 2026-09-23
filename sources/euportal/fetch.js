@@ -63,7 +63,16 @@ const fetchPage = async (partition, pageNumber) => {
     ] } }
     const fd = new FormData()
     fd.append("query", new Blob([JSON.stringify(query)], { type: "application/json" }))
-    return fetchOk(`${BASE_URL}?${params}`, { method: "POST", body: fd }).then((r) => r.json())
+    // connection: close is not politeness, it is a workaround. Node's bundled
+    // undici trips an internal assertion -- assert(!this.paused) inside its own
+    // parser -- when it reuses a kept-alive socket against this endpoint, which
+    // returns ~15 MB per page. It surfaces on a socket callback rather than as a
+    // rejected promise, so retry cannot see it and the process dies outright.
+    // Serialising the harvest does not avoid it; a fresh connection per request
+    // does, at the cost of a TLS handshake each time.
+    return fetchOk(`${BASE_URL}?${params}`, {
+        method: "POST", body: fd, headers: { connection: "close" },
+    }).then((r) => r.json())
 }
 
 // Records are enormous relative to what is mapped — a median of 59 KB and a
@@ -109,12 +118,11 @@ await emit(harvest({
         return { items: json.results ?? [], total: json.totalResults }
     },
     retry: { attempts: 5 },
-    // Sequential across partitions, against harvest's default of 3. Node's bundled
-    // undici throws an internal assertion -- assert(!this.paused) inside its own
-    // parser, on a socket callback -- under concurrent fetch against this endpoint.
-    // It is not a rejected promise, so retry cannot see it: it crashes the process.
-    // Observed first on a 168-partition harvest of this same API for the blocking
-    // measurement, which is why that script was written resumable and serial.
+    // Sequential across partitions, against harvest's default of 3. This is belt
+    // and braces next to the connection: close above, which is what actually fixes
+    // the undici assertion -- serialising alone did not, the crash reproduced at
+    // concurrency 1. Kept because a fresh TLS handshake per request is the cost
+    // either way, and 15 MB pages arriving three at a time buys little.
     concurrency: 1,
     // A development cap, marked as such so emit skips its completeness check. The
     // distinction matters most here: a capped run and a harvest cut short by the
