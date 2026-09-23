@@ -109,6 +109,13 @@ await emit(harvest({
         return { items: json.results ?? [], total: json.totalResults }
     },
     retry: { attempts: 5 },
+    // Sequential across partitions, against harvest's default of 3. Node's bundled
+    // undici throws an internal assertion -- assert(!this.paused) inside its own
+    // parser, on a socket callback -- under concurrent fetch against this endpoint.
+    // It is not a rejected promise, so retry cannot see it: it crashes the process.
+    // Observed first on a 168-partition harvest of this same API for the blocking
+    // measurement, which is why that script was written resumable and serial.
+    concurrency: 1,
     // A development cap, marked as such so emit skips its completeness check. The
     // distinction matters most here: a capped run and a harvest cut short by the
     // 10,000-result ceiling both fall short of totalResults, and conflating them

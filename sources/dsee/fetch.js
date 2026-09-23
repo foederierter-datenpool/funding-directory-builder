@@ -62,10 +62,12 @@ console.log(`  ${lastPage} listing pages → ${slugs.size} distinct detail URLs`
 // HTTP request now and a JVM at lift later, and nothing downstream can undo either.
 const queue = [...slugs.entries()].slice(0, LIMIT === Infinity ? undefined : LIMIT)
 const { results } = await pool(queue, async ([slug, url]) => ({ name: slug, content: await text(url) }), {
-    limit: CONCURRENCY,
-    retry: { attempts: 4 },
-    onProgress: (done, total) => process.stdout.write(`  ${done}/${total}\r`),
+    concurrency: 3,
+    delayMs: 100,
+    retry: RETRY,
+    onProgress: ({ completed, total }) => process.stdout.write(`\r  ${completed}/${total}`),
 })
+process.stdout.write("\n")
 
 // CHUNK is why this writes through emit rather than a file per page. Lift spawns
 // one JVM per raw file, so ~1330 pages was ~1330 JVM starts and roughly 45 minutes;
