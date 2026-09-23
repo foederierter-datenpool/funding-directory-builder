@@ -1,6 +1,6 @@
 // Turn pasted adjudication verdicts into config/curation.ttl.
 //
-//   node scripts/curation/apply-verdicts.mjs verdicts.txt
+//   node scripts/curation/apply-verdicts.mjs config/curation-verdicts.txt --judge "<model>"
 //
 // Input is one line per pair, as the prompt asks for:
 //   16 DIFFERENT one commits to Sachsen-Anhalt for 3 years, the other rural for 5
@@ -16,8 +16,27 @@
 import fs from "fs"
 
 const MIN_SCORE = 85   // keep in step with :minScore in config/federation.ttl
+const verdictsPath = process.argv[2]
+const judgeIdx = process.argv.indexOf("--judge")
+const judge = judgeIdx > -1 ? process.argv[judgeIdx + 1] : "unrecorded"
 const pairs = new Map(JSON.parse(fs.readFileSync("data/curation/judge-pairs.json", "utf8")).map(p => [p.id, p]))
-const lines = fs.readFileSync(process.argv[2], "utf8").split("\n")
+const lines = fs.readFileSync(verdictsPath, "utf8").split("\n")
+
+// Which corpus was judged. A verdict is only about the records it saw, and the
+// harvest moves: without this, a curation file and the data it was made against
+// cannot be lined up again.
+const corpus = () => {
+    try {
+        const log = fs.readFileSync("data/ingest/ingest-log.ttl", "utf8")
+        const started = log.match(/prov:startedAtTime\s+"([^"]+)"/)?.[1] ?? "unknown"
+        const counts = fs.readdirSync("data/pipeline/extracted")
+            .filter(f => f.endsWith(".ttl"))
+            .map(f => `${f.replace(/\.ttl$/, "")}`)
+            .join(", ")
+        return { started, counts }
+    } catch { return { started: "unknown", counts: "unknown" } }
+}
+const { started, counts } = corpus()
 
 const verdicts = []
 for (const line of lines) {
@@ -33,11 +52,26 @@ if (missing.length) console.warn(`  ${missing.length} pair(s) without a verdict:
 const esc = (s) => s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
 const out = [
     "# Curated adjudications of candidate merges that title similarity cannot decide.",
-    "# Generated from data/curation/judge-prompt.txt — regenerate and re-adjudicate",
-    "# rather than editing by hand, then review this diff.",
+    "#",
+    "# GENERATED FILE — do not edit by hand. Regenerate and re-adjudicate:",
+    "#   npm run curate:prompt              -> data/curation/judge-prompt.txt",
+    "#   (adjudicate; save the verdict lines)",
+    `#   npm run curate:apply ${verdictsPath} --judge "<model>"`,
+    "#",
+    `# judged by:      ${judge}`,
+    `# verdicts:       ${verdictsPath} (the reasoning, one line per pair)`,
+    `# generated:      ${new Date().toISOString()}`,
+    `# corpus:         ingest of ${started}`,
+    `# sources judged: ${counts}`,
+    "#",
+    "# The judgements are an LLM's, not a domain expert's, and the model that made",
+    "# them also wrote the guidance in the prompt — so this is a first pass to review,",
+    "# not independent verification. Every verdict carries a one-line reason in the",
+    "# verdicts file; disagree by editing that and regenerating.",
     "#",
     "# Only disagreements with the threshold are asserted: a SAME below :minScore,",
-    "# or a DIFFERENT above it. Agreements are left implicit.",
+    "# or a DIFFERENT above it. Agreements are left implicit, so this file shows",
+    "# exactly where human judgement overrode the score and nothing else.",
     "",
     "@prefix owl: <http://www.w3.org/2002/07/owl#> .",
     "@prefix cdp: <https://civic-data.de/pipeline#> .",
