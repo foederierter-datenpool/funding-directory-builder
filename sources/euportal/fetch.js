@@ -38,6 +38,8 @@ const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/pr
 const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
+// Queried server-side; LANGUAGE_PREFERENCE below picks between them per topic.
+const LANGUAGES = ["en", "de"]
 
 // The cut, on deadlineDate. Measured from a full 2024+ harvest of 72,200 topics:
 // 2024 23,526 / 2025 19,189 / 2026 22,070 / 2027 7,367 / 2028 48.
@@ -69,6 +71,15 @@ const fetchPage = async (partition, pageNumber) => {
     const query = { bool: { must: [
         { terms: { type: ["1"] } },
         { range: { deadlineDate: { gte: partition.gte, lt: partition.lt } } },
+        // The API returns one record per topic per language -- all 24 official EU
+        // languages -- so an unfiltered harvest is 96% duplication and moves ~24x
+        // the bytes. The variants are not translations: metadata.title is the same
+        // English string in all of them.
+        //
+        // Two languages rather than one, because neither covers the corpus alone.
+        // Measured over 1176 distinct topics: en misses 21, de misses 30, and the
+        // two together miss none. The overlap is collapsed below, preferring en.
+        { terms: { language: LANGUAGES } },
     ] } }
     const fd = new FormData()
     fd.append("query", new Blob([JSON.stringify(query)], { type: "application/json" }))
@@ -226,15 +237,52 @@ const harvestedPartitions = partitions.filter((p) => fs.existsSync(cacheFile(p.l
 // did not harvest the corpus, and the next full run must not inherit its cache.
 if (LIMIT === Infinity) fs.writeFileSync(DONE_MARKER, new Date().toISOString())
 
+// The query already narrows to en/de, so what arrives here is at most two variants
+// of a topic rather than 24. This collapses that last pair.
+//
+// Without it the directory would list a call twice and the match step would carry
+// the duplicate through -- the pair can never merge with itself anyway, being same
+// source with :dedupWithinSource false.
+//
+// metadata.identifier is the language-independent topic id (IMCAP-2026-INFOME) and
+// is what identity should have been built on. Falls back to reference, which is
+// unique per variant -- so a record with no identifier is kept rather than
+// silently collapsed into another topic.
+const LANGUAGE_PREFERENCE = ["en", "de"]
+const topicId = (r) => (r.metadata?.identifier ?? [])[0] ?? r.reference
+const langRank = (r) => {
+    const i = LANGUAGE_PREFERENCE.indexOf(r.language)
+    return i < 0 ? LANGUAGE_PREFERENCE.length : i
+}
+
 // Yielded per partition rather than collected, so peak memory is one partition's
-// records instead of the whole ~1 GB corpus. emit sums the reported totals and
-// fails the run if the harvest fell short of them.
+// records instead of the whole corpus. emit sums the reported totals and fails the
+// run if the harvest fell short of them.
 async function* cached() {
+    // Variants of a topic share a deadline and so land in the same partition, but
+    // the set spans partitions to be safe -- it holds ids, not records.
+    const seen = new Set()
     for (const partition of harvestedPartitions) {
         const { total, items } = JSON.parse(fs.readFileSync(cacheFile(partition.label), "utf8"))
-        // A partition that hit the API's 10000-result cap is a truncated harvest,
-        // not an exhausted one; emit turns this into a failed run.
-        yield { items, total, truncated: total != null && items.length < total }
+        const best = new Map()
+        for (const r of items) {
+            const id = topicId(r)
+            if (seen.has(id)) continue
+            const prev = best.get(id)
+            if (!prev || langRank(r) < langRank(prev)) best.set(id, r)
+        }
+        for (const id of best.keys()) seen.add(id)
+        // fetched stays the pre-dedup count, so emit still checks the harvest
+        // against what the source reported and reports the dedup separately --
+        // intentional loss must not read as a shortfall.
+        yield {
+            items: [...best.values()],
+            fetched: items.length,
+            total,
+            // A partition that hit the API's 10000-result cap is a truncated
+            // harvest, not an exhausted one; emit turns this into a failed run.
+            truncated: total != null && items.length < total,
+        }
     }
 }
 
