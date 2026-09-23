@@ -375,7 +375,24 @@
     :mintedSubjectPrefix "funding-" ;
     :matchAlgorithm      "token_sort_ratio" ;
     :minScore             0.9 ;
-    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] .
+    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] ;
+    # Partition on the Land, without deciding anything: a record whose value is
+    # missing is compared against everything rather than dropped, which is why this
+    # is a blocking key and not the hard criterion considered earlier. euportal
+    # carries no dct:spatial at all, so all 1176 of its topics stay unblocked and
+    # nothing about them changes.
+    #
+    # Measured against an unblocked run of the same corpus rather than assumed. Of
+    # the 14 cross-source merges, 13 share a Land and survive. The one that does not
+    # is a false positive: "Foerderung von Kleinprojekten" (DE8
+    # Mecklenburg-Vorpommern) against "Foerderung von Kleinstprojekten" (DEB
+    # Rheinland-Pfalz), two different programmes three characters apart that
+    # token_sort_ratio scores above the threshold. Blocking removes it, which is the
+    # same defect test/match.test.js guards against for Digitalbonus.
+    #
+    # Note this is safe at :minScore 0.9. A lower threshold admits pairs that were
+    # never measured here.
+    :hasBlockingKey       [ :on dct:spatial ] .
 
 # ---- Resolve ------------------------------------------------------------
 
