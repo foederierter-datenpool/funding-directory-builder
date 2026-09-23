@@ -39,10 +39,16 @@ const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
 
-// The cut. Everything before this is a closed EU call that ended years ago; the
-// "keep ended programmes" decision was about recently ended German programmes,
-// not the whole index back to 2014. 2024+ is 55,093 topics of ~287,000.
-const FROM_YEAR = 2024
+// The cut, on deadlineDate. Measured from a full 2024+ harvest of 72,200 topics:
+// 2024 23,526 / 2025 19,189 / 2026 22,070 / 2027 7,367 / 2028 48.
+//
+// 2026 is the boundary because everything below it is a call whose deadline has
+// already passed -- 2024 and 2025 closed one to two years ago, before this
+// directory existed. The "keep ended programmes" rule was about *recently* ended
+// ones. 2026+ keeps every still-open call plus the current year's closed ones:
+// 29,485 topics, 41% of a 2024+ harvest, and a match space of ~1.4e8 pairs
+// against ~3.4e8.
+const FROM_YEAR = 2026
 // Deadlines run into the future, so the upper bound is generous rather than
 // today. An empty partition costs one request.
 const TO_YEAR = 2030

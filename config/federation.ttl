@@ -196,11 +196,12 @@
     :dedupWithinSource false ;
     skos:notation "eu" ;
     :enabled      true ;
-    # Full corpus from 2024 on: 55093 topics of ~287000. The fetcher partitions on
+    # Full corpus from 2026 on: 29485 topics of ~287000. The fetcher partitions on
     # deadlineDate in half-month bands, which is what gets past the API's 10000-result
     # cap; a band that hits it fails the run rather than returning a prefix. The cut
-    # is a product decision -- everything earlier is a long-closed EU call, and the
-    # "keep ended programmes" rule was about recently ended German ones. 15% of the
+    # is a product decision -- everything earlier is a call whose deadline has already
+    # passed, 2024 and 2025 by one to two years, and the "keep ended programmes" rule
+    # was about *recently* ended ones. 15% of the
     # index carries no deadlineDate and no range reaches it; see sources/euportal/fetch.js.
     :hasRunParam  [ :name "limit" ; :value "0" ] ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
