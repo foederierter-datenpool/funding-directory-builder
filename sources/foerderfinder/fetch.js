@@ -16,9 +16,6 @@ const BASE_URL = (process.argv[3] ?? "https://foerderfinder.digital/bayern/suche
 const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE = 50
-// A cap is rounded up to a page boundary: harvest fetches whole pages, and the
-// expectation below has to match what it actually pulls.
-const MAX_PAGES = LIMIT === Infinity ? undefined : Math.ceil(LIMIT / PAGE)
 
 // Offset paging over one unpartitioned corpus, so harvest is called with no
 // partitions and page N maps to offset (N-1)*PAGE. numFound is the source's own
@@ -32,12 +29,13 @@ await emit(harvest({
         return { items: json.items ?? [], total: json.numFound }
     },
     retry: { attempts: 5 },
-    maxPages: MAX_PAGES,
+    // A development cap. harvest marks the batch capped, so emit knows to skip its
+    // completeness check rather than reading the cap as a short harvest — a capped
+    // run and a truncated one look identical downstream, and only the caller knows
+    // which is which.
+    limit: LIMIT,
 }), {
     outDir: OUT_DIR,
     format: "json",
     stem: "results",
-    // An uncapped run is checked against numFound by default. A capped one states
-    // its own expectation, or emit would read the cap as a truncated harvest.
-    expect: LIMIT === Infinity ? {} : { total: MAX_PAGES * PAGE },
 })

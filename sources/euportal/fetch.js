@@ -27,8 +27,6 @@ const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/pr
 const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
-// A cap is rounded up to a page boundary: harvest fetches whole pages.
-const MAX_PAGES = LIMIT === Infinity ? undefined : Math.ceil(LIMIT / PAGE_SIZE)
 const query = { bool: { must: [{ terms: { type: ["1"] } }] } }
 
 const fetchPage = async (pageNumber) => {
@@ -83,13 +81,14 @@ await emit(harvest({
         return { items: json.results ?? [], total: json.totalResults }
     },
     retry: { attempts: 5 },
-    maxPages: MAX_PAGES,
+    // A development cap, marked as such so emit skips its completeness check. The
+    // distinction matters most here: a capped run and a harvest cut short by the
+    // 10,000-result ceiling both fall short of totalResults, and conflating them
+    // would either mask the ceiling or fail every development run.
+    limit: LIMIT,
 }), {
     outDir: OUT_DIR,
     format: "json",
     stem: "results",
     project,
-    // A capped run states its own expectation; uncapped, the source's total is used
-    // and a truncated harvest throws.
-    expect: LIMIT === Infinity ? {} : { total: MAX_PAGES * PAGE_SIZE },
 })
