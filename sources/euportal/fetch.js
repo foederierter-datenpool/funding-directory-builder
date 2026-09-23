@@ -1,4 +1,7 @@
-import { harvest, emit, fetchOk } from "@directory-builder/core/fetch"
+import { emit, fetchOk, retry } from "@directory-builder/core/fetch"
+import { spawn } from "child_process"
+import path from "path"
+import fs from "fs"
 
 // EU Funding & Tenders Portal (SEDIA search API). We query Topic records
 // (type=1) — the fundable subjects, each carrying a title + descriptionByte.
@@ -101,38 +104,133 @@ const project = (r) => ({
         MAPPED.includes(k) || JSON.stringify(v).length <= MAX_FIELD_BYTES)),
 })
 
-// Paged within a partition, concurrent across partitions. harvest carries each
-// partition's totalResults alongside its batches and emit sums them, so a
-// partition that hits the 10,000 cap fails the run instead of quietly returning
-// a prefix — the check that the unpartitioned version could not make.
+// ---- Crash tolerance -------------------------------------------------------
 //
-// Chunked because the corpus no longer fits one file: ~27.5 KB per projected
-// record across 55,093 records is ~1.5 GB, and the file count is the JVM count
-// at lift. 2,000 records a file puts each near fdbBund's 56 MB, which lifts
-// fine. Unlike HTML, chunking JSON needs no change to the extract — the lift
-// already yields one node per array element, so records stay separable.
-await emit(harvest({
-    partitions,
-    fetchOne: async (partition, page) => {
-        const json = await fetchPage(partition, page)
-        return { items: json.results ?? [], total: json.totalResults }
-    },
-    retry: { attempts: 5 },
-    // Sequential across partitions, against harvest's default of 3. This is belt
-    // and braces next to the connection: close above, which is what actually fixes
-    // the undici assertion -- serialising alone did not, the crash reproduced at
-    // concurrency 1. Kept because a fresh TLS handshake per request is the cost
-    // either way, and 15 MB pages arriving three at a time buys little.
-    concurrency: 1,
-    // A development cap, marked as such so emit skips its completeness check. The
-    // distinction matters most here: a capped run and a harvest cut short by the
-    // 10,000-result ceiling both fall short of totalResults, and conflating them
-    // would either mask the ceiling or fail every development run.
-    limit: LIMIT,
-}), {
+// Node's bundled undici trips an internal assertion -- assert(!this.paused) in
+// Parser.finish -- partway through a long harvest of this endpoint. It is raised on
+// a TLSSocket callback, not as a rejected promise, so retry cannot see it and the
+// process dies outright. Two attempts to prevent it both failed: serialising to
+// concurrency 1, and connection: close. It is volume-dependent rather than
+// deterministic, and it killed the same API during the blocking-key harvest.
+//
+// So this stops trying to prevent the crash and survives it instead. Each partition
+// runs in its own child process writing one cache file; a crash costs that partition
+// and the parent retries it. This is the shape the blocking harvest already used,
+// promoted into the fetcher.
+//
+// The cache lives beside the raw directory, never inside it: lift triplifies every
+// file in outDir, so a stray .json cache there would be ingested as source data.
+const CACHE_DIR = path.join(path.dirname(path.resolve(OUT_DIR, ".")), ".euportal-cache")
+const cacheFile = (label) => path.join(CACHE_DIR, `${label}.json`)
+
+// One partition, fully paged. Writes { total, items } so the parent can hand emit
+// the source's reported total and keep its completeness check.
+const fetchPartition = async (partition) => {
+    const items = []
+    let total
+    for (let page = 1; page <= 200; page++) {
+        const json = await retry(() => fetchPage(partition, page), { attempts: 5 })
+        total = json.totalResults
+        const batch = json.results ?? []
+        for (const r of batch) items.push(project(r))
+        if (!batch.length || items.length >= total) break
+    }
+    return { label: partition.label, total, items }
+}
+
+// Child mode: one partition, then exit. The parent re-spawns on a crash.
+const childLabel = process.env.EUPORTAL_PARTITION
+if (childLabel) {
+    const partition = partitions.find((p) => p.label === childLabel)
+    if (!partition) throw new Error(`unknown partition ${childLabel}`)
+    const result = await fetchPartition(partition)
+    fs.mkdirSync(CACHE_DIR, { recursive: true })
+    // Written to a temp name and renamed, so a crash mid-write cannot leave a
+    // truncated cache file that the parent would then trust and skip.
+    const tmp = `${cacheFile(childLabel)}.tmp`
+    fs.writeFileSync(tmp, JSON.stringify(result))
+    fs.renameSync(tmp, cacheFile(childLabel))
+    process.exit(0)
+}
+
+// Parent mode.
+const runChild = (label) => new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [process.argv[1], ...process.argv.slice(2)], {
+        env: { ...process.env, EUPORTAL_PARTITION: label },
+        stdio: ["ignore", "ignore", "inherit"],
+    })
+    child.on("exit", (code) => code === 0 ? resolve() : reject(new Error(`partition ${label} exited ${code}`)))
+    child.on("error", reject)
+})
+
+// The cache is a crash-recovery buffer, not a store. Left alone it would make every
+// later ingest skip the network and re-emit a stale harvest -- a silent freeze of the
+// source. So a run that completed marks itself done, and the next run starts by
+// clearing what that run left behind. Only an *unfinished* cache is resumed.
+const DONE_MARKER = path.join(CACHE_DIR, ".complete")
+if (fs.existsSync(DONE_MARKER)) {
+    fs.rmSync(CACHE_DIR, { recursive: true, force: true })
+    console.log("  previous harvest was complete — starting fresh")
+} else if (fs.existsSync(CACHE_DIR)) {
+    const kept = fs.readdirSync(CACHE_DIR).filter((f) => f.endsWith(".json")).length
+    if (kept) console.log(`  resuming an interrupted harvest — ${kept} partition(s) already cached`)
+}
+
+fs.mkdirSync(CACHE_DIR, { recursive: true })
+let done = 0, harvested = 0
+for (const partition of partitions) {
+    if (!fs.existsSync(cacheFile(partition.label))) {
+        // The crash is the expected failure here, not an exceptional one, so the
+        // retry count is generous.
+        await retry(() => runChild(partition.label), { attempts: 6 })
+    }
+    harvested += JSON.parse(fs.readFileSync(cacheFile(partition.label), "utf8")).items.length
+    process.stdout.write(`\r  ${++done}/${partitions.length} partitions, ${harvested} records`)
+    // A capped development run stops harvesting once it has enough, rather than
+    // walking all 168 partitions to throw most of the result away.
+    if (harvested >= LIMIT) break
+}
+process.stdout.write("\n")
+
+// Only the partitions actually harvested feed emit; the rest have no cache file.
+const harvestedPartitions = partitions.filter((p) => fs.existsSync(cacheFile(p.label)))
+
+// Marked only once every partition is in hand, so a crash leaves the cache resumable
+// and a success leaves it disposable. A capped run never marks itself complete -- it
+// did not harvest the corpus, and the next full run must not inherit its cache.
+if (LIMIT === Infinity) fs.writeFileSync(DONE_MARKER, new Date().toISOString())
+
+// Yielded per partition rather than collected, so peak memory is one partition's
+// records instead of the whole ~1 GB corpus. emit sums the reported totals and
+// fails the run if the harvest fell short of them.
+async function* cached() {
+    for (const partition of harvestedPartitions) {
+        const { total, items } = JSON.parse(fs.readFileSync(cacheFile(partition.label), "utf8"))
+        // A partition that hit the API's 10000-result cap is a truncated harvest,
+        // not an exhausted one; emit turns this into a failed run.
+        yield { items, total, truncated: total != null && items.length < total }
+    }
+}
+
+// Chunked because the corpus no longer fits one file: ~17.7 KB per projected record
+// across 55093 records is ~1 GB, and the file count is the JVM count at lift. 2000
+// records a file puts each near fdbBund's 56 MB, which lifts fine. Unlike HTML,
+// chunking JSON needs no change to the extract -- the lift already yields one node
+// per array element, so records stay separable.
+//
+// LIMIT is applied here rather than in the harvest: the cache is the corpus, and a
+// capped run is a view of it. capped tells emit to skip its completeness check.
+await emit((async function* () {
+    let taken = 0
+    for await (const batch of cached()) {
+        if (taken >= LIMIT) break
+        const items = batch.items.slice(0, LIMIT - taken)
+        taken += items.length
+        yield { ...batch, items, capped: LIMIT !== Infinity }
+    }
+})(), {
     outDir: OUT_DIR,
     format: "json",
     stem: "results",
     chunk: 2000,
-    project,
 })
