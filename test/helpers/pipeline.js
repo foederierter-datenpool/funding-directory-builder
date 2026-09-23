@@ -25,8 +25,7 @@ const JAR = path.join(ROOT, "tools/sparql-anything.jar")
 // Kept here rather than parsed out of the config: a test that read the config
 // would follow it into a broken state instead of failing.
 const SOURCES = {
-    // Must match :hasLiftParam in config/federation.ttl and emit's wrapper class.
-    dsee:          { lift: "html", params: { selector: "div.cdp-record" } },
+    dsee:          { lift: "html", params: { selector: "html" } },
     fdbBund:       { lift: "json", params: {} },
     euportal:      { lift: "json", params: {} },
     foerderfinder: { lift: "json", params: {} },

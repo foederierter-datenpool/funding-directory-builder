@@ -18,18 +18,11 @@ const HERE = import.meta.dirname
 const UPDATE = process.env.UPDATE_FIXTURES === "1"
 
 const CASES = [
-    // Both DSEE shapes in one chunk, which is now what a lifted file holds. The
-    // facts box renders several values as <ul>/<li> but a single value as bare
-    // text, so a query matching only the list form loses every one-region
-    // programme; one record of each keeps that regression caught.
-    //
-    // Two records in one file is also the only fixture that can catch a scoping
-    // regression. With one record per file every pattern matches its own page no
-    // matter how badly scoped the query is, so the cross-join that chunking
-    // introduces — 200 canonical links against 200 h1s — is invisible. Here a
-    // mis-scoped pattern shows up immediately as the wrong title on a record, or
-    // as four triples where there should be two.
-    ["dsee", "chunk-two-records.html"],
+    // Both DSEE shapes. The facts box renders several values as <ul>/<li> but a
+    // single value as bare text, so a query matching only the list form loses every
+    // one-region programme. One fixture of each keeps that regression caught.
+    ["dsee", "multi-region.html"],
+    ["dsee", "bare-text-region.html"],
     ["fdbBund", "sample.json"],
     ["euportal", "sample.json"],
     ["foerderfinder", "sample.json"],

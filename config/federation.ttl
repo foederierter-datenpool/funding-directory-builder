@@ -177,11 +177,7 @@
     :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
     :retrieval    "Scrape" ;
     :format       ft:HTML ;
-    # The fetcher chunks pages into one file per 200 records, each wrapped in a
-    # <div class="cdp-record">, so the lift roots at the record rather than the
-    # document. This value and emit's wrapper class are the same contract written
-    # twice — change one and the lift silently yields nothing.
-    :hasLiftParam [ :name "selector" ; :value "div.cdp-record" ] ;
+    :hasLiftParam [ :name "selector" ; :value "html" ] ;
     :hasField     :dsee-title, :dsee-description, :dsee-url,
                   :dsee-fundingArea, :dsee-location, :dsee-deadlineModel .
 :dsee-title         a :SourceField ; :fieldPath "title" .

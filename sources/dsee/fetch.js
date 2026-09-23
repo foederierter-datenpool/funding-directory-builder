@@ -1,4 +1,6 @@
-import { pool, emit, fetchOk } from "@directory-builder/core/fetch"
+import { pool, fetchOk } from "@directory-builder/core/fetch"
+import path from "path"
+import fs from "fs"
 
 // DSEE Förderdatenbank is server-rendered HTML. The listing is paginated: the root
 // is page 1, then /p2 … /pN. Each listing links to detail pages at
@@ -26,8 +28,6 @@ const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const detailRe = /href="([^"]*\/foerderprogramme\/[^"#?]+)"/g
 const RETRY = { attempts: 5 }
-// Records per lifted file. See the note at the emit call below.
-const CHUNK = 200
 const text = (url) => fetchOk(url).then((r) => r.text())
 
 // Discover the last page number from the root listing's pagination links.
@@ -60,8 +60,11 @@ console.log(`  ${lastPage} listing pages → ${slugs.size} distinct detail URLs`
 // Phase 2: the detail pages. Deduplicated above, because a duplicate here costs an
 // HTTP request now and a JVM at lift later, and nothing downstream can undo either.
 const queue = [...slugs.entries()].slice(0, LIMIT === Infinity ? undefined : LIMIT)
+fs.mkdirSync(OUT_DIR, { recursive: true })
 
-const { results } = await pool(queue, async ([slug, url]) => ({ name: slug, content: await text(url) }), {
+await pool(queue, async ([slug, url]) => {
+    fs.writeFileSync(path.join(OUT_DIR, `${slug}.html`), await text(url))
+}, {
     concurrency: 3,
     delayMs: 100,
     retry: RETRY,
@@ -69,24 +72,10 @@ const { results } = await pool(queue, async ([slug, url]) => ({ name: slug, cont
 })
 process.stdout.write("\n")
 
-// CHUNK is the whole point of writing through emit rather than a file per page.
-// Lift spawns one JVM per raw file, so ~1330 pages was ~1330 JVM starts and roughly
-// 45 minutes; at 200 per file it is 7 starts and about 25 seconds. Measured: one
-// 200-record chunk lifts in 3.4 s against ~200 s for the same pages separately.
-//
-// It is not free, and the cost lands in extract.sparql, not here: every pattern
-// there has to be scoped to its containing record or the records cross-join. See
-// the note at the top of that file — change these together or the output is
-// silently wrong rather than broken.
-//
-// expect.total is the enumerated URL count, which turns the phase-1 listing crawl
-// into the completeness check for phase 2: every detail page we found a link to
-// must have produced a document.
-await emit(results, {
-    outDir: OUT_DIR,
-    format: "html",
-    mode: "documents",
-    chunk: CHUNK,
-    stem: "programmes",
-    expect: { total: queue.length },
-})
+// Cheap completeness check: every enumerated URL must have produced a file. pool
+// rejects on a page that fails every attempt, so this catches the quieter case —
+// a write that silently did not happen.
+const written = fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".html")).length
+if (written !== queue.length)
+    throw new Error(`DSEE: enumerated ${queue.length} detail pages but wrote ${written}`)
+console.log(`  ${written} detail pages → ${OUT_DIR}`)
