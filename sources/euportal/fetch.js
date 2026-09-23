@@ -9,17 +9,25 @@ import { harvest, emit, fetchOk } from "@directory-builder/core/fetch"
 // 31094503 Closed — 6756 / 11658 / 228533 of the index), and extract turns that
 // code into a slug.
 //
-// Be aware when reading a small sample: the API returns a fixed default order
-// that is roughly oldest-first and ignores both sort and range —
-// sort=deadlineDate:DESC, sort=startDate:DESC and a range filter on deadlineDate
-// each return the identical unsorted 246947 hits. So the first page is the
-// stalest page, and a limited run sees only long-closed topics. Raising :limit
-// is what fixes that, not a query change.
-// The endpoint is a POST: auth + paging in the query string, an Elasticsearch
-// query as a multipart "query" part. We write the results[] array as one JSON
-// file; the Lift step (src/lift/json.sparql) turns it into RDF and the clean
-// step extracts title + description per result.
-
+// The harvest is partitioned on deadlineDate, which is what makes it complete.
+// Two API behaviours force this. The endpoint ignores sort entirely — every
+// spelling returns the same unsorted order — and it stops at 10,000 results per
+// query, answering HTTP 200 with an empty results[] rather than an error. So an
+// unpartitioned harvest silently caps at 10,000 of ~287,000, and the prefix it
+// gives you is the stalest records.
+//
+// Range filters work, with epoch milliseconds — ISO strings match nothing and
+// report no error. Partitions are half-months rather than months for headroom:
+// measured across 149 months of the real index, none truncated, but the largest
+// (2025-09) reached 9,638 against the 10,000 cap. A 3.6% margin is one busy
+// month away from silent truncation, and partition count is nearly free because
+// requests scale with records, not partitions.
+//
+// KNOWN GAP: 43,522 topics (15% of the index) carry no deadlineDate at all —
+// the month bands sum to 243,712 against a reported 287,234 — and no range on
+// that field can reach them. Harvesting them needs a separate partition on
+// must_not exists deadlineDate, itself over the 10,000 cap and so needing a
+// second axis to split on. Not done here.
 const OUT_DIR = process.argv[2]
 const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/prod/rest/search"
 // argv[4] = run params JSON; { limit } caps records (0 / absent = no cap).
@@ -27,13 +35,32 @@ const BASE_URL = process.argv[3] ?? "https://api.tech.ec.europa.eu/search-api/pr
 const { limit } = JSON.parse(process.argv[4] || "{}")
 const LIMIT = Number(limit?.[0]) || Infinity
 const PAGE_SIZE = 100
-const query = { bool: { must: [{ terms: { type: ["1"] } }] } }
 
-const fetchPage = async (pageNumber) => {
+// The cut. Everything before this is a closed EU call that ended years ago; the
+// "keep ended programmes" decision was about recently ended German programmes,
+// not the whole index back to 2014. 2024+ is 55,093 topics of ~287,000.
+const FROM_YEAR = 2024
+// Deadlines run into the future, so the upper bound is generous rather than
+// today. An empty partition costs one request.
+const TO_YEAR = 2030
+
+// Half-month partitions: [1st, 16th) and [16th, 1st of next month).
+const partitions = []
+for (let y = FROM_YEAR; y <= TO_YEAR; y++)
+    for (let m = 0; m < 12; m++) {
+        partitions.push({ label: `${y}-${String(m + 1).padStart(2, "0")}a`, gte: Date.UTC(y, m, 1), lt: Date.UTC(y, m, 16) })
+        partitions.push({ label: `${y}-${String(m + 1).padStart(2, "0")}b`, gte: Date.UTC(y, m, 16), lt: Date.UTC(y, m + 1, 1) })
+    }
+
+const fetchPage = async (partition, pageNumber) => {
     const params = new URLSearchParams({
         apiKey: "SEDIA", text: "***",
         pageSize: String(PAGE_SIZE), pageNumber: String(pageNumber),
     })
+    const query = { bool: { must: [
+        { terms: { type: ["1"] } },
+        { range: { deadlineDate: { gte: partition.gte, lt: partition.lt } } },
+    ] } }
     const fd = new FormData()
     fd.append("query", new Blob([JSON.stringify(query)], { type: "application/json" }))
     return fetchOk(`${BASE_URL}?${params}`, { method: "POST", body: fd }).then((r) => r.json())
@@ -65,19 +92,20 @@ const project = (r) => ({
         MAPPED.includes(k) || JSON.stringify(v).length <= MAX_FIELD_BYTES)),
 })
 
-// One unpartitioned corpus, paged. harvest carries the source's totalResults
-// alongside each batch, which is what finally makes the cap visible: past 10,000
-// results this API returns HTTP 200 with an empty results[], indistinguishable from
-// exhaustion by the page alone. The old loop broke on the empty page and reported
-// success; emit now compares against the reported total and fails the run.
+// Paged within a partition, concurrent across partitions. harvest carries each
+// partition's totalResults alongside its batches and emit sums them, so a
+// partition that hits the 10,000 cap fails the run instead of quietly returning
+// a prefix — the check that the unpartitioned version could not make.
 //
-// Which is also why the limit below is not a workaround for the cap. Any prefix is
-// the stalest records, because the API ignores sort entirely. Escaping it needs the
-// harvest partitioned on deadlineDate (range filters work, with epoch milliseconds —
-// ISO strings silently match nothing); that is a separate change.
+// Chunked because the corpus no longer fits one file: ~27.5 KB per projected
+// record across 55,093 records is ~1.5 GB, and the file count is the JVM count
+// at lift. 2,000 records a file puts each near fdbBund's 56 MB, which lifts
+// fine. Unlike HTML, chunking JSON needs no change to the extract — the lift
+// already yields one node per array element, so records stay separable.
 await emit(harvest({
-    fetchOne: async (_partition, page) => {
-        const json = await fetchPage(page)
+    partitions,
+    fetchOne: async (partition, page) => {
+        const json = await fetchPage(partition, page)
         return { items: json.results ?? [], total: json.totalResults }
     },
     retry: { attempts: 5 },
@@ -90,5 +118,6 @@ await emit(harvest({
     outDir: OUT_DIR,
     format: "json",
     stem: "results",
+    chunk: 2000,
     project,
 })

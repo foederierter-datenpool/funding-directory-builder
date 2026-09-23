@@ -192,11 +192,13 @@
     :dedupWithinSource false ;
     skos:notation "eu" ;
     :enabled      true ;
-    # NOT the full corpus. 286811 topics exist but the API caps paging at 10000
-    # and ignores sort, so any prefix is the stalest long-closed calls; records are
-    # ~112 KB each. 500 is a pragmatic sample until partitioned fetch lands
-    # (directory-builder-core#11). See the note on this source below.
-    :hasRunParam  [ :name "limit" ; :value "500" ] ;
+    # Full corpus from 2024 on: 55093 topics of ~287000. The fetcher partitions on
+    # deadlineDate in half-month bands, which is what gets past the API's 10000-result
+    # cap; a band that hits it fails the run rather than returning a prefix. The cut
+    # is a product decision -- everything earlier is a long-closed EU call, and the
+    # "keep ended programmes" rule was about recently ended German ones. 15% of the
+    # index carries no deadlineDate and no range reaches it; see sources/euportal/fetch.js.
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
     :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
     :retrieval    "API" ;
     :format       ft:JSON ;
