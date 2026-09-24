@@ -10,8 +10,8 @@
 //   node test/coverage.js --update   rewrite the committed baseline
 //
 // Intended to move upstream as *rates added to the existing drift check*, not as a
-// second report; see test-plan.md. Prototyped here first so the shape is known
-// before it becomes engine API.
+// second report. Prototyped here first so the shape is known before it becomes
+// engine API.
 
 import { parseTtl, PATHS, sourceName } from "@directory-builder/core/utils"
 import path from "path"

@@ -7,7 +7,7 @@ import { emit, fetchOk, retry } from "@directory-builder/core/fetch"
 // against a structural contract, decodes the nine closed vocabularies and validates
 // every cell before publishing. Consuming it means ~2500 programmes with real
 // categories instead of the raw export's generic <classifier>/<property> containers,
-// and no 110MB XML in this repo.
+// and no 110MB XML to carry.
 //
 // Endpoint: GET https://fdb.cdl.correlaid.org/data/programme.csv (no auth, CORS *).
 // Column contract: https://fdb.cdl.correlaid.org/table-schema.json

@@ -73,16 +73,16 @@ process.stdout.write("\n")
 // one JVM per raw file, so ~1330 pages was ~1330 JVM starts and roughly 45 minutes;
 // at 200 per file it is 7 starts.
 //
-// Chunking was tried once before and reverted, because it moved the cost into
-// extract rather than removing it: one store per lifted file is what keeps an
-// extract from cross-joining, so a chunked file made every pattern anchor to its
-// record and walk down from it, and total extract grew as n^1.2 in the chunk size
-// -- about 65 hours at this chunk size against 7 minutes unchunked.
+// Chunking only pays because core (>= 0.10.0) splits a lifted chunk back into one
+// TTL per record, recognising emit's own wrapper. Without that split it costs more
+// than it saves: extract gets one store per lifted *file*, and that isolation is
+// what stops patterns cross-joining, so a chunked file forces every pattern to
+// anchor to its record and walk down from it -- total extract then grows as n^1.2
+// in the chunk size: roughly 65 hours against 7 minutes unchunked, at this scale.
 //
-// core 0.10.0 splits a lifted chunk into one TTL per record, recognising emit's own
-// wrapper, so lift keeps its 7 JVMs and extract keeps its one record per store.
-// extract.sparql therefore stays in its unchunked form: no anchoring, no traversal.
-// Chunk size is now purely a lift concern.
+// With the split, lift keeps its 7 JVMs and extract keeps one record per store, so
+// extract.sparql needs no anchoring and no traversal, and chunk size is purely a
+// lift concern.
 //
 // expect.total is the enumerated URL count, which turns the phase-1 listing crawl
 // into the completeness check for phase 2: every detail page we found a link to

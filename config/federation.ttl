@@ -19,12 +19,11 @@
     # replaces the federation's value of that name outright; names it doesn't
     # mention still inherit. 0 means no cap. Needs core >= 0.5.0.
     :hasRunParam     [ :name "limit" ; :value "50" ] ;
-    # Sized for the CI runner, not this laptop. The deploy workflow builds on
-    # ubuntu-latest, which is 2 cores and 7 GB, and the defaults (3 sources, 4 JVMs)
-    # assume more of both: a SPARQL Anything JVM already uses more than one core, so
-    # four of them on two cores contend rather than overlap, and each carries its own
-    # heap. Set here rather than left to the default because the machine that matters
-    # is the one that publishes.
+    # Sized for the machine that publishes: the deploy workflow builds on a 2-core,
+    # 7 GB runner. The engine defaults (3 sources, 4 JVMs) assume more of both --
+    # a SPARQL Anything JVM already uses more than one core, so four on two cores
+    # contend rather than overlap, and each carries its own heap. Raise these when
+    # building on a larger machine.
     :maxConcurrentLifts   2 ;
     :maxConcurrentSources 2 ;
     :baseUrl         "https://foederierter-datenpool.github.io/funding-directory-builder/" ;
@@ -37,10 +36,9 @@
 # funder *level* ("Land"), not a funder name, and "browse by funder" is not one
 # of the questions this directory answers.
 #
-# Only fields some source actually fills are declared. Money, sub-areas and
-# funding-rate models are drafted in Plan.md and deliberately absent: no source
-# carries them structurally, and a declared field nothing maps to is noise in
-# the config and in the webapp.
+# Only fields some source actually fills are declared. Money and funding-rate
+# models are deliberately absent: no source carries them structurally, and a
+# declared field nothing maps to is noise in the config and in the webapp.
 :fundingOpportunitySchema a :TargetSchema ;
     :targetClass schema:FundingScheme ;
     :hasTargetField :t-name, :t-description, :t-url,
@@ -405,9 +403,8 @@
     #   80-85            6      4       2
     #   75-80           24     ~7     ~17
     #
-    # So this buys three real merges for one wrong one, taking precision from 13/13
-    # to 16/17. A trade, not a free gain -- an earlier reading of this said zero
-    # false and was wrong.
+    # So 0.85 buys three real merges for one wrong one, taking precision from 13/13
+    # to 16/17. A trade, not a free gain.
     #
     # The three true ones share a shape: one source prefixes or nominalises the same
     # title ("Kurse zur Alphabetisierung fuer Asylsuchende" against "Alpha Asyl -
@@ -439,8 +436,8 @@
     # token_sort_ratio scores above the threshold. Blocking removes it, which is the
     # same defect test/match.test.js guards against for Digitalbonus.
     #
-    # Note this is safe at :minScore 0.9. A lower threshold admits pairs that were
-    # never measured here.
+    # Measured at :minScore 0.85. A lower threshold admits pairs this was never
+    # checked against.
     :hasBlockingKey       [ :on dct:spatial ] .
 
 # ---- Resolve ------------------------------------------------------------

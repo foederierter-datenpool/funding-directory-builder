@@ -96,8 +96,8 @@ const fetchPage = async (partition, pageNumber) => {
 // full harvest that is tens of GB of JSON no lift can parse, so projecting is what
 // makes the source tractable rather than an optimisation.
 //
-// The rule is a size cap, not a list of fields to drop. A deny-list was tried first
-// and does not hold: the bulk is a different field in different slices — 85 KB of
+// The rule is a size cap, not a list of fields to drop. A deny-list does not hold:
+// the bulk is a different field in different slices — 85 KB of
 // metadata.latestInfos in one sample, 2.3 MB of metadata.callUpdates in another —
 // so any hand-maintained list silently stops working when the API adds a blob.
 // Capping by size drops whatever the blob of the day is and needs no maintenance.
