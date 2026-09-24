@@ -8,6 +8,13 @@ on:
 permissions:
     contents: write
 
+# One deploy at a time. Overlapping runs race on the gh-pages force-push and
+# the later one fails with "cannot lock ref". A queued run waits; a newer push
+# replaces a queued (not a running) one, so the latest main always deploys.
+concurrency:
+    group: deploy-gh-pages
+    cancel-in-progress: false
+
 jobs:
     deploy:
         runs-on: ubuntu-latest
