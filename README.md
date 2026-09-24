@@ -24,17 +24,22 @@ fetched at runtime.
 
 ## Sources
 
-As deployed 2026-09-24: **5232 funding opportunities** in `data/directory.ttl`,
-from 5259 source entities with 27 pairs merged across sources.
+As deployed 2026-09-24: **5231 funding opportunities** in `data/directory.ttl`,
+from 5258 source entities with 27 pairs merged across sources.
 
 | source | entities | notes |
 | --- | --- | --- |
 | Förderdatenbank Bund | 2551 | published CSV export |
-| DSEE Förderdatenbank | 1315 | scraped; chunked 200 pages per file so lift starts 7 JVMs, not 1328 |
+| DSEE Förderdatenbank | 1327 | scraped; chunked 200 pages per file so lift starts 7 JVMs, not 1327 |
 | EU Funding & Tenders | 1176 | deadlines from 2026 on, `en`/`de` only. The API returns one record per topic **per language** — all 24 — so an unfiltered harvest is 96% duplicate |
 | Förderfinder Bayern | 204 | XFLB; the only German source with a structured application deadline |
 
+Counts move a little between harvests — the DSEE listing and the EU portal's
+deadline window both shift — so treat these as a snapshot rather than a constant.
 
+`test/coverage-baseline.json` guards the shape of each harvest: a field falling
+below its recorded fill rate fails the suite, as does a source losing records or
+producing fewer entities than it lifted files.
 
 ## Prerequisites
 - Node.js
