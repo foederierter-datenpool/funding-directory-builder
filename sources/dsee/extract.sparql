@@ -43,7 +43,12 @@ CONSTRUCT {
     ?link a xhtml:link ; xhtml:rel "canonical" ; xhtml:href ?url .
     FILTER(CONTAINS(STR(?url), "/foerderprogramme/"))
     BIND(REPLACE(REPLACE(STR(?url), "^.*/foerderprogramme/", ""), "/$", "") AS ?slug)
-    BIND(IRI(CONCAT(STR(cdp:), "dsee-", ?slug)) AS ?prog)
+    # ENCODE_FOR_URI, because 13 of 1328 slugs carry an umlaut
+    # (buergerstiftung-vreden is published as bürgerstiftung-vreden). Minting from
+    # the raw slug leaves IRI() unbound on those, and an unbound ?prog drops the
+    # whole CONSTRUCT row -- the record simply never reached the directory, with no
+    # error at any step. The other sources already encode; this one did not.
+    BIND(IRI(CONCAT(STR(cdp:), "dsee-", ENCODE_FOR_URI(?slug))) AS ?prog)
 
     ?h1 a xhtml:h1 ; xhtml:class ?h1Class ; html:innerText ?title .
     FILTER(CONTAINS(?h1Class, "col-span-2"))
