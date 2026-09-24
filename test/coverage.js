@@ -6,6 +6,13 @@
 // renamed on most records but not all, a selector that stops matching one page
 // variant — passes the drift check untouched.
 //
+// Rates alone are not enough either. Whole records can disappear and leave every
+// rate identical: 13 DSEE programmes once vanished because their slug carried an
+// umlaut and the extract minted the subject IRI without encoding it, so the record
+// produced no subject at all. Nothing counted, so nothing failed. Hence the two
+// record-level checks below — a count regression, and lift-to-extract completeness
+// for sources lifted one file per record.
+//
 //   node test/coverage.js            print the table
 //   node test/coverage.js --update   rewrite the committed baseline
 //
@@ -24,6 +31,10 @@ const XYZ = "http://sparql.xyz/facade-x/data/"
 // How far a field may fall below its baseline before this is treated as a defect.
 // Absolute percentage points, so a small field is not flagged for rounding.
 const TOLERANCE = 5
+// How far a source's record count may fall before the same. Relative, and loose
+// enough that real churn passes: listings genuinely shrink between harvests
+// (Förderfinder 218 → 204, DSEE 1349 → 1328) and that is not a defect.
+const RECORD_TOLERANCE_PCT = 3
 
 const fed = parseTtl(fs.readFileSync(path.join(ROOT, PATHS.federation), "utf8"))
 const lit = (s, p) => fed.find((q) => q.subject.value === s && q.predicate.value === CDP + p)?.object.value
@@ -51,7 +62,14 @@ export function measure() {
             const p = lit(f, "fieldPath")
             if (p) fields[p] = filled[p]?.size ?? 0
         }
-        out[name] = { records: entities.size, fields }
+        // Lifted files, for the completeness check in compare(). A source lifted
+        // one file per record (a chunked scrape that core splits back out) must
+        // yield exactly one entity per file; anything less is silent loss.
+        const liftedDir = path.join(ROOT, PATHS.lifted(name))
+        const liftedFiles = fs.existsSync(liftedDir)
+            ? fs.readdirSync(liftedDir).filter((f) => f.endsWith(".ttl")).length
+            : 0
+        out[name] = { records: entities.size, liftedFiles, fields }
     }
     return out
 }
@@ -60,7 +78,15 @@ const pct = (n, d) => (d ? Math.round((100 * n) / d) : 0)
 
 export function compare(now, base) {
     const problems = []
-    for (const [src, { records, fields }] of Object.entries(now)) {
+    for (const [src, { records, liftedFiles, fields }] of Object.entries(now)) {
+        // One lifted file per record means one entity per file. Only meaningful
+        // when lift actually split per record — a source lifted into a single file
+        // holds all its records in that one file and says nothing here.
+        if (liftedFiles > 1 && records !== liftedFiles)
+            problems.push(`${src}: ${liftedFiles} lifted file(s) but ${records} extracted record(s) — ${liftedFiles - records} produced no subject`)
+        const wasRecords = base?.[src]?.records
+        if (wasRecords && records < wasRecords * (1 - RECORD_TOLERANCE_PCT / 100))
+            problems.push(`${src}: ${wasRecords} → ${records} records`)
         for (const [field, count] of Object.entries(fields)) {
             const rate = pct(count, records)
             if (count === 0) { problems.push(`${src}.${field}: 0% filled (${records} records)`); continue }
