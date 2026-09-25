@@ -1,0 +1,796 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-290101 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290102;
+    rdf:_10 _:n3-290103;
+    rdf:_11 _:n3-290104;
+    rdf:_12 _:n3-290105;
+    rdf:_13 _:n3-290106;
+    rdf:_14 _:n3-290107;
+    rdf:_15 _:n3-290108;
+    rdf:_16 _:n3-290109;
+    rdf:_17 _:n3-290110;
+    rdf:_18 _:n3-290111;
+    rdf:_19 _:n3-290112;
+    rdf:_2 _:n3-290113;
+    rdf:_20 _:n3-290114;
+    rdf:_21 _:n3-290115;
+    rdf:_22 _:n3-290116;
+    rdf:_23 _:n3-290133;
+    rdf:_24 _:n3-290138;
+    rdf:_25 _:n3-290240;
+    rdf:_26 _:n3-290248;
+    rdf:_3 _:n3-290249;
+    rdf:_4 _:n3-290250;
+    rdf:_5 _:n3-290251;
+    rdf:_6 _:n3-290252;
+    rdf:_7 _:n3-290253;
+    rdf:_8 _:n3-290254;
+    rdf:_9 _:n3-290255;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "strukturfoerderung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Strukturförderung der Soziokultur Niedersachsen  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Strukturförderung der Soziokultur Niedersachsen\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Strukturförderung der Soziokultur Niedersachsen\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Strukturförderung der Soziokultur Niedersachsen</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n      <p><strong>Zwei Formate der Strukturförderung</strong></p>\n      <p>Die große Strukturförderung</p>\n      <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n      <p>Die kleine Strukturförderung</p>\n      <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n      <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n      <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n       <br></p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n      <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n      <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n      <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n      <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n       <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>15. Oktober 2026</li>\n        <li>30. April 2027</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Ja</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Lister Meile 27,\n        <br>\n        30161 Hannover</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0511 5909040</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Strukturförderung der Soziokultur Niedersachsen Strukturförderung der Soziokultur Niedersachsen Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040 ©2026 Impressum Datenschutzerklärung".
+_:n3-290102 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-290103 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-290104 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-290105 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-290106 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Strukturförderung der Soziokultur Niedersachsen";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-290107 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-290108 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Strukturförderung der Soziokultur Niedersachsen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-290109 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-290110 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-290111 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-290112 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-290113 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-290114 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-290115 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-290116 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290117;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-290117 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290118;
+    rdf:_2 _:n3-290120;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-290118 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-290119;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-290119 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-290120 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290121;
+    rdf:_2 _:n3-290124;
+    rdf:_3 _:n3-290127;
+    rdf:_4 _:n3-290130;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-290121 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-290122;
+    rdf:_2 _:n3-290123;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290122 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-290123 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-290124 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-290125;
+    rdf:_2 _:n3-290126;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290125 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-290126 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-290127 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-290128;
+    rdf:_2 _:n3-290129;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290128 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-290129 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-290130 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-290131;
+    rdf:_2 _:n3-290132;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290131 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-290132 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-290133 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-290134;
+    rdf:_2 _:n3-290137;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-290134 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-290135;
+    rdf:_2 _:n3-290136;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-290135 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-290136 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-290137 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-290138 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-290139;
+    rdf:_2 _:n3-290144;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Strukturförderung der Soziokultur Niedersachsen</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n     <p><strong>Zwei Formate der Strukturförderung</strong></p>\n     <p>Die große Strukturförderung</p>\n     <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n     <p>Die kleine Strukturförderung</p>\n     <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n     <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n     <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n      <br></p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n     <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n     <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n     <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n     <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>15. Oktober 2026</li>\n       <li>30. April 2027</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Ja</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Lister Meile 27,\n       <br>\n       30161 Hannover</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0511 5909040</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Strukturförderung der Soziokultur Niedersachsen Strukturförderung der Soziokultur Niedersachsen Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290139 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-290140;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Strukturförderung der Soziokultur Niedersachsen</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Strukturförderung der Soziokultur Niedersachsen".
+_:n3-290140 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290141;
+    rdf:_2 _:n3-290142;
+    rdf:_3 _:n3-290143;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Strukturförderung der Soziokultur Niedersachsen</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Strukturförderung der Soziokultur Niedersachsen".
+_:n3-290141 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-290142 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-290143 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Strukturförderung der Soziokultur Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Strukturförderung der Soziokultur Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen".
+_:n3-290144 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-290145;
+    rdf:_2 _:n3-290218;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n    <p><strong>Zwei Formate der Strukturförderung</strong></p>\n    <p>Die große Strukturförderung</p>\n    <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n    <p>Die kleine Strukturförderung</p>\n    <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n    <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n    <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n     <br></p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n    <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n    <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n    <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n    <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>15. Oktober 2026</li>\n      <li>30. April 2027</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Ja</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Lister Meile 27,\n      <br>\n      30161 Hannover</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0511 5909040</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290145 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290146;
+    rdf:_2 _:n3-290183;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n   <p><strong>Zwei Formate der Strukturförderung</strong></p>\n   <p>Die große Strukturförderung</p>\n   <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n   <p>Die kleine Strukturförderung</p>\n   <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n   <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n   <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n    <br></p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n   <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n   <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n   <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n   <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>15. Oktober 2026</li>\n     <li>30. April 2027</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Ja</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-290146 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290147;
+    rdf:_2 _:n3-290149;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n  <p><strong>Zwei Formate der Strukturförderung</strong></p>\n  <p>Die große Strukturförderung</p>\n  <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n  <p>Die kleine Strukturförderung</p>\n  <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n  <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n  <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n   <br></p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n  <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n  <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n  <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n  <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads".
+_:n3-290147 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-290148;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Strukturförderung der Soziokultur Niedersachsen</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen".
+_:n3-290148 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Strukturförderung der Soziokultur Niedersachsen";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Strukturförderung der Soziokultur Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen".
+_:n3-290149 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290150;
+    rdf:_2 _:n3-290152;
+    rdf:_3 _:n3-290166;
+    rdf:_4 _:n3-290176;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n <p><strong>Zwei Formate der Strukturförderung</strong></p>\n <p>Die große Strukturförderung</p>\n <p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n <p>Die kleine Strukturförderung</p>\n <p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n <p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n <p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n  <br></p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Sie können Ihre Anträge einreichen&nbsp;</p>\n <p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n <p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n <p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n <p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen. Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist. Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de. Weitere Informationen Link zur Förderung Downloads".
+_:n3-290150 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290151;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.".
+_:n3-290151 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.";
+    <https://html.spec.whatwg.org/#innerText> "Vereine und Initiativen mit einem soziokulturellen Angebot können Anträge auf Strukturförderung stellen. Das sind Vereine und Initiativen, die ein breites Bevölkerungsspektrum ansprechen, die Kultur von, mit und für alle machen, die Integration, Bildung, Wertevermittlung und demokratische Meinungsbildung fördern, die Kulturarbeit im gesellschaftlichen Kontext bieten, Vernetzung und Kommunikation, Debatten und öffentliche Diskurse initiieren, den künstlerischen Nachwuchs fördern oder Raum für neue Impulse und unterschiedliche Lebensentwürfe schaffen.".
+_:n3-290152 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290153;
+    rdf:_2 _:n3-290154;
+    rdf:_3 _:n3-290156;
+    rdf:_4 _:n3-290158;
+    rdf:_5 _:n3-290159;
+    rdf:_6 _:n3-290160;
+    rdf:_7 _:n3-290161;
+    rdf:_8 _:n3-290162;
+    rdf:_9 _:n3-290163;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong></p>\n<p><strong>Zwei Formate der Strukturförderung</strong></p>\n<p>Die große Strukturförderung</p>\n<p>Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.</p>\n<p>Die kleine Strukturförderung</p>\n<p>Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.</p>\n<p>Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.</p>\n<p>Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können. Zwei Formate der Strukturförderung Die große Strukturförderung Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €. Die kleine Strukturförderung Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich. Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €. Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.".
+_:n3-290153 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-290154 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.";
+    rdf:_2 _:n3-290155;
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.<strong></strong>";
+    <https://html.spec.whatwg.org/#innerText> "Anträge können Vereine oder Initiativen stellen, die soziokulturelle Arbeit machen und eine Unterstützung ihrer Basisarbeit benötigen. Mitglied im Landesverband Soziokultur muss man nicht sein, um einen Antrag stellen zu können.".
+_:n3-290155 a <http://www.w3.org/1999/xhtml#strong>.
+_:n3-290156 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-290157;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Zwei Formate der Strukturförderung</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Zwei Formate der Strukturförderung".
+_:n3-290157 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Zwei Formate der Strukturförderung";
+    <https://html.spec.whatwg.org/#innerHTML> "Zwei Formate der Strukturförderung";
+    <https://html.spec.whatwg.org/#innerText> "Zwei Formate der Strukturförderung".
+_:n3-290158 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die große Strukturförderung";
+    <https://html.spec.whatwg.org/#innerHTML> "Die große Strukturförderung";
+    <https://html.spec.whatwg.org/#innerText> "Die große Strukturförderung".
+_:n3-290159 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.";
+    <https://html.spec.whatwg.org/#innerText> "Die „große Strukturförderung“ unterstützt soziokulturelle Vereine, die sich klare Ziele der Veränderung gesetzt haben. Das kann zum Beispiel sein, dass man neue Zielgruppen erreichen möchte, dass Changeprozesse im Team durchgeführt werden oder die Öffentlichkeitsarbeit neu ausgerichtet wird. Hier beträgt die Antragssumme mindestens 10.000 €.".
+_:n3-290160 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die kleine Strukturförderung";
+    <https://html.spec.whatwg.org/#innerHTML> "Die kleine Strukturförderung";
+    <https://html.spec.whatwg.org/#innerText> "Die kleine Strukturförderung".
+_:n3-290161 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Mit der „kleinen Strukturförderung“ werden kleinere soziokulturelle Vereine vorwiegend im ländlichen Raum unterstützt. Hierbei handelt es sich um eine Basisförderung, mit der beispielsweise der Minijob einer „Schlüsselperson“ finanziert werden kann. Für die „kleine Strukturförderung“ ist eine Antragssumme bis 10.000 Euro möglich.".
+_:n3-290162 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.";
+    <https://html.spec.whatwg.org/#innerText> "Der Landesverband fördert in der Regel bis zu 70 % der Gesamtkosten. Der jährliche Gesamtetat beträgt für Projekt- und Strukturförderungen zusammen 618.000 €.".
+_:n3-290163 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;";
+    rdf:_2 _:n3-290164;
+    rdf:_3 " Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.";
+    rdf:_4 _:n3-290165;
+    <https://html.spec.whatwg.org/#innerHTML> "Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die&nbsp;<a href=\"https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html\" target=\"_blank\" rel=\"noreferrer noopener\">regionalen Kulturberaterinnen und Kulturberater.</a> Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Wenden Sie sich mit Ihrer Idee gerne frühzeitig an die regionalen Kulturberaterinnen und Kulturberater. Dort erhalten Sie eine kostenfreie Beratung, die auf Ihr Vorhaben zugeschnitten ist.".
+_:n3-290164 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "regionalen Kulturberaterinnen und Kulturberater.";
+    <https://html.spec.whatwg.org/#innerHTML> "regionalen Kulturberaterinnen und Kulturberater.";
+    <https://html.spec.whatwg.org/#innerText> "regionalen Kulturberaterinnen und Kulturberater.";
+    <http://www.w3.org/1999/xhtml#href> "https://soziokultur-niedersachsen.de/beratung/regionale-kulturberatung.html";
+    <http://www.w3.org/1999/xhtml#rel> "noreferrer noopener";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290165 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-290166 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290167;
+    rdf:_2 _:n3-290168;
+    rdf:_3 _:n3-290169;
+    rdf:_4 _:n3-290171;
+    rdf:_5 _:n3-290173;
+    rdf:_6 _:n3-290174;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Sie können Ihre Anträge einreichen&nbsp;</p>\n<p>- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;</p>\n<p>- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong></p>\n<p>Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;</p>\n<p>Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Sie können Ihre Anträge einreichen - ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr). - ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr). Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei. Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de.".
+_:n3-290167 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-290168 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sie können Ihre Anträge einreichen&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie können Ihre Anträge einreichen&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Sie können Ihre Anträge einreichen".
+_:n3-290169 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- ab 15. März - ";
+    rdf:_2 _:n3-290170;
+    rdf:_3 ".&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "- ab 15. März - <strong>Antragsschuss ist der 30. April (23:59 Uhr)</strong>.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "- ab 15. März - Antragsschuss ist der 30. April (23:59 Uhr).".
+_:n3-290170 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Antragsschuss ist der 30. April (23:59 Uhr)";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsschuss ist der 30. April (23:59 Uhr)";
+    <https://html.spec.whatwg.org/#innerText> "Antragsschuss ist der 30. April (23:59 Uhr)".
+_:n3-290171 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- ab 1. September - ";
+    rdf:_2 _:n3-290172;
+    <https://html.spec.whatwg.org/#innerHTML> "- ab 1. September - <strong>Antragsschuss ist der 15. Oktober (23:59 Uhr).</strong>";
+    <https://html.spec.whatwg.org/#innerText> "- ab 1. September - Antragsschuss ist der 15. Oktober (23:59 Uhr).".
+_:n3-290172 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Antragsschuss ist der 15. Oktober (23:59 Uhr).";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsschuss ist der 15. Oktober (23:59 Uhr).";
+    <https://html.spec.whatwg.org/#innerText> "Antragsschuss ist der 15. Oktober (23:59 Uhr).".
+_:n3-290173 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Folgende Unterlagen müssen Sie einreichen: das ausgefüllte und unterschriebene Antragsformular, Ihre Selbstdarstellung, die Projektbeschreibung und den Kosten- und Finanzierungsplan als Excel-Datei.".
+_:n3-290174 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an ";
+    rdf:_2 _:n3-290175;
+    rdf:_3 ".";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an <a href=\"mailto:foerderung@soziokultur-niedersachsen.de\">foerderung@soziokultur-niedersachsen.de</a>.";
+    <https://html.spec.whatwg.org/#innerText> "Bitte schicken Sie bei Strukturförderanträgen auch Ihren Haushaltsplan mit. Die notwendigen Formulare finden Sie unter dem Menüpunkt Downloads. Das Antragsformular ist das einzige, das wir ausgedruckt und unterschrieben per Post brauchen. Alle anderen Unterlagen senden Sie bitte per Mail an foerderung@soziokultur-niedersachsen.de.".
+_:n3-290175 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "foerderung@soziokultur-niedersachsen.de";
+    <https://html.spec.whatwg.org/#innerHTML> "foerderung@soziokultur-niedersachsen.de";
+    <https://html.spec.whatwg.org/#innerText> "foerderung@soziokultur-niedersachsen.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:foerderung@soziokultur-niedersachsen.de".
+_:n3-290176 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290177;
+    rdf:_2 _:n3-290178;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n <li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Förderung Downloads".
+_:n3-290177 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-290178 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-290179;
+    rdf:_2 _:n3-290181;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n<li><a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung Downloads".
+_:n3-290179 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-290180;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-290180 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://soziokultur-niedersachsen.de/foerderung/foerderung-2023/strukturfoerderung.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290181 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-290182;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://soziokultur-niedersachsen.de/foerderung/downloads.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Downloads</a>";
+    <https://html.spec.whatwg.org/#innerText> "Downloads".
+_:n3-290182 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Downloads";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Downloads";
+    <https://html.spec.whatwg.org/#innerText> "Downloads";
+    <http://www.w3.org/1999/xhtml#href> "https://soziokultur-niedersachsen.de/foerderung/downloads.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290183 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-290184;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>15. Oktober 2026</li>\n    <li>30. April 2027</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Ja</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-290184 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290185;
+    rdf:_2 _:n3-290190;
+    rdf:_3 _:n3-290199;
+    rdf:_4 _:n3-290206;
+    rdf:_5 _:n3-290209;
+    rdf:_6 _:n3-290215;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>15. Oktober 2026</li>\n   <li>30. April 2027</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Ja</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Oktober 2026 30. April 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-290185 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290186;
+    rdf:_2 _:n3-290187;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-290186 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-290187 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290188;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-290188 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-290189;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-290189 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-290190 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290191;
+    rdf:_2 _:n3-290192;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-290191 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-290192 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290193;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-290193 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-290194;
+    rdf:_2 _:n3-290195;
+    rdf:_3 _:n3-290196;
+    rdf:_4 _:n3-290197;
+    rdf:_5 _:n3-290198;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-290194 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-290195 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-290196 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-290197 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-290198 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-290199 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290200;
+    rdf:_2 _:n3-290201;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten".
+_:n3-290200 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-290201 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290202;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-290202 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-290203;
+    rdf:_2 _:n3-290204;
+    rdf:_3 _:n3-290205;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-290203 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-290204 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-290205 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-290206 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290207;
+    rdf:_2 _:n3-290208;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-290207 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-290208 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-290209 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290210;
+    rdf:_2 _:n3-290211;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>15. Oktober 2026</li>\n  <li>30. April 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 15. Oktober 2026 30. April 2027".
+_:n3-290210 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-290211 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290212;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>15. Oktober 2026</li>\n <li>30. April 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "15. Oktober 2026 30. April 2027".
+_:n3-290212 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-290213;
+    rdf:_2 _:n3-290214;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>15. Oktober 2026</li>\n<li>30. April 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "15. Oktober 2026 30. April 2027".
+_:n3-290213 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "15. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "15. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "15. Oktober 2026".
+_:n3-290214 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. April 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "30. April 2027";
+    <https://html.spec.whatwg.org/#innerText> "30. April 2027".
+_:n3-290215 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290216;
+    rdf:_2 _:n3-290217;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-290216 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-290217 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-290218 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290219;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Lister Meile 27,\n     <br>\n     30161 Hannover</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0511 5909040</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290219 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290220;
+    rdf:_2 _:n3-290238;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Lister Meile 27,\n    <br>\n    30161 Hannover</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0511 5909040</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290220 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290221;
+    rdf:_2 _:n3-290223;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Lister Meile 27,\n   <br>\n   30161 Hannover</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0511 5909040</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landesverband Soziokultur in Niedersachsen e.V. Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290221 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-290222;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v\" class=\"link\">Landesverband Soziokultur in Niedersachsen e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Landesverband Soziokultur in Niedersachsen e.V.".
+_:n3-290222 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Landesverband Soziokultur in Niedersachsen e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Landesverband Soziokultur in Niedersachsen e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Landesverband Soziokultur in Niedersachsen e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/37494-landesverband-soziokultur-in-niedersachsen-e-v".
+_:n3-290223 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290224;
+    rdf:_2 _:n3-290227;
+    rdf:_3 _:n3-290231;
+    rdf:_4 _:n3-290235;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Lister Meile 27,\n  <br>\n  30161 Hannover</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0511 5909040</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Lister Meile 27, 30161 Hannover E-Mail info@soziokultur-niedersachsen.de Webseite soziokultur-niedersachsen.de/aktuelles.html Telefon 0511 5909040".
+_:n3-290224 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290225;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Lister Meile 27,\n <br>\n 30161 Hannover</p>";
+    <https://html.spec.whatwg.org/#innerText> "Lister Meile 27, 30161 Hannover".
+_:n3-290225 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Lister Meile 27,";
+    rdf:_2 _:n3-290226;
+    rdf:_3 "30161 Hannover";
+    <https://html.spec.whatwg.org/#innerHTML> "Lister Meile 27,\n<br>\n30161 Hannover";
+    <https://html.spec.whatwg.org/#innerText> "Lister Meile 27, 30161 Hannover".
+_:n3-290226 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-290227 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290228;
+    rdf:_2 _:n3-290229;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@soziokultur-niedersachsen.de".
+_:n3-290228 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-290229 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-290230;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@soziokultur-niedersachsen.de\">info@soziokultur-niedersachsen.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@soziokultur-niedersachsen.de".
+_:n3-290230 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@soziokultur-niedersachsen.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@soziokultur-niedersachsen.de";
+    <https://html.spec.whatwg.org/#innerText> "info@soziokultur-niedersachsen.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@soziokultur-niedersachsen.de".
+_:n3-290231 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290232;
+    rdf:_2 _:n3-290233;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite soziokultur-niedersachsen.de/aktuelles.html".
+_:n3-290232 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-290233 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-290234;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://soziokultur-niedersachsen.de/aktuelles.html\" target=\"_blank\">soziokultur-niedersachsen.de/aktuelles.html</a>";
+    <https://html.spec.whatwg.org/#innerText> "soziokultur-niedersachsen.de/aktuelles.html".
+_:n3-290234 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "soziokultur-niedersachsen.de/aktuelles.html";
+    <https://html.spec.whatwg.org/#innerHTML> "soziokultur-niedersachsen.de/aktuelles.html";
+    <https://html.spec.whatwg.org/#innerText> "soziokultur-niedersachsen.de/aktuelles.html";
+    <http://www.w3.org/1999/xhtml#href> "https://soziokultur-niedersachsen.de/aktuelles.html";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-290235 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290236;
+    rdf:_2 _:n3-290237;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0511 5909040</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0511 5909040".
+_:n3-290236 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-290237 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0511 5909040";
+    <https://html.spec.whatwg.org/#innerHTML> "0511 5909040";
+    <https://html.spec.whatwg.org/#innerText> "0511 5909040".
+_:n3-290238 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290239;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png\" width=\"799\" height=\"421\">".
+_:n3-290239 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "421";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/LAS_Logo_RGB_Rot.png";
+    <http://www.w3.org/1999/xhtml#width> "799".
+_:n3-290240 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-290241;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-290241 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290242;
+    rdf:_2 _:n3-290246;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-290242 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-290243;
+    rdf:_2 _:n3-290244;
+    rdf:_3 _:n3-290245;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-290243 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-290244 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-290245 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-290246 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-290247;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-290247 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-290248 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-290249 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-290250 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-290251 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/strukturfoerderung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-290252 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-290253 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Strukturförderung der Soziokultur Niedersachsen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Strukturförderung der Soziokultur Niedersachsen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Strukturförderung der Soziokultur Niedersachsen  –  Förderdatenbank".
+_:n3-290254 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-290255 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

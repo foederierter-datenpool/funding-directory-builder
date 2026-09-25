@@ -1,0 +1,700 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-163385 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163386;
+    rdf:_10 _:n3-163387;
+    rdf:_11 _:n3-163388;
+    rdf:_12 _:n3-163389;
+    rdf:_13 _:n3-163390;
+    rdf:_14 _:n3-163391;
+    rdf:_15 _:n3-163392;
+    rdf:_16 _:n3-163393;
+    rdf:_17 _:n3-163394;
+    rdf:_18 _:n3-163395;
+    rdf:_19 _:n3-163396;
+    rdf:_2 _:n3-163397;
+    rdf:_20 _:n3-163398;
+    rdf:_21 _:n3-163399;
+    rdf:_22 _:n3-163400;
+    rdf:_23 _:n3-163417;
+    rdf:_24 _:n3-163422;
+    rdf:_25 _:n3-163506;
+    rdf:_26 _:n3-163514;
+    rdf:_3 _:n3-163515;
+    rdf:_4 _:n3-163516;
+    rdf:_5 _:n3-163517;
+    rdf:_6 _:n3-163518;
+    rdf:_7 _:n3-163519;
+    rdf:_8 _:n3-163520;
+    rdf:_9 _:n3-163521;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "entwicklungspolitischer-schulaustausch-ensa";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Entwicklungspolitischer Schulaustausch (ENSA)  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Entwicklungspolitischer Schulaustausch (ENSA)\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Entwicklungspolitischer Schulaustausch (ENSA)\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Entwicklungspolitischer Schulaustausch (ENSA)</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n      <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n      <p>\n       <br>\n      </p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Einen Antrag auf Förderung können stellen:</p>\n      <ul>\n       <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n       <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n       <li>Schulfördervereine mit Sitz in Deutschland.</li>\n      </ul>\n      <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n      <p><strong>Fördermittelberatung</strong>\n       <br>\n       Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n       <br>\n       Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung für nachhaltige Entwicklung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>14.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. September 2026</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA)  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Entwicklungspolitischer Schulaustausch (ENSA) Entwicklungspolitischer Schulaustausch (ENSA) Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de ©2026 Impressum Datenschutzerklärung".
+_:n3-163386 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-163387 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-163388 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-163389 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-163390 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-163391 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-163392 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-163393 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-163394 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-163395 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-163396 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-163397 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-163398 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-163399 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-163400 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163401;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-163401 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163402;
+    rdf:_2 _:n3-163404;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-163402 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-163403;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-163403 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-163404 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163405;
+    rdf:_2 _:n3-163408;
+    rdf:_3 _:n3-163411;
+    rdf:_4 _:n3-163414;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-163405 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-163406;
+    rdf:_2 _:n3-163407;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163406 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-163407 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-163408 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-163409;
+    rdf:_2 _:n3-163410;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163409 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-163410 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-163411 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-163412;
+    rdf:_2 _:n3-163413;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163412 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-163413 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-163414 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-163415;
+    rdf:_2 _:n3-163416;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163415 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-163416 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-163417 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-163418;
+    rdf:_2 _:n3-163421;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-163418 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-163419;
+    rdf:_2 _:n3-163420;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-163419 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-163420 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-163421 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-163422 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-163423;
+    rdf:_2 _:n3-163428;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Entwicklungspolitischer Schulaustausch (ENSA)</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n     <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n     <p>\n      <br>\n     </p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Einen Antrag auf Förderung können stellen:</p>\n     <ul>\n      <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n      <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n      <li>Schulfördervereine mit Sitz in Deutschland.</li>\n     </ul>\n     <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n     <p><strong>Fördermittelberatung</strong>\n      <br>\n      Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n      <br>\n      Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung für nachhaltige Entwicklung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>14.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. September 2026</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Entwicklungspolitischer Schulaustausch (ENSA) Entwicklungspolitischer Schulaustausch (ENSA) Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163423 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-163424;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Entwicklungspolitischer Schulaustausch (ENSA)</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Entwicklungspolitischer Schulaustausch (ENSA)".
+_:n3-163424 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163425;
+    rdf:_2 _:n3-163426;
+    rdf:_3 _:n3-163427;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Entwicklungspolitischer Schulaustausch (ENSA)</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Entwicklungspolitischer Schulaustausch (ENSA)".
+_:n3-163425 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-163426 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-163427 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA)".
+_:n3-163428 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-163429;
+    rdf:_2 _:n3-163490;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n    <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n    <p>\n     <br>\n    </p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Einen Antrag auf Förderung können stellen:</p>\n    <ul>\n     <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n     <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n     <li>Schulfördervereine mit Sitz in Deutschland.</li>\n    </ul>\n    <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n    <p><strong>Fördermittelberatung</strong>\n     <br>\n     Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n     <br>\n     Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung für nachhaltige Entwicklung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>14.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. September 2026</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA) Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163429 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163430;
+    rdf:_2 _:n3-163461;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n   <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n   <p>\n    <br>\n   </p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Einen Antrag auf Förderung können stellen:</p>\n   <ul>\n    <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n    <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n    <li>Schulfördervereine mit Sitz in Deutschland.</li>\n   </ul>\n   <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n   <p><strong>Fördermittelberatung</strong>\n    <br>\n    Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n    <br>\n    Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung für nachhaltige Entwicklung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>14.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. September 2026</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA) Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-163430 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163431;
+    rdf:_2 _:n3-163433;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n  <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n  <p>\n   <br>\n  </p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Einen Antrag auf Förderung können stellen:</p>\n  <ul>\n   <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n   <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n   <li>Schulfördervereine mit Sitz in Deutschland.</li>\n  </ul>\n  <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n  <p><strong>Fördermittelberatung</strong>\n   <br>\n   Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n   <br>\n   Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA) Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung".
+_:n3-163431 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-163432;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Entwicklungspolitischer Schulaustausch (ENSA)</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA)".
+_:n3-163432 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklungspolitischer Schulaustausch (ENSA)";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA)".
+_:n3-163433 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163434;
+    rdf:_2 _:n3-163439;
+    rdf:_3 _:n3-163451;
+    rdf:_4 _:n3-163454;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n <p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n <p>\n  <br>\n </p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Einen Antrag auf Förderung können stellen:</p>\n <ul>\n  <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n  <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n  <li>Schulfördervereine mit Sitz in Deutschland.</li>\n </ul>\n <p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n <p><strong>Fördermittelberatung</strong>\n  <br>\n  Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n  <br>\n  Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln. Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online. Weitere Informationen Link zum Programm Informationen zur Bewerbung".
+_:n3-163434 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163435;
+    rdf:_2 _:n3-163436;
+    rdf:_3 _:n3-163437;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.</p>\n<p>Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.</p>\n<p>\n <br>\n</p>";
+    <https://html.spec.whatwg.org/#innerText> "Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen. Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.".
+_:n3-163435 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.";
+    <https://html.spec.whatwg.org/#innerText> "Das ENSA-Programm fördert Partnerschaften zwischen Schulen aus Deutschland und Schulen aus Ländern Afrikas, Asiens, Lateinamerikas und Südosteuropas und unterstützt diese inhaltlich und finanziell. Das Programm bietet für neue Partnerschaften Anbahnungsreisen und für bestehende Partnerschaften Begegnungsreisen.".
+_:n3-163436 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.";
+    <https://html.spec.whatwg.org/#innerHTML> "Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.";
+    <https://html.spec.whatwg.org/#innerText> "Vom ENSA-Programm geförderte Schulpartnerschaften beschäftigen sich mit globalen Themen wie sozialer Gerechtigkeit, Menschenrechten, Diversität und Nachhaltigkeit. Die Schulen werden dabei unterstützt, einen langfristigen Plan für ihre Partnerschaft zu entwickeln.".
+_:n3-163437 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163438;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>".
+_:n3-163438 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-163439 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163440;
+    rdf:_2 _:n3-163441;
+    rdf:_3 _:n3-163442;
+    rdf:_4 _:n3-163446;
+    rdf:_5 _:n3-163447;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Einen Antrag auf Förderung können stellen:</p>\n<ul>\n <li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n <li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n <li>Schulfördervereine mit Sitz in Deutschland.</li>\n</ul>\n<p>ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.</p>\n<p><strong>Fördermittelberatung</strong>\n <br>\n Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n <br>\n Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Einen Antrag auf Förderung können stellen: Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland. ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-163440 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-163441 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Einen Antrag auf Förderung können stellen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Einen Antrag auf Förderung können stellen:";
+    <https://html.spec.whatwg.org/#innerText> "Einen Antrag auf Förderung können stellen:".
+_:n3-163442 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163443;
+    rdf:_2 _:n3-163444;
+    rdf:_3 _:n3-163445;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Öffentliche und private Schulen mit Sitz in Deutschland</li>\n<li>Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland</li>\n<li>Schulfördervereine mit Sitz in Deutschland.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Öffentliche und private Schulen mit Sitz in Deutschland Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland Schulfördervereine mit Sitz in Deutschland.".
+_:n3-163443 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Öffentliche und private Schulen mit Sitz in Deutschland";
+    <https://html.spec.whatwg.org/#innerHTML> "Öffentliche und private Schulen mit Sitz in Deutschland";
+    <https://html.spec.whatwg.org/#innerText> "Öffentliche und private Schulen mit Sitz in Deutschland".
+_:n3-163444 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland";
+    <https://html.spec.whatwg.org/#innerHTML> "Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinnützige Nichtregierungsorganisationen mit Sitz in Deutschland".
+_:n3-163445 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Schulfördervereine mit Sitz in Deutschland.";
+    <https://html.spec.whatwg.org/#innerHTML> "Schulfördervereine mit Sitz in Deutschland.";
+    <https://html.spec.whatwg.org/#innerText> "Schulfördervereine mit Sitz in Deutschland.".
+_:n3-163446 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.";
+    <https://html.spec.whatwg.org/#innerHTML> "ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.";
+    <https://html.spec.whatwg.org/#innerText> "ENSA fördert die Schulpartnerschaften inhaltlich und finanziell, fördert die Vernetzung von Schulen und Nichtregierungsorganisationen (NROs) und bietet Weiterbildungen zur entwicklungspolitischen Bildungsarbeit und zur Gestaltung von Schulpartnerschaften.".
+_:n3-163447 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163448;
+    rdf:_2 _:n3-163449;
+    rdf:_3 "Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.";
+    rdf:_4 _:n3-163450;
+    rdf:_5 "Kontakt: info@engagement-global.de Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Fördermittelberatung</strong>\n<br>\nSollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n<br>\nKontakt: info@engagement-global.de Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-163448 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Fördermittelberatung";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittelberatung";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung".
+_:n3-163449 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-163450 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-163451 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163452;
+    rdf:_2 _:n3-163453;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.".
+_:n3-163452 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-163453 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Vom 1. Juli bis zum 30. September können Sie sich für eine Förderung im Folgejahr bewerben. Die Antragstellung für beide Programme erfolgt online.".
+_:n3-163454 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163455;
+    rdf:_2 _:n3-163456;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Informationen zur Bewerbung".
+_:n3-163455 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-163456 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163457;
+    rdf:_2 _:n3-163459;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Informationen zur Bewerbung".
+_:n3-163457 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-163458;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://ensa.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-163458 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://ensa.engagement-global.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163459 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-163460;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://ensa.engagement-global.de/bewerben.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zur Bewerbung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Informationen zur Bewerbung".
+_:n3-163460 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Informationen zur Bewerbung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Informationen zur Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Informationen zur Bewerbung";
+    <http://www.w3.org/1999/xhtml#href> "https://ensa.engagement-global.de/bewerben.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163461 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-163462;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung für nachhaltige Entwicklung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>14.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. September 2026</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-163462 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163463;
+    rdf:_2 _:n3-163466;
+    rdf:_3 _:n3-163471;
+    rdf:_4 _:n3-163476;
+    rdf:_5 _:n3-163479;
+    rdf:_6 _:n3-163482;
+    rdf:_7 _:n3-163487;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung für nachhaltige Entwicklung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>14.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. September 2026</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Sachkosten Max. Fördersumme: 14.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-163463 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163464;
+    rdf:_2 _:n3-163465;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-163464 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-163465 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-163466 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163467;
+    rdf:_2 _:n3-163468;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung für nachhaltige Entwicklung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung für nachhaltige Entwicklung".
+_:n3-163467 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-163468 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163469;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung für nachhaltige Entwicklung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-163469 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163470;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung für nachhaltige Entwicklung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-163470 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-163471 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163472;
+    rdf:_2 _:n3-163473;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Sachkosten".
+_:n3-163472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-163473 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163474;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-163474 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163475;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-163475 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-163476 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163477;
+    rdf:_2 _:n3-163478;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>14.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 14.000 €".
+_:n3-163477 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-163478 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "14.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "14.000 €";
+    <https://html.spec.whatwg.org/#innerText> "14.000 €".
+_:n3-163479 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163480;
+    rdf:_2 _:n3-163481;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-163480 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-163481 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-163482 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163483;
+    rdf:_2 _:n3-163484;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. September 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. September 2026".
+_:n3-163483 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-163484 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163485;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. September 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-163485 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163486;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. September 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-163486 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. September 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. September 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-163487 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163488;
+    rdf:_2 _:n3-163489;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-163488 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-163489 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-163490 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163491;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163491 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163492;
+    rdf:_2 _:n3-163504;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163492 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163493;
+    rdf:_2 _:n3-163495;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163493 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-163494;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global".
+_:n3-163494 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Engagement Global";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement Global";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global".
+_:n3-163495 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163496;
+    rdf:_2 _:n3-163500;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-163496 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163497;
+    rdf:_2 _:n3-163498;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de".
+_:n3-163497 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-163498 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163499;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de".
+_:n3-163499 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@engagement-global.de".
+_:n3-163500 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163501;
+    rdf:_2 _:n3-163502;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.engagement-global.de".
+_:n3-163501 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-163502 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163503;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de".
+_:n3-163503 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "https://www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163504 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163505;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">".
+_:n3-163505 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "181";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-163506 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-163507;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163507 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163508;
+    rdf:_2 _:n3-163512;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163508 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-163509;
+    rdf:_2 _:n3-163510;
+    rdf:_3 _:n3-163511;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163509 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-163510 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-163511 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-163512 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163513;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-163513 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-163514 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-163515 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-163516 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-163517 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/entwicklungspolitischer-schulaustausch-ensa";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-163518 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-163519 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Entwicklungspolitischer Schulaustausch (ENSA)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklungspolitischer Schulaustausch (ENSA)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungspolitischer Schulaustausch (ENSA)  –  Förderdatenbank".
+_:n3-163520 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-163521 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

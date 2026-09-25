@@ -1,0 +1,828 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-162947 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162948;
+    rdf:_10 _:n3-162949;
+    rdf:_11 _:n3-162950;
+    rdf:_12 _:n3-162951;
+    rdf:_13 _:n3-162952;
+    rdf:_14 _:n3-162953;
+    rdf:_15 _:n3-162954;
+    rdf:_16 _:n3-162955;
+    rdf:_17 _:n3-162956;
+    rdf:_18 _:n3-162957;
+    rdf:_19 _:n3-162958;
+    rdf:_2 _:n3-162959;
+    rdf:_20 _:n3-162960;
+    rdf:_21 _:n3-162961;
+    rdf:_22 _:n3-162962;
+    rdf:_23 _:n3-162979;
+    rdf:_24 _:n3-162984;
+    rdf:_25 _:n3-163094;
+    rdf:_26 _:n3-163102;
+    rdf:_3 _:n3-163103;
+    rdf:_4 _:n3-163104;
+    rdf:_5 _:n3-163105;
+    rdf:_6 _:n3-163106;
+    rdf:_7 _:n3-163107;
+    rdf:_8 _:n3-163108;
+    rdf:_9 _:n3-163109;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "engagementfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Engagementfonds  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Engagementfonds\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Engagementfonds\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Engagementfonds</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p><strong>Grundidee</strong></p>\n      <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n      <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><strong>Wer wird gefördert?</strong></p>\n      <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n      <p><strong>Was wird gefördert?</strong></p>\n      <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n      <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n      <p><strong>Wie wird gefördert?</strong></p>\n      <ul>\n       <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n       <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n       <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n       <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n        <br>\n        &nbsp;</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p><strong>Ablauf</strong></p>\n      <ul>\n       <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n       <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n       <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n       <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n       <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n       <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n       <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n       <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Sachsen-Anhalt</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Migration</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>2.500 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. Dezember 2026</li>\n       </ul>\n      </div>\n      <div class=\"prose text-base\">\n       <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Rathausstraße 13,\n        <br>\n        06108 Halle (Saale)</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0345 22604440</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Engagementfonds Engagementfonds Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein. LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440 ©2026 Impressum Datenschutzerklärung".
+_:n3-162948 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-162949 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-162950 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-162951 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-162952 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Engagementfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-162953 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-162954 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Engagementfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-162955 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-162956 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-162957 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-162958 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162959 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-162960 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162961 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-162962 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162963;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162963 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162964;
+    rdf:_2 _:n3-162966;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162964 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162965;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-162965 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-162966 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162967;
+    rdf:_2 _:n3-162970;
+    rdf:_3 _:n3-162973;
+    rdf:_4 _:n3-162976;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-162967 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162968;
+    rdf:_2 _:n3-162969;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162968 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162969 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-162970 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162971;
+    rdf:_2 _:n3-162972;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162971 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162972 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-162973 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162974;
+    rdf:_2 _:n3-162975;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162974 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162975 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-162976 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162977;
+    rdf:_2 _:n3-162978;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162977 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162978 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-162979 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162980;
+    rdf:_2 _:n3-162983;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-162980 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162981;
+    rdf:_2 _:n3-162982;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162981 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-162982 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-162983 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-162984 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-162985;
+    rdf:_2 _:n3-162990;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Engagementfonds</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p><strong>Grundidee</strong></p>\n     <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n     <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><strong>Wer wird gefördert?</strong></p>\n     <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n     <p><strong>Was wird gefördert?</strong></p>\n     <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n     <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n     <p><strong>Wie wird gefördert?</strong></p>\n     <ul>\n      <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n      <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n      <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n      <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n       <br>\n       &nbsp;</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p><strong>Ablauf</strong></p>\n     <ul>\n      <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n      <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n      <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n      <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n      <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n      <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n      <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n      <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Sachsen-Anhalt</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Migration</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>2.500 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. Dezember 2026</li>\n      </ul>\n     </div>\n     <div class=\"prose text-base\">\n      <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Rathausstraße 13,\n       <br>\n       06108 Halle (Saale)</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0345 22604440</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Engagementfonds Engagementfonds Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein. LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-162985 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162986;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Engagementfonds</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Engagementfonds".
+_:n3-162986 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162987;
+    rdf:_2 _:n3-162988;
+    rdf:_3 _:n3-162989;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Engagementfonds</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Engagementfonds".
+_:n3-162987 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162988 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-162989 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Engagementfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementfonds";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds".
+_:n3-162990 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-162991;
+    rdf:_2 _:n3-163074;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p><strong>Grundidee</strong></p>\n    <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n    <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><strong>Wer wird gefördert?</strong></p>\n    <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n    <p><strong>Was wird gefördert?</strong></p>\n    <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n    <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n    <p><strong>Wie wird gefördert?</strong></p>\n    <ul>\n     <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n     <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n     <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n     <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n      <br>\n      &nbsp;</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p><strong>Ablauf</strong></p>\n    <ul>\n     <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n     <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n     <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n     <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n     <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n     <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n     <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n     <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Sachsen-Anhalt</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Migration</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>2.500 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. Dezember 2026</li>\n     </ul>\n    </div>\n    <div class=\"prose text-base\">\n     <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Rathausstraße 13,\n      <br>\n      06108 Halle (Saale)</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0345 22604440</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein. LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-162991 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162992;
+    rdf:_2 _:n3-163039;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p><strong>Grundidee</strong></p>\n   <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n   <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><strong>Wer wird gefördert?</strong></p>\n   <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n   <p><strong>Was wird gefördert?</strong></p>\n   <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n   <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n   <p><strong>Wie wird gefördert?</strong></p>\n   <ul>\n    <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n    <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n    <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n    <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n     <br>\n     &nbsp;</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p><strong>Ablauf</strong></p>\n   <ul>\n    <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n    <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n    <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n    <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n    <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n    <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n    <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n    <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Sachsen-Anhalt</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Migration</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>2.500 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. Dezember 2026</li>\n    </ul>\n   </div>\n   <div class=\"prose text-base\">\n    <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-162992 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162993;
+    rdf:_2 _:n3-162995;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p><strong>Grundidee</strong></p>\n  <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n  <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><strong>Wer wird gefördert?</strong></p>\n  <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n  <p><strong>Was wird gefördert?</strong></p>\n  <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n  <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n  <p><strong>Wie wird gefördert?</strong></p>\n  <ul>\n   <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n   <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n   <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n   <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n    <br>\n    &nbsp;</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p><strong>Ablauf</strong></p>\n  <ul>\n   <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n   <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n   <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n   <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n   <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n   <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n   <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n  </ul>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n   <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular".
+_:n3-162993 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162994;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Engagementfonds</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds".
+_:n3-162994 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Engagementfonds";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementfonds";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds".
+_:n3-162995 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162996;
+    rdf:_2 _:n3-163001;
+    rdf:_3 _:n3-163018;
+    rdf:_4 _:n3-163030;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p><strong>Grundidee</strong></p>\n <p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n <p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><strong>Wer wird gefördert?</strong></p>\n <p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n <p><strong>Was wird gefördert?</strong></p>\n <p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n <p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n <p><strong>Wie wird gefördert?</strong></p>\n <ul>\n  <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n  <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n  <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n  <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n   <br>\n   &nbsp;</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p><strong>Ablauf</strong></p>\n <ul>\n  <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n  <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n  <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n  <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n  <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n  <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n  <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n </ul>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n  <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein. Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung. Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach! Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular".
+_:n3-162996 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162997;
+    rdf:_2 _:n3-162999;
+    rdf:_3 _:n3-163000;
+    <https://html.spec.whatwg.org/#innerHTML> "<p><strong>Grundidee</strong></p>\n<p>Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.</p>\n<p>Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Grundidee Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein. Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.".
+_:n3-162997 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-162998;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Grundidee</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Grundidee".
+_:n3-162998 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Grundidee";
+    <https://html.spec.whatwg.org/#innerHTML> "Grundidee";
+    <https://html.spec.whatwg.org/#innerText> "Grundidee".
+_:n3-162999 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.";
+    <https://html.spec.whatwg.org/#innerText> "Prinzipiell sollten Freiwilligen bei ihrer Tätigkeit keine zusätzlichen Kosten entstehen, schließlich bringen sie schon Zeit und Können in ihr Ehrenamt ein.".
+_:n3-163000 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.";
+    <https://html.spec.whatwg.org/#innerText> "Der Engagementfonds des Landes Sachsen-Anhalt hilft genau da weiter. Freiwillig Tätige erhalten Ausgaben recht unbürokratisch erstattet. Diese Form der Unterstützung soll gleichwohl Anerkennung wie Motivation für tausende ehrenamtlich Aktive in unserem Land sein.".
+_:n3-163001 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163002;
+    rdf:_2 _:n3-163003;
+    rdf:_3 _:n3-163005;
+    rdf:_4 _:n3-163006;
+    rdf:_5 _:n3-163008;
+    rdf:_6 _:n3-163009;
+    rdf:_7 _:n3-163010;
+    rdf:_8 _:n3-163012;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><strong>Wer wird gefördert?</strong></p>\n<p>Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.</p>\n<p><strong>Was wird gefördert?</strong></p>\n<p>Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.</p>\n<p>Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.</p>\n<p><strong>Wie wird gefördert?</strong></p>\n<ul>\n <li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n <li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n <li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n <li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n  <br>\n  &nbsp;</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Wer wird gefördert? Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten. Was wird gefördert? Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann. Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel. Wie wird gefördert? Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.".
+_:n3-163002 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-163003 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163004;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Wer wird gefördert?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Wer wird gefördert?".
+_:n3-163004 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Wer wird gefördert?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wer wird gefördert?";
+    <https://html.spec.whatwg.org/#innerText> "Wer wird gefördert?".
+_:n3-163005 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Engagementfonds&nbsp;unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.";
+    <https://html.spec.whatwg.org/#innerText> "Der Engagementfonds unterstützt neben Vereinen auch Privatinitiativen oder Einzelpersonen, die mit ihrem Engagement vor Ort eine lebenswerte Nachbarschaft mitgestalten.".
+_:n3-163006 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163007;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Was wird gefördert?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Was wird gefördert?".
+_:n3-163007 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Was wird gefördert?";
+    <https://html.spec.whatwg.org/#innerHTML> "Was wird gefördert?";
+    <https://html.spec.whatwg.org/#innerText> "Was wird gefördert?".
+_:n3-163008 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.";
+    <https://html.spec.whatwg.org/#innerText> "Sie widmen sich ehrenamtlich der Integration neuer Nachbarn und Nachbarinnen? Ihr Verein engagiert sich für sozial benachteiligte Jugendliche in seinem Stadtteil? Oder fördert Ihre Initiative das gesellschaftliche Miteinander in einer ländlich geprägten Gegend? Dann bietet Ihnen der Engagementfonds die Hilfe, die zum besseren Gelingen beitragen kann.".
+_:n3-163009 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.";
+    <https://html.spec.whatwg.org/#innerHTML> "Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.";
+    <https://html.spec.whatwg.org/#innerText> "Für Ihr Vorhaben können beim Fonds folgende Ausgaben geltend machen: Honorare, Öffentlichkeitsarbeit, Verpflegung, Fahrkosten und Sachmittel.".
+_:n3-163010 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163011;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Wie wird gefördert?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Wie wird gefördert?".
+_:n3-163011 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Wie wird gefördert?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wie wird gefördert?";
+    <https://html.spec.whatwg.org/#innerText> "Wie wird gefördert?".
+_:n3-163012 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163013;
+    rdf:_2 _:n3-163014;
+    rdf:_3 _:n3-163015;
+    rdf:_4 _:n3-163016;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.</li>\n<li>Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.</li>\n<li>Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.</li>\n<li>Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n <br>\n &nbsp;</li>";
+    <https://html.spec.whatwg.org/#innerText> "Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind. Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen. Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich. Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.".
+_:n3-163013 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.";
+    <https://html.spec.whatwg.org/#innerHTML> "Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.";
+    <https://html.spec.whatwg.org/#innerText> "Wir erstatten Ihnen die Kosten, die Ihnen nachweisbar bei Ihrem Vorhaben entstanden sind.".
+_:n3-163014 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.";
+    <https://html.spec.whatwg.org/#innerText> "Sie können für die Dauer von bis zu 6 Monaten Förderung beantragen.".
+_:n3-163015 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Ihre Antragstellung ist im gesamten Kalenderjahr fortlaufend möglich.".
+_:n3-163016 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.";
+    rdf:_2 _:n3-163017;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Eine Jury aus unabhängigen Fachleuten entscheidet zeitnah über Ihre Förderung.".
+_:n3-163017 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-163018 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163019;
+    rdf:_2 _:n3-163020;
+    rdf:_3 _:n3-163022;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p><strong>Ablauf</strong></p>\n<ul>\n <li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n <li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n <li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n <li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n <li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n <li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n <li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Ablauf Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!".
+_:n3-163019 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-163020 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163021;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Ablauf</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Ablauf".
+_:n3-163021 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Ablauf";
+    <https://html.spec.whatwg.org/#innerHTML> "Ablauf";
+    <https://html.spec.whatwg.org/#innerText> "Ablauf".
+_:n3-163022 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163023;
+    rdf:_2 _:n3-163024;
+    rdf:_3 _:n3-163025;
+    rdf:_4 _:n3-163026;
+    rdf:_5 _:n3-163027;
+    rdf:_6 _:n3-163028;
+    rdf:_7 _:n3-163029;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).</li>\n<li>Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.</li>\n<li>Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.</li>\n<li>Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.</li>\n<li>Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert</li>\n<li>Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.</li>\n<li>Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!</li>";
+    <https://html.spec.whatwg.org/#innerText> "Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link). Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten. Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit. Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt. Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein. Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!".
+_:n3-163023 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).";
+    <https://html.spec.whatwg.org/#innerHTML> "Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).";
+    <https://html.spec.whatwg.org/#innerText> "Nutzen Sie zur Antragstellung bitte das Antragsformular (s. Link).".
+_:n3-163024 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.";
+    <https://html.spec.whatwg.org/#innerText> "Reichen Sie Ihren Antragsentwurf gern vorab per Mail ein, dann können wir Sie bei Bedarf gezielt beraten.".
+_:n3-163025 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen.&nbsp;Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.";
+    <https://html.spec.whatwg.org/#innerText> "Ihr Antrag selbst geht zum nächstmöglichen Termin an unser Vergabegremium, das über eine Förderung entscheidet – das dauert i.d.R. etwa 4-6 Wochen. Sollte Ihr Förderbedarf zeitlich drängend sein, teilen Sie uns das bitte frühzeitig mit.".
+_:n3-163026 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.";
+    <https://html.spec.whatwg.org/#innerHTML> "Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.";
+    <https://html.spec.whatwg.org/#innerText> "Nach der Entscheidung des Gremiums bekommen Sie von uns schnellstmöglich Bescheid und alle Förderunterlagen zugesandt.".
+_:n3-163027 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert";
+    <https://html.spec.whatwg.org/#innerText> "Die Dokumente zur Abrechnung Ihrer Förderung erhalten Sie gesondert".
+_:n3-163028 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.";
+    <https://html.spec.whatwg.org/#innerText> "Am Ende des Förderungszeitraumes reichen Sie diese inkl. aller Belege etc. bei uns ein.".
+_:n3-163029 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!";
+    <https://html.spec.whatwg.org/#innerHTML> "Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!";
+    <https://html.spec.whatwg.org/#innerText> "Und wann immer Sie nicht weiterwissen, melden Sie sich einfach!".
+_:n3-163030 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163031;
+    rdf:_2 _:n3-163032;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n <li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Hinweise zum Antrag Antragsformular".
+_:n3-163031 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-163032 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163033;
+    rdf:_2 _:n3-163035;
+    rdf:_3 _:n3-163037;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a></li>\n<li><a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Hinweise zum Antrag Antragsformular".
+_:n3-163033 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-163034;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.nachbarsein.de/engagementfonds-antrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-163034 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.nachbarsein.de/engagementfonds-antrag";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163035 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-163036;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Hinweise zum Antrag</a>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zum Antrag".
+_:n3-163036 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Hinweise zum Antrag";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zum Antrag";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zum Antrag";
+    <http://www.w3.org/1999/xhtml#href> "https://www.nachbarsein.de/_files/ugd/34f011_5e589371864b4636ac461540c6616635.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163037 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-163038;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-163038 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.nachbarsein.de/_files/ugd/34f011_363df14e3c554c9e917e48c12afffed0.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163039 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-163040;
+    rdf:_2 _:n3-163043;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Sachsen-Anhalt</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Migration</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>2.500 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. Dezember 2026</li>\n   </ul>\n  </div>\n  <div class=\"prose text-base\">\n   <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-163040 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163041;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">\n</figure>".
+_:n3-163041 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-163042;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg\" width=\"800\" height=\"216\">".
+_:n3-163042 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "216";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/lagfa_netzwerkstelle.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-163043 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163044;
+    rdf:_2 _:n3-163049;
+    rdf:_3 _:n3-163058;
+    rdf:_4 _:n3-163064;
+    rdf:_5 _:n3-163067;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Sachsen-Anhalt</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Migration</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>2.500 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. Dezember 2026</li>\n  </ul>\n </div>\n <div class=\"prose text-base\">\n  <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.500 € Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-163044 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163045;
+    rdf:_2 _:n3-163046;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Sachsen-Anhalt</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt".
+_:n3-163045 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-163046 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163047;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sachsen-Anhalt</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-163047 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163048;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sachsen-Anhalt</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-163048 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-163049 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163050;
+    rdf:_2 _:n3-163051;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Migration</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung".
+_:n3-163050 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-163051 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163052;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Migration</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung".
+_:n3-163052 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163053;
+    rdf:_2 _:n3-163054;
+    rdf:_3 _:n3-163055;
+    rdf:_4 _:n3-163056;
+    rdf:_5 _:n3-163057;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Migration</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Migration Soziales Sport und Bewegung".
+_:n3-163053 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-163054 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-163055 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-163056 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-163057 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-163058 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163059;
+    rdf:_2 _:n3-163060;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-163059 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-163060 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163061;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-163061 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163062;
+    rdf:_2 _:n3-163063;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-163062 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-163063 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-163064 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163065;
+    rdf:_2 _:n3-163066;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>2.500 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 2.500 €".
+_:n3-163065 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-163066 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "2.500 €";
+    <https://html.spec.whatwg.org/#innerHTML> "2.500 €";
+    <https://html.spec.whatwg.org/#innerText> "2.500 €".
+_:n3-163067 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163068;
+    rdf:_2 _:n3-163069;
+    rdf:_3 _:n3-163072;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. Dezember 2026</li>\n </ul>\n</div>\n<div class=\"prose text-base\">\n <p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. Dezember 2026 Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-163068 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-163069 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163070;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. Dezember 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2026".
+_:n3-163070 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-163071;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. Dezember 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2026".
+_:n3-163071 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Dezember 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Dezember 2026";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2026".
+_:n3-163072 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163073;
+    <http://www.w3.org/1999/xhtml#class> "prose text-base";
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-163073 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbung fortlaufend möglich, Projektende sollte spätestens 31.12.2023 sein.".
+_:n3-163074 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163075;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Rathausstraße 13,\n     <br>\n     06108 Halle (Saale)</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0345 22604440</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-163075 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163076;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Rathausstraße 13,\n    <br>\n    06108 Halle (Saale)</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0345 22604440</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-163076 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163077;
+    rdf:_2 _:n3-163079;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Rathausstraße 13,\n   <br>\n   06108 Halle (Saale)</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0345 22604440</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "LAGFA Sachsen-Anhalt e.V. Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-163077 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-163078;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa\" class=\"link\">LAGFA Sachsen-Anhalt e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "LAGFA Sachsen-Anhalt e.V.".
+_:n3-163078 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "LAGFA Sachsen-Anhalt e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "LAGFA Sachsen-Anhalt e.V.";
+    <https://html.spec.whatwg.org/#innerText> "LAGFA Sachsen-Anhalt e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21478-lagfa".
+_:n3-163079 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163080;
+    rdf:_2 _:n3-163083;
+    rdf:_3 _:n3-163087;
+    rdf:_4 _:n3-163091;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Rathausstraße 13,\n  <br>\n  06108 Halle (Saale)</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0345 22604440</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Rathausstraße 13, 06108 Halle (Saale) E-Mail netzwerkstelle@lagfa-lsa.de Webseite www.nachbarsein.de/ Telefon 0345 22604440".
+_:n3-163080 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163081;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Rathausstraße 13,\n <br>\n 06108 Halle (Saale)</p>";
+    <https://html.spec.whatwg.org/#innerText> "Rathausstraße 13, 06108 Halle (Saale)".
+_:n3-163081 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Rathausstraße 13,";
+    rdf:_2 _:n3-163082;
+    rdf:_3 "06108 Halle (Saale)";
+    <https://html.spec.whatwg.org/#innerHTML> "Rathausstraße 13,\n<br>\n06108 Halle (Saale)";
+    <https://html.spec.whatwg.org/#innerText> "Rathausstraße 13, 06108 Halle (Saale)".
+_:n3-163082 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-163083 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163084;
+    rdf:_2 _:n3-163085;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail netzwerkstelle@lagfa-lsa.de".
+_:n3-163084 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-163085 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163086;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:netzwerkstelle@lagfa-lsa.de\">netzwerkstelle@lagfa-lsa.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "netzwerkstelle@lagfa-lsa.de".
+_:n3-163086 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "netzwerkstelle@lagfa-lsa.de";
+    <https://html.spec.whatwg.org/#innerHTML> "netzwerkstelle@lagfa-lsa.de";
+    <https://html.spec.whatwg.org/#innerText> "netzwerkstelle@lagfa-lsa.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:netzwerkstelle@lagfa-lsa.de".
+_:n3-163087 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163088;
+    rdf:_2 _:n3-163089;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.nachbarsein.de/".
+_:n3-163088 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-163089 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-163090;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.nachbarsein.de/\" target=\"_blank\">www.nachbarsein.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.nachbarsein.de/".
+_:n3-163090 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.nachbarsein.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.nachbarsein.de/";
+    <https://html.spec.whatwg.org/#innerText> "www.nachbarsein.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.nachbarsein.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-163091 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163092;
+    rdf:_2 _:n3-163093;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0345 22604440</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0345 22604440".
+_:n3-163092 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-163093 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0345 22604440";
+    <https://html.spec.whatwg.org/#innerHTML> "0345 22604440";
+    <https://html.spec.whatwg.org/#innerText> "0345 22604440".
+_:n3-163094 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-163095;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163095 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163096;
+    rdf:_2 _:n3-163100;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163096 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-163097;
+    rdf:_2 _:n3-163098;
+    rdf:_3 _:n3-163099;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-163097 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-163098 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-163099 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-163100 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-163101;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-163101 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-163102 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-163103 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-163104 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-163105 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/engagementfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-163106 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-163107 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Engagementfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Engagementfonds  –  Förderdatenbank".
+_:n3-163108 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-163109 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

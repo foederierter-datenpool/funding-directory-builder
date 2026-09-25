@@ -1,0 +1,708 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-266368 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266369;
+    rdf:_10 _:n3-266370;
+    rdf:_11 _:n3-266371;
+    rdf:_12 _:n3-266372;
+    rdf:_13 _:n3-266373;
+    rdf:_14 _:n3-266374;
+    rdf:_15 _:n3-266375;
+    rdf:_16 _:n3-266376;
+    rdf:_17 _:n3-266377;
+    rdf:_18 _:n3-266378;
+    rdf:_19 _:n3-266379;
+    rdf:_2 _:n3-266380;
+    rdf:_20 _:n3-266381;
+    rdf:_21 _:n3-266382;
+    rdf:_22 _:n3-266383;
+    rdf:_23 _:n3-266400;
+    rdf:_24 _:n3-266405;
+    rdf:_25 _:n3-266489;
+    rdf:_26 _:n3-266497;
+    rdf:_3 _:n3-266498;
+    rdf:_4 _:n3-266499;
+    rdf:_5 _:n3-266500;
+    rdf:_6 _:n3-266501;
+    rdf:_7 _:n3-266502;
+    rdf:_8 _:n3-266503;
+    rdf:_9 _:n3-266504;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "alisa-stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderungen der ALISA Stiftung  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderungen der ALISA Stiftung\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderungen der ALISA Stiftung\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der ALISA Stiftung</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n      <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n      <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n      <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n      <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n      <ul>\n       <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n       <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n       <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n       <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n       <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n       <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n       <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n       <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n       <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n       <li>Einbezug von Senioren in Projekte,</li>\n       <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Rheinland-Pfalz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Sport und Bewegung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Am See 24,\n        <br>\n        67547 Worms</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>06241 26966-0</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderungen der ALISA Stiftung Förderungen der ALISA Stiftung Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0 ©2026 Impressum Datenschutzerklärung".
+_:n3-266369 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-266370 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-266371 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-266372 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-266373 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderungen der ALISA Stiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-266374 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-266375 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderungen der ALISA Stiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-266376 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-266377 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-266378 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-266379 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-266380 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-266381 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-266382 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-266383 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266384;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-266384 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266385;
+    rdf:_2 _:n3-266387;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-266385 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-266386;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-266386 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-266387 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266388;
+    rdf:_2 _:n3-266391;
+    rdf:_3 _:n3-266394;
+    rdf:_4 _:n3-266397;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-266388 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-266389;
+    rdf:_2 _:n3-266390;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266389 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-266390 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-266391 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-266392;
+    rdf:_2 _:n3-266393;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266392 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-266393 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-266394 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-266395;
+    rdf:_2 _:n3-266396;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266395 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-266396 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-266397 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-266398;
+    rdf:_2 _:n3-266399;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266398 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-266399 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-266400 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-266401;
+    rdf:_2 _:n3-266404;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-266401 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-266402;
+    rdf:_2 _:n3-266403;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-266402 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-266403 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-266404 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-266405 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-266406;
+    rdf:_2 _:n3-266411;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der ALISA Stiftung</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n     <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n     <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n     <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n     <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n     <ul>\n      <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n      <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n      <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n      <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n      <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n      <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n      <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n      <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n      <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n      <li>Einbezug von Senioren in Projekte,</li>\n      <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Rheinland-Pfalz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Sport und Bewegung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Am See 24,\n       <br>\n       67547 Worms</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>06241 26966-0</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der ALISA Stiftung Förderungen der ALISA Stiftung Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266406 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-266407;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der ALISA Stiftung</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der ALISA Stiftung".
+_:n3-266407 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266408;
+    rdf:_2 _:n3-266409;
+    rdf:_3 _:n3-266410;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der ALISA Stiftung</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der ALISA Stiftung".
+_:n3-266408 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-266409 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-266410 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderungen der ALISA Stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der ALISA Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung".
+_:n3-266411 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-266412;
+    rdf:_2 _:n3-266467;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n    <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n    <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n    <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n    <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n    <ul>\n     <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n     <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n     <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n     <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n     <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n     <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n     <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n     <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n     <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n     <li>Einbezug von Senioren in Projekte,</li>\n     <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Rheinland-Pfalz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Sport und Bewegung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Am See 24,\n      <br>\n      67547 Worms</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>06241 26966-0</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266412 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266413;
+    rdf:_2 _:n3-266445;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n   <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n   <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n   <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n   <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n   <ul>\n    <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n    <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n    <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n    <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n    <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n    <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n    <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n    <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n    <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n    <li>Einbezug von Senioren in Projekte,</li>\n    <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Rheinland-Pfalz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Sport und Bewegung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-266413 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266414;
+    rdf:_2 _:n3-266416;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n  <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n  <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n  <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n  <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n  <ul>\n   <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n   <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n   <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n   <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n   <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n   <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n   <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n   <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n   <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n   <li>Einbezug von Senioren in Projekte,</li>\n   <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n  </ul>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung".
+_:n3-266414 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-266415;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der ALISA Stiftung</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung".
+_:n3-266415 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderungen der ALISA Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der ALISA Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung".
+_:n3-266416 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266417;
+    rdf:_2 _:n3-266421;
+    rdf:_3 _:n3-266438;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n <p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n <p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n <p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n <p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n <ul>\n  <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n  <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n  <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n  <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n  <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n  <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n  <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n  <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n  <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n  <li>Einbezug von Senioren in Projekte,</li>\n  <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n </ul>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten. Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem Weitere Informationen Link zur Stiftung Link zur Satzung".
+_:n3-266417 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266418;
+    rdf:_2 _:n3-266419;
+    rdf:_3 _:n3-266420;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;</p>\n<p>Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.</p>\n<p>Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen. Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut. Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.".
+_:n3-266418 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die&nbsp;ALISA Stiftung hat sich zur Aufgabe gemacht,&nbsp;die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst&nbsp;und Kultur sowie Sport,&nbsp;zu unterstützen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die ALISA Stiftung hat sich zur Aufgabe gemacht, die Förderung von Jugend- und Altenhilfe, die Förderung von Verbraucherberatung und Verbraucherschutz, Erziehung, Volks- und Berufsbildung, Kunst und Kultur sowie Sport, zu unterstützen.".
+_:n3-266419 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.";
+    <https://html.spec.whatwg.org/#innerHTML> "Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017.&nbsp;Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.";
+    <https://html.spec.whatwg.org/#innerText> "Schwerpunkt der Stiftungstätigkeit ist der Betrieb von zwei Häusern in Worms und Kirn. Das ALISA-Zentrum in Worms wurde 2011 eröffnet, das Zentrum Kirn 2017. Dort werden wöchentlich mehrere hundert Kinder und Jugendliche in einer Vielzahl von verschiedenen Kursen aus den Bereichen Bewegung und Sport, Kreatives, Wissenschaft, Lernen und Forschen betreut.".
+_:n3-266420 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.";
+    <https://html.spec.whatwg.org/#innerText> "Ergänzend werden in schulfreien Zeiten Ferienprogramme angeboten.".
+_:n3-266421 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266422;
+    rdf:_2 _:n3-266423;
+    rdf:_3 _:n3-266424;
+    rdf:_4 _:n3-266425;
+    rdf:_5 _:n3-266426;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;</p>\n<p>Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.</p>\n<p>Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;</p>\n<ul>\n <li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n <li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n <li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n <li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n <li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n <li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n <li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n <li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n <li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n <li>Einbezug von Senioren in Projekte,</li>\n <li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten. Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können. Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem: die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem".
+_:n3-266422 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-266423 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Im Rahmen ihrer Möglichkeit will die Stiftung&nbsp;dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Im Rahmen ihrer Möglichkeit will die Stiftung dazu beitragen, dass möglichst viele Heranwachsende gleiche Bildungschancen erhalten.".
+_:n3-266424 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftungsarbeit&nbsp;zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftungsarbeit zeichnen Angebote und Projekte aus verschiedensten Bereichen aus, die von allen Kindern und Jugendlichen – unabhängig von Herkunft, Kultur und Lebenssituation genutzt werden können.".
+_:n3-266425 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekte und Ideen&nbsp;die von der Stiftung&nbsp;gefördert werden sind unter anderem:&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Projekte und Ideen die von der Stiftung gefördert werden sind unter anderem:".
+_:n3-266426 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-266427;
+    rdf:_10 _:n3-266428;
+    rdf:_11 _:n3-266429;
+    rdf:_2 _:n3-266430;
+    rdf:_3 _:n3-266431;
+    rdf:_4 _:n3-266432;
+    rdf:_5 _:n3-266433;
+    rdf:_6 _:n3-266434;
+    rdf:_7 _:n3-266435;
+    rdf:_8 _:n3-266436;
+    rdf:_9 _:n3-266437;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>die Förderung der Sozialkompetenzen von Kindern und Jugendlichen</li>\n<li>die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen</li>\n<li>Projekten zwischen Kindergarten, Schulen und Wirtschaft</li>\n<li>Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen</li>\n<li>Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft</li>\n<li>Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern</li>\n<li>Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs</li>\n<li>Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler</li>\n<li>unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,</li>\n<li>Einbezug von Senioren in Projekte,</li>\n<li>Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem</li>";
+    <https://html.spec.whatwg.org/#innerText> "die Förderung der Sozialkompetenzen von Kindern und Jugendlichen die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen Projekten zwischen Kindergarten, Schulen und Wirtschaft Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren, Einbezug von Senioren in Projekte, Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem".
+_:n3-266427 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "die Förderung der Sozialkompetenzen von Kindern und Jugendlichen";
+    <https://html.spec.whatwg.org/#innerHTML> "die Förderung der Sozialkompetenzen von Kindern und Jugendlichen";
+    <https://html.spec.whatwg.org/#innerText> "die Förderung der Sozialkompetenzen von Kindern und Jugendlichen".
+_:n3-266428 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Einbezug von Senioren in Projekte,";
+    <https://html.spec.whatwg.org/#innerHTML> "Einbezug von Senioren in Projekte,";
+    <https://html.spec.whatwg.org/#innerText> "Einbezug von Senioren in Projekte,".
+_:n3-266429 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem";
+    <https://html.spec.whatwg.org/#innerHTML> "Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenarbeit mit Sportvereinen und Unterstützung von Projekten auf dem".
+_:n3-266430 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen";
+    <https://html.spec.whatwg.org/#innerHTML> "die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen";
+    <https://html.spec.whatwg.org/#innerText> "die Entwicklung und Unterstützung in jeder Hinsicht von partnerschaftlichen".
+_:n3-266431 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Projekten zwischen Kindergarten, Schulen und Wirtschaft";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekten zwischen Kindergarten, Schulen und Wirtschaft";
+    <https://html.spec.whatwg.org/#innerText> "Projekten zwischen Kindergarten, Schulen und Wirtschaft".
+_:n3-266432 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen";
+    <https://html.spec.whatwg.org/#innerHTML> "Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen";
+    <https://html.spec.whatwg.org/#innerText> "Gewinnung von Persönlichkeiten und Institutionen, die durch einen finanziellen und sachlichen Beitrag die Ziele der Stiftung nachhaltig unterstützen".
+_:n3-266433 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft";
+    <https://html.spec.whatwg.org/#innerHTML> "Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft";
+    <https://html.spec.whatwg.org/#innerText> "Initiierung von Private-Public Partnerships bei der Zusammenarbeit mit Kindergarten, Schulen und Wirtschaft".
+_:n3-266434 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern";
+    <https://html.spec.whatwg.org/#innerHTML> "Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern";
+    <https://html.spec.whatwg.org/#innerText> "Initiativen, die die Berufschancen junger Menschen u.a. durch arbeitsmarktorientierte Projekte in der Schule, durch zusätzliche Qualifizierungsangebote und betriebliche Praktika fördern".
+_:n3-266435 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs";
+    <https://html.spec.whatwg.org/#innerText> "Vorbereitung junger Menschen auf künftige Anforderungen des internationalen Arbeitsmarktes u.a. durch Förderung des internationalen Erfahrungsaustauschs".
+_:n3-266436 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler";
+    <https://html.spec.whatwg.org/#innerText> "Fördern und Begleitung der Schulentwicklung in Deutschland und auch außerhalb Deutschlands (z.B. Annahme und Weitergabe von Spenden für Schulen in Afrika) sowie die Unterstützung von Reisen fur bedürftige Schüler".
+_:n3-266437 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,";
+    <https://html.spec.whatwg.org/#innerHTML> "unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,";
+    <https://html.spec.whatwg.org/#innerText> "unterschiedlichste Fortbildungsveranstaltungen für Kinder, Jugendliche, Heranwachsende und Senioren,".
+_:n3-266438 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266439;
+    rdf:_2 _:n3-266440;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung Link zur Satzung".
+_:n3-266439 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-266440 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-266441;
+    rdf:_2 _:n3-266443;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung Link zur Satzung".
+_:n3-266441 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-266442;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://alisa-stiftung.de/die-stiftung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-266442 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://alisa-stiftung.de/die-stiftung/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266443 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-266444;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Satzung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Satzung".
+_:n3-266444 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Satzung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Satzung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Satzung";
+    <http://www.w3.org/1999/xhtml#href> "https://alisa-stiftung.de/wp-content/uploads/2021/02/2019_11_27-satzung-alisa-stiftung.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266445 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-266446;
+    rdf:_2 _:n3-266449;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Rheinland-Pfalz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Sport und Bewegung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-266446 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266447;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">\n</figure>".
+_:n3-266447 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-266448;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp\" width=\"800\" height=\"411\">".
+_:n3-266448 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "411";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/ALISA-Logo-720_wtran-26910f2d.webp";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-266449 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266450;
+    rdf:_2 _:n3-266455;
+    rdf:_3 _:n3-266464;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Rheinland-Pfalz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Sport und Bewegung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-266450 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266451;
+    rdf:_2 _:n3-266452;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Rheinland-Pfalz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz".
+_:n3-266451 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-266452 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266453;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Rheinland-Pfalz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-266453 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-266454;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Rheinland-Pfalz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-266454 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerHTML> "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-266455 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266456;
+    rdf:_2 _:n3-266457;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Sport und Bewegung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung".
+_:n3-266456 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-266457 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266458;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Sport und Bewegung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung".
+_:n3-266458 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-266459;
+    rdf:_2 _:n3-266460;
+    rdf:_3 _:n3-266461;
+    rdf:_4 _:n3-266462;
+    rdf:_5 _:n3-266463;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Sport und Bewegung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Kinder und Jugendliche Kultur, Medien und Musik Sport und Bewegung".
+_:n3-266459 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-266460 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-266461 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-266462 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-266463 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-266464 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266465;
+    rdf:_2 _:n3-266466;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-266465 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-266466 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-266467 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266468;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Am See 24,\n     <br>\n     67547 Worms</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>06241 26966-0</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266468 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266469;
+    rdf:_2 _:n3-266487;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Am See 24,\n    <br>\n    67547 Worms</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>06241 26966-0</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266469 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266470;
+    rdf:_2 _:n3-266472;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Am See 24,\n   <br>\n   67547 Worms</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>06241 26966-0</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "ALISA Stiftung Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266470 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-266471;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung\" class=\"link\">ALISA Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "ALISA Stiftung".
+_:n3-266471 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "ALISA Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "ALISA Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "ALISA Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/2073-alisa-stiftung".
+_:n3-266472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266473;
+    rdf:_2 _:n3-266476;
+    rdf:_3 _:n3-266480;
+    rdf:_4 _:n3-266484;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Am See 24,\n  <br>\n  67547 Worms</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>06241 26966-0</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Am See 24, 67547 Worms E-Mail info@alisa-stiftung.de Webseite www.alisa-stiftung.de Telefon 06241 26966-0".
+_:n3-266473 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266474;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Am See 24,\n <br>\n 67547 Worms</p>";
+    <https://html.spec.whatwg.org/#innerText> "Am See 24, 67547 Worms".
+_:n3-266474 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Am See 24,";
+    rdf:_2 _:n3-266475;
+    rdf:_3 "67547 Worms";
+    <https://html.spec.whatwg.org/#innerHTML> "Am See 24,\n<br>\n67547 Worms";
+    <https://html.spec.whatwg.org/#innerText> "Am See 24, 67547 Worms".
+_:n3-266475 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-266476 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266477;
+    rdf:_2 _:n3-266478;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@alisa-stiftung.de".
+_:n3-266477 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-266478 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-266479;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@alisa-stiftung.de\">info@alisa-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@alisa-stiftung.de".
+_:n3-266479 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@alisa-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@alisa-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@alisa-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@alisa-stiftung.de".
+_:n3-266480 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266481;
+    rdf:_2 _:n3-266482;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.alisa-stiftung.de".
+_:n3-266481 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-266482 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-266483;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.alisa-stiftung.de\" target=\"_blank\">www.alisa-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.alisa-stiftung.de".
+_:n3-266483 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.alisa-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.alisa-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "www.alisa-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.alisa-stiftung.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-266484 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266485;
+    rdf:_2 _:n3-266486;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>06241 26966-0</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 06241 26966-0".
+_:n3-266485 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-266486 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "06241 26966-0";
+    <https://html.spec.whatwg.org/#innerHTML> "06241 26966-0";
+    <https://html.spec.whatwg.org/#innerText> "06241 26966-0".
+_:n3-266487 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266488;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png\" width=\"800\" height=\"300\">".
+_:n3-266488 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "300";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/images_160301_080408.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-266489 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-266490;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-266490 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266491;
+    rdf:_2 _:n3-266495;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-266491 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-266492;
+    rdf:_2 _:n3-266493;
+    rdf:_3 _:n3-266494;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-266492 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-266493 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-266494 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-266495 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-266496;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-266496 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-266497 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-266498 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-266499 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-266500 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/alisa-stiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-266501 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-266502 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderungen der ALISA Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der ALISA Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der ALISA Stiftung  –  Förderdatenbank".
+_:n3-266503 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-266504 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

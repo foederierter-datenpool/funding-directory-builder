@@ -1,0 +1,841 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-252466 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252467;
+    rdf:_10 _:n3-252468;
+    rdf:_11 _:n3-252469;
+    rdf:_12 _:n3-252470;
+    rdf:_13 _:n3-252471;
+    rdf:_14 _:n3-252472;
+    rdf:_15 _:n3-252473;
+    rdf:_16 _:n3-252474;
+    rdf:_17 _:n3-252475;
+    rdf:_18 _:n3-252476;
+    rdf:_19 _:n3-252477;
+    rdf:_2 _:n3-252478;
+    rdf:_20 _:n3-252479;
+    rdf:_21 _:n3-252480;
+    rdf:_22 _:n3-252481;
+    rdf:_23 _:n3-252498;
+    rdf:_24 _:n3-252503;
+    rdf:_25 _:n3-252610;
+    rdf:_26 _:n3-252618;
+    rdf:_3 _:n3-252619;
+    rdf:_4 _:n3-252620;
+    rdf:_5 _:n3-252621;
+    rdf:_6 _:n3-252622;
+    rdf:_7 _:n3-252623;
+    rdf:_8 _:n3-252624;
+    rdf:_9 _:n3-252625;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "gut-beraten-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Gut Beraten!  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Gut Beraten!\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Gut Beraten!\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Gut Beraten!</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n     <p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n      <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n      <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n      <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n      <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n      <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n      <ul style=\"list-style-type:disc;\">\n       <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n      </ul>\n      <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Soziales</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>4.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Nein</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. Oktober 2026</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Augustenstraße 15,\n        <br>\n        70178 Stuttgart</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0711 34225600</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten!  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Gut Beraten! Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600 ©2026 Impressum Datenschutzerklärung".
+_:n3-252467 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-252468 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-252469 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-252470 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-252471 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Gut Beraten!";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-252472 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-252473 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Gut Beraten!";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-252474 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-252475 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-252476 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-252477 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-252478 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-252479 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-252480 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-252481 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252482;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-252482 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252483;
+    rdf:_2 _:n3-252485;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-252483 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-252484;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-252484 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-252485 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252486;
+    rdf:_2 _:n3-252489;
+    rdf:_3 _:n3-252492;
+    rdf:_4 _:n3-252495;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-252486 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252487;
+    rdf:_2 _:n3-252488;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252487 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-252488 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-252489 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252490;
+    rdf:_2 _:n3-252491;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252490 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-252491 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-252492 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252493;
+    rdf:_2 _:n3-252494;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252493 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-252494 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-252495 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252496;
+    rdf:_2 _:n3-252497;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252496 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-252497 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-252498 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-252499;
+    rdf:_2 _:n3-252502;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-252499 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252500;
+    rdf:_2 _:n3-252501;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-252500 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-252501 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-252502 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-252503 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-252504;
+    rdf:_2 _:n3-252509;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Gut Beraten!</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n    <p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n     <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n     <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n     <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n     <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n     <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n     <ul style=\"list-style-type:disc;\">\n      <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n     </ul>\n     <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Soziales</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>4.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Nein</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. Oktober 2026</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Augustenstraße 15,\n       <br>\n       70178 Stuttgart</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0711 34225600</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Gut Beraten! Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252504 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-252505;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Gut Beraten!</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Gut Beraten!".
+_:n3-252505 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252506;
+    rdf:_2 _:n3-252507;
+    rdf:_3 _:n3-252508;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Gut Beraten!</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Gut Beraten!".
+_:n3-252506 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-252507 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-252508 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Gut Beraten!";
+    <https://html.spec.whatwg.org/#innerHTML> "Gut Beraten!";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten!".
+_:n3-252509 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-252510;
+    rdf:_2 _:n3-252588;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n   <p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n    <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n    <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n    <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n    <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n    <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n    <ul style=\"list-style-type:disc;\">\n     <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n    </ul>\n    <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Soziales</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>4.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Nein</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. Oktober 2026</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Augustenstraße 15,\n      <br>\n      70178 Stuttgart</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0711 34225600</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252510 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252511;
+    rdf:_2 _:n3-252550;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n  <p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n   <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n   <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n   <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n   <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n   <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n   <ul style=\"list-style-type:disc;\">\n    <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n   </ul>\n   <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Soziales</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>4.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Nein</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. Oktober 2026</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-252511 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252512;
+    rdf:_2 _:n3-252515;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n <p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n  <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n  <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n  <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n  <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n  <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n  <ul style=\"list-style-type:disc;\">\n   <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n  </ul>\n  <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular".
+_:n3-252512 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-252513;
+    rdf:_2 _:n3-252514;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Gut Beraten!</h1>\n<p class=\"text-lg text-gray-500\">Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg</p>";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten! Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg".
+_:n3-252513 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Gut Beraten!";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Gut Beraten!";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten!".
+_:n3-252514 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Beratungsgutscheine zur Förderung der Zivilgesellschaft und Bürgerbeteiligung in Baden-Württemberg".
+_:n3-252515 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252516;
+    rdf:_2 _:n3-252524;
+    rdf:_3 _:n3-252533;
+    rdf:_4 _:n3-252543;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n <p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n <p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n <p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n <p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n <ul style=\"list-style-type:disc;\">\n  <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n </ul>\n <p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan. Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular".
+_:n3-252516 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252517;
+    rdf:_2 _:n3-252519;
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"MsoNormal\">Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;</p>\n<p class=\"MsoNormal\">Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen. Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz.".
+_:n3-252517 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderprogramm";
+    rdf:_2 _:n3-252518;
+    rdf:_3 "&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderprogramm<b>&nbsp;„Gut Beraten!“</b>&nbsp;unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger&nbsp;haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Gut Beraten!“ unterstützt zivilgesellschaftliche Initiativen und ihre Ansätze, Beteiligungsprojekte zur Verbesserung der Infrastruktur sowie des gesellschaftlichen, sozialen und kulturellen Miteinander vor Ort zu bearbeiten. Engagierte Bürgerinnen und Bürger haben die Möglichkeit, sich zu Fragen der Projektentwicklung, Projektorganisation und Projektdurchführung beraten zu lassen.".
+_:n3-252518 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "&nbsp;„Gut Beraten!“";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;„Gut Beraten!“";
+    <https://html.spec.whatwg.org/#innerText> "„Gut Beraten!“".
+_:n3-252519 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Themenschwerpunkte der Förderung sind ";
+    rdf:_2 _:n3-252520;
+    rdf:_3 ", ";
+    rdf:_4 _:n3-252521;
+    rdf:_5 ", ";
+    rdf:_6 _:n3-252522;
+    rdf:_7 " und ";
+    rdf:_8 _:n3-252523;
+    rdf:_9 ".";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Themenschwerpunkte der Förderung sind <span style=\"font-weight:bold;\">Ländlicher Raum</span>, <span style=\"font-weight:bold;\">Quartiersentwicklung</span>, <span style=\"font-weight:bold;\">Mobilität</span> und <span style=\"font-weight:bold;\">Energie und Klimaschutz</span>.";
+    <https://html.spec.whatwg.org/#innerText> "Themenschwerpunkte der Förderung sind Ländlicher Raum, Quartiersentwicklung, Mobilität und Energie und Klimaschutz.".
+_:n3-252520 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Ländlicher Raum";
+    <https://html.spec.whatwg.org/#innerHTML> "Ländlicher Raum";
+    <https://html.spec.whatwg.org/#innerText> "Ländlicher Raum";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-252521 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Quartiersentwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Quartiersentwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Quartiersentwicklung";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-252522 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Mobilität";
+    <https://html.spec.whatwg.org/#innerHTML> "Mobilität";
+    <https://html.spec.whatwg.org/#innerText> "Mobilität";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-252523 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Energie und Klimaschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Energie und Klimaschutz";
+    <https://html.spec.whatwg.org/#innerText> "Energie und Klimaschutz";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-252524 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252525;
+    rdf:_2 _:n3-252526;
+    rdf:_3 _:n3-252527;
+    rdf:_4 _:n3-252531;
+    rdf:_5 _:n3-252532;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;</p>\n<p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span></p>\n<p class=\"MsoNormal\">Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.</p>\n<p class=\"MsoNormal\">Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine). Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen. Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein. Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan.".
+_:n3-252525 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-252526 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind zivilgesellschaftliche Gruppen mit und ohne eingetragene Rechtsform in Baden-Württemberg (z.B. Bürgergruppen, Arbeitskreise, Bürgerinitiativen, Vereine).".
+_:n3-252527 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-252528;
+    rdf:_2 _:n3-252529;
+    rdf:_3 _:n3-252530;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-family:inherit;\">Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;</span><span style=\"font-family:inherit;\">Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;</span><span style=\"font-family:inherit;\">Sachkosten sind von der Förderung ausgeschlossen.</span>";
+    <https://html.spec.whatwg.org/#innerText> "Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden. Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten. Sachkosten sind von der Förderung ausgeschlossen.".
+_:n3-252528 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Pro Projekt können bis zu 4.000 € für Beratungsleistungen durch fachlich qualifizierte und erfahrene Personen abgerechnet werden.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-252529 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Beratungsgutscheine sind ½ Jahr gültig. Der Tagessatz für diese Beratungen liegt bei maximal 800 € Beratungshonorar zzgl. MwSt. und Reisekosten.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-252530 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Sachkosten sind von der Förderung ausgeschlossen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten sind von der Förderung ausgeschlossen.";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten sind von der Förderung ausgeschlossen.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-252531 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Beraterinnen und Berater&nbsp;werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.";
+    <https://html.spec.whatwg.org/#innerText> "Die Beraterinnen und Berater werden von der antragstellenden Initiative bei der Bewerbung vorgeschlagen und dürfen nicht Teil der Gruppe sein.".
+_:n3-252532 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters&nbsp;sowie der Kosten- und Finanzierungsplan.";
+    <https://html.spec.whatwg.org/#innerText> "Verpflichtende Anlagen sind die Stellungnahme der Kommune, der Nachweis über die Qualifikation der Beraterin / des Beraters sowie der Kosten- und Finanzierungsplan.".
+_:n3-252533 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252534;
+    rdf:_2 _:n3-252535;
+    rdf:_3 _:n3-252536;
+    rdf:_4 _:n3-252539;
+    rdf:_5 _:n3-252541;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.</p>\n<p>Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:</p>\n<ul style=\"list-style-type:disc;\">\n <li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>\n</ul>\n<p>Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular. Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich: 47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026 Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.".
+_:n3-252534 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-252535 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.";
+    <https://html.spec.whatwg.org/#innerText> "Die Bewerbung um eine Förderung durch „Gut Beraten!“ erfolgt auf schriftlichen Antrag über ein Bewerbungsformular.".
+_:n3-252536 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragstellungen sind innerhalb folgender Antragsphasen über das ";
+    rdf:_2 _:n3-252537;
+    rdf:_3 "möglich:";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragstellungen sind innerhalb folgender Antragsphasen über das <a href=\"https://foerderportal.allianz-fuer-beteiligung.de/\"><strong>Förderportal der Allianz für Beteiligung </strong></a>möglich:";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellungen sind innerhalb folgender Antragsphasen über das Förderportal der Allianz für Beteiligung möglich:".
+_:n3-252537 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-252538;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Förderportal der Allianz für Beteiligung </strong>";
+    <https://html.spec.whatwg.org/#innerText> "Förderportal der Allianz für Beteiligung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderportal.allianz-fuer-beteiligung.de/".
+_:n3-252538 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Förderportal der Allianz für Beteiligung ";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderportal der Allianz für Beteiligung";
+    <https://html.spec.whatwg.org/#innerText> "Förderportal der Allianz für Beteiligung".
+_:n3-252539 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252540;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"e07d3c49228c0e04db4fce086f3a75ae5\">47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026";
+    <http://www.w3.org/1999/xhtml#style> "list-style-type:disc;".
+_:n3-252540 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "47. Antragsphase | 01. Juli 2026 – 31. Oktober 2026";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e07d3c49228c0e04db4fce086f3a75ae5".
+_:n3-252541 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse ";
+    rdf:_2 _:n3-252542;
+    rdf:_3 " eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <a href=\"mailto:Antrag@afb-bw.de\">Antrag@afb-bw.de</a> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.".
+_:n3-252542 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antrag@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerHTML> "Antrag@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerText> "Antrag@afb-bw.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:Antrag@afb-bw.de".
+_:n3-252543 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252544;
+    rdf:_2 _:n3-252545;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Antragsformular".
+_:n3-252544 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-252545 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252546;
+    rdf:_2 _:n3-252548;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Antragsformular".
+_:n3-252546 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-252547;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-252547 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/foerderprogramme/gut-beraten/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252548 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-252549;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-252549 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/wp-content/uploads/2023/12/Gut-Beraten-Antragsunterlagen_2024.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252550 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-252551;
+    rdf:_2 _:n3-252554;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Soziales</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>4.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Nein</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. Oktober 2026</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-252551 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252552;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">\n</figure>".
+_:n3-252552 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-252553;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg\" width=\"800\" height=\"913\">".
+_:n3-252553 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "913";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-081436_hvni.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-252554 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252555;
+    rdf:_2 _:n3-252560;
+    rdf:_3 _:n3-252569;
+    rdf:_4 _:n3-252574;
+    rdf:_5 _:n3-252577;
+    rdf:_6 _:n3-252580;
+    rdf:_7 _:n3-252585;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Soziales</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>4.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Nein</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. Oktober 2026</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Max. Fördersumme: 4.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 31. Oktober 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-252555 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252556;
+    rdf:_2 _:n3-252557;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg".
+_:n3-252556 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-252557 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252558;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-252558 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252559;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Baden-Württemberg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-252559 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-252560 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252561;
+    rdf:_2 _:n3-252562;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Soziales</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-252561 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-252562 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252563;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Soziales</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-252563 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252564;
+    rdf:_2 _:n3-252565;
+    rdf:_3 _:n3-252566;
+    rdf:_4 _:n3-252567;
+    rdf:_5 _:n3-252568;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung für nachhaltige Entwicklung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Soziales</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-252564 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-252565 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-252566 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-252567 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-252568 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-252569 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252570;
+    rdf:_2 _:n3-252571;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten".
+_:n3-252570 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-252571 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252572;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-252572 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252573;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-252573 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-252574 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252575;
+    rdf:_2 _:n3-252576;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>4.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 4.000 €".
+_:n3-252575 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-252576 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "4.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "4.000 €";
+    <https://html.spec.whatwg.org/#innerText> "4.000 €".
+_:n3-252577 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252578;
+    rdf:_2 _:n3-252579;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Nein".
+_:n3-252578 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-252579 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-252580 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252581;
+    rdf:_2 _:n3-252582;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. Oktober 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. Oktober 2026".
+_:n3-252581 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-252582 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252583;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. Oktober 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-252583 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-252584;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. Oktober 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-252584 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-252585 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252586;
+    rdf:_2 _:n3-252587;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-252586 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-252587 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-252588 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252589;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Augustenstraße 15,\n     <br>\n     70178 Stuttgart</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0711 34225600</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252589 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252590;
+    rdf:_2 _:n3-252608;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Augustenstraße 15,\n    <br>\n    70178 Stuttgart</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0711 34225600</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252590 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252591;
+    rdf:_2 _:n3-252593;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Augustenstraße 15,\n   <br>\n   70178 Stuttgart</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0711 34225600</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252591 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-252592;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V.".
+_:n3-252592 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Allianz für Beteiligung e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Allianz für Beteiligung e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v".
+_:n3-252593 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252594;
+    rdf:_2 _:n3-252597;
+    rdf:_3 _:n3-252601;
+    rdf:_4 _:n3-252605;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Augustenstraße 15,\n  <br>\n  70178 Stuttgart</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0711 34225600</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-252594 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252595;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Augustenstraße 15,\n <br>\n 70178 Stuttgart</p>";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart".
+_:n3-252595 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Augustenstraße 15,";
+    rdf:_2 _:n3-252596;
+    rdf:_3 "70178 Stuttgart";
+    <https://html.spec.whatwg.org/#innerHTML> "Augustenstraße 15,\n<br>\n70178 Stuttgart";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart".
+_:n3-252596 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-252597 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252598;
+    rdf:_2 _:n3-252599;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@afb-bw.de".
+_:n3-252598 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-252599 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-252600;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@afb-bw.de".
+_:n3-252600 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerText> "info@afb-bw.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@afb-bw.de".
+_:n3-252601 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252602;
+    rdf:_2 _:n3-252603;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite allianz-fuer-beteiligung.de/".
+_:n3-252602 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-252603 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-252604;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "allianz-fuer-beteiligung.de/".
+_:n3-252604 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "allianz-fuer-beteiligung.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "allianz-fuer-beteiligung.de/";
+    <https://html.spec.whatwg.org/#innerText> "allianz-fuer-beteiligung.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-252605 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252606;
+    rdf:_2 _:n3-252607;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0711 34225600</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0711 34225600".
+_:n3-252606 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-252607 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0711 34225600";
+    <https://html.spec.whatwg.org/#innerHTML> "0711 34225600";
+    <https://html.spec.whatwg.org/#innerText> "0711 34225600".
+_:n3-252608 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252609;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">".
+_:n3-252609 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "913";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-252610 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-252611;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-252611 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252612;
+    rdf:_2 _:n3-252616;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-252612 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-252613;
+    rdf:_2 _:n3-252614;
+    rdf:_3 _:n3-252615;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-252613 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-252614 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-252615 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-252616 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-252617;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-252617 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-252618 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-252619 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-252620 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-252621 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/gut-beraten-2";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-252622 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-252623 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Gut Beraten!  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Gut Beraten!  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Gut Beraten!  –  Förderdatenbank".
+_:n3-252624 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-252625 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

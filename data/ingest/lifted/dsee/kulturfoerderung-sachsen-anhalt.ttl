@@ -1,0 +1,761 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-258453 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258454;
+    rdf:_10 _:n3-258455;
+    rdf:_11 _:n3-258456;
+    rdf:_12 _:n3-258457;
+    rdf:_13 _:n3-258458;
+    rdf:_14 _:n3-258459;
+    rdf:_15 _:n3-258460;
+    rdf:_16 _:n3-258461;
+    rdf:_17 _:n3-258462;
+    rdf:_18 _:n3-258463;
+    rdf:_19 _:n3-258464;
+    rdf:_2 _:n3-258465;
+    rdf:_20 _:n3-258466;
+    rdf:_21 _:n3-258467;
+    rdf:_22 _:n3-258468;
+    rdf:_23 _:n3-258485;
+    rdf:_24 _:n3-258490;
+    rdf:_25 _:n3-258583;
+    rdf:_26 _:n3-258591;
+    rdf:_3 _:n3-258592;
+    rdf:_4 _:n3-258593;
+    rdf:_5 _:n3-258594;
+    rdf:_6 _:n3-258595;
+    rdf:_7 _:n3-258596;
+    rdf:_8 _:n3-258597;
+    rdf:_9 _:n3-258598;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "kulturfoerderung-sachsen-anhalt";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Kulturförderung Sachsen-Anhalt  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Kulturförderung Sachsen-Anhalt\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Kulturförderung Sachsen-Anhalt\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Sachsen-Anhalt</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <h3><strong>Wer wird gefördert?</strong></h3>\n      <ul>\n       <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n       <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n       <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n       <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n       <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n      </ul>\n      <h3><strong>Was wird gefördert?</strong></h3>\n      <ul>\n       <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n       <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n       <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <ul>\n       <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n       <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n       <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n        <ul>\n         <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n         <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n        </ul></li>\n      </ul>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n       <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Sachsen-Anhalt</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kultur, Medien und Musik</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Bau- und Investkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>1. Oktober 2026</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Ja</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0800 5600757</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Kulturförderung Sachsen-Anhalt Kulturförderung Sachsen-Anhalt Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757 ©2026 Impressum Datenschutzerklärung".
+_:n3-258454 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-258455 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-258456 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-258457 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-258458 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Kulturförderung Sachsen-Anhalt";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-258459 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-258460 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Kulturförderung Sachsen-Anhalt";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-258461 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-258462 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-258463 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-258464 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258465 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-258466 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258467 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-258468 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258469;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258469 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258470;
+    rdf:_2 _:n3-258472;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258470 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258471;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-258471 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-258472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258473;
+    rdf:_2 _:n3-258476;
+    rdf:_3 _:n3-258479;
+    rdf:_4 _:n3-258482;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-258473 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258474;
+    rdf:_2 _:n3-258475;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258474 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258475 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-258476 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258477;
+    rdf:_2 _:n3-258478;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258477 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258478 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-258479 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258480;
+    rdf:_2 _:n3-258481;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258480 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258481 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-258482 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258483;
+    rdf:_2 _:n3-258484;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258483 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258484 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-258485 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258486;
+    rdf:_2 _:n3-258489;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-258486 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258487;
+    rdf:_2 _:n3-258488;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258487 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-258488 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-258489 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-258490 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-258491;
+    rdf:_2 _:n3-258496;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Sachsen-Anhalt</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <h3><strong>Wer wird gefördert?</strong></h3>\n     <ul>\n      <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n      <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n      <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n      <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n      <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n     </ul>\n     <h3><strong>Was wird gefördert?</strong></h3>\n     <ul>\n      <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n      <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n      <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <ul>\n      <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n      <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n      <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n       <ul>\n        <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n        <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n       </ul></li>\n     </ul>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Sachsen-Anhalt</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kultur, Medien und Musik</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Bau- und Investkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>1. Oktober 2026</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Ja</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0800 5600757</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Sachsen-Anhalt Kulturförderung Sachsen-Anhalt Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258491 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258492;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Sachsen-Anhalt</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Sachsen-Anhalt".
+_:n3-258492 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258493;
+    rdf:_2 _:n3-258494;
+    rdf:_3 _:n3-258495;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Sachsen-Anhalt</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Sachsen-Anhalt".
+_:n3-258493 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258494 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-258495 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Kulturförderung Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt".
+_:n3-258496 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-258497;
+    rdf:_2 _:n3-258566;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <h3><strong>Wer wird gefördert?</strong></h3>\n    <ul>\n     <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n     <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n     <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n     <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n     <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n    </ul>\n    <h3><strong>Was wird gefördert?</strong></h3>\n    <ul>\n     <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n     <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n     <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <ul>\n     <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n     <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n     <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n      <ul>\n       <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n       <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n      </ul></li>\n    </ul>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Sachsen-Anhalt</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kultur, Medien und Musik</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Bau- und Investkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>1. Oktober 2026</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Ja</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0800 5600757</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258497 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258498;
+    rdf:_2 _:n3-258536;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <h3><strong>Wer wird gefördert?</strong></h3>\n   <ul>\n    <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n    <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n    <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n    <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n    <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n   </ul>\n   <h3><strong>Was wird gefördert?</strong></h3>\n   <ul>\n    <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n    <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n    <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <ul>\n    <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n    <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n    <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n     <ul>\n      <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n      <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n     </ul></li>\n   </ul>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Sachsen-Anhalt</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kultur, Medien und Musik</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Bau- und Investkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>1. Oktober 2026</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Ja</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-258498 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258499;
+    rdf:_2 _:n3-258501;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <h3><strong>Wer wird gefördert?</strong></h3>\n  <ul>\n   <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n   <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n   <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n   <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n   <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n  </ul>\n  <h3><strong>Was wird gefördert?</strong></h3>\n  <ul>\n   <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n   <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n   <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <ul>\n   <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n   <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n   <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n    <ul>\n     <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n     <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n    </ul></li>\n  </ul>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung".
+_:n3-258499 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258500;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Sachsen-Anhalt</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt".
+_:n3-258500 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Kulturförderung Sachsen-Anhalt";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt".
+_:n3-258501 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258502;
+    rdf:_2 _:n3-258504;
+    rdf:_3 _:n3-258520;
+    rdf:_4 _:n3-258529;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <h3><strong>Wer wird gefördert?</strong></h3>\n <ul>\n  <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n  <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n  <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n  <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n  <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n </ul>\n <h3><strong>Was wird gefördert?</strong></h3>\n <ul>\n  <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n  <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n  <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <ul>\n  <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n  <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n  <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n   <ul>\n    <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n    <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n   </ul></li>\n </ul>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur. Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden Weitere Informationen Link zur Förderung FAQ Kulturförderung".
+_:n3-258502 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258503;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.".
+_:n3-258503 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.";
+    <https://html.spec.whatwg.org/#innerHTML> "Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung von kulturellen und künstlerischen Projekten sowie von Kultureinrichtungen. Ziele der \"Kulturförderung\" sind unter anderem die Pflege und Erschließung des kulturellen Erbes, die Stärkung und Entwicklung des bürgerschaftlichen Engagements und die Förderung der Breitenkultur.".
+_:n3-258504 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258505;
+    rdf:_2 _:n3-258506;
+    rdf:_3 _:n3-258508;
+    rdf:_4 _:n3-258514;
+    rdf:_5 _:n3-258516;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<h3><strong>Wer wird gefördert?</strong></h3>\n<ul>\n <li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n <li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n <li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n <li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n <li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>\n</ul>\n<h3><strong>Was wird gefördert?</strong></h3>\n<ul>\n <li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n <li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n <li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Wer wird gefördert? Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen Was wird gefördert? Sachausgaben Personalausgaben Investitionen".
+_:n3-258505 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-258506 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 _:n3-258507;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Wer wird gefördert?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Wer wird gefördert?".
+_:n3-258507 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Wer wird gefördert?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wer wird gefördert?";
+    <https://html.spec.whatwg.org/#innerText> "Wer wird gefördert?".
+_:n3-258508 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258509;
+    rdf:_2 _:n3-258510;
+    rdf:_3 _:n3-258511;
+    rdf:_4 _:n3-258512;
+    rdf:_5 _:n3-258513;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"ec93366172c85a4f9ef6295407c3b0141\">Künstler (natürliche Personen)</li>\n<li data-list-item-id=\"e8f0e36d15079cd9b1b6c16b367f9bbab\">Vereine</li>\n<li data-list-item-id=\"eab8bf6554eb08a2f874b809ac20bccce\">Verbände</li>\n<li data-list-item-id=\"e0e157a88be3c312b18684b79e42af5d9\">Gebietskörperschaften</li>\n<li data-list-item-id=\"eb16c911da66f343c77b3d216172e11f0\">Kulturelle Institutionen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Künstler (natürliche Personen) Vereine Verbände Gebietskörperschaften Kulturelle Institutionen".
+_:n3-258509 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Künstler (natürliche Personen)";
+    <https://html.spec.whatwg.org/#innerHTML> "Künstler (natürliche Personen)";
+    <https://html.spec.whatwg.org/#innerText> "Künstler (natürliche Personen)";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "ec93366172c85a4f9ef6295407c3b0141".
+_:n3-258510 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Vereine";
+    <https://html.spec.whatwg.org/#innerHTML> "Vereine";
+    <https://html.spec.whatwg.org/#innerText> "Vereine";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e8f0e36d15079cd9b1b6c16b367f9bbab".
+_:n3-258511 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Verbände";
+    <https://html.spec.whatwg.org/#innerHTML> "Verbände";
+    <https://html.spec.whatwg.org/#innerText> "Verbände";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eab8bf6554eb08a2f874b809ac20bccce".
+_:n3-258512 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gebietskörperschaften";
+    <https://html.spec.whatwg.org/#innerHTML> "Gebietskörperschaften";
+    <https://html.spec.whatwg.org/#innerText> "Gebietskörperschaften";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e0e157a88be3c312b18684b79e42af5d9".
+_:n3-258513 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kulturelle Institutionen";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturelle Institutionen";
+    <https://html.spec.whatwg.org/#innerText> "Kulturelle Institutionen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eb16c911da66f343c77b3d216172e11f0".
+_:n3-258514 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 _:n3-258515;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Was wird gefördert?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Was wird gefördert?".
+_:n3-258515 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Was wird gefördert?";
+    <https://html.spec.whatwg.org/#innerHTML> "Was wird gefördert?";
+    <https://html.spec.whatwg.org/#innerText> "Was wird gefördert?".
+_:n3-258516 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258517;
+    rdf:_2 _:n3-258518;
+    rdf:_3 _:n3-258519;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"e35cee99bf45f67e9a9053fd0714dd3bd\">Sachausgaben</li>\n<li data-list-item-id=\"eff32a8f7488b2388a51d54cd00bf736f\">Personalausgaben</li>\n<li data-list-item-id=\"ee3c132138b6cf9b8fca54adf947f9418\">Investitionen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachausgaben Personalausgaben Investitionen".
+_:n3-258517 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachausgaben";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachausgaben";
+    <https://html.spec.whatwg.org/#innerText> "Sachausgaben";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e35cee99bf45f67e9a9053fd0714dd3bd".
+_:n3-258518 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalausgaben";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalausgaben";
+    <https://html.spec.whatwg.org/#innerText> "Personalausgaben";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eff32a8f7488b2388a51d54cd00bf736f".
+_:n3-258519 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Investitionen";
+    <https://html.spec.whatwg.org/#innerHTML> "Investitionen";
+    <https://html.spec.whatwg.org/#innerText> "Investitionen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "ee3c132138b6cf9b8fca54adf947f9418".
+_:n3-258520 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258521;
+    rdf:_2 _:n3-258522;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<ul>\n <li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n <li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n <li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n  <ul>\n   <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n   <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n  </ul></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden".
+_:n3-258521 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-258522 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258523;
+    rdf:_2 _:n3-258524;
+    rdf:_3 _:n3-258525;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"efe9ea3a1fe9b97548567940c41e2b96f\">Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.</li>\n<li data-list-item-id=\"e7f7357af7532c6e0b7703660f440cfb7\">Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen</li>\n<li data-list-item-id=\"e15d4a2a555989b793eb7c9d70d5c63b6\">Ausnahmen:\n <ul>\n  <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n  <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n </ul></li>";
+    <https://html.spec.whatwg.org/#innerText> "Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden. Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden".
+_:n3-258523 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden.&nbsp;Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.";
+    <https://html.spec.whatwg.org/#innerText> "Das Antragsformular kann entweder per Post oder digital per E-Mail eingereicht werden. Das Formular und alle weiteren erforderlichen Unterlagen sind auf der Förderseite zu finden.";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "efe9ea3a1fe9b97548567940c41e2b96f".
+_:n3-258524 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen";
+    <https://html.spec.whatwg.org/#innerText> "Anträge sind bis zum 1. Oktober für das kommende Haushaltsjahr einzureichen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e7f7357af7532c6e0b7703660f440cfb7".
+_:n3-258525 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ausnahmen:";
+    rdf:_2 _:n3-258526;
+    <https://html.spec.whatwg.org/#innerHTML> "Ausnahmen:\n<ul>\n <li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n <li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Ausnahmen: Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e15d4a2a555989b793eb7c9d70d5c63b6".
+_:n3-258526 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258527;
+    rdf:_2 _:n3-258528;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"eb6634e439adc6f2d025693a2c8e182d1\">Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden</li>\n<li data-list-item-id=\"eafb7f80c6d991dca7188d648d28c1b07\">Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden</li>";
+    <https://html.spec.whatwg.org/#innerText> "Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden".
+_:n3-258527 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden";
+    <https://html.spec.whatwg.org/#innerText> "Anträge für den Förderbereich „Europäischer und internationaler Kulturaustausch“ können fortlaufend gestellt werden";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eb6634e439adc6f2d025693a2c8e182d1".
+_:n3-258528 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden";
+    <https://html.spec.whatwg.org/#innerText> "Anträge für eine Basisförderung auf Grundlage der Richtlinie zur Förderung von Theatern in freier Trägerschaft müssen bis zum 15. Mai des Vorjahres eingereicht werden";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eafb7f80c6d991dca7188d648d28c1b07".
+_:n3-258529 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258530;
+    rdf:_2 _:n3-258531;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n <li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Förderung FAQ Kulturförderung".
+_:n3-258530 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-258531 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258532;
+    rdf:_2 _:n3-258534;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n<li><a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung FAQ Kulturförderung".
+_:n3-258532 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258533;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-258533 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258534 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258535;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ Kulturförderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "FAQ Kulturförderung".
+_:n3-258535 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "FAQ Kulturförderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "FAQ Kulturförderung";
+    <https://html.spec.whatwg.org/#innerText> "FAQ Kulturförderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ib-sachsen-anhalt.de/en/oeffentliche-einrichtungen/kultur/kulturfoerderung/kulturfoerderung-faq";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258536 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-258537;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Sachsen-Anhalt</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kultur, Medien und Musik</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Bau- und Investkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>1. Oktober 2026</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Ja</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-258537 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258538;
+    rdf:_2 _:n3-258543;
+    rdf:_3 _:n3-258548;
+    rdf:_4 _:n3-258555;
+    rdf:_5 _:n3-258558;
+    rdf:_6 _:n3-258563;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Sachsen-Anhalt</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kultur, Medien und Musik</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Bau- und Investkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>1. Oktober 2026</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Ja</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt Engagementbereiche: Kultur, Medien und Musik Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-258538 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258539;
+    rdf:_2 _:n3-258540;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Sachsen-Anhalt</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Sachsen-Anhalt".
+_:n3-258539 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-258540 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258541;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sachsen-Anhalt</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-258541 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258542;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sachsen-Anhalt</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-258542 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerText> "Sachsen-Anhalt".
+_:n3-258543 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258544;
+    rdf:_2 _:n3-258545;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kultur, Medien und Musik</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kultur, Medien und Musik".
+_:n3-258544 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-258545 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258546;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kultur, Medien und Musik</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258546 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258547;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kultur, Medien und Musik</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258547 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258548 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258549;
+    rdf:_2 _:n3-258550;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Bau- und Investkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-258549 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-258550 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258551;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bau- und Investkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-258551 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258552;
+    rdf:_2 _:n3-258553;
+    rdf:_3 _:n3-258554;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bau- und Investkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-258552 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-258553 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-258554 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-258555 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258556;
+    rdf:_2 _:n3-258557;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-258556 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-258557 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-258558 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258559;
+    rdf:_2 _:n3-258560;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>1. Oktober 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 1. Oktober 2026".
+_:n3-258559 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-258560 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258561;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>1. Oktober 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026".
+_:n3-258561 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258562;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>1. Oktober 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026".
+_:n3-258562 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026".
+_:n3-258563 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258564;
+    rdf:_2 _:n3-258565;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-258564 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-258565 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-258566 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258567;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0800 5600757</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258567 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258568;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0800 5600757</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258568 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258569;
+    rdf:_2 _:n3-258571;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0800 5600757</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Investitionsbank Sachsen-Anhalt E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258569 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-258570;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt\" class=\"link\">Investitionsbank Sachsen-Anhalt</a>";
+    <https://html.spec.whatwg.org/#innerText> "Investitionsbank Sachsen-Anhalt".
+_:n3-258570 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Investitionsbank Sachsen-Anhalt";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Investitionsbank Sachsen-Anhalt";
+    <https://html.spec.whatwg.org/#innerText> "Investitionsbank Sachsen-Anhalt";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/35880-investitionsbank-sachsen-anhalt".
+_:n3-258571 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258572;
+    rdf:_2 _:n3-258576;
+    rdf:_3 _:n3-258580;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0800 5600757</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@ib-lsa.de Webseite www.ib-sachsen-anhalt.de/ Telefon 0800 5600757".
+_:n3-258572 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258573;
+    rdf:_2 _:n3-258574;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@ib-lsa.de".
+_:n3-258573 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-258574 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258575;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@ib-lsa.de\">info@ib-lsa.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@ib-lsa.de".
+_:n3-258575 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@ib-lsa.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@ib-lsa.de";
+    <https://html.spec.whatwg.org/#innerText> "info@ib-lsa.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@ib-lsa.de".
+_:n3-258576 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258577;
+    rdf:_2 _:n3-258578;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.ib-sachsen-anhalt.de/".
+_:n3-258577 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-258578 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258579;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ib-sachsen-anhalt.de/\" target=\"_blank\">www.ib-sachsen-anhalt.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.ib-sachsen-anhalt.de/".
+_:n3-258579 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.ib-sachsen-anhalt.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.ib-sachsen-anhalt.de/";
+    <https://html.spec.whatwg.org/#innerText> "www.ib-sachsen-anhalt.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ib-sachsen-anhalt.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258580 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258581;
+    rdf:_2 _:n3-258582;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0800 5600757</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0800 5600757".
+_:n3-258581 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-258582 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0800 5600757";
+    <https://html.spec.whatwg.org/#innerHTML> "0800 5600757";
+    <https://html.spec.whatwg.org/#innerText> "0800 5600757".
+_:n3-258583 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-258584;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258584 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258585;
+    rdf:_2 _:n3-258589;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258585 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258586;
+    rdf:_2 _:n3-258587;
+    rdf:_3 _:n3-258588;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258586 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-258587 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-258588 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-258589 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258590;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-258590 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-258591 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-258592 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-258593 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-258594 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung-sachsen-anhalt";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-258595 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-258596 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Kulturförderung Sachsen-Anhalt  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Sachsen-Anhalt  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Sachsen-Anhalt  –  Förderdatenbank".
+_:n3-258597 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-258598 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

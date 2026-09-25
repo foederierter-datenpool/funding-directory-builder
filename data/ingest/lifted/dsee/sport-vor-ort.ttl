@@ -1,0 +1,967 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-287989 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-287990;
+    rdf:_10 _:n3-287991;
+    rdf:_11 _:n3-287992;
+    rdf:_12 _:n3-287993;
+    rdf:_13 _:n3-287994;
+    rdf:_14 _:n3-287995;
+    rdf:_15 _:n3-287996;
+    rdf:_16 _:n3-287997;
+    rdf:_17 _:n3-287998;
+    rdf:_18 _:n3-287999;
+    rdf:_19 _:n3-288000;
+    rdf:_2 _:n3-288001;
+    rdf:_20 _:n3-288002;
+    rdf:_21 _:n3-288003;
+    rdf:_22 _:n3-288004;
+    rdf:_23 _:n3-288021;
+    rdf:_24 _:n3-288026;
+    rdf:_25 _:n3-288159;
+    rdf:_26 _:n3-288167;
+    rdf:_3 _:n3-288168;
+    rdf:_4 _:n3-288169;
+    rdf:_5 _:n3-288170;
+    rdf:_6 _:n3-288171;
+    rdf:_7 _:n3-288172;
+    rdf:_8 _:n3-288173;
+    rdf:_9 _:n3-288174;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "sport-vor-ort";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Sport vor Ort  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Sport vor Ort\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Sport vor Ort\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Sport vor Ort</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n     <p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n       <br></p>\n      <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n      <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n       <br>\n       Hier einige Projektbeispiele:\n       <br></p>\n      <ul>\n       <li>Entwicklung (neuer) Sportangebote im Verein</li>\n       <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n       <li>Integration durch Sport</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n       <tbody>\n        <tr>\n         <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n          <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n          <ul style=\"margin-top:0cm;\" type=\"disc\">\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n          </ul>\n          <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n          <ul style=\"margin-top:0cm;\" type=\"disc\">\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n           <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n          </ul>\n         </td>\n        </tr>\n       </tbody>\n      </table>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Sport und Bewegung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>max. 3.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Goseriede 4,\n        <br>\n        30159 Hannover</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0511 99987351</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Sport vor Ort Sport vor Ort Kleine Projekte mit großer Wirkung Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\" Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351 ©2026 Impressum Datenschutzerklärung".
+_:n3-287990 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-287991 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-287992 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-287993 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-287994 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Sport vor Ort";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-287995 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-287996 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Sport vor Ort";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-287997 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-287998 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-287999 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-288000 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-288001 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-288002 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#type> "module";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);".
+_:n3-288003 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-288004 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288005;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-288005 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288006;
+    rdf:_2 _:n3-288008;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-288006 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-288007;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-288007 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-288008 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288009;
+    rdf:_2 _:n3-288012;
+    rdf:_3 _:n3-288015;
+    rdf:_4 _:n3-288018;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-288009 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-288010;
+    rdf:_2 _:n3-288011;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288010 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-288011 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-288012 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-288013;
+    rdf:_2 _:n3-288014;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288013 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-288014 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-288015 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-288016;
+    rdf:_2 _:n3-288017;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288016 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-288017 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-288018 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-288019;
+    rdf:_2 _:n3-288020;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288019 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-288020 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-288021 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-288022;
+    rdf:_2 _:n3-288025;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-288022 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-288023;
+    rdf:_2 _:n3-288024;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-288023 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-288024 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-288025 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-288026 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-288027;
+    rdf:_2 _:n3-288032;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Sport vor Ort</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n    <p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n      <br></p>\n     <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n     <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n      <br>\n      Hier einige Projektbeispiele:\n      <br></p>\n     <ul>\n      <li>Entwicklung (neuer) Sportangebote im Verein</li>\n      <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n      <li>Integration durch Sport</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n      <tbody>\n       <tr>\n        <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n         <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n         <ul style=\"margin-top:0cm;\" type=\"disc\">\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n         </ul>\n         <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n         <ul style=\"margin-top:0cm;\" type=\"disc\">\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n          <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n         </ul>\n        </td>\n       </tr>\n      </tbody>\n     </table>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Sport und Bewegung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>max. 3.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Goseriede 4,\n       <br>\n       30159 Hannover</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0511 99987351</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Sport vor Ort Sport vor Ort Kleine Projekte mit großer Wirkung Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\" Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288027 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-288028;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Sport vor Ort</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Sport vor Ort".
+_:n3-288028 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288029;
+    rdf:_2 _:n3-288030;
+    rdf:_3 _:n3-288031;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Sport vor Ort</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Sport vor Ort".
+_:n3-288029 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-288030 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-288031 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Sport vor Ort";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport vor Ort";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort".
+_:n3-288032 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-288033;
+    rdf:_2 _:n3-288137;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n   <p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n     <br></p>\n    <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n    <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n     <br>\n     Hier einige Projektbeispiele:\n     <br></p>\n    <ul>\n     <li>Entwicklung (neuer) Sportangebote im Verein</li>\n     <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n     <li>Integration durch Sport</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n     <tbody>\n      <tr>\n       <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n        <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n        <ul style=\"margin-top:0cm;\" type=\"disc\">\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n        </ul>\n        <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n        <ul style=\"margin-top:0cm;\" type=\"disc\">\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n         <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n        </ul>\n       </td>\n      </tr>\n     </tbody>\n    </table>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Sport und Bewegung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>max. 3.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Goseriede 4,\n      <br>\n      30159 Hannover</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0511 99987351</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort Kleine Projekte mit großer Wirkung Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\" Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288033 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288034;
+    rdf:_2 _:n3-288105;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n  <p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n    <br></p>\n   <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n   <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n    <br>\n    Hier einige Projektbeispiele:\n    <br></p>\n   <ul>\n    <li>Entwicklung (neuer) Sportangebote im Verein</li>\n    <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n    <li>Integration durch Sport</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n    <tbody>\n     <tr>\n      <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n       <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n       <ul style=\"margin-top:0cm;\" type=\"disc\">\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n       </ul>\n       <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n       <ul style=\"margin-top:0cm;\" type=\"disc\">\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n        <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n       </ul>\n      </td>\n     </tr>\n    </tbody>\n   </table>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Sport und Bewegung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>max. 3.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort Kleine Projekte mit großer Wirkung Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\" Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-288034 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288035;
+    rdf:_2 _:n3-288038;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n <p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n   <br></p>\n  <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n  <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n   <br>\n   Hier einige Projektbeispiele:\n   <br></p>\n  <ul>\n   <li>Entwicklung (neuer) Sportangebote im Verein</li>\n   <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n   <li>Integration durch Sport</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n   <tbody>\n    <tr>\n     <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n      <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n      <ul style=\"margin-top:0cm;\" type=\"disc\">\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n      </ul>\n      <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n      <ul style=\"margin-top:0cm;\" type=\"disc\">\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n       <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n      </ul>\n     </td>\n    </tr>\n   </tbody>\n  </table>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort Kleine Projekte mit großer Wirkung Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\"".
+_:n3-288035 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-288036;
+    rdf:_2 _:n3-288037;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Sport vor Ort</h1>\n<p class=\"text-lg text-gray-500\">Kleine Projekte mit großer Wirkung</p>";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort Kleine Projekte mit großer Wirkung".
+_:n3-288036 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Sport vor Ort";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport vor Ort";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort".
+_:n3-288037 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Kleine Projekte mit großer Wirkung";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Kleine Projekte mit großer Wirkung";
+    <https://html.spec.whatwg.org/#innerText> "Kleine Projekte mit großer Wirkung".
+_:n3-288038 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288039;
+    rdf:_2 _:n3-288047;
+    rdf:_3 _:n3-288056;
+    rdf:_4 _:n3-288100;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n  <br></p>\n <p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n <p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n  <br>\n  Hier einige Projektbeispiele:\n  <br></p>\n <ul>\n  <li>Entwicklung (neuer) Sportangebote im Verein</li>\n  <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n  <li>Integration durch Sport</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n  <tbody>\n   <tr>\n    <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n     <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n     <ul style=\"margin-top:0cm;\" type=\"disc\">\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n     </ul>\n     <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n     <ul style=\"margin-top:0cm;\" type=\"disc\">\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n      <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n     </ul>\n    </td>\n   </tr>\n  </tbody>\n </table>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten. Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\"".
+_:n3-288039 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288040;
+    rdf:_2 _:n3-288042;
+    rdf:_3 _:n3-288043;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n <br></p>\n<p>Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.</p>\n<p>Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten. Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein. Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten.".
+_:n3-288040 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.";
+    rdf:_2 _:n3-288041;
+    <https://html.spec.whatwg.org/#innerHTML> "Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Im Flächenland Niedersachsen hat der Sport eine besondere Bedeutung. Sport findet vor Ort statt, hier möchte die Niedersächsische Lotto-Sport-Stiftung mit Ihrem Programm „Sport vor Ort“ unterstützen und helfen Niedersachsen in Bewegung bringen/halten.".
+_:n3-288041 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-288042 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden in sich geschlossene, noch nicht begonnene Einzelprojekte einmalig mit bis zu 3.000 Euro. Der Verein muss weitere Mittel in derselben Höhe aufbringen. Dies können Eigenmittel des Vereins, Spenden- oder Sponsorengelder sein.".
+_:n3-288043 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die ";
+    rdf:_2 _:n3-288044;
+    rdf:_3 "stärken, die ";
+    rdf:_4 _:n3-288045;
+    rdf:_5 " fördern und den Aspekt der ";
+    rdf:_6 _:n3-288046;
+    rdf:_7 " erfüllen, insbesondere bei der Anschaffung von Sportgeräten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die <strong>Gemeinschaft </strong>stärken, die <strong>soziale Integration</strong> fördern und den Aspekt der <strong>Nachhaltigkeit</strong> erfüllen, insbesondere bei der Anschaffung von Sportgeräten.";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderspektrum für „Sport vor Ort“ ist vielseitig. Besondere Beachtung bei der Förderauswahl finden Projekte, die die Gemeinschaft stärken, die soziale Integration fördern und den Aspekt der Nachhaltigkeit erfüllen, insbesondere bei der Anschaffung von Sportgeräten.".
+_:n3-288044 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Gemeinschaft ";
+    <https://html.spec.whatwg.org/#innerHTML> "Gemeinschaft";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinschaft".
+_:n3-288045 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "soziale Integration";
+    <https://html.spec.whatwg.org/#innerHTML> "soziale Integration";
+    <https://html.spec.whatwg.org/#innerText> "soziale Integration".
+_:n3-288046 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Nachhaltigkeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Nachhaltigkeit";
+    <https://html.spec.whatwg.org/#innerText> "Nachhaltigkeit".
+_:n3-288047 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288048;
+    rdf:_2 _:n3-288049;
+    rdf:_3 _:n3-288052;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n <br>\n Hier einige Projektbeispiele:\n <br></p>\n<ul>\n <li>Entwicklung (neuer) Sportangebote im Verein</li>\n <li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n <li>Integration durch Sport</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele: Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport".
+_:n3-288048 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-288049 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.";
+    rdf:_2 _:n3-288050;
+    rdf:_3 "Hier einige Projektbeispiele:";
+    rdf:_4 _:n3-288051;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig.\n<br>\nHier einige Projektbeispiele:\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Fördermöglichkeiten im Förderprogramm \"Sport vor Ort\" sind vielfälltig. Hier einige Projektbeispiele:".
+_:n3-288050 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-288051 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-288052 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288053;
+    rdf:_2 _:n3-288054;
+    rdf:_3 _:n3-288055;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Entwicklung (neuer) Sportangebote im Verein</li>\n<li>Anschaffung dringend benötigter Sportgeräte und Ausstattung</li>\n<li>Integration durch Sport</li>";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklung (neuer) Sportangebote im Verein Anschaffung dringend benötigter Sportgeräte und Ausstattung Integration durch Sport".
+_:n3-288053 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entwicklung (neuer) Sportangebote im Verein";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklung (neuer) Sportangebote im Verein";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklung (neuer) Sportangebote im Verein".
+_:n3-288054 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anschaffung dringend benötigter Sportgeräte und Ausstattung";
+    <https://html.spec.whatwg.org/#innerHTML> "Anschaffung dringend benötigter Sportgeräte und Ausstattung";
+    <https://html.spec.whatwg.org/#innerText> "Anschaffung dringend benötigter Sportgeräte und Ausstattung".
+_:n3-288055 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Integration durch Sport";
+    <https://html.spec.whatwg.org/#innerHTML> "Integration durch Sport";
+    <https://html.spec.whatwg.org/#innerText> "Integration durch Sport".
+_:n3-288056 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288057;
+    rdf:_2 _:n3-288058;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:#FFFFFF;border-collapse:collapse;\">\n <tbody>\n  <tr>\n   <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n    <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n    <ul style=\"margin-top:0cm;\" type=\"disc\">\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n    </ul>\n    <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n    <ul style=\"margin-top:0cm;\" type=\"disc\">\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n     <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n    </ul>\n   </td>\n  </tr>\n </tbody>\n</table>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer".
+_:n3-288057 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-288058 a <http://www.w3.org/1999/xhtml#table>;
+    rdf:_1 _:n3-288059;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormalTable";
+    <https://html.spec.whatwg.org/#innerHTML> "<tbody>\n <tr>\n  <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n   <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n   <ul style=\"margin-top:0cm;\" type=\"disc\">\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n   </ul>\n   <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n   <ul style=\"margin-top:0cm;\" type=\"disc\">\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n    <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n   </ul>\n  </td>\n </tr>\n</tbody>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer";
+    <http://www.w3.org/1999/xhtml#border> "0";
+    <http://www.w3.org/1999/xhtml#cellpadding> "0";
+    <http://www.w3.org/1999/xhtml#cellspacing> "0";
+    <http://www.w3.org/1999/xhtml#style> "background:#FFFFFF;border-collapse:collapse;".
+_:n3-288059 a <http://www.w3.org/1999/xhtml#tbody>;
+    rdf:_1 _:n3-288060;
+    <https://html.spec.whatwg.org/#innerHTML> "<tr>\n <td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n  <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n  <ul style=\"margin-top:0cm;\" type=\"disc\">\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n  </ul>\n  <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n  <ul style=\"margin-top:0cm;\" type=\"disc\">\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n   <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n  </ul>\n </td>\n</tr>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer".
+_:n3-288060 a <http://www.w3.org/1999/xhtml#tr>;
+    rdf:_1 _:n3-288061;
+    <https://html.spec.whatwg.org/#innerHTML> "<td width=\"790\" valign=\"top\" style=\"width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;\">\n <p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n <ul style=\"margin-top:0cm;\" type=\"disc\">\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n </ul>\n <p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n <ul style=\"margin-top:0cm;\" type=\"disc\">\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n  <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n </ul>\n</td>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer".
+_:n3-288061 a <http://www.w3.org/1999/xhtml#td>;
+    rdf:_1 _:n3-288062;
+    rdf:_2 _:n3-288064;
+    rdf:_3 _:n3-288075;
+    rdf:_4 _:n3-288077;
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"MsoNormal\"><span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span></p>\n<ul style=\"margin-top:0cm;\" type=\"disc\">\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>\n</ul>\n<p class=\"MsoNormal\"><span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span></p>\n<ul style=\"margin-top:0cm;\" type=\"disc\">\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n <li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft: Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein Bei der Projektauswahl werden die folgenden Kriterien berücksichtig: Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer";
+    <http://www.w3.org/1999/xhtml#width> "790";
+    <http://www.w3.org/1999/xhtml#style> "width:592.5pt;padding:1.5pt 1.5pt 1.5pt 1.5pt;";
+    <http://www.w3.org/1999/xhtml#valign> "top".
+_:n3-288062 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-288063;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Die Förderung ist an folgende Bedingungen geknüpft:</span>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft:".
+_:n3-288063 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Die Förderung ist an folgende Bedingungen geknüpft:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Förderung ist an folgende Bedingungen geknüpft:";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung ist an folgende Bedingungen geknüpft:";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288064 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288065;
+    rdf:_2 _:n3-288067;
+    rdf:_3 _:n3-288069;
+    rdf:_4 _:n3-288071;
+    rdf:_5 _:n3-288073;
+    <https://html.spec.whatwg.org/#innerHTML> "<li class=\"MsoNormal\"><span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span></li>";
+    <https://html.spec.whatwg.org/#innerText> "Anträge können nur von Vereinen gestellt werden Die Fördersumme kann nur auf ein Vereinskonto überweisen werden Der Verein muss seinen Sitz in Niedersachsen haben In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€ Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein";
+    <http://www.w3.org/1999/xhtml#style> "margin-top:0cm;";
+    <http://www.w3.org/1999/xhtml#type> "disc".
+_:n3-288065 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288066;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Anträge können nur von Vereinen gestellt werden</span>";
+    <https://html.spec.whatwg.org/#innerText> "Anträge können nur von Vereinen gestellt werden".
+_:n3-288066 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Anträge können nur von Vereinen gestellt werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge können nur von Vereinen gestellt werden";
+    <https://html.spec.whatwg.org/#innerText> "Anträge können nur von Vereinen gestellt werden";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288067 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288068;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Die Fördersumme kann nur auf ein Vereinskonto überweisen werden</span>";
+    <https://html.spec.whatwg.org/#innerText> "Die Fördersumme kann nur auf ein Vereinskonto überweisen werden".
+_:n3-288068 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Die Fördersumme kann nur auf ein Vereinskonto überweisen werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Fördersumme kann nur auf ein Vereinskonto überweisen werden";
+    <https://html.spec.whatwg.org/#innerText> "Die Fördersumme kann nur auf ein Vereinskonto überweisen werden";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288069 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288070;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Der Verein muss seinen Sitz in Niedersachsen haben</span>";
+    <https://html.spec.whatwg.org/#innerText> "Der Verein muss seinen Sitz in Niedersachsen haben".
+_:n3-288070 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Der Verein muss seinen Sitz in Niedersachsen haben";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Verein muss seinen Sitz in Niedersachsen haben";
+    <https://html.spec.whatwg.org/#innerText> "Der Verein muss seinen Sitz in Niedersachsen haben";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288071 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288072;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€</span>";
+    <https://html.spec.whatwg.org/#innerText> "In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€".
+_:n3-288072 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€";
+    <https://html.spec.whatwg.org/#innerHTML> "In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€";
+    <https://html.spec.whatwg.org/#innerText> "In dem Förderprogramm „Sport vor Ort“ werden bis zu 50% der gesamten Projektkosten übernommen, allerdings maximal 3.000€";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288073 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288074;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein</span>";
+    <https://html.spec.whatwg.org/#innerText> "Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein".
+_:n3-288074 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein";
+    <https://html.spec.whatwg.org/#innerHTML> "Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein";
+    <https://html.spec.whatwg.org/#innerText> "Es werden keine Dauerförderungen geleistet, jedes Projekt muss ein abgeschlossenes Einzelprojekt sein";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288075 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-288076;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:</span>";
+    <https://html.spec.whatwg.org/#innerText> "Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:".
+_:n3-288076 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:";
+    <https://html.spec.whatwg.org/#innerText> "Bei der Projektauswahl werden die folgenden Kriterien berücksichtig:";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288077 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288078;
+    rdf:_10 _:n3-288080;
+    rdf:_11 _:n3-288082;
+    rdf:_2 _:n3-288084;
+    rdf:_3 _:n3-288086;
+    rdf:_4 _:n3-288088;
+    rdf:_5 _:n3-288090;
+    rdf:_6 _:n3-288092;
+    rdf:_7 _:n3-288094;
+    rdf:_8 _:n3-288096;
+    rdf:_9 _:n3-288098;
+    <https://html.spec.whatwg.org/#innerHTML> "<li class=\"MsoNormal\"><span style=\"color:#000000;\">Gemeinschaft stärken</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">soziale Integration</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">ehrenamtliches Engagement</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span></li>\n<li class=\"MsoNormal\"><span style=\"color:#000000;\">Engagement anderer Förderer</span></li>";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinschaft stärken soziale Integration Nachhaltigkeit kleine Projekte (Gesamtkosten bis ca. 10.000 Euro) Projekte dürfen noch nicht begonnen haben Deckung eines besonderen Bedarfs Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort ehrenamtliches Engagement Professionalität bei der Antragstellung und bei der Umsetzung des Projekts Engagement anderer Förderer";
+    <http://www.w3.org/1999/xhtml#style> "margin-top:0cm;";
+    <http://www.w3.org/1999/xhtml#type> "disc".
+_:n3-288078 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288079;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Gemeinschaft stärken</span>";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinschaft stärken".
+_:n3-288079 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Gemeinschaft stärken";
+    <https://html.spec.whatwg.org/#innerHTML> "Gemeinschaft stärken";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinschaft stärken";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288080 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288081;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Professionalität bei der Antragstellung und bei der Umsetzung des Projekts</span>";
+    <https://html.spec.whatwg.org/#innerText> "Professionalität bei der Antragstellung und bei der Umsetzung des Projekts".
+_:n3-288081 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Professionalität bei der Antragstellung und bei der Umsetzung des Projekts";
+    <https://html.spec.whatwg.org/#innerHTML> "Professionalität bei der Antragstellung und bei der Umsetzung des Projekts";
+    <https://html.spec.whatwg.org/#innerText> "Professionalität bei der Antragstellung und bei der Umsetzung des Projekts";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288082 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288083;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Engagement anderer Förderer</span>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement anderer Förderer".
+_:n3-288083 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Engagement anderer Förderer";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement anderer Förderer";
+    <https://html.spec.whatwg.org/#innerText> "Engagement anderer Förderer";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288084 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288085;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">soziale Integration</span>";
+    <https://html.spec.whatwg.org/#innerText> "soziale Integration".
+_:n3-288085 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "soziale Integration";
+    <https://html.spec.whatwg.org/#innerHTML> "soziale Integration";
+    <https://html.spec.whatwg.org/#innerText> "soziale Integration";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288086 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288087;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Nachhaltigkeit</span>";
+    <https://html.spec.whatwg.org/#innerText> "Nachhaltigkeit".
+_:n3-288087 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Nachhaltigkeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Nachhaltigkeit";
+    <https://html.spec.whatwg.org/#innerText> "Nachhaltigkeit";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288088 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288089;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)</span>";
+    <https://html.spec.whatwg.org/#innerText> "kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)".
+_:n3-288089 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)";
+    <https://html.spec.whatwg.org/#innerHTML> "kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)";
+    <https://html.spec.whatwg.org/#innerText> "kleine Projekte (Gesamtkosten bis ca. 10.000 Euro)";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288090 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288091;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Projekte dürfen noch nicht begonnen haben</span>";
+    <https://html.spec.whatwg.org/#innerText> "Projekte dürfen noch nicht begonnen haben".
+_:n3-288091 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Projekte dürfen noch nicht begonnen haben";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekte dürfen noch nicht begonnen haben";
+    <https://html.spec.whatwg.org/#innerText> "Projekte dürfen noch nicht begonnen haben";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288092 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288093;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Deckung eines besonderen Bedarfs</span>";
+    <https://html.spec.whatwg.org/#innerText> "Deckung eines besonderen Bedarfs".
+_:n3-288093 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Deckung eines besonderen Bedarfs";
+    <https://html.spec.whatwg.org/#innerHTML> "Deckung eines besonderen Bedarfs";
+    <https://html.spec.whatwg.org/#innerText> "Deckung eines besonderen Bedarfs";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288094 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288095;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag</span>";
+    <https://html.spec.whatwg.org/#innerText> "Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag".
+_:n3-288095 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag";
+    <https://html.spec.whatwg.org/#innerHTML> "Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag";
+    <https://html.spec.whatwg.org/#innerText> "Nachhaltigkeit und Langfristigkeit, Längerfristiger Nutzen für den Vereinsalltag";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288096 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288097;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort</span>";
+    <https://html.spec.whatwg.org/#innerText> "Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort".
+_:n3-288097 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort";
+    <https://html.spec.whatwg.org/#innerHTML> "Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort";
+    <https://html.spec.whatwg.org/#innerText> "Berücksichtigung aktueller Themen, Bedarf oder Probleme vor Ort";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288098 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288099;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"color:#000000;\">ehrenamtliches Engagement</span>";
+    <https://html.spec.whatwg.org/#innerText> "ehrenamtliches Engagement".
+_:n3-288099 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "ehrenamtliches Engagement";
+    <https://html.spec.whatwg.org/#innerHTML> "ehrenamtliches Engagement";
+    <https://html.spec.whatwg.org/#innerText> "ehrenamtliches Engagement";
+    <http://www.w3.org/1999/xhtml#style> "color:#000000;".
+_:n3-288100 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288101;
+    rdf:_2 _:n3-288102;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Internetseite des Förderprogrammes \"Sport vor Ort\"".
+_:n3-288101 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-288102 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288103;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Sport vor Ort\"".
+_:n3-288103 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-288104;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Sport vor Ort\"</a>";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Sport vor Ort\"".
+_:n3-288104 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Internetseite des Förderprogrammes \"Sport vor Ort\"";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Internetseite des Förderprogrammes \"Sport vor Ort\"";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Sport vor Ort\"";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lotto-sport-stiftung.de/aktuelles/sport-vor-ort-2/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288105 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-288106;
+    rdf:_2 _:n3-288109;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Sport und Bewegung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>max. 3.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-288106 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288107;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">\n</figure>".
+_:n3-288107 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-288108;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png\" width=\"800\" height=\"200\">".
+_:n3-288108 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "200";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-288109 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288110;
+    rdf:_2 _:n3-288115;
+    rdf:_3 _:n3-288120;
+    rdf:_4 _:n3-288125;
+    rdf:_5 _:n3-288128;
+    rdf:_6 _:n3-288131;
+    rdf:_7 _:n3-288134;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Sport und Bewegung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>max. 3.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Sachkosten Max. Fördersumme: max. 3.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-288110 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288111;
+    rdf:_2 _:n3-288112;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-288111 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-288112 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288113;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-288113 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288114;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-288114 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-288115 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288116;
+    rdf:_2 _:n3-288117;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Sport und Bewegung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Sport und Bewegung".
+_:n3-288116 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-288117 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288118;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sport und Bewegung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-288118 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288119;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sport und Bewegung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-288119 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-288120 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288121;
+    rdf:_2 _:n3-288122;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Sachkosten".
+_:n3-288121 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-288122 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288123;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-288123 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-288124;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-288124 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-288125 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288126;
+    rdf:_2 _:n3-288127;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>max. 3.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: max. 3.000 €".
+_:n3-288126 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-288127 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "max. 3.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "max. 3.000 €";
+    <https://html.spec.whatwg.org/#innerText> "max. 3.000 €".
+_:n3-288128 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288129;
+    rdf:_2 _:n3-288130;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-288129 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-288130 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-288131 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288132;
+    rdf:_2 _:n3-288133;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-288132 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-288133 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-288134 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288135;
+    rdf:_2 _:n3-288136;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-288135 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-288136 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-288137 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288138;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Goseriede 4,\n     <br>\n     30159 Hannover</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0511 99987351</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288138 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288139;
+    rdf:_2 _:n3-288157;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Goseriede 4,\n    <br>\n    30159 Hannover</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0511 99987351</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288139 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288140;
+    rdf:_2 _:n3-288142;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Goseriede 4,\n   <br>\n   30159 Hannover</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0511 99987351</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288140 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-288141;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung".
+_:n3-288141 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersächsische Lotto-Sport-Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2".
+_:n3-288142 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288143;
+    rdf:_2 _:n3-288146;
+    rdf:_3 _:n3-288150;
+    rdf:_4 _:n3-288154;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Goseriede 4,\n  <br>\n  30159 Hannover</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0511 99987351</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-288143 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288144;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Goseriede 4,\n <br>\n 30159 Hannover</p>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-288144 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Goseriede 4,";
+    rdf:_2 _:n3-288145;
+    rdf:_3 "30159 Hannover";
+    <https://html.spec.whatwg.org/#innerHTML> "Goseriede 4,\n<br>\n30159 Hannover";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-288145 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-288146 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288147;
+    rdf:_2 _:n3-288148;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@lotto-sport-stiftung.de".
+_:n3-288147 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-288148 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-288149;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de".
+_:n3-288149 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@lotto-sport-stiftung.de".
+_:n3-288150 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288151;
+    rdf:_2 _:n3-288152;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.lotto-sport-stiftung.de".
+_:n3-288151 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-288152 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-288153;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de".
+_:n3-288153 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-288154 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288155;
+    rdf:_2 _:n3-288156;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0511 99987351</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0511 99987351".
+_:n3-288155 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-288156 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0511 99987351";
+    <https://html.spec.whatwg.org/#innerHTML> "0511 99987351";
+    <https://html.spec.whatwg.org/#innerText> "0511 99987351".
+_:n3-288157 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288158;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">".
+_:n3-288158 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "178";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-288159 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-288160;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-288160 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288161;
+    rdf:_2 _:n3-288165;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-288161 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-288162;
+    rdf:_2 _:n3-288163;
+    rdf:_3 _:n3-288164;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-288162 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-288163 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-288164 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-288165 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-288166;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-288166 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-288167 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-288168 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-288169 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-288170 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/sport-vor-ort";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-288171 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-288172 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Sport vor Ort  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport vor Ort  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Sport vor Ort  –  Förderdatenbank".
+_:n3-288173 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-288174 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

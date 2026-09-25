@@ -1,0 +1,603 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-273593 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273594;
+    rdf:_10 _:n3-273595;
+    rdf:_11 _:n3-273596;
+    rdf:_12 _:n3-273597;
+    rdf:_13 _:n3-273598;
+    rdf:_14 _:n3-273599;
+    rdf:_15 _:n3-273600;
+    rdf:_16 _:n3-273601;
+    rdf:_17 _:n3-273602;
+    rdf:_18 _:n3-273603;
+    rdf:_19 _:n3-273604;
+    rdf:_2 _:n3-273605;
+    rdf:_20 _:n3-273606;
+    rdf:_21 _:n3-273607;
+    rdf:_22 _:n3-273608;
+    rdf:_23 _:n3-273625;
+    rdf:_24 _:n3-273630;
+    rdf:_25 _:n3-273692;
+    rdf:_26 _:n3-273700;
+    rdf:_3 _:n3-273701;
+    rdf:_4 _:n3-273702;
+    rdf:_5 _:n3-273703;
+    rdf:_6 _:n3-273704;
+    rdf:_7 _:n3-273705;
+    rdf:_8 _:n3-273706;
+    rdf:_9 _:n3-273707;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "transportkostenzuschuss-tkz";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Transportkostenzuschuss (TKZ)  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Transportkostenzuschuss (TKZ)\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Transportkostenzuschuss (TKZ)\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Transportkostenzuschuss (TKZ)</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n     <p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n      <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n      <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n      <p>Der Förderumfang umfasst folgende Kosten:</p>\n      <ul>\n       <li>Verpackung der Sachspenden</li>\n       <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n       <li>Transportversicherung der Sachspende</li>\n      </ul>\n      <p><strong>Fördermittelberatung\n        <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n       <br>\n       Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>Bis 20.000 Euro</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ)  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Transportkostenzuschuss (TKZ) Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\" Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de ©2026 Impressum Datenschutzerklärung".
+_:n3-273594 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-273595 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-273596 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-273597 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-273598 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Transportkostenzuschuss (TKZ)";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-273599 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-273600 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Transportkostenzuschuss (TKZ)";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-273601 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-273602 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-273603 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-273604 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-273605 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-273606 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-273607 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-273608 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273609;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-273609 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273610;
+    rdf:_2 _:n3-273612;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-273610 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-273611;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-273611 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-273612 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273613;
+    rdf:_2 _:n3-273616;
+    rdf:_3 _:n3-273619;
+    rdf:_4 _:n3-273622;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-273613 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-273614;
+    rdf:_2 _:n3-273615;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273614 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-273615 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-273616 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-273617;
+    rdf:_2 _:n3-273618;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273617 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-273618 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-273619 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-273620;
+    rdf:_2 _:n3-273621;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273620 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-273621 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-273622 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-273623;
+    rdf:_2 _:n3-273624;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273623 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-273624 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-273625 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-273626;
+    rdf:_2 _:n3-273629;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-273626 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-273627;
+    rdf:_2 _:n3-273628;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-273627 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-273628 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-273629 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-273630 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-273631;
+    rdf:_2 _:n3-273636;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Transportkostenzuschuss (TKZ)</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n    <p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n     <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n     <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n     <p>Der Förderumfang umfasst folgende Kosten:</p>\n     <ul>\n      <li>Verpackung der Sachspenden</li>\n      <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n      <li>Transportversicherung der Sachspende</li>\n     </ul>\n     <p><strong>Fördermittelberatung\n       <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n      <br>\n      Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>Bis 20.000 Euro</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Transportkostenzuschuss (TKZ) Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\" Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273631 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-273632;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Transportkostenzuschuss (TKZ)</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Transportkostenzuschuss (TKZ)".
+_:n3-273632 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273633;
+    rdf:_2 _:n3-273634;
+    rdf:_3 _:n3-273635;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Transportkostenzuschuss (TKZ)</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Transportkostenzuschuss (TKZ)".
+_:n3-273633 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-273634 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-273635 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Transportkostenzuschuss (TKZ)";
+    <https://html.spec.whatwg.org/#innerHTML> "Transportkostenzuschuss (TKZ)";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ)".
+_:n3-273636 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-273637;
+    rdf:_2 _:n3-273676;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n   <p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n    <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n    <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n    <p>Der Förderumfang umfasst folgende Kosten:</p>\n    <ul>\n     <li>Verpackung der Sachspenden</li>\n     <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n     <li>Transportversicherung der Sachspende</li>\n    </ul>\n    <p><strong>Fördermittelberatung\n      <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n     <br>\n     Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>Bis 20.000 Euro</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\" Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273637 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273638;
+    rdf:_2 _:n3-273662;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n  <p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n   <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n   <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n   <p>Der Förderumfang umfasst folgende Kosten:</p>\n   <ul>\n    <li>Verpackung der Sachspenden</li>\n    <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n    <li>Transportversicherung der Sachspende</li>\n   </ul>\n   <p><strong>Fördermittelberatung\n     <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n    <br>\n    Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>Bis 20.000 Euro</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\" Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-273638 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273639;
+    rdf:_2 _:n3-273642;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n <p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n  <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n  <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n  <p>Der Förderumfang umfasst folgende Kosten:</p>\n  <ul>\n   <li>Verpackung der Sachspenden</li>\n   <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n   <li>Transportversicherung der Sachspende</li>\n  </ul>\n  <p><strong>Fördermittelberatung\n    <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n   <br>\n   Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\" Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm".
+_:n3-273639 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-273640;
+    rdf:_2 _:n3-273641;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Transportkostenzuschuss (TKZ)</h1>\n<p class=\"text-lg text-gray-500\">Ein Förderprogramm von \"Engagement global\"</p>";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ) Ein Förderprogramm von \"Engagement global\"".
+_:n3-273640 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Transportkostenzuschuss (TKZ)";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Transportkostenzuschuss (TKZ)";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ)".
+_:n3-273641 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ein Förderprogramm von \"Engagement global\"";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Ein Förderprogramm von \"Engagement global\"";
+    <https://html.spec.whatwg.org/#innerText> "Ein Förderprogramm von \"Engagement global\"".
+_:n3-273642 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273643;
+    rdf:_2 _:n3-273657;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n <p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n <p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n <p>Der Förderumfang umfasst folgende Kosten:</p>\n <ul>\n  <li>Verpackung der Sachspenden</li>\n  <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n  <li>Transportversicherung der Sachspende</li>\n </ul>\n <p><strong>Fördermittelberatung\n   <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n  <br>\n  Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Weitere Informationen Link zum Programm".
+_:n3-273643 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273644;
+    rdf:_2 _:n3-273645;
+    rdf:_3 _:n3-273646;
+    rdf:_4 _:n3-273647;
+    rdf:_5 _:n3-273648;
+    rdf:_6 _:n3-273652;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.</p>\n<p>Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.</p>\n<p>Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.</p>\n<p>Der Förderumfang umfasst folgende Kosten:</p>\n<ul>\n <li>Verpackung der Sachspenden</li>\n <li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n <li>Transportversicherung der Sachspende</li>\n</ul>\n<p><strong>Fördermittelberatung\n  <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n <br>\n Kontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222</p>";
+    <https://html.spec.whatwg.org/#innerText> "Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern. Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent. Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert. Der Förderumfang umfasst folgende Kosten: Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-273644 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.";
+    <https://html.spec.whatwg.org/#innerHTML> "Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.";
+    <https://html.spec.whatwg.org/#innerText> "Finanzierung des Transportes von Sachspenden, die dazu dienen, die Lebensbedingungen besonders benachteiligter Bevölkerungsgruppen in einem Partnerland der deutschen Entwicklungszusammenarbeit zu verbessern.".
+_:n3-273645 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.";
+    <https://html.spec.whatwg.org/#innerHTML> "Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.";
+    <https://html.spec.whatwg.org/#innerText> "Transportkosten von entwicklungspolitisch förderungswürdigen Sachspenden für Partnerländer der deutschen Entwicklungszusammenarbeit werden nur auf schriftlichen Antrag bezuschusst. Der Zuschuss beträgt im Regelfall 75 Prozent der Transportkosten, Verpackung, Fracht und Transportversicherung eingeschlossen. Der Antragsteller muss sich mit einem angemessenen Eigenanteil von mindestens 25 Prozent an den Transportkosten beteiligen. Für einige Länder gilt ein reduzierter Eigenanteil von 10 Prozent.".
+_:n3-273646 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.";
+    <https://html.spec.whatwg.org/#innerText> "Es können nur private deutsche Organisationen und Verbände sowie Initiativgruppen einen Antrag stellen, die als gemeinnützig anerkannt sind und nachweislich über keine ausreichenden Eigenmittel oder sonstige Finanzierungsmöglichkeit für einen Transport verfügen. Auch der Empfänger der Sachspende, die einheimische Organisation im Partnerland, muss eine gemeinnützige private oder öffentliche Einrichtung sein. Pro Jahr und Antragsteller wird nur ein Antrag gefördert.".
+_:n3-273647 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Förderumfang umfasst folgende Kosten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Förderumfang umfasst folgende Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Der Förderumfang umfasst folgende Kosten:".
+_:n3-273648 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-273649;
+    rdf:_2 _:n3-273650;
+    rdf:_3 _:n3-273651;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Verpackung der Sachspenden</li>\n<li>Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort</li>\n<li>Transportversicherung der Sachspende</li>";
+    <https://html.spec.whatwg.org/#innerText> "Verpackung der Sachspenden Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort Transportversicherung der Sachspende".
+_:n3-273649 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Verpackung der Sachspenden";
+    <https://html.spec.whatwg.org/#innerHTML> "Verpackung der Sachspenden";
+    <https://html.spec.whatwg.org/#innerText> "Verpackung der Sachspenden".
+_:n3-273650 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort";
+    <https://html.spec.whatwg.org/#innerHTML> "Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort";
+    <https://html.spec.whatwg.org/#innerText> "Transport der Sachspenden vom Lagerort in Deutschland zum Bestimmungsort".
+_:n3-273651 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Transportversicherung der Sachspende";
+    <https://html.spec.whatwg.org/#innerHTML> "Transportversicherung der Sachspende";
+    <https://html.spec.whatwg.org/#innerText> "Transportversicherung der Sachspende".
+_:n3-273652 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-273653;
+    rdf:_2 "Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.";
+    rdf:_3 _:n3-273655;
+    rdf:_4 "Kontakt: ";
+    rdf:_5 _:n3-273656;
+    rdf:_6 " Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Fördermittelberatung\n <br></strong>Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland.\n<br>\nKontakt: <a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a> Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung Sollten Sie noch Fragen haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-273653 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Fördermittelberatung";
+    rdf:_2 _:n3-273654;
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittelberatung\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung".
+_:n3-273654 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-273655 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-273656 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@engagement-global.de".
+_:n3-273657 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273658;
+    rdf:_2 _:n3-273659;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm".
+_:n3-273658 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-273659 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-273660;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-273660 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-273661;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.engagement-global.de/tkz-transportkostenzuschuss.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-273661 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.engagement-global.de/tkz-transportkostenzuschuss.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273662 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-273663;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>Bis 20.000 Euro</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-273663 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273664;
+    rdf:_2 _:n3-273667;
+    rdf:_3 _:n3-273670;
+    rdf:_4 _:n3-273673;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>Bis 20.000 Euro</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Max. Fördersumme: Bis 20.000 Euro Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-273664 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273665;
+    rdf:_2 _:n3-273666;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-273665 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-273666 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-273667 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273668;
+    rdf:_2 _:n3-273669;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>Bis 20.000 Euro</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: Bis 20.000 Euro".
+_:n3-273668 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-273669 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bis 20.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Bis 20.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Bis 20.000 Euro".
+_:n3-273670 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273671;
+    rdf:_2 _:n3-273672;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-273671 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-273672 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-273673 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273674;
+    rdf:_2 _:n3-273675;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-273674 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-273675 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-273676 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273677;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273677 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273678;
+    rdf:_2 _:n3-273690;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273678 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273679;
+    rdf:_2 _:n3-273681;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273679 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-273680;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global".
+_:n3-273680 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Engagement Global";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement Global";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global".
+_:n3-273681 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273682;
+    rdf:_2 _:n3-273686;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-273682 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273683;
+    rdf:_2 _:n3-273684;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de".
+_:n3-273683 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-273684 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-273685;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de".
+_:n3-273685 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@engagement-global.de".
+_:n3-273686 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273687;
+    rdf:_2 _:n3-273688;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.engagement-global.de".
+_:n3-273687 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-273688 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-273689;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de".
+_:n3-273689 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "https://www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-273690 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273691;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">".
+_:n3-273691 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "181";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-273692 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-273693;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-273693 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273694;
+    rdf:_2 _:n3-273698;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-273694 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-273695;
+    rdf:_2 _:n3-273696;
+    rdf:_3 _:n3-273697;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-273695 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-273696 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-273697 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-273698 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-273699;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-273699 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-273700 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-273701 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-273702 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-273703 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/transportkostenzuschuss-tkz";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-273704 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-273705 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Transportkostenzuschuss (TKZ)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Transportkostenzuschuss (TKZ)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Transportkostenzuschuss (TKZ)  –  Förderdatenbank".
+_:n3-273706 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-273707 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

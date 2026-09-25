@@ -1,0 +1,655 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-222030 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222031;
+    rdf:_10 _:n3-222032;
+    rdf:_11 _:n3-222033;
+    rdf:_12 _:n3-222034;
+    rdf:_13 _:n3-222035;
+    rdf:_14 _:n3-222036;
+    rdf:_15 _:n3-222037;
+    rdf:_16 _:n3-222038;
+    rdf:_17 _:n3-222039;
+    rdf:_18 _:n3-222040;
+    rdf:_19 _:n3-222041;
+    rdf:_2 _:n3-222042;
+    rdf:_20 _:n3-222043;
+    rdf:_21 _:n3-222044;
+    rdf:_22 _:n3-222045;
+    rdf:_23 _:n3-222062;
+    rdf:_24 _:n3-222067;
+    rdf:_25 _:n3-222141;
+    rdf:_26 _:n3-222149;
+    rdf:_3 _:n3-222150;
+    rdf:_4 _:n3-222151;
+    rdf:_5 _:n3-222152;
+    rdf:_6 _:n3-222153;
+    rdf:_7 _:n3-222154;
+    rdf:_8 _:n3-222155;
+    rdf:_9 _:n3-222156;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-stiftung-zukunft-berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Stiftung Zukunft Berlin  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Stiftung Zukunft Berlin\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Stiftung Zukunft Berlin\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Zukunft Berlin</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n      <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n      <ul>\n       <li>Stadt- und Regionalentwicklung</li>\n       <li>Die InitiativenBildung und Jugend</li>\n       <li>Die InitiativenDemokratie und Beteiligung</li>\n       <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Berlin</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Wissenschaft und Forschung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Klingelhöferstraße 7,\n        <br>\n        10875 Berlin</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>030 263 92 290</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Stiftung Zukunft Berlin Förderung der Stiftung Zukunft Berlin Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290 ©2026 Impressum Datenschutzerklärung".
+_:n3-222031 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-222032 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-222033 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-222034 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-222035 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung Zukunft Berlin";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-222036 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-222037 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung Zukunft Berlin";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-222038 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-222039 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-222040 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-222041 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-222042 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-222043 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-222044 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-222045 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222046;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-222046 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222047;
+    rdf:_2 _:n3-222049;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-222047 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-222048;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-222048 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-222049 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222050;
+    rdf:_2 _:n3-222053;
+    rdf:_3 _:n3-222056;
+    rdf:_4 _:n3-222059;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-222050 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-222051;
+    rdf:_2 _:n3-222052;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222051 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-222052 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-222053 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-222054;
+    rdf:_2 _:n3-222055;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222054 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-222055 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-222056 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-222057;
+    rdf:_2 _:n3-222058;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222057 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-222058 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-222059 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-222060;
+    rdf:_2 _:n3-222061;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222060 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-222061 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-222062 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-222063;
+    rdf:_2 _:n3-222066;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-222063 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-222064;
+    rdf:_2 _:n3-222065;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-222064 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-222065 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-222066 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-222067 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-222068;
+    rdf:_2 _:n3-222073;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Zukunft Berlin</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n     <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n     <ul>\n      <li>Stadt- und Regionalentwicklung</li>\n      <li>Die InitiativenBildung und Jugend</li>\n      <li>Die InitiativenDemokratie und Beteiligung</li>\n      <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Berlin</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Klingelhöferstraße 7,\n       <br>\n       10875 Berlin</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>030 263 92 290</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Zukunft Berlin Förderung der Stiftung Zukunft Berlin Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222068 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-222069;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Zukunft Berlin</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Zukunft Berlin".
+_:n3-222069 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222070;
+    rdf:_2 _:n3-222071;
+    rdf:_3 _:n3-222072;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Zukunft Berlin</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Zukunft Berlin".
+_:n3-222070 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-222071 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-222072 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Stiftung Zukunft Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Zukunft Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin".
+_:n3-222073 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-222074;
+    rdf:_2 _:n3-222121;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n    <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n    <ul>\n     <li>Stadt- und Regionalentwicklung</li>\n     <li>Die InitiativenBildung und Jugend</li>\n     <li>Die InitiativenDemokratie und Beteiligung</li>\n     <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Berlin</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Klingelhöferstraße 7,\n      <br>\n      10875 Berlin</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>030 263 92 290</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222074 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222075;
+    rdf:_2 _:n3-222095;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n   <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n   <ul>\n    <li>Stadt- und Regionalentwicklung</li>\n    <li>Die InitiativenBildung und Jugend</li>\n    <li>Die InitiativenDemokratie und Beteiligung</li>\n    <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Berlin</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-222075 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222076;
+    rdf:_2 _:n3-222078;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n  <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n  <ul>\n   <li>Stadt- und Regionalentwicklung</li>\n   <li>Die InitiativenBildung und Jugend</li>\n   <li>Die InitiativenDemokratie und Beteiligung</li>\n   <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n  </ul>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website".
+_:n3-222076 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-222077;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Zukunft Berlin</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin".
+_:n3-222077 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Stiftung Zukunft Berlin";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Zukunft Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin".
+_:n3-222078 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222079;
+    rdf:_2 _:n3-222081;
+    rdf:_3 _:n3-222090;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n <p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n <ul>\n  <li>Stadt- und Regionalentwicklung</li>\n  <li>Die InitiativenBildung und Jugend</li>\n  <li>Die InitiativenDemokratie und Beteiligung</li>\n  <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n </ul>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach. Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft Weitere Informationen Link zur Website".
+_:n3-222079 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222080;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.".
+_:n3-222080 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung \"Zukunft Berlin\" verfolgt Ziele der Förderung des bürgerschaftlichen Engagements, der Bildung und kulturelle Ziele. Ihre Aufgabe ist es, die Stadt Berlin als kulturelle und wissenschaftliche Metropole in ihrer internationalen Verantwortung zu fördern. Sie sieht ihre Aufgabe vornehmlich in der Entwicklung, Mitgestaltung, Beförderung und Betreuung von Ideen und Initiativen, der Bündelung von Kräften und der Anregung und Ermöglichung von Kooperationen unter ihrem Dach.".
+_:n3-222081 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222082;
+    rdf:_2 _:n3-222083;
+    rdf:_3 _:n3-222084;
+    rdf:_4 _:n3-222085;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;</p>\n<p>Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;</p>\n<ul>\n <li>Stadt- und Regionalentwicklung</li>\n <li>Die InitiativenBildung und Jugend</li>\n <li>Die InitiativenDemokratie und Beteiligung</li>\n <li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt. Die Stiftung unterstützt Projekte in folgenden Bereichen: Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft".
+_:n3-222082 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-222083 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung strebt eine intensive europäische und darüber hinaus internationale Zusammenarbeit an. Ihr Wirkungskreis ist insofern nicht auf Deutschland beschränkt.".
+_:n3-222084 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung unterstützt Projekte in folgenden Bereichen:&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung unterstützt Projekte in folgenden Bereichen:".
+_:n3-222085 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-222086;
+    rdf:_2 _:n3-222087;
+    rdf:_3 _:n3-222088;
+    rdf:_4 _:n3-222089;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Stadt- und Regionalentwicklung</li>\n<li>Die InitiativenBildung und Jugend</li>\n<li>Die InitiativenDemokratie und Beteiligung</li>\n<li>Die InitiativenDigitales, Kultur &amp; Wissenschaft</li>";
+    <https://html.spec.whatwg.org/#innerText> "Stadt- und Regionalentwicklung Die InitiativenBildung und Jugend Die InitiativenDemokratie und Beteiligung Die InitiativenDigitales, Kultur & Wissenschaft".
+_:n3-222086 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Stadt- und Regionalentwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Stadt- und Regionalentwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Stadt- und Regionalentwicklung".
+_:n3-222087 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die InitiativenBildung und Jugend";
+    <https://html.spec.whatwg.org/#innerHTML> "Die InitiativenBildung und Jugend";
+    <https://html.spec.whatwg.org/#innerText> "Die InitiativenBildung und Jugend".
+_:n3-222088 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die InitiativenDemokratie und Beteiligung";
+    <https://html.spec.whatwg.org/#innerHTML> "Die InitiativenDemokratie und Beteiligung";
+    <https://html.spec.whatwg.org/#innerText> "Die InitiativenDemokratie und Beteiligung".
+_:n3-222089 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die InitiativenDigitales, Kultur &amp; Wissenschaft";
+    <https://html.spec.whatwg.org/#innerHTML> "Die InitiativenDigitales, Kultur &amp; Wissenschaft";
+    <https://html.spec.whatwg.org/#innerText> "Die InitiativenDigitales, Kultur & Wissenschaft".
+_:n3-222090 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222091;
+    rdf:_2 _:n3-222092;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Website".
+_:n3-222091 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-222092 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-222093;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-222093 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-222094;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.stiftungzukunftberlin.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-222094 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Website";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Website";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website";
+    <http://www.w3.org/1999/xhtml#href> "https://www.stiftungzukunftberlin.eu/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222095 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-222096;
+    rdf:_2 _:n3-222099;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Berlin</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-222096 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222097;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">\n</figure>".
+_:n3-222097 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-222098;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg\" width=\"800\" height=\"84\">".
+_:n3-222098 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "84";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-222099 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222100;
+    rdf:_2 _:n3-222105;
+    rdf:_3 _:n3-222118;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Berlin</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-222100 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222101;
+    rdf:_2 _:n3-222102;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Berlin</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin".
+_:n3-222101 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-222102 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222103;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Berlin</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-222103 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-222104;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Berlin</li>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-222104 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-222105 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222106;
+    rdf:_2 _:n3-222107;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-222106 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-222107 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222108;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Wissenschaft und Forschung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-222108 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-222109;
+    rdf:_2 _:n3-222110;
+    rdf:_3 _:n3-222111;
+    rdf:_4 _:n3-222112;
+    rdf:_5 _:n3-222113;
+    rdf:_6 _:n3-222114;
+    rdf:_7 _:n3-222115;
+    rdf:_8 _:n3-222116;
+    rdf:_9 _:n3-222117;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Wissenschaft und Forschung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-222109 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-222110 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-222111 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-222112 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-222113 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-222114 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-222115 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-222116 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-222117 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-222118 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222119;
+    rdf:_2 _:n3-222120;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-222119 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-222120 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-222121 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222122;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Klingelhöferstraße 7,\n     <br>\n     10875 Berlin</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>030 263 92 290</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222122 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222123;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Klingelhöferstraße 7,\n    <br>\n    10875 Berlin</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>030 263 92 290</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222123 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222124;
+    rdf:_2 _:n3-222126;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Klingelhöferstraße 7,\n   <br>\n   10875 Berlin</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>030 263 92 290</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Zukunft Berlin Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222124 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-222125;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin\" class=\"link\">Stiftung Zukunft Berlin</a>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Zukunft Berlin".
+_:n3-222125 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Stiftung Zukunft Berlin";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Stiftung Zukunft Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Zukunft Berlin";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/2996-stiftung-zukunft-berlin".
+_:n3-222126 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222127;
+    rdf:_2 _:n3-222130;
+    rdf:_3 _:n3-222134;
+    rdf:_4 _:n3-222138;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Klingelhöferstraße 7,\n  <br>\n  10875 Berlin</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>030 263 92 290</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Klingelhöferstraße 7, 10875 Berlin E-Mail mail@stiftungzukunftberlin.eu Webseite www.stiftungzukunftberlin.eu Telefon 030 263 92 290".
+_:n3-222127 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222128;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Klingelhöferstraße 7,\n <br>\n 10875 Berlin</p>";
+    <https://html.spec.whatwg.org/#innerText> "Klingelhöferstraße 7, 10875 Berlin".
+_:n3-222128 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Klingelhöferstraße 7,";
+    rdf:_2 _:n3-222129;
+    rdf:_3 "10875 Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Klingelhöferstraße 7,\n<br>\n10875 Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Klingelhöferstraße 7, 10875 Berlin".
+_:n3-222129 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-222130 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222131;
+    rdf:_2 _:n3-222132;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail mail@stiftungzukunftberlin.eu".
+_:n3-222131 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-222132 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-222133;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:mail@stiftungzukunftberlin.eu\">mail@stiftungzukunftberlin.eu</a>";
+    <https://html.spec.whatwg.org/#innerText> "mail@stiftungzukunftberlin.eu".
+_:n3-222133 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "mail@stiftungzukunftberlin.eu";
+    <https://html.spec.whatwg.org/#innerHTML> "mail@stiftungzukunftberlin.eu";
+    <https://html.spec.whatwg.org/#innerText> "mail@stiftungzukunftberlin.eu";
+    <http://www.w3.org/1999/xhtml#href> "mailto:mail@stiftungzukunftberlin.eu".
+_:n3-222134 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222135;
+    rdf:_2 _:n3-222136;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.stiftungzukunftberlin.eu".
+_:n3-222135 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-222136 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-222137;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.stiftungzukunftberlin.eu\" target=\"_blank\">www.stiftungzukunftberlin.eu</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.stiftungzukunftberlin.eu".
+_:n3-222137 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.stiftungzukunftberlin.eu";
+    <https://html.spec.whatwg.org/#innerHTML> "www.stiftungzukunftberlin.eu";
+    <https://html.spec.whatwg.org/#innerText> "www.stiftungzukunftberlin.eu";
+    <http://www.w3.org/1999/xhtml#href> "http://www.stiftungzukunftberlin.eu";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-222138 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222139;
+    rdf:_2 _:n3-222140;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>030 263 92 290</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 030 263 92 290".
+_:n3-222139 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-222140 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "030 263 92 290";
+    <https://html.spec.whatwg.org/#innerHTML> "030 263 92 290";
+    <https://html.spec.whatwg.org/#innerText> "030 263 92 290".
+_:n3-222141 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-222142;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-222142 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222143;
+    rdf:_2 _:n3-222147;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-222143 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-222144;
+    rdf:_2 _:n3-222145;
+    rdf:_3 _:n3-222146;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-222144 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-222145 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-222146 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-222147 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-222148;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-222148 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-222149 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-222150 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-222151 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-222152 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-zukunft-berlin";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-222153 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-222154 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Stiftung Zukunft Berlin  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Zukunft Berlin  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Zukunft Berlin  –  Förderdatenbank".
+_:n3-222155 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-222156 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

@@ -1,0 +1,803 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-248370 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248371;
+    rdf:_10 _:n3-248372;
+    rdf:_11 _:n3-248373;
+    rdf:_12 _:n3-248374;
+    rdf:_13 _:n3-248375;
+    rdf:_14 _:n3-248376;
+    rdf:_15 _:n3-248377;
+    rdf:_16 _:n3-248378;
+    rdf:_17 _:n3-248379;
+    rdf:_18 _:n3-248380;
+    rdf:_19 _:n3-248381;
+    rdf:_2 _:n3-248382;
+    rdf:_20 _:n3-248383;
+    rdf:_21 _:n3-248384;
+    rdf:_22 _:n3-248385;
+    rdf:_23 _:n3-248402;
+    rdf:_24 _:n3-248407;
+    rdf:_25 _:n3-248513;
+    rdf:_26 _:n3-248521;
+    rdf:_3 _:n3-248522;
+    rdf:_4 _:n3-248523;
+    rdf:_5 _:n3-248524;
+    rdf:_6 _:n3-248525;
+    rdf:_7 _:n3-248526;
+    rdf:_8 _:n3-248527;
+    rdf:_9 _:n3-248528;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderungen-der-stiftung-berliner-sparkasse";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderungen der Stiftung Berliner Sparkasse  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderungen der Stiftung Berliner Sparkasse\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderungen der Stiftung Berliner Sparkasse\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der Stiftung Berliner Sparkasse</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n      <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n      <p>Zweck der Stiftung ist die Förderung</p>\n      <ul>\n       <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n       <li>der Denkmalpflege,</li>\n       <li>des Sports,</li>\n       <li>der Erziehung und Bildung,</li>\n       <li>mildtätiger Zwecke&nbsp;</li>\n       <li>der öffentlichen Gesundheitspflege,</li>\n       <li>der Jugend- und Altenhilfe,</li>\n       <li>des Tier- und Naturschutzes und</li>\n       <li>der Wissenschaft und Forschung\n        <br></li>\n      </ul>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n      <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n      <p>Die Antragstellenden:&nbsp;</p>\n      <ul>\n       <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n       <li>planen ein Projekt in Berlin.</li>\n       <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n       <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n       <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n      </ul>\n      <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n       <br></p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n       <br></p>\n      <ul>\n       <li>Förderantrag - PDF- verlinkt</li>\n       <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n       <li>Registerauszug</li>\n       <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n       <li>detaillierter Kosten- und Finanzierungsplan</li>\n      </ul>\n      <p></p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Berlin</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bauten und Denkmalschutz</li>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Wissenschaft und Forschung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. November 2026</li>\n        <li>31. Juli 2027</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Alexanderplatz 2,\n        <br>\n        10178 Berlin</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>030 86963090</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderungen der Stiftung Berliner Sparkasse Förderungen der Stiftung Berliner Sparkasse Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027 Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090 ©2026 Impressum Datenschutzerklärung".
+_:n3-248371 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-248372 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-248373 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-248374 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-248375 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderungen der Stiftung Berliner Sparkasse";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-248376 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-248377 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderungen der Stiftung Berliner Sparkasse";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-248378 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-248379 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-248380 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-248381 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-248382 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-248383 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-248384 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-248385 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248386;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-248386 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248387;
+    rdf:_2 _:n3-248389;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-248387 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-248388;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-248388 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-248389 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248390;
+    rdf:_2 _:n3-248393;
+    rdf:_3 _:n3-248396;
+    rdf:_4 _:n3-248399;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-248390 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-248391;
+    rdf:_2 _:n3-248392;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248391 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-248392 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-248393 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-248394;
+    rdf:_2 _:n3-248395;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248394 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-248395 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-248396 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-248397;
+    rdf:_2 _:n3-248398;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248397 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-248398 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-248399 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-248400;
+    rdf:_2 _:n3-248401;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248400 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-248401 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-248402 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-248403;
+    rdf:_2 _:n3-248406;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-248403 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-248404;
+    rdf:_2 _:n3-248405;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-248404 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-248405 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-248406 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-248407 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-248408;
+    rdf:_2 _:n3-248413;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der Stiftung Berliner Sparkasse</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n     <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n     <p>Zweck der Stiftung ist die Förderung</p>\n     <ul>\n      <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n      <li>der Denkmalpflege,</li>\n      <li>des Sports,</li>\n      <li>der Erziehung und Bildung,</li>\n      <li>mildtätiger Zwecke&nbsp;</li>\n      <li>der öffentlichen Gesundheitspflege,</li>\n      <li>der Jugend- und Altenhilfe,</li>\n      <li>des Tier- und Naturschutzes und</li>\n      <li>der Wissenschaft und Forschung\n       <br></li>\n     </ul>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n     <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n     <p>Die Antragstellenden:&nbsp;</p>\n     <ul>\n      <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n      <li>planen ein Projekt in Berlin.</li>\n      <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n      <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n      <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n     </ul>\n     <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n      <br></p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n      <br></p>\n     <ul>\n      <li>Förderantrag - PDF- verlinkt</li>\n      <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n      <li>Registerauszug</li>\n      <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n      <li>detaillierter Kosten- und Finanzierungsplan</li>\n     </ul>\n     <p></p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Berlin</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bauten und Denkmalschutz</li>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. November 2026</li>\n       <li>31. Juli 2027</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Alexanderplatz 2,\n       <br>\n       10178 Berlin</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>030 86963090</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der Stiftung Berliner Sparkasse Förderungen der Stiftung Berliner Sparkasse Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027 Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248408 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-248409;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der Stiftung Berliner Sparkasse</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der Stiftung Berliner Sparkasse".
+_:n3-248409 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248410;
+    rdf:_2 _:n3-248411;
+    rdf:_3 _:n3-248412;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderungen der Stiftung Berliner Sparkasse</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderungen der Stiftung Berliner Sparkasse".
+_:n3-248410 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-248411 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-248412 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderungen der Stiftung Berliner Sparkasse";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der Stiftung Berliner Sparkasse";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse".
+_:n3-248413 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-248414;
+    rdf:_2 _:n3-248491;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n    <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n    <p>Zweck der Stiftung ist die Förderung</p>\n    <ul>\n     <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n     <li>der Denkmalpflege,</li>\n     <li>des Sports,</li>\n     <li>der Erziehung und Bildung,</li>\n     <li>mildtätiger Zwecke&nbsp;</li>\n     <li>der öffentlichen Gesundheitspflege,</li>\n     <li>der Jugend- und Altenhilfe,</li>\n     <li>des Tier- und Naturschutzes und</li>\n     <li>der Wissenschaft und Forschung\n      <br></li>\n    </ul>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n    <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n    <p>Die Antragstellenden:&nbsp;</p>\n    <ul>\n     <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n     <li>planen ein Projekt in Berlin.</li>\n     <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n     <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n     <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n    </ul>\n    <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n     <br></p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n     <br></p>\n    <ul>\n     <li>Förderantrag - PDF- verlinkt</li>\n     <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n     <li>Registerauszug</li>\n     <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n     <li>detaillierter Kosten- und Finanzierungsplan</li>\n    </ul>\n    <p></p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Berlin</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bauten und Denkmalschutz</li>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. November 2026</li>\n      <li>31. Juli 2027</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Alexanderplatz 2,\n      <br>\n      10178 Berlin</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>030 86963090</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027 Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248414 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248415;
+    rdf:_2 _:n3-248465;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n   <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n   <p>Zweck der Stiftung ist die Förderung</p>\n   <ul>\n    <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n    <li>der Denkmalpflege,</li>\n    <li>des Sports,</li>\n    <li>der Erziehung und Bildung,</li>\n    <li>mildtätiger Zwecke&nbsp;</li>\n    <li>der öffentlichen Gesundheitspflege,</li>\n    <li>der Jugend- und Altenhilfe,</li>\n    <li>des Tier- und Naturschutzes und</li>\n    <li>der Wissenschaft und Forschung\n     <br></li>\n   </ul>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n   <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n   <p>Die Antragstellenden:&nbsp;</p>\n   <ul>\n    <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n    <li>planen ein Projekt in Berlin.</li>\n    <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n    <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n    <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n   </ul>\n   <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n    <br></p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n    <br></p>\n   <ul>\n    <li>Förderantrag - PDF- verlinkt</li>\n    <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n    <li>Registerauszug</li>\n    <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n    <li>detaillierter Kosten- und Finanzierungsplan</li>\n   </ul>\n   <p></p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Berlin</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bauten und Denkmalschutz</li>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. November 2026</li>\n     <li>31. Juli 2027</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027".
+_:n3-248415 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248416;
+    rdf:_2 _:n3-248418;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n  <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n  <p>Zweck der Stiftung ist die Förderung</p>\n  <ul>\n   <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n   <li>der Denkmalpflege,</li>\n   <li>des Sports,</li>\n   <li>der Erziehung und Bildung,</li>\n   <li>mildtätiger Zwecke&nbsp;</li>\n   <li>der öffentlichen Gesundheitspflege,</li>\n   <li>der Jugend- und Altenhilfe,</li>\n   <li>des Tier- und Naturschutzes und</li>\n   <li>der Wissenschaft und Forschung\n    <br></li>\n  </ul>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n  <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n  <p>Die Antragstellenden:&nbsp;</p>\n  <ul>\n   <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n   <li>planen ein Projekt in Berlin.</li>\n   <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n   <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n   <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n  </ul>\n  <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n   <br></p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n   <br></p>\n  <ul>\n   <li>Förderantrag - PDF- verlinkt</li>\n   <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n   <li>Registerauszug</li>\n   <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n   <li>detaillierter Kosten- und Finanzierungsplan</li>\n  </ul>\n  <p></p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-248416 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-248417;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderungen der Stiftung Berliner Sparkasse</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse".
+_:n3-248417 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderungen der Stiftung Berliner Sparkasse";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der Stiftung Berliner Sparkasse";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse".
+_:n3-248418 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248419;
+    rdf:_2 _:n3-248434;
+    rdf:_3 _:n3-248447;
+    rdf:_4 _:n3-248458;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n <p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n <p>Zweck der Stiftung ist die Förderung</p>\n <ul>\n  <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n  <li>der Denkmalpflege,</li>\n  <li>des Sports,</li>\n  <li>der Erziehung und Bildung,</li>\n  <li>mildtätiger Zwecke&nbsp;</li>\n  <li>der öffentlichen Gesundheitspflege,</li>\n  <li>der Jugend- und Altenhilfe,</li>\n  <li>des Tier- und Naturschutzes und</li>\n  <li>der Wissenschaft und Forschung\n   <br></li>\n </ul>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n <p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n <p>Die Antragstellenden:&nbsp;</p>\n <ul>\n  <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n  <li>planen ein Projekt in Berlin.</li>\n  <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n  <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n  <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n </ul>\n <p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n  <br></p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n  <br></p>\n <ul>\n  <li>Förderantrag - PDF- verlinkt</li>\n  <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n  <li>Registerauszug</li>\n  <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n  <li>detaillierter Kosten- und Finanzierungsplan</li>\n </ul>\n <p></p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden. Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-248419 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248420;
+    rdf:_2 _:n3-248421;
+    rdf:_3 _:n3-248422;
+    rdf:_4 _:n3-248423;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.</p>\n<p>Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.</p>\n<p>Zweck der Stiftung ist die Förderung</p>\n<ul>\n <li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n <li>der Denkmalpflege,</li>\n <li>des Sports,</li>\n <li>der Erziehung und Bildung,</li>\n <li>mildtätiger Zwecke&nbsp;</li>\n <li>der öffentlichen Gesundheitspflege,</li>\n <li>der Jugend- und Altenhilfe,</li>\n <li>des Tier- und Naturschutzes und</li>\n <li>der Wissenschaft und Forschung\n  <br></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis. Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen. Zweck der Stiftung ist die Förderung der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung".
+_:n3-248420 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.";
+    <https://html.spec.whatwg.org/#innerHTML> "Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.";
+    <https://html.spec.whatwg.org/#innerText> "Mit der Gründung der Stiftung Berliner Sparkasse - von Bürgerinnen und Bürger für Berlin im Jahr 2010 stellt die Berliner Sparkasse ihr gesellschaftliches Engagement auf eine eigenständige finanzielle Basis.".
+_:n3-248421 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung hat es sich zum Ziel gesetzt, das Gemeinwohl in Berlin zu fördern. Die Bildung und Chancengleichheit von Kindern und Jugendlichen ist ihr dabei ein besonderes Anliegen.".
+_:n3-248422 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Zweck der Stiftung ist die Förderung";
+    <https://html.spec.whatwg.org/#innerHTML> "Zweck der Stiftung ist die Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Zweck der Stiftung ist die Förderung".
+_:n3-248423 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248424;
+    rdf:_2 _:n3-248425;
+    rdf:_3 _:n3-248426;
+    rdf:_4 _:n3-248427;
+    rdf:_5 _:n3-248428;
+    rdf:_6 _:n3-248429;
+    rdf:_7 _:n3-248430;
+    rdf:_8 _:n3-248431;
+    rdf:_9 _:n3-248432;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,</li>\n<li>der Denkmalpflege,</li>\n<li>des Sports,</li>\n<li>der Erziehung und Bildung,</li>\n<li>mildtätiger Zwecke&nbsp;</li>\n<li>der öffentlichen Gesundheitspflege,</li>\n<li>der Jugend- und Altenhilfe,</li>\n<li>des Tier- und Naturschutzes und</li>\n<li>der Wissenschaft und Forschung\n <br></li>";
+    <https://html.spec.whatwg.org/#innerText> "der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten, der Denkmalpflege, des Sports, der Erziehung und Bildung, mildtätiger Zwecke der öffentlichen Gesundheitspflege, der Jugend- und Altenhilfe, des Tier- und Naturschutzes und der Wissenschaft und Forschung".
+_:n3-248424 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,";
+    <https://html.spec.whatwg.org/#innerHTML> "der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,";
+    <https://html.spec.whatwg.org/#innerText> "der Kultur mittels Unterstützung der Kunst sowie Erhaltung von Kulturwerten,".
+_:n3-248425 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der Denkmalpflege,";
+    <https://html.spec.whatwg.org/#innerHTML> "der Denkmalpflege,";
+    <https://html.spec.whatwg.org/#innerText> "der Denkmalpflege,".
+_:n3-248426 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "des Sports,";
+    <https://html.spec.whatwg.org/#innerHTML> "des Sports,";
+    <https://html.spec.whatwg.org/#innerText> "des Sports,".
+_:n3-248427 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der Erziehung und Bildung,";
+    <https://html.spec.whatwg.org/#innerHTML> "der Erziehung und Bildung,";
+    <https://html.spec.whatwg.org/#innerText> "der Erziehung und Bildung,".
+_:n3-248428 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "mildtätiger Zwecke&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "mildtätiger Zwecke&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "mildtätiger Zwecke".
+_:n3-248429 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der öffentlichen Gesundheitspflege,";
+    <https://html.spec.whatwg.org/#innerHTML> "der öffentlichen Gesundheitspflege,";
+    <https://html.spec.whatwg.org/#innerText> "der öffentlichen Gesundheitspflege,".
+_:n3-248430 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der Jugend- und Altenhilfe,";
+    <https://html.spec.whatwg.org/#innerHTML> "der Jugend- und Altenhilfe,";
+    <https://html.spec.whatwg.org/#innerText> "der Jugend- und Altenhilfe,".
+_:n3-248431 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "des Tier- und Naturschutzes und";
+    <https://html.spec.whatwg.org/#innerHTML> "des Tier- und Naturschutzes und";
+    <https://html.spec.whatwg.org/#innerText> "des Tier- und Naturschutzes und".
+_:n3-248432 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "der Wissenschaft und Forschung";
+    rdf:_2 _:n3-248433;
+    <https://html.spec.whatwg.org/#innerHTML> "der Wissenschaft und Forschung\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "der Wissenschaft und Forschung".
+_:n3-248433 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-248434 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248435;
+    rdf:_2 _:n3-248436;
+    rdf:_3 _:n3-248437;
+    rdf:_4 _:n3-248438;
+    rdf:_5 _:n3-248439;
+    rdf:_6 _:n3-248445;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.</p>\n<p>Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:</p>\n<p>Die Antragstellenden:&nbsp;</p>\n<ul>\n <li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n <li>planen ein Projekt in Berlin.</li>\n <li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n <li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n <li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>\n</ul>\n<p>Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin. Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden: Die Antragstellenden: sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt. Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.".
+_:n3-248435 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-248436 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung Berliner Sparkasse fördert gemeinnützige Projekte und Initiativen im Land Berlin.".
+_:n3-248437 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:";
+    <https://html.spec.whatwg.org/#innerHTML> "Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:";
+    <https://html.spec.whatwg.org/#innerText> "Um einen Förderantrag zu stellen, sollten folgende Mindestvoraussetzungen erfüllt werden:".
+_:n3-248438 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Antragstellenden:&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragstellenden:&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragstellenden:".
+_:n3-248439 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248440;
+    rdf:_2 _:n3-248441;
+    rdf:_3 _:n3-248442;
+    rdf:_4 _:n3-248443;
+    rdf:_5 _:n3-248444;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>sind ein gemeinnütziger oder mildtätiger Verein.</li>\n<li>planen ein Projekt in Berlin.</li>\n<li>erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;</li>\n<li>sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.</li>\n<li>sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.</li>";
+    <https://html.spec.whatwg.org/#innerText> "sind ein gemeinnütziger oder mildtätiger Verein. planen ein Projekt in Berlin. erfüllen mindestens einen Satzungszweck der Stiftung sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt. sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.".
+_:n3-248440 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "sind ein gemeinnütziger oder mildtätiger Verein.";
+    <https://html.spec.whatwg.org/#innerHTML> "sind ein gemeinnütziger oder mildtätiger Verein.";
+    <https://html.spec.whatwg.org/#innerText> "sind ein gemeinnütziger oder mildtätiger Verein.".
+_:n3-248441 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "planen ein Projekt in Berlin.";
+    <https://html.spec.whatwg.org/#innerHTML> "planen ein Projekt in Berlin.";
+    <https://html.spec.whatwg.org/#innerText> "planen ein Projekt in Berlin.".
+_:n3-248442 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "erfüllen mindestens einen Satzungszweck der Stiftung&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "erfüllen mindestens einen Satzungszweck der Stiftung".
+_:n3-248443 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.";
+    <https://html.spec.whatwg.org/#innerHTML> "sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.";
+    <https://html.spec.whatwg.org/#innerText> "sind für eine gemeinnützige Organisation tätig und vom Finanzamt als solche freigestellt.".
+_:n3-248444 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.";
+    <https://html.spec.whatwg.org/#innerHTML> "sind&nbsp;in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.";
+    <https://html.spec.whatwg.org/#innerText> "sind in Berlin ansässig oder das zu unterstützende Projekt findet in Berlin statt.".
+_:n3-248445 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.";
+    rdf:_2 _:n3-248446;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung soll nicht zur Deckung laufender Personal- und Verwaltungskosten, Reise- und Bewirtungskosten, Druckkosten, Preise, Wettbewerbe, Studienarbeiten, Kunstwerke, Schul- und Stadtteilfeste, abgeschlossene Maßnahmen, Einzelpersonen sowie Projekte von politischen, religiösen und weltanschaulichen Organisationen genutzt werden.".
+_:n3-248446 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-248447 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248448;
+    rdf:_2 _:n3-248449;
+    rdf:_3 _:n3-248451;
+    rdf:_4 _:n3-248457;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n <br></p>\n<ul>\n <li>Förderantrag - PDF- verlinkt</li>\n <li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n <li>Registerauszug</li>\n <li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n <li>detaillierter Kosten- und Finanzierungsplan</li>\n</ul>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Folgende Unterlagen werden zum Antrag benötigt: Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan".
+_:n3-248448 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-248449 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Folgende Unterlagen werden zum Antrag benötigt:&nbsp;";
+    rdf:_2 _:n3-248450;
+    <https://html.spec.whatwg.org/#innerHTML> "Folgende Unterlagen werden zum Antrag benötigt:&nbsp;\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Folgende Unterlagen werden zum Antrag benötigt:".
+_:n3-248450 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-248451 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248452;
+    rdf:_2 _:n3-248453;
+    rdf:_3 _:n3-248454;
+    rdf:_4 _:n3-248455;
+    rdf:_5 _:n3-248456;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Förderantrag - PDF- verlinkt</li>\n<li>Satzung, Statut, Gesellschaftsvertrag o.ä.</li>\n<li>Registerauszug</li>\n<li>Freistellungsbescheid vom Finanzamt für Körperschaften</li>\n<li>detaillierter Kosten- und Finanzierungsplan</li>";
+    <https://html.spec.whatwg.org/#innerText> "Förderantrag - PDF- verlinkt Satzung, Statut, Gesellschaftsvertrag o.ä. Registerauszug Freistellungsbescheid vom Finanzamt für Körperschaften detaillierter Kosten- und Finanzierungsplan".
+_:n3-248452 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderantrag - PDF- verlinkt";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderantrag - PDF- verlinkt";
+    <https://html.spec.whatwg.org/#innerText> "Förderantrag - PDF- verlinkt".
+_:n3-248453 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Satzung, Statut, Gesellschaftsvertrag o.ä.";
+    <https://html.spec.whatwg.org/#innerHTML> "Satzung, Statut, Gesellschaftsvertrag o.ä.";
+    <https://html.spec.whatwg.org/#innerText> "Satzung, Statut, Gesellschaftsvertrag o.ä.".
+_:n3-248454 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Registerauszug";
+    <https://html.spec.whatwg.org/#innerHTML> "Registerauszug";
+    <https://html.spec.whatwg.org/#innerText> "Registerauszug".
+_:n3-248455 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Freistellungsbescheid vom Finanzamt für Körperschaften";
+    <https://html.spec.whatwg.org/#innerHTML> "Freistellungsbescheid vom Finanzamt für Körperschaften";
+    <https://html.spec.whatwg.org/#innerText> "Freistellungsbescheid vom Finanzamt für Körperschaften".
+_:n3-248456 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "detaillierter Kosten- und Finanzierungsplan";
+    <https://html.spec.whatwg.org/#innerHTML> "detaillierter Kosten- und Finanzierungsplan";
+    <https://html.spec.whatwg.org/#innerText> "detaillierter Kosten- und Finanzierungsplan".
+_:n3-248457 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-248458 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248459;
+    rdf:_2 _:n3-248460;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-248459 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-248460 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248461;
+    rdf:_2 _:n3-248463;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung Link zum Förderantrag".
+_:n3-248461 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-248462;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.berliner-sparkasse.de/stiftung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-248462 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.berliner-sparkasse.de/stiftung";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248463 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-248464;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag".
+_:n3-248464 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Förderantrag";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#href> "https://www.stiftung-berliner-sparkasse.de/foerderantrag-stellen-0000000000005e44";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248465 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-248466;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Berlin</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bauten und Denkmalschutz</li>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. November 2026</li>\n    <li>31. Juli 2027</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027".
+_:n3-248466 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248467;
+    rdf:_2 _:n3-248472;
+    rdf:_3 _:n3-248485;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Berlin</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bauten und Denkmalschutz</li>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. November 2026</li>\n   <li>31. Juli 2027</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: 30. November 2026 31. Juli 2027".
+_:n3-248467 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248468;
+    rdf:_2 _:n3-248469;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Berlin</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin".
+_:n3-248468 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-248469 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248470;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Berlin</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-248470 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248471;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Berlin</li>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-248471 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-248472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248473;
+    rdf:_2 _:n3-248474;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bauten und Denkmalschutz</li>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-248473 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-248474 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248475;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bauten und Denkmalschutz</li>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Wissenschaft und Forschung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-248475 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248476;
+    rdf:_2 _:n3-248477;
+    rdf:_3 _:n3-248478;
+    rdf:_4 _:n3-248479;
+    rdf:_5 _:n3-248480;
+    rdf:_6 _:n3-248481;
+    rdf:_7 _:n3-248482;
+    rdf:_8 _:n3-248483;
+    rdf:_9 _:n3-248484;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bauten und Denkmalschutz</li>\n<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Wissenschaft und Forschung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-248476 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-248477 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-248478 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-248479 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-248480 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-248481 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-248482 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-248483 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-248484 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-248485 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248486;
+    rdf:_2 _:n3-248487;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. November 2026</li>\n  <li>31. Juli 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. November 2026 31. Juli 2027".
+_:n3-248486 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-248487 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248488;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. November 2026</li>\n <li>31. Juli 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026 31. Juli 2027".
+_:n3-248488 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-248489;
+    rdf:_2 _:n3-248490;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. November 2026</li>\n<li>31. Juli 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026 31. Juli 2027".
+_:n3-248489 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. November 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. November 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026".
+_:n3-248490 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Juli 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Juli 2027";
+    <https://html.spec.whatwg.org/#innerText> "31. Juli 2027".
+_:n3-248491 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248492;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Alexanderplatz 2,\n     <br>\n     10178 Berlin</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>030 86963090</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248492 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248493;
+    rdf:_2 _:n3-248511;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Alexanderplatz 2,\n    <br>\n    10178 Berlin</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>030 86963090</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248493 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248494;
+    rdf:_2 _:n3-248496;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Alexanderplatz 2,\n   <br>\n   10178 Berlin</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>030 86963090</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248494 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-248495;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin\" class=\"link\">Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin</a>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin".
+_:n3-248495 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Berliner Sparkasse – von Bürgerinnen und Bürgern für Berlin";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/1558-stiftung-berliner-sparkasse-von-buergerinnen-und-buergern-fuer-berlin".
+_:n3-248496 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248497;
+    rdf:_2 _:n3-248500;
+    rdf:_3 _:n3-248504;
+    rdf:_4 _:n3-248508;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Alexanderplatz 2,\n  <br>\n  10178 Berlin</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>030 86963090</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Alexanderplatz 2, 10178 Berlin E-Mail info@berliner-sparkasse.de Webseite www.berliner-sparkasse.de/stiftung Telefon 030 86963090".
+_:n3-248497 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248498;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Alexanderplatz 2,\n <br>\n 10178 Berlin</p>";
+    <https://html.spec.whatwg.org/#innerText> "Alexanderplatz 2, 10178 Berlin".
+_:n3-248498 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Alexanderplatz 2,";
+    rdf:_2 _:n3-248499;
+    rdf:_3 "10178 Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Alexanderplatz 2,\n<br>\n10178 Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Alexanderplatz 2, 10178 Berlin".
+_:n3-248499 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-248500 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248501;
+    rdf:_2 _:n3-248502;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@berliner-sparkasse.de".
+_:n3-248501 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-248502 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-248503;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@berliner-sparkasse.de\">info@berliner-sparkasse.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@berliner-sparkasse.de".
+_:n3-248503 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@berliner-sparkasse.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@berliner-sparkasse.de";
+    <https://html.spec.whatwg.org/#innerText> "info@berliner-sparkasse.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@berliner-sparkasse.de".
+_:n3-248504 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248505;
+    rdf:_2 _:n3-248506;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.berliner-sparkasse.de/stiftung".
+_:n3-248505 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-248506 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-248507;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.berliner-sparkasse.de/stiftung\" target=\"_blank\">www.berliner-sparkasse.de/stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.berliner-sparkasse.de/stiftung".
+_:n3-248507 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.berliner-sparkasse.de/stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "www.berliner-sparkasse.de/stiftung";
+    <https://html.spec.whatwg.org/#innerText> "www.berliner-sparkasse.de/stiftung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.berliner-sparkasse.de/stiftung";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-248508 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248509;
+    rdf:_2 _:n3-248510;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>030 86963090</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 030 86963090".
+_:n3-248509 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-248510 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "030 86963090";
+    <https://html.spec.whatwg.org/#innerHTML> "030 86963090";
+    <https://html.spec.whatwg.org/#innerText> "030 86963090".
+_:n3-248511 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248512;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png\" width=\"800\" height=\"144\">".
+_:n3-248512 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "144";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Berliner-Sparkasse.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-248513 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-248514;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-248514 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248515;
+    rdf:_2 _:n3-248519;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-248515 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-248516;
+    rdf:_2 _:n3-248517;
+    rdf:_3 _:n3-248518;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-248516 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-248517 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-248518 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-248519 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-248520;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-248520 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-248521 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-248522 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-248523 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-248524 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderungen-der-stiftung-berliner-sparkasse";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-248525 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-248526 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderungen der Stiftung Berliner Sparkasse  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderungen der Stiftung Berliner Sparkasse  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderungen der Stiftung Berliner Sparkasse  –  Förderdatenbank".
+_:n3-248527 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-248528 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

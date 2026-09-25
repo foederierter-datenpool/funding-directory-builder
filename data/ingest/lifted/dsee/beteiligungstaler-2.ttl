@@ -1,0 +1,912 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-159177 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159178;
+    rdf:_10 _:n3-159179;
+    rdf:_11 _:n3-159180;
+    rdf:_12 _:n3-159181;
+    rdf:_13 _:n3-159182;
+    rdf:_14 _:n3-159183;
+    rdf:_15 _:n3-159184;
+    rdf:_16 _:n3-159185;
+    rdf:_17 _:n3-159186;
+    rdf:_18 _:n3-159187;
+    rdf:_19 _:n3-159188;
+    rdf:_2 _:n3-159189;
+    rdf:_20 _:n3-159190;
+    rdf:_21 _:n3-159191;
+    rdf:_22 _:n3-159192;
+    rdf:_23 _:n3-159209;
+    rdf:_24 _:n3-159214;
+    rdf:_25 _:n3-159338;
+    rdf:_26 _:n3-159346;
+    rdf:_3 _:n3-159347;
+    rdf:_4 _:n3-159348;
+    rdf:_5 _:n3-159349;
+    rdf:_6 _:n3-159350;
+    rdf:_7 _:n3-159351;
+    rdf:_8 _:n3-159352;
+    rdf:_9 _:n3-159353;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "beteiligungstaler-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Beteiligungstaler  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Beteiligungstaler\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Beteiligungstaler\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Beteiligungstaler</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n     <p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n      <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n      <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n      <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n      <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n      <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n      <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n      <p></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n      <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n      <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n      <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n      <p></p>\n      <ul style=\"margin-top:0cm;\" type=\"disc\">\n       <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n        <p></p></li>\n       <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n        <p></p></li>\n       <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n        <p></p></li>\n       <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n        <p></p></li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n      <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Soziales</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>2.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Nein</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Augustenstraße 15,\n        <br>\n        70178 Stuttgart</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0711 34225600</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Beteiligungstaler Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600 ©2026 Impressum Datenschutzerklärung".
+_:n3-159178 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-159179 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-159180 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-159181 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-159182 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Beteiligungstaler";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-159183 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-159184 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Beteiligungstaler";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-159185 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-159186 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-159187 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-159188 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-159189 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-159190 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#type> "module";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);".
+_:n3-159191 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-159192 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159193;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-159193 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159194;
+    rdf:_2 _:n3-159196;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-159194 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-159195;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-159195 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-159196 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159197;
+    rdf:_2 _:n3-159200;
+    rdf:_3 _:n3-159203;
+    rdf:_4 _:n3-159206;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-159197 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-159198;
+    rdf:_2 _:n3-159199;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159198 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-159199 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-159200 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-159201;
+    rdf:_2 _:n3-159202;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159201 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-159202 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-159203 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-159204;
+    rdf:_2 _:n3-159205;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159204 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-159205 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-159206 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-159207;
+    rdf:_2 _:n3-159208;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159207 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-159208 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-159209 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-159210;
+    rdf:_2 _:n3-159213;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-159210 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-159211;
+    rdf:_2 _:n3-159212;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-159211 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-159212 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-159213 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-159214 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-159215;
+    rdf:_2 _:n3-159220;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Beteiligungstaler</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n    <p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n     <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n     <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n     <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n     <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n     <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n     <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n     <p></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n     <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n     <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n     <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n     <p></p>\n     <ul style=\"margin-top:0cm;\" type=\"disc\">\n      <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n       <p></p></li>\n      <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n       <p></p></li>\n      <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n       <p></p></li>\n      <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n       <p></p></li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n     <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Soziales</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>2.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Nein</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Augustenstraße 15,\n       <br>\n       70178 Stuttgart</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0711 34225600</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Beteiligungstaler Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159215 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-159216;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Beteiligungstaler</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Beteiligungstaler".
+_:n3-159216 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159217;
+    rdf:_2 _:n3-159218;
+    rdf:_3 _:n3-159219;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Beteiligungstaler</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Beteiligungstaler".
+_:n3-159217 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-159218 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-159219 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Beteiligungstaler";
+    <https://html.spec.whatwg.org/#innerHTML> "Beteiligungstaler";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler".
+_:n3-159220 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-159221;
+    rdf:_2 _:n3-159316;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n   <p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n    <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n    <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n    <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n    <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n    <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n    <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n    <p></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n    <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n    <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n    <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n    <p></p>\n    <ul style=\"margin-top:0cm;\" type=\"disc\">\n     <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n      <p></p></li>\n     <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n      <p></p></li>\n     <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n      <p></p></li>\n     <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n      <p></p></li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n    <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Soziales</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>2.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Nein</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Augustenstraße 15,\n      <br>\n      70178 Stuttgart</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0711 34225600</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159221 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159222;
+    rdf:_2 _:n3-159278;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n  <p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n   <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n   <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n   <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n   <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n   <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n   <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n   <p></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n   <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n   <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n   <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n   <p></p>\n   <ul style=\"margin-top:0cm;\" type=\"disc\">\n    <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n     <p></p></li>\n    <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n     <p></p></li>\n    <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n     <p></p></li>\n    <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n     <p></p></li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n   <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Soziales</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>2.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Nein</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-159222 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159223;
+    rdf:_2 _:n3-159226;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n <p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n  <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n  <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n  <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n  <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n  <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n  <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n  <p></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n  <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n  <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n  <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n  <p></p>\n  <ul style=\"margin-top:0cm;\" type=\"disc\">\n   <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n    <p></p></li>\n   <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n    <p></p></li>\n   <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n    <p></p></li>\n   <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n    <p></p></li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n  <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular".
+_:n3-159223 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-159224;
+    rdf:_2 _:n3-159225;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Beteiligungstaler</h1>\n<p class=\"text-lg text-gray-500\">Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung</p>";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung".
+_:n3-159224 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Beteiligungstaler";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Beteiligungstaler";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler".
+_:n3-159225 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung";
+    <https://html.spec.whatwg.org/#innerText> "Projektfonds zur Förderung von Zivilgesellschaft und Bürgerbeteiligung".
+_:n3-159226 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159227;
+    rdf:_2 _:n3-159244;
+    rdf:_3 _:n3-159264;
+    rdf:_4 _:n3-159271;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n <p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n <p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n <p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n <p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n <p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n <p></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n <p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n <p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n <p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n <p></p>\n <ul style=\"margin-top:0cm;\" type=\"disc\">\n  <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n   <p></p></li>\n  <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n   <p></p></li>\n  <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n   <p></p></li>\n  <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n   <p></p></li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n <p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung. Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können. Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden. Weitere Informationen Link zum Programm Antragsformular".
+_:n3-159227 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159228;
+    rdf:_2 _:n3-159229;
+    rdf:_3 _:n3-159231;
+    rdf:_4 _:n3-159234;
+    rdf:_5 _:n3-159236;
+    rdf:_6 _:n3-159238;
+    rdf:_7 _:n3-159241;
+    rdf:_8 _:n3-159243;
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"MsoNormal\">Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.</p>\n<p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Themenschwerpunkte:</b></p>\n<p class=\"MsoNormal\"><b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span></p>\n<p class=\"MsoNormal\"><b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.</p>\n<p class=\"MsoNormal\"><b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.</p>\n<p class=\"MsoNormal\"><b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.</p>\n<p class=\"MsoNormal\"><b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.</p>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen. Themenschwerpunkte: Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen. Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil. Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen. Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs. Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.".
+_:n3-159228 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Beteiligungstaler“ bietet zivilgesellschaftlichen Gruppen die Möglichkeit, Unterstützung für ihr Beteiligungsprojekt vor Ort zu erhalten. Das Programm ermöglicht die Finanzierung von Sachkosten, die während der Durchführung eines Beteiligungsprojekts anfallen.".
+_:n3-159229 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159230;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b style=\"font-family:inherit;\">Themenschwerpunkte:</b>";
+    <https://html.spec.whatwg.org/#innerText> "Themenschwerpunkte:".
+_:n3-159230 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Themenschwerpunkte:";
+    <https://html.spec.whatwg.org/#innerHTML> "Themenschwerpunkte:";
+    <https://html.spec.whatwg.org/#innerText> "Themenschwerpunkte:";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159231 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159232;
+    rdf:_2 _:n3-159233;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b style=\"font-family:inherit;\">Bürgerbeteiligung:</b><span style=\"font-family:inherit;\"> Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.</span>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerbeteiligung: Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.".
+_:n3-159232 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Bürgerbeteiligung:";
+    <https://html.spec.whatwg.org/#innerHTML> "Bürgerbeteiligung:";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerbeteiligung:";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159233 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 " Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.";
+    <https://html.spec.whatwg.org/#innerText> "Formate zur Einbindung der Zivilgesellschaft in politische und gesellschaftlich relevante Fragestellungen.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159234 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159235;
+    rdf:_2 " Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b>Quartiersentwicklung:</b> Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.";
+    <https://html.spec.whatwg.org/#innerText> "Quartiersentwicklung: Maßnahmen zur Förderung von Begegnung, Vernetzung und Zusammenleben im Stadtteil oder Ortsteil.".
+_:n3-159235 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Quartiersentwicklung:";
+    <https://html.spec.whatwg.org/#innerHTML> "Quartiersentwicklung:";
+    <https://html.spec.whatwg.org/#innerText> "Quartiersentwicklung:".
+_:n3-159236 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159237;
+    rdf:_2 " Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b>Mobilität:</b> Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.";
+    <https://html.spec.whatwg.org/#innerText> "Mobilität: Projekte zur Förderung nachhaltiger Mobilität, etwa Infoaktionen, Austauschformate oder konkrete Infrastrukturmaßnahmen.".
+_:n3-159237 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Mobilität:";
+    <https://html.spec.whatwg.org/#innerHTML> "Mobilität:";
+    <https://html.spec.whatwg.org/#innerText> "Mobilität:".
+_:n3-159238 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159239;
+    rdf:_2 " Initiativen zur Stärkung lebenswerter ländlicher Räume, z.";
+    rdf:_3 _:n3-159240;
+    rdf:_4 "B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b>Ländlicher Raum:</b> Initiativen zur Stärkung lebenswerter ländlicher Räume, z.<span> </span>B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.";
+    <https://html.spec.whatwg.org/#innerText> "Ländlicher Raum: Initiativen zur Stärkung lebenswerter ländlicher Räume, z. B. Dorfläden, Umnutzung von Leerstand oder Dorftreffs.".
+_:n3-159239 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Ländlicher Raum:";
+    <https://html.spec.whatwg.org/#innerHTML> "Ländlicher Raum:";
+    <https://html.spec.whatwg.org/#innerText> "Ländlicher Raum:".
+_:n3-159240 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 " ";
+    <https://html.spec.whatwg.org/#innerHTML> " ";
+    <https://html.spec.whatwg.org/#innerText> " ".
+_:n3-159241 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159242;
+    rdf:_2 " Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<b>Ernährung:</b> Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.";
+    <https://html.spec.whatwg.org/#innerText> "Ernährung: Projekte zu nachhaltiger Ernährung, Foodsaving, Ernährungsbildung oder gemeinschaftlicher Lebensmittelversorgung.".
+_:n3-159242 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 "Ernährung:";
+    <https://html.spec.whatwg.org/#innerHTML> "Ernährung:";
+    <https://html.spec.whatwg.org/#innerText> "Ernährung:".
+_:n3-159243 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159244 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159245;
+    rdf:_2 _:n3-159246;
+    rdf:_3 _:n3-159247;
+    rdf:_4 _:n3-159249;
+    rdf:_5 _:n3-159252;
+    rdf:_6 _:n3-159254;
+    rdf:_7 _:n3-159255;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p class=\"MsoNormal\">Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).</p>\n<p class=\"MsoNormal\">Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span></p>\n<p class=\"MsoNormal\"><strong>Fördervoraussetzungen:</strong></p>\n<p></p>\n<ul style=\"margin-top:0cm;\" type=\"disc\">\n <li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n  <p></p></li>\n <li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n  <p></p></li>\n <li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n  <p></p></li>\n <li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n  <p></p></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.). Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen. Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich. Fördervoraussetzungen: Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.".
+_:n3-159245 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-159246 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).";
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind zivilgesellschaftliche Gruppen aus Baden-Württemberg mit und ohne eingetragene Rechtsform (z. B. Bürgergruppen, Arbeitskreise, Vereine, Verbände usw.).".
+_:n3-159247 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;";
+    rdf:_2 _:n3-159248;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar.&nbsp;<span style=\"font-family:inherit;\">Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;</span>";
+    <https://html.spec.whatwg.org/#innerText> "Mit dem Förderprogramm ist zum Beispiel die Übernahme von Sachkosten förderbar, die im Rahmen von Projekten im Bereich der Bürgerbeteiligung anfallen können. Zum Beispiel für Flyer, Moderation, für Kinderbetreuung während Veranstaltungen oder für Catering. Viele weitere Beispiele sind denkbar. Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.".
+_:n3-159248 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Zu Sachkosten zählen auch Honorarkosten und Anschaffungskosten. Bei Anschaffungskosten darf der Warenwert nicht über 800 € zzgl. MwSt. liegen.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159249 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159250;
+    rdf:_2 _:n3-159251;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-family:inherit;\">Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;</span><span style=\"font-family:inherit;\">Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.</span>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden. Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.".
+_:n3-159250 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten, die vor Zusage der Förderung entstanden sind, können nicht gefördert werden.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159251 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Eine Vergütung von ehrenamtlicher Tätigkeit ist nicht möglich.";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159252 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159253;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Fördervoraussetzungen:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Fördervoraussetzungen:".
+_:n3-159253 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Fördervoraussetzungen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördervoraussetzungen:";
+    <https://html.spec.whatwg.org/#innerText> "Fördervoraussetzungen:".
+_:n3-159254 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159255 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-159256;
+    rdf:_2 _:n3-159258;
+    rdf:_3 _:n3-159260;
+    rdf:_4 _:n3-159262;
+    <https://html.spec.whatwg.org/#innerHTML> "<li class=\"MsoNormal\">Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n <p></p></li>\n<li class=\"MsoNormal\">Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n <p></p></li>\n<li class=\"MsoNormal\">Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n <p></p></li>\n<li class=\"MsoNormal\">Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n <p></p></li>";
+    <https://html.spec.whatwg.org/#innerText> "Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen. Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en). Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen. Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.";
+    <http://www.w3.org/1999/xhtml#style> "margin-top:0cm;";
+    <http://www.w3.org/1999/xhtml#type> "disc".
+_:n3-159256 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.";
+    rdf:_2 _:n3-159257;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Im Antrag muss beschrieben werden, welches Ziel der Antragstellende mit dem Beteiligungsprojekt verfolgt und welche Maßnahmen der Bürgerbeteiligung zum Einsatz kommen.".
+_:n3-159257 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159258 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).";
+    rdf:_2 _:n3-159259;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Dem Antrag muss eine kommunale Stellungnahme beiliegen sowie ein Kosten- und Finanzierungsplan für die geplante(n) Ausgabe(n), die finanziert werden soll(en).".
+_:n3-159259 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159260 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.";
+    rdf:_2 _:n3-159261;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Die zu fördernden Ausgaben müssen in unmittelbarem Zusammenhang mit dem Beteiligungsprojekt stehen.".
+_:n3-159261 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159262 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.";
+    rdf:_2 _:n3-159263;
+    <http://www.w3.org/1999/xhtml#class> "MsoNormal";
+    <https://html.spec.whatwg.org/#innerHTML> "Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Es muss begründet werden, warum die Ausgaben vom Antragstellenden nicht anderweitig finanziert werden können.".
+_:n3-159263 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-159264 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159265;
+    rdf:_2 _:n3-159266;
+    rdf:_3 _:n3-159268;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p><span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.</p>\n<p><span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist fortlaufend möglich. Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.".
+_:n3-159265 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-159266 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159267;
+    rdf:_2 " Antragstellung ist fortlaufend möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-family:inherit;\">Die</span> Antragstellung ist fortlaufend möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragstellung ist fortlaufend möglich.".
+_:n3-159267 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Die";
+    <https://html.spec.whatwg.org/#innerHTML> "Die";
+    <https://html.spec.whatwg.org/#innerText> "Die";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159268 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159269;
+    rdf:_2 " ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse ";
+    rdf:_3 _:n3-159270;
+    rdf:_4 " eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.";
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-family:inherit;\">Der</span> ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse <span style=\"font-weight:bold;\">Antrag@afb-bw.de</span> eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.";
+    <https://html.spec.whatwg.org/#innerText> "Der ausgefüllte und im Original unterschriebene Antrag kann digital per Mail an die Adresse Antrag@afb-bw.de eingereicht werden. Alternativ besteht weiterhin die Möglichkeit, den Antrag postalisch an die Allianz für Beteiligung zu senden.".
+_:n3-159269 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Der";
+    <https://html.spec.whatwg.org/#innerHTML> "Der";
+    <https://html.spec.whatwg.org/#innerText> "Der";
+    <http://www.w3.org/1999/xhtml#style> "font-family:inherit;".
+_:n3-159270 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Antrag@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerHTML> "Antrag@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerText> "Antrag@afb-bw.de";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-159271 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159272;
+    rdf:_2 _:n3-159273;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Antragsformular".
+_:n3-159272 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-159273 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-159274;
+    rdf:_2 _:n3-159276;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Antragsformular".
+_:n3-159274 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-159275;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-159275 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/foerderprogramme/beteiligungstaler/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159276 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-159277;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-159277 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/wp-content/uploads/2024/12/AfB_BT-Antragsunterlage_241212.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159278 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-159279;
+    rdf:_2 _:n3-159282;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Soziales</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>2.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Nein</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-159279 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159280;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">\n</figure>".
+_:n3-159280 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-159281;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg\" width=\"800\" height=\"913\">".
+_:n3-159281 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "913";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo_2025-05-06-075542_bafn.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-159282 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159283;
+    rdf:_2 _:n3-159288;
+    rdf:_3 _:n3-159298;
+    rdf:_4 _:n3-159304;
+    rdf:_5 _:n3-159307;
+    rdf:_6 _:n3-159310;
+    rdf:_7 _:n3-159313;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Soziales</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>2.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Nein</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 2.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-159283 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159284;
+    rdf:_2 _:n3-159285;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg".
+_:n3-159284 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-159285 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159286;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-159286 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-159287;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Baden-Württemberg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-159287 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-159288 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159289;
+    rdf:_2 _:n3-159290;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Soziales</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-159289 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-159290 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159291;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Soziales</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-159291 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-159292;
+    rdf:_2 _:n3-159293;
+    rdf:_3 _:n3-159294;
+    rdf:_4 _:n3-159295;
+    rdf:_5 _:n3-159296;
+    rdf:_6 _:n3-159297;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Soziales</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Soziales Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-159292 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-159293 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-159294 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-159295 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-159296 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-159297 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-159298 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159299;
+    rdf:_2 _:n3-159300;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-159299 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-159300 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159301;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-159301 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-159302;
+    rdf:_2 _:n3-159303;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-159302 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-159303 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-159304 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159305;
+    rdf:_2 _:n3-159306;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>2.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 2.000 €".
+_:n3-159305 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-159306 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "2.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "2.000 €";
+    <https://html.spec.whatwg.org/#innerText> "2.000 €".
+_:n3-159307 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159308;
+    rdf:_2 _:n3-159309;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Nein".
+_:n3-159308 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-159309 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-159310 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159311;
+    rdf:_2 _:n3-159312;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-159311 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-159312 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-159313 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159314;
+    rdf:_2 _:n3-159315;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-159314 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-159315 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-159316 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159317;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Augustenstraße 15,\n     <br>\n     70178 Stuttgart</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0711 34225600</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159317 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159318;
+    rdf:_2 _:n3-159336;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Augustenstraße 15,\n    <br>\n    70178 Stuttgart</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0711 34225600</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159318 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159319;
+    rdf:_2 _:n3-159321;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Augustenstraße 15,\n   <br>\n   70178 Stuttgart</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0711 34225600</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V. Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159319 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-159320;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v\" class=\"link\">Allianz für Beteiligung e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V.".
+_:n3-159320 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Allianz für Beteiligung e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Allianz für Beteiligung e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Allianz für Beteiligung e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/37759-allianz-fuer-beteiligung-e-v".
+_:n3-159321 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159322;
+    rdf:_2 _:n3-159325;
+    rdf:_3 _:n3-159329;
+    rdf:_4 _:n3-159333;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Augustenstraße 15,\n  <br>\n  70178 Stuttgart</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0711 34225600</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart E-Mail info@afb-bw.de Webseite allianz-fuer-beteiligung.de/ Telefon 0711 34225600".
+_:n3-159322 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159323;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Augustenstraße 15,\n <br>\n 70178 Stuttgart</p>";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart".
+_:n3-159323 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Augustenstraße 15,";
+    rdf:_2 _:n3-159324;
+    rdf:_3 "70178 Stuttgart";
+    <https://html.spec.whatwg.org/#innerHTML> "Augustenstraße 15,\n<br>\n70178 Stuttgart";
+    <https://html.spec.whatwg.org/#innerText> "Augustenstraße 15, 70178 Stuttgart".
+_:n3-159324 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-159325 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159326;
+    rdf:_2 _:n3-159327;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@afb-bw.de".
+_:n3-159326 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-159327 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159328;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@afb-bw.de\">info@afb-bw.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@afb-bw.de".
+_:n3-159328 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@afb-bw.de";
+    <https://html.spec.whatwg.org/#innerText> "info@afb-bw.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@afb-bw.de".
+_:n3-159329 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159330;
+    rdf:_2 _:n3-159331;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite allianz-fuer-beteiligung.de/".
+_:n3-159330 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-159331 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-159332;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://allianz-fuer-beteiligung.de/\" target=\"_blank\">allianz-fuer-beteiligung.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "allianz-fuer-beteiligung.de/".
+_:n3-159332 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "allianz-fuer-beteiligung.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "allianz-fuer-beteiligung.de/";
+    <https://html.spec.whatwg.org/#innerText> "allianz-fuer-beteiligung.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://allianz-fuer-beteiligung.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-159333 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159334;
+    rdf:_2 _:n3-159335;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0711 34225600</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0711 34225600".
+_:n3-159334 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-159335 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0711 34225600";
+    <https://html.spec.whatwg.org/#innerHTML> "0711 34225600";
+    <https://html.spec.whatwg.org/#innerText> "0711 34225600".
+_:n3-159336 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159337;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg\" width=\"800\" height=\"913\">".
+_:n3-159337 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "913";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AfB-Logo.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-159338 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-159339;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-159339 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159340;
+    rdf:_2 _:n3-159344;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-159340 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-159341;
+    rdf:_2 _:n3-159342;
+    rdf:_3 _:n3-159343;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-159341 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-159342 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-159343 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-159344 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-159345;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-159345 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-159346 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-159347 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-159348 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-159349 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/beteiligungstaler-2";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-159350 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-159351 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Beteiligungstaler  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Beteiligungstaler  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Beteiligungstaler  –  Förderdatenbank".
+_:n3-159352 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-159353 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

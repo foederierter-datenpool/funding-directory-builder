@@ -1,0 +1,682 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-120099 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120100;
+    rdf:_10 _:n3-120101;
+    rdf:_11 _:n3-120102;
+    rdf:_12 _:n3-120103;
+    rdf:_13 _:n3-120104;
+    rdf:_14 _:n3-120105;
+    rdf:_15 _:n3-120106;
+    rdf:_16 _:n3-120107;
+    rdf:_17 _:n3-120108;
+    rdf:_18 _:n3-120109;
+    rdf:_19 _:n3-120110;
+    rdf:_2 _:n3-120111;
+    rdf:_20 _:n3-120112;
+    rdf:_21 _:n3-120113;
+    rdf:_22 _:n3-120114;
+    rdf:_23 _:n3-120131;
+    rdf:_24 _:n3-120136;
+    rdf:_25 _:n3-120215;
+    rdf:_26 _:n3-120223;
+    rdf:_3 _:n3-120224;
+    rdf:_4 _:n3-120225;
+    rdf:_5 _:n3-120226;
+    rdf:_6 _:n3-120227;
+    rdf:_7 _:n3-120228;
+    rdf:_8 _:n3-120229;
+    rdf:_9 _:n3-120230;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-buergerstiftung-bad-berka";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Bürgerstiftung Bad Berka  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Bürgerstiftung Bad Berka\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Bürgerstiftung Bad Berka\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Bad Berka</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n      <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n      <p>Dies wird insbesondere verwirklicht durch:</p>\n      <ul>\n       <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n       <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n       <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n       <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n       <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n       <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n       <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n       <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n       <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n       <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n       <li>Förderung des Brauchtums und der Heimatpflege</li>\n       <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n       <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n       <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Thüringen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bauten und Denkmalschutz</li>\n        <li>Bildung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Bahnhofstraße 15,\n        <br>\n        99438 Bad Berka</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Bürgerstiftung Bad Berka Förderung der Bürgerstiftung Bad Berka Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de ©2026 Impressum Datenschutzerklärung".
+_:n3-120100 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-120101 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-120102 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-120103 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-120104 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Bad Berka";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-120105 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-120106 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Bad Berka";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-120107 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-120108 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-120109 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-120110 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-120111 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-120112 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-120113 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-120114 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120115;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-120115 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120116;
+    rdf:_2 _:n3-120118;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-120116 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-120117;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-120117 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-120118 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120119;
+    rdf:_2 _:n3-120122;
+    rdf:_3 _:n3-120125;
+    rdf:_4 _:n3-120128;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-120119 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-120120;
+    rdf:_2 _:n3-120121;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120120 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-120121 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-120122 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-120123;
+    rdf:_2 _:n3-120124;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120123 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-120124 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-120125 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-120126;
+    rdf:_2 _:n3-120127;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120126 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-120127 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-120128 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-120129;
+    rdf:_2 _:n3-120130;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120129 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-120130 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-120131 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-120132;
+    rdf:_2 _:n3-120135;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-120132 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-120133;
+    rdf:_2 _:n3-120134;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-120133 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-120134 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-120135 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-120136 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-120137;
+    rdf:_2 _:n3-120142;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Bad Berka</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n     <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n     <p>Dies wird insbesondere verwirklicht durch:</p>\n     <ul>\n      <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n      <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n      <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n      <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n      <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n      <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n      <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n      <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n      <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n      <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n      <li>Förderung des Brauchtums und der Heimatpflege</li>\n      <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n      <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n      <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Thüringen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bauten und Denkmalschutz</li>\n       <li>Bildung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Bahnhofstraße 15,\n       <br>\n       99438 Bad Berka</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Bad Berka Förderung der Bürgerstiftung Bad Berka Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120137 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-120138;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Bad Berka</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Bad Berka".
+_:n3-120138 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120139;
+    rdf:_2 _:n3-120140;
+    rdf:_3 _:n3-120141;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Bad Berka</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Bad Berka".
+_:n3-120139 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-120140 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-120141 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Bürgerstiftung Bad Berka";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Bad Berka";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka".
+_:n3-120142 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-120143;
+    rdf:_2 _:n3-120198;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n    <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n    <p>Dies wird insbesondere verwirklicht durch:</p>\n    <ul>\n     <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n     <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n     <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n     <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n     <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n     <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n     <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n     <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n     <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n     <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n     <li>Förderung des Brauchtums und der Heimatpflege</li>\n     <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n     <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n     <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Thüringen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bauten und Denkmalschutz</li>\n      <li>Bildung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Bahnhofstraße 15,\n      <br>\n      99438 Bad Berka</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120143 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120144;
+    rdf:_2 _:n3-120175;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n   <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n   <p>Dies wird insbesondere verwirklicht durch:</p>\n   <ul>\n    <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n    <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n    <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n    <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n    <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n    <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n    <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n    <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n    <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n    <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n    <li>Förderung des Brauchtums und der Heimatpflege</li>\n    <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n    <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n    <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Thüringen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bauten und Denkmalschutz</li>\n     <li>Bildung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-120144 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120145;
+    rdf:_2 _:n3-120147;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n  <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n  <p>Dies wird insbesondere verwirklicht durch:</p>\n  <ul>\n   <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n   <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n   <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n   <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n   <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n   <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n   <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n   <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n   <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n   <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n   <li>Förderung des Brauchtums und der Heimatpflege</li>\n   <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n   <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n   <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n  </ul>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website".
+_:n3-120145 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-120146;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Bad Berka</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka".
+_:n3-120146 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Bürgerstiftung Bad Berka";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Bad Berka";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka".
+_:n3-120147 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120148;
+    rdf:_2 _:n3-120167;
+    rdf:_3 _:n3-120170;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n <p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n <p>Dies wird insbesondere verwirklicht durch:</p>\n <ul>\n  <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n  <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n  <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n  <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n  <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n  <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n  <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n  <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n  <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n  <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n  <li>Förderung des Brauchtums und der Heimatpflege</li>\n  <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n  <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n  <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n </ul>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten) Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich. Weitere Informationen Link zur Website".
+_:n3-120148 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120149;
+    rdf:_2 _:n3-120150;
+    rdf:_3 _:n3-120151;
+    rdf:_4 _:n3-120152;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.</p>\n<p>Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.</p>\n<p>Dies wird insbesondere verwirklicht durch:</p>\n<ul>\n <li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n <li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n <li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n <li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n <li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n <li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n <li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n <li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n <li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n <li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n <li>Förderung des Brauchtums und der Heimatpflege</li>\n <li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n <li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n <li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden. Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen. Dies wird insbesondere verwirklicht durch: Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)".
+_:n3-120149 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.";
+    <https://html.spec.whatwg.org/#innerText> "Die Bereitschaft der Bürger, sich für Ihre Stadt zu engagieren ist der Schlüssel, um eine Stadt noch lebenswerter zu gestalten. Dafür steht die Bürgerstiftung Bad Berka - ins Leben gerufen von den Bürgern und Unternehmen der Stadt. Seit ihrer Gründung 2014 initiiert, realisiert und unterstützt sie als allgemeinnützige Stiftung verschiedenste Projekte für Bad Berka und seine Gemeinden.".
+_:n3-120150 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.";
+    <https://html.spec.whatwg.org/#innerText> "Der Zweck der Stiftung ist es, verschiedenste Projekte im Raum Bad Berka zu fördern und zu entwickeln. Der Schwerpunkt liegt dabei vor allem in der Förderung von sozialen und kulturellen Anliegen, die den Bürgerinnen und Bürgern von Bad Berka besonders am Herzen liegen. Ziel ist es stets, mit den Projekten zur Verbesserung der Lebensqualität in der Stadt Bad Berka beizutragen.".
+_:n3-120151 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Dies wird insbesondere verwirklicht durch:";
+    <https://html.spec.whatwg.org/#innerHTML> "Dies wird insbesondere verwirklicht durch:";
+    <https://html.spec.whatwg.org/#innerText> "Dies wird insbesondere verwirklicht durch:".
+_:n3-120152 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-120153;
+    rdf:_10 _:n3-120154;
+    rdf:_11 _:n3-120155;
+    rdf:_12 _:n3-120156;
+    rdf:_13 _:n3-120157;
+    rdf:_14 _:n3-120158;
+    rdf:_2 _:n3-120159;
+    rdf:_3 _:n3-120160;
+    rdf:_4 _:n3-120161;
+    rdf:_5 _:n3-120162;
+    rdf:_6 _:n3-120163;
+    rdf:_7 _:n3-120164;
+    rdf:_8 _:n3-120165;
+    rdf:_9 _:n3-120166;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards</li>\n<li>Unterstützung von Jugendprojekten, Schulen und Jugendverbänden</li>\n<li>Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln</li>\n<li>Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)</li>\n<li>Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.</li>\n<li>Nationale und internationale Ausstellungen und Veranstaltungen</li>\n<li>Förderung der musischen Ausbildung und Erziehung der Jugend</li>\n<li>Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude</li>\n<li>Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka</li>\n<li>Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege</li>\n<li>Förderung des Brauchtums und der Heimatpflege</li>\n<li>Förderung der medizinischen Versorgung der Bevölkerung</li>\n<li>Heranführung und Gewinnung von Bürgern für sportliche Betätigungen</li>\n<li>Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)</li>";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards Unterstützung von Jugendprojekten, Schulen und Jugendverbänden Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste) Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc. Nationale und internationale Ausstellungen und Veranstaltungen Förderung der musischen Ausbildung und Erziehung der Jugend Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege Förderung des Brauchtums und der Heimatpflege Förderung der medizinischen Versorgung der Bevölkerung Heranführung und Gewinnung von Bürgern für sportliche Betätigungen Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)".
+_:n3-120153 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards";
+    <https://html.spec.whatwg.org/#innerHTML> "Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung hilfsbedürftiger Menschen zur Ermöglichung eines lebenswerten und sozial angemessenen Lebensstandards".
+_:n3-120154 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Projekten zum Erhalt der Kulturlandschaft und Durchführung der Landschaftspflege".
+_:n3-120155 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung des Brauchtums und der Heimatpflege";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung des Brauchtums und der Heimatpflege";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Brauchtums und der Heimatpflege".
+_:n3-120156 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung der medizinischen Versorgung der Bevölkerung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der medizinischen Versorgung der Bevölkerung";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der medizinischen Versorgung der Bevölkerung".
+_:n3-120157 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Heranführung und Gewinnung von Bürgern für sportliche Betätigungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Heranführung und Gewinnung von Bürgern für sportliche Betätigungen";
+    <https://html.spec.whatwg.org/#innerText> "Heranführung und Gewinnung von Bürgern für sportliche Betätigungen".
+_:n3-120158 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)";
+    <https://html.spec.whatwg.org/#innerHTML> "Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)";
+    <https://html.spec.whatwg.org/#innerText> "Initiierung von Forschung (Ausschreibungen von Forschungspreisen, Vergabe von Stipendien, Unterstützung von Forschungsprojekten)".
+_:n3-120159 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Unterstützung von Jugendprojekten, Schulen und Jugendverbänden";
+    <https://html.spec.whatwg.org/#innerHTML> "Unterstützung von Jugendprojekten, Schulen und Jugendverbänden";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung von Jugendprojekten, Schulen und Jugendverbänden".
+_:n3-120160 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln";
+    <https://html.spec.whatwg.org/#innerHTML> "Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln";
+    <https://html.spec.whatwg.org/#innerText> "Hilfe bei der Beschaffung und Entwicklung von technischen und medizinischen Hilfsmitteln".
+_:n3-120161 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)";
+    <https://html.spec.whatwg.org/#innerHTML> "Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)";
+    <https://html.spec.whatwg.org/#innerText> "Serviceleistungen, um die Mobilität der Menschen zu gewährleisten (z.B. Fahrdienste)".
+_:n3-120162 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.";
+    <https://html.spec.whatwg.org/#innerHTML> "Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.";
+    <https://html.spec.whatwg.org/#innerText> "Dienstleistungen im Bereich des täglichen Bedarfs, bei Einkauf, Essenversorgung etc.".
+_:n3-120163 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nationale und internationale Ausstellungen und Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Nationale und internationale Ausstellungen und Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerText> "Nationale und internationale Ausstellungen und Veranstaltungen".
+_:n3-120164 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung der musischen Ausbildung und Erziehung der Jugend";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der musischen Ausbildung und Erziehung der Jugend";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der musischen Ausbildung und Erziehung der Jugend".
+_:n3-120165 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude";
+    <https://html.spec.whatwg.org/#innerHTML> "Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude";
+    <https://html.spec.whatwg.org/#innerText> "Erhaltung und Restaurierung denkmalgeschützter Einrichtungen und Gebäude".
+_:n3-120166 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka";
+    <https://html.spec.whatwg.org/#innerHTML> "Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka";
+    <https://html.spec.whatwg.org/#innerText> "Unterstützung und Durchführung von Projekten im Rahmen des Umwelt- und Naturschutzes in der Gemeinde Bad Berka".
+_:n3-120167 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120168;
+    rdf:_2 _:n3-120169;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Eine Förderung ist innerhalb des Raumes Bad Berka möglich.".
+_:n3-120168 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-120169 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Förderung ist innerhalb des Raumes Bad Berka möglich.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Eine Förderung ist innerhalb des Raumes Bad Berka möglich.".
+_:n3-120170 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120171;
+    rdf:_2 _:n3-120172;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Website".
+_:n3-120171 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-120172 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-120173;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-120173 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-120174;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerstiftung-badberka.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-120174 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Website";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Website";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerstiftung-badberka.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120175 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-120176;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Thüringen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bauten und Denkmalschutz</li>\n    <li>Bildung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-120176 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120177;
+    rdf:_2 _:n3-120182;
+    rdf:_3 _:n3-120195;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Thüringen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bauten und Denkmalschutz</li>\n   <li>Bildung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-120177 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120178;
+    rdf:_2 _:n3-120179;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Thüringen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen".
+_:n3-120178 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-120179 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120180;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Thüringen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-120180 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-120181;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Thüringen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-120181 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Thüringen";
+    <https://html.spec.whatwg.org/#innerHTML> "Thüringen";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-120182 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120183;
+    rdf:_2 _:n3-120184;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bauten und Denkmalschutz</li>\n  <li>Bildung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-120183 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-120184 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120185;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bauten und Denkmalschutz</li>\n <li>Bildung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-120185 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-120186;
+    rdf:_2 _:n3-120187;
+    rdf:_3 _:n3-120188;
+    rdf:_4 _:n3-120189;
+    rdf:_5 _:n3-120190;
+    rdf:_6 _:n3-120191;
+    rdf:_7 _:n3-120192;
+    rdf:_8 _:n3-120193;
+    rdf:_9 _:n3-120194;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bauten und Denkmalschutz</li>\n<li>Bildung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-120186 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-120187 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-120188 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-120189 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-120190 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-120191 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-120192 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-120193 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-120194 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-120195 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120196;
+    rdf:_2 _:n3-120197;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-120196 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-120197 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-120198 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120199;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Bahnhofstraße 15,\n     <br>\n     99438 Bad Berka</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120199 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120200;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Bahnhofstraße 15,\n    <br>\n    99438 Bad Berka</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120200 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120201;
+    rdf:_2 _:n3-120203;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Bahnhofstraße 15,\n   <br>\n   99438 Bad Berka</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Bad Berka Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120201 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-120202;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka\" class=\"link\">Bürgerstiftung Bad Berka</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Bad Berka".
+_:n3-120202 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bürgerstiftung Bad Berka";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bürgerstiftung Bad Berka";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Bad Berka";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/1569-buergerstiftung-bad-berka".
+_:n3-120203 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120204;
+    rdf:_2 _:n3-120207;
+    rdf:_3 _:n3-120211;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Bahnhofstraße 15,\n  <br>\n  99438 Bad Berka</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bahnhofstraße 15, 99438 Bad Berka E-Mail kontakt@buergerstiftung-badberka.de Webseite www.buergerstiftung-badberka.de".
+_:n3-120204 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120205;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Bahnhofstraße 15,\n <br>\n 99438 Bad Berka</p>";
+    <https://html.spec.whatwg.org/#innerText> "Bahnhofstraße 15, 99438 Bad Berka".
+_:n3-120205 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bahnhofstraße 15,";
+    rdf:_2 _:n3-120206;
+    rdf:_3 "99438 Bad Berka";
+    <https://html.spec.whatwg.org/#innerHTML> "Bahnhofstraße 15,\n<br>\n99438 Bad Berka";
+    <https://html.spec.whatwg.org/#innerText> "Bahnhofstraße 15, 99438 Bad Berka".
+_:n3-120206 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-120207 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120208;
+    rdf:_2 _:n3-120209;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail kontakt@buergerstiftung-badberka.de".
+_:n3-120208 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-120209 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-120210;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:kontakt@buergerstiftung-badberka.de\">kontakt@buergerstiftung-badberka.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@buergerstiftung-badberka.de".
+_:n3-120210 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "kontakt@buergerstiftung-badberka.de";
+    <https://html.spec.whatwg.org/#innerHTML> "kontakt@buergerstiftung-badberka.de";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@buergerstiftung-badberka.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:kontakt@buergerstiftung-badberka.de".
+_:n3-120211 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120212;
+    rdf:_2 _:n3-120213;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.buergerstiftung-badberka.de".
+_:n3-120212 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-120213 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-120214;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerstiftung-badberka.de\" target=\"_blank\">www.buergerstiftung-badberka.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-badberka.de".
+_:n3-120214 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.buergerstiftung-badberka.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.buergerstiftung-badberka.de";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-badberka.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerstiftung-badberka.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-120215 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-120216;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-120216 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120217;
+    rdf:_2 _:n3-120221;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-120217 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-120218;
+    rdf:_2 _:n3-120219;
+    rdf:_3 _:n3-120220;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-120218 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-120219 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-120220 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-120221 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-120222;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-120222 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-120223 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-120224 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-120225 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-120226 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-bad-berka";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-120227 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-120228 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Bürgerstiftung Bad Berka  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Bad Berka  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Bad Berka  –  Förderdatenbank".
+_:n3-120229 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-120230 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

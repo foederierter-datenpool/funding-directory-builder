@@ -1,0 +1,801 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-165069 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165070;
+    rdf:_10 _:n3-165071;
+    rdf:_11 _:n3-165072;
+    rdf:_12 _:n3-165073;
+    rdf:_13 _:n3-165074;
+    rdf:_14 _:n3-165075;
+    rdf:_15 _:n3-165076;
+    rdf:_16 _:n3-165077;
+    rdf:_17 _:n3-165078;
+    rdf:_18 _:n3-165079;
+    rdf:_19 _:n3-165080;
+    rdf:_2 _:n3-165081;
+    rdf:_20 _:n3-165082;
+    rdf:_21 _:n3-165083;
+    rdf:_22 _:n3-165084;
+    rdf:_23 _:n3-165101;
+    rdf:_24 _:n3-165106;
+    rdf:_25 _:n3-165213;
+    rdf:_26 _:n3-165221;
+    rdf:_3 _:n3-165222;
+    rdf:_4 _:n3-165223;
+    rdf:_5 _:n3-165224;
+    rdf:_6 _:n3-165225;
+    rdf:_7 _:n3-165226;
+    rdf:_8 _:n3-165227;
+    rdf:_9 _:n3-165228;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "fonds-kulturelle-bildung-im-alter-ausschreibung-2024";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Fonds Kulturelle Bildung im Alter  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Fonds Kulturelle Bildung im Alter\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Fonds Kulturelle Bildung im Alter\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fonds Kulturelle Bildung im Alter</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n     <p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n      <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n      <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n      <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n      <p><strong>Förderkriterien</strong>\n       <br>\n       Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n      <ul>\n       <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n       <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n       <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n       <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n       <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n       <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n        <br>\n        &nbsp;</li>\n      </ul>\n      <p><strong>Antragsberechtigte</strong></p>\n      <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n      <p><strong>Beratung</strong>\n       <br>\n       Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n      <p><strong>Bewerbung</strong>\n       <br>\n       Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n      <p><strong>Jury-Entscheidung</strong>\n       <br>\n       Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n       <br>\n       &nbsp;</p>\n      <p><strong>Förderempfehlung</strong>\n       <br>\n       Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n      <p><strong>Formaler Förderantrag</strong>\n       <br>\n       Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n       <br>\n       &nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n       <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Nordrhein-Westfalen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. September 2026</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Seekabelstraße 4,\n        <br>\n        50733 Köln</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0221 7161720</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Fonds Kulturelle Bildung im Alter Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720 ©2026 Impressum Datenschutzerklärung".
+_:n3-165070 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-165071 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-165072 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-165073 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-165074 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Fonds Kulturelle Bildung im Alter";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-165075 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-165076 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Fonds Kulturelle Bildung im Alter";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-165077 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-165078 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-165079 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-165080 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-165081 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-165082 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-165083 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-165084 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165085;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-165085 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165086;
+    rdf:_2 _:n3-165088;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-165086 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-165087;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-165087 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-165088 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165089;
+    rdf:_2 _:n3-165092;
+    rdf:_3 _:n3-165095;
+    rdf:_4 _:n3-165098;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-165089 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-165090;
+    rdf:_2 _:n3-165091;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165090 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-165091 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-165092 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-165093;
+    rdf:_2 _:n3-165094;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165093 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-165094 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-165095 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-165096;
+    rdf:_2 _:n3-165097;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165096 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-165097 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-165098 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-165099;
+    rdf:_2 _:n3-165100;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165099 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-165100 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-165101 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-165102;
+    rdf:_2 _:n3-165105;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-165102 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-165103;
+    rdf:_2 _:n3-165104;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-165103 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-165104 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-165105 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-165106 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-165107;
+    rdf:_2 _:n3-165112;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fonds Kulturelle Bildung im Alter</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n    <p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n     <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n     <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n     <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n     <p><strong>Förderkriterien</strong>\n      <br>\n      Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n     <ul>\n      <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n      <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n      <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n      <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n      <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n      <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n       <br>\n       &nbsp;</li>\n     </ul>\n     <p><strong>Antragsberechtigte</strong></p>\n     <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n     <p><strong>Beratung</strong>\n      <br>\n      Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n     <p><strong>Bewerbung</strong>\n      <br>\n      Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n     <p><strong>Jury-Entscheidung</strong>\n      <br>\n      Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n      <br>\n      &nbsp;</p>\n     <p><strong>Förderempfehlung</strong>\n      <br>\n      Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n     <p><strong>Formaler Förderantrag</strong>\n      <br>\n      Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n      <br>\n      &nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n      <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Nordrhein-Westfalen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. September 2026</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Seekabelstraße 4,\n       <br>\n       50733 Köln</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0221 7161720</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fonds Kulturelle Bildung im Alter Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165107 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-165108;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fonds Kulturelle Bildung im Alter</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fonds Kulturelle Bildung im Alter".
+_:n3-165108 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165109;
+    rdf:_2 _:n3-165110;
+    rdf:_3 _:n3-165111;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fonds Kulturelle Bildung im Alter</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fonds Kulturelle Bildung im Alter".
+_:n3-165109 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-165110 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-165111 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Fonds Kulturelle Bildung im Alter";
+    <https://html.spec.whatwg.org/#innerHTML> "Fonds Kulturelle Bildung im Alter";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter".
+_:n3-165112 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-165113;
+    rdf:_2 _:n3-165193;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n   <p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n    <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n    <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n    <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n    <p><strong>Förderkriterien</strong>\n     <br>\n     Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n    <ul>\n     <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n     <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n     <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n     <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n     <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n     <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n      <br>\n      &nbsp;</li>\n    </ul>\n    <p><strong>Antragsberechtigte</strong></p>\n    <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n    <p><strong>Beratung</strong>\n     <br>\n     Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n    <p><strong>Bewerbung</strong>\n     <br>\n     Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n    <p><strong>Jury-Entscheidung</strong>\n     <br>\n     Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n     <br>\n     &nbsp;</p>\n    <p><strong>Förderempfehlung</strong>\n     <br>\n     Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n    <p><strong>Formaler Förderantrag</strong>\n     <br>\n     Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n     <br>\n     &nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n     <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Nordrhein-Westfalen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. September 2026</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Seekabelstraße 4,\n      <br>\n      50733 Köln</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0221 7161720</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026 Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165113 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165114;
+    rdf:_2 _:n3-165169;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n  <p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n   <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n   <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n   <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n   <p><strong>Förderkriterien</strong>\n    <br>\n    Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n   <ul>\n    <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n    <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n    <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n    <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n    <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n    <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n     <br>\n     &nbsp;</li>\n   </ul>\n   <p><strong>Antragsberechtigte</strong></p>\n   <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n   <p><strong>Beratung</strong>\n    <br>\n    Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n   <p><strong>Bewerbung</strong>\n    <br>\n    Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n   <p><strong>Jury-Entscheidung</strong>\n    <br>\n    Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n    <br>\n    &nbsp;</p>\n   <p><strong>Förderempfehlung</strong>\n    <br>\n    Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n   <p><strong>Formaler Förderantrag</strong>\n    <br>\n    Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n    <br>\n    &nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n    <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Nordrhein-Westfalen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. September 2026</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026".
+_:n3-165114 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165115;
+    rdf:_2 _:n3-165118;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n <p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n  <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n  <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n  <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n  <p><strong>Förderkriterien</strong>\n   <br>\n   Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n  <ul>\n   <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n   <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n   <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n   <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n   <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n   <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n    <br>\n    &nbsp;</li>\n  </ul>\n  <p><strong>Antragsberechtigte</strong></p>\n  <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n  <p><strong>Beratung</strong>\n   <br>\n   Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n  <p><strong>Bewerbung</strong>\n   <br>\n   Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n  <p><strong>Jury-Entscheidung</strong>\n   <br>\n   Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n   <br>\n   &nbsp;</p>\n  <p><strong>Förderempfehlung</strong>\n   <br>\n   Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n  <p><strong>Formaler Förderantrag</strong>\n   <br>\n   Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n   <br>\n   &nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n   <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular".
+_:n3-165115 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-165116;
+    rdf:_2 _:n3-165117;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Fonds Kulturelle Bildung im Alter</h1>\n<p class=\"text-lg text-gray-500\">Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie".
+_:n3-165116 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Fonds Kulturelle Bildung im Alter";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Fonds Kulturelle Bildung im Alter";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter".
+_:n3-165117 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie".
+_:n3-165118 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165119;
+    rdf:_2 _:n3-165124;
+    rdf:_3 _:n3-165141;
+    rdf:_4 _:n3-165162;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n <p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n <p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n <p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n <p><strong>Förderkriterien</strong>\n  <br>\n  Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n <ul>\n  <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n  <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n  <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n  <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n  <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n  <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n   <br>\n   &nbsp;</li>\n </ul>\n <p><strong>Antragsberechtigte</strong></p>\n <p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n <p><strong>Beratung</strong>\n  <br>\n  Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n <p><strong>Bewerbung</strong>\n  <br>\n  Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n <p><strong>Jury-Entscheidung</strong>\n  <br>\n  Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n  <br>\n  &nbsp;</p>\n <p><strong>Förderempfehlung</strong>\n  <br>\n  Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n <p><strong>Formaler Förderantrag</strong>\n  <br>\n  Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n  <br>\n  &nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n  <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden. Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen. Weitere Informationen Programmübersicht Bewerbungsformular".
+_:n3-165119 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165120;
+    rdf:_2 _:n3-165121;
+    rdf:_3 _:n3-165122;
+    rdf:_4 _:n3-165123;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.</p>\n<p>Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.</p>\n<p>Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.</p>\n<p>Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie</p>";
+    <https://html.spec.whatwg.org/#innerText> "Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen. Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben. Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend. Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie".
+_:n3-165120 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und&nbsp;&nbsp;ohne Einschränkungen.";
+    <https://html.spec.whatwg.org/#innerText> "Aus dem Fonds Kulturelle Bildung im Alter fördert das Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur (kubia) mit Mitteln des Landes Nordrhein-Westfalen Projekte, die modellhaft sind für Kulturelle Bildung mit älteren, alten und hochaltrigen Menschen mit und ohne Einschränkungen.".
+_:n3-165121 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind&nbsp;partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die&nbsp;Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen&nbsp;kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie&nbsp;richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen&nbsp;Kunst- und Kulturleben teilhaben.";
+    <https://html.spec.whatwg.org/#innerText> "Die geförderten Projekte ermöglichen gestalterisch-künstlerische Auseinandersetzung, sind partizipativ ausgerichtet und orientieren sich an den Stärken und Interessen der Beteiligten. Die Maßnahmen sollen zur Teilhabe Älterer am gesellschaftlich-kulturellen Leben, zu deren Engagement in der Kultur, zu einem verbesserten Zugang zu Kunst und Kultur in unterschiedlichen kulturellen Sparten und Formaten sowie zu intergenerationellen Begegnungen beitragen. Sie richten sich insbesondere an Personen und Gruppen, die bisher kaum oder nicht am öffentlichen Kunst- und Kulturleben teilhaben.".
+_:n3-165122 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.";
+    <https://html.spec.whatwg.org/#innerHTML> "Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.";
+    <https://html.spec.whatwg.org/#innerText> "Mit wechselnden Förderschwerpunkten werden in jeder Ausschreibungsrunde Impulse gesetzt, um bestimmte Diversitätsdimensionen, Themen, Praxisformate, Zielgruppen oder (sozial-)räumliche Bedingungen in den Fokus zu rücken. Die Förderschwerpunkte verstehen sich als Anregung und sind für eine Antragstellung nicht bindend.".
+_:n3-165123 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Schwerpunkt 2027: Wertvoll – Kulturelle Bildung im Alter und Demokratie".
+_:n3-165124 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165125;
+    rdf:_2 _:n3-165126;
+    rdf:_3 _:n3-165127;
+    rdf:_4 _:n3-165130;
+    rdf:_5 _:n3-165138;
+    rdf:_6 _:n3-165140;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.</p>\n<p><strong>Förderkriterien</strong>\n <br>\n Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:</p>\n<ul>\n <li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n <li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n <li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n <li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n <li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n <li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n  <br>\n  &nbsp;</li>\n</ul>\n<p><strong>Antragsberechtigte</strong></p>\n<p>Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro. Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen: Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur Antragsberechtigte Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.".
+_:n3-165125 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-165126 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.";
+    <https://html.spec.whatwg.org/#innerText> "Die Mindesthöhe der beantragten Fördersumme beträgt 2.000 Euro. Für kommunale Antragsteller beträgt sie 12.500 Euro.".
+_:n3-165127 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165128;
+    rdf:_2 _:n3-165129;
+    rdf:_3 "Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Förderkriterien</strong>\n<br>\nBevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die&nbsp;modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang&nbsp;genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:";
+    <https://html.spec.whatwg.org/#innerText> "Förderkriterien Bevorzugt gefördert werden Projekte von besonderer künstlerisch-kultureller Qualität, die modellhafte und nachhaltige Formen und Formate Kultureller Bildung entwickeln. Vorrang genießen zudem Projekte, die eines oder mehrere der nachstehenden Ziele verfolgen:".
+_:n3-165128 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Förderkriterien";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderkriterien";
+    <https://html.spec.whatwg.org/#innerText> "Förderkriterien".
+_:n3-165129 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165130 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-165131;
+    rdf:_2 _:n3-165132;
+    rdf:_3 _:n3-165133;
+    rdf:_4 _:n3-165134;
+    rdf:_5 _:n3-165135;
+    rdf:_6 _:n3-165136;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"e0a7408f42dab820bd99abf33621eb5cc\">Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;</li>\n<li data-list-item-id=\"e31695a6bb295c65c550b4e8b6231bb18\">Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;</li>\n<li data-list-item-id=\"e9ae80b5b33aaffa594881a0b8bfedcc5\">Anregung eines intergenerationellen Dialogs&nbsp;</li>\n<li data-list-item-id=\"e1afc6ebebcadaecc734fad0bf12f5c21\">Anregung eines inter- und transkulturellen Dialogs&nbsp;</li>\n<li data-list-item-id=\"e9bb735e02f18043281ecac60d19b6d3e\">Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;</li>\n<li data-list-item-id=\"e7746efeb5bd9d8db7f06f1d5e6a6231f\">Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n <br>\n &nbsp;</li>";
+    <https://html.spec.whatwg.org/#innerText> "Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen Anregung eines intergenerationellen Dialogs Anregung eines inter- und transkulturellen Dialogs Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur".
+_:n3-165131 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Eröffnung neuer Zugänge zu Kunst- und Kultureinrichtungen (Museen, Theater etc.) durch Vermittlungsformen für ältere Menschen, die nicht (mehr) am öffentlichen Kunst- und Kulturleben teilhaben";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e0a7408f42dab820bd99abf33621eb5cc".
+_:n3-165132 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklung inklusiver Projektkonzepte, die z. B. Ältere mit gesundheitlichen Einschränkungen oder Ältere mit Einwanderungsgeschichte einbeziehen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e31695a6bb295c65c550b4e8b6231bb18".
+_:n3-165133 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anregung eines intergenerationellen Dialogs&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Anregung eines intergenerationellen Dialogs&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Anregung eines intergenerationellen Dialogs";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e9ae80b5b33aaffa594881a0b8bfedcc5".
+_:n3-165134 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anregung eines inter- und transkulturellen Dialogs&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Anregung eines inter- und transkulturellen Dialogs&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Anregung eines inter- und transkulturellen Dialogs";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e1afc6ebebcadaecc734fad0bf12f5c21".
+_:n3-165135 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklung wohnortnaher Formate, besonders in ländlichen Räumen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e9bb735e02f18043281ecac60d19b6d3e".
+_:n3-165136 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur";
+    rdf:_2 _:n3-165137;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Stärkung von Beteiligung und Engagement älterer Menschen in Kunst und Kultur";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e7746efeb5bd9d8db7f06f1d5e6a6231f".
+_:n3-165137 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165138 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165139;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Antragsberechtigte</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigte".
+_:n3-165139 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Antragsberechtigte";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigte";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigte".
+_:n3-165140 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind alle Kulturschaffenden mit Arbeitsschwerpunkt in Nordrhein-Westfalen, kommunale und freie Kulturinstitutionen sowie Einrichtungen der sozialen Altenarbeit oder der Bildungsarbeit, die in Zusammenarbeit mit Künstlerinnen und Künstlern, Kulturgeragoginnen und Kulturgeragogen oder einer Kultureinrichtung ein nachhaltiges und modellhaftes, künstlerisches Projekt mit älteren Menschen umsetzen. Das beantragte Projekt muss in Nordrhein-Westfalen durchgeführt werden.".
+_:n3-165141 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165142;
+    rdf:_2 _:n3-165143;
+    rdf:_3 _:n3-165145;
+    rdf:_4 _:n3-165148;
+    rdf:_5 _:n3-165151;
+    rdf:_6 _:n3-165155;
+    rdf:_7 _:n3-165158;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p><strong>Ablauf des&nbsp;Antragsverfahrens</strong></p>\n<p><strong>Beratung</strong>\n <br>\n Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)</p>\n<p><strong>Bewerbung</strong>\n <br>\n Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.</p>\n<p><strong>Jury-Entscheidung</strong>\n <br>\n Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n <br>\n &nbsp;</p>\n<p><strong>Förderempfehlung</strong>\n <br>\n Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.</p>\n<p><strong>Formaler Förderantrag</strong>\n <br>\n Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n <br>\n &nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Ablauf des Antragsverfahrens Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite) Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden. Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus. Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat. Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.".
+_:n3-165142 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-165143 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165144;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Ablauf des&nbsp;Antragsverfahrens</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Ablauf des Antragsverfahrens".
+_:n3-165144 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Ablauf des&nbsp;Antragsverfahrens";
+    <https://html.spec.whatwg.org/#innerHTML> "Ablauf des&nbsp;Antragsverfahrens";
+    <https://html.spec.whatwg.org/#innerText> "Ablauf des Antragsverfahrens".
+_:n3-165145 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165146;
+    rdf:_2 _:n3-165147;
+    rdf:_3 "Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Beratung</strong>\n<br>\nLesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)";
+    <https://html.spec.whatwg.org/#innerText> "Beratung Lesen Sie die Ausschreibung sowie die FAQs und nehmen Sie einen der Termine der Online-Veranstaltung „Tipps zur Antragsstellung“ wahr. Für Erstantragstellende ist der Besuch der Info-Veranstaltung „Tipps zu Antragsstellung“ verpflichtend. (Termine siehe Programmseite)".
+_:n3-165146 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Beratung";
+    <https://html.spec.whatwg.org/#innerHTML> "Beratung";
+    <https://html.spec.whatwg.org/#innerText> "Beratung".
+_:n3-165147 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165148 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165149;
+    rdf:_2 _:n3-165150;
+    rdf:_3 "Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Bewerbung</strong>\n<br>\nBis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbung Bis zum 30. September 2026, 23.59 Uhr, müssen Sie das Online-Bewerbungsformular ausfüllen und absenden.".
+_:n3-165149 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbung".
+_:n3-165150 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165151 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165152;
+    rdf:_2 _:n3-165153;
+    rdf:_3 "Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.";
+    rdf:_4 _:n3-165154;
+    rdf:_5 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Jury-Entscheidung</strong>\n<br>\nEine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Jury-Entscheidung Eine unabhängige Jury trifft eine Auswahl aus den eingegangenen Bewerbungen und spricht Förderempfehlungen aus.".
+_:n3-165152 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Jury-Entscheidung";
+    <https://html.spec.whatwg.org/#innerHTML> "Jury-Entscheidung";
+    <https://html.spec.whatwg.org/#innerText> "Jury-Entscheidung".
+_:n3-165153 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165154 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165155 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165156;
+    rdf:_2 _:n3-165157;
+    rdf:_3 "Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Förderempfehlung</strong>\n<br>\nBis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.";
+    <https://html.spec.whatwg.org/#innerText> "Förderempfehlung Bis Mitte November 2026 werden Antragstellende benachrichtigt, ob die Jury das von ihnen eingereichte Projekt zur Förderung empfohlen hat.".
+_:n3-165156 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Förderempfehlung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderempfehlung";
+    <https://html.spec.whatwg.org/#innerText> "Förderempfehlung".
+_:n3-165157 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165158 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165159;
+    rdf:_2 _:n3-165160;
+    rdf:_3 "Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.";
+    rdf:_4 _:n3-165161;
+    rdf:_5 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Formaler Förderantrag</strong>\n<br>\nBei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Formaler Förderantrag Bei einer Förderempfehlung durch die Jury ist bis zum 07. Dezember 2026 ein ausführlicher Förderantrag nebst Finanzierungs- und Kostenplan einzureichen.".
+_:n3-165159 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Formaler Förderantrag";
+    <https://html.spec.whatwg.org/#innerHTML> "Formaler Förderantrag";
+    <https://html.spec.whatwg.org/#innerText> "Formaler Förderantrag".
+_:n3-165160 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165161 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165162 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165163;
+    rdf:_2 _:n3-165164;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n <li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Programmübersicht Bewerbungsformular".
+_:n3-165163 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-165164 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-165165;
+    rdf:_2 _:n3-165167;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a></li>\n<li><a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Programmübersicht Bewerbungsformular".
+_:n3-165165 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-165166;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmübersicht</a>";
+    <https://html.spec.whatwg.org/#innerText> "Programmübersicht".
+_:n3-165166 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Programmübersicht";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Programmübersicht";
+    <https://html.spec.whatwg.org/#innerText> "Programmübersicht";
+    <http://www.w3.org/1999/xhtml#href> "https://ibk-kubia.de/angebote/foerderprogramme/fonds-kulturelle-bildung-im-alter/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165167 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-165168;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.kubia.nrw/foerderung/bewerbung-fonds/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Bewerbungsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsformular".
+_:n3-165168 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bewerbungsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsformular";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.kubia.nrw/foerderung/bewerbung-fonds/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165169 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-165170;
+    rdf:_2 _:n3-165173;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Nordrhein-Westfalen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. September 2026</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026".
+_:n3-165170 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165171;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">\n</figure>".
+_:n3-165171 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-165172;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg\" width=\"800\" height=\"330\">".
+_:n3-165172 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "330";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/fonds_mitclaim_rgb.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-165173 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165174;
+    rdf:_2 _:n3-165179;
+    rdf:_3 _:n3-165185;
+    rdf:_4 _:n3-165188;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Nordrhein-Westfalen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. September 2026</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Kultur, Medien und Musik Soziales Eigenmittel benötigt: Ja Bewerbungsfrist: 30. September 2026".
+_:n3-165174 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165175;
+    rdf:_2 _:n3-165176;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Nordrhein-Westfalen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen".
+_:n3-165175 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-165176 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165177;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Nordrhein-Westfalen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-165177 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-165178;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Nordrhein-Westfalen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-165178 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerHTML> "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-165179 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165180;
+    rdf:_2 _:n3-165181;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kultur, Medien und Musik Soziales".
+_:n3-165180 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-165181 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165182;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik Soziales".
+_:n3-165182 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-165183;
+    rdf:_2 _:n3-165184;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik Soziales".
+_:n3-165183 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-165184 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-165185 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165186;
+    rdf:_2 _:n3-165187;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-165186 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-165187 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-165188 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165189;
+    rdf:_2 _:n3-165190;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. September 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. September 2026".
+_:n3-165189 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-165190 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165191;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. September 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-165191 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-165192;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. September 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-165192 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. September 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. September 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-165193 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165194;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Seekabelstraße 4,\n     <br>\n     50733 Köln</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0221 7161720</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165194 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165195;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Seekabelstraße 4,\n    <br>\n    50733 Köln</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0221 7161720</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165195 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165196;
+    rdf:_2 _:n3-165198;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Seekabelstraße 4,\n   <br>\n   50733 Köln</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0221 7161720</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V. Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165196 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-165197;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v\" class=\"link\">Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.".
+_:n3-165197 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Kompetenzzentrum für Kulturelle Bildung im Alter und inklusive Kultur Ein Arbeitsfeld des Instituts für Bildung und Kultur e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/23137-kompetenzzentrum-fuer-kulturelle-bildung-im-alter-und-inklusive-kultur-ein-arbeitsfeld-des-instituts-fuer-bildung-und-kultur-e-v".
+_:n3-165198 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165199;
+    rdf:_2 _:n3-165202;
+    rdf:_3 _:n3-165206;
+    rdf:_4 _:n3-165210;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Seekabelstraße 4,\n  <br>\n  50733 Köln</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0221 7161720</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Seekabelstraße 4, 50733 Köln E-Mail info@kubia.nrw Webseite www.kubia.nrw/ Telefon 0221 7161720".
+_:n3-165199 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165200;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Seekabelstraße 4,\n <br>\n 50733 Köln</p>";
+    <https://html.spec.whatwg.org/#innerText> "Seekabelstraße 4, 50733 Köln".
+_:n3-165200 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Seekabelstraße 4,";
+    rdf:_2 _:n3-165201;
+    rdf:_3 "50733 Köln";
+    <https://html.spec.whatwg.org/#innerHTML> "Seekabelstraße 4,\n<br>\n50733 Köln";
+    <https://html.spec.whatwg.org/#innerText> "Seekabelstraße 4, 50733 Köln".
+_:n3-165201 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-165202 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165203;
+    rdf:_2 _:n3-165204;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@kubia.nrw".
+_:n3-165203 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-165204 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165205;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@kubia.nrw\">info@kubia.nrw</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@kubia.nrw".
+_:n3-165205 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@kubia.nrw";
+    <https://html.spec.whatwg.org/#innerHTML> "info@kubia.nrw";
+    <https://html.spec.whatwg.org/#innerText> "info@kubia.nrw";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@kubia.nrw".
+_:n3-165206 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165207;
+    rdf:_2 _:n3-165208;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.kubia.nrw/".
+_:n3-165207 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-165208 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-165209;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.kubia.nrw/\" target=\"_blank\">www.kubia.nrw/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.kubia.nrw/".
+_:n3-165209 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.kubia.nrw/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.kubia.nrw/";
+    <https://html.spec.whatwg.org/#innerText> "www.kubia.nrw/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.kubia.nrw/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-165210 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165211;
+    rdf:_2 _:n3-165212;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0221 7161720</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0221 7161720".
+_:n3-165211 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-165212 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0221 7161720";
+    <https://html.spec.whatwg.org/#innerHTML> "0221 7161720";
+    <https://html.spec.whatwg.org/#innerText> "0221 7161720".
+_:n3-165213 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-165214;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-165214 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165215;
+    rdf:_2 _:n3-165219;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-165215 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-165216;
+    rdf:_2 _:n3-165217;
+    rdf:_3 _:n3-165218;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-165216 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-165217 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-165218 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-165219 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-165220;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-165220 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-165221 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-165222 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-165223 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-165224 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/fonds-kulturelle-bildung-im-alter-ausschreibung-2024";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-165225 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-165226 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Fonds Kulturelle Bildung im Alter  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Fonds Kulturelle Bildung im Alter  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Fonds Kulturelle Bildung im Alter  –  Förderdatenbank".
+_:n3-165227 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-165228 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

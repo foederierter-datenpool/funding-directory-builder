@@ -1,0 +1,759 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-148599 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148600;
+    rdf:_10 _:n3-148601;
+    rdf:_11 _:n3-148602;
+    rdf:_12 _:n3-148603;
+    rdf:_13 _:n3-148604;
+    rdf:_14 _:n3-148605;
+    rdf:_15 _:n3-148606;
+    rdf:_16 _:n3-148607;
+    rdf:_17 _:n3-148608;
+    rdf:_18 _:n3-148609;
+    rdf:_19 _:n3-148610;
+    rdf:_2 _:n3-148611;
+    rdf:_20 _:n3-148612;
+    rdf:_21 _:n3-148613;
+    rdf:_22 _:n3-148614;
+    rdf:_23 _:n3-148631;
+    rdf:_24 _:n3-148636;
+    rdf:_25 _:n3-148737;
+    rdf:_26 _:n3-148745;
+    rdf:_3 _:n3-148746;
+    rdf:_4 _:n3-148747;
+    rdf:_5 _:n3-148748;
+    rdf:_6 _:n3-148749;
+    rdf:_7 _:n3-148750;
+    rdf:_8 _:n3-148751;
+    rdf:_9 _:n3-148752;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-albbrucker-buergerstiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Albbrucker Bürgerstiftung  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Albbrucker Bürgerstiftung\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Albbrucker Bürgerstiftung\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Albbrucker Bürgerstiftung</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n      <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n      <ul>\n       <li>ist parteipolitisch und wirtschaftlich unabhängig.\n        <br></li>\n       <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n        <br></li>\n       <li>unterstützt viele Projekte.\n        <br></li>\n       <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n        <br></li>\n       <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n        <br></li>\n       <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n      </ul>\n      <p>\n       <br>\n      </p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n       <br></p>\n      <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n      <ul>\n       <li>Bildung &amp; Erziehung</li>\n       <li>Kunst &amp; Kultur</li>\n       <li>Jugend- &amp; Soziales</li>\n       <li>Sport</li>\n       <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n      </ul>\n      <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n       <br>\n       gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n      <ul>\n       <li>operative Projekte der Bürgerstiftung selbst</li>\n       <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n        <br>\n        Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n        <br>\n        Albbruck</li>\n       <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n        <br>\n        Fördervereinen u.ä. Institutionen</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Schulstraße 6,\n        <br>\n        79774 Albbruck</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>07753 1296</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Albbrucker Bürgerstiftung Förderung der Albbrucker Bürgerstiftung Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296 ©2026 Impressum Datenschutzerklärung".
+_:n3-148600 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-148601 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-148602 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-148603 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-148604 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Albbrucker Bürgerstiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-148605 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-148606 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Albbrucker Bürgerstiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-148607 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-148608 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-148609 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-148610 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-148611 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-148612 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-148613 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-148614 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148615;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-148615 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148616;
+    rdf:_2 _:n3-148618;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-148616 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-148617;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-148617 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-148618 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148619;
+    rdf:_2 _:n3-148622;
+    rdf:_3 _:n3-148625;
+    rdf:_4 _:n3-148628;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-148619 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-148620;
+    rdf:_2 _:n3-148621;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148620 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-148621 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-148622 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-148623;
+    rdf:_2 _:n3-148624;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148623 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-148624 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-148625 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-148626;
+    rdf:_2 _:n3-148627;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148626 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-148627 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-148628 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-148629;
+    rdf:_2 _:n3-148630;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148629 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-148630 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-148631 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-148632;
+    rdf:_2 _:n3-148635;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-148632 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-148633;
+    rdf:_2 _:n3-148634;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-148633 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-148634 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-148635 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-148636 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-148637;
+    rdf:_2 _:n3-148642;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Albbrucker Bürgerstiftung</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n     <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n     <ul>\n      <li>ist parteipolitisch und wirtschaftlich unabhängig.\n       <br></li>\n      <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n       <br></li>\n      <li>unterstützt viele Projekte.\n       <br></li>\n      <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n       <br></li>\n      <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n       <br></li>\n      <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n     </ul>\n     <p>\n      <br>\n     </p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n      <br></p>\n     <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n     <ul>\n      <li>Bildung &amp; Erziehung</li>\n      <li>Kunst &amp; Kultur</li>\n      <li>Jugend- &amp; Soziales</li>\n      <li>Sport</li>\n      <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n     </ul>\n     <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n      <br>\n      gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n     <ul>\n      <li>operative Projekte der Bürgerstiftung selbst</li>\n      <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n       <br>\n       Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n       <br>\n       Albbruck</li>\n      <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n       <br>\n       Fördervereinen u.ä. Institutionen</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Schulstraße 6,\n       <br>\n       79774 Albbruck</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>07753 1296</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Albbrucker Bürgerstiftung Förderung der Albbrucker Bürgerstiftung Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148637 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-148638;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Albbrucker Bürgerstiftung</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Albbrucker Bürgerstiftung".
+_:n3-148638 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148639;
+    rdf:_2 _:n3-148640;
+    rdf:_3 _:n3-148641;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Albbrucker Bürgerstiftung</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Albbrucker Bürgerstiftung".
+_:n3-148639 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-148640 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-148641 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Albbrucker Bürgerstiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Albbrucker Bürgerstiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung".
+_:n3-148642 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-148643;
+    rdf:_2 _:n3-148717;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n    <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n    <ul>\n     <li>ist parteipolitisch und wirtschaftlich unabhängig.\n      <br></li>\n     <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n      <br></li>\n     <li>unterstützt viele Projekte.\n      <br></li>\n     <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n      <br></li>\n     <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n      <br></li>\n     <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n    </ul>\n    <p>\n     <br>\n    </p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n     <br></p>\n    <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n    <ul>\n     <li>Bildung &amp; Erziehung</li>\n     <li>Kunst &amp; Kultur</li>\n     <li>Jugend- &amp; Soziales</li>\n     <li>Sport</li>\n     <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n    </ul>\n    <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n     <br>\n     gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n    <ul>\n     <li>operative Projekte der Bürgerstiftung selbst</li>\n     <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n      <br>\n      Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n      <br>\n      Albbruck</li>\n     <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n      <br>\n      Fördervereinen u.ä. Institutionen</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Schulstraße 6,\n      <br>\n      79774 Albbruck</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>07753 1296</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148643 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148644;
+    rdf:_2 _:n3-148695;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n   <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n   <ul>\n    <li>ist parteipolitisch und wirtschaftlich unabhängig.\n     <br></li>\n    <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n     <br></li>\n    <li>unterstützt viele Projekte.\n     <br></li>\n    <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n     <br></li>\n    <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n     <br></li>\n    <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n   </ul>\n   <p>\n    <br>\n   </p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n    <br></p>\n   <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n   <ul>\n    <li>Bildung &amp; Erziehung</li>\n    <li>Kunst &amp; Kultur</li>\n    <li>Jugend- &amp; Soziales</li>\n    <li>Sport</li>\n    <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n   </ul>\n   <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n    <br>\n    gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n   <ul>\n    <li>operative Projekte der Bürgerstiftung selbst</li>\n    <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n     <br>\n     Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n     <br>\n     Albbruck</li>\n    <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n     <br>\n     Fördervereinen u.ä. Institutionen</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-148644 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148645;
+    rdf:_2 _:n3-148647;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n  <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n  <ul>\n   <li>ist parteipolitisch und wirtschaftlich unabhängig.\n    <br></li>\n   <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n    <br></li>\n   <li>unterstützt viele Projekte.\n    <br></li>\n   <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n    <br></li>\n   <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n    <br></li>\n   <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n  </ul>\n  <p>\n   <br>\n  </p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n   <br></p>\n  <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n  <ul>\n   <li>Bildung &amp; Erziehung</li>\n   <li>Kunst &amp; Kultur</li>\n   <li>Jugend- &amp; Soziales</li>\n   <li>Sport</li>\n   <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n  </ul>\n  <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n   <br>\n   gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n  <ul>\n   <li>operative Projekte der Bürgerstiftung selbst</li>\n   <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n    <br>\n    Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n    <br>\n    Albbruck</li>\n   <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n    <br>\n    Fördervereinen u.ä. Institutionen</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien".
+_:n3-148645 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-148646;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Albbrucker Bürgerstiftung</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung".
+_:n3-148646 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Albbrucker Bürgerstiftung";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Albbrucker Bürgerstiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung".
+_:n3-148647 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148648;
+    rdf:_2 _:n3-148665;
+    rdf:_3 _:n3-148685;
+    rdf:_4 _:n3-148688;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n <p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n <ul>\n  <li>ist parteipolitisch und wirtschaftlich unabhängig.\n   <br></li>\n  <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n   <br></li>\n  <li>unterstützt viele Projekte.\n   <br></li>\n  <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n   <br></li>\n  <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n   <br></li>\n  <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n </ul>\n <p>\n  <br>\n </p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n  <br></p>\n <p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n <ul>\n  <li>Bildung &amp; Erziehung</li>\n  <li>Kunst &amp; Kultur</li>\n  <li>Jugend- &amp; Soziales</li>\n  <li>Sport</li>\n  <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n </ul>\n <p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n  <br>\n  gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n <ul>\n  <li>operative Projekte der Bürgerstiftung selbst</li>\n  <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n   <br>\n   Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n   <br>\n   Albbruck</li>\n  <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n   <br>\n   Fördervereinen u.ä. Institutionen</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören. Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit. Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien".
+_:n3-148648 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148649;
+    rdf:_2 _:n3-148650;
+    rdf:_3 _:n3-148651;
+    rdf:_4 _:n3-148663;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;</p>\n<p>Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;</p>\n<ul>\n <li>ist parteipolitisch und wirtschaftlich unabhängig.\n  <br></li>\n <li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n  <br></li>\n <li>unterstützt viele Projekte.\n  <br></li>\n <li>wird von engagierten Bürgerinnen und Bürgern getragen.\n  <br></li>\n <li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n  <br></li>\n <li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>\n</ul>\n<p>\n <br>\n</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen. Die Bürgerstiftung ist eine gemeinnützige Einrichtung und ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.".
+_:n3-148649 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation.&nbsp;Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Albbruck ist eine selbstständige, politisch unabhängige, konfessionell nicht gebundene, gemeinnützige Organisation. Mit dem Stiftungsgeschäft wurde die Bürgerstiftung Albbruck am 14. Dezember 2009 ins Leben gerufen.".
+_:n3-148650 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bürgerstiftung ist eine gemeinnützige Einrichtung und&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung ist eine gemeinnützige Einrichtung und".
+_:n3-148651 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148652;
+    rdf:_2 _:n3-148654;
+    rdf:_3 _:n3-148656;
+    rdf:_4 _:n3-148658;
+    rdf:_5 _:n3-148660;
+    rdf:_6 _:n3-148662;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>ist parteipolitisch und wirtschaftlich unabhängig.\n <br></li>\n<li>setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n <br></li>\n<li>unterstützt viele Projekte.\n <br></li>\n<li>wird von engagierten Bürgerinnen und Bürgern getragen.\n <br></li>\n<li>erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n <br></li>\n<li>darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.</li>";
+    <https://html.spec.whatwg.org/#innerText> "ist parteipolitisch und wirtschaftlich unabhängig. setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein. unterstützt viele Projekte. wird von engagierten Bürgerinnen und Bürgern getragen. erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern. darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.".
+_:n3-148652 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "ist parteipolitisch und wirtschaftlich unabhängig.";
+    rdf:_2 _:n3-148653;
+    <https://html.spec.whatwg.org/#innerHTML> "ist parteipolitisch und wirtschaftlich unabhängig.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "ist parteipolitisch und wirtschaftlich unabhängig.".
+_:n3-148653 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148654 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.";
+    rdf:_2 _:n3-148655;
+    <https://html.spec.whatwg.org/#innerHTML> "setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "setzt sich für eine nachhaltige, sozial gerechte, ökologisch wie ökonomisch ausgewogene Entwicklung in der Gemeinde Albbruck ein.".
+_:n3-148655 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148656 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "unterstützt viele Projekte.";
+    rdf:_2 _:n3-148657;
+    <https://html.spec.whatwg.org/#innerHTML> "unterstützt viele Projekte.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "unterstützt viele Projekte.".
+_:n3-148657 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148658 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "wird von engagierten Bürgerinnen und Bürgern getragen.";
+    rdf:_2 _:n3-148659;
+    <https://html.spec.whatwg.org/#innerHTML> "wird von engagierten Bürgerinnen und Bürgern getragen.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "wird von engagierten Bürgerinnen und Bürgern getragen.".
+_:n3-148659 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148660 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.";
+    rdf:_2 _:n3-148661;
+    <https://html.spec.whatwg.org/#innerHTML> "erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "erhält Unterstützung und Hilfe von Stifterinnen und Stiftern sowie Spenderinnen und Spendern.".
+_:n3-148661 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148662 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.";
+    <https://html.spec.whatwg.org/#innerHTML> "darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.";
+    <https://html.spec.whatwg.org/#innerText> "darf keine Aufgaben übernehmen, die zu den Pflichtaufgaben der Gemeinde Albbruck gehören.".
+_:n3-148663 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-148664;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>".
+_:n3-148664 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148665 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148666;
+    rdf:_2 _:n3-148667;
+    rdf:_3 _:n3-148669;
+    rdf:_4 _:n3-148670;
+    rdf:_5 _:n3-148676;
+    rdf:_6 _:n3-148678;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n <br></p>\n<p>Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:</p>\n<ul>\n <li>Bildung &amp; Erziehung</li>\n <li>Kunst &amp; Kultur</li>\n <li>Jugend- &amp; Soziales</li>\n <li>Sport</li>\n <li>Natur-Umwelt- &amp; Denkmalschutz</li>\n</ul>\n<p>Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n <br>\n gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie</p>\n<ul>\n <li>operative Projekte der Bürgerstiftung selbst</li>\n <li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n  <br>\n  Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n  <br>\n  Albbruck</li>\n <li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n  <br>\n  Fördervereinen u.ä. Institutionen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden. Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen: Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen".
+_:n3-148666 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-148667 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.";
+    rdf:_2 _:n3-148668;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung hat sich zum Ziel gesetzt&nbsp;den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung hat sich zum Ziel gesetzt den Gemeinsinn und das Engagement der Bürgerinnen und Bürger der Gemeinde Albbruck zu stärken. Sie will zusammen mit Einwohnern, Vereinen, Verbänden, Institutionen und örtlichen Unternehmen Verantwortung für das Gemeinwesen übernehmen und zum Mitmachen anregen. Hierzu sollen Projekte angestoßen, ideell und finanziell unterstützt oder selbst durchgeführt werden.".
+_:n3-148668 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148669 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:";
+    <https://html.spec.whatwg.org/#innerText> "Sie unterstützt ideell und finanziell, oder führt Projekte durch in den Bereichen:".
+_:n3-148670 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148671;
+    rdf:_2 _:n3-148672;
+    rdf:_3 _:n3-148673;
+    rdf:_4 _:n3-148674;
+    rdf:_5 _:n3-148675;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung &amp; Erziehung</li>\n<li>Kunst &amp; Kultur</li>\n<li>Jugend- &amp; Soziales</li>\n<li>Sport</li>\n<li>Natur-Umwelt- &amp; Denkmalschutz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung & Erziehung Kunst & Kultur Jugend- & Soziales Sport Natur-Umwelt- & Denkmalschutz".
+_:n3-148671 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung &amp; Erziehung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung &amp; Erziehung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung & Erziehung".
+_:n3-148672 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kunst &amp; Kultur";
+    <https://html.spec.whatwg.org/#innerHTML> "Kunst &amp; Kultur";
+    <https://html.spec.whatwg.org/#innerText> "Kunst & Kultur".
+_:n3-148673 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Jugend- &amp; Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Jugend- &amp; Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Jugend- & Soziales".
+_:n3-148674 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport";
+    <https://html.spec.whatwg.org/#innerText> "Sport".
+_:n3-148675 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Natur-Umwelt- &amp; Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Natur-Umwelt- &amp; Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Natur-Umwelt- & Denkmalschutz".
+_:n3-148676 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung";
+    rdf:_2 _:n3-148677;
+    rdf:_3 "gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung\n<br>\ngemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden im Rahmen der verfügbaren Mittel der Bürgerstiftung gemeinnützige Projekte und Maßnahmen in den oben aufgeführten Gebieten sowie".
+_:n3-148677 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148678 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148679;
+    rdf:_2 _:n3-148680;
+    rdf:_3 _:n3-148683;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>operative Projekte der Bürgerstiftung selbst</li>\n<li>beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n <br>\n Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n <br>\n Albbruck</li>\n<li>beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n <br>\n Fördervereinen u.ä. Institutionen</li>";
+    <https://html.spec.whatwg.org/#innerText> "operative Projekte der Bürgerstiftung selbst beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen".
+_:n3-148679 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "operative Projekte der Bürgerstiftung selbst";
+    <https://html.spec.whatwg.org/#innerHTML> "operative Projekte der Bürgerstiftung selbst";
+    <https://html.spec.whatwg.org/#innerText> "operative Projekte der Bürgerstiftung selbst".
+_:n3-148680 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "beantragte Projekte von gemeinnützigen Körperschaften (Vereine und";
+    rdf:_2 _:n3-148681;
+    rdf:_3 "Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in";
+    rdf:_4 _:n3-148682;
+    rdf:_5 "Albbruck";
+    <https://html.spec.whatwg.org/#innerHTML> "beantragte Projekte von gemeinnützigen Körperschaften (Vereine und\n<br>\nStiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in\n<br>\nAlbbruck";
+    <https://html.spec.whatwg.org/#innerText> "beantragte Projekte von gemeinnützigen Körperschaften (Vereine und Stiftungen, gGmbH, juristischen Personen des öffentlichen Rechts mit Sitz in Albbruck".
+_:n3-148681 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148682 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148683 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "beantragte Projekte von gemeinnützigen Fördergemeinschaften,";
+    rdf:_2 _:n3-148684;
+    rdf:_3 "Fördervereinen u.ä. Institutionen";
+    <https://html.spec.whatwg.org/#innerHTML> "beantragte Projekte von gemeinnützigen Fördergemeinschaften,\n<br>\nFördervereinen u.ä. Institutionen";
+    <https://html.spec.whatwg.org/#innerText> "beantragte Projekte von gemeinnützigen Fördergemeinschaften, Fördervereinen u.ä. Institutionen".
+_:n3-148684 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148685 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148686;
+    rdf:_2 _:n3-148687;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Das Antragsformular steht auf der verlinkten Seite zum Download bereit.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Das Antragsformular steht auf der verlinkten Seite zum Download bereit.".
+_:n3-148686 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-148687 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Antragsformular steht auf der verlinkten Seite zum Download bereit.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Antragsformular steht auf der verlinkten Seite zum Download bereit.";
+    <https://html.spec.whatwg.org/#innerText> "Das Antragsformular steht auf der verlinkten Seite zum Download bereit.".
+_:n3-148688 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148689;
+    rdf:_2 _:n3-148690;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung Link zu den Förderrichtlinien".
+_:n3-148689 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-148690 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148691;
+    rdf:_2 _:n3-148693;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung Link zu den Förderrichtlinien".
+_:n3-148691 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-148692;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerstiftung-albbruck.de/de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-148692 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerstiftung-albbruck.de/de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148693 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-148694;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien".
+_:n3-148694 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zu den Förderrichtlinien";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerstiftung-albbruck.de/de/satzung-der-buergerstiftung/downloads/Foerderrichtlinien-Buergerstiftung.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148695 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-148696;
+    rdf:_2 _:n3-148699;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-148696 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148697;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">\n</figure>".
+_:n3-148697 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-148698;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg\" width=\"800\" height=\"882\">".
+_:n3-148698 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "882";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Buergerstiftung-Albbruck-logo.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-148699 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148700;
+    rdf:_2 _:n3-148705;
+    rdf:_3 _:n3-148714;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-148700 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148701;
+    rdf:_2 _:n3-148702;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg".
+_:n3-148701 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-148702 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148703;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-148703 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148704;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Baden-Württemberg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-148704 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-148705 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148706;
+    rdf:_2 _:n3-148707;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-148706 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-148707 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148708;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-148708 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-148709;
+    rdf:_2 _:n3-148710;
+    rdf:_3 _:n3-148711;
+    rdf:_4 _:n3-148712;
+    rdf:_5 _:n3-148713;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-148709 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-148710 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-148711 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-148712 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-148713 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-148714 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148715;
+    rdf:_2 _:n3-148716;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-148715 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-148716 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-148717 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148718;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Schulstraße 6,\n     <br>\n     79774 Albbruck</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>07753 1296</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148718 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148719;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Schulstraße 6,\n    <br>\n    79774 Albbruck</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>07753 1296</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148719 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148720;
+    rdf:_2 _:n3-148722;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Schulstraße 6,\n   <br>\n   79774 Albbruck</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>07753 1296</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Albbrucker Bürgerstiftung Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148720 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-148721;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung\" class=\"link\">Albbrucker Bürgerstiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Albbrucker Bürgerstiftung".
+_:n3-148721 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Albbrucker Bürgerstiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Albbrucker Bürgerstiftung";
+    <https://html.spec.whatwg.org/#innerText> "Albbrucker Bürgerstiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/3176-albbrucker-buergerstiftung".
+_:n3-148722 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148723;
+    rdf:_2 _:n3-148726;
+    rdf:_3 _:n3-148730;
+    rdf:_4 _:n3-148734;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Schulstraße 6,\n  <br>\n  79774 Albbruck</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>07753 1296</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Schulstraße 6, 79774 Albbruck E-Mail info@buergerstiftung-albbruck.de Webseite www.buergerstiftung-albbruck.de/ Telefon 07753 1296".
+_:n3-148723 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148724;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Schulstraße 6,\n <br>\n 79774 Albbruck</p>";
+    <https://html.spec.whatwg.org/#innerText> "Schulstraße 6, 79774 Albbruck".
+_:n3-148724 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schulstraße 6,";
+    rdf:_2 _:n3-148725;
+    rdf:_3 "79774 Albbruck";
+    <https://html.spec.whatwg.org/#innerHTML> "Schulstraße 6,\n<br>\n79774 Albbruck";
+    <https://html.spec.whatwg.org/#innerText> "Schulstraße 6, 79774 Albbruck".
+_:n3-148725 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-148726 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148727;
+    rdf:_2 _:n3-148728;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@buergerstiftung-albbruck.de".
+_:n3-148727 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-148728 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-148729;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@buergerstiftung-albbruck.de\">info@buergerstiftung-albbruck.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerstiftung-albbruck.de".
+_:n3-148729 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@buergerstiftung-albbruck.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@buergerstiftung-albbruck.de";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerstiftung-albbruck.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@buergerstiftung-albbruck.de".
+_:n3-148730 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148731;
+    rdf:_2 _:n3-148732;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.buergerstiftung-albbruck.de/".
+_:n3-148731 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-148732 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-148733;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerstiftung-albbruck.de/\" target=\"_blank\">www.buergerstiftung-albbruck.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-albbruck.de/".
+_:n3-148733 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.buergerstiftung-albbruck.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.buergerstiftung-albbruck.de/";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-albbruck.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerstiftung-albbruck.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-148734 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148735;
+    rdf:_2 _:n3-148736;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>07753 1296</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 07753 1296".
+_:n3-148735 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-148736 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "07753 1296";
+    <https://html.spec.whatwg.org/#innerHTML> "07753 1296";
+    <https://html.spec.whatwg.org/#innerText> "07753 1296".
+_:n3-148737 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-148738;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-148738 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148739;
+    rdf:_2 _:n3-148743;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-148739 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-148740;
+    rdf:_2 _:n3-148741;
+    rdf:_3 _:n3-148742;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-148740 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-148741 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-148742 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-148743 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-148744;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-148744 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-148745 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-148746 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-148747 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-148748 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-albbrucker-buergerstiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-148749 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-148750 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Albbrucker Bürgerstiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Albbrucker Bürgerstiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Albbrucker Bürgerstiftung  –  Förderdatenbank".
+_:n3-148751 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-148752 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

@@ -1,0 +1,978 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-253058 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253059;
+    rdf:_10 _:n3-253060;
+    rdf:_11 _:n3-253061;
+    rdf:_12 _:n3-253062;
+    rdf:_13 _:n3-253063;
+    rdf:_14 _:n3-253064;
+    rdf:_15 _:n3-253065;
+    rdf:_16 _:n3-253066;
+    rdf:_17 _:n3-253067;
+    rdf:_18 _:n3-253068;
+    rdf:_19 _:n3-253069;
+    rdf:_2 _:n3-253070;
+    rdf:_20 _:n3-253071;
+    rdf:_21 _:n3-253072;
+    rdf:_22 _:n3-253073;
+    rdf:_23 _:n3-253090;
+    rdf:_24 _:n3-253095;
+    rdf:_25 _:n3-253248;
+    rdf:_26 _:n3-253256;
+    rdf:_3 _:n3-253257;
+    rdf:_4 _:n3-253258;
+    rdf:_5 _:n3-253259;
+    rdf:_6 _:n3-253260;
+    rdf:_7 _:n3-253261;
+    rdf:_8 _:n3-253262;
+    rdf:_9 _:n3-253263;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "hauptamt-ready-und-ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Hauptamt-ready und Ehrenamt-ready  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Hauptamt-ready und Ehrenamt-ready\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Hauptamt-ready und Ehrenamt-ready\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Hauptamt-ready und Ehrenamt-ready</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n     <p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <div class=\"block block-text marginalia--main\">\n       <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n       <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n       <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n      </div>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <p></p>\n      <div class=\"block block-text marginalia--main\">\n       <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n       <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n       <div class=\"block block-text marginalia--main\">\n        <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n         <br></p>\n        <ul>\n         <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n        </ul>\n        <ul>\n         <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n        </ul>\n       </div>\n      </div>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n      <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n      <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n      <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n      <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n       <br></p>\n      <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n      <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n      <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n       <br></p>\n      <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n       <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n       <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n        <br></p>\n       <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n        <br></p>\n       <ul>\n        <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n        <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n        <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n       </ul>\n       <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n        <br></p>\n       <ul>\n        <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n        <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n        <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n       </ul>\n       <p><strong>Das klingt spannend für Ihren Verein?\n         <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n       <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n        <br>\n        <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n      </div>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Digitalisierung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Entwicklungszusammenarbeit</li>\n        <li>Sport und Bewegung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>max. 5000€</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Goseriede 4,\n        <br>\n        30159 Hannover</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0511 99987351</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Hauptamt-ready und Ehrenamt-ready Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\" Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351 ©2026 Impressum Datenschutzerklärung".
+_:n3-253059 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-253060 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-253061 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-253062 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-253063 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Hauptamt-ready und Ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-253064 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-253065 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Hauptamt-ready und Ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-253066 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-253067 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-253068 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-253069 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-253070 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-253071 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-253072 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-253073 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253074;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-253074 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253075;
+    rdf:_2 _:n3-253077;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-253075 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253076;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-253076 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-253077 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253078;
+    rdf:_2 _:n3-253081;
+    rdf:_3 _:n3-253084;
+    rdf:_4 _:n3-253087;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-253078 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253079;
+    rdf:_2 _:n3-253080;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253079 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253080 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-253081 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253082;
+    rdf:_2 _:n3-253083;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253082 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253083 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-253084 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253085;
+    rdf:_2 _:n3-253086;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253085 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253086 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-253087 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253088;
+    rdf:_2 _:n3-253089;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253088 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253089 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-253090 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-253091;
+    rdf:_2 _:n3-253094;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-253091 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253092;
+    rdf:_2 _:n3-253093;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-253092 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-253093 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-253094 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-253095 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-253096;
+    rdf:_2 _:n3-253101;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Hauptamt-ready und Ehrenamt-ready</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n    <p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <div class=\"block block-text marginalia--main\">\n      <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n      <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n      <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n     </div>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <p></p>\n     <div class=\"block block-text marginalia--main\">\n      <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n      <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n      <div class=\"block block-text marginalia--main\">\n       <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n        <br></p>\n       <ul>\n        <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n       </ul>\n       <ul>\n        <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n     <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n     <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n     <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n     <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n      <br></p>\n     <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n     <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n     <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n      <br></p>\n     <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n      <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n      <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n       <br></p>\n      <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n       <br></p>\n      <ul>\n       <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n       <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n       <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n      </ul>\n      <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n       <br></p>\n      <ul>\n       <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n       <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n       <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n      </ul>\n      <p><strong>Das klingt spannend für Ihren Verein?\n        <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n      <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n       <br>\n       <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n     </div>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Digitalisierung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Entwicklungszusammenarbeit</li>\n       <li>Sport und Bewegung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>max. 5000€</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Goseriede 4,\n       <br>\n       30159 Hannover</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0511 99987351</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Hauptamt-ready und Ehrenamt-ready Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\" Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253096 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253097;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Hauptamt-ready und Ehrenamt-ready</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Hauptamt-ready und Ehrenamt-ready".
+_:n3-253097 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253098;
+    rdf:_2 _:n3-253099;
+    rdf:_3 _:n3-253100;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Hauptamt-ready und Ehrenamt-ready</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Hauptamt-ready und Ehrenamt-ready".
+_:n3-253098 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-253099 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-253100 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Hauptamt-ready und Ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerHTML> "Hauptamt-ready und Ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready".
+_:n3-253101 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-253102;
+    rdf:_2 _:n3-253226;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n   <p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <div class=\"block block-text marginalia--main\">\n     <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n     <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n     <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n    </div>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <p></p>\n    <div class=\"block block-text marginalia--main\">\n     <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n     <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n     <div class=\"block block-text marginalia--main\">\n      <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n       <br></p>\n      <ul>\n       <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n      </ul>\n      <ul>\n       <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n    <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n    <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n    <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n    <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n     <br></p>\n    <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n    <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n    <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n     <br></p>\n    <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n     <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n     <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n      <br></p>\n     <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n      <br></p>\n     <ul>\n      <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n      <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n      <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n     </ul>\n     <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n      <br></p>\n     <ul>\n      <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n      <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n      <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n     </ul>\n     <p><strong>Das klingt spannend für Ihren Verein?\n       <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n     <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n      <br>\n      <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n    </div>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Digitalisierung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Entwicklungszusammenarbeit</li>\n      <li>Sport und Bewegung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>max. 5000€</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Goseriede 4,\n      <br>\n      30159 Hannover</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0511 99987351</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\" Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253102 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253103;
+    rdf:_2 _:n3-253188;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n  <p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <div class=\"block block-text marginalia--main\">\n    <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n    <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n    <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n   </div>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <p></p>\n   <div class=\"block block-text marginalia--main\">\n    <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n    <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n    <div class=\"block block-text marginalia--main\">\n     <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n      <br></p>\n     <ul>\n      <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n     </ul>\n     <ul>\n      <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n   <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n   <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n   <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n   <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n    <br></p>\n   <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n   <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n   <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n    <br></p>\n   <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n    <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n    <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n     <br></p>\n    <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n     <br></p>\n    <ul>\n     <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n     <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n     <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n    </ul>\n    <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n     <br></p>\n    <ul>\n     <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n     <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n     <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n    </ul>\n    <p><strong>Das klingt spannend für Ihren Verein?\n      <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n    <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n     <br>\n     <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n   </div>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Digitalisierung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Entwicklungszusammenarbeit</li>\n     <li>Sport und Bewegung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>max. 5000€</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\" Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-253103 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253104;
+    rdf:_2 _:n3-253107;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n <p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <div class=\"block block-text marginalia--main\">\n   <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n   <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n   <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n  </div>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <p></p>\n  <div class=\"block block-text marginalia--main\">\n   <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n   <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n   <div class=\"block block-text marginalia--main\">\n    <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n     <br></p>\n    <ul>\n     <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n    </ul>\n    <ul>\n     <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n    </ul>\n   </div>\n  </div>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n  <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n  <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n  <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n  <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n   <br></p>\n  <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n  <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n  <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n   <br></p>\n  <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n   <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n   <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n    <br></p>\n   <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n    <br></p>\n   <ul>\n    <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n    <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n    <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n   </ul>\n   <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n    <br></p>\n   <ul>\n    <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n    <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n    <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n   </ul>\n   <p><strong>Das klingt spannend für Ihren Verein?\n     <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n   <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n    <br>\n    <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n  </div>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"".
+_:n3-253104 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-253105;
+    rdf:_2 _:n3-253106;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Hauptamt-ready und Ehrenamt-ready</h1>\n<p class=\"text-lg text-gray-500\">Sportvereine professionalisieren</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready Sportvereine professionalisieren".
+_:n3-253105 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Hauptamt-ready und Ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Hauptamt-ready und Ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready".
+_:n3-253106 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sportvereine professionalisieren";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Sportvereine professionalisieren";
+    <https://html.spec.whatwg.org/#innerText> "Sportvereine professionalisieren".
+_:n3-253107 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253108;
+    rdf:_2 _:n3-253140;
+    rdf:_3 _:n3-253153;
+    rdf:_4 _:n3-253183;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"block block-text marginalia--main\">\n  <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n  <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n  <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n </div>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <p></p>\n <div class=\"block block-text marginalia--main\">\n  <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n  <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n  <div class=\"block block-text marginalia--main\">\n   <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n    <br></p>\n   <ul>\n    <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n   </ul>\n   <ul>\n    <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n   </ul>\n  </div>\n </div>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n <p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n <p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n <p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n <p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n  <br></p>\n <p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n <p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n <p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n  <br></p>\n <div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n  <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n  <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n   <br></p>\n  <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n   <br></p>\n  <ul>\n   <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n   <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n   <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n  </ul>\n  <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n   <br></p>\n  <ul>\n   <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n   <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n   <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n  </ul>\n  <p><strong>Das klingt spannend für Ihren Verein?\n    <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n  <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n   <br>\n   <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n </div>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten. Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“. Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/ Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"".
+_:n3-253108 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253109;
+    rdf:_10 _:n3-253114;
+    rdf:_11 _:n3-253115;
+    rdf:_12 _:n3-253116;
+    rdf:_13 _:n3-253117;
+    rdf:_14 _:n3-253118;
+    rdf:_15 _:n3-253119;
+    rdf:_16 _:n3-253120;
+    rdf:_2 _:n3-253132;
+    rdf:_3 _:n3-253133;
+    rdf:_4 _:n3-253134;
+    rdf:_5 _:n3-253135;
+    rdf:_6 _:n3-253136;
+    rdf:_7 _:n3-253137;
+    rdf:_8 _:n3-253138;
+    rdf:_9 _:n3-253139;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"block block-text marginalia--main\">\n <p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n <p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n <p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>\n</div>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<div class=\"block block-text marginalia--main\">\n <p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n <p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n <div class=\"block block-text marginalia--main\">\n  <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n   <br></p>\n  <ul>\n   <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n  </ul>\n  <ul>\n   <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern. Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.".
+_:n3-253109 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253110;
+    rdf:_2 _:n3-253112;
+    rdf:_3 _:n3-253113;
+    <http://www.w3.org/1999/xhtml#class> "block block-text marginalia--main";
+    <https://html.spec.whatwg.org/#innerHTML> "<p><strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong></p>\n<p>Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.</p>\n<p>Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Get-ready - Engagement in Sportvereinen professionalisieren Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen. Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.".
+_:n3-253110 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253111;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Get-ready - Engagement in Sportvereinen professionalisieren</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Get-ready - Engagement in Sportvereinen professionalisieren".
+_:n3-253111 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Get-ready - Engagement in Sportvereinen professionalisieren";
+    <https://html.spec.whatwg.org/#innerHTML> "Get-ready - Engagement in Sportvereinen professionalisieren";
+    <https://html.spec.whatwg.org/#innerText> "Get-ready - Engagement in Sportvereinen professionalisieren".
+_:n3-253112 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.";
+    <https://html.spec.whatwg.org/#innerText> "Das ehrenamtliche Engagement in niedersächsischen Sportvereinen ist hoch, allerdings sind die Anforderungen sowohl zeitlich als auch inhaltlich anspruchsvoll. Für viele Vereine wird es deshalb immer schwerer, die Vorstandsposten und weitere ehrenamtliche Stellen zu besetzen.".
+_:n3-253113 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinsam mit dem Start-up „Klubtalent“ möchte die Niedersächsische Lotto-Sport-Stiftung Vereinen dabei helfen, Strukturen zu professionalisieren und damit das Ehrenamt zu entlasten. Sie will es niedersächsischen Sportvereinen ermöglichen, durch gezielte Maßnahmen talentierte und qualifizierte Arbeitskraft für die Vereinsarbeit zu begeistern.".
+_:n3-253114 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253115 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253116 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253117 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253118 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253119 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253120 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253121;
+    rdf:_2 _:n3-253123;
+    rdf:_3 _:n3-253125;
+    <http://www.w3.org/1999/xhtml#class> "block block-text marginalia--main";
+    <https://html.spec.whatwg.org/#innerHTML> "<p><strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong></p>\n<p><strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong></p>\n<div class=\"block block-text marginalia--main\">\n <p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n  <br></p>\n <ul>\n  <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n </ul>\n <ul>\n  <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Klubtalent bietet zwei verschiedene Coaching-Programme an: Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate) Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.".
+_:n3-253121 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253122;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Klubtalent bietet zwei verschiedene Coaching-Programme an:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Klubtalent bietet zwei verschiedene Coaching-Programme an:".
+_:n3-253122 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Klubtalent bietet zwei verschiedene Coaching-Programme an:";
+    <https://html.spec.whatwg.org/#innerHTML> "Klubtalent bietet zwei verschiedene Coaching-Programme an:";
+    <https://html.spec.whatwg.org/#innerText> "Klubtalent bietet zwei verschiedene Coaching-Programme an:".
+_:n3-253123 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253124;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)".
+_:n3-253124 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)";
+    <https://html.spec.whatwg.org/#innerHTML> "Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt-ready (6 Monate) und Hauptamt-ready (12 Monate)".
+_:n3-253125 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253126;
+    rdf:_2 _:n3-253128;
+    rdf:_3 _:n3-253130;
+    <http://www.w3.org/1999/xhtml#class> "block block-text marginalia--main";
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n <br></p>\n<ul>\n <li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>\n</ul>\n<ul>\n <li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen: Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.".
+_:n3-253126 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:";
+    rdf:_2 _:n3-253127;
+    <https://html.spec.whatwg.org/#innerHTML> "Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Ob Ihr Verein für dieses Projekt in Frage kommt, hängt von den bisherigen Vereinsstrukturen ab, die im Falle einer engeren Auswahl genauer analysiert werden. Grundsätzlich sollte Ihr Verein allerdings die folgenden Voraussetzungen auf jeden Fall erfüllen:".
+_:n3-253127 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253128 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253129;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen".
+_:n3-253129 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen";
+    <https://html.spec.whatwg.org/#innerText> "Wir wünschen uns engagierte und ambitionierte Köpfe in Ihren Reihen – denn nur wer Visionen hat, kann und wird auch wachsen".
+_:n3-253130 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253131;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.".
+_:n3-253131 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.";
+    <https://html.spec.whatwg.org/#innerText> "Der gesamte Vorstand sollte dem Projekt offen, geschlossen und interessiert entgegentreten.".
+_:n3-253132 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253133 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253134 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253135 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253136 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253137 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253138 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253139 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-253140 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253141;
+    rdf:_2 _:n3-253142;
+    rdf:_3 _:n3-253144;
+    rdf:_4 _:n3-253145;
+    rdf:_5 _:n3-253146;
+    rdf:_6 _:n3-253147;
+    rdf:_7 _:n3-253150;
+    rdf:_8 _:n3-253151;
+    rdf:_9 _:n3-253152;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span></p>\n<p>Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.</p>\n<p>An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.</p>\n<p>Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.</p>\n<p><span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n <br></p>\n<p>Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.</p>\n<p>Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.</p>\n<p>Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Ehrenamt-ready (6 Monate): Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen. An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten. Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen. Hauptamt-ready (12 Monate): Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient. Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden. Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.".
+_:n3-253141 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-253142 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253143;
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-weight:bold;\">Ehrenamt-ready (6 Monate):</span>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt-ready (6 Monate):".
+_:n3-253143 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Ehrenamt-ready (6 Monate):";
+    <https://html.spec.whatwg.org/#innerHTML> "Ehrenamt-ready (6 Monate):";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt-ready (6 Monate):";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-253144 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.";
+    <https://html.spec.whatwg.org/#innerText> "Zielt darauf ab, mehr Ehrenamtliche für den Verein zu gewinnen.".
+_:n3-253145 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.";
+    <https://html.spec.whatwg.org/#innerHTML> "An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.";
+    <https://html.spec.whatwg.org/#innerText> "An gemeinsamen Vereinsvisionen mangelt es selten. Die Umsetzung ist allerdings nur mit ausreichend vorhandenen Ressourcen möglich. Insbesondere bei Ehrenamtlichen ist die Ressource Zeit ein limitierender Faktor. Kommen starre Vereinsstrukturen und veraltete Abläufe hinzu, vergeht den freiwillig Engagierte die Lust. Oft genug scheitern Umbrüche an bürokratischen Hürden und fehlendem Wissen darüber, wie solche Prozesse behutsam und strukturiert angegangen werden sollten.".
+_:n3-253146 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.";
+    <https://html.spec.whatwg.org/#innerText> "Das Coaching unterstützt Vereine dabei, in kürzester Zeit strukturierte Prozesse zu etablieren und die ehrenamtliche Basis zu stärken. Das Coaching kann Sportvereine dabei unterstützen, langfristige Strategien zu entwickeln, die auf die Stärkung und Professionalisierung des Engagements abzielen.".
+_:n3-253147 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253148;
+    rdf:_2 _:n3-253149;
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-weight:bold;\">Hauptamt-ready (12 Monate):</span>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready (12 Monate):".
+_:n3-253148 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Hauptamt-ready (12 Monate):";
+    <https://html.spec.whatwg.org/#innerHTML> "Hauptamt-ready (12 Monate):";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready (12 Monate):";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-253149 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253150 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.";
+    <https://html.spec.whatwg.org/#innerHTML> "Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.";
+    <https://html.spec.whatwg.org/#innerText> "Über einem Zeitraum von 12 Monaten steht das Klubtalent-Team mit beratenden Fachkräften aus Sport und Wirtschaft den Vereinen zur Seite, um sinnvolle Strukturen aufzubauen und mindestens eine hauptamtliche Stelle auszuschreiben, die der Entwicklung des Vereins und der Entlastung aller Ehrenamtlichen dient.".
+_:n3-253151 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Das Coaching-Programm „Hauptamt-ready“ von Klubtalent hilft Ihnen dabei, eine hauptamtliche Stelle in Ihrem Verein zu etablieren, indem organisatorische und strukturelle Prozesse professionalisiert werden und die Außenwirkung Ihres Vereins vergrößert wird. Somit können Ihre gemeinnützigen Ziele erfolgreich umgesetzt werden.".
+_:n3-253152 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.";
+    <https://html.spec.whatwg.org/#innerText> "Bei „Hauptamt-ready“ geht es darum, gemeinsam den Ist-Zustand des Vereins zu analysieren, mögliche Missverhältnisse zu identifizieren, realistische Ziele zu setzen und Refinanzierungsmöglichkeiten auszuschöpfen um aktuellen sowie zukünftigen Herausforderungen vorbereitet entgegenzutreten. Das Prinzip lautet: „Mehr Ehrenamt durch Hauptamt!“.".
+_:n3-253153 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253154;
+    rdf:_2 _:n3-253155;
+    rdf:_3 _:n3-253158;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p><span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n <br></p>\n<div class=\"card-body collapse show\" id=\"collapse-151753-target\">\n <p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n <p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n  <br></p>\n <p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n  <br></p>\n <ul>\n  <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n  <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n  <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n </ul>\n <p><strong>12 Monate Coaching Hauptamt-ready</strong>\n  <br></p>\n <ul>\n  <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n  <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n  <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n </ul>\n <p><strong>Das klingt spannend für Ihren Verein?\n   <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n <p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n  <br>\n  <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Höhe der Förderungen ist gestaffelt: Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/".
+_:n3-253154 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-253155 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253156;
+    rdf:_2 _:n3-253157;
+    <https://html.spec.whatwg.org/#innerHTML> "<span style=\"font-weight:bold;\">Die Höhe der Förderungen ist gestaffelt:</span>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Höhe der Förderungen ist gestaffelt:".
+_:n3-253156 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Die Höhe der Förderungen ist gestaffelt:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Höhe der Förderungen ist gestaffelt:";
+    <https://html.spec.whatwg.org/#innerText> "Die Höhe der Förderungen ist gestaffelt:";
+    <http://www.w3.org/1999/xhtml#style> "font-weight:bold;".
+_:n3-253157 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253158 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253159;
+    rdf:_2 _:n3-253160;
+    rdf:_3 _:n3-253163;
+    rdf:_4 _:n3-253166;
+    rdf:_5 _:n3-253170;
+    rdf:_6 _:n3-253173;
+    rdf:_7 _:n3-253177;
+    rdf:_8 _:n3-253180;
+    <http://www.w3.org/1999/xhtml#class> "card-body collapse show";
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.</p>\n<p><strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n <br></p>\n<p><strong>6 Monate Coaching Ehrenamt-ready</strong>\n <br></p>\n<ul>\n <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n <li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n <li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>\n</ul>\n<p><strong>12 Monate Coaching Hauptamt-ready</strong>\n <br></p>\n<ul>\n <li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n <li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n <li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>\n</ul>\n<p><strong>Das klingt spannend für Ihren Verein?\n  <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.</p>\n<p>Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n <br>\n <a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein. Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%. 6 Monate Coaching Ehrenamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro 12 Monate Coaching Hauptamt-ready Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen. Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <http://www.w3.org/1999/xhtml#id> "collapse-151753-target".
+_:n3-253159 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.";
+    <https://html.spec.whatwg.org/#innerText> "Sowohl die Kosten für die Begleitung durch Klubtalent, als auch die Höhe der Förderung sind nach Mitgliederanzahl der Vereine gestaffelt. Der geförderte Anteil beläuft sich je nach Mitgliederstärke auf maximal 5.000 Euro pro Verein.".
+_:n3-253160 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253161;
+    rdf:_2 _:n3-253162;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.</strong>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.".
+_:n3-253161 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.";
+    <https://html.spec.whatwg.org/#innerText> "Bei kleinen Vereinen beträgt der noch zu erbringende Eigenanteil ca. 44%, bei größeren Vereinen bis zu 56%.".
+_:n3-253162 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253163 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253164;
+    rdf:_2 _:n3-253165;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>6 Monate Coaching Ehrenamt-ready</strong>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "6 Monate Coaching Ehrenamt-ready".
+_:n3-253164 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "6 Monate Coaching Ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerHTML> "6 Monate Coaching Ehrenamt-ready";
+    <https://html.spec.whatwg.org/#innerText> "6 Monate Coaching Ehrenamt-ready".
+_:n3-253165 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253166 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253167;
+    rdf:_2 _:n3-253168;
+    rdf:_3 _:n3-253169;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro</li>\n<li>Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro</li>\n<li>Und bei über 800 Mitgliedern mit 3.000 Euro</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro Und bei über 800 Mitgliedern mit 3.000 Euro".
+_:n3-253167 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 2.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 499 Mitgliedern fördert die Stiftung mit 2.000 Euro".
+_:n3-253168 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei bis zu 899 Mitgliedern fördert die Stiftung mit&nbsp;2.300 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 899 Mitgliedern fördert die Stiftung mit 2.300 Euro".
+_:n3-253169 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Und bei über 800 Mitgliedern mit 3.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Und bei über 800 Mitgliedern mit 3.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Und bei über 800 Mitgliedern mit 3.000 Euro".
+_:n3-253170 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253171;
+    rdf:_2 _:n3-253172;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>12 Monate Coaching Hauptamt-ready</strong>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "12 Monate Coaching Hauptamt-ready".
+_:n3-253171 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "12 Monate Coaching Hauptamt-ready";
+    <https://html.spec.whatwg.org/#innerHTML> "12 Monate Coaching Hauptamt-ready";
+    <https://html.spec.whatwg.org/#innerText> "12 Monate Coaching Hauptamt-ready".
+_:n3-253172 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253173 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253174;
+    rdf:_2 _:n3-253175;
+    rdf:_3 _:n3-253176;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro</li>\n<li>Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro</li>\n<li>Und bei über 800 Mitgliedern mit 5.000 Euro</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro Und bei über 800 Mitgliedern mit 5.000 Euro".
+_:n3-253174 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei bis zu 499 Mitgliedern fördert die Stiftung&nbsp;mit 3.300 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 499 Mitgliedern fördert die Stiftung mit 3.300 Euro".
+_:n3-253175 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei bis zu 799 Mitgliedern fördert die Stiftung&nbsp;mit 4.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Bei bis zu 799 Mitgliedern fördert die Stiftung mit 4.000 Euro".
+_:n3-253176 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Und bei über 800 Mitgliedern mit 5.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Und bei über 800 Mitgliedern mit 5.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Und bei über 800 Mitgliedern mit 5.000 Euro".
+_:n3-253177 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253178;
+    rdf:_2 "Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Das klingt spannend für Ihren Verein?\n <br></strong>Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.";
+    <https://html.spec.whatwg.org/#innerText> "Das klingt spannend für Ihren Verein? Dann laden wir Sie sehr herzlich zu einer der Infoveranstaltungen ein. Wir stellen Ihnen die Coaching Programme vor, informieren über die Fördermöglichkeit durch die Stiftung und beantworten alle Ihre Fragen.".
+_:n3-253178 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Das klingt spannend für Ihren Verein?";
+    rdf:_2 _:n3-253179;
+    <https://html.spec.whatwg.org/#innerHTML> "Das klingt spannend für Ihren Verein?\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Das klingt spannend für Ihren Verein?".
+_:n3-253179 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253180 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:";
+    rdf:_2 _:n3-253181;
+    rdf:_3 _:n3-253182;
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter:\n<br>\n<a href=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" title=\"https://klubtalent.org/fuer-vereine/hauptamt-ready/\" target=\"_blank\" rel=\"noreferrer noopener\">https://klubtalent.org/fuer-vereine/hauptamt-ready/</a>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Infos zu Klubtalent und den Coaching-Programmen finden Sie unter: https://klubtalent.org/fuer-vereine/hauptamt-ready/".
+_:n3-253181 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253182 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <https://html.spec.whatwg.org/#innerHTML> "https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <https://html.spec.whatwg.org/#innerText> "https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <http://www.w3.org/1999/xhtml#title> "https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <http://www.w3.org/1999/xhtml#href> "https://klubtalent.org/fuer-vereine/hauptamt-ready/";
+    <http://www.w3.org/1999/xhtml#rel> "noreferrer noopener";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253183 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253184;
+    rdf:_2 _:n3-253185;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"".
+_:n3-253184 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-253185 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253186;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"".
+_:n3-253186 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-253187;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"</a>";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"".
+_:n3-253187 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"";
+    <https://html.spec.whatwg.org/#innerText> "Internetseite des Förderprogrammes \"Hauptamt-ready und Ehrenamt-ready\"";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lotto-sport-stiftung.de/aktuelles/hauptamt-ready-und-ehrenamt-ready/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253188 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-253189;
+    rdf:_2 _:n3-253192;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Digitalisierung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Entwicklungszusammenarbeit</li>\n    <li>Sport und Bewegung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>max. 5000€</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-253189 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253190;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">\n</figure>".
+_:n3-253190 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-253191;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png\" width=\"800\" height=\"200\">".
+_:n3-253191 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "200";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Lotto-Sport-Stiftung_Logo_mit_Claim_CMYK_2025-07-28-100017_talp.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-253192 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253193;
+    rdf:_2 _:n3-253198;
+    rdf:_3 _:n3-253208;
+    rdf:_4 _:n3-253214;
+    rdf:_5 _:n3-253217;
+    rdf:_6 _:n3-253220;
+    rdf:_7 _:n3-253223;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Digitalisierung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Entwicklungszusammenarbeit</li>\n   <li>Sport und Bewegung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>max. 5000€</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Max. Fördersumme: max. 5000€ Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-253193 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253194;
+    rdf:_2 _:n3-253195;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-253194 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-253195 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253196;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-253196 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253197;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-253197 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-253198 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253199;
+    rdf:_2 _:n3-253200;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Digitalisierung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Entwicklungszusammenarbeit</li>\n  <li>Sport und Bewegung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges".
+_:n3-253199 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-253200 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253201;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Digitalisierung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Entwicklungszusammenarbeit</li>\n <li>Sport und Bewegung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges".
+_:n3-253201 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253202;
+    rdf:_2 _:n3-253203;
+    rdf:_3 _:n3-253204;
+    rdf:_4 _:n3-253205;
+    rdf:_5 _:n3-253206;
+    rdf:_6 _:n3-253207;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Digitalisierung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Entwicklungszusammenarbeit</li>\n<li>Sport und Bewegung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Sport und Bewegung Sonstiges".
+_:n3-253202 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-253203 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerHTML> "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-253204 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-253205 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entwicklungszusammenarbeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklungszusammenarbeit";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungszusammenarbeit".
+_:n3-253206 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-253207 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-253208 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253209;
+    rdf:_2 _:n3-253210;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten".
+_:n3-253209 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-253210 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253211;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten".
+_:n3-253211 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253212;
+    rdf:_2 _:n3-253213;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten".
+_:n3-253212 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-253213 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-253214 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253215;
+    rdf:_2 _:n3-253216;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>max. 5000€</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: max. 5000€".
+_:n3-253215 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-253216 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "max. 5000€";
+    <https://html.spec.whatwg.org/#innerHTML> "max. 5000€";
+    <https://html.spec.whatwg.org/#innerText> "max. 5000€".
+_:n3-253217 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253218;
+    rdf:_2 _:n3-253219;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-253218 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-253219 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-253220 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253221;
+    rdf:_2 _:n3-253222;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-253221 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-253222 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-253223 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253224;
+    rdf:_2 _:n3-253225;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-253224 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-253225 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-253226 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253227;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Goseriede 4,\n     <br>\n     30159 Hannover</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0511 99987351</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253227 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253228;
+    rdf:_2 _:n3-253246;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Goseriede 4,\n    <br>\n    30159 Hannover</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0511 99987351</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253228 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253229;
+    rdf:_2 _:n3-253231;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Goseriede 4,\n   <br>\n   30159 Hannover</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0511 99987351</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253229 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-253230;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung".
+_:n3-253230 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersächsische Lotto-Sport-Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2".
+_:n3-253231 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253232;
+    rdf:_2 _:n3-253235;
+    rdf:_3 _:n3-253239;
+    rdf:_4 _:n3-253243;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Goseriede 4,\n  <br>\n  30159 Hannover</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0511 99987351</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-253232 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253233;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Goseriede 4,\n <br>\n 30159 Hannover</p>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-253233 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Goseriede 4,";
+    rdf:_2 _:n3-253234;
+    rdf:_3 "30159 Hannover";
+    <https://html.spec.whatwg.org/#innerHTML> "Goseriede 4,\n<br>\n30159 Hannover";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-253234 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253235 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253236;
+    rdf:_2 _:n3-253237;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@lotto-sport-stiftung.de".
+_:n3-253236 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-253237 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253238;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de".
+_:n3-253238 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@lotto-sport-stiftung.de".
+_:n3-253239 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253240;
+    rdf:_2 _:n3-253241;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.lotto-sport-stiftung.de".
+_:n3-253240 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-253241 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253242;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de".
+_:n3-253242 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253243 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253244;
+    rdf:_2 _:n3-253245;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0511 99987351</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0511 99987351".
+_:n3-253244 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-253245 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0511 99987351";
+    <https://html.spec.whatwg.org/#innerHTML> "0511 99987351";
+    <https://html.spec.whatwg.org/#innerText> "0511 99987351".
+_:n3-253246 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253247;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">".
+_:n3-253247 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "178";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-253248 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-253249;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253249 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253250;
+    rdf:_2 _:n3-253254;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253250 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253251;
+    rdf:_2 _:n3-253252;
+    rdf:_3 _:n3-253253;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253251 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-253252 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-253253 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-253254 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253255;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-253255 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-253256 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-253257 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-253258 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-253259 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/hauptamt-ready-und-ehrenamt-ready";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-253260 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-253261 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Hauptamt-ready und Ehrenamt-ready  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Hauptamt-ready und Ehrenamt-ready  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Hauptamt-ready und Ehrenamt-ready  –  Förderdatenbank".
+_:n3-253262 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-253263 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

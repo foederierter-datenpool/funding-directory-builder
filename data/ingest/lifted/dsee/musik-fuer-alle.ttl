@@ -1,0 +1,871 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-279790 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279791;
+    rdf:_10 _:n3-279792;
+    rdf:_11 _:n3-279793;
+    rdf:_12 _:n3-279794;
+    rdf:_13 _:n3-279795;
+    rdf:_14 _:n3-279796;
+    rdf:_15 _:n3-279797;
+    rdf:_16 _:n3-279798;
+    rdf:_17 _:n3-279799;
+    rdf:_18 _:n3-279800;
+    rdf:_19 _:n3-279801;
+    rdf:_2 _:n3-279802;
+    rdf:_20 _:n3-279803;
+    rdf:_21 _:n3-279804;
+    rdf:_22 _:n3-279805;
+    rdf:_23 _:n3-279822;
+    rdf:_24 _:n3-279827;
+    rdf:_25 _:n3-279948;
+    rdf:_26 _:n3-279956;
+    rdf:_3 _:n3-279957;
+    rdf:_4 _:n3-279958;
+    rdf:_5 _:n3-279959;
+    rdf:_6 _:n3-279960;
+    rdf:_7 _:n3-279961;
+    rdf:_8 _:n3-279962;
+    rdf:_9 _:n3-279963;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "musik-fuer-alle";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Musik für alle!  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Musik für alle!\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Musik für alle!\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Musik für alle!</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n      <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n       <br></p>\n      <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n      <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n       <br></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n      <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n      <ul>\n       <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n       <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n       <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n      </ul>\n      <p><strong>Finanzielle Risikolage:</strong></p>\n      <ul>\n       <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n       <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n       <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n      </ul>\n      <p><strong>Bildungsbezogene Risikolage:</strong></p>\n      <ul>\n       <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n       <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n      </ul>\n      <p><strong>Beratung &amp; Antragstellung</strong>\n       <br>\n       &nbsp;</p>\n      <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n      <p><strong>Antragsfristen 2023 – 2027:</strong>\n       <br>\n       &nbsp;</p>\n      <ul>\n       <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n       <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n       <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n      </ul>\n      <p><strong>Schulungen für bewilligte Projekte</strong>\n       <br>\n       &nbsp;</p>\n      <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n       <br>\n       &nbsp;</p>\n      <p>&nbsp;</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>15. Januar 2027</li>\n        <li>1. Mai 2027</li>\n        <li>1. September 2027</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Hugo-Herrmann-Str. 24,\n        <br>\n        78647 Trossingen</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>07425 3288060</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle!  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Musik für alle! Musik für alle! „Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027 Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060 ©2026 Impressum Datenschutzerklärung".
+_:n3-279791 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-279792 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-279793 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-279794 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-279795 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Musik für alle!";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-279796 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-279797 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Musik für alle!";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-279798 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-279799 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-279800 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-279801 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-279802 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-279803 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-279804 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-279805 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279806;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-279806 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279807;
+    rdf:_2 _:n3-279809;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-279807 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-279808;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-279808 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-279809 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279810;
+    rdf:_2 _:n3-279813;
+    rdf:_3 _:n3-279816;
+    rdf:_4 _:n3-279819;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-279810 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-279811;
+    rdf:_2 _:n3-279812;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279811 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-279812 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-279813 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-279814;
+    rdf:_2 _:n3-279815;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279814 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-279815 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-279816 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-279817;
+    rdf:_2 _:n3-279818;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279817 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-279818 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-279819 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-279820;
+    rdf:_2 _:n3-279821;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279820 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-279821 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-279822 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-279823;
+    rdf:_2 _:n3-279826;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-279823 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-279824;
+    rdf:_2 _:n3-279825;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-279824 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-279825 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-279826 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-279827 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-279828;
+    rdf:_2 _:n3-279833;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Musik für alle!</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n     <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n      <br></p>\n     <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n     <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n      <br></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n     <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n     <ul>\n      <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n      <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n      <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n     </ul>\n     <p><strong>Finanzielle Risikolage:</strong></p>\n     <ul>\n      <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n      <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n      <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n     </ul>\n     <p><strong>Bildungsbezogene Risikolage:</strong></p>\n     <ul>\n      <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n      <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n     </ul>\n     <p><strong>Beratung &amp; Antragstellung</strong>\n      <br>\n      &nbsp;</p>\n     <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n     <p><strong>Antragsfristen 2023 – 2027:</strong>\n      <br>\n      &nbsp;</p>\n     <ul>\n      <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n      <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n      <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n     </ul>\n     <p><strong>Schulungen für bewilligte Projekte</strong>\n      <br>\n      &nbsp;</p>\n     <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n      <br>\n      &nbsp;</p>\n     <p>&nbsp;</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>15. Januar 2027</li>\n       <li>1. Mai 2027</li>\n       <li>1. September 2027</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Hugo-Herrmann-Str. 24,\n       <br>\n       78647 Trossingen</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>07425 3288060</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Musik für alle! Musik für alle! „Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027 Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279828 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-279829;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Musik für alle!</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Musik für alle!".
+_:n3-279829 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279830;
+    rdf:_2 _:n3-279831;
+    rdf:_3 _:n3-279832;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Musik für alle!</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Musik für alle!".
+_:n3-279830 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-279831 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-279832 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Musik für alle!";
+    <https://html.spec.whatwg.org/#innerHTML> "Musik für alle!";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle!".
+_:n3-279833 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-279834;
+    rdf:_2 _:n3-279928;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n    <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n     <br></p>\n    <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n    <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n     <br></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n    <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n    <ul>\n     <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n     <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n     <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n    </ul>\n    <p><strong>Finanzielle Risikolage:</strong></p>\n    <ul>\n     <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n     <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n     <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n    </ul>\n    <p><strong>Bildungsbezogene Risikolage:</strong></p>\n    <ul>\n     <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n     <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n    </ul>\n    <p><strong>Beratung &amp; Antragstellung</strong>\n     <br>\n     &nbsp;</p>\n    <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n    <p><strong>Antragsfristen 2023 – 2027:</strong>\n     <br>\n     &nbsp;</p>\n    <ul>\n     <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n     <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n     <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n    </ul>\n    <p><strong>Schulungen für bewilligte Projekte</strong>\n     <br>\n     &nbsp;</p>\n    <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n     <br>\n     &nbsp;</p>\n    <p>&nbsp;</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>15. Januar 2027</li>\n      <li>1. Mai 2027</li>\n      <li>1. September 2027</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Hugo-Herrmann-Str. 24,\n      <br>\n      78647 Trossingen</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>07425 3288060</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle! „Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027 Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279834 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279835;
+    rdf:_2 _:n3-279899;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n   <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n    <br></p>\n   <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n   <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n    <br></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n   <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n   <ul>\n    <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n    <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n    <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n   </ul>\n   <p><strong>Finanzielle Risikolage:</strong></p>\n   <ul>\n    <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n    <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n    <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n   </ul>\n   <p><strong>Bildungsbezogene Risikolage:</strong></p>\n   <ul>\n    <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n    <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n   </ul>\n   <p><strong>Beratung &amp; Antragstellung</strong>\n    <br>\n    &nbsp;</p>\n   <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n   <p><strong>Antragsfristen 2023 – 2027:</strong>\n    <br>\n    &nbsp;</p>\n   <ul>\n    <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n    <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n    <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n   </ul>\n   <p><strong>Schulungen für bewilligte Projekte</strong>\n    <br>\n    &nbsp;</p>\n   <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n    <br>\n    &nbsp;</p>\n   <p>&nbsp;</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>15. Januar 2027</li>\n     <li>1. Mai 2027</li>\n     <li>1. September 2027</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle! „Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279835 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279836;
+    rdf:_2 _:n3-279838;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n  <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n   <br></p>\n  <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n  <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n   <br></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n  <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n  <ul>\n   <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n   <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n   <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n  </ul>\n  <p><strong>Finanzielle Risikolage:</strong></p>\n  <ul>\n   <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n   <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n   <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n  </ul>\n  <p><strong>Bildungsbezogene Risikolage:</strong></p>\n  <ul>\n   <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n   <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n  </ul>\n  <p><strong>Beratung &amp; Antragstellung</strong>\n   <br>\n   &nbsp;</p>\n  <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n  <p><strong>Antragsfristen 2023 – 2027:</strong>\n   <br>\n   &nbsp;</p>\n  <ul>\n   <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n   <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n   <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n  </ul>\n  <p><strong>Schulungen für bewilligte Projekte</strong>\n   <br>\n   &nbsp;</p>\n  <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n   <br>\n   &nbsp;</p>\n  <p>&nbsp;</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle! „Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm".
+_:n3-279836 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-279837;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Musik für alle!</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle!".
+_:n3-279837 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Musik für alle!";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Musik für alle!";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle!".
+_:n3-279838 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279839;
+    rdf:_2 _:n3-279849;
+    rdf:_3 _:n3-279890;
+    rdf:_4 _:n3-279894;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n <p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n  <br></p>\n <p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n <p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n  <br></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n <p><strong>Soziale/strukturelle Risikolage:</strong></p>\n <ul>\n  <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n  <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n  <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n </ul>\n <p><strong>Finanzielle Risikolage:</strong></p>\n <ul>\n  <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n  <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n  <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n </ul>\n <p><strong>Bildungsbezogene Risikolage:</strong></p>\n <ul>\n  <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n  <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n </ul>\n <p><strong>Beratung &amp; Antragstellung</strong>\n  <br>\n  &nbsp;</p>\n <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n <p><strong>Antragsfristen 2023 – 2027:</strong>\n  <br>\n  &nbsp;</p>\n <ul>\n  <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n  <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n  <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n </ul>\n <p><strong>Schulungen für bewilligte Projekte</strong>\n  <br>\n  &nbsp;</p>\n <p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n  <br>\n  &nbsp;</p>\n <p>&nbsp;</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "„Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft. Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen. Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Weitere Informationen Link zum Programm".
+_:n3-279839 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279840;
+    rdf:_2 _:n3-279841;
+    rdf:_3 _:n3-279844;
+    rdf:_4 _:n3-279846;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>„Musik für alle!“ muss Wirklichkeit werden!</h3>\n<p><strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n <br></p>\n<p><strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)</p>\n<p><strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "„Musik für alle!“ muss Wirklichkeit werden! WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen) WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.".
+_:n3-279840 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "„Musik für alle!“ muss Wirklichkeit werden!";
+    <https://html.spec.whatwg.org/#innerHTML> "„Musik für alle!“ muss Wirklichkeit werden!";
+    <https://html.spec.whatwg.org/#innerText> "„Musik für alle!“ muss Wirklichkeit werden!".
+_:n3-279841 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279842;
+    rdf:_2 "Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern";
+    rdf:_3 _:n3-279843;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>WAS: </strong>Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "WAS: Förderung neuer, außerschulischer Musikprojekte in Zusammenarbeit mit 2 Bündnispartnern".
+_:n3-279842 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "WAS: ";
+    <https://html.spec.whatwg.org/#innerHTML> "WAS:";
+    <https://html.spec.whatwg.org/#innerText> "WAS:".
+_:n3-279843 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279844 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279845;
+    rdf:_2 " Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>FÜR WEN:</strong> Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)";
+    <https://html.spec.whatwg.org/#innerText> "FÜR WEN: Kinder und Jugendliche zwischen 3 und 18 Jahren mit bisher erschwertem Zugang zur Musik (in sozialen, finanziellen oder bildungsbezogenen Risikolagen)".
+_:n3-279845 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "FÜR WEN:";
+    <https://html.spec.whatwg.org/#innerHTML> "FÜR WEN:";
+    <https://html.spec.whatwg.org/#innerText> "FÜR WEN:".
+_:n3-279846 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279847;
+    rdf:_2 " „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.";
+    rdf:_3 _:n3-279848;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>WARUM:</strong> „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "WARUM: „Musik für alle!“ muss Wirklichkeit werden! Dazu soll jedem Kind und Jugendlichen die Möglichkeit zum gemeinsamen Singen, Musizieren und kreativen Ausdruck gegeben sein. Unabhängig von Herkunft und sozialer Verortung finden selbstbewusste und kreative Heranwachsende ihre Stimme in der Gesellschaft.".
+_:n3-279847 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "WARUM:";
+    <https://html.spec.whatwg.org/#innerHTML> "WARUM:";
+    <https://html.spec.whatwg.org/#innerText> "WARUM:".
+_:n3-279848 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279849 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279850;
+    rdf:_10 _:n3-279851;
+    rdf:_11 _:n3-279853;
+    rdf:_12 _:n3-279856;
+    rdf:_13 _:n3-279863;
+    rdf:_14 _:n3-279866;
+    rdf:_15 _:n3-279868;
+    rdf:_2 _:n3-279869;
+    rdf:_3 _:n3-279870;
+    rdf:_4 _:n3-279872;
+    rdf:_5 _:n3-279876;
+    rdf:_6 _:n3-279878;
+    rdf:_7 _:n3-279882;
+    rdf:_8 _:n3-279884;
+    rdf:_9 _:n3-279887;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.</p>\n<p><strong>Soziale/strukturelle Risikolage:</strong></p>\n<ul>\n <li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n <li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n <li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>\n</ul>\n<p><strong>Finanzielle Risikolage:</strong></p>\n<ul>\n <li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n <li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n <li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>\n</ul>\n<p><strong>Bildungsbezogene Risikolage:</strong></p>\n<ul>\n <li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n <li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>\n</ul>\n<p><strong>Beratung &amp; Antragstellung</strong>\n <br>\n &nbsp;</p>\n<p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>\n<p><strong>Antragsfristen 2023 – 2027:</strong>\n <br>\n &nbsp;</p>\n<ul>\n <li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n <li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n <li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>\n</ul>\n<p><strong>Schulungen für bewilligte Projekte</strong>\n <br>\n &nbsp;</p>\n<p>Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n <br>\n &nbsp;</p>\n<p>&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden. Soziale/strukturelle Risikolage: Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum) Finanzielle Risikolage: geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft Bildungsbezogene Risikolage: Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote Beratung & Antragstellung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus. Antragsfristen 2023 – 2027: bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024) Schulungen für bewilligte Projekte Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.".
+_:n3-279850 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-279851 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Nach einer Beratung vom Projektbüro kann auf dem ";
+    rdf:_2 _:n3-279852;
+    rdf:_3 " ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.";
+    <https://html.spec.whatwg.org/#innerHTML> "Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.";
+    <https://html.spec.whatwg.org/#innerText> "Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus.".
+_:n3-279852 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsportal kumasta";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsportal kumasta";
+    <https://html.spec.whatwg.org/#innerText> "Antragsportal kumasta";
+    <http://www.w3.org/1999/xhtml#href> "https://kumasta3.buendnisse-fuer-bildung.de/".
+_:n3-279853 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279854;
+    rdf:_2 _:n3-279855;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Antragsfristen 2023 – 2027:</strong>\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Antragsfristen 2023 – 2027:".
+_:n3-279854 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Antragsfristen 2023 – 2027:";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsfristen 2023 – 2027:";
+    <https://html.spec.whatwg.org/#innerText> "Antragsfristen 2023 – 2027:".
+_:n3-279855 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279856 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279857;
+    rdf:_2 _:n3-279859;
+    rdf:_3 _:n3-279861;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)</li>\n<li><strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)</li>\n<li><strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)</li>";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 15. Januar (mit Projektstart ab dem 15. März) bis zum 1. Mai (mit Projektstart ab dem 01. Juli) bis zum 1. September (mit Projektstart ab dem 01. Januar 2024)".
+_:n3-279857 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-279858;
+    rdf:_2 " (mit Projektstart ab dem 15. März)";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>bis zum 15. Januar</strong> (mit Projektstart ab dem 15. März)";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 15. Januar (mit Projektstart ab dem 15. März)".
+_:n3-279858 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 15. Januar";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 15. Januar";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 15. Januar".
+_:n3-279859 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-279860;
+    rdf:_2 " (mit Projektstart ab dem 01. Juli)";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>bis zum 1. Mai</strong> (mit Projektstart ab dem 01. Juli)";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 1. Mai (mit Projektstart ab dem 01. Juli)".
+_:n3-279860 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 1. Mai";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 1. Mai";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 1. Mai".
+_:n3-279861 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-279862;
+    rdf:_2 " (mit Projektstart ab dem 01. Januar 2024)";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>bis zum 1. September</strong> (mit Projektstart ab dem 01. Januar 2024)";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 1. September (mit Projektstart ab dem 01. Januar 2024)".
+_:n3-279862 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 1. September";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 1. September";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 1. September".
+_:n3-279863 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279864;
+    rdf:_2 _:n3-279865;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Schulungen für bewilligte Projekte</strong>\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Schulungen für bewilligte Projekte".
+_:n3-279864 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Schulungen für bewilligte Projekte";
+    <https://html.spec.whatwg.org/#innerHTML> "Schulungen für bewilligte Projekte";
+    <https://html.spec.whatwg.org/#innerText> "Schulungen für bewilligte Projekte".
+_:n3-279865 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279866 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.";
+    rdf:_2 _:n3-279867;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Nach der Zusage der Jury bieten der Bundesmusikverband&nbsp;regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Nach der Zusage der Jury bieten der Bundesmusikverband regelmäßig Schulungen an, bei denen verschiedenen Unterlagen zur administrativen Abwicklung erklärt werden. Ebenso will der Verband alle geförderten Projekte kennenlernen und das Treffen für eine deutschlandweite Vernetzung nutzen.".
+_:n3-279867 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279868 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;".
+_:n3-279869 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm „Musik für alle!“ richtet sich an Kinder und Jugendliche zwischen 3 und 18 Jahren, die in verschiedenen Risikolagen aufwachsen und bisher keinen oder nur geringen Zugang zur Musik haben. Der Bundesmusikverband möchte damit Teilhabe und Entwicklungsmöglichkeiten in musikalischen Angeboten für alle ermöglichen. Die Risikolage muss nicht für die einzelnen Teilnehmenden nachgewiesen werden. Vielmehr soll das Bündnis im Antrag nachvollziehbar darstellen, wie die Zielgruppe im Sozialraum anhand der drei Risikolagen erreicht werden kann. Es ist möglich und erwünscht, dass auch Kinder und Jugendliche teilnehmen, die nicht von den Risikolagen betroffen sind. Eine Stigmatisierung soll bewusst vermieden werden.".
+_:n3-279870 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279871;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Soziale/strukturelle Risikolage:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Soziale/strukturelle Risikolage:".
+_:n3-279871 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Soziale/strukturelle Risikolage:";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziale/strukturelle Risikolage:";
+    <https://html.spec.whatwg.org/#innerText> "Soziale/strukturelle Risikolage:".
+_:n3-279872 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279873;
+    rdf:_2 _:n3-279874;
+    rdf:_3 _:n3-279875;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Erwerbslosigkeit der im Haushalt lebenden Elternteile</li>\n<li>Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet</li>\n<li>Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)</li>";
+    <https://html.spec.whatwg.org/#innerText> "Erwerbslosigkeit der im Haushalt lebenden Elternteile Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)".
+_:n3-279873 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Erwerbslosigkeit der im Haushalt lebenden Elternteile";
+    <https://html.spec.whatwg.org/#innerHTML> "Erwerbslosigkeit der im Haushalt lebenden Elternteile";
+    <https://html.spec.whatwg.org/#innerText> "Erwerbslosigkeit der im Haushalt lebenden Elternteile".
+_:n3-279874 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet";
+    <https://html.spec.whatwg.org/#innerHTML> "Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet";
+    <https://html.spec.whatwg.org/#innerText> "Beschreibung der sozialräumlichen Verortung und des Quartiers, in dem das Projekt stattfindet".
+_:n3-279875 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)";
+    <https://html.spec.whatwg.org/#innerHTML> "Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)";
+    <https://html.spec.whatwg.org/#innerText> "Beschreibung über das Profil des Bündnispartners, über den die Zielgruppe direkt erreicht wird (Schule, Kita, Jugendzentrum)".
+_:n3-279876 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279877;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Finanzielle Risikolage:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Finanzielle Risikolage:".
+_:n3-279877 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Finanzielle Risikolage:";
+    <https://html.spec.whatwg.org/#innerHTML> "Finanzielle Risikolage:";
+    <https://html.spec.whatwg.org/#innerText> "Finanzielle Risikolage:".
+_:n3-279878 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279879;
+    rdf:_2 _:n3-279880;
+    rdf:_3 _:n3-279881;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren</li>\n<li>Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist</li>\n<li>Schulen geben meist allgemeine Auskünfte über die Schülerschaft</li>";
+    <https://html.spec.whatwg.org/#innerText> "geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist Schulen geben meist allgemeine Auskünfte über die Schülerschaft".
+_:n3-279879 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren";
+    <https://html.spec.whatwg.org/#innerHTML> "geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren";
+    <https://html.spec.whatwg.org/#innerText> "geringes Familieneinkommen, Eltern erhalten Arbeitslosengeld und/oder Transferleistungen und können musikalische Bildungsangebote nicht finanzieren".
+_:n3-279880 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist";
+    <https://html.spec.whatwg.org/#innerHTML> "Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist";
+    <https://html.spec.whatwg.org/#innerText> "Öffentliche Statistiken zeigen, wie hoch die Arbeitslosenquote im Vergleich zu anderen Regionen ist".
+_:n3-279881 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Schulen geben meist allgemeine Auskünfte über die Schülerschaft";
+    <https://html.spec.whatwg.org/#innerHTML> "Schulen geben meist allgemeine Auskünfte über die Schülerschaft";
+    <https://html.spec.whatwg.org/#innerText> "Schulen geben meist allgemeine Auskünfte über die Schülerschaft".
+_:n3-279882 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279883;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Bildungsbezogene Risikolage:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Bildungsbezogene Risikolage:".
+_:n3-279883 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Bildungsbezogene Risikolage:";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildungsbezogene Risikolage:";
+    <https://html.spec.whatwg.org/#innerText> "Bildungsbezogene Risikolage:".
+_:n3-279884 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279885;
+    rdf:_2 _:n3-279886;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung</li>\n<li>keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote</li>";
+    <https://html.spec.whatwg.org/#innerText> "Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote".
+_:n3-279885 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung";
+    <https://html.spec.whatwg.org/#innerHTML> "Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung";
+    <https://html.spec.whatwg.org/#innerText> "Elternteil hat weder abgeschlossene Berufsausbildung noch Hochschulzugangsberechtigung".
+_:n3-279886 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote";
+    <https://html.spec.whatwg.org/#innerHTML> "keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote";
+    <https://html.spec.whatwg.org/#innerText> "keinen direkten Einfluss der Eltern zur Wahrnehmung kultureller Bildungsangebote".
+_:n3-279887 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279888;
+    rdf:_2 _:n3-279889;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Beratung &amp; Antragstellung</strong>\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Beratung & Antragstellung".
+_:n3-279888 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Beratung &amp; Antragstellung";
+    <https://html.spec.whatwg.org/#innerHTML> "Beratung &amp; Antragstellung";
+    <https://html.spec.whatwg.org/#innerText> "Beratung & Antragstellung".
+_:n3-279889 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279890 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279891;
+    rdf:_2 _:n3-279892;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus.".
+_:n3-279891 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-279892 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Nach einer Beratung vom Projektbüro kann auf dem ";
+    rdf:_2 _:n3-279893;
+    rdf:_3 " ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.";
+    <https://html.spec.whatwg.org/#innerHTML> "Nach einer Beratung vom Projektbüro kann auf dem <a href=\"https://kumasta3.buendnisse-fuer-bildung.de/\" target=\"_blank\" rel=\"noreferrer noopener\">Antragsportal kumasta</a> ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor &amp; Orchester als Förderer aus.";
+    <https://html.spec.whatwg.org/#innerText> "Nach einer Beratung vom Projektbüro kann auf dem Antragsportal kumasta ein Projekt eingereicht werden. Bitte wählen Sie dazu den Bundesmusikverband Chor & Orchester als Förderer aus.".
+_:n3-279893 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsportal kumasta";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsportal kumasta";
+    <https://html.spec.whatwg.org/#innerText> "Antragsportal kumasta";
+    <http://www.w3.org/1999/xhtml#href> "https://kumasta3.buendnisse-fuer-bildung.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noreferrer noopener";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279894 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279895;
+    rdf:_2 _:n3-279896;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm".
+_:n3-279895 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-279896 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279897;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-279897 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-279898;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://bundesmusikverband.de/musik-fuer-alle/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-279898 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://bundesmusikverband.de/musik-fuer-alle/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279899 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-279900;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>15. Januar 2027</li>\n    <li>1. Mai 2027</li>\n    <li>1. September 2027</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279900 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279901;
+    rdf:_2 _:n3-279904;
+    rdf:_3 _:n3-279912;
+    rdf:_4 _:n3-279918;
+    rdf:_5 _:n3-279921;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>15. Januar 2027</li>\n   <li>1. Mai 2027</li>\n   <li>1. September 2027</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Förderfähige Kosten: Honorarkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279901 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279902;
+    rdf:_2 _:n3-279903;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-279902 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-279903 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-279904 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279905;
+    rdf:_2 _:n3-279906;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-279905 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-279906 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279907;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-279907 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279908;
+    rdf:_2 _:n3-279909;
+    rdf:_3 _:n3-279910;
+    rdf:_4 _:n3-279911;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-279908 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-279909 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-279910 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-279911 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-279912 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279913;
+    rdf:_2 _:n3-279914;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-279913 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-279914 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279915;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-279915 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279916;
+    rdf:_2 _:n3-279917;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-279916 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-279917 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-279918 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279919;
+    rdf:_2 _:n3-279920;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-279919 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-279920 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-279921 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279922;
+    rdf:_2 _:n3-279923;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>15. Januar 2027</li>\n  <li>1. Mai 2027</li>\n  <li>1. September 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279922 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-279923 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279924;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>15. Januar 2027</li>\n <li>1. Mai 2027</li>\n <li>1. September 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279924 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-279925;
+    rdf:_2 _:n3-279926;
+    rdf:_3 _:n3-279927;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>15. Januar 2027</li>\n<li>1. Mai 2027</li>\n<li>1. September 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "15. Januar 2027 1. Mai 2027 1. September 2027".
+_:n3-279925 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "15. Januar 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "15. Januar 2027";
+    <https://html.spec.whatwg.org/#innerText> "15. Januar 2027".
+_:n3-279926 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Mai 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Mai 2027";
+    <https://html.spec.whatwg.org/#innerText> "1. Mai 2027".
+_:n3-279927 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. September 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "1. September 2027";
+    <https://html.spec.whatwg.org/#innerText> "1. September 2027".
+_:n3-279928 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279929;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Hugo-Herrmann-Str. 24,\n     <br>\n     78647 Trossingen</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>07425 3288060</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279929 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279930;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Hugo-Herrmann-Str. 24,\n    <br>\n    78647 Trossingen</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>07425 3288060</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279930 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279931;
+    rdf:_2 _:n3-279933;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Hugo-Herrmann-Str. 24,\n   <br>\n   78647 Trossingen</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>07425 3288060</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bundesmusikverband Chor & Orchester e.V. Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279931 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-279932;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v\" class=\"link\">Bundesmusikverband Chor &amp; Orchester e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bundesmusikverband Chor & Orchester e.V.".
+_:n3-279932 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bundesmusikverband Chor &amp; Orchester e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesmusikverband Chor &amp; Orchester e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Bundesmusikverband Chor & Orchester e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/22567-bundesmusikverband-chor-orchester-e-v".
+_:n3-279933 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279934;
+    rdf:_2 _:n3-279937;
+    rdf:_3 _:n3-279941;
+    rdf:_4 _:n3-279945;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Hugo-Herrmann-Str. 24,\n  <br>\n  78647 Trossingen</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>07425 3288060</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Hugo-Herrmann-Str. 24, 78647 Trossingen E-Mail info@bundesmusikverband.de Webseite bundesmusikverband.de/ Telefon 07425 3288060".
+_:n3-279934 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279935;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Hugo-Herrmann-Str. 24,\n <br>\n 78647 Trossingen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hugo-Herrmann-Str. 24, 78647 Trossingen".
+_:n3-279935 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Hugo-Herrmann-Str. 24,";
+    rdf:_2 _:n3-279936;
+    rdf:_3 "78647 Trossingen";
+    <https://html.spec.whatwg.org/#innerHTML> "Hugo-Herrmann-Str. 24,\n<br>\n78647 Trossingen";
+    <https://html.spec.whatwg.org/#innerText> "Hugo-Herrmann-Str. 24, 78647 Trossingen".
+_:n3-279936 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-279937 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279938;
+    rdf:_2 _:n3-279939;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@bundesmusikverband.de".
+_:n3-279938 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-279939 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279940;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@bundesmusikverband.de\">info@bundesmusikverband.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@bundesmusikverband.de".
+_:n3-279940 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@bundesmusikverband.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@bundesmusikverband.de";
+    <https://html.spec.whatwg.org/#innerText> "info@bundesmusikverband.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@bundesmusikverband.de".
+_:n3-279941 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279942;
+    rdf:_2 _:n3-279943;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite bundesmusikverband.de/".
+_:n3-279942 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-279943 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-279944;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://bundesmusikverband.de/\" target=\"_blank\">bundesmusikverband.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "bundesmusikverband.de/".
+_:n3-279944 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "bundesmusikverband.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "bundesmusikverband.de/";
+    <https://html.spec.whatwg.org/#innerText> "bundesmusikverband.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://bundesmusikverband.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-279945 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279946;
+    rdf:_2 _:n3-279947;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>07425 3288060</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 07425 3288060".
+_:n3-279946 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-279947 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "07425 3288060";
+    <https://html.spec.whatwg.org/#innerHTML> "07425 3288060";
+    <https://html.spec.whatwg.org/#innerText> "07425 3288060".
+_:n3-279948 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-279949;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-279949 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279950;
+    rdf:_2 _:n3-279954;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-279950 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-279951;
+    rdf:_2 _:n3-279952;
+    rdf:_3 _:n3-279953;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-279951 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-279952 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-279953 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-279954 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-279955;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-279955 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-279956 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-279957 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-279958 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-279959 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/musik-fuer-alle";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-279960 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-279961 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Musik für alle!  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Musik für alle!  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Musik für alle!  –  Förderdatenbank".
+_:n3-279962 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-279963 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

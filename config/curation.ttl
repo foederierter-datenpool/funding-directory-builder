@@ -1,0 +1,87 @@
+# Curated adjudications of candidate merges that title similarity cannot decide.
+#
+# GENERATED FILE — do not edit by hand. Regenerate and re-adjudicate:
+#   npm run curate:prompt              -> data/curation/judge-prompt.txt
+#   (adjudicate; save the verdict lines)
+#   npm run curate:apply config/curation-verdicts.txt --judge "<model>"
+#
+# judged by:      Claude Opus 4.5 (claude-opus-4-5)
+# verdicts:       config/curation-verdicts.txt (the reasoning, one line per pair)
+# generated:      2026-09-23T21:14:33.127Z
+# corpus:         ingest of 2026-09-23T19:06:49.770Z
+# sources judged: dsee, euportal, fdbBund, foerderfinder
+#
+# The judgements are an LLM's, not a domain expert's, and the model that made
+# them also wrote the guidance in the prompt — so this is a first pass to review,
+# not independent verification. Every verdict carries a one-line reason in the
+# verdicts file; disagree by editing that and regenerating.
+#
+# Only disagreements with the threshold are asserted: a SAME below :minScore,
+# or a DIFFERENT above it. Agreements are left implicit, so this file shows
+# exactly where human judgement overrode the score and nothing else.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cdp: <https://civic-data.de/pipeline#> .
+
+# DIFFERENT (86) — Sachsen-Anhalt scheme with a 3-year regional commitment against a rural scheme requiring 5 years across all Laender
+#   Stipendienprogramm für Medizinstudierende
+#   Stipendium für Medizinstudierende
+cdp:fdb-land-sachsen-anhalt-stipendienprogramm-medizinstudierende owl:differentFrom cdp:ff-1c9c189a-0879-4cd4-a1d3-02ca1ee59177 .
+
+# SAME (84) — same Bayern FoeR-PrBNE education for sustainable development
+#   Förderung von Projekten der Bildung für nachhaltige Entwicklung und Umweltbildung in Bayern (FöR-PrBNE)
+#   Projekte der Bildung für nachhaltige Entwicklung (BNE) und Umweltbildung in Bayern
+cdp:fdb-land-bayern-projekte-bne-und-ub owl:sameAs cdp:ff-84849ff9-dd69-48da-82e0-8ec4442919bb .
+
+# SAME (82) — same Bayern Kommunalfoerderrichtlinie KoFoeR for local medical provision
+#   Förderung kommunalen Engagements für die ärztliche Versorgung vor Ort (Kommunalförderrichtlinie ? KoFöR)
+#   Förderung kommunalen Engagements für die ärztliche Versorgung vor Ort
+cdp:fdb-land-bayern-kommunalfoerderrichtlinie owl:sameAs cdp:ff-4227a456-a2ab-4be8-976d-8bfc278d4f3d .
+
+# SAME (81) — same Bayern Fortbildung-FoeR for staff in disability and psychiatric care
+#   Fortbildung der in den Bereichen Behindertenhilfe und psychiatrische Versorgung tätigen Personen (Förderrichtlinie Fortbildung ? Fortbildung-FöR)
+#   Fortbildung der in den Bereichen Behindertenhilfe und psychiatrische Versorgung tätigen Personen
+cdp:fdb-land-bayern-fortbildung-behindertenhilfe-psychatrische-versorg owl:sameAs cdp:ff-706d26bc-97fd-418a-977a-7dcc73bee32c .
+
+# SAME (81) — both the Bayern ueberregionale Offene Behindertenarbeit line
+#   Überregionale Offene Behindertenarbeit
+#   Förderung für überregionale offene Behindertenarbeit (OBA)
+cdp:fdb-land-bayern-ueberregionale-offene-behindertenarbeit owl:sameAs cdp:ff-084dfb2e-0fe0-46af-9df2-55fb558d264f .
+
+# SAME (79) — both the BMWK Energieberatung fuer Wohngebaeude
+#   Bundesförderung Energieberatung für Wohngebäude
+#   Energieberatung für Wohngebäude
+cdp:dsee-bundesfoerderung-energieberatung-fuer-wohngebaeude owl:sameAs cdp:fdb-bund-bmwi-energieberatung-fuer-wohngebaude .
+
+# SAME (79) — both the Bayern regionale Offene Behindertenarbeit line
+#   Regionale Offene Behindertenarbeit
+#   Förderung für regionale Offene Behindertenarbeit (OBA)
+cdp:fdb-land-bayern-regionale-offene-behindertenarbeit owl:sameAs cdp:ff-5f8ac1eb-c2e4-4c92-9592-70604a062b68 .
+
+# SAME (78) — same Mecklenburg-Vorpommern democracy and tolerance programme
+#   Förderung von Maßnahmen zur Stärkung der Demokratie und Toleranz
+#   Förderung von Maßnahmen zur Stärkung von Demokratie und Toleranz in Mecklenburg-Vorpommern
+cdp:dsee-foerderung-von-massnahmen-zur-staerkung-der-demokratie-und-toleranz owl:sameAs cdp:fdb-land-mecklenburg-vorpommern-foerderung-staerkung-demokratie-toleranz-meck-pomm .
+
+# UNSURE (78) cdp:dsee-heimat-zukunft-nordrhein-westfalen / cdp:fdb-land-nrw-heimat-scheck-nrw
+#   the dsee record is titled as the umbrella Heimat.Zukunft.NRW but its description covers only Heimat-Scheck; needs the dsee page to say whether it is the umbrella or that one instrument
+
+# SAME (78) — same Bayern Fit for Work ESF+ apprenticeship initiative
+#   Fit for Work ? Chance Ausbildung (ESF+ 2021?2027)
+#   Fit for Work - Chance Ausbildung (Aktion 4.1)
+cdp:fdb-land-bayern-fit-for-work-chance owl:sameAs cdp:ff-bdb5c0c6-eef9-47a4-9e9b-df7184c554d5 .
+
+# SAME (77) — same Bayern Digitalbonus for small businesses
+#   Digitalbonus Bayern
+#   Digitalbonus
+cdp:fdb-land-bayern-digitalbonus owl:sameAs cdp:ff-26c32b94-4a9a-458f-afda-b70c3056f990 .
+
+# SAME (77) — same Bayern funding for student housing
+#   Wohnraum für Studierende
+#   Förderung von Wohnraum für Studierende
+cdp:fdb-land-bayern-wohnraum-fuer-studierende owl:sameAs cdp:ff-e5075cba-73b5-4883-9a16-7b3b22463508 .
+
+# SAME (75) — same Sachsen FRL Demografie programme
+#   Demografie - Bewältigung des demografischen Wandels
+#   Demografischer Wandel (FRL Demografie)
+cdp:dsee-demografie-bewaeltigung-des-demografischen-wandels owl:sameAs cdp:fdb-land-sachsen-demografischer-wandel-frl-demografie .

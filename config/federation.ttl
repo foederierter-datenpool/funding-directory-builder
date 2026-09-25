@@ -1,0 +1,455 @@
+@prefix :       <https://civic-data.de/pipeline#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix ft:     <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix cdf:    <https://civic-data.de/federated-directory#> .
+
+# ---- Federation ---------------------------------------------------------
+
+:federation a :Federation ;
+    rdfs:label       "Federated directory of funding programmes in Germany & the EU" ;
+    :hasSource       :fdbBundSource, :dseeSource, :euportalSource, :foerderfinderSource ;
+    :hasTargetSchema :fundingOpportunitySchema ;
+    :harvestingModeActive false ;
+    # Development default only. Every source overrides it below, because the four
+    # have nothing in common: ~2550 rows in one lift file, ~200 in one, ~1330 HTML
+    # pages at one JVM each, and ~287000 EU topics. A source's own :hasRunParam
+    # replaces the federation's value of that name outright; names it doesn't
+    # mention still inherit. 0 means no cap. Needs core >= 0.5.0.
+    :hasRunParam     [ :name "limit" ; :value "50" ] ;
+    # Sized for the machine that publishes: the deploy workflow builds on a 2-core,
+    # 7 GB runner. The engine defaults (3 sources, 4 JVMs) assume more of both --
+    # a SPARQL Anything JVM already uses more than one core, so four on two cores
+    # contend rather than overlap, and each carries its own heap. Raise these when
+    # building on a larger machine.
+    :maxConcurrentLifts   2 ;
+    :maxConcurrentSources 2 ;
+    :baseUrl         "https://foederierter-datenpool.github.io/funding-directory-builder/" ;
+    :repository      "https://github.com/foederierter-datenpool/funding-directory-builder" .
+
+# ---- Target schema ------------------------------------------------------
+
+# A funding opportunity (Förderprogramm / call / topic). One schema, deliberately:
+# a funder tier was considered and dropped — :foerdergeber in the sources is a
+# funder *level* ("Land"), not a funder name, and "browse by funder" is not one
+# of the questions this directory answers.
+#
+# Only fields some source actually fills are declared. Money and funding-rate
+# models are deliberately absent: no source carries them structurally, and a
+# declared field nothing maps to is noise in the config and in the webapp.
+:fundingOpportunitySchema a :TargetSchema ;
+    :targetClass schema:FundingScheme ;
+    :hasTargetField :t-name, :t-description, :t-url,
+                    :t-fundingArea, :t-fundingSubarea, :t-location, :t-fundingType,
+                    :t-eligibleApplicant, :t-funderLevel,
+                    :t-deadlineModel, :t-deadline, :t-status,
+                    :t-keywords, :t-legalCitation .
+
+:t-name        a :TargetField ; :targetPredicate schema:name .
+:t-description a :TargetField ; :targetPredicate schema:description .
+:t-url         a :TargetField ; :targetPredicate schema:url .
+
+# Reuse an established term only where one honestly fits — dct:spatial for the
+# funding region, schema:applicationDeadline for the date. Everything else is
+# minted under cdf: rather than bent out of a foreign vocabulary; there is no
+# schema:areas, which is why the earlier :t-areas draft could never be wired.
+#
+# The four list-valued fields carry one value per category the source states, so
+# they are :multiValued (merge must not read them as cross-source conflicts) and
+# get a :keepAll override below (resolve must not collapse them to one literal).
+:t-fundingArea       a :TargetField ; :targetPredicate cdf:fundingArea       ; :multiValued true .
+# fdbBund's own second level, "<parent>.<leaf>". Only fdbBund has one -- DSEE's
+# Engagementbereiche are a single flat axis and the EU portal's destination is a
+# thematic grouping, not a sub-area -- so this is single-source for now.
+:t-fundingSubarea    a :TargetField ; :targetPredicate cdf:fundingSubarea    ; :multiValued true .
+:t-location          a :TargetField ; :targetPredicate dct:spatial           ; :multiValued true .
+:t-fundingType       a :TargetField ; :targetPredicate cdf:fundingType       ; :multiValued true .
+:t-eligibleApplicant a :TargetField ; :targetPredicate cdf:eligibleApplicant ; :multiValued true .
+
+:t-funderLevel   a :TargetField ; :targetPredicate cdf:funderLevel .
+:t-deadlineModel a :TargetField ; :targetPredicate cdf:deadlineModel .
+:t-deadline      a :TargetField ; :targetPredicate schema:applicationDeadline .
+
+# active | ended. Ended programmes are kept in the directory deliberately — they
+# are still worth showing — so a consumer needs something to judge by: this, or
+# the deadline.
+#
+# Two values, not the EU portal's three: Forthcoming and Open differ only in
+# whether you can submit today, which is a fact about dates, and a coarser
+# vocabulary is what lets a source that states no status of its own be read
+# against it. "ended" rather than "inactive" on purpose — inactive reads as
+# temporarily suspended, which is a real third case (fdbBund's "Antragstellung
+# derzeit nicht möglich") that should get its own value rather than be conflated.
+#
+# Only the EU portal fills it today, because it is the only source that states a
+# status outright. The others are each blocked on something specific:
+#
+#   Förderfinder derives it from the programme runtime end (foerderzeitraum.bis,
+#   194 of 204 records) compared against cdp:observedAt, the per-source harvest
+#   time core 0.5.0 lifts out of data/ingest/ingest-log.ttl. NOW() would have made
+#   federate non-deterministic — the same snapshot yielding a different
+#   directory.ttl tomorrow — whereas the harvest time is a fact about the
+#   snapshot, so the comparison is pure and a federate-only re-run keeps the
+#   previous ingest's answer.
+#
+#   fdbBund states nothing usable. Its status_note is free-text editorial, empty
+#   on 2292 of 2551 rows, and spells one word three ways ("Antragstellung",
+#   "Antragsstellung", "Antagstellung") — no contract to rely on. Its "absent"
+#   flag is not a substitute either: upstream says absence means only that a
+#   programme left the export, which may be closure, reorganisation or a
+#   restructure.
+#
+#   DSEE states nothing. "Fortlaufende Förderung" is a deadline model, already
+#   mapped to cdf:deadlineModel = rolling; it says nothing about whether the
+#   programme still exists.
+:t-status a :TargetField ; :targetPredicate cdf:status .
+
+# Both fdbBund-only, and declared anyway because they answer questions the other
+# fields cannot. keywords is the best search material in the corpus — 98% filled
+# and ~96 characters of topical terms, against a description that is 78% filled
+# and 1.4 KB of prose. legalCitation is the reference to the Richtlinie a programme
+# rests on, which is what a funding directory gets asked for and what distinguishes
+# one funding period from its successor. It is named for what the value *is* — a
+# citation — not for the concept it points at, because fdbBund has a separate
+# `legal_basis` column holding the full instrument text, which this does not carry.
+#
+# schema:keywords is reused because it honestly fits; the citation is minted, since
+# no established term means "the reference to the legal instrument this grant rests
+# on". Both source fields keep their upstream column names (keywordsExtracted,
+# legalCitation) rather than being tidied, because in both cases a *different* column
+# of that tidier name exists and is deliberately unused — see the extract.
+#
+# keywords is multi-valued, read from the upstream keywords_extracted column
+# rather than the raw keywords string. The raw form joins terms with spaces and
+# does not delimit multi-word concepts ("Erneuerbarer Wasserstoff" is one term,
+# "Umbaumaßnahmen Informationsveranstaltungen" is two), so it cannot be split by
+# rule; upstream ships the split already done. Note its table schema declares
+# that column fdb:origin "inferred" — a fine-tuned model split it, the
+# Förderdatenbank did not state it — so it is derived data, at the same 98%
+# coverage as the string it came from.
+#
+# fdbBund also carries legal_basis — the full Richtlinie text, 100% filled but
+# 16.8 KB per record, ~43 MB over the corpus. Deliberately not extracted: it
+# would dominate every artefact the pipeline writes to answer a question nobody
+# has asked of the directory.
+:t-keywords   a :TargetField ; :targetPredicate schema:keywords ; :multiValued true .
+:t-legalCitation a :TargetField ; :targetPredicate cdf:legalCitation .
+
+
+# ---- Sources ------------------------------------------------------------
+
+:fdbBundSource a :Source ;
+    rdfs:label    "Förderdatenbank Bund" ;
+    :dedupWithinSource false ;
+    skos:notation "fdb" ;
+    :enabled      true ;
+    # ~2550 rows, one CSV fetch, one lift file — the cap buys nothing.
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
+    :fetchUrl     "https://fdb.cdl.correlaid.org/data/programme.csv" ;
+    :retrieval    "API" ;
+    # The fetch downloads CSV and writes JSON: its multi-valued columns hold a
+    # JSON array inside one cell, which no lift or extract can split into
+    # several values. See sources/fdbBund/fetch.js.
+    :format       ft:JSON ;
+    :hasField     :fdb-title, :fdb-description, :fdb-url,
+                  :fdb-location, :fdb-funderLevel, :fdb-fundingArea, :fdb-fundingSubarea,
+                  :fdb-eligibleApplicant, :fdb-fundingType,
+                  :fdb-keywords, :fdb-legalCitation .
+:fdb-title       a :SourceField ; :fieldPath "title" .
+:fdb-description a :SourceField ; :fieldPath "description" .
+:fdb-url         a :SourceField ; :fieldPath "url" .
+# All five coded columns. The export ships its own slugs, cut from the same XÖV
+# concepts by a different hand ("kultur_medien_sport", "kommune", "darlehen"), so
+# extract folds them onto the label-derived form the other sources produce —
+# except where the concepts genuinely differ, which extract documents case by
+# case.
+:fdb-location    a :SourceField ; :fieldPath "location" .
+:fdb-funderLevel a :SourceField ; :fieldPath "funderLevel" .
+:fdb-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:fdb-fundingSubarea    a :SourceField ; :fieldPath "fundingSubarea" .
+:fdb-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:fdb-fundingType       a :SourceField ; :fieldPath "fundingType" .
+# keywords 98% filled, legal_citation 68% — the citation is the clean reference
+# ("Bekanntmachung des Ministeriums … Amtsblatt … Nr. 7 vom 13. Februar 2023").
+:fdb-keywords          a :SourceField ; :fieldPath "keywordsExtracted" .
+:fdb-legalCitation     a :SourceField ; :fieldPath "legalCitation" .
+
+:dseeSource a :Source ;
+    rdfs:label    "Förderdatenbank DSEE" ;
+    :dedupWithinSource false ;
+    skos:notation "dsee" ;
+    :enabled      true ;
+    # ~1330 detail pages, one JVM per file on lift, so a full ingest costs ~45 min.
+    # Uncapped regardless: fetch clears the raw dir every run, so a cap saves no
+    # work — it only shrinks the corpus.
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
+    :fetchUrl     "https://foerderdatenbank.d-s-e-e.de" ;
+    :retrieval    "Scrape" ;
+    :format       ft:HTML ;
+    # No :hasLiftParam selector on purpose. The fetcher chunks pages into one file
+    # per 200 records, each wrapped in a <div class="cdp-record">, and since core
+    # 0.11.0 lift supplies the matching selector itself when a raw file actually
+    # carries that wrapper. Restating it here would be emit's own constant written
+    # a second time in another repo, with nothing keeping the two in step.
+    :hasField     :dsee-title, :dsee-description, :dsee-url,
+                  :dsee-fundingArea, :dsee-location, :dsee-deadlineModel .
+:dsee-title         a :SourceField ; :fieldPath "title" .
+:dsee-description   a :SourceField ; :fieldPath "description" .
+:dsee-url           a :SourceField ; :fieldPath "url" .
+:dsee-fundingArea   a :SourceField ; :fieldPath "fundingArea" .
+:dsee-location      a :SourceField ; :fieldPath "location" .
+:dsee-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
+
+:euportalSource a :Source ;
+    rdfs:label    "EU Funding & Tenders Portal" ;
+    :dedupWithinSource false ;
+    skos:notation "eu" ;
+    :enabled      true ;
+    # What this source contains is decided here, not in the fetcher, because these are
+    # product decisions rather than implementation detail. ~1176 topics of an index of
+    # ~287000.
+    #
+    # The deadlineDate cut. Everything earlier is a call whose deadline has already
+    # passed -- 2024 and 2025 by one to two years -- and the "keep ended programmes"
+    # rule was about *recently* ended ones. Measured over a full 2024+ harvest:
+    # 2024 23526, 2025 19189, 2026 22070, 2027 7367, 2028 48.
+    :hasRunParam  [ :name "fromYear" ; :value "2026" ] ;
+    # Generous rather than today, since deadlines run into the future. An empty
+    # partition costs one request.
+    :hasRunParam  [ :name "toYear" ; :value "2030" ] ;
+    # The API returns one record per topic per language, all 24 official EU languages,
+    # and they are not translations -- the title is the same English string in every
+    # one. Neither language covers the corpus alone: over 1176 topics en misses 21,
+    # de misses 30, together none. The overlap is collapsed in the fetcher, preferring
+    # the first listed.
+    :hasRunParam  [ :name "languages" ; :value "en,de" ] ;
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
+    # Two things the fetcher does that are not expressible here. It partitions the
+    # harvest into half-month bands, which is what gets past the API's 10000-result
+    # cap -- a band that hits it fails the run rather than returning a prefix. And 15%
+    # of the index carries no deadlineDate at all, so no range reaches it.
+    :fetchUrl     "https://api.tech.ec.europa.eu/search-api/prod/rest/search" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
+    :hasField     :eu-title, :eu-description, :eu-url,
+                  :eu-deadlineModel, :eu-deadline, :eu-status .
+:eu-title         a :SourceField ; :fieldPath "title" .
+:eu-description   a :SourceField ; :fieldPath "description" .
+:eu-url           a :SourceField ; :fieldPath "url" .
+:eu-deadlineModel a :SourceField ; :fieldPath "deadlineModel" .
+:eu-deadline      a :SourceField ; :fieldPath "deadline" .
+:eu-status        a :SourceField ; :fieldPath "status" .
+
+:foerderfinderSource a :Source ;
+    rdfs:label    "Förderfinder Bayern" ;
+    # Every record in this source already has a unique upstream id, so two of its
+    # own records are never the same opportunity — same-source pairs are noise, and
+    # fuzzy matching them produces false positives that no threshold fixes. It did:
+    # Förderfinder's "…Dauerpflegeeinrichtungen (ohne Öffnung in den sozialen
+    # Nahraum)" and "…mit einer Öffnung in den sozialen Nahraum" merged, two
+    # deliberately opposite Förderleistungen of one Richtlinie whose only
+    # distinguishing words are "ohne" and "mit einer". Cross-source pairs are the
+    # only ones worth scoring here.
+    :dedupWithinSource false ;
+    skos:notation "ff" ;
+    :enabled      true ;
+    # ~200 records total, one lift file. (218 in Aug 2026, 204 in Sep — the
+    # portal removes programmes, and the fetch checks its count against numFound.)
+    :hasRunParam  [ :name "limit" ; :value "0" ] ;
+    :fetchUrl     "https://foerderfinder.digital/bayern/suche/apicall" ;
+    :retrieval    "API" ;
+    :format       ft:JSON ;
+    :hasField     :ff-title, :ff-description, :ff-fundingArea, :ff-location,
+                  :ff-fundingType, :ff-eligibleApplicant, :ff-funderLevel,
+                  :ff-status, :ff-deadline, :ff-deadlineModel .
+:ff-title             a :SourceField ; :fieldPath "title" .
+:ff-description       a :SourceField ; :fieldPath "description" .
+# The five XÖV-coded categories, normalised to slugs at extract. No :ff-url —
+# the API payload carries no canonical detail page and the site is an SPA, so
+# there is nothing to link to without inventing a URL pattern.
+:ff-fundingArea       a :SourceField ; :fieldPath "fundingArea" .
+:ff-location          a :SourceField ; :fieldPath "location" .
+:ff-fundingType       a :SourceField ; :fieldPath "fundingType" .
+:ff-eligibleApplicant a :SourceField ; :fieldPath "eligibleApplicant" .
+:ff-funderLevel       a :SourceField ; :fieldPath "funderLevel" .
+# Derived at extract from the programme runtime end against cdp:observedAt — see
+# the note there, and on :t-status below.
+:ff-status            a :SourceField ; :fieldPath "status" .
+# The XFLB Antragsfrist. Only two of its five branches reach the schema: a real
+# date (35 records) and an annually recurring cut-off (44). See the note in
+# sources/foerderfinder/extract.sparql for why the other three do not.
+:ff-deadline          a :SourceField ; :fieldPath "deadline" .
+:ff-deadlineModel     a :SourceField ; :fieldPath "deadlineModel" .
+
+# ---- Mappings -----------------------------------------------------------
+
+# Bund: the published CSV is already plain text and already decoded → direct mapping.
+:fdb-mapping a :Mapping ;
+    :fromSource  :fdbBundSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :fdb-title       ; :to :t-name        ] ,
+        [ :from :fdb-description ; :to :t-description ] ,
+        [ :from :fdb-url         ; :to :t-url         ] ,
+        [ :from :fdb-location          ; :to :t-location          ] ,
+        [ :from :fdb-funderLevel       ; :to :t-funderLevel       ] ,
+        [ :from :fdb-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :fdb-fundingSubarea    ; :to :t-fundingSubarea    ] ,
+        [ :from :fdb-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :fdb-fundingType       ; :to :t-fundingType       ] ,
+        [ :from :fdb-keywords          ; :to :t-keywords          ] ,
+        [ :from :fdb-legalCitation     ; :to :t-legalCitation     ] .
+
+# DSEE: html:innerText is already plain text → direct mapping.
+:dsee-mapping a :Mapping ;
+    :fromSource  :dseeSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :dsee-title         ; :to :t-name          ] ,
+        [ :from :dsee-description   ; :to :t-description   ] ,
+        [ :from :dsee-url           ; :to :t-url           ] ,
+        [ :from :dsee-fundingArea   ; :to :t-fundingArea   ] ,
+        [ :from :dsee-location      ; :to :t-location      ] ,
+        [ :from :dsee-deadlineModel ; :to :t-deadlineModel ] .
+
+# EU: descriptionByte is HTML, flattened at extract → direct mapping.
+:eu-mapping a :Mapping ;
+    :fromSource  :euportalSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :eu-title         ; :to :t-name          ] ,
+        [ :from :eu-description   ; :to :t-description   ] ,
+        [ :from :eu-url           ; :to :t-url           ] ,
+        [ :from :eu-deadlineModel ; :to :t-deadlineModel ] ,
+        [ :from :eu-deadline      ; :to :t-deadline      ] ,
+        [ :from :eu-status        ; :to :t-status        ] .
+
+# Förderfinder Bayern: titel + teaser are both plain text → direct mapping.
+:foerderfinder-mapping a :Mapping ;
+    :fromSource  :foerderfinderSource ;
+    :toTarget    :fundingOpportunitySchema ;
+    :hasFieldMapping
+        [ :from :ff-title             ; :to :t-name              ] ,
+        [ :from :ff-description       ; :to :t-description       ] ,
+        [ :from :ff-fundingArea       ; :to :t-fundingArea       ] ,
+        [ :from :ff-location          ; :to :t-location          ] ,
+        [ :from :ff-fundingType       ; :to :t-fundingType       ] ,
+        [ :from :ff-eligibleApplicant ; :to :t-eligibleApplicant ] ,
+        [ :from :ff-funderLevel       ; :to :t-funderLevel       ] ,
+        [ :from :ff-status            ; :to :t-status            ] ,
+        [ :from :ff-deadline          ; :to :t-deadline          ] ,
+        [ :from :ff-deadlineModel     ; :to :t-deadlineModel     ] .
+
+# ---- Match --------------------------------------------------------------
+
+# Same programme, two portals. Measured against the full corpora (fdbBund's 2531
+# rows against all 218 Förderfinder records), not against the development sample —
+# a limited run contains no cross-source overlap at all.
+#
+# :matchAlgorithm is set because the engine's default, token_set_ratio, is wrong
+# for this data: it scores a subset as 100, and German programme titles are
+# systematically prefixed and suffixed. "Digitalbonus" against "Digitalbonus
+# Thüringen" scores 100 and is a different programme; so does "Kommunales
+# Wohnraumförderungsprogramm" against "Kommunales Förderprogramm zur Schaffung von
+# Mietwohnraum". Fourteen pairs hit exactly 100, several of them wrong, so nothing
+# can be thresholded above it. token_sort_ratio separates: true matches 89-100,
+# those same false ones 52-69.
+#
+# There is deliberately no :hasHardCriterion. A gate on dct:spatial looked
+# attractive — Förderfinder is Bayern-only and most false positives are simply the
+# wrong Land — but the fixture tests showed it does nothing here and costs real
+# recall:
+#
+#   It never fires. token_sort_ratio already scores the wrong-Land pairs far below
+#   the threshold ("Digitalbonus" against "Digitalbonus Thüringen" is 69, the FSJ
+#   pair 79). The 76 → 33 reduction that motivated it was measured against
+#   token_set_ratio, which this rule does not use.
+#
+#   It would foreclose whole sources. A hard criterion requires the value present
+#   and equal in *both* records, and euportal emits no dct:spatial at all, so every
+#   EU record would become permanently unmatchable — along with the 53 of 200
+#   resolved records that carry no location. fdbBund × euportal overlap could then
+#   never be found.
+#
+#   It cannot express a multi-valued field. The engine's valOf reads only the first
+#   quad (match.js), so a gate on dct:spatial would compare one arbitrary NUTS code
+#   per record — two nationwide programmes listing the same Länder in a different
+#   order would fail the gate. Any future hard criterion must be single-valued.
+#
+# Without a hard criterion every subject lands in one bucket, so this is an O(n²)
+# scan. Fine at the current corpus; revisit if it becomes the bottleneck, and
+# prefer a gate on a single-valued field that every source fills.
+#
+# 0.9 is deliberately conservative: 5 pairs clear it, and the yield is flat from
+# 0.95 down to 0.90 before the dubious tail starts at 0.80. Genuine matches are
+# missed at this setting ("Alpha Asyl - Kurse zur Alphabetisierung" at 0.89,
+# "Überregionale Offene Behindertenarbeit" at 0.80). Recall is recoverable once a
+# labelled set exists; a directory that merges Digitalbonus Bayern with Digitalbonus
+# Thüringen is actively wrong.
+:fundingMatch a :MatchRule ;
+    :forTarget           :fundingOpportunitySchema ;
+    :targetNamespace     "https://civic-data.de/federated-directory#" ;
+    :mintedSubjectPrefix "funding-" ;
+    :matchAlgorithm      "token_sort_ratio" ;
+    # 0.85, lowered from 0.9 on measured evidence. Every cross-source pair scoring
+    # >=75 was enumerated over the real corpus (89 of them, 47 reachable after
+    # blocking) and read by hand:
+    #
+    #   band     reachable   true   false
+    #   >=90            13     13       0
+    #   85-90            4      3       1     <- gained by this change
+    #   80-85            6      4       2
+    #   75-80           24     ~7     ~17
+    #
+    # So 0.85 buys three real merges for one wrong one, taking precision from 13/13
+    # to 16/17. A trade, not a free gain.
+    #
+    # The three true ones share a shape: one source prefixes or nominalises the same
+    # title ("Kurse zur Alphabetisierung fuer Asylsuchende" against "Alpha Asyl -
+    # Kurse zur Alphabetisierung fuer Asylsuchende", 89). The false one is
+    # "Stipendienprogramm fuer Medizinstudierende" (Sachsen-Anhalt, 3-year
+    # commitment) against "Stipendium fuer Medizinstudierende" (Bayern's rural
+    # programme, 5 years) -- same wording, different programme, and not separable
+    # by title alone.
+    #
+    # Not lower. 80-85 is +4 true against +2 false, and 75-80 is clearly bad at ~7
+    # against ~17 -- that band is where the Land name inflates unrelated titles
+    # ("Foerderung der Stiftung Naturschutz Schleswig-Holstein" against "Foerderung
+    # des Sports in Schleswig-Holstein", 76) and where one word inverts the meaning
+    # ("Regionale" against "ueberregionale" Offene Behindertenarbeit, 76). Those
+    # need a judge, not a threshold.
+    :minScore             0.85 ;
+    :hasWeightedCriterion [ :on schema:name ; :weight 1.0 ] ;
+    # Partition on the Land, without deciding anything: a record whose value is
+    # missing is compared against everything rather than dropped, which is why this
+    # is a blocking key and not the hard criterion considered earlier. euportal
+    # carries no dct:spatial at all, so all 1176 of its topics stay unblocked and
+    # nothing about them changes.
+    #
+    # Measured against an unblocked run of the same corpus rather than assumed. Of
+    # the 14 cross-source merges, 13 share a Land and survive. The one that does not
+    # is a false positive: "Foerderung von Kleinprojekten" (DE8
+    # Mecklenburg-Vorpommern) against "Foerderung von Kleinstprojekten" (DEB
+    # Rheinland-Pfalz), two different programmes three characters apart that
+    # token_sort_ratio scores above the threshold. Blocking removes it, which is the
+    # same defect test/match.test.js guards against for Digitalbonus.
+    #
+    # Measured at :minScore 0.85. A lower threshold admits pairs this was never
+    # checked against.
+    :hasBlockingKey       [ :on dct:spatial ] .
+
+# ---- Resolve ------------------------------------------------------------
+
+# keepAll on the list-valued fields: without it, resolve collapses each list to
+# a single value and a programme with four eligible-applicant categories keeps
+# one. The scalar fields keep the default.
+:resolve a :ResolveRule ;
+    :defaultStrategy :alphabeticFirst ;
+    :hasOverride [ :on cdf:fundingArea       ; :strategy :keepAll ] ,
+                 [ :on cdf:fundingSubarea    ; :strategy :keepAll ] ,
+                 [ :on dct:spatial           ; :strategy :keepAll ] ,
+                 [ :on cdf:fundingType       ; :strategy :keepAll ] ,
+                 [ :on cdf:eligibleApplicant ; :strategy :keepAll ] ,
+                 [ :on schema:keywords       ; :strategy :keepAll ] .

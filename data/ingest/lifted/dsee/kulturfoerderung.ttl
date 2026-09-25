@@ -1,0 +1,689 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-258599 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258600;
+    rdf:_10 _:n3-258601;
+    rdf:_11 _:n3-258602;
+    rdf:_12 _:n3-258603;
+    rdf:_13 _:n3-258604;
+    rdf:_14 _:n3-258605;
+    rdf:_15 _:n3-258606;
+    rdf:_16 _:n3-258607;
+    rdf:_17 _:n3-258608;
+    rdf:_18 _:n3-258609;
+    rdf:_19 _:n3-258610;
+    rdf:_2 _:n3-258611;
+    rdf:_20 _:n3-258612;
+    rdf:_21 _:n3-258613;
+    rdf:_22 _:n3-258614;
+    rdf:_23 _:n3-258631;
+    rdf:_24 _:n3-258636;
+    rdf:_25 _:n3-258717;
+    rdf:_26 _:n3-258725;
+    rdf:_3 _:n3-258726;
+    rdf:_4 _:n3-258727;
+    rdf:_5 _:n3-258728;
+    rdf:_6 _:n3-258729;
+    rdf:_7 _:n3-258730;
+    rdf:_8 _:n3-258731;
+    rdf:_9 _:n3-258732;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "kulturfoerderung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Kulturförderung Soziokultur  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Kulturförderung Soziokultur\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Kulturförderung Soziokultur\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Soziokultur</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><strong>Wer/Was kann gefördert werden?</strong></p>\n      <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n      <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n      <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n      <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n      <ul>\n       <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n       <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n      <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n      <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n      <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n      <ul>\n       <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n       <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n      </ul>\n      <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n      <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Schleswig-Holstein</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. Januar 2027</li>\n        <li>1. Juni 2027</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Referat III 41 Postfach 7124,\n        <br>\n        24171 Kiel</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0431 9880</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Kulturförderung Soziokultur Kulturförderung Soziokultur Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027 Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880 ©2026 Impressum Datenschutzerklärung".
+_:n3-258600 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-258601 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-258602 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-258603 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-258604 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Kulturförderung Soziokultur";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-258605 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-258606 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Kulturförderung Soziokultur";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-258607 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-258608 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-258609 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-258610 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258611 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-258612 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258613 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-258614 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258615;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258615 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258616;
+    rdf:_2 _:n3-258618;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258616 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258617;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-258617 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-258618 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258619;
+    rdf:_2 _:n3-258622;
+    rdf:_3 _:n3-258625;
+    rdf:_4 _:n3-258628;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-258619 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258620;
+    rdf:_2 _:n3-258621;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258620 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258621 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-258622 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258623;
+    rdf:_2 _:n3-258624;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258623 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258624 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-258625 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258626;
+    rdf:_2 _:n3-258627;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258626 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258627 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-258628 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258629;
+    rdf:_2 _:n3-258630;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258629 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258630 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-258631 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258632;
+    rdf:_2 _:n3-258635;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-258632 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258633;
+    rdf:_2 _:n3-258634;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258633 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-258634 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-258635 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-258636 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-258637;
+    rdf:_2 _:n3-258642;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Soziokultur</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><strong>Wer/Was kann gefördert werden?</strong></p>\n     <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n     <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n     <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n     <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n     <ul>\n      <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n      <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n     <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n     <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n     <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n     <ul>\n      <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n      <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n     </ul>\n     <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n     <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Schleswig-Holstein</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. Januar 2027</li>\n       <li>1. Juni 2027</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Referat III 41 Postfach 7124,\n       <br>\n       24171 Kiel</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0431 9880</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Soziokultur Kulturförderung Soziokultur Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027 Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258637 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258638;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Soziokultur</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Soziokultur".
+_:n3-258638 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258639;
+    rdf:_2 _:n3-258640;
+    rdf:_3 _:n3-258641;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Kulturförderung Soziokultur</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Kulturförderung Soziokultur".
+_:n3-258639 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258640 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-258641 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Kulturförderung Soziokultur";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Soziokultur";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur".
+_:n3-258642 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-258643;
+    rdf:_2 _:n3-258697;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><strong>Wer/Was kann gefördert werden?</strong></p>\n    <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n    <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n    <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n    <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n    <ul>\n     <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n     <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n    <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n    <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n    <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n    <ul>\n     <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n     <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n    </ul>\n    <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n    <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Schleswig-Holstein</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. Januar 2027</li>\n      <li>1. Juni 2027</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Referat III 41 Postfach 7124,\n      <br>\n      24171 Kiel</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0431 9880</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027 Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258643 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258644;
+    rdf:_2 _:n3-258678;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><strong>Wer/Was kann gefördert werden?</strong></p>\n   <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n   <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n   <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n   <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n   <ul>\n    <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n    <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n   <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n   <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n   <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n   <ul>\n    <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n    <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n   </ul>\n   <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n   <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Schleswig-Holstein</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. Januar 2027</li>\n     <li>1. Juni 2027</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027".
+_:n3-258644 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258645;
+    rdf:_2 _:n3-258647;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><strong>Wer/Was kann gefördert werden?</strong></p>\n  <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n  <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n  <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n  <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n  <ul>\n   <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n   <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n  <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n  <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n  <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n  <ul>\n   <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n   <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n  </ul>\n  <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n  <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung".
+_:n3-258645 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258646;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Kulturförderung Soziokultur</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur".
+_:n3-258646 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Kulturförderung Soziokultur";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Soziokultur";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur".
+_:n3-258647 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258648;
+    rdf:_2 _:n3-258650;
+    rdf:_3 _:n3-258661;
+    rdf:_4 _:n3-258673;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><strong>Wer/Was kann gefördert werden?</strong></p>\n <p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n <h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n <p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n <p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n <ul>\n  <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n  <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n <p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n <p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n <p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n <ul>\n  <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n  <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n </ul>\n <p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n <p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur. Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen. Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen. Weitere Informationen Link zur Förderung".
+_:n3-258648 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258649;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.".
+_:n3-258649 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur.".
+_:n3-258650 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258651;
+    rdf:_2 _:n3-258652;
+    rdf:_3 _:n3-258654;
+    rdf:_4 _:n3-258655;
+    rdf:_5 _:n3-258656;
+    rdf:_6 _:n3-258657;
+    rdf:_7 _:n3-258658;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><strong>Wer/Was kann gefördert werden?</strong></p>\n<p>Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.</p>\n<h3>Welche Voraussetzungen müssen erfüllt sein?</h3>\n<p>Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.</p>\n<p>Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:</p>\n<ul>\n <li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n <li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Wer/Was kann gefördert werden? Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft. Welche Voraussetzungen müssen erfüllt sein? Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein. Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben: Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.".
+_:n3-258651 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-258652 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258653;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Wer/Was kann gefördert werden?</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Wer/Was kann gefördert werden?".
+_:n3-258653 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Wer/Was kann gefördert werden?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wer/Was kann gefördert werden?";
+    <https://html.spec.whatwg.org/#innerText> "Wer/Was kann gefördert werden?".
+_:n3-258654 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.";
+    <https://html.spec.whatwg.org/#innerText> "Soziokultur fasst nicht gewinnorientierte kulturell-künstlerische Angebote sämtlicher Sparten mit niedrigschwelligem Charakter an der Schnittstelle zwischen Kultur-, Kinder- und Jugend-, Bildungs- und Sozialarbeit zusammen. Gefördert werden die Landesarbeitsgemeinschaft Soziokultur sowie Projekte in der Soziokultur, unter anderem das „Kindertheater des Monats“ und Maßnahmen zur Attraktivitätssteigerung und Strukturentwicklung in soziokulturellen Einrichtungen in privater oder öffentlicher Trägerschaft.".
+_:n3-258655 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Welche Voraussetzungen müssen erfüllt sein?";
+    <https://html.spec.whatwg.org/#innerHTML> "Welche Voraussetzungen müssen erfüllt sein?";
+    <https://html.spec.whatwg.org/#innerText> "Welche Voraussetzungen müssen erfüllt sein?".
+_:n3-258656 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.";
+    <https://html.spec.whatwg.org/#innerText> "Die Allgemeinen Nebenbestimmungen für Zuwendungen zur Projektförderung müssen erfüllt sein.".
+_:n3-258657 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden Projekte der soziokulturellen Arbeit, die folgende Ziele haben:".
+_:n3-258658 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258659;
+    rdf:_2 _:n3-258660;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.</li>\n<li>Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen. Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.".
+_:n3-258659 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der aktiven künstlerischen und kreativen Eigentätigkeit , der kulturellen Bildung und kulturellen Kompetenz von Besucherinnen und Besuchern der soziokulturellen Zentren und Initiativen.".
+_:n3-258660 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der sozialen Partizipation und kulturellen Teilhabe aller Schichten, Generationen und Bevölkerungsgruppen.".
+_:n3-258661 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258662;
+    rdf:_2 _:n3-258663;
+    rdf:_3 _:n3-258664;
+    rdf:_4 _:n3-258665;
+    rdf:_5 _:n3-258666;
+    rdf:_6 _:n3-258667;
+    rdf:_7 _:n3-258670;
+    rdf:_8 _:n3-258671;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<h3>Wie muss die Bewerbung/der Antrag gestellt werden?</h3>\n<p>Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.</p>\n<p>Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.</p>\n<p>Die Projektbeschreibung sollte auf folgende Punkte eingehen:</p>\n<ul>\n <li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n <li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>\n</ul>\n<p>Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.</p>\n<p>Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Wie muss die Bewerbung/der Antrag gestellt werden? Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular. Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten. Die Projektbeschreibung sollte auf folgende Punkte eingehen: Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen. Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen. Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen.".
+_:n3-258662 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-258663 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Wie muss die Bewerbung/der Antrag gestellt werden?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wie muss die Bewerbung/der Antrag gestellt werden?";
+    <https://html.spec.whatwg.org/#innerText> "Wie muss die Bewerbung/der Antrag gestellt werden?".
+_:n3-258664 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.";
+    <https://html.spec.whatwg.org/#innerText> "Bitte nutzen Sie zur Antragstellung das elektronisch ausfüllbare Antragsformular.".
+_:n3-258665 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.";
+    <https://html.spec.whatwg.org/#innerText> "Der Antrag muss die Beschreibung des geplanten Projekts und einen ausgeglichenen Kosten- und Finanzierungsplan enthalten.".
+_:n3-258666 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Projektbeschreibung sollte auf folgende Punkte eingehen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Projektbeschreibung sollte auf folgende Punkte eingehen:";
+    <https://html.spec.whatwg.org/#innerText> "Die Projektbeschreibung sollte auf folgende Punkte eingehen:".
+_:n3-258667 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258668;
+    rdf:_2 _:n3-258669;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)</li>\n<li>Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?) Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.".
+_:n3-258668 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)";
+    <https://html.spec.whatwg.org/#innerHTML> "Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)";
+    <https://html.spec.whatwg.org/#innerText> "Beschreibung der selbstgesetzten Ziele (Was soll im Laufe des Projektzeitraums konkret erreicht werden?)".
+_:n3-258669 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.";
+    <https://html.spec.whatwg.org/#innerText> "Benennung der geplanten Aktivitäten und Maßnahmen und eine kurze Erläuterung, inwieweit sie zum Erreichen der Ziele beitragen.".
+_:n3-258670 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert,&nbsp;z. B.&nbsp;über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren&nbsp;etc.) sind in dem Formular darzustellen.";
+    <https://html.spec.whatwg.org/#innerText> "Der Kostenplan (Welche Kosten entstehen wofür?) und ein aussagekräftiger Finanzierungsplan (Wie werden die Kosten finanziert, z. B. über Eigenanteil, öffentliche und private Zuschüsse, Sponsoren etc.) sind in dem Formular darzustellen.".
+_:n3-258671 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projektanträge sind postalisch oder per ";
+    rdf:_2 _:n3-258672;
+    rdf:_3 " grundsätzlich zum 31. Januar oder 1. Juni einzureichen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektanträge sind postalisch oder per <a href=\"mailto:sonja.boerensen@bimi.landsh.de\">Mail</a> grundsätzlich zum 31. Januar oder 1. Juni einzureichen.";
+    <https://html.spec.whatwg.org/#innerText> "Projektanträge sind postalisch oder per Mail grundsätzlich zum 31. Januar oder 1. Juni einzureichen.".
+_:n3-258672 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Mail";
+    <https://html.spec.whatwg.org/#innerHTML> "Mail";
+    <https://html.spec.whatwg.org/#innerText> "Mail";
+    <http://www.w3.org/1999/xhtml#href> "mailto:sonja.boerensen@bimi.landsh.de".
+_:n3-258673 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258674;
+    rdf:_2 _:n3-258675;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Förderung".
+_:n3-258674 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-258675 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258676;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-258676 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258677;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-258677 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.schleswig-holstein.de/DE/fachinhalte/K/kulturfoerderung/soziokultur?nn=5fd27265-9c85-438c-99c3-fe0cf284f8fd";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258678 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-258679;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Schleswig-Holstein</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. Januar 2027</li>\n    <li>1. Juni 2027</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027".
+_:n3-258679 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258680;
+    rdf:_2 _:n3-258685;
+    rdf:_3 _:n3-258691;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Schleswig-Holstein</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. Januar 2027</li>\n   <li>1. Juni 2027</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein Engagementbereiche: Kultur, Medien und Musik Soziales Bewerbungsfrist: 31. Januar 2027 1. Juni 2027".
+_:n3-258680 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258681;
+    rdf:_2 _:n3-258682;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Schleswig-Holstein</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein".
+_:n3-258681 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-258682 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258683;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Schleswig-Holstein</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-258683 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258684;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Schleswig-Holstein</li>";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-258684 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Schleswig-Holstein";
+    <https://html.spec.whatwg.org/#innerHTML> "Schleswig-Holstein";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-258685 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258686;
+    rdf:_2 _:n3-258687;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kultur, Medien und Musik Soziales".
+_:n3-258686 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-258687 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258688;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik Soziales".
+_:n3-258688 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258689;
+    rdf:_2 _:n3-258690;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik Soziales".
+_:n3-258689 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258690 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-258691 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258692;
+    rdf:_2 _:n3-258693;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. Januar 2027</li>\n  <li>1. Juni 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. Januar 2027 1. Juni 2027".
+_:n3-258692 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-258693 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258694;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. Januar 2027</li>\n <li>1. Juni 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. Januar 2027 1. Juni 2027".
+_:n3-258694 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258695;
+    rdf:_2 _:n3-258696;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. Januar 2027</li>\n<li>1. Juni 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. Januar 2027 1. Juni 2027".
+_:n3-258695 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Januar 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Januar 2027";
+    <https://html.spec.whatwg.org/#innerText> "31. Januar 2027".
+_:n3-258696 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Juni 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Juni 2027";
+    <https://html.spec.whatwg.org/#innerText> "1. Juni 2027".
+_:n3-258697 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258698;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Referat III 41 Postfach 7124,\n     <br>\n     24171 Kiel</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0431 9880</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258698 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258699;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Referat III 41 Postfach 7124,\n    <br>\n    24171 Kiel</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0431 9880</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258699 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258700;
+    rdf:_2 _:n3-258702;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Referat III 41 Postfach 7124,\n   <br>\n   24171 Kiel</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0431 9880</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258700 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-258701;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein\" class=\"link\">Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein</a>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein".
+_:n3-258701 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/38667-ministerium-fuer-allgemeine-und-berufliche-bildung-wissenschaft-forschung-und-kultur-des-landes-schleswig-holstein".
+_:n3-258702 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258703;
+    rdf:_2 _:n3-258706;
+    rdf:_3 _:n3-258710;
+    rdf:_4 _:n3-258714;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Referat III 41 Postfach 7124,\n  <br>\n  24171 Kiel</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0431 9880</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Referat III 41 Postfach 7124, 24171 Kiel E-Mail info@bimi.landsh.de Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node Telefon 0431 9880".
+_:n3-258703 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258704;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Referat III 41 Postfach 7124,\n <br>\n 24171 Kiel</p>";
+    <https://html.spec.whatwg.org/#innerText> "Referat III 41 Postfach 7124, 24171 Kiel".
+_:n3-258704 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Referat III 41 Postfach 7124,";
+    rdf:_2 _:n3-258705;
+    rdf:_3 "24171 Kiel";
+    <https://html.spec.whatwg.org/#innerHTML> "Referat III 41 Postfach 7124,\n<br>\n24171 Kiel";
+    <https://html.spec.whatwg.org/#innerText> "Referat III 41 Postfach 7124, 24171 Kiel".
+_:n3-258705 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-258706 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258707;
+    rdf:_2 _:n3-258708;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@bimi.landsh.de".
+_:n3-258707 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-258708 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258709;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@bimi.landsh.de\">info@bimi.landsh.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@bimi.landsh.de".
+_:n3-258709 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@bimi.landsh.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@bimi.landsh.de";
+    <https://html.spec.whatwg.org/#innerText> "info@bimi.landsh.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@bimi.landsh.de".
+_:n3-258710 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258711;
+    rdf:_2 _:n3-258712;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node".
+_:n3-258711 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-258712 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258713;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node\" target=\"_blank\">www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node".
+_:n3-258713 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node";
+    <https://html.spec.whatwg.org/#innerHTML> "www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node";
+    <https://html.spec.whatwg.org/#innerText> "www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node";
+    <http://www.w3.org/1999/xhtml#href> "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/iii_node";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258714 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258715;
+    rdf:_2 _:n3-258716;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0431 9880</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0431 9880".
+_:n3-258715 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-258716 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0431 9880";
+    <https://html.spec.whatwg.org/#innerHTML> "0431 9880";
+    <https://html.spec.whatwg.org/#innerText> "0431 9880".
+_:n3-258717 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-258718;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258718 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258719;
+    rdf:_2 _:n3-258723;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258719 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258720;
+    rdf:_2 _:n3-258721;
+    rdf:_3 _:n3-258722;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-258720 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-258721 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-258722 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-258723 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258724;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-258724 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-258725 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-258726 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-258727 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-258728 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/kulturfoerderung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-258729 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-258730 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Kulturförderung Soziokultur  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturförderung Soziokultur  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Kulturförderung Soziokultur  –  Förderdatenbank".
+_:n3-258731 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-258732 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

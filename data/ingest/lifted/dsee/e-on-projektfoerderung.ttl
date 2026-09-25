@@ -1,0 +1,757 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-191618 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191619;
+    rdf:_10 _:n3-191620;
+    rdf:_11 _:n3-191621;
+    rdf:_12 _:n3-191622;
+    rdf:_13 _:n3-191623;
+    rdf:_14 _:n3-191624;
+    rdf:_15 _:n3-191625;
+    rdf:_16 _:n3-191626;
+    rdf:_17 _:n3-191627;
+    rdf:_18 _:n3-191628;
+    rdf:_19 _:n3-191629;
+    rdf:_2 _:n3-191630;
+    rdf:_20 _:n3-191631;
+    rdf:_21 _:n3-191632;
+    rdf:_22 _:n3-191633;
+    rdf:_23 _:n3-191650;
+    rdf:_24 _:n3-191655;
+    rdf:_25 _:n3-191756;
+    rdf:_26 _:n3-191764;
+    rdf:_3 _:n3-191765;
+    rdf:_4 _:n3-191766;
+    rdf:_5 _:n3-191767;
+    rdf:_6 _:n3-191768;
+    rdf:_7 _:n3-191769;
+    rdf:_8 _:n3-191770;
+    rdf:_9 _:n3-191771;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "e-on-projektfoerderung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der E.ON Stiftung  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der E.ON Stiftung\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der E.ON Stiftung\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der E.ON Stiftung</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n      <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n      <p></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <h4>Hinweise zum Antrag</h4>\n      <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n      <p></p>\n      <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n       <br></p>\n      <p></p>\n      <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n      <p></p>\n      <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n      <p></p>\n      <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n      <p></p>\n      <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n      <p></p>\n      <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n      <p></p>\n      <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n      <p></p>\n      <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n      <p></p>\n      <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n      <p></p>\n      <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n       <br></p>\n      <p></p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n       <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n       <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Brüsseler Platz 1,\n        <br>\n        45131 Essen</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>+49 (0) 152 521 377 14</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der E.ON Stiftung Förderung der E.ON Stiftung Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14 ©2026 Impressum Datenschutzerklärung".
+_:n3-191619 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-191620 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-191621 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-191622 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-191623 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der E.ON Stiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-191624 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-191625 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der E.ON Stiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-191626 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-191627 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-191628 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-191629 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-191630 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-191631 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-191632 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-191633 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191634;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-191634 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191635;
+    rdf:_2 _:n3-191637;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-191635 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-191636;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-191636 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-191637 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191638;
+    rdf:_2 _:n3-191641;
+    rdf:_3 _:n3-191644;
+    rdf:_4 _:n3-191647;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-191638 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-191639;
+    rdf:_2 _:n3-191640;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191639 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-191640 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-191641 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-191642;
+    rdf:_2 _:n3-191643;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191642 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-191643 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-191644 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-191645;
+    rdf:_2 _:n3-191646;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191645 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-191646 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-191647 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-191648;
+    rdf:_2 _:n3-191649;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191648 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-191649 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-191650 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-191651;
+    rdf:_2 _:n3-191654;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-191651 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-191652;
+    rdf:_2 _:n3-191653;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-191652 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-191653 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-191654 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-191655 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-191656;
+    rdf:_2 _:n3-191661;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der E.ON Stiftung</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n     <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n     <p></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <h4>Hinweise zum Antrag</h4>\n     <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n     <p></p>\n     <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n      <br></p>\n     <p></p>\n     <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n     <p></p>\n     <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n     <p></p>\n     <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n     <p></p>\n     <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n     <p></p>\n     <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n     <p></p>\n     <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n     <p></p>\n     <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n     <p></p>\n     <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n     <p></p>\n     <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n      <br></p>\n     <p></p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n      <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n      <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Brüsseler Platz 1,\n       <br>\n       45131 Essen</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>+49 (0) 152 521 377 14</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der E.ON Stiftung Förderung der E.ON Stiftung Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191656 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-191657;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der E.ON Stiftung</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der E.ON Stiftung".
+_:n3-191657 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191658;
+    rdf:_2 _:n3-191659;
+    rdf:_3 _:n3-191660;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der E.ON Stiftung</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der E.ON Stiftung".
+_:n3-191658 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-191659 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-191660 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der E.ON Stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der E.ON Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung".
+_:n3-191661 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-191662;
+    rdf:_2 _:n3-191736;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n    <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n    <p></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <h4>Hinweise zum Antrag</h4>\n    <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n    <p></p>\n    <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n     <br></p>\n    <p></p>\n    <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n    <p></p>\n    <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n    <p></p>\n    <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n    <p></p>\n    <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n    <p></p>\n    <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n    <p></p>\n    <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n    <p></p>\n    <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n    <p></p>\n    <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n    <p></p>\n    <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n     <br></p>\n    <p></p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n     <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n     <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Brüsseler Platz 1,\n      <br>\n      45131 Essen</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>+49 (0) 152 521 377 14</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191662 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191663;
+    rdf:_2 _:n3-191715;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n   <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n   <p></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <h4>Hinweise zum Antrag</h4>\n   <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n   <p></p>\n   <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n    <br></p>\n   <p></p>\n   <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n   <p></p>\n   <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n   <p></p>\n   <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n   <p></p>\n   <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n   <p></p>\n   <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n   <p></p>\n   <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n   <p></p>\n   <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n   <p></p>\n   <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n   <p></p>\n   <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n    <br></p>\n   <p></p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n    <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n    <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-191663 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191664;
+    rdf:_2 _:n3-191666;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n  <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n  <p></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <h4>Hinweise zum Antrag</h4>\n  <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n  <p></p>\n  <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n   <br></p>\n  <p></p>\n  <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n  <p></p>\n  <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n  <p></p>\n  <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n  <p></p>\n  <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n  <p></p>\n  <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n  <p></p>\n  <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n  <p></p>\n  <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n  <p></p>\n  <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n  <p></p>\n  <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n   <br></p>\n  <p></p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n   <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n   <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan".
+_:n3-191664 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-191665;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der E.ON Stiftung</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung".
+_:n3-191665 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der E.ON Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der E.ON Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung".
+_:n3-191666 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191667;
+    rdf:_2 _:n3-191671;
+    rdf:_3 _:n3-191706;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n <p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n <p></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <h4>Hinweise zum Antrag</h4>\n <p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n <p></p>\n <p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n  <br></p>\n <p></p>\n <p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n <p></p>\n <p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n <p></p>\n <p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n <p></p>\n <p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n <p></p>\n <p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n <p></p>\n <p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n <p></p>\n <p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n <p></p>\n <p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n <p></p>\n <p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n  <br></p>\n <p></p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n  <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n  <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben. Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen. Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan".
+_:n3-191667 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191668;
+    rdf:_2 _:n3-191669;
+    rdf:_3 _:n3-191670;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.</p>\n<p>Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.</p>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium. Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.".
+_:n3-191668 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.";
+    <https://html.spec.whatwg.org/#innerText> "Die E.ON Stiftung fördert Projekte im Themenfeld Energie und Gesellschaft. Dies ist jedoch nicht das einzige Kriterium.".
+_:n3-191669 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.";
+    <https://html.spec.whatwg.org/#innerText> "Bitte nutzen Sie bei Förderwünschen generell das Formular für eine Voranfrage. Auf Basis dieser Anfrage prüft die Stiftung, ob eine ausführliche Antragstellung erfolgversprechend ist, und sendet Ihnen gegebenenfalls das offizielle Antragsformular zu. Bitte schicken Sie dazu auch den ausgefüllten Kosten- und Finanzierungsplan, um einen Überblick über das geplante Fördervolumen zu geben.".
+_:n3-191670 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191671 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191672;
+    rdf:_10 _:n3-191673;
+    rdf:_11 _:n3-191674;
+    rdf:_12 _:n3-191676;
+    rdf:_13 _:n3-191677;
+    rdf:_14 _:n3-191679;
+    rdf:_15 _:n3-191680;
+    rdf:_16 _:n3-191682;
+    rdf:_17 _:n3-191683;
+    rdf:_18 _:n3-191685;
+    rdf:_19 _:n3-191686;
+    rdf:_2 _:n3-191688;
+    rdf:_20 _:n3-191689;
+    rdf:_21 _:n3-191690;
+    rdf:_22 _:n3-191692;
+    rdf:_23 _:n3-191693;
+    rdf:_24 _:n3-191696;
+    rdf:_3 _:n3-191697;
+    rdf:_4 _:n3-191698;
+    rdf:_5 _:n3-191699;
+    rdf:_6 _:n3-191701;
+    rdf:_7 _:n3-191702;
+    rdf:_8 _:n3-191703;
+    rdf:_9 _:n3-191704;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<h4>Hinweise zum Antrag</h4>\n<p>Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.</p>\n<p></p>\n<p>Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n <br></p>\n<p></p>\n<p>Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.</p>\n<p></p>\n<p><strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).</p>\n<p></p>\n<p><strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden</p>\n<p></p>\n<p><strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt</p>\n<p></p>\n<p><strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse</p>\n<p></p>\n<p><strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation</p>\n<p></p>\n<p><strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.</p>\n<p></p>\n<p><strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.</p>\n<p></p>\n<p><strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n <br></p>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Hinweise zum Antrag Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten. Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser. Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden. Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen). Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse Evaluationskosten: geplante Kosten für eine spätere Evaluation Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen. Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten. Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.".
+_:n3-191672 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-191673 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191674 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191675;
+    rdf:_2 " Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Drittmittel:</strong> Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden";
+    <https://html.spec.whatwg.org/#innerText> "Drittmittel: Beträge, die der Antragsteller bei anderen Institutionen beantragt hat oder die bereits bewilligt wurden".
+_:n3-191675 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Drittmittel:";
+    <https://html.spec.whatwg.org/#innerHTML> "Drittmittel:";
+    <https://html.spec.whatwg.org/#innerText> "Drittmittel:".
+_:n3-191676 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191677 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191678;
+    rdf:_2 " Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Eigenmittel:</strong> Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel: Geld, das der Veranstalter beziehungsweise Projektinitiator selbst in das Projekt einbringt".
+_:n3-191678 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Eigenmittel:";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel:".
+_:n3-191679 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191680 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191681;
+    rdf:_2 " beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Einnahmen:</strong> beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse";
+    <https://html.spec.whatwg.org/#innerText> "Einnahmen: beispielsweise Teilnehmerbeiträge, Eintrittsgelder, Verkaufserlöse".
+_:n3-191681 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Einnahmen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Einnahmen:";
+    <https://html.spec.whatwg.org/#innerText> "Einnahmen:".
+_:n3-191682 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191683 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191684;
+    rdf:_2 "geplante Kosten für eine spätere Evaluation";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Evaluationskosten: </strong>geplante Kosten für eine spätere Evaluation";
+    <https://html.spec.whatwg.org/#innerText> "Evaluationskosten: geplante Kosten für eine spätere Evaluation".
+_:n3-191684 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Evaluationskosten: ";
+    <https://html.spec.whatwg.org/#innerHTML> "Evaluationskosten:";
+    <https://html.spec.whatwg.org/#innerText> "Evaluationskosten:".
+_:n3-191685 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191686 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191687;
+    rdf:_2 " Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Gesamtkosten:</strong> Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.";
+    <https://html.spec.whatwg.org/#innerText> "Gesamtkosten: Die bei der E.ON Stiftung beantragten Mittel ergeben sich als rechnerische Differenz aus den Gesamtkosten abzüglich Eigen- und Drittmittel sowie eventuellen Einnahmen.".
+_:n3-191687 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Gesamtkosten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Gesamtkosten:";
+    <https://html.spec.whatwg.org/#innerText> "Gesamtkosten:".
+_:n3-191688 a <http://www.w3.org/1999/xhtml#h4>;
+    rdf:_1 "Hinweise zum Antrag";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zum Antrag";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zum Antrag".
+_:n3-191689 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191690 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191691;
+    rdf:_2 " Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Personalkosten:</strong> Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten: Ausgaben für Personen, die in einem Beschäftigungsverhältnis mit dem Veranstalter beziehungsweise Projektinitiator stehen. Zu den Angaben gehören auch die Berechnungsgrundlagen (Stunden, Monate, Vergütung, Tarifgruppe). Honorare oder Aufwandsentschädigungen sind keine Personalkosten, sondern Sachkosten.".
+_:n3-191691 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Personalkosten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten:";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten:".
+_:n3-191692 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191693 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191694;
+    rdf:_2 " wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.";
+    rdf:_3 _:n3-191695;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Sachkosten:</strong> wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten: wesentliche Kostenarten plus Kalkulation (zum Beispiel Menge und Einzelpreis). Die Mehrwertsteuer ist einzubeziehen, aber nicht separat auszuweisen.".
+_:n3-191694 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Sachkosten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten:";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten:".
+_:n3-191695 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-191696 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191697 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.";
+    <https://html.spec.whatwg.org/#innerText> "Die E.ON Stiftung erhält sehr viele Anträge auf Förderung. Potenzielle Partner können dazu beitragen, dass sie zügig Antwort erhalten, indem sie ein paar Hinweise beachten.".
+_:n3-191698 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191699 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.";
+    rdf:_2 _:n3-191700;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragsformulare ermöglichen dem Stiftungsteam einen raschen Überblick über ein Projekt. Je sorgfältiger sie ausgefüllt sind, desto besser.".
+_:n3-191700 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-191701 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191702 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.";
+    <https://html.spec.whatwg.org/#innerText> "Die folgenden Erläuterungen betreffen den Kosten- und Finanzierungsplan. Sie sollen helfen, die Spalten vollständig und so differenziert wie möglich auszufüllen. Ohne diese Angaben kann der Antrag nicht bearbeiten werden.".
+_:n3-191703 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-191704 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191705;
+    rdf:_2 " Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Bei der E.ON Stiftung beantragt:</strong> Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).";
+    <https://html.spec.whatwg.org/#innerText> "Bei der E.ON Stiftung beantragt: Antragsteller teilen die beantragten Mittel bitte je Kostenart auf die einzelnen Kalenderjahre des Förderzeitraums auf (bitte Spaltenköpfe anpassen).".
+_:n3-191705 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Bei der E.ON Stiftung beantragt:";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei der E.ON Stiftung beantragt:";
+    <https://html.spec.whatwg.org/#innerText> "Bei der E.ON Stiftung beantragt:".
+_:n3-191706 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191707;
+    rdf:_2 _:n3-191708;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n <li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan".
+_:n3-191707 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-191708 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-191709;
+    rdf:_2 _:n3-191711;
+    rdf:_3 _:n3-191713;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a></li>\n<li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a></li>\n<li><a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektförderung Formular Voranfrage Download Kosten- und Finanzierungsplan".
+_:n3-191709 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-191710;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektförderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektförderung".
+_:n3-191710 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Projektförderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Projektförderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektförderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.eon-stiftung.com/de/ueber-die-stiftung/foerderung.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191711 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-191712;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Formular Voranfrage</a>";
+    <https://html.spec.whatwg.org/#innerText> "Formular Voranfrage".
+_:n3-191712 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Formular Voranfrage";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Formular Voranfrage";
+    <https://html.spec.whatwg.org/#innerText> "Formular Voranfrage";
+    <http://www.w3.org/1999/xhtml#href> "https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/foerderantrag_eon-stiftung.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191713 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-191714;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Download Kosten- und Finanzierungsplan</a>";
+    <https://html.spec.whatwg.org/#innerText> "Download Kosten- und Finanzierungsplan".
+_:n3-191714 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Download Kosten- und Finanzierungsplan";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Download Kosten- und Finanzierungsplan";
+    <https://html.spec.whatwg.org/#innerText> "Download Kosten- und Finanzierungsplan";
+    <http://www.w3.org/1999/xhtml#href> "https://www.eon-stiftung.com/content/dam/eon/eon-stiftung/documents/stiftung/Kosten-und-Finanzierungsplan-Vorlage-Oktober-2020.xlsx";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191715 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-191716;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-191716 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191717;
+    rdf:_2 _:n3-191720;
+    rdf:_3 _:n3-191726;
+    rdf:_4 _:n3-191733;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-191717 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191718;
+    rdf:_2 _:n3-191719;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-191718 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-191719 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-191720 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191721;
+    rdf:_2 _:n3-191722;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-191721 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-191722 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191723;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-191723 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-191724;
+    rdf:_2 _:n3-191725;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-191724 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-191725 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-191726 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191727;
+    rdf:_2 _:n3-191728;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten".
+_:n3-191727 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-191728 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191729;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-191729 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-191730;
+    rdf:_2 _:n3-191731;
+    rdf:_3 _:n3-191732;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-191730 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-191731 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-191732 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-191733 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191734;
+    rdf:_2 _:n3-191735;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-191734 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-191735 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-191736 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191737;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Brüsseler Platz 1,\n     <br>\n     45131 Essen</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>+49 (0) 152 521 377 14</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191737 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191738;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Brüsseler Platz 1,\n    <br>\n    45131 Essen</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>+49 (0) 152 521 377 14</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191738 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191739;
+    rdf:_2 _:n3-191741;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Brüsseler Platz 1,\n   <br>\n   45131 Essen</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>+49 (0) 152 521 377 14</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E.ON Stiftung Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191739 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-191740;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung\" class=\"link\">E.ON Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "E.ON Stiftung".
+_:n3-191740 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "E.ON Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "E.ON Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "E.ON Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/22852-e-on-stiftung".
+_:n3-191741 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191742;
+    rdf:_2 _:n3-191745;
+    rdf:_3 _:n3-191749;
+    rdf:_4 _:n3-191753;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Brüsseler Platz 1,\n  <br>\n  45131 Essen</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>+49 (0) 152 521 377 14</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Brüsseler Platz 1, 45131 Essen E-Mail kontakt-stiftung@eon.com Webseite www.eon-stiftung.com/de/kontakt.html Telefon +49 (0) 152 521 377 14".
+_:n3-191742 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191743;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Brüsseler Platz 1,\n <br>\n 45131 Essen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Brüsseler Platz 1, 45131 Essen".
+_:n3-191743 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Brüsseler Platz 1,";
+    rdf:_2 _:n3-191744;
+    rdf:_3 "45131 Essen";
+    <https://html.spec.whatwg.org/#innerHTML> "Brüsseler Platz 1,\n<br>\n45131 Essen";
+    <https://html.spec.whatwg.org/#innerText> "Brüsseler Platz 1, 45131 Essen".
+_:n3-191744 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-191745 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191746;
+    rdf:_2 _:n3-191747;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail kontakt-stiftung@eon.com".
+_:n3-191746 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-191747 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191748;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:kontakt-stiftung@eon.com\">kontakt-stiftung@eon.com</a>";
+    <https://html.spec.whatwg.org/#innerText> "kontakt-stiftung@eon.com".
+_:n3-191748 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "kontakt-stiftung@eon.com";
+    <https://html.spec.whatwg.org/#innerHTML> "kontakt-stiftung@eon.com";
+    <https://html.spec.whatwg.org/#innerText> "kontakt-stiftung@eon.com";
+    <http://www.w3.org/1999/xhtml#href> "mailto:kontakt-stiftung@eon.com".
+_:n3-191749 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191750;
+    rdf:_2 _:n3-191751;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.eon-stiftung.com/de/kontakt.html".
+_:n3-191750 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-191751 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-191752;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.eon-stiftung.com/de/kontakt.html\" target=\"_blank\">www.eon-stiftung.com/de/kontakt.html</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.eon-stiftung.com/de/kontakt.html".
+_:n3-191752 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.eon-stiftung.com/de/kontakt.html";
+    <https://html.spec.whatwg.org/#innerHTML> "www.eon-stiftung.com/de/kontakt.html";
+    <https://html.spec.whatwg.org/#innerText> "www.eon-stiftung.com/de/kontakt.html";
+    <http://www.w3.org/1999/xhtml#href> "https://www.eon-stiftung.com/de/kontakt.html";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-191753 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191754;
+    rdf:_2 _:n3-191755;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>+49 (0) 152 521 377 14</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon +49 (0) 152 521 377 14".
+_:n3-191754 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-191755 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "+49 (0) 152 521 377 14";
+    <https://html.spec.whatwg.org/#innerHTML> "+49 (0) 152 521 377 14";
+    <https://html.spec.whatwg.org/#innerText> "+49 (0) 152 521 377 14".
+_:n3-191756 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-191757;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-191757 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191758;
+    rdf:_2 _:n3-191762;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-191758 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-191759;
+    rdf:_2 _:n3-191760;
+    rdf:_3 _:n3-191761;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-191759 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-191760 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-191761 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-191762 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-191763;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-191763 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-191764 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-191765 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-191766 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-191767 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/e-on-projektfoerderung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-191768 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-191769 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der E.ON Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der E.ON Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der E.ON Stiftung  –  Förderdatenbank".
+_:n3-191770 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-191771 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

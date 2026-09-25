@@ -1,0 +1,826 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-283463 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283464;
+    rdf:_10 _:n3-283465;
+    rdf:_11 _:n3-283466;
+    rdf:_12 _:n3-283467;
+    rdf:_13 _:n3-283468;
+    rdf:_14 _:n3-283469;
+    rdf:_15 _:n3-283470;
+    rdf:_16 _:n3-283471;
+    rdf:_17 _:n3-283472;
+    rdf:_18 _:n3-283473;
+    rdf:_19 _:n3-283474;
+    rdf:_2 _:n3-283475;
+    rdf:_20 _:n3-283476;
+    rdf:_21 _:n3-283477;
+    rdf:_22 _:n3-283478;
+    rdf:_23 _:n3-283495;
+    rdf:_24 _:n3-283500;
+    rdf:_25 _:n3-283610;
+    rdf:_26 _:n3-283618;
+    rdf:_3 _:n3-283619;
+    rdf:_4 _:n3-283620;
+    rdf:_5 _:n3-283621;
+    rdf:_6 _:n3-283622;
+    rdf:_7 _:n3-283623;
+    rdf:_8 _:n3-283624;
+    rdf:_9 _:n3-283625;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Gefördert werden&nbsp;insbesondere:</p>\n      <ul>\n       <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n       <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n       <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n       <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n      </ul>\n      <p></p>\n      <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n      <ul>\n       <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n       <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n       <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n       <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n       <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n      </ul>\n      <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n      <ul>\n       <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n       <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n       <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n       <li>Privatperson: mindestens 20 Prozent</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n      <ul>\n       <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n       <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n       <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n       <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n       <li>ggf. drei Vergleichsangebote</li>\n       <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n       <li>Freistellungsbescheid</li>\n       <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n       <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n      </ul>\n      <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n      <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n      <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Schleswig-Holstein</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Wissenschaft und Forschung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>1. Oktober 2026</li>\n        <li>1. Februar 2027</li>\n       </ul>\n      </div>\n      <div class=\"prose text-base\">\n       <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n       <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Schauenburgerstraße 116,\n        <br>\n        24118 Kiel</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0431 21912452</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452 ©2026 Impressum Datenschutzerklärung".
+_:n3-283464 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-283465 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-283466 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-283467 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-283468 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-283469 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-283470 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-283471 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-283472 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-283473 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-283474 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-283475 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-283476 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-283477 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-283478 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283479;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-283479 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283480;
+    rdf:_2 _:n3-283482;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-283480 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-283481;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-283481 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-283482 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283483;
+    rdf:_2 _:n3-283486;
+    rdf:_3 _:n3-283489;
+    rdf:_4 _:n3-283492;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-283483 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-283484;
+    rdf:_2 _:n3-283485;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283484 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-283485 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-283486 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-283487;
+    rdf:_2 _:n3-283488;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283487 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-283488 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-283489 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-283490;
+    rdf:_2 _:n3-283491;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283490 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-283491 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-283492 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-283493;
+    rdf:_2 _:n3-283494;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283493 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-283494 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-283495 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-283496;
+    rdf:_2 _:n3-283499;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-283496 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-283497;
+    rdf:_2 _:n3-283498;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-283497 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-283498 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-283499 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-283500 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-283501;
+    rdf:_2 _:n3-283506;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Gefördert werden&nbsp;insbesondere:</p>\n     <ul>\n      <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n      <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n      <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n      <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n     </ul>\n     <p></p>\n     <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n     <ul>\n      <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n      <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n      <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n      <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n      <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n     </ul>\n     <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n     <ul>\n      <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n      <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n      <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n      <li>Privatperson: mindestens 20 Prozent</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n     <ul>\n      <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n      <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n      <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n      <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n      <li>ggf. drei Vergleichsangebote</li>\n      <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n      <li>Freistellungsbescheid</li>\n      <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n      <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n     </ul>\n     <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n     <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n     <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Schleswig-Holstein</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Wissenschaft und Forschung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>1. Oktober 2026</li>\n       <li>1. Februar 2027</li>\n      </ul>\n     </div>\n     <div class=\"prose text-base\">\n      <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n      <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Schauenburgerstraße 116,\n       <br>\n       24118 Kiel</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0431 21912452</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283501 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-283502;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283502 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283503;
+    rdf:_2 _:n3-283504;
+    rdf:_3 _:n3-283505;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283503 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-283504 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-283505 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283506 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-283507;
+    rdf:_2 _:n3-283590;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Gefördert werden&nbsp;insbesondere:</p>\n    <ul>\n     <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n     <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n     <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n     <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n    </ul>\n    <p></p>\n    <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n    <ul>\n     <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n     <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n     <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n     <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n     <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n    </ul>\n    <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n    <ul>\n     <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n     <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n     <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n     <li>Privatperson: mindestens 20 Prozent</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n    <ul>\n     <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n     <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n     <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n     <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n     <li>ggf. drei Vergleichsangebote</li>\n     <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n     <li>Freistellungsbescheid</li>\n     <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n     <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n    </ul>\n    <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n    <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n    <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Schleswig-Holstein</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Wissenschaft und Forschung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>1. Oktober 2026</li>\n      <li>1. Februar 2027</li>\n     </ul>\n    </div>\n    <div class=\"prose text-base\">\n     <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n     <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Schauenburgerstraße 116,\n      <br>\n      24118 Kiel</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0431 21912452</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283507 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283508;
+    rdf:_2 _:n3-283558;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Gefördert werden&nbsp;insbesondere:</p>\n   <ul>\n    <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n    <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n    <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n    <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n   </ul>\n   <p></p>\n   <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n   <ul>\n    <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n    <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n    <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n    <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n    <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n   </ul>\n   <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n   <ul>\n    <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n    <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n    <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n    <li>Privatperson: mindestens 20 Prozent</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n   <ul>\n    <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n    <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n    <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n    <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n    <li>ggf. drei Vergleichsangebote</li>\n    <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n    <li>Freistellungsbescheid</li>\n    <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n    <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n   </ul>\n   <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n   <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n   <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Schleswig-Holstein</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Wissenschaft und Forschung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>1. Oktober 2026</li>\n     <li>1. Februar 2027</li>\n    </ul>\n   </div>\n   <div class=\"prose text-base\">\n    <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n    <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283508 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283509;
+    rdf:_2 _:n3-283511;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Gefördert werden&nbsp;insbesondere:</p>\n  <ul>\n   <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n   <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n   <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n   <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n  </ul>\n  <p></p>\n  <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n  <ul>\n   <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n   <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n   <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n   <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n   <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n  </ul>\n  <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n  <ul>\n   <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n   <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n   <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n   <li>Privatperson: mindestens 20 Prozent</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n  <ul>\n   <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n   <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n   <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n   <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n   <li>ggf. drei Vergleichsangebote</li>\n   <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n   <li>Freistellungsbescheid</li>\n   <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n   <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n  </ul>\n  <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n  <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n  <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung".
+_:n3-283509 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-283510;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283510 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283511 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283512;
+    rdf:_2 _:n3-283514;
+    rdf:_3 _:n3-283536;
+    rdf:_4 _:n3-283553;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Gefördert werden&nbsp;insbesondere:</p>\n <ul>\n  <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n  <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n  <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n  <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n </ul>\n <p></p>\n <p>Nicht oder nur eingeschränkt gefördert werden:</p>\n <ul>\n  <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n  <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n  <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n  <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n  <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n </ul>\n <p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n <ul>\n  <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n  <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n  <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n  <li>Privatperson: mindestens 20 Prozent</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n <ul>\n  <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n  <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n  <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n  <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n  <li>ggf. drei Vergleichsangebote</li>\n  <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n  <li>Freistellungsbescheid</li>\n  <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n  <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n </ul>\n <p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n <p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n <p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig. Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird. Weitere Informationen Link zur Antragstellung".
+_:n3-283512 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283513;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.".
+_:n3-283513 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die aktive Erinnerung an Verfolgung, Verbrechen und Widerstand in der NSZeit im Rahmen einer gegenwartsbezogenen historisch-politischen Bildung an Gedenkstätten und Erinnerungsorten in Schleswig-Holstein ist der Stiftung besonders wichtig.".
+_:n3-283514 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283515;
+    rdf:_2 _:n3-283516;
+    rdf:_3 _:n3-283517;
+    rdf:_4 _:n3-283522;
+    rdf:_5 _:n3-283523;
+    rdf:_6 _:n3-283524;
+    rdf:_7 _:n3-283530;
+    rdf:_8 _:n3-283531;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Gefördert werden&nbsp;insbesondere:</p>\n<ul>\n <li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n <li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n <li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n <li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>\n</ul>\n<p></p>\n<p>Nicht oder nur eingeschränkt gefördert werden:</p>\n<ul>\n <li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n <li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n <li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n <li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n <li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>\n</ul>\n<p>In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:</p>\n<ul>\n <li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n <li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n <li>gemeinnützige Institution: mindestens 5 Prozent</li>\n <li>Privatperson: mindestens 20 Prozent</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Gefördert werden insbesondere: Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung Nicht oder nur eingeschränkt gefördert werden: Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind. In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung: Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent".
+_:n3-283515 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-283516 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden&nbsp;insbesondere:";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden&nbsp;insbesondere:";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden insbesondere:".
+_:n3-283517 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283518;
+    rdf:_2 _:n3-283519;
+    rdf:_3 _:n3-283520;
+    rdf:_4 _:n3-283521;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Personalkosten: z.B. Honorare, Werkverträge, etc.</li>\n<li>Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.</li>\n<li>Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.</li>\n<li>Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten: z.B. Honorare, Werkverträge, etc. Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc. Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc. Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung".
+_:n3-283518 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten: z.B. Honorare, Werkverträge, etc.";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten: z.B. Honorare, Werkverträge, etc.";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten: z.B. Honorare, Werkverträge, etc.".
+_:n3-283519 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.";
+    <https://html.spec.whatwg.org/#innerHTML> "Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.";
+    <https://html.spec.whatwg.org/#innerText> "Material- und Sachkosten: z.B. Büromaterial, Einrichtungsgegenstände, etc.".
+_:n3-283520 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.";
+    <https://html.spec.whatwg.org/#innerHTML> "Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.";
+    <https://html.spec.whatwg.org/#innerText> "Reisekosten: z.B. bei Fortbildungen, externen Referenten/Referentinnen, etc.".
+_:n3-283521 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung";
+    <https://html.spec.whatwg.org/#innerHTML> "Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung";
+    <https://html.spec.whatwg.org/#innerText> "Mietkosten: z.B. bei Anmietung von Räumen für eine Veranstaltung".
+_:n3-283522 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-283523 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Nicht oder nur eingeschränkt gefördert werden:";
+    <https://html.spec.whatwg.org/#innerHTML> "Nicht oder nur eingeschränkt gefördert werden:";
+    <https://html.spec.whatwg.org/#innerText> "Nicht oder nur eingeschränkt gefördert werden:".
+_:n3-283524 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283525;
+    rdf:_2 _:n3-283526;
+    rdf:_3 _:n3-283527;
+    rdf:_4 _:n3-283528;
+    rdf:_5 _:n3-283529;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation</li>\n<li>Verpflegungskosten bei Veranstaltungen, Seminaren, etc.</li>\n<li>Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)</li>\n<li>Baukosten zur Errichtung von Denk- und Mahnmalen</li>\n<li>Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation Verpflegungskosten bei Veranstaltungen, Seminaren, etc. Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen) Baukosten zur Errichtung von Denk- und Mahnmalen Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.".
+_:n3-283525 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation";
+    <https://html.spec.whatwg.org/#innerHTML> "Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation";
+    <https://html.spec.whatwg.org/#innerText> "Druck- und Verlagskosten: z.B. bei der Veröffentlichung einer Dokumentation".
+_:n3-283526 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Verpflegungskosten bei Veranstaltungen, Seminaren, etc.";
+    <https://html.spec.whatwg.org/#innerHTML> "Verpflegungskosten bei Veranstaltungen, Seminaren, etc.";
+    <https://html.spec.whatwg.org/#innerText> "Verpflegungskosten bei Veranstaltungen, Seminaren, etc.".
+_:n3-283527 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)";
+    <https://html.spec.whatwg.org/#innerHTML> "Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)";
+    <https://html.spec.whatwg.org/#innerText> "Universitäre Forschung und Qualifizierungsarbeiten (Dissertationen)".
+_:n3-283528 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baukosten zur Errichtung von Denk- und Mahnmalen";
+    <https://html.spec.whatwg.org/#innerHTML> "Baukosten zur Errichtung von Denk- und Mahnmalen";
+    <https://html.spec.whatwg.org/#innerText> "Baukosten zur Errichtung von Denk- und Mahnmalen".
+_:n3-283529 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.";
+    <https://html.spec.whatwg.org/#innerHTML> "Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.";
+    <https://html.spec.whatwg.org/#innerText> "Baumaßnahmen können nur dann gefördert werden, wenn sie die Voraussetzung für die Aufrechterhaltung oder Verbesserung der inhaltlichen Arbeit einer Einrichtung sind.".
+_:n3-283530 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:";
+    <https://html.spec.whatwg.org/#innerHTML> "In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:";
+    <https://html.spec.whatwg.org/#innerText> "In der Regel ist eine Eigenbeteiligung Voraussetzung der Förderung:".
+_:n3-283531 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283532;
+    rdf:_2 _:n3-283533;
+    rdf:_3 _:n3-283534;
+    rdf:_4 _:n3-283535;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent</li>\n<li>Institution in privater Trägerschaft: mindestens 20 Prozent</li>\n<li>gemeinnützige Institution: mindestens 5 Prozent</li>\n<li>Privatperson: mindestens 20 Prozent</li>";
+    <https://html.spec.whatwg.org/#innerText> "Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent Institution in privater Trägerschaft: mindestens 20 Prozent gemeinnützige Institution: mindestens 5 Prozent Privatperson: mindestens 20 Prozent".
+_:n3-283532 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerHTML> "Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerText> "Institution in öffentlich-rechtlicher Trägerschaft: mindestens 20 Prozent".
+_:n3-283533 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Institution in privater Trägerschaft: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerHTML> "Institution in privater Trägerschaft: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerText> "Institution in privater Trägerschaft: mindestens 20 Prozent".
+_:n3-283534 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "gemeinnützige Institution: mindestens 5 Prozent";
+    <https://html.spec.whatwg.org/#innerHTML> "gemeinnützige Institution: mindestens 5 Prozent";
+    <https://html.spec.whatwg.org/#innerText> "gemeinnützige Institution: mindestens 5 Prozent".
+_:n3-283535 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Privatperson: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerHTML> "Privatperson: mindestens 20 Prozent";
+    <https://html.spec.whatwg.org/#innerText> "Privatperson: mindestens 20 Prozent".
+_:n3-283536 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283537;
+    rdf:_2 _:n3-283538;
+    rdf:_3 _:n3-283539;
+    rdf:_4 _:n3-283549;
+    rdf:_5 _:n3-283550;
+    rdf:_6 _:n3-283552;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:</p>\n<ul>\n <li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n <li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n <li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n <li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n <li>ggf. drei Vergleichsangebote</li>\n <li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n <li>Freistellungsbescheid</li>\n <li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n <li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>\n</ul>\n<p>Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.</p>\n<p><strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.</p>\n<p>Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten: Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend). Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne. Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs. Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird.".
+_:n3-283537 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-283538 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:";
+    <https://html.spec.whatwg.org/#innerText> "Ihr Antrag auf Projektförderung eines zeitlich und inhaltlich begrenzten Projektes sollte folgende Bestandteile enthalten:".
+_:n3-283539 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283540;
+    rdf:_2 _:n3-283541;
+    rdf:_3 _:n3-283542;
+    rdf:_4 _:n3-283543;
+    rdf:_5 _:n3-283544;
+    rdf:_6 _:n3-283545;
+    rdf:_7 _:n3-283546;
+    rdf:_8 _:n3-283547;
+    rdf:_9 _:n3-283548;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung</li>\n<li>Vollständig ausgefülltes und unterschriebenes Antragsformular</li>\n<li>Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)</li>\n<li>Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)</li>\n<li>ggf. drei Vergleichsangebote</li>\n<li>Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:</li>\n<li>Freistellungsbescheid</li>\n<li>Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)</li>\n<li>Satzung/Gesellschaftervertrag (derzeit geltend).</li>";
+    <https://html.spec.whatwg.org/#innerText> "Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung Vollständig ausgefülltes und unterschriebenes Antragsformular Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten) Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH) ggf. drei Vergleichsangebote Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit: Freistellungsbescheid Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.) Satzung/Gesellschaftervertrag (derzeit geltend).".
+_:n3-283540 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Anschreiben an die/den Vorstandsvorsitzende/n der Stiftung".
+_:n3-283541 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Vollständig ausgefülltes und unterschriebenes Antragsformular";
+    <https://html.spec.whatwg.org/#innerHTML> "Vollständig ausgefülltes und unterschriebenes Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Vollständig ausgefülltes und unterschriebenes Antragsformular".
+_:n3-283542 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)";
+    <https://html.spec.whatwg.org/#innerText> "Projektskizze: Begründung des Förderbedarfs und Darstellung des beantragten Projekts (1 bis 2 Seiten)".
+_:n3-283543 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)";
+    <https://html.spec.whatwg.org/#innerHTML> "Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)";
+    <https://html.spec.whatwg.org/#innerText> "Kosten- und Finanzierungsplan: genaue Auflistung der erwarteten Projektkosten und – darauf aufbauend – Darstellung der Finanzierungsquellen des Projekts (Eigenmittel, Drittmittel, BGSH)".
+_:n3-283544 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "ggf. drei Vergleichsangebote";
+    <https://html.spec.whatwg.org/#innerHTML> "ggf. drei Vergleichsangebote";
+    <https://html.spec.whatwg.org/#innerText> "ggf. drei Vergleichsangebote".
+_:n3-283545 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:";
+    <https://html.spec.whatwg.org/#innerText> "Bei Institutionen: Nachweis der Zeichnungsberechtigung/Gemeinnützigkeit:".
+_:n3-283546 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Freistellungsbescheid";
+    <https://html.spec.whatwg.org/#innerHTML> "Freistellungsbescheid";
+    <https://html.spec.whatwg.org/#innerText> "Freistellungsbescheid".
+_:n3-283547 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)";
+    <https://html.spec.whatwg.org/#innerHTML> "Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)";
+    <https://html.spec.whatwg.org/#innerText> "Registerauszug, falls vorhanden (Vereinsregister, Stiftungsregister, etc.)".
+_:n3-283548 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Satzung/Gesellschaftervertrag (derzeit geltend).";
+    <https://html.spec.whatwg.org/#innerHTML> "Satzung/Gesellschaftervertrag (derzeit geltend).";
+    <https://html.spec.whatwg.org/#innerText> "Satzung/Gesellschaftervertrag (derzeit geltend).".
+_:n3-283549 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung behält sich vor, bei Bedarf weitere Unterlagen anzufordern. Bei Fragen zur Antragstellung kontaktieren Sie die Stiftung gerne.".
+_:n3-283550 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-283551;
+    rdf:_2 " Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.</strong> Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.";
+    <https://html.spec.whatwg.org/#innerText> "Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen. Maßgebend für eine fristgemäße Einreichung ist das Datum des Maileingangs.".
+_:n3-283551 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail&nbsp;einreichen.";
+    <https://html.spec.whatwg.org/#innerText> "Anträge bitte ausschließlich digital in einer zusammenhängenden PDF-Datei per Mail einreichen.".
+_:n3-283552 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie&nbsp;schriftlich darüber informiert, ob Ihr Projekt gefördert wird.";
+    <https://html.spec.whatwg.org/#innerText> "Der Vorstand der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten entscheidet zweimal im Jahr, im Frühjahr und im Herbst, über die Projektförderungen. Grundlage der Entscheidung ist das Votum des Wissenschaftlichen Beirats der Stiftung. Etwa eine Woche nach der jeweiligen Sitzung werden Sie schriftlich darüber informiert, ob Ihr Projekt gefördert wird.".
+_:n3-283553 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283554;
+    rdf:_2 _:n3-283555;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Antragstellung".
+_:n3-283554 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-283555 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283556;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung".
+_:n3-283556 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-283557;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://gedenkstaetten-sh.de/antragstellung\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung".
+_:n3-283557 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Antragstellung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#href> "https://gedenkstaetten-sh.de/antragstellung";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283558 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-283559;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Schleswig-Holstein</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Wissenschaft und Forschung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>1. Oktober 2026</li>\n    <li>1. Februar 2027</li>\n   </ul>\n  </div>\n  <div class=\"prose text-base\">\n   <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n   <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283559 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283560;
+    rdf:_2 _:n3-283565;
+    rdf:_3 _:n3-283571;
+    rdf:_4 _:n3-283578;
+    rdf:_5 _:n3-283581;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Schleswig-Holstein</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Wissenschaft und Forschung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>1. Oktober 2026</li>\n   <li>1. Februar 2027</li>\n  </ul>\n </div>\n <div class=\"prose text-base\">\n  <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n  <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein Engagementbereiche: Bildung Wissenschaft und Forschung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283560 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283561;
+    rdf:_2 _:n3-283562;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Schleswig-Holstein</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Schleswig-Holstein".
+_:n3-283561 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-283562 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283563;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Schleswig-Holstein</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-283563 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283564;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Schleswig-Holstein</li>";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-283564 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Schleswig-Holstein";
+    <https://html.spec.whatwg.org/#innerHTML> "Schleswig-Holstein";
+    <https://html.spec.whatwg.org/#innerText> "Schleswig-Holstein".
+_:n3-283565 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283566;
+    rdf:_2 _:n3-283567;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Wissenschaft und Forschung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Wissenschaft und Forschung".
+_:n3-283566 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-283567 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283568;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Wissenschaft und Forschung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Wissenschaft und Forschung".
+_:n3-283568 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283569;
+    rdf:_2 _:n3-283570;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Wissenschaft und Forschung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Wissenschaft und Forschung".
+_:n3-283569 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-283570 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-283571 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283572;
+    rdf:_2 _:n3-283573;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten".
+_:n3-283572 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-283573 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283574;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-283574 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283575;
+    rdf:_2 _:n3-283576;
+    rdf:_3 _:n3-283577;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-283575 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-283576 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-283577 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-283578 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283579;
+    rdf:_2 _:n3-283580;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-283579 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-283580 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-283581 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283582;
+    rdf:_2 _:n3-283583;
+    rdf:_3 _:n3-283587;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>1. Oktober 2026</li>\n  <li>1. Februar 2027</li>\n </ul>\n</div>\n<div class=\"prose text-base\">\n <p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n <p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 1. Oktober 2026 1. Februar 2027 Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283582 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-283583 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283584;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>1. Oktober 2026</li>\n <li>1. Februar 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026 1. Februar 2027".
+_:n3-283584 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-283585;
+    rdf:_2 _:n3-283586;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>1. Oktober 2026</li>\n<li>1. Februar 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026 1. Februar 2027".
+_:n3-283585 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "1. Oktober 2026".
+_:n3-283586 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Februar 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Februar 2027";
+    <https://html.spec.whatwg.org/#innerText> "1. Februar 2027".
+_:n3-283587 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283588;
+    rdf:_2 _:n3-283589;
+    <http://www.w3.org/1999/xhtml#class> "prose text-base";
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres</p>\n<p>Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres</p>";
+    <https://html.spec.whatwg.org/#innerText> "Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283588 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektlaufzeit für Einreichung im Frühjahr: ab&nbsp;Bewilligung bis 31.12. des laufenden Jahres";
+    <https://html.spec.whatwg.org/#innerText> "Projektlaufzeit für Einreichung im Frühjahr: ab Bewilligung bis 31.12. des laufenden Jahres".
+_:n3-283589 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres";
+    <https://html.spec.whatwg.org/#innerText> "Projektlaufzeit für Einreichung im Herbst: ab 1.1. bis 31.12. des darauffolgenden Jahres".
+_:n3-283590 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283591;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Schauenburgerstraße 116,\n     <br>\n     24118 Kiel</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0431 21912452</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283591 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283592;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Schauenburgerstraße 116,\n    <br>\n    24118 Kiel</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0431 21912452</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283592 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283593;
+    rdf:_2 _:n3-283595;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Schauenburgerstraße 116,\n   <br>\n   24118 Kiel</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0431 21912452</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283593 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-283594;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten\" class=\"link\">Bürgerstiftung Schleswig-Holsteinische Gedenkstätten</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten".
+_:n3-283594 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Schleswig-Holsteinische Gedenkstätten";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/36527-buergerstiftung-schleswig-holsteinische-gedenkstaetten".
+_:n3-283595 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283596;
+    rdf:_2 _:n3-283599;
+    rdf:_3 _:n3-283603;
+    rdf:_4 _:n3-283607;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Schauenburgerstraße 116,\n  <br>\n  24118 Kiel</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0431 21912452</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Schauenburgerstraße 116, 24118 Kiel E-Mail info@gedenkstaetten-sh.de Webseite gedenkstaetten-sh.de/ Telefon 0431 21912452".
+_:n3-283596 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283597;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Schauenburgerstraße 116,\n <br>\n 24118 Kiel</p>";
+    <https://html.spec.whatwg.org/#innerText> "Schauenburgerstraße 116, 24118 Kiel".
+_:n3-283597 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schauenburgerstraße 116,";
+    rdf:_2 _:n3-283598;
+    rdf:_3 "24118 Kiel";
+    <https://html.spec.whatwg.org/#innerHTML> "Schauenburgerstraße 116,\n<br>\n24118 Kiel";
+    <https://html.spec.whatwg.org/#innerText> "Schauenburgerstraße 116, 24118 Kiel".
+_:n3-283598 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-283599 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283600;
+    rdf:_2 _:n3-283601;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@gedenkstaetten-sh.de".
+_:n3-283600 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-283601 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-283602;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@gedenkstaetten-sh.de\">info@gedenkstaetten-sh.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@gedenkstaetten-sh.de".
+_:n3-283602 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@gedenkstaetten-sh.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@gedenkstaetten-sh.de";
+    <https://html.spec.whatwg.org/#innerText> "info@gedenkstaetten-sh.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@gedenkstaetten-sh.de".
+_:n3-283603 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283604;
+    rdf:_2 _:n3-283605;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite gedenkstaetten-sh.de/".
+_:n3-283604 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-283605 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-283606;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://gedenkstaetten-sh.de/\" target=\"_blank\">gedenkstaetten-sh.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "gedenkstaetten-sh.de/".
+_:n3-283606 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "gedenkstaetten-sh.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "gedenkstaetten-sh.de/";
+    <https://html.spec.whatwg.org/#innerText> "gedenkstaetten-sh.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://gedenkstaetten-sh.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-283607 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283608;
+    rdf:_2 _:n3-283609;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0431 21912452</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0431 21912452".
+_:n3-283608 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-283609 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0431 21912452";
+    <https://html.spec.whatwg.org/#innerHTML> "0431 21912452";
+    <https://html.spec.whatwg.org/#innerText> "0431 21912452".
+_:n3-283610 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-283611;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-283611 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283612;
+    rdf:_2 _:n3-283616;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-283612 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-283613;
+    rdf:_2 _:n3-283614;
+    rdf:_3 _:n3-283615;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-283613 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-283614 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-283615 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-283616 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-283617;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-283617 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-283618 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-283619 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-283620 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-283621 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/projektfoerderung-der-buergerstiftung-schleswig-holsteinische-gedenkstaetten";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-283622 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-283623 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Projektförderung der Bürgerstiftung Schleswig-Holsteinische Gedenkstätten  –  Förderdatenbank".
+_:n3-283624 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-283625 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

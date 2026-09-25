@@ -1,0 +1,607 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-143000 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143001;
+    rdf:_10 _:n3-143002;
+    rdf:_11 _:n3-143003;
+    rdf:_12 _:n3-143004;
+    rdf:_13 _:n3-143005;
+    rdf:_14 _:n3-143006;
+    rdf:_15 _:n3-143007;
+    rdf:_16 _:n3-143008;
+    rdf:_17 _:n3-143009;
+    rdf:_18 _:n3-143010;
+    rdf:_19 _:n3-143011;
+    rdf:_2 _:n3-143012;
+    rdf:_20 _:n3-143013;
+    rdf:_21 _:n3-143014;
+    rdf:_22 _:n3-143015;
+    rdf:_23 _:n3-143032;
+    rdf:_24 _:n3-143037;
+    rdf:_25 _:n3-143103;
+    rdf:_26 _:n3-143111;
+    rdf:_3 _:n3-143112;
+    rdf:_4 _:n3-143113;
+    rdf:_5 _:n3-143114;
+    rdf:_6 _:n3-143115;
+    rdf:_7 _:n3-143116;
+    rdf:_8 _:n3-143117;
+    rdf:_9 _:n3-143118;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "erich-kuehnhackl-stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderprogramm der Erich Kühnhackl Stiftung  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderprogramm der Erich Kühnhackl Stiftung\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderprogramm der Erich Kühnhackl Stiftung\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm der Erich Kühnhackl Stiftung</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      Die Stiftung erfüllt ihren Zweck durch die:\n      <br>\n      <br>\n      <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n       <br>\n       • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n       <br>\n       • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n       <br>\n       • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kinder und Jugendliche</li>\n        <li>Sport und Bewegung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Alte Weberei 2,\n        <br>\n        87600 Landshut</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>089 2199980</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderprogramm der Erich Kühnhackl Stiftung Förderprogramm der Erich Kühnhackl Stiftung Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980 ©2026 Impressum Datenschutzerklärung".
+_:n3-143001 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-143002 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-143003 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-143004 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-143005 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderprogramm der Erich Kühnhackl Stiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-143006 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-143007 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderprogramm der Erich Kühnhackl Stiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-143008 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-143009 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-143010 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-143011 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-143012 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-143013 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-143014 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-143015 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143016;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-143016 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143017;
+    rdf:_2 _:n3-143019;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-143017 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-143018;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-143018 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-143019 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143020;
+    rdf:_2 _:n3-143023;
+    rdf:_3 _:n3-143026;
+    rdf:_4 _:n3-143029;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-143020 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-143021;
+    rdf:_2 _:n3-143022;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143021 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-143022 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-143023 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-143024;
+    rdf:_2 _:n3-143025;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143024 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-143025 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-143026 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-143027;
+    rdf:_2 _:n3-143028;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143027 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-143028 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-143029 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-143030;
+    rdf:_2 _:n3-143031;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143030 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-143031 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-143032 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-143033;
+    rdf:_2 _:n3-143036;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-143033 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-143034;
+    rdf:_2 _:n3-143035;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-143034 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-143035 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-143036 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-143037 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-143038;
+    rdf:_2 _:n3-143043;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm der Erich Kühnhackl Stiftung</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     Die Stiftung erfüllt ihren Zweck durch die:\n     <br>\n     <br>\n     <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n      <br>\n      • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n      <br>\n      • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n      <br>\n      • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kinder und Jugendliche</li>\n       <li>Sport und Bewegung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Alte Weberei 2,\n       <br>\n       87600 Landshut</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>089 2199980</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm der Erich Kühnhackl Stiftung Förderprogramm der Erich Kühnhackl Stiftung Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143038 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-143039;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm der Erich Kühnhackl Stiftung</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm der Erich Kühnhackl Stiftung".
+_:n3-143039 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143040;
+    rdf:_2 _:n3-143041;
+    rdf:_3 _:n3-143042;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm der Erich Kühnhackl Stiftung</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm der Erich Kühnhackl Stiftung".
+_:n3-143040 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-143041 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-143042 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderprogramm der Erich Kühnhackl Stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm der Erich Kühnhackl Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung".
+_:n3-143043 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-143044;
+    rdf:_2 _:n3-143081;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    Die Stiftung erfüllt ihren Zweck durch die:\n    <br>\n    <br>\n    <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n     <br>\n     • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n     <br>\n     • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n     <br>\n     • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kinder und Jugendliche</li>\n      <li>Sport und Bewegung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Alte Weberei 2,\n      <br>\n      87600 Landshut</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>089 2199980</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143044 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143045;
+    rdf:_2 _:n3-143064;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   Die Stiftung erfüllt ihren Zweck durch die:\n   <br>\n   <br>\n   <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n    <br>\n    • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n    <br>\n    • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n    <br>\n    • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kinder und Jugendliche</li>\n     <li>Sport und Bewegung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-143045 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143046;
+    rdf:_2 _:n3-143048;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  Die Stiftung erfüllt ihren Zweck durch die:\n  <br>\n  <br>\n  <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n   <br>\n   • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n   <br>\n   • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n   <br>\n   • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung".
+_:n3-143046 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-143047;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm der Erich Kühnhackl Stiftung</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung".
+_:n3-143047 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderprogramm der Erich Kühnhackl Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm der Erich Kühnhackl Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung".
+_:n3-143048 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143049;
+    rdf:_2 _:n3-143051;
+    rdf:_3 _:n3-143059;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n Die Stiftung erfüllt ihren Zweck durch die:\n <br>\n <br>\n <p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n  <br>\n  • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n  <br>\n  • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n  <br>\n  • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht. Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung Weitere Informationen Link zur Stiftung".
+_:n3-143049 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143050;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.".
+_:n3-143050 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.";
+    <https://html.spec.whatwg.org/#innerText> "Die Erich Kühnhackl Stiftung unterstützt junge sportliche Talente im Eishockey. Über gesellschaftliche und sportliche Aktivitäten wird Entscheidungsträgern aus Wirtschaft und Politik die Notwendigkeit der Förderung des Jugend- Eishockeysports nähergebracht.".
+_:n3-143051 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143052;
+    rdf:_2 "Die Stiftung erfüllt ihren Zweck durch die:";
+    rdf:_3 _:n3-143053;
+    rdf:_4 _:n3-143054;
+    rdf:_5 _:n3-143055;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\nDie Stiftung erfüllt ihren Zweck durch die:\n<br>\n<br>\n<p>• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n <br>\n • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n <br>\n • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n <br>\n • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Stiftung erfüllt ihren Zweck durch die: • Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung".
+_:n3-143052 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-143053 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143054 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143055 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes";
+    rdf:_2 _:n3-143056;
+    rdf:_3 "• Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung";
+    rdf:_4 _:n3-143057;
+    rdf:_5 "• Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen";
+    rdf:_6 _:n3-143058;
+    rdf:_7 "• Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes\n<br>\n• Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung\n<br>\n• Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen\n<br>\n• Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "• Präsenz der Stiftung auf Veranstaltungen des Deutschen Eishockey Bundes • Förderung von Lauf- und Eishockeyschulen durch persönliche Teilnahme von Erich Kühnhackl und weiterer Eishockeygrößen und durch finanzielle Unterstützung • Unterstützung von sozialschwächer gestellten und in Not geratenen Talenten mit Ausrüstung und Trainingsbeihilfen • Rehabilitationsunterstützung bei einem orthopädischen Institut in München, einem Partnerunternehmen der Erich-Kühnhackl-Stiftung".
+_:n3-143056 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143057 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143058 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143059 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143060;
+    rdf:_2 _:n3-143061;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung".
+_:n3-143060 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-143061 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-143062;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-143062 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-143063;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.erich-kuehnhackl-stiftung.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-143063 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.erich-kuehnhackl-stiftung.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143064 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-143065;
+    rdf:_2 _:n3-143068;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kinder und Jugendliche</li>\n    <li>Sport und Bewegung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-143065 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143066;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">\n</figure>".
+_:n3-143066 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-143067;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg\" width=\"800\" height=\"319\">".
+_:n3-143067 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "319";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo-EKS-scaled.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-143068 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143069;
+    rdf:_2 _:n3-143072;
+    rdf:_3 _:n3-143078;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kinder und Jugendliche</li>\n   <li>Sport und Bewegung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Kinder und Jugendliche Sport und Bewegung Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-143069 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143070;
+    rdf:_2 _:n3-143071;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-143070 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-143071 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-143072 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143073;
+    rdf:_2 _:n3-143074;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kinder und Jugendliche</li>\n  <li>Sport und Bewegung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kinder und Jugendliche Sport und Bewegung".
+_:n3-143073 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-143074 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143075;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kinder und Jugendliche</li>\n <li>Sport und Bewegung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche Sport und Bewegung".
+_:n3-143075 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-143076;
+    rdf:_2 _:n3-143077;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kinder und Jugendliche</li>\n<li>Sport und Bewegung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche Sport und Bewegung".
+_:n3-143076 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-143077 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-143078 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143079;
+    rdf:_2 _:n3-143080;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-143079 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-143080 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-143081 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143082;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Alte Weberei 2,\n     <br>\n     87600 Landshut</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>089 2199980</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143082 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143083;
+    rdf:_2 _:n3-143101;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Alte Weberei 2,\n    <br>\n    87600 Landshut</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>089 2199980</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143083 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143084;
+    rdf:_2 _:n3-143086;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Alte Weberei 2,\n   <br>\n   87600 Landshut</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>089 2199980</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Erich Kühnhackl Stiftung Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143084 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-143085;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung\" class=\"link\">Erich Kühnhackl Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Erich Kühnhackl Stiftung".
+_:n3-143085 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Erich Kühnhackl Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Erich Kühnhackl Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Erich Kühnhackl Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/278-erich-kuehnhackl-stiftung".
+_:n3-143086 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143087;
+    rdf:_2 _:n3-143090;
+    rdf:_3 _:n3-143094;
+    rdf:_4 _:n3-143098;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Alte Weberei 2,\n  <br>\n  87600 Landshut</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>089 2199980</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Alte Weberei 2, 87600 Landshut E-Mail info@erichkuehnhackl-stiftung.de Webseite www.erich-kuehnhackl-stiftung.de Telefon 089 2199980".
+_:n3-143087 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143088;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Alte Weberei 2,\n <br>\n 87600 Landshut</p>";
+    <https://html.spec.whatwg.org/#innerText> "Alte Weberei 2, 87600 Landshut".
+_:n3-143088 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Alte Weberei 2,";
+    rdf:_2 _:n3-143089;
+    rdf:_3 "87600 Landshut";
+    <https://html.spec.whatwg.org/#innerHTML> "Alte Weberei 2,\n<br>\n87600 Landshut";
+    <https://html.spec.whatwg.org/#innerText> "Alte Weberei 2, 87600 Landshut".
+_:n3-143089 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-143090 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143091;
+    rdf:_2 _:n3-143092;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@erichkuehnhackl-stiftung.de".
+_:n3-143091 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-143092 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-143093;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@erichkuehnhackl-stiftung.de\">info@erichkuehnhackl-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@erichkuehnhackl-stiftung.de".
+_:n3-143093 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@erichkuehnhackl-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@erichkuehnhackl-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@erichkuehnhackl-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@erichkuehnhackl-stiftung.de".
+_:n3-143094 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143095;
+    rdf:_2 _:n3-143096;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.erich-kuehnhackl-stiftung.de".
+_:n3-143095 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-143096 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-143097;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.erich-kuehnhackl-stiftung.de\" target=\"_blank\">www.erich-kuehnhackl-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.erich-kuehnhackl-stiftung.de".
+_:n3-143097 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.erich-kuehnhackl-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.erich-kuehnhackl-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "www.erich-kuehnhackl-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.erich-kuehnhackl-stiftung.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-143098 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143099;
+    rdf:_2 _:n3-143100;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>089 2199980</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 089 2199980".
+_:n3-143099 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-143100 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "089 2199980";
+    <https://html.spec.whatwg.org/#innerHTML> "089 2199980";
+    <https://html.spec.whatwg.org/#innerText> "089 2199980".
+_:n3-143101 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143102;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg\" width=\"799\" height=\"306\">".
+_:n3-143102 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "306";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/erich-kuehnhackl-stiftung-logo.jpg";
+    <http://www.w3.org/1999/xhtml#width> "799".
+_:n3-143103 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-143104;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-143104 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143105;
+    rdf:_2 _:n3-143109;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-143105 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-143106;
+    rdf:_2 _:n3-143107;
+    rdf:_3 _:n3-143108;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-143106 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-143107 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-143108 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-143109 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-143110;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-143110 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-143111 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-143112 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-143113 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-143114 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/erich-kuehnhackl-stiftung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-143115 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-143116 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderprogramm der Erich Kühnhackl Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm der Erich Kühnhackl Stiftung  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm der Erich Kühnhackl Stiftung  –  Förderdatenbank".
+_:n3-143117 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-143118 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

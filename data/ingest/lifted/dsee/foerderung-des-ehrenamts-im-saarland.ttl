@@ -1,0 +1,777 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-231334 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231335;
+    rdf:_10 _:n3-231336;
+    rdf:_11 _:n3-231337;
+    rdf:_12 _:n3-231338;
+    rdf:_13 _:n3-231339;
+    rdf:_14 _:n3-231340;
+    rdf:_15 _:n3-231341;
+    rdf:_16 _:n3-231342;
+    rdf:_17 _:n3-231343;
+    rdf:_18 _:n3-231344;
+    rdf:_19 _:n3-231345;
+    rdf:_2 _:n3-231346;
+    rdf:_20 _:n3-231347;
+    rdf:_21 _:n3-231348;
+    rdf:_22 _:n3-231349;
+    rdf:_23 _:n3-231366;
+    rdf:_24 _:n3-231371;
+    rdf:_25 _:n3-231475;
+    rdf:_26 _:n3-231483;
+    rdf:_3 _:n3-231484;
+    rdf:_4 _:n3-231485;
+    rdf:_5 _:n3-231486;
+    rdf:_6 _:n3-231487;
+    rdf:_7 _:n3-231488;
+    rdf:_8 _:n3-231489;
+    rdf:_9 _:n3-231490;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-des-ehrenamts-im-saarland";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung des Ehrenamts im Saarland  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung des Ehrenamts im Saarland\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung des Ehrenamts im Saarland\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung des Ehrenamts im Saarland</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n      <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n      <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n      <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n       <br></p>\n      <p>Ziele der Förderung sind</p>\n      <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n      <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n      <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n      <p>- die Würdigung des ehrenamtlichen Engagements</p>\n      <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n       <br>\n       - Menschen mit Behinderungen,\n       <br>\n       - Familienpolitik,\n       <br>\n       - Frauenpolitik sowie Schutz von Frauen und Kindern,\n       <br>\n       - Gesundheitsförderung und Prävention,\n       <br>\n       - Kinder- und Jugendarbeit,\n       <br>\n       - Seniorenhilfe,\n       <br>\n       - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n       <br>\n       - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n      <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n       <br>\n       - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n      <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n      <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n       <br>\n       Franz-Josef-Röder-Str. 23\n       <br>\n       66119 Saarbrücken</p>\n      <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n      <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n      <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n      <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n      <p>- eine Beschreibung des Projektes und\n       <br></p>\n      <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Saarland</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kinder und Jugendliche</li>\n        <li>Migration</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>5.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. Dezember 2027</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Ja</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Mainzer Straße 34,\n        <br>\n        66111 Saarbrücken</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0681 5013097</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung des Ehrenamts im Saarland Förderung des Ehrenamts im Saarland Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097 ©2026 Impressum Datenschutzerklärung".
+_:n3-231335 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-231336 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-231337 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-231338 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-231339 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung des Ehrenamts im Saarland";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-231340 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-231341 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung des Ehrenamts im Saarland";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-231342 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-231343 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-231344 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-231345 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-231346 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-231347 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-231348 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-231349 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231350;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-231350 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231351;
+    rdf:_2 _:n3-231353;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-231351 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-231352;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-231352 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-231353 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231354;
+    rdf:_2 _:n3-231357;
+    rdf:_3 _:n3-231360;
+    rdf:_4 _:n3-231363;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-231354 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-231355;
+    rdf:_2 _:n3-231356;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231355 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-231356 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-231357 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-231358;
+    rdf:_2 _:n3-231359;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231358 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-231359 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-231360 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-231361;
+    rdf:_2 _:n3-231362;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231361 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-231362 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-231363 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-231364;
+    rdf:_2 _:n3-231365;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231364 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-231365 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-231366 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-231367;
+    rdf:_2 _:n3-231370;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-231367 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-231368;
+    rdf:_2 _:n3-231369;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-231368 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-231369 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-231370 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-231371 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-231372;
+    rdf:_2 _:n3-231377;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung des Ehrenamts im Saarland</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n     <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n     <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n     <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n      <br></p>\n     <p>Ziele der Förderung sind</p>\n     <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n     <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n     <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n     <p>- die Würdigung des ehrenamtlichen Engagements</p>\n     <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n      <br>\n      - Menschen mit Behinderungen,\n      <br>\n      - Familienpolitik,\n      <br>\n      - Frauenpolitik sowie Schutz von Frauen und Kindern,\n      <br>\n      - Gesundheitsförderung und Prävention,\n      <br>\n      - Kinder- und Jugendarbeit,\n      <br>\n      - Seniorenhilfe,\n      <br>\n      - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n      <br>\n      - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n     <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n      <br>\n      - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n     <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n     <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n      <br>\n      Franz-Josef-Röder-Str. 23\n      <br>\n      66119 Saarbrücken</p>\n     <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n     <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n     <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n     <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n     <p>- eine Beschreibung des Projektes und\n      <br></p>\n     <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Saarland</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kinder und Jugendliche</li>\n       <li>Migration</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>5.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. Dezember 2027</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Ja</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Mainzer Straße 34,\n       <br>\n       66111 Saarbrücken</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0681 5013097</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung des Ehrenamts im Saarland Förderung des Ehrenamts im Saarland Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231372 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-231373;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung des Ehrenamts im Saarland</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung des Ehrenamts im Saarland".
+_:n3-231373 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231374;
+    rdf:_2 _:n3-231375;
+    rdf:_3 _:n3-231376;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung des Ehrenamts im Saarland</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung des Ehrenamts im Saarland".
+_:n3-231374 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-231375 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-231376 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung des Ehrenamts im Saarland";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung des Ehrenamts im Saarland";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland".
+_:n3-231377 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-231378;
+    rdf:_2 _:n3-231459;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n    <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n    <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n    <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n     <br></p>\n    <p>Ziele der Förderung sind</p>\n    <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n    <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n    <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n    <p>- die Würdigung des ehrenamtlichen Engagements</p>\n    <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n     <br>\n     - Menschen mit Behinderungen,\n     <br>\n     - Familienpolitik,\n     <br>\n     - Frauenpolitik sowie Schutz von Frauen und Kindern,\n     <br>\n     - Gesundheitsförderung und Prävention,\n     <br>\n     - Kinder- und Jugendarbeit,\n     <br>\n     - Seniorenhilfe,\n     <br>\n     - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n     <br>\n     - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n    <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n     <br>\n     - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n    <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n    <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n     <br>\n     Franz-Josef-Röder-Str. 23\n     <br>\n     66119 Saarbrücken</p>\n    <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n    <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n    <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n    <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n    <p>- eine Beschreibung des Projektes und\n     <br></p>\n    <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Saarland</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kinder und Jugendliche</li>\n      <li>Migration</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>5.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. Dezember 2027</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Ja</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Mainzer Straße 34,\n      <br>\n      66111 Saarbrücken</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0681 5013097</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231378 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231379;
+    rdf:_2 _:n3-231428;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n   <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n   <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n   <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n    <br></p>\n   <p>Ziele der Förderung sind</p>\n   <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n   <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n   <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n   <p>- die Würdigung des ehrenamtlichen Engagements</p>\n   <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n    <br>\n    - Menschen mit Behinderungen,\n    <br>\n    - Familienpolitik,\n    <br>\n    - Frauenpolitik sowie Schutz von Frauen und Kindern,\n    <br>\n    - Gesundheitsförderung und Prävention,\n    <br>\n    - Kinder- und Jugendarbeit,\n    <br>\n    - Seniorenhilfe,\n    <br>\n    - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n    <br>\n    - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n   <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n    <br>\n    - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n   <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n   <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n    <br>\n    Franz-Josef-Röder-Str. 23\n    <br>\n    66119 Saarbrücken</p>\n   <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n   <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n   <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n   <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n   <p>- eine Beschreibung des Projektes und\n    <br></p>\n   <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Saarland</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kinder und Jugendliche</li>\n     <li>Migration</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>5.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. Dezember 2027</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Ja</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-231379 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231380;
+    rdf:_2 _:n3-231382;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n  <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n  <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n  <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n   <br></p>\n  <p>Ziele der Förderung sind</p>\n  <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n  <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n  <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n  <p>- die Würdigung des ehrenamtlichen Engagements</p>\n  <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n   <br>\n   - Menschen mit Behinderungen,\n   <br>\n   - Familienpolitik,\n   <br>\n   - Frauenpolitik sowie Schutz von Frauen und Kindern,\n   <br>\n   - Gesundheitsförderung und Prävention,\n   <br>\n   - Kinder- und Jugendarbeit,\n   <br>\n   - Seniorenhilfe,\n   <br>\n   - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n   <br>\n   - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n  <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n   <br>\n   - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n  <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n  <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n   <br>\n   Franz-Josef-Röder-Str. 23\n   <br>\n   66119 Saarbrücken</p>\n  <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n  <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n  <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n  <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n  <p>- eine Beschreibung des Projektes und\n   <br></p>\n  <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung".
+_:n3-231380 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-231381;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung des Ehrenamts im Saarland</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland".
+_:n3-231381 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung des Ehrenamts im Saarland";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung des Ehrenamts im Saarland";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland".
+_:n3-231382 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231383;
+    rdf:_2 _:n3-231387;
+    rdf:_3 _:n3-231409;
+    rdf:_4 _:n3-231423;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n <p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n <p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n <p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n  <br></p>\n <p>Ziele der Förderung sind</p>\n <p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n <p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n <p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n <p>- die Würdigung des ehrenamtlichen Engagements</p>\n <p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n  <br>\n  - Menschen mit Behinderungen,\n  <br>\n  - Familienpolitik,\n  <br>\n  - Frauenpolitik sowie Schutz von Frauen und Kindern,\n  <br>\n  - Gesundheitsförderung und Prävention,\n  <br>\n  - Kinder- und Jugendarbeit,\n  <br>\n  - Seniorenhilfe,\n  <br>\n  - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n  <br>\n  - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n <p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n  <br>\n  - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n <p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n <p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n  <br>\n  Franz-Josef-Röder-Str. 23\n  <br>\n  66119 Saarbrücken</p>\n <p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n <p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n <p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n <p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n <p>- eine Beschreibung des Projektes und\n  <br></p>\n <p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst. Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum. Weitere Informationen Link zur Förderung".
+_:n3-231383 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231384;
+    rdf:_2 _:n3-231385;
+    rdf:_3 _:n3-231386;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.</p>\n<p>Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.</p>\n<p>Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser. Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort. Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.".
+_:n3-231384 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamtliche tragen dazu bei, ihren Mitmenschen in den unterschiedlichsten Lebenssituationen beizustehen und bereichern damit das soziale Gefüge und den Zusammenhalt unserer Gesellschaft auf wunderbare Weise. Ihr selbstloser Einsatz macht das Leben anderer Menschen leichter und in vielerlei Hinsichten auch besser.".
+_:n3-231385 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.";
+    <https://html.spec.whatwg.org/#innerHTML> "Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.";
+    <https://html.spec.whatwg.org/#innerText> "Um dem vielfältigen ehrenamtlichen Engagement für Migrantinnen und Migranten in besonderer Weise Rechnung zu tragen, fördert das Ministerium für Arbeit, Soziales, Frauen und Gesundheit die Unterstützung, Betreuung und Integration von Migrantinnen und Migranten mit dem Ziel der Verbesserung ihrer gesellschaftlichen Teilhabechancen und des Zusammenlebens vor Ort.".
+_:n3-231386 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.";
+    <https://html.spec.whatwg.org/#innerText> "Gleichzeitig wird das Ministerium für Arbeit, Soziales, Frauen und Gesundheit auch weiterhin das ehrenamtliche Engagement in sozialen Projekten fördern. Hierzu wurde die bisherige Förderrichtlinie unter Berücksichtigung der über mehrere Jahre gesammelten Erfahrungen in der Förderpraxis angepasst.".
+_:n3-231387 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231388;
+    rdf:_10 _:n3-231389;
+    rdf:_11 _:n3-231391;
+    rdf:_2 _:n3-231392;
+    rdf:_3 _:n3-231393;
+    rdf:_4 _:n3-231395;
+    rdf:_5 _:n3-231396;
+    rdf:_6 _:n3-231397;
+    rdf:_7 _:n3-231398;
+    rdf:_8 _:n3-231399;
+    rdf:_9 _:n3-231400;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).</p>\n<p>Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n <br></p>\n<p>Ziele der Förderung sind</p>\n<p>- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements</p>\n<p>- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen</p>\n<p>- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie</p>\n<p>- die Würdigung des ehrenamtlichen Engagements</p>\n<p>Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n <br>\n - Menschen mit Behinderungen,\n <br>\n - Familienpolitik,\n <br>\n - Frauenpolitik sowie Schutz von Frauen und Kindern,\n <br>\n - Gesundheitsförderung und Prävention,\n <br>\n - Kinder- und Jugendarbeit,\n <br>\n - Seniorenhilfe,\n <br>\n - Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n <br>\n - sozial benachteiligte Menschen und gegen soziale Ausgrenzung</p>\n<p>Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n <br>\n - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.</p>\n<p>Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie). Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland. Ziele der Förderung sind - die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements - die Unterstützung und Qualifikation ehrenamtlich tätiger Personen - der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie - die Würdigung des ehrenamtlichen Engagements Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt. Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt".
+_:n3-231388 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-231389 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.";
+    rdf:_2 _:n3-231390;
+    rdf:_3 "- Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.";
+    <https://html.spec.whatwg.org/#innerHTML> "Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen.\n<br>\n- Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für&nbsp;ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen&nbsp;Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden.&nbsp;Der rechtliche&nbsp;Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.";
+    <https://html.spec.whatwg.org/#innerText> "Zuwendungsempfänger sind juristische Personen des Privatrechts (z.B. rechtsfähige Vereine, Verbände und Institutionen) sowie öffentlich-rechtliche Religionsgemeinschaften und ihre Unterorganisationen. - Sofern Städte und Gemeinden Anträge für ehrenamtlich Tätige in ihrem Gemeindebezirk abwickeln oder natürliche Personen des Privatrechts Anträge für ehrenamtliche Tätigkeiten abwickeln, die offensichtlich einer gemeinnützigen Gruppierung / einem gemeinnützigen Träger gemäß dieser Richtlinie zuzuordnen sind, kann die Förderung auch diesen ausgezahlt werden. Der rechtliche Status des Zuwendungsempfängers gemäß dieser Richtlinie bleibt davon unberührt.".
+_:n3-231390 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231391 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme&nbsp;von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt";
+    <https://html.spec.whatwg.org/#innerText> "Die Höhe der Förderung beträgt für jedes Projekt maximal 5.000 €. Die Übernahme von etwaigen Bewirtungskosten im Rahmen von Veranstaltungen ist auf 15 € pro Person beschränkt".
+_:n3-231392 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).";
+    <https://html.spec.whatwg.org/#innerHTML> "Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).";
+    <https://html.spec.whatwg.org/#innerText> "Gegenstand der Förderung ist die Durchführung von Projekten, die durch ehrenamtliches Engagement realisiert werden und die keine wirtschaftlichen, sondern überwiegend gemeinnützige Zwecke verfolgen. Darüber hinaus kann auch das ehrenamtliche Engagement in Projekten gefördert werden, die der Verbesserung der Lebenssituation von hilfs- und unterstützungsbedürftigen Menschen im Saarland dienen sowie die ehrenamtliche Begleitung und Betreuung von Migrantinnen und Migranten im Saarland (s. entsprechende Förderrichtlinie).".
+_:n3-231393 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.";
+    rdf:_2 _:n3-231394;
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden nach Maßgabe der Nummern 4 und 5 Sachausgaben für die Erhaltung oder den Aufbau solcher Projekte im Saarland.".
+_:n3-231394 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231395 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ziele der Förderung sind";
+    <https://html.spec.whatwg.org/#innerHTML> "Ziele der Förderung sind";
+    <https://html.spec.whatwg.org/#innerText> "Ziele der Förderung sind".
+_:n3-231396 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements";
+    <https://html.spec.whatwg.org/#innerHTML> "- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements";
+    <https://html.spec.whatwg.org/#innerText> "- die Weiterentwicklung und der Erhalt des ehrenamtlichen Engagements".
+_:n3-231397 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen";
+    <https://html.spec.whatwg.org/#innerHTML> "- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen";
+    <https://html.spec.whatwg.org/#innerText> "- die Unterstützung und Qualifikation ehrenamtlich tätiger Personen".
+_:n3-231398 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie";
+    <https://html.spec.whatwg.org/#innerHTML> "- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie";
+    <https://html.spec.whatwg.org/#innerText> "- der Auf- und Ausbau von ehrenamtlichen Netzwerken sowie".
+_:n3-231399 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- die Würdigung des ehrenamtlichen Engagements";
+    <https://html.spec.whatwg.org/#innerHTML> "- die Würdigung des ehrenamtlichen Engagements";
+    <https://html.spec.whatwg.org/#innerText> "- die Würdigung des ehrenamtlichen Engagements".
+_:n3-231400 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen";
+    rdf:_10 _:n3-231401;
+    rdf:_11 "- Kinder- und Jugendarbeit,";
+    rdf:_12 _:n3-231402;
+    rdf:_13 "- Seniorenhilfe,";
+    rdf:_14 _:n3-231403;
+    rdf:_15 "- Betreuung und Begleitung von Schwerstkranken und Sterbenden,";
+    rdf:_16 _:n3-231404;
+    rdf:_17 "- sozial benachteiligte Menschen und gegen soziale Ausgrenzung";
+    rdf:_2 _:n3-231405;
+    rdf:_3 "- Menschen mit Behinderungen,";
+    rdf:_4 _:n3-231406;
+    rdf:_5 "- Familienpolitik,";
+    rdf:_6 _:n3-231407;
+    rdf:_7 "- Frauenpolitik sowie Schutz von Frauen und Kindern,";
+    rdf:_8 _:n3-231408;
+    rdf:_9 "- Gesundheitsförderung und Prävention,";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen\n<br>\n- Menschen mit Behinderungen,\n<br>\n- Familienpolitik,\n<br>\n- Frauenpolitik sowie Schutz von Frauen und Kindern,\n<br>\n- Gesundheitsförderung und Prävention,\n<br>\n- Kinder- und Jugendarbeit,\n<br>\n- Seniorenhilfe,\n<br>\n- Betreuung und Begleitung von Schwerstkranken und Sterbenden,\n<br>\n- sozial benachteiligte Menschen und gegen soziale Ausgrenzung";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderschwerpunkte liegen insbesondere in ehrenamtlichen Projekten in den Themenbereichen - Menschen mit Behinderungen, - Familienpolitik, - Frauenpolitik sowie Schutz von Frauen und Kindern, - Gesundheitsförderung und Prävention, - Kinder- und Jugendarbeit, - Seniorenhilfe, - Betreuung und Begleitung von Schwerstkranken und Sterbenden, - sozial benachteiligte Menschen und gegen soziale Ausgrenzung".
+_:n3-231401 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231402 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231403 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231404 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231405 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231406 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231407 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231408 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231409 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231410;
+    rdf:_2 _:n3-231411;
+    rdf:_3 _:n3-231412;
+    rdf:_4 _:n3-231415;
+    rdf:_5 _:n3-231417;
+    rdf:_6 _:n3-231418;
+    rdf:_7 _:n3-231419;
+    rdf:_8 _:n3-231420;
+    rdf:_9 _:n3-231422;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;</p>\n<p>Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n <br>\n Franz-Josef-Röder-Str. 23\n <br>\n 66119 Saarbrücken</p>\n<p>zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.</p>\n<p>Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.</p>\n<p>Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:</p>\n<p>- die genaue Bezeichnung des Maßnahmeträgers,</p>\n<p>- eine Beschreibung des Projektes und\n <br></p>\n<p>- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Anträge sind rechtzeitig vor Maßnahmebeginn beim Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich. Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags. Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten: - die genaue Bezeichnung des Maßnahmeträgers, - eine Beschreibung des Projektes und - ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.".
+_:n3-231410 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-231411 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge sind rechtzeitig vor Maßnahmebeginn beim&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Anträge sind rechtzeitig vor Maßnahmebeginn beim".
+_:n3-231412 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)";
+    rdf:_2 _:n3-231413;
+    rdf:_3 "Franz-Josef-Röder-Str. 23";
+    rdf:_4 _:n3-231414;
+    rdf:_5 "66119 Saarbrücken";
+    <https://html.spec.whatwg.org/#innerHTML> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG)\n<br>\nFranz-Josef-Röder-Str. 23\n<br>\n66119 Saarbrücken";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit (MASFG) Franz-Josef-Röder-Str. 23 66119 Saarbrücken".
+_:n3-231413 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231414 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231415 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "zu stellen; Antragsformulare sind beim MASFG oder online unter ";
+    rdf:_2 _:n3-231416;
+    rdf:_3 " erhältlich.";
+    <https://html.spec.whatwg.org/#innerHTML> "zu stellen; Antragsformulare sind beim MASFG oder online unter <a href=\"http://www.saarland.de/ehrenamt-foerderung\">www.saarland.de/ehrenamt-foerderung</a> erhältlich.";
+    <https://html.spec.whatwg.org/#innerText> "zu stellen; Antragsformulare sind beim MASFG oder online unter www.saarland.de/ehrenamt-foerderung erhältlich.".
+_:n3-231416 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.saarland.de/ehrenamt-foerderung";
+    <https://html.spec.whatwg.org/#innerHTML> "www.saarland.de/ehrenamt-foerderung";
+    <https://html.spec.whatwg.org/#innerText> "www.saarland.de/ehrenamt-foerderung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.saarland.de/ehrenamt-foerderung".
+_:n3-231417 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.";
+    <https://html.spec.whatwg.org/#innerHTML> "Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.";
+    <https://html.spec.whatwg.org/#innerText> "Auf Antrag kann vorzeitiger Maßnahmebeginn bewilligt werden. Die positive Entscheidung über den vorzeitigen Maßnahmebeginn beinhaltet jedoch noch keine Entscheidung über die Bewilligung des Förderantrags.".
+_:n3-231418 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:";
+    <https://html.spec.whatwg.org/#innerText> "Die Zuwendungsanträge müssen mindestens folgende Angaben enthalten:".
+_:n3-231419 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- die genaue Bezeichnung des Maßnahmeträgers,";
+    <https://html.spec.whatwg.org/#innerHTML> "- die genaue Bezeichnung des Maßnahmeträgers,";
+    <https://html.spec.whatwg.org/#innerText> "- die genaue Bezeichnung des Maßnahmeträgers,".
+_:n3-231420 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- eine Beschreibung des Projektes und";
+    rdf:_2 _:n3-231421;
+    <https://html.spec.whatwg.org/#innerHTML> "- eine Beschreibung des Projektes und\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "- eine Beschreibung des Projektes und".
+_:n3-231421 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231422 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.";
+    <https://html.spec.whatwg.org/#innerHTML> "- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.";
+    <https://html.spec.whatwg.org/#innerText> "- ein Kosten- und Finanzierungsplan für den gesamten beantragten Förderzeitraum.".
+_:n3-231423 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231424;
+    rdf:_2 _:n3-231425;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Förderung".
+_:n3-231424 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-231425 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-231426;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-231426 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-231427;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-231427 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.saarland.de/masfg/DE/portale/sozialesleben/leistungensoziales/foerderrichtlinieehrenamt";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231428 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-231429;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Saarland</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kinder und Jugendliche</li>\n    <li>Migration</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>5.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. Dezember 2027</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Ja</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-231429 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231430;
+    rdf:_2 _:n3-231435;
+    rdf:_3 _:n3-231442;
+    rdf:_4 _:n3-231448;
+    rdf:_5 _:n3-231451;
+    rdf:_6 _:n3-231456;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Saarland</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kinder und Jugendliche</li>\n   <li>Migration</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>5.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. Dezember 2027</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Ja</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Saarland Engagementbereiche: Kinder und Jugendliche Migration Soziales Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 5.000 € Bewerbungsfrist: 31. Dezember 2027 Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-231430 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231431;
+    rdf:_2 _:n3-231432;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Saarland</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Saarland".
+_:n3-231431 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-231432 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231433;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Saarland</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Saarland".
+_:n3-231433 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-231434;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Saarland</li>";
+    <https://html.spec.whatwg.org/#innerText> "Saarland".
+_:n3-231434 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Saarland";
+    <https://html.spec.whatwg.org/#innerHTML> "Saarland";
+    <https://html.spec.whatwg.org/#innerText> "Saarland".
+_:n3-231435 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231436;
+    rdf:_2 _:n3-231437;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kinder und Jugendliche</li>\n  <li>Migration</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kinder und Jugendliche Migration Soziales".
+_:n3-231436 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-231437 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231438;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kinder und Jugendliche</li>\n <li>Migration</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche Migration Soziales".
+_:n3-231438 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-231439;
+    rdf:_2 _:n3-231440;
+    rdf:_3 _:n3-231441;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kinder und Jugendliche</li>\n<li>Migration</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche Migration Soziales".
+_:n3-231439 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-231440 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-231441 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-231442 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231443;
+    rdf:_2 _:n3-231444;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-231443 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-231444 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231445;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-231445 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-231446;
+    rdf:_2 _:n3-231447;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-231446 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-231447 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-231448 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231449;
+    rdf:_2 _:n3-231450;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>5.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 5.000 €".
+_:n3-231449 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-231450 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "5.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "5.000 €";
+    <https://html.spec.whatwg.org/#innerText> "5.000 €".
+_:n3-231451 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231452;
+    rdf:_2 _:n3-231453;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. Dezember 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. Dezember 2027".
+_:n3-231452 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-231453 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231454;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. Dezember 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2027".
+_:n3-231454 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-231455;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. Dezember 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2027".
+_:n3-231455 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Dezember 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Dezember 2027";
+    <https://html.spec.whatwg.org/#innerText> "31. Dezember 2027".
+_:n3-231456 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231457;
+    rdf:_2 _:n3-231458;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-231457 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-231458 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-231459 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231460;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Mainzer Straße 34,\n     <br>\n     66111 Saarbrücken</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0681 5013097</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231460 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231461;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Mainzer Straße 34,\n    <br>\n    66111 Saarbrücken</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0681 5013097</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231461 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231462;
+    rdf:_2 _:n3-231464;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Mainzer Straße 34,\n   <br>\n   66111 Saarbrücken</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0681 5013097</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231462 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-231463;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland\" class=\"link\">Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland</a>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland".
+_:n3-231463 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Soziales, Frauen und Gesundheit Saarland";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/36977-ministerium-fuer-arbeit-soziales-frauen-und-gesundheit-saarland".
+_:n3-231464 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231465;
+    rdf:_2 _:n3-231468;
+    rdf:_3 _:n3-231472;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Mainzer Straße 34,\n  <br>\n  66111 Saarbrücken</p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0681 5013097</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Mainzer Straße 34, 66111 Saarbrücken Webseite www.saarland.de/masfg/DE/home Telefon 0681 5013097".
+_:n3-231465 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231466;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Mainzer Straße 34,\n <br>\n 66111 Saarbrücken</p>";
+    <https://html.spec.whatwg.org/#innerText> "Mainzer Straße 34, 66111 Saarbrücken".
+_:n3-231466 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mainzer Straße 34,";
+    rdf:_2 _:n3-231467;
+    rdf:_3 "66111 Saarbrücken";
+    <https://html.spec.whatwg.org/#innerHTML> "Mainzer Straße 34,\n<br>\n66111 Saarbrücken";
+    <https://html.spec.whatwg.org/#innerText> "Mainzer Straße 34, 66111 Saarbrücken".
+_:n3-231467 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-231468 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231469;
+    rdf:_2 _:n3-231470;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.saarland.de/masfg/DE/home".
+_:n3-231469 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-231470 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-231471;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.saarland.de/masfg/DE/home\" target=\"_blank\">www.saarland.de/masfg/DE/home</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.saarland.de/masfg/DE/home".
+_:n3-231471 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.saarland.de/masfg/DE/home";
+    <https://html.spec.whatwg.org/#innerHTML> "www.saarland.de/masfg/DE/home";
+    <https://html.spec.whatwg.org/#innerText> "www.saarland.de/masfg/DE/home";
+    <http://www.w3.org/1999/xhtml#href> "https://www.saarland.de/masfg/DE/home";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-231472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231473;
+    rdf:_2 _:n3-231474;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0681 5013097</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0681 5013097".
+_:n3-231473 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-231474 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0681 5013097";
+    <https://html.spec.whatwg.org/#innerHTML> "0681 5013097";
+    <https://html.spec.whatwg.org/#innerText> "0681 5013097".
+_:n3-231475 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-231476;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-231476 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231477;
+    rdf:_2 _:n3-231481;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-231477 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-231478;
+    rdf:_2 _:n3-231479;
+    rdf:_3 _:n3-231480;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-231478 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-231479 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-231480 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-231481 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-231482;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-231482 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-231483 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-231484 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-231485 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-231486 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-des-ehrenamts-im-saarland";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-231487 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-231488 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung des Ehrenamts im Saarland  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung des Ehrenamts im Saarland  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung des Ehrenamts im Saarland  –  Förderdatenbank".
+_:n3-231489 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-231490 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

@@ -1,0 +1,824 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-262045 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262046;
+    rdf:_10 _:n3-262047;
+    rdf:_11 _:n3-262048;
+    rdf:_12 _:n3-262049;
+    rdf:_13 _:n3-262050;
+    rdf:_14 _:n3-262051;
+    rdf:_15 _:n3-262052;
+    rdf:_16 _:n3-262053;
+    rdf:_17 _:n3-262054;
+    rdf:_18 _:n3-262055;
+    rdf:_19 _:n3-262056;
+    rdf:_2 _:n3-262057;
+    rdf:_20 _:n3-262058;
+    rdf:_21 _:n3-262059;
+    rdf:_22 _:n3-262060;
+    rdf:_23 _:n3-262077;
+    rdf:_24 _:n3-262082;
+    rdf:_25 _:n3-262192;
+    rdf:_26 _:n3-262200;
+    rdf:_3 _:n3-262201;
+    rdf:_4 _:n3-262202;
+    rdf:_5 _:n3-262203;
+    rdf:_6 _:n3-262204;
+    rdf:_7 _:n3-262205;
+    rdf:_8 _:n3-262206;
+    rdf:_9 _:n3-262207;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-fuer-sportstaettenbau-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung für Sportstättenbau  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung für Sportstättenbau\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung für Sportstättenbau\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung für Sportstättenbau</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n      <p>Fördermittel können gewährt werden für:</p>\n      <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n      <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n      <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n      <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n      <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n      <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n      <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n      <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n      <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n      <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n        <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <ul>\n       <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n       <li>Die Zuwendung wird als Projektförderung ausgereicht.\n        <br></li>\n       <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n        <br></li>\n       <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n       <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n        <br></li>\n       <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n        <br>\n        Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n      <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n      <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n      <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n      <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n       <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Brandenburg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Sport und Bewegung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Bau- und Investkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>100.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>1. Juli 2027</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Olympischer Weg 7,\n        <br>\n        14471 Potsdam</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0331 58567100</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung für Sportstättenbau Förderung für Sportstättenbau Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100 ©2026 Impressum Datenschutzerklärung".
+_:n3-262046 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-262047 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-262048 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-262049 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-262050 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung für Sportstättenbau";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-262051 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-262052 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung für Sportstättenbau";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-262053 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-262054 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-262055 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-262056 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-262057 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-262058 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-262059 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-262060 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262061;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-262061 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262062;
+    rdf:_2 _:n3-262064;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-262062 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-262063;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-262063 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-262064 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262065;
+    rdf:_2 _:n3-262068;
+    rdf:_3 _:n3-262071;
+    rdf:_4 _:n3-262074;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-262065 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-262066;
+    rdf:_2 _:n3-262067;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262066 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-262067 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-262068 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-262069;
+    rdf:_2 _:n3-262070;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262069 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-262070 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-262071 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-262072;
+    rdf:_2 _:n3-262073;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262072 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-262073 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-262074 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-262075;
+    rdf:_2 _:n3-262076;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262075 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-262076 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-262077 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-262078;
+    rdf:_2 _:n3-262081;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-262078 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-262079;
+    rdf:_2 _:n3-262080;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-262079 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-262080 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-262081 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-262082 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-262083;
+    rdf:_2 _:n3-262088;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung für Sportstättenbau</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n     <p>Fördermittel können gewährt werden für:</p>\n     <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n     <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n     <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n     <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n     <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n     <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n     <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n     <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n     <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n     <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n       <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <ul>\n      <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n      <li>Die Zuwendung wird als Projektförderung ausgereicht.\n       <br></li>\n      <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n       <br></li>\n      <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n      <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n       <br></li>\n      <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n       <br>\n       Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n     <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n     <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n     <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n     <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n      <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Brandenburg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Sport und Bewegung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Bau- und Investkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>100.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>1. Juli 2027</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Olympischer Weg 7,\n       <br>\n       14471 Potsdam</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0331 58567100</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung für Sportstättenbau Förderung für Sportstättenbau Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262083 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-262084;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung für Sportstättenbau</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung für Sportstättenbau".
+_:n3-262084 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262085;
+    rdf:_2 _:n3-262086;
+    rdf:_3 _:n3-262087;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung für Sportstättenbau</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung für Sportstättenbau".
+_:n3-262085 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-262086 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-262087 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung für Sportstättenbau";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung für Sportstättenbau";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau".
+_:n3-262088 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-262089;
+    rdf:_2 _:n3-262172;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n    <p>Fördermittel können gewährt werden für:</p>\n    <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n    <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n    <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n    <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n    <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n    <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n    <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n    <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n    <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n    <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n      <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <ul>\n     <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n     <li>Die Zuwendung wird als Projektförderung ausgereicht.\n      <br></li>\n     <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n      <br></li>\n     <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n     <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n      <br></li>\n     <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n      <br>\n      Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n    <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n    <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n    <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n    <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n     <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Brandenburg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Sport und Bewegung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Bau- und Investkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>100.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>1. Juli 2027</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Olympischer Weg 7,\n      <br>\n      14471 Potsdam</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0331 58567100</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262089 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262090;
+    rdf:_2 _:n3-262139;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n   <p>Fördermittel können gewährt werden für:</p>\n   <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n   <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n   <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n   <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n   <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n   <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n   <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n   <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n   <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n   <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n     <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <ul>\n    <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n    <li>Die Zuwendung wird als Projektförderung ausgereicht.\n     <br></li>\n    <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n     <br></li>\n    <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n    <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n     <br></li>\n    <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n     <br>\n     Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n   <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n   <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n   <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n   <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n    <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Brandenburg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Sport und Bewegung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Bau- und Investkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>100.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>1. Juli 2027</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-262090 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262091;
+    rdf:_2 _:n3-262093;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n  <p>Fördermittel können gewährt werden für:</p>\n  <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n  <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n  <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n  <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n  <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n  <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n  <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n  <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n  <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n  <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n    <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <ul>\n   <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n   <li>Die Zuwendung wird als Projektförderung ausgereicht.\n    <br></li>\n   <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n    <br></li>\n   <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n   <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n    <br></li>\n   <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n    <br>\n    Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n  <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n  <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n  <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n  <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n   <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung".
+_:n3-262091 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-262092;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung für Sportstättenbau</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau".
+_:n3-262092 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung für Sportstättenbau";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung für Sportstättenbau";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau".
+_:n3-262093 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262094;
+    rdf:_2 _:n3-262109;
+    rdf:_3 _:n3-262122;
+    rdf:_4 _:n3-262132;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n <p>Fördermittel können gewährt werden für:</p>\n <p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n <p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n <p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n <p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n <p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n <p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n <p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n <p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n <p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n <p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n   <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <ul>\n  <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n  <li>Die Zuwendung wird als Projektförderung ausgereicht.\n   <br></li>\n  <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n   <br></li>\n  <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n  <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n   <br></li>\n  <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n   <br>\n   Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n <p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n <p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n <p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n <p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n  <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen. Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB) Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag. Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung".
+_:n3-262094 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262095;
+    rdf:_10 _:n3-262096;
+    rdf:_11 _:n3-262097;
+    rdf:_12 _:n3-262098;
+    rdf:_2 _:n3-262101;
+    rdf:_3 _:n3-262102;
+    rdf:_4 _:n3-262103;
+    rdf:_5 _:n3-262104;
+    rdf:_6 _:n3-262105;
+    rdf:_7 _:n3-262106;
+    rdf:_8 _:n3-262107;
+    rdf:_9 _:n3-262108;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.</p>\n<p>Fördermittel können gewährt werden für:</p>\n<p>- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;</p>\n<p>- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;</p>\n<p>- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,</p>\n<p>Sanitäreinrichtungen, Fenster, Wärmedämmungen;</p>\n<p>- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;</p>\n<p>- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;</p>\n<p>- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;</p>\n<p>- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;</p>\n<p>- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.</p>\n<p><strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n  <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong></p>";
+    <https://html.spec.whatwg.org/#innerText> "Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen. Fördermittel können gewährt werden für: - Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden; - Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen; - Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen, Sanitäreinrichtungen, Fenster, Wärmedämmungen; - Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben; - Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes; - Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen; - Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen; - Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten. Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen.".
+_:n3-262095 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.";
+    <https://html.spec.whatwg.org/#innerText> "Gegenstand der Förderung ist die Bezuschussung der Ausgaben für Baumaßnahmen an vereinseigenen bzw. gepachteten Sportanlagen und Vereinsräumen.".
+_:n3-262096 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;";
+    <https://html.spec.whatwg.org/#innerText> "- Maßnahmen zur Herstellung der barrierefreien Zugänglichkeit von Gebäuden und Anlagen sowie Behindertenparkplätzen mithilfe von Rampen und Wegen;".
+_:n3-262097 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.";
+    <https://html.spec.whatwg.org/#innerHTML> "- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.";
+    <https://html.spec.whatwg.org/#innerText> "- Planungsleistungen sowie Grund- und Erstausstattungen im Zusammenhang mit einer beabsichtigten Baumaßnahme im Rahmen der Gesamtkosten.".
+_:n3-262098 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-262099;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n <br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen.".
+_:n3-262099 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den ";
+    rdf:_2 _:n3-262100;
+    rdf:_3 "Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den \n<br>Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen&nbsp;zugelassen.";
+    <https://html.spec.whatwg.org/#innerText> "Sportstätten sollen in der Regel in Abmessungen, Gliederung und Ausstattungen den Wettkampfbestimmungen der Sportfachverbände sowie den DIN- und Europanormen und sonstigen Richtlinien für den Sportstättenbau entsprechen. In besonders begründeten Fällen sind Ausnahmen zugelassen.".
+_:n3-262100 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262101 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Fördermittel können gewährt werden für:";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittel können gewährt werden für:";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel können gewährt werden für:".
+_:n3-262102 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;";
+    <https://html.spec.whatwg.org/#innerText> "- Energiesparende Maßnahmen an Sportanlagen und sportgenutzten Gebäuden;".
+_:n3-262103 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;";
+    <https://html.spec.whatwg.org/#innerText> "- Instandsetzungen, die der Wiederherstellung und der Verbesserung der Sportnutzung der Gebäude und Anlagen dienen oder die Ausübung einer bestimmten Sportart erst ermöglichen;".
+_:n3-262104 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,";
+    <https://html.spec.whatwg.org/#innerHTML> "- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,";
+    <https://html.spec.whatwg.org/#innerText> "- Modernisierungen und Umbauten bestehender Gebäude und Anlagen, wie u.a. neue Heizungsanlagen,".
+_:n3-262105 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sanitäreinrichtungen, Fenster, Wärmedämmungen;";
+    <https://html.spec.whatwg.org/#innerHTML> "Sanitäreinrichtungen, Fenster, Wärmedämmungen;";
+    <https://html.spec.whatwg.org/#innerText> "Sanitäreinrichtungen, Fenster, Wärmedämmungen;".
+_:n3-262106 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;";
+    <https://html.spec.whatwg.org/#innerText> "- Neu- und Erweiterungsbauten bei nachgewiesenem Bedarf, wobei Um- und Erweiterungsvorhaben (z.B. Aufstockung oder Anbauten) den Vorrang vor Neubauten haben;".
+_:n3-262107 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;";
+    <https://html.spec.whatwg.org/#innerText> "- Maßnahmen an Sportanlagen und ergänzenden Einrichtungen für die Einhaltung und Verbesserung des Umwelt- und Naturschutzes;".
+_:n3-262108 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;";
+    <https://html.spec.whatwg.org/#innerHTML> "- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;";
+    <https://html.spec.whatwg.org/#innerText> "- Maßnahmen für den barrierefreien Ausbau von Sportanlagen und ergänzenden Einrichtungen;".
+_:n3-262109 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262110;
+    rdf:_2 _:n3-262111;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<ul>\n <li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n <li>Die Zuwendung wird als Projektförderung ausgereicht.\n  <br></li>\n <li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n  <br></li>\n <li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n <li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n  <br></li>\n <li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n  <br>\n  Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)".
+_:n3-262110 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-262111 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262112;
+    rdf:_2 _:n3-262113;
+    rdf:_3 _:n3-262115;
+    rdf:_4 _:n3-262117;
+    rdf:_5 _:n3-262118;
+    rdf:_6 _:n3-262120;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.</li>\n<li>Die Zuwendung wird als Projektförderung ausgereicht.\n <br></li>\n<li>Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n <br></li>\n<li>Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.</li>\n<li>Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n <br></li>\n<li>Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n <br>\n Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)</li>";
+    <https://html.spec.whatwg.org/#innerText> "Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind. Die Zuwendung wird als Projektförderung ausgereicht. Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist. Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung. Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt. Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)".
+_:n3-262112 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.";
+    <https://html.spec.whatwg.org/#innerHTML> "Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.";
+    <https://html.spec.whatwg.org/#innerText> "Zuwendungsempfänger sind Sportvereine, die Mitglied im Landessportbund Brandenburg e.V. (LSB) sind.".
+_:n3-262113 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Zuwendung wird als Projektförderung ausgereicht.";
+    rdf:_2 _:n3-262114;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Zuwendung wird als Projektförderung ausgereicht.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Zuwendung wird als Projektförderung ausgereicht.".
+_:n3-262114 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262115 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.";
+    rdf:_2 _:n3-262116;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Zuwendung wird in Form einer Festbetragsfinanzierung gewährt, die auf maximal 50.000 EUR begrenzt ist.".
+_:n3-262116 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262117 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die&nbsp;Zuwendung.";
+    <https://html.spec.whatwg.org/#innerText> "Die zuwendungsfähigen Gesamtkosten sind grundsätzlich auf maximal 100.000 EUR begrenzt. Die vom LSB vertraglich anerkannten zuwendungsfähigen Gesamtkosten sind die Bemessungsgrundlage für die Zuwendung.".
+_:n3-262118 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.";
+    rdf:_2 _:n3-262119;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Zuwendung beträgt 80 % der vertraglich anerkannten zuwendungsfähigen Gesamtausgaben. Sie wird je zur Hälfte als ein nicht rückzuzahlender Zuschuss und einem Darlehen gewährt.".
+_:n3-262119 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262120 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.";
+    rdf:_2 _:n3-262121;
+    rdf:_3 "Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)";
+    <https://html.spec.whatwg.org/#innerHTML> "Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren.\n<br>\nNach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu&nbsp;zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)";
+    <https://html.spec.whatwg.org/#innerText> "Darlehen werden höchstens 10 Jahre zinslos erteilt und haben grundsätzlich eine Laufzeit von 10 Jahren. Nach Ablauf von 10 Jahren sind Zinsen entsprechend den jeweils gültigen gesetzlichen Bestimmungen zu zahlen (zurzeit jährlich i. H. v. 5 v.H. über dem Basiszinssatz nach § 247 BGB)".
+_:n3-262121 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262122 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262123;
+    rdf:_2 _:n3-262124;
+    rdf:_3 _:n3-262126;
+    rdf:_4 _:n3-262127;
+    rdf:_5 _:n3-262129;
+    rdf:_6 _:n3-262130;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;</p>\n<p>Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.</p>\n<p>Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.</p>\n<p>Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.</p>\n<p>Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr. Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen. Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen. Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste. Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag.".
+_:n3-262123 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-262124 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) ";
+    rdf:_2 _:n3-262125;
+    rdf:_3 " für das Folgejahr.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) <strong>bis zum 01.07.</strong> für das Folgejahr.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragstellung erfolgt durch die Vereine an den zuständigen Kreissportbund/Stadtsportbund durch einen VORANTRAG (Formblatt) bis zum 01.07. für das Folgejahr.".
+_:n3-262125 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 01.07.";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 01.07.";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 01.07.".
+_:n3-262126 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.";
+    <https://html.spec.whatwg.org/#innerText> "Die KSB/SSB erstellen eine Prioritätenliste, dabei ist mit den jeweiligen Kreis-/ Stadtverwaltungen eine Abstimmung zum Sportbedarf vorzunehmen.".
+_:n3-262127 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind ";
+    rdf:_2 _:n3-262128;
+    rdf:_3 "für das folgende Kalenderjahr vorzulegen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind <strong>bis zum 15.07. </strong>für das folgende Kalenderjahr vorzulegen.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stellungnahme des KSB/SSB, die Prioritätenliste und die Voranträge sind bis zum 15.07. für das folgende Kalenderjahr vorzulegen.".
+_:n3-262128 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 15.07. ";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 15.07.";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 15.07.".
+_:n3-262129 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem&nbsp;sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.";
+    <https://html.spec.whatwg.org/#innerText> "Der LSB Brandenburg e.V. stimmt die Voranträge mit den jeweiligen LFV ab. Danach erfolgt unter Berücksichtigung der zur Verfügung stehenden Mittel die Erstellung der landesweiten Antragsliste nach dem sportfachlichen Bedarf sowie die Begutachtung und Empfehlung der Höhe der Förderung der vorgesehenen Vorhaben durch den Landesausschuss Sportstätten und Umwelt. Das Präsidium des LSB bestätigt die landesweite Vorhabenliste.".
+_:n3-262130 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern ";
+    rdf:_2 _:n3-262131;
+    rdf:_3 " den vollständigen Antrag.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern <strong>bis zum 15.12.</strong> den vollständigen Antrag.";
+    <https://html.spec.whatwg.org/#innerText> "Die Vereine, deren Projekte bestätigt wurden, erstellen entsprechend der Förderrichtlinie und den Formblättern bis zum 15.12. den vollständigen Antrag.".
+_:n3-262131 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zum 15.12.";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zum 15.12.";
+    <https://html.spec.whatwg.org/#innerText> "bis zum 15.12.".
+_:n3-262132 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262133;
+    rdf:_2 _:n3-262134;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n <li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Richtlinie Sportstättenbau Link zur Förderung".
+_:n3-262133 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-262134 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262135;
+    rdf:_2 _:n3-262137;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a></li>\n<li><a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Richtlinie Sportstättenbau Link zur Förderung".
+_:n3-262135 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-262136;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Richtlinie Sportstättenbau</a>";
+    <https://html.spec.whatwg.org/#innerText> "Richtlinie Sportstättenbau".
+_:n3-262136 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Richtlinie Sportstättenbau";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Richtlinie Sportstättenbau";
+    <https://html.spec.whatwg.org/#innerText> "Richtlinie Sportstättenbau";
+    <http://www.w3.org/1999/xhtml#href> "https://lsb-brandenburg.de/sport_foerderung/frl_2025/frl25_A5/frl25_A5-1_Sportstaettenbau.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262137 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-262138;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-262138 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://lsb-brandenburg.de/sportfoerderung/foerderrichtlinien-2025-und-2026/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262139 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-262140;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Brandenburg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Sport und Bewegung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Bau- und Investkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>100.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>1. Juli 2027</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-262140 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262141;
+    rdf:_2 _:n3-262146;
+    rdf:_3 _:n3-262151;
+    rdf:_4 _:n3-262158;
+    rdf:_5 _:n3-262161;
+    rdf:_6 _:n3-262164;
+    rdf:_7 _:n3-262169;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Brandenburg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Sport und Bewegung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Bau- und Investkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>100.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>1. Juli 2027</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Brandenburg Engagementbereiche: Sport und Bewegung Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten Max. Fördersumme: 100.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 1. Juli 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-262141 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262142;
+    rdf:_2 _:n3-262143;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Brandenburg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Brandenburg".
+_:n3-262142 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-262143 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262144;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Brandenburg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Brandenburg".
+_:n3-262144 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262145;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Brandenburg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Brandenburg".
+_:n3-262145 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Brandenburg";
+    <https://html.spec.whatwg.org/#innerHTML> "Brandenburg";
+    <https://html.spec.whatwg.org/#innerText> "Brandenburg".
+_:n3-262146 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262147;
+    rdf:_2 _:n3-262148;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Sport und Bewegung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Sport und Bewegung".
+_:n3-262147 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-262148 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262149;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sport und Bewegung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-262149 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262150;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sport und Bewegung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-262150 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-262151 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262152;
+    rdf:_2 _:n3-262153;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Bau- und Investkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-262152 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-262153 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262154;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bau- und Investkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-262154 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262155;
+    rdf:_2 _:n3-262156;
+    rdf:_3 _:n3-262157;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bau- und Investkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Personalkosten Sachkosten".
+_:n3-262155 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-262156 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-262157 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-262158 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262159;
+    rdf:_2 _:n3-262160;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>100.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 100.000 €".
+_:n3-262159 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-262160 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "100.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "100.000 €";
+    <https://html.spec.whatwg.org/#innerText> "100.000 €".
+_:n3-262161 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262162;
+    rdf:_2 _:n3-262163;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-262162 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-262163 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-262164 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262165;
+    rdf:_2 _:n3-262166;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>1. Juli 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 1. Juli 2027".
+_:n3-262165 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-262166 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262167;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>1. Juli 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "1. Juli 2027".
+_:n3-262167 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-262168;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>1. Juli 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "1. Juli 2027".
+_:n3-262168 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "1. Juli 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Juli 2027";
+    <https://html.spec.whatwg.org/#innerText> "1. Juli 2027".
+_:n3-262169 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262170;
+    rdf:_2 _:n3-262171;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-262170 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-262171 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-262172 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262173;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Olympischer Weg 7,\n     <br>\n     14471 Potsdam</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0331 58567100</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262173 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262174;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Olympischer Weg 7,\n    <br>\n    14471 Potsdam</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0331 58567100</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262174 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262175;
+    rdf:_2 _:n3-262177;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Olympischer Weg 7,\n   <br>\n   14471 Potsdam</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0331 58567100</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Landessportbund Brandenburg e.V. Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262175 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-262176;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v\" class=\"link\">Landessportbund Brandenburg e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Landessportbund Brandenburg e.V.".
+_:n3-262176 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Landessportbund Brandenburg e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Landessportbund Brandenburg e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Landessportbund Brandenburg e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/37566-landessportbund-brandenburg-e-v".
+_:n3-262177 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262178;
+    rdf:_2 _:n3-262181;
+    rdf:_3 _:n3-262185;
+    rdf:_4 _:n3-262189;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Olympischer Weg 7,\n  <br>\n  14471 Potsdam</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0331 58567100</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Olympischer Weg 7, 14471 Potsdam E-Mail info@lsb-brandenburg.de Webseite lsb-brandenburg.de/ Telefon 0331 58567100".
+_:n3-262178 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262179;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Olympischer Weg 7,\n <br>\n 14471 Potsdam</p>";
+    <https://html.spec.whatwg.org/#innerText> "Olympischer Weg 7, 14471 Potsdam".
+_:n3-262179 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Olympischer Weg 7,";
+    rdf:_2 _:n3-262180;
+    rdf:_3 "14471 Potsdam";
+    <https://html.spec.whatwg.org/#innerHTML> "Olympischer Weg 7,\n<br>\n14471 Potsdam";
+    <https://html.spec.whatwg.org/#innerText> "Olympischer Weg 7, 14471 Potsdam".
+_:n3-262180 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-262181 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262182;
+    rdf:_2 _:n3-262183;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@lsb-brandenburg.de".
+_:n3-262182 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-262183 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-262184;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@lsb-brandenburg.de\">info@lsb-brandenburg.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@lsb-brandenburg.de".
+_:n3-262184 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@lsb-brandenburg.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@lsb-brandenburg.de";
+    <https://html.spec.whatwg.org/#innerText> "info@lsb-brandenburg.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@lsb-brandenburg.de".
+_:n3-262185 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262186;
+    rdf:_2 _:n3-262187;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite lsb-brandenburg.de/".
+_:n3-262186 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-262187 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-262188;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://lsb-brandenburg.de/\" target=\"_blank\">lsb-brandenburg.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "lsb-brandenburg.de/".
+_:n3-262188 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "lsb-brandenburg.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "lsb-brandenburg.de/";
+    <https://html.spec.whatwg.org/#innerText> "lsb-brandenburg.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://lsb-brandenburg.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-262189 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262190;
+    rdf:_2 _:n3-262191;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0331 58567100</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0331 58567100".
+_:n3-262190 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-262191 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0331 58567100";
+    <https://html.spec.whatwg.org/#innerHTML> "0331 58567100";
+    <https://html.spec.whatwg.org/#innerText> "0331 58567100".
+_:n3-262192 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-262193;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-262193 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262194;
+    rdf:_2 _:n3-262198;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-262194 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-262195;
+    rdf:_2 _:n3-262196;
+    rdf:_3 _:n3-262197;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-262195 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-262196 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-262197 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-262198 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-262199;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-262199 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-262200 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-262201 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-262202 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-262203 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-fuer-sportstaettenbau-2";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-262204 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-262205 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung für Sportstättenbau  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung für Sportstättenbau  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung für Sportstättenbau  –  Förderdatenbank".
+_:n3-262206 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-262207 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

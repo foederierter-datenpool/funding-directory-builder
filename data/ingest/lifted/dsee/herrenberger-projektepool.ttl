@@ -1,0 +1,786 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-253686 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253687;
+    rdf:_10 _:n3-253688;
+    rdf:_11 _:n3-253689;
+    rdf:_12 _:n3-253690;
+    rdf:_13 _:n3-253691;
+    rdf:_14 _:n3-253692;
+    rdf:_15 _:n3-253693;
+    rdf:_16 _:n3-253694;
+    rdf:_17 _:n3-253695;
+    rdf:_18 _:n3-253696;
+    rdf:_19 _:n3-253697;
+    rdf:_2 _:n3-253698;
+    rdf:_20 _:n3-253699;
+    rdf:_21 _:n3-253700;
+    rdf:_22 _:n3-253701;
+    rdf:_23 _:n3-253718;
+    rdf:_24 _:n3-253723;
+    rdf:_25 _:n3-253825;
+    rdf:_26 _:n3-253833;
+    rdf:_3 _:n3-253834;
+    rdf:_4 _:n3-253835;
+    rdf:_5 _:n3-253836;
+    rdf:_6 _:n3-253837;
+    rdf:_7 _:n3-253838;
+    rdf:_8 _:n3-253839;
+    rdf:_9 _:n3-253840;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "herrenberger-projektepool";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Herrenberger Projektepool  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Herrenberger Projektepool\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Herrenberger Projektepool\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Herrenberger Projektepool</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n     <p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n       <br>\n       <br>\n       Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><strong>Sie kommen aus Herrenberg?\n        <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n      <ul>\n       <li>Einzelprojekte (bis zu 500 €)\n        <ul>\n         <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n        </ul></li>\n       <li>Netzwerkprojekte (bis zu 1.000 €)\n        <ul>\n         <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n        </ul></li>\n       <li>Vereinscoaching\n        <ul>\n         <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n        </ul></li>\n      </ul>\n      <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n      <p>Förderfähig sind Projekte, die&nbsp;...</p>\n      <ul>\n       <li>Gegenseitiges Verständnis anregen</li>\n       <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n        <br></li>\n       <li>Zivilgesellschaft stärken</li>\n       <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n       <li>Demokratische Werte vermitteln</li>\n       <li>Verständnis für kulturelle Vielfalt fördern</li>\n       <li>Vorurteile abbauen</li>\n       <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n       <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bevölkerungs- und Katastrophenschutz</li>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Migration</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>1.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>07032 2018971</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Herrenberger Projektepool Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971 ©2026 Impressum Datenschutzerklärung".
+_:n3-253687 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-253688 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-253689 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-253690 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-253691 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Herrenberger Projektepool";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-253692 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-253693 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Herrenberger Projektepool";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-253694 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-253695 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-253696 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-253697 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-253698 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-253699 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-253700 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-253701 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253702;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-253702 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253703;
+    rdf:_2 _:n3-253705;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-253703 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253704;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-253704 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-253705 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253706;
+    rdf:_2 _:n3-253709;
+    rdf:_3 _:n3-253712;
+    rdf:_4 _:n3-253715;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-253706 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253707;
+    rdf:_2 _:n3-253708;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253707 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253708 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-253709 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253710;
+    rdf:_2 _:n3-253711;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253710 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253711 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-253712 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253713;
+    rdf:_2 _:n3-253714;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253713 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253714 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-253715 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253716;
+    rdf:_2 _:n3-253717;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253716 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-253717 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-253718 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-253719;
+    rdf:_2 _:n3-253722;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-253719 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-253720;
+    rdf:_2 _:n3-253721;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-253720 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-253721 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-253722 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-253723 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-253724;
+    rdf:_2 _:n3-253729;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Herrenberger Projektepool</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n    <p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n      <br>\n      <br>\n      Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><strong>Sie kommen aus Herrenberg?\n       <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n     <ul>\n      <li>Einzelprojekte (bis zu 500 €)\n       <ul>\n        <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n       </ul></li>\n      <li>Netzwerkprojekte (bis zu 1.000 €)\n       <ul>\n        <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n       </ul></li>\n      <li>Vereinscoaching\n       <ul>\n        <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n       </ul></li>\n     </ul>\n     <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n     <p>Förderfähig sind Projekte, die&nbsp;...</p>\n     <ul>\n      <li>Gegenseitiges Verständnis anregen</li>\n      <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n       <br></li>\n      <li>Zivilgesellschaft stärken</li>\n      <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n      <li>Demokratische Werte vermitteln</li>\n      <li>Verständnis für kulturelle Vielfalt fördern</li>\n      <li>Vorurteile abbauen</li>\n      <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n      <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bevölkerungs- und Katastrophenschutz</li>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Migration</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>1.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>07032 2018971</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Herrenberger Projektepool Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253724 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253725;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Herrenberger Projektepool</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Herrenberger Projektepool".
+_:n3-253725 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253726;
+    rdf:_2 _:n3-253727;
+    rdf:_3 _:n3-253728;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Herrenberger Projektepool</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Herrenberger Projektepool".
+_:n3-253726 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-253727 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-253728 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Herrenberger Projektepool";
+    <https://html.spec.whatwg.org/#innerHTML> "Herrenberger Projektepool";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool".
+_:n3-253729 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-253730;
+    rdf:_2 _:n3-253808;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n   <p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n     <br>\n     <br>\n     Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><strong>Sie kommen aus Herrenberg?\n      <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n    <ul>\n     <li>Einzelprojekte (bis zu 500 €)\n      <ul>\n       <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n      </ul></li>\n     <li>Netzwerkprojekte (bis zu 1.000 €)\n      <ul>\n       <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n      </ul></li>\n     <li>Vereinscoaching\n      <ul>\n       <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n      </ul></li>\n    </ul>\n    <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n    <p>Förderfähig sind Projekte, die&nbsp;...</p>\n    <ul>\n     <li>Gegenseitiges Verständnis anregen</li>\n     <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n      <br></li>\n     <li>Zivilgesellschaft stärken</li>\n     <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n     <li>Demokratische Werte vermitteln</li>\n     <li>Verständnis für kulturelle Vielfalt fördern</li>\n     <li>Vorurteile abbauen</li>\n     <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n     <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bevölkerungs- und Katastrophenschutz</li>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Migration</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>1.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>07032 2018971</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253730 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253731;
+    rdf:_2 _:n3-253777;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n  <p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n    <br>\n    <br>\n    Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><strong>Sie kommen aus Herrenberg?\n     <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n   <ul>\n    <li>Einzelprojekte (bis zu 500 €)\n     <ul>\n      <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n     </ul></li>\n    <li>Netzwerkprojekte (bis zu 1.000 €)\n     <ul>\n      <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n     </ul></li>\n    <li>Vereinscoaching\n     <ul>\n      <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n     </ul></li>\n   </ul>\n   <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n   <p>Förderfähig sind Projekte, die&nbsp;...</p>\n   <ul>\n    <li>Gegenseitiges Verständnis anregen</li>\n    <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n     <br></li>\n    <li>Zivilgesellschaft stärken</li>\n    <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n    <li>Demokratische Werte vermitteln</li>\n    <li>Verständnis für kulturelle Vielfalt fördern</li>\n    <li>Vorurteile abbauen</li>\n    <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n    <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bevölkerungs- und Katastrophenschutz</li>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Migration</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>1.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-253731 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253732;
+    rdf:_2 _:n3-253735;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n <p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n   <br>\n   <br>\n   Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><strong>Sie kommen aus Herrenberg?\n    <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n  <ul>\n   <li>Einzelprojekte (bis zu 500 €)\n    <ul>\n     <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n    </ul></li>\n   <li>Netzwerkprojekte (bis zu 1.000 €)\n    <ul>\n     <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n    </ul></li>\n   <li>Vereinscoaching\n    <ul>\n     <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n    </ul></li>\n  </ul>\n  <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n  <p>Förderfähig sind Projekte, die&nbsp;...</p>\n  <ul>\n   <li>Gegenseitiges Verständnis anregen</li>\n   <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n    <br></li>\n   <li>Zivilgesellschaft stärken</li>\n   <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n   <li>Demokratische Werte vermitteln</li>\n   <li>Verständnis für kulturelle Vielfalt fördern</li>\n   <li>Vorurteile abbauen</li>\n   <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n   <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung".
+_:n3-253732 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-253733;
+    rdf:_2 _:n3-253734;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Herrenberger Projektepool</h1>\n<p class=\"text-lg text-gray-500\">Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg</p>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg".
+_:n3-253733 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Herrenberger Projektepool";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Herrenberger Projektepool";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool".
+_:n3-253734 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Schnelle &amp; niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg";
+    <https://html.spec.whatwg.org/#innerText> "Schnelle & niedrigschwellige finanzielle Hilfe für bürgerschaftliche Kleinprojekte von der Stadt Herrenberg".
+_:n3-253735 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253736;
+    rdf:_2 _:n3-253740;
+    rdf:_3 _:n3-253767;
+    rdf:_4 _:n3-253770;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n  <br>\n  <br>\n  Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><strong>Sie kommen aus Herrenberg?\n   <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n <ul>\n  <li>Einzelprojekte (bis zu 500 €)\n   <ul>\n    <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n   </ul></li>\n  <li>Netzwerkprojekte (bis zu 1.000 €)\n   <ul>\n    <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n   </ul></li>\n  <li>Vereinscoaching\n   <ul>\n    <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n   </ul></li>\n </ul>\n <p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n <p>Förderfähig sind Projekte, die&nbsp;...</p>\n <ul>\n  <li>Gegenseitiges Verständnis anregen</li>\n  <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n   <br></li>\n  <li>Zivilgesellschaft stärken</li>\n  <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n  <li>Demokratische Werte vermitteln</li>\n  <li>Verständnis für kulturelle Vielfalt fördern</li>\n  <li>Vorurteile abbauen</li>\n  <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n  <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden. Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich. Weitere Informationen Link zum Pool Onlineformular zur Antragstellung".
+_:n3-253736 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253737;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n <br>\n <br>\n Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden.".
+_:n3-253737 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.";
+    rdf:_2 _:n3-253738;
+    rdf:_3 _:n3-253739;
+    rdf:_4 "Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Seit 2012 wurde die Förderung von ehrenamtlichen &amp; sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt.\n<br>\n<br>\nKoordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und&nbsp;2018 über 60 Projekte unterstützt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Seit 2012 wurde die Förderung von ehrenamtlichen & sozialen Kleinprojekten als Modellprojekt im Rahmen des Bundesprogramms „Lokaler Aktionsplan“ getestet. Der Erfolg war mit über 100 geförderten Projekten zwischen 2012 und 2015 so überwältigend, dass die Stadt Herrenberg den Herrenberger Projektepool seit 2016 mit städtischen Mitteln umsetzt. Koordiniert wird das Förderprogramm von zwei ehrenamtlichen Koordinatoren und dem Team Beteiligung und Engagement. Mit einem jährlichen Fördervolumen von 15.000 Euro, konnten von der Stadt Herrenberg zwischen 2016 und 2018 über 60 Projekte unterstützt werden.".
+_:n3-253738 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253739 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253740 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253741;
+    rdf:_2 _:n3-253742;
+    rdf:_3 _:n3-253745;
+    rdf:_4 _:n3-253755;
+    rdf:_5 _:n3-253756;
+    rdf:_6 _:n3-253757;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><strong>Sie kommen aus Herrenberg?\n  <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong></p>\n<ul>\n <li>Einzelprojekte (bis zu 500 €)\n  <ul>\n   <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n  </ul></li>\n <li>Netzwerkprojekte (bis zu 1.000 €)\n  <ul>\n   <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n  </ul></li>\n <li>Vereinscoaching\n  <ul>\n   <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n  </ul></li>\n</ul>\n<p>Eine Bewerbung auf Förderung ist das ganze Jahr möglich.</p>\n<p>Förderfähig sind Projekte, die&nbsp;...</p>\n<ul>\n <li>Gegenseitiges Verständnis anregen</li>\n <li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n  <br></li>\n <li>Zivilgesellschaft stärken</li>\n <li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n <li>Demokratische Werte vermitteln</li>\n <li>Verständnis für kulturelle Vielfalt fördern</li>\n <li>Vorurteile abbauen</li>\n <li>Professionalisierung von Vereins- und Gruppenarbeit</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben: Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching. Eine Bewerbung auf Förderung ist das ganze Jahr möglich. Förderfähig sind Projekte, die ... Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit".
+_:n3-253741 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-253742 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253743;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Sie kommen aus Herrenberg?\n <br>Dann können Sie sich mit folgenden Projekten bewerben:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben:".
+_:n3-253743 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Sie kommen aus Herrenberg?";
+    rdf:_2 _:n3-253744;
+    rdf:_3 "Dann können Sie sich mit folgenden Projekten bewerben:";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie kommen aus Herrenberg?\n<br>Dann können Sie sich mit folgenden Projekten bewerben:";
+    <https://html.spec.whatwg.org/#innerText> "Sie kommen aus Herrenberg? Dann können Sie sich mit folgenden Projekten bewerben:".
+_:n3-253744 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253745 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253746;
+    rdf:_2 _:n3-253749;
+    rdf:_3 _:n3-253752;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Einzelprojekte (bis zu 500 €)\n <ul>\n  <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n </ul></li>\n<li>Netzwerkprojekte (bis zu 1.000 €)\n <ul>\n  <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n </ul></li>\n<li>Vereinscoaching\n <ul>\n  <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n </ul></li>";
+    <https://html.spec.whatwg.org/#innerText> "Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden. Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen). Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.".
+_:n3-253746 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Einzelprojekte (bis zu 500 €)";
+    rdf:_2 _:n3-253747;
+    <https://html.spec.whatwg.org/#innerHTML> "Einzelprojekte (bis zu 500 €)\n<ul>\n <li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Einzelprojekte (bis zu 500 €) Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.".
+_:n3-253747 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253748;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.".
+_:n3-253748 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Diese können von einzelnen Vereinen, Gruppen oder auch Einzelpersonen beantragt werden.".
+_:n3-253749 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Netzwerkprojekte (bis zu 1.000 €)";
+    rdf:_2 _:n3-253750;
+    <https://html.spec.whatwg.org/#innerHTML> "Netzwerkprojekte (bis zu 1.000 €)\n<ul>\n <li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Netzwerkprojekte (bis zu 1.000 €) Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).".
+_:n3-253750 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253751;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).</li>";
+    <https://html.spec.whatwg.org/#innerText> "Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).".
+_:n3-253751 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).";
+    <https://html.spec.whatwg.org/#innerHTML> "Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).";
+    <https://html.spec.whatwg.org/#innerText> "Netzwerkprojekte müssen mindestens 2 Kooperationspartner haben, öffentlich beworben werden und bestimmte Zusatzkritierien erfüllen (mehr Infos unter Zusatzkriterien Netzwerkveranstaltungen).".
+_:n3-253752 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Vereinscoaching";
+    rdf:_2 _:n3-253753;
+    <https://html.spec.whatwg.org/#innerHTML> "Vereinscoaching\n<ul>\n <li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Vereinscoaching Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.".
+_:n3-253753 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253754;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.".
+_:n3-253754 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.";
+    <https://html.spec.whatwg.org/#innerHTML> "Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.";
+    <https://html.spec.whatwg.org/#innerText> "Schwierigkeiten in der Gruppe? Sie brauchen professionelle Beratung und Unterstützung? Der Herrenberger Projekte-Pool vermittelt und finanziert Ihnen ein Coaching.".
+_:n3-253755 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Eine Bewerbung auf Förderung ist das ganze Jahr möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Bewerbung auf Förderung ist das ganze Jahr möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Eine Bewerbung auf Förderung ist das ganze Jahr möglich.".
+_:n3-253756 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderfähig sind Projekte, die&nbsp;...";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähig sind Projekte, die&nbsp;...";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähig sind Projekte, die ...".
+_:n3-253757 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253758;
+    rdf:_2 _:n3-253759;
+    rdf:_3 _:n3-253761;
+    rdf:_4 _:n3-253762;
+    rdf:_5 _:n3-253763;
+    rdf:_6 _:n3-253764;
+    rdf:_7 _:n3-253765;
+    rdf:_8 _:n3-253766;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Gegenseitiges Verständnis anregen</li>\n<li>Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n <br></li>\n<li>Zivilgesellschaft stärken</li>\n<li>Sozialkompetenz bei jungen Leuten ermutigen</li>\n<li>Demokratische Werte vermitteln</li>\n<li>Verständnis für kulturelle Vielfalt fördern</li>\n<li>Vorurteile abbauen</li>\n<li>Professionalisierung von Vereins- und Gruppenarbeit</li>";
+    <https://html.spec.whatwg.org/#innerText> "Gegenseitiges Verständnis anregen Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit) Zivilgesellschaft stärken Sozialkompetenz bei jungen Leuten ermutigen Demokratische Werte vermitteln Verständnis für kulturelle Vielfalt fördern Vorurteile abbauen Professionalisierung von Vereins- und Gruppenarbeit".
+_:n3-253758 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gegenseitiges Verständnis anregen";
+    <https://html.spec.whatwg.org/#innerHTML> "Gegenseitiges Verständnis anregen";
+    <https://html.spec.whatwg.org/#innerText> "Gegenseitiges Verständnis anregen".
+_:n3-253759 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)";
+    rdf:_2 _:n3-253760;
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement und Beteiligung durch die Übernahme von sozialen und gesellschaftlichen Aufgaben fördern (auch im Sinne der Nachhaltigkeit)".
+_:n3-253760 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-253761 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Zivilgesellschaft stärken";
+    <https://html.spec.whatwg.org/#innerHTML> "Zivilgesellschaft stärken";
+    <https://html.spec.whatwg.org/#innerText> "Zivilgesellschaft stärken".
+_:n3-253762 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sozialkompetenz bei jungen Leuten ermutigen";
+    <https://html.spec.whatwg.org/#innerHTML> "Sozialkompetenz bei jungen Leuten ermutigen";
+    <https://html.spec.whatwg.org/#innerText> "Sozialkompetenz bei jungen Leuten ermutigen".
+_:n3-253763 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Demokratische Werte vermitteln";
+    <https://html.spec.whatwg.org/#innerHTML> "Demokratische Werte vermitteln";
+    <https://html.spec.whatwg.org/#innerText> "Demokratische Werte vermitteln".
+_:n3-253764 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Verständnis für kulturelle Vielfalt fördern";
+    <https://html.spec.whatwg.org/#innerHTML> "Verständnis für kulturelle Vielfalt fördern";
+    <https://html.spec.whatwg.org/#innerText> "Verständnis für kulturelle Vielfalt fördern".
+_:n3-253765 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Vorurteile abbauen";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorurteile abbauen";
+    <https://html.spec.whatwg.org/#innerText> "Vorurteile abbauen".
+_:n3-253766 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Professionalisierung von Vereins- und Gruppenarbeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Professionalisierung von Vereins- und Gruppenarbeit";
+    <https://html.spec.whatwg.org/#innerText> "Professionalisierung von Vereins- und Gruppenarbeit".
+_:n3-253767 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253768;
+    rdf:_2 _:n3-253769;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.".
+_:n3-253768 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-253769 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragstellung ist online auf der Seite oder mithilfe des Antragsdokuments möglich.".
+_:n3-253770 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253771;
+    rdf:_2 _:n3-253772;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n <li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Pool Onlineformular zur Antragstellung".
+_:n3-253771 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-253772 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253773;
+    rdf:_2 _:n3-253775;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a></li>\n<li><a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Pool Onlineformular zur Antragstellung".
+_:n3-253773 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-253774;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.herrenberg.de/projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Pool</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Pool".
+_:n3-253774 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Pool";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Pool";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Pool";
+    <http://www.w3.org/1999/xhtml#href> "https://www.herrenberg.de/projektepool";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253775 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-253776;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Onlineformular zur Antragstellung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Onlineformular zur Antragstellung".
+_:n3-253776 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Onlineformular zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Onlineformular zur Antragstellung";
+    <https://html.spec.whatwg.org/#innerText> "Onlineformular zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.herrenberg.de/de/foerderprogramme/Foerderantrag-Projektepool";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253777 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-253778;
+    rdf:_2 _:n3-253781;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bevölkerungs- und Katastrophenschutz</li>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Migration</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>1.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-253778 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253779;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">\n</figure>".
+_:n3-253779 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-253780;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg\" width=\"800\" height=\"255\">".
+_:n3-253780 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "255";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/34058/Logo-Projekte-Pool.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-253781 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253782;
+    rdf:_2 _:n3-253787;
+    rdf:_3 _:n3-253802;
+    rdf:_4 _:n3-253805;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bevölkerungs- und Katastrophenschutz</li>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Migration</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>1.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Max. Fördersumme: 1.000 € Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-253782 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253783;
+    rdf:_2 _:n3-253784;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg".
+_:n3-253783 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-253784 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253785;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-253785 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253786;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Baden-Württemberg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-253786 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-253787 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253788;
+    rdf:_2 _:n3-253789;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bevölkerungs- und Katastrophenschutz</li>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Migration</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-253788 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-253789 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253790;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bevölkerungs- und Katastrophenschutz</li>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Migration</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-253790 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-253791;
+    rdf:_10 _:n3-253792;
+    rdf:_11 _:n3-253793;
+    rdf:_2 _:n3-253794;
+    rdf:_3 _:n3-253795;
+    rdf:_4 _:n3-253796;
+    rdf:_5 _:n3-253797;
+    rdf:_6 _:n3-253798;
+    rdf:_7 _:n3-253799;
+    rdf:_8 _:n3-253800;
+    rdf:_9 _:n3-253801;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bevölkerungs- und Katastrophenschutz</li>\n<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Migration</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-253791 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bevölkerungs- und Katastrophenschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bevölkerungs- und Katastrophenschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz".
+_:n3-253792 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-253793 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-253794 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-253795 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-253796 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-253797 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-253798 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-253799 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-253800 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-253801 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-253802 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253803;
+    rdf:_2 _:n3-253804;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>1.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 1.000 €".
+_:n3-253803 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-253804 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "1.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "1.000 €";
+    <https://html.spec.whatwg.org/#innerText> "1.000 €".
+_:n3-253805 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253806;
+    rdf:_2 _:n3-253807;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-253806 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-253807 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-253808 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253809;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>07032 2018971</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253809 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253810;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>07032 2018971</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253810 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253811;
+    rdf:_2 _:n3-253813;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>07032 2018971</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberg - die Mitmachstadt E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253811 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-253812;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt\" class=\"link\">Herrenberg - die Mitmachstadt</a>";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberg - die Mitmachstadt".
+_:n3-253812 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Herrenberg - die Mitmachstadt";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Herrenberg - die Mitmachstadt";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberg - die Mitmachstadt";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/34059-herrenberg-die-mitmachstadt".
+_:n3-253813 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253814;
+    rdf:_2 _:n3-253818;
+    rdf:_3 _:n3-253822;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>07032 2018971</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail be@herrenberg.de Webseite www.herrenberg.de/Mitmachstadt Telefon 07032 2018971".
+_:n3-253814 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253815;
+    rdf:_2 _:n3-253816;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail be@herrenberg.de".
+_:n3-253815 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-253816 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253817;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:be@herrenberg.de\">be@herrenberg.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "be@herrenberg.de".
+_:n3-253817 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "be@herrenberg.de";
+    <https://html.spec.whatwg.org/#innerHTML> "be@herrenberg.de";
+    <https://html.spec.whatwg.org/#innerText> "be@herrenberg.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:be@herrenberg.de".
+_:n3-253818 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253819;
+    rdf:_2 _:n3-253820;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.herrenberg.de/Mitmachstadt".
+_:n3-253819 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-253820 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-253821;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.herrenberg.de/Mitmachstadt\" target=\"_blank\">www.herrenberg.de/Mitmachstadt</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.herrenberg.de/Mitmachstadt".
+_:n3-253821 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.herrenberg.de/Mitmachstadt";
+    <https://html.spec.whatwg.org/#innerHTML> "www.herrenberg.de/Mitmachstadt";
+    <https://html.spec.whatwg.org/#innerText> "www.herrenberg.de/Mitmachstadt";
+    <http://www.w3.org/1999/xhtml#href> "https://www.herrenberg.de/Mitmachstadt";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-253822 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253823;
+    rdf:_2 _:n3-253824;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>07032 2018971</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 07032 2018971".
+_:n3-253823 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-253824 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "07032 2018971";
+    <https://html.spec.whatwg.org/#innerHTML> "07032 2018971";
+    <https://html.spec.whatwg.org/#innerText> "07032 2018971".
+_:n3-253825 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-253826;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253826 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253827;
+    rdf:_2 _:n3-253831;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253827 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-253828;
+    rdf:_2 _:n3-253829;
+    rdf:_3 _:n3-253830;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-253828 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-253829 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-253830 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-253831 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-253832;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-253832 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-253833 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-253834 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-253835 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-253836 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/herrenberger-projektepool";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-253837 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-253838 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Herrenberger Projektepool  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Herrenberger Projektepool  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Herrenberger Projektepool  –  Förderdatenbank".
+_:n3-253839 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-253840 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

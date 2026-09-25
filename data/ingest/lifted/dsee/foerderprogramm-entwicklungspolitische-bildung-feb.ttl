@@ -1,0 +1,706 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-145700 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145701;
+    rdf:_10 _:n3-145702;
+    rdf:_11 _:n3-145703;
+    rdf:_12 _:n3-145704;
+    rdf:_13 _:n3-145705;
+    rdf:_14 _:n3-145706;
+    rdf:_15 _:n3-145707;
+    rdf:_16 _:n3-145708;
+    rdf:_17 _:n3-145709;
+    rdf:_18 _:n3-145710;
+    rdf:_19 _:n3-145711;
+    rdf:_2 _:n3-145712;
+    rdf:_20 _:n3-145713;
+    rdf:_21 _:n3-145714;
+    rdf:_22 _:n3-145715;
+    rdf:_23 _:n3-145732;
+    rdf:_24 _:n3-145737;
+    rdf:_25 _:n3-145821;
+    rdf:_26 _:n3-145829;
+    rdf:_3 _:n3-145830;
+    rdf:_4 _:n3-145831;
+    rdf:_5 _:n3-145832;
+    rdf:_6 _:n3-145833;
+    rdf:_7 _:n3-145834;
+    rdf:_8 _:n3-145835;
+    rdf:_9 _:n3-145836;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderprogramm-entwicklungspolitische-bildung-feb";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderprogramm Entwicklungspolitische Bildung (FEB)  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderprogramm Entwicklungspolitische Bildung (FEB)\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderprogramm Entwicklungspolitische Bildung (FEB)\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm Entwicklungspolitische Bildung (FEB)</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n       <br></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n      <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n      <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n      <p><strong>Fördermittelberatung</strong>\n       <br>\n       Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n       <br>\n       Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n       <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n       <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung für nachhaltige Entwicklung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>10.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. November 2026</li>\n        <li>30. Juni 2027</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB)  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderprogramm Entwicklungspolitische Bildung (FEB) Förderprogramm Entwicklungspolitische Bildung (FEB) Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de ©2026 Impressum Datenschutzerklärung".
+_:n3-145701 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-145702 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-145703 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-145704 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-145705 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-145706 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-145707 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-145708 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-145709 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-145710 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-145711 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-145712 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-145713 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-145714 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-145715 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145716;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-145716 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145717;
+    rdf:_2 _:n3-145719;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-145717 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-145718;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-145718 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-145719 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145720;
+    rdf:_2 _:n3-145723;
+    rdf:_3 _:n3-145726;
+    rdf:_4 _:n3-145729;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-145720 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-145721;
+    rdf:_2 _:n3-145722;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145721 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-145722 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-145723 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-145724;
+    rdf:_2 _:n3-145725;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145724 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-145725 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-145726 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-145727;
+    rdf:_2 _:n3-145728;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145727 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-145728 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-145729 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-145730;
+    rdf:_2 _:n3-145731;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145730 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-145731 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-145732 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-145733;
+    rdf:_2 _:n3-145736;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-145733 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-145734;
+    rdf:_2 _:n3-145735;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-145734 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-145735 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-145736 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-145737 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-145738;
+    rdf:_2 _:n3-145743;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm Entwicklungspolitische Bildung (FEB)</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n      <br></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n     <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n     <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n     <p><strong>Fördermittelberatung</strong>\n      <br>\n      Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n      <br>\n      Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n      <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n      <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung für nachhaltige Entwicklung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>10.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. November 2026</li>\n       <li>30. Juni 2027</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm Entwicklungspolitische Bildung (FEB) Förderprogramm Entwicklungspolitische Bildung (FEB) Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145738 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-145739;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm Entwicklungspolitische Bildung (FEB)</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm Entwicklungspolitische Bildung (FEB)".
+_:n3-145739 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145740;
+    rdf:_2 _:n3-145741;
+    rdf:_3 _:n3-145742;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderprogramm Entwicklungspolitische Bildung (FEB)</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderprogramm Entwicklungspolitische Bildung (FEB)".
+_:n3-145740 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-145741 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-145742 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB)".
+_:n3-145743 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-145744;
+    rdf:_2 _:n3-145805;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n     <br></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n    <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n    <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n    <p><strong>Fördermittelberatung</strong>\n     <br>\n     Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n     <br>\n     Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n     <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n     <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung für nachhaltige Entwicklung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>10.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. November 2026</li>\n      <li>30. Juni 2027</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB) Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145744 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145745;
+    rdf:_2 _:n3-145773;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n    <br></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n   <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n   <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n   <p><strong>Fördermittelberatung</strong>\n    <br>\n    Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n    <br>\n    Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n    <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n    <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung für nachhaltige Entwicklung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>10.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. November 2026</li>\n     <li>30. Juni 2027</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB) Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-145745 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145746;
+    rdf:_2 _:n3-145748;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n   <br></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n  <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n  <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n  <p><strong>Fördermittelberatung</strong>\n   <br>\n   Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n   <br>\n   Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n   <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n   <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB) Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal".
+_:n3-145746 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-145747;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderprogramm Entwicklungspolitische Bildung (FEB)</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB)".
+_:n3-145747 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm Entwicklungspolitische Bildung (FEB)";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB)".
+_:n3-145748 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145749;
+    rdf:_2 _:n3-145752;
+    rdf:_3 _:n3-145761;
+    rdf:_4 _:n3-145764;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n  <br></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n <p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n <p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n <p><strong>Fördermittelberatung</strong>\n  <br>\n  Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n  <br>\n  Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n  <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n  <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können. Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222 Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden. Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal".
+_:n3-145749 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145750;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.".
+_:n3-145750 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;";
+    rdf:_2 _:n3-145751;
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.&nbsp;\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm entwicklungspolitische Bildung (FEB) fördert im Auftrag des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) Projekte in Deutschland, die lebensnah und anschaulich über entwicklungspolitische, globale Themen aufklären, Verbindungen zur Lebenssituation der Zielgruppen herstellen und zeigen, wie sich Menschen entwicklungspolitisch engagieren können.".
+_:n3-145751 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-145752 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145753;
+    rdf:_2 _:n3-145754;
+    rdf:_3 _:n3-145755;
+    rdf:_4 _:n3-145756;
+    rdf:_5 _:n3-145757;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.</p>\n<p>Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.</p>\n<p>Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.</p>\n<p><strong>Fördermittelberatung</strong>\n <br>\n Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n <br>\n Kontakt: info@engagement-global.de Telefon: 0228 20717 2222</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist. Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden. Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten. Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-145753 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-145754 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind Organisationen mit entwicklungspolitischer Zielsetzung und Sitz in Deutschland, deren Gemeinnützigkeit steuerlich anerkannt ist.".
+_:n3-145755 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden unter anderem Seminare und Tagungen, Unterrichtseinheiten, Projekttage und Bildungskampagnen, darüber hinaus Ausstellungen, entwicklungspolitisches Theater oder andere Formen innovativer entwicklungspolitischer Bildungsarbeit. Bei Erstanträgen kann eine Projektlaufzeit über maximal 12 Monate mit einer Fördersumme von maximal 10.000 Euro beantragt werden.".
+_:n3-145756 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.";
+    <https://html.spec.whatwg.org/#innerText> "Die Themen geförderter Projekte orientieren sich an der Agenda 2030 für nachhaltige Entwicklung und den 17 SDGs der Vereinten Nationen und widmen sich zum Beispiel der Überwindung der Armut, dem Fairen Handel, der Globalisierung und Menschenrechten.".
+_:n3-145757 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-145758;
+    rdf:_2 _:n3-145759;
+    rdf:_3 "Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.";
+    rdf:_4 _:n3-145760;
+    rdf:_5 "Kontakt: info@engagement-global.de Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Fördermittelberatung</strong>\n<br>\nSollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen&nbsp;infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung –&nbsp;Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten&nbsp;rund um entwicklungspolitisches Engagement im Inland und Ausland.\n<br>\nKontakt: info@engagement-global.de Telefon: 0228 20717 2222";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung Sollten Sie noch Fragen Frage haben, welche anderen Förderprogramme von Engagement Global für Ihr Anliegen infrage kommen, können Sie sich an die Fachstelle für entwicklungspolitische Beratung und Vernetzung – Mitmachzentrale (MMZ) wenden. Sie berät umfassend über Unterstützungs- und Finanzierungsmöglichkeiten rund um entwicklungspolitisches Engagement im Inland und Ausland. Kontakt: info@engagement-global.de Telefon: 0228 20717 2222".
+_:n3-145758 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Fördermittelberatung";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittelberatung";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittelberatung".
+_:n3-145759 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-145760 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-145761 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145762;
+    rdf:_2 _:n3-145763;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.".
+_:n3-145762 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-145763 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.";
+    <https://html.spec.whatwg.org/#innerText> "Anträge auf Projektförderung können ausschließlich über die Förderprojektsoftware eingereicht werden.".
+_:n3-145764 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145765;
+    rdf:_2 _:n3-145766;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n <li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n <li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal".
+_:n3-145765 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-145766 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-145767;
+    rdf:_2 _:n3-145769;
+    rdf:_3 _:n3-145771;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a></li>\n<li><a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a></li>\n<li><a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderprogramm Entwicklungspolitische Bildung: Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\" Förderportal".
+_:n3-145767 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-145768;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://feb.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderprogramm Entwicklungspolitische Bildung:</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderprogramm Entwicklungspolitische Bildung:".
+_:n3-145768 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Förderprogramm Entwicklungspolitische Bildung:";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Förderprogramm Entwicklungspolitische Bildung:";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderprogramm Entwicklungspolitische Bildung:";
+    <http://www.w3.org/1999/xhtml#href> "https://feb.engagement-global.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145769 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-145770;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"".
+_:n3-145770 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"";
+    <https://html.spec.whatwg.org/#innerText> "Link zum BMZ-Konzept „Entwicklungspolitische Informations- und Bildungsarbeit\"";
+    <http://www.w3.org/1999/xhtml#href> "https://www.bmz.de/de/ministerium/arbeitsweise/entwicklungspolitische-bildungsarbeit-19916";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145771 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-145772;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderung.engagement-global.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderportal</a>";
+    <https://html.spec.whatwg.org/#innerText> "Förderportal".
+_:n3-145772 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderportal";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderportal";
+    <https://html.spec.whatwg.org/#innerText> "Förderportal";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderung.engagement-global.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145773 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-145774;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung für nachhaltige Entwicklung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>10.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. November 2026</li>\n    <li>30. Juni 2027</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-145774 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145775;
+    rdf:_2 _:n3-145778;
+    rdf:_3 _:n3-145783;
+    rdf:_4 _:n3-145790;
+    rdf:_5 _:n3-145793;
+    rdf:_6 _:n3-145796;
+    rdf:_7 _:n3-145802;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung für nachhaltige Entwicklung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>10.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. November 2026</li>\n   <li>30. Juni 2027</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung für nachhaltige Entwicklung Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 10.000 € Eigenmittel benötigt: Ja Bewerbungsfrist: 30. November 2026 30. Juni 2027 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-145775 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145776;
+    rdf:_2 _:n3-145777;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-145776 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-145777 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-145778 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145779;
+    rdf:_2 _:n3-145780;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung für nachhaltige Entwicklung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung für nachhaltige Entwicklung".
+_:n3-145779 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-145780 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145781;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung für nachhaltige Entwicklung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-145781 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-145782;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung für nachhaltige Entwicklung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-145782 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-145783 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145784;
+    rdf:_2 _:n3-145785;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten".
+_:n3-145784 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-145785 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145786;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-145786 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-145787;
+    rdf:_2 _:n3-145788;
+    rdf:_3 _:n3-145789;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-145787 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-145788 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-145789 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-145790 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145791;
+    rdf:_2 _:n3-145792;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>10.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 10.000 €".
+_:n3-145791 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-145792 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "10.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "10.000 €";
+    <https://html.spec.whatwg.org/#innerText> "10.000 €".
+_:n3-145793 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145794;
+    rdf:_2 _:n3-145795;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-145794 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-145795 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-145796 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145797;
+    rdf:_2 _:n3-145798;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. November 2026</li>\n  <li>30. Juni 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. November 2026 30. Juni 2027".
+_:n3-145797 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-145798 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145799;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. November 2026</li>\n <li>30. Juni 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026 30. Juni 2027".
+_:n3-145799 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-145800;
+    rdf:_2 _:n3-145801;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. November 2026</li>\n<li>30. Juni 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026 30. Juni 2027".
+_:n3-145800 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. November 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. November 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. November 2026".
+_:n3-145801 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. Juni 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "30. Juni 2027";
+    <https://html.spec.whatwg.org/#innerText> "30. Juni 2027".
+_:n3-145802 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145803;
+    rdf:_2 _:n3-145804;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-145803 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-145804 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-145805 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145806;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145806 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145807;
+    rdf:_2 _:n3-145819;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145807 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145808;
+    rdf:_2 _:n3-145810;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145808 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-145809;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global\" class=\"link\">Engagement Global</a>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global".
+_:n3-145809 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Engagement Global";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement Global";
+    <https://html.spec.whatwg.org/#innerText> "Engagement Global";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21043-engagement-global".
+_:n3-145810 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145811;
+    rdf:_2 _:n3-145815;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de Webseite www.engagement-global.de".
+_:n3-145811 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145812;
+    rdf:_2 _:n3-145813;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@engagement-global.de".
+_:n3-145812 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-145813 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-145814;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@engagement-global.de\">info@engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de".
+_:n3-145814 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "info@engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@engagement-global.de".
+_:n3-145815 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145816;
+    rdf:_2 _:n3-145817;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.engagement-global.de".
+_:n3-145816 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-145817 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-145818;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.engagement-global.de\" target=\"_blank\">www.engagement-global.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de".
+_:n3-145818 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.engagement-global.de";
+    <https://html.spec.whatwg.org/#innerText> "www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#href> "https://www.engagement-global.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-145819 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145820;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg\" width=\"800\" height=\"181\">".
+_:n3-145820 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "181";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EG_Logo.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-145821 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-145822;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-145822 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145823;
+    rdf:_2 _:n3-145827;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-145823 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-145824;
+    rdf:_2 _:n3-145825;
+    rdf:_3 _:n3-145826;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-145824 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-145825 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-145826 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-145827 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-145828;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-145828 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-145829 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-145830 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-145831 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-145832 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderprogramm-entwicklungspolitische-bildung-feb";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-145833 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-145834 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderprogramm Entwicklungspolitische Bildung (FEB)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderprogramm Entwicklungspolitische Bildung (FEB)  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderprogramm Entwicklungspolitische Bildung (FEB)  –  Förderdatenbank".
+_:n3-145835 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-145836 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

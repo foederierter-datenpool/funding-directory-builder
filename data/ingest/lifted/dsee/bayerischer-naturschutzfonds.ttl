@@ -1,0 +1,785 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-158636 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158637;
+    rdf:_10 _:n3-158638;
+    rdf:_11 _:n3-158639;
+    rdf:_12 _:n3-158640;
+    rdf:_13 _:n3-158641;
+    rdf:_14 _:n3-158642;
+    rdf:_15 _:n3-158643;
+    rdf:_16 _:n3-158644;
+    rdf:_17 _:n3-158645;
+    rdf:_18 _:n3-158646;
+    rdf:_19 _:n3-158647;
+    rdf:_2 _:n3-158648;
+    rdf:_20 _:n3-158649;
+    rdf:_21 _:n3-158650;
+    rdf:_22 _:n3-158651;
+    rdf:_23 _:n3-158668;
+    rdf:_24 _:n3-158673;
+    rdf:_25 _:n3-158774;
+    rdf:_26 _:n3-158782;
+    rdf:_3 _:n3-158783;
+    rdf:_4 _:n3-158784;
+    rdf:_5 _:n3-158785;
+    rdf:_6 _:n3-158786;
+    rdf:_7 _:n3-158787;
+    rdf:_8 _:n3-158788;
+    rdf:_9 _:n3-158789;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "bayerischer-naturschutzfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Bayerischer Naturschutzfonds  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Bayerischer Naturschutzfonds\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Bayerischer Naturschutzfonds\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Bayerischer Naturschutzfonds</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p></p>\n      <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n      <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n      <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n      <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n      <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n      <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n      <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n      <p></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n      <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n       <br>\n       <br>\n       Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n      <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n      <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n      <p>1. Angaben zum Antragsteller</p>\n      <p>2. Beschreibung des Vorhabens</p>\n      <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n      <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n      <p>5. Kosten- und Finanzierungsplan</p>\n      <p>6. Naturschutzfachliche Begründung</p>\n      <p>- Bedeutung für den Arten- und Biotopschutz</p>\n      <p>- Charakteristik des Projektgebietes</p>\n      <p>- Naturschutzfachliche Rahmenbedingungen</p>\n      <p>- Handlungsbedarf</p>\n      <p>- Ziele und Maßnahmen</p>\n      <p>- Fehlende Alternativen</p>\n      <p>- Nachhaltige Betreuung und Pflege</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n       <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n       <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Bayern</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Bau- und Investkosten</li>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Rosenkavalierplatz 2,\n        <br>\n        81925 München</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>089 92142235</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Bayerischer Naturschutzfonds Bayerischer Naturschutzfonds Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235 ©2026 Impressum Datenschutzerklärung".
+_:n3-158637 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-158638 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-158639 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-158640 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-158641 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Bayerischer Naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-158642 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-158643 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Bayerischer Naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-158644 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-158645 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-158646 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-158647 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-158648 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-158649 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-158650 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-158651 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158652;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-158652 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158653;
+    rdf:_2 _:n3-158655;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-158653 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-158654;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-158654 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-158655 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158656;
+    rdf:_2 _:n3-158659;
+    rdf:_3 _:n3-158662;
+    rdf:_4 _:n3-158665;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-158656 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-158657;
+    rdf:_2 _:n3-158658;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158657 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-158658 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-158659 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-158660;
+    rdf:_2 _:n3-158661;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158660 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-158661 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-158662 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-158663;
+    rdf:_2 _:n3-158664;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158663 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-158664 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-158665 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-158666;
+    rdf:_2 _:n3-158667;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158666 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-158667 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-158668 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-158669;
+    rdf:_2 _:n3-158672;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-158669 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-158670;
+    rdf:_2 _:n3-158671;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-158670 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-158671 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-158672 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-158673 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-158674;
+    rdf:_2 _:n3-158679;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Bayerischer Naturschutzfonds</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p></p>\n     <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n     <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n     <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n     <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n     <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n     <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n     <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n     <p></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n     <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n      <br>\n      <br>\n      Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n     <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n     <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n     <p>1. Angaben zum Antragsteller</p>\n     <p>2. Beschreibung des Vorhabens</p>\n     <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n     <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n     <p>5. Kosten- und Finanzierungsplan</p>\n     <p>6. Naturschutzfachliche Begründung</p>\n     <p>- Bedeutung für den Arten- und Biotopschutz</p>\n     <p>- Charakteristik des Projektgebietes</p>\n     <p>- Naturschutzfachliche Rahmenbedingungen</p>\n     <p>- Handlungsbedarf</p>\n     <p>- Ziele und Maßnahmen</p>\n     <p>- Fehlende Alternativen</p>\n     <p>- Nachhaltige Betreuung und Pflege</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n      <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n      <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Bayern</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Bau- und Investkosten</li>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Rosenkavalierplatz 2,\n       <br>\n       81925 München</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>089 92142235</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Bayerischer Naturschutzfonds Bayerischer Naturschutzfonds Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158674 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-158675;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Bayerischer Naturschutzfonds</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Bayerischer Naturschutzfonds".
+_:n3-158675 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158676;
+    rdf:_2 _:n3-158677;
+    rdf:_3 _:n3-158678;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Bayerischer Naturschutzfonds</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Bayerischer Naturschutzfonds".
+_:n3-158676 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-158677 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-158678 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Bayerischer Naturschutzfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "Bayerischer Naturschutzfonds";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds".
+_:n3-158679 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-158680;
+    rdf:_2 _:n3-158754;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p></p>\n    <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n    <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n    <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n    <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n    <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n    <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n    <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n    <p></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n    <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n     <br>\n     <br>\n     Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n    <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n    <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n    <p>1. Angaben zum Antragsteller</p>\n    <p>2. Beschreibung des Vorhabens</p>\n    <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n    <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n    <p>5. Kosten- und Finanzierungsplan</p>\n    <p>6. Naturschutzfachliche Begründung</p>\n    <p>- Bedeutung für den Arten- und Biotopschutz</p>\n    <p>- Charakteristik des Projektgebietes</p>\n    <p>- Naturschutzfachliche Rahmenbedingungen</p>\n    <p>- Handlungsbedarf</p>\n    <p>- Ziele und Maßnahmen</p>\n    <p>- Fehlende Alternativen</p>\n    <p>- Nachhaltige Betreuung und Pflege</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n     <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n     <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Bayern</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Bau- und Investkosten</li>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Rosenkavalierplatz 2,\n      <br>\n      81925 München</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>089 92142235</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158680 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158681;
+    rdf:_2 _:n3-158728;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p></p>\n   <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n   <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n   <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n   <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n   <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n   <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n   <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n   <p></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n   <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n    <br>\n    <br>\n    Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n   <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n   <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n   <p>1. Angaben zum Antragsteller</p>\n   <p>2. Beschreibung des Vorhabens</p>\n   <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n   <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n   <p>5. Kosten- und Finanzierungsplan</p>\n   <p>6. Naturschutzfachliche Begründung</p>\n   <p>- Bedeutung für den Arten- und Biotopschutz</p>\n   <p>- Charakteristik des Projektgebietes</p>\n   <p>- Naturschutzfachliche Rahmenbedingungen</p>\n   <p>- Handlungsbedarf</p>\n   <p>- Ziele und Maßnahmen</p>\n   <p>- Fehlende Alternativen</p>\n   <p>- Nachhaltige Betreuung und Pflege</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n    <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n    <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Bayern</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Bau- und Investkosten</li>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-158681 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158682;
+    rdf:_2 _:n3-158684;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p></p>\n  <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n  <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n  <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n  <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n  <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n  <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n  <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n  <p></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n  <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n   <br>\n   <br>\n   Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n  <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n  <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n  <p>1. Angaben zum Antragsteller</p>\n  <p>2. Beschreibung des Vorhabens</p>\n  <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n  <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n  <p>5. Kosten- und Finanzierungsplan</p>\n  <p>6. Naturschutzfachliche Begründung</p>\n  <p>- Bedeutung für den Arten- und Biotopschutz</p>\n  <p>- Charakteristik des Projektgebietes</p>\n  <p>- Naturschutzfachliche Rahmenbedingungen</p>\n  <p>- Handlungsbedarf</p>\n  <p>- Ziele und Maßnahmen</p>\n  <p>- Fehlende Alternativen</p>\n  <p>- Nachhaltige Betreuung und Pflege</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n   <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n   <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung".
+_:n3-158682 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-158683;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Bayerischer Naturschutzfonds</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds".
+_:n3-158683 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Bayerischer Naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Bayerischer Naturschutzfonds";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds".
+_:n3-158684 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158685;
+    rdf:_2 _:n3-158695;
+    rdf:_3 _:n3-158699;
+    rdf:_4 _:n3-158719;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p></p>\n <p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n <p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n <p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n <p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n <p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n <p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n <p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n <p></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n <p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n  <br>\n  <br>\n  Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n <p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n <p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n <p>1. Angaben zum Antragsteller</p>\n <p>2. Beschreibung des Vorhabens</p>\n <p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n <p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n <p>5. Kosten- und Finanzierungsplan</p>\n <p>6. Naturschutzfachliche Begründung</p>\n <p>- Bedeutung für den Arten- und Biotopschutz</p>\n <p>- Charakteristik des Projektgebietes</p>\n <p>- Naturschutzfachliche Rahmenbedingungen</p>\n <p>- Handlungsbedarf</p>\n <p>- Ziele und Maßnahmen</p>\n <p>- Fehlende Alternativen</p>\n <p>- Nachhaltige Betreuung und Pflege</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n  <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n  <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen). Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen. Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung".
+_:n3-158685 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158686;
+    rdf:_2 _:n3-158687;
+    rdf:_3 _:n3-158688;
+    rdf:_4 _:n3-158689;
+    rdf:_5 _:n3-158690;
+    rdf:_6 _:n3-158691;
+    rdf:_7 _:n3-158692;
+    rdf:_8 _:n3-158693;
+    rdf:_9 _:n3-158694;
+    <https://html.spec.whatwg.org/#innerHTML> "<p></p>\n<p>Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.</p>\n<p>Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur</p>\n<p>-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),</p>\n<p>- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,</p>\n<p>- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)</p>\n<p>- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),</p>\n<p>- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).</p>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung. Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur - Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität), - Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften, - Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz) - Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft), - Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).".
+_:n3-158686 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-158687 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.";
+    <https://html.spec.whatwg.org/#innerText> "Der Bayerische Naturschutzfonds fördert den Schutz, die Pflege und die Entwicklung von Natur und Landschaft. Die Stiftung verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts 'Steuerbegünstigte Zwecke' der Abgabenordnung.".
+_:n3-158688 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur";
+    <https://html.spec.whatwg.org/#innerText> "Der Fonds wird nach dieser Zweckbestimmung auf den Gebieten der Vorbereitung, Umsetzung, Sicherung und Betreuung von Maßnahmen des Naturschutzes und der Landschaftspflege tätig, insbesondere zur".
+_:n3-158689 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),";
+    <https://html.spec.whatwg.org/#innerHTML> "-&nbsp;Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),";
+    <https://html.spec.whatwg.org/#innerText> "- Erhaltung der Artenvielfalt einschließlich der innerartlichen Vielfalt (Biodiversität),".
+_:n3-158690 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,";
+    <https://html.spec.whatwg.org/#innerHTML> "- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,";
+    <https://html.spec.whatwg.org/#innerText> "- Sicherung, Entwicklung und zum Verbund von Biotopen mit ihren Lebensgemeinschaften,".
+_:n3-158691 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)";
+    <https://html.spec.whatwg.org/#innerHTML> "- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)";
+    <https://html.spec.whatwg.org/#innerText> "- Förderung dynamischer natürlicher Entwicklungen (ökologischer Prozessschutz)".
+_:n3-158692 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),";
+    <https://html.spec.whatwg.org/#innerHTML> "- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),";
+    <https://html.spec.whatwg.org/#innerText> "- Sicherung und Verbesserung der natürlichen Lebensgrundlagen (insbesondere der abiotischen Naturgüter Boden, Wasser und Luft),".
+_:n3-158693 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).";
+    <https://html.spec.whatwg.org/#innerHTML> "- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).";
+    <https://html.spec.whatwg.org/#innerText> "- Bewahrung und Weiterentwicklung regionstypischer Landschaften (Erhalt der charakteristischen Landschaftsbilder, historischer Kulturlandschaften mit traditionellen Nutzungsformen sowie von Geotopen).".
+_:n3-158694 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-158695 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158696;
+    rdf:_2 _:n3-158697;
+    rdf:_3 _:n3-158698;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.</p>\n<p>Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist. Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.".
+_:n3-158696 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-158697 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsteller für Zuwendungen des Bayerischen Naturschutzfonds können natürliche und juristische Personen sein, sofern die nötige Befähigung zur erfolgreichen Durchführung von Vorhaben und die ordnungsgemäße Geschäftsführung gegeben ist.".
+_:n3-158698 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftungsmittel des Bayerischen Naturschutzfonds werden in der Regel nur für Förderprojekte innerhalb Bayerns vergeben. Im Einzelfall ist ein grenzüberschreitender Mitteleinsatz bei unmittelbarem Bezug zu Förderprojekten der Stiftung nicht ausgeschlossen.".
+_:n3-158699 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158700;
+    rdf:_10 _:n3-158701;
+    rdf:_11 _:n3-158702;
+    rdf:_12 _:n3-158703;
+    rdf:_13 _:n3-158704;
+    rdf:_14 _:n3-158705;
+    rdf:_15 _:n3-158706;
+    rdf:_16 _:n3-158707;
+    rdf:_17 _:n3-158708;
+    rdf:_2 _:n3-158709;
+    rdf:_3 _:n3-158712;
+    rdf:_4 _:n3-158713;
+    rdf:_5 _:n3-158714;
+    rdf:_6 _:n3-158715;
+    rdf:_7 _:n3-158716;
+    rdf:_8 _:n3-158717;
+    rdf:_9 _:n3-158718;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n <br>\n <br>\n Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).</p>\n<p>Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).</p>\n<p>Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:</p>\n<p>1. Angaben zum Antragsteller</p>\n<p>2. Beschreibung des Vorhabens</p>\n<p>3. Objektbezug (Lage, flächenbezogene Daten)</p>\n<p>4. Zeitpunkt und Dauer des geplanten Vorhabens</p>\n<p>5. Kosten- und Finanzierungsplan</p>\n<p>6. Naturschutzfachliche Begründung</p>\n<p>- Bedeutung für den Arten- und Biotopschutz</p>\n<p>- Charakteristik des Projektgebietes</p>\n<p>- Naturschutzfachliche Rahmenbedingungen</p>\n<p>- Handlungsbedarf</p>\n<p>- Ziele und Maßnahmen</p>\n<p>- Fehlende Alternativen</p>\n<p>- Nachhaltige Betreuung und Pflege</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes). Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns). Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten: 1. Angaben zum Antragsteller 2. Beschreibung des Vorhabens 3. Objektbezug (Lage, flächenbezogene Daten) 4. Zeitpunkt und Dauer des geplanten Vorhabens 5. Kosten- und Finanzierungsplan 6. Naturschutzfachliche Begründung - Bedeutung für den Arten- und Biotopschutz - Charakteristik des Projektgebietes - Naturschutzfachliche Rahmenbedingungen - Handlungsbedarf - Ziele und Maßnahmen - Fehlende Alternativen - Nachhaltige Betreuung und Pflege".
+_:n3-158700 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-158701 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "6. Naturschutzfachliche Begründung";
+    <https://html.spec.whatwg.org/#innerHTML> "6. Naturschutzfachliche Begründung";
+    <https://html.spec.whatwg.org/#innerText> "6. Naturschutzfachliche Begründung".
+_:n3-158702 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Bedeutung für den Arten- und Biotopschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "- Bedeutung für den Arten- und Biotopschutz";
+    <https://html.spec.whatwg.org/#innerText> "- Bedeutung für den Arten- und Biotopschutz".
+_:n3-158703 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Charakteristik des Projektgebietes";
+    <https://html.spec.whatwg.org/#innerHTML> "- Charakteristik des Projektgebietes";
+    <https://html.spec.whatwg.org/#innerText> "- Charakteristik des Projektgebietes".
+_:n3-158704 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Naturschutzfachliche Rahmenbedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "- Naturschutzfachliche Rahmenbedingungen";
+    <https://html.spec.whatwg.org/#innerText> "- Naturschutzfachliche Rahmenbedingungen".
+_:n3-158705 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Handlungsbedarf";
+    <https://html.spec.whatwg.org/#innerHTML> "- Handlungsbedarf";
+    <https://html.spec.whatwg.org/#innerText> "- Handlungsbedarf".
+_:n3-158706 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Ziele und Maßnahmen";
+    <https://html.spec.whatwg.org/#innerHTML> "- Ziele und Maßnahmen";
+    <https://html.spec.whatwg.org/#innerText> "- Ziele und Maßnahmen".
+_:n3-158707 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Fehlende Alternativen";
+    <https://html.spec.whatwg.org/#innerHTML> "- Fehlende Alternativen";
+    <https://html.spec.whatwg.org/#innerText> "- Fehlende Alternativen".
+_:n3-158708 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Nachhaltige Betreuung und Pflege";
+    <https://html.spec.whatwg.org/#innerHTML> "- Nachhaltige Betreuung und Pflege";
+    <https://html.spec.whatwg.org/#innerText> "- Nachhaltige Betreuung und Pflege".
+_:n3-158709 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.";
+    rdf:_2 _:n3-158710;
+    rdf:_3 _:n3-158711;
+    rdf:_4 "Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular.\n<br>\n<br>\nDie Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).";
+    <https://html.spec.whatwg.org/#innerText> "Förderanträge sind schriftlich zu stellen. Für die Antragstellung nutzen Sie bitte das Antragsformular. Die Anträge sind durch die jeweils bevollmächtigte Organisationsstufe auszufertigen (z.B. Landesgeschäftsstelle eines Naturschutzverbandes).".
+_:n3-158710 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-158711 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-158712 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).";
+    <https://html.spec.whatwg.org/#innerText> "Bitte beachten Sie, dass Zuwendungen zu Projekten nur bewilligt werden, wenn diese noch nicht begonnen wurden (Verbot des vorzeitigen Maßnahmebeginns).".
+_:n3-158713 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:";
+    <https://html.spec.whatwg.org/#innerText> "Ungeachtet der Bandbreite des Förderspektrums und der Besonderheiten des Einzelfalls muss der Förderantrag folgende Informationen enthalten:".
+_:n3-158714 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "1. Angaben zum Antragsteller";
+    <https://html.spec.whatwg.org/#innerHTML> "1. Angaben zum Antragsteller";
+    <https://html.spec.whatwg.org/#innerText> "1. Angaben zum Antragsteller".
+_:n3-158715 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "2. Beschreibung des Vorhabens";
+    <https://html.spec.whatwg.org/#innerHTML> "2. Beschreibung des Vorhabens";
+    <https://html.spec.whatwg.org/#innerText> "2. Beschreibung des Vorhabens".
+_:n3-158716 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "3. Objektbezug (Lage, flächenbezogene Daten)";
+    <https://html.spec.whatwg.org/#innerHTML> "3. Objektbezug (Lage, flächenbezogene Daten)";
+    <https://html.spec.whatwg.org/#innerText> "3. Objektbezug (Lage, flächenbezogene Daten)".
+_:n3-158717 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "4. Zeitpunkt und Dauer des geplanten Vorhabens";
+    <https://html.spec.whatwg.org/#innerHTML> "4. Zeitpunkt und Dauer des geplanten Vorhabens";
+    <https://html.spec.whatwg.org/#innerText> "4. Zeitpunkt und Dauer des geplanten Vorhabens".
+_:n3-158718 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "5. Kosten- und Finanzierungsplan";
+    <https://html.spec.whatwg.org/#innerHTML> "5. Kosten- und Finanzierungsplan";
+    <https://html.spec.whatwg.org/#innerText> "5. Kosten- und Finanzierungsplan".
+_:n3-158719 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158720;
+    rdf:_2 _:n3-158721;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n <li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung".
+_:n3-158720 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-158721 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-158722;
+    rdf:_2 _:n3-158724;
+    rdf:_3 _:n3-158726;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a></li>\n<li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n<li><a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Seite zur Förderung Antragsformular Merkblatt zur Antragsstellung".
+_:n3-158722 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-158723;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Seite zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Seite zur Förderung".
+_:n3-158723 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Seite zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Seite zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Seite zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/index.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158724 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-158725;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-158725 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/antragsformular.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158726 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-158727;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Merkblatt zur Antragsstellung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Merkblatt zur Antragsstellung".
+_:n3-158727 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Merkblatt zur Antragsstellung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Merkblatt zur Antragsstellung";
+    <https://html.spec.whatwg.org/#innerText> "Merkblatt zur Antragsstellung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.naturschutzfonds.bayern.de/aufgaben/foerderung/doc/merkblatt_zur_antragstellung.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158728 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-158729;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Bayern</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Bau- und Investkosten</li>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-158729 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158730;
+    rdf:_2 _:n3-158735;
+    rdf:_3 _:n3-158740;
+    rdf:_4 _:n3-158748;
+    rdf:_5 _:n3-158751;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Bayern</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Bau- und Investkosten</li>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bayern Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-158730 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158731;
+    rdf:_2 _:n3-158732;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Bayern</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bayern".
+_:n3-158731 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-158732 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158733;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bayern</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bayern".
+_:n3-158733 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-158734;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bayern</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bayern".
+_:n3-158734 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bayern";
+    <https://html.spec.whatwg.org/#innerHTML> "Bayern";
+    <https://html.spec.whatwg.org/#innerText> "Bayern".
+_:n3-158735 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158736;
+    rdf:_2 _:n3-158737;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-158736 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-158737 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158738;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-158738 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-158739;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-158739 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-158740 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158741;
+    rdf:_2 _:n3-158742;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Bau- und Investkosten</li>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Bau- und Investkosten Honorarkosten Personalkosten Sachkosten".
+_:n3-158741 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-158742 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158743;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bau- und Investkosten</li>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Honorarkosten Personalkosten Sachkosten".
+_:n3-158743 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-158744;
+    rdf:_2 _:n3-158745;
+    rdf:_3 _:n3-158746;
+    rdf:_4 _:n3-158747;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bau- und Investkosten</li>\n<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten Honorarkosten Personalkosten Sachkosten".
+_:n3-158744 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-158745 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-158746 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-158747 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-158748 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158749;
+    rdf:_2 _:n3-158750;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-158749 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-158750 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-158751 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158752;
+    rdf:_2 _:n3-158753;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-158752 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-158753 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-158754 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158755;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Rosenkavalierplatz 2,\n     <br>\n     81925 München</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>089 92142235</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158755 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158756;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Rosenkavalierplatz 2,\n    <br>\n    81925 München</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>089 92142235</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158756 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158757;
+    rdf:_2 _:n3-158759;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Rosenkavalierplatz 2,\n   <br>\n   81925 München</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>089 92142235</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158757 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-158758;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds\" class=\"link\">Bayerischer Naturschutzfonds</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds".
+_:n3-158758 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bayerischer Naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bayerischer Naturschutzfonds";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/22872-bayerischer-naturschutzfonds".
+_:n3-158759 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158760;
+    rdf:_2 _:n3-158763;
+    rdf:_3 _:n3-158767;
+    rdf:_4 _:n3-158771;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Rosenkavalierplatz 2,\n  <br>\n  81925 München</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>089 92142235</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Rosenkavalierplatz 2, 81925 München E-Mail naturschutzfonds@stmuv.bayern.de Webseite www.naturschutzfonds.bayern.de/index.html Telefon 089 92142235".
+_:n3-158760 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158761;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Rosenkavalierplatz 2,\n <br>\n 81925 München</p>";
+    <https://html.spec.whatwg.org/#innerText> "Rosenkavalierplatz 2, 81925 München".
+_:n3-158761 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Rosenkavalierplatz 2,";
+    rdf:_2 _:n3-158762;
+    rdf:_3 "81925 München";
+    <https://html.spec.whatwg.org/#innerHTML> "Rosenkavalierplatz 2,\n<br>\n81925 München";
+    <https://html.spec.whatwg.org/#innerText> "Rosenkavalierplatz 2, 81925 München".
+_:n3-158762 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-158763 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158764;
+    rdf:_2 _:n3-158765;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail naturschutzfonds@stmuv.bayern.de".
+_:n3-158764 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-158765 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-158766;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:naturschutzfonds@stmuv.bayern.de\">naturschutzfonds@stmuv.bayern.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "naturschutzfonds@stmuv.bayern.de".
+_:n3-158766 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "naturschutzfonds@stmuv.bayern.de";
+    <https://html.spec.whatwg.org/#innerHTML> "naturschutzfonds@stmuv.bayern.de";
+    <https://html.spec.whatwg.org/#innerText> "naturschutzfonds@stmuv.bayern.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:naturschutzfonds@stmuv.bayern.de".
+_:n3-158767 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158768;
+    rdf:_2 _:n3-158769;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.naturschutzfonds.bayern.de/index.html".
+_:n3-158768 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-158769 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-158770;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.naturschutzfonds.bayern.de/index.html\" target=\"_blank\">www.naturschutzfonds.bayern.de/index.html</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.naturschutzfonds.bayern.de/index.html".
+_:n3-158770 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.naturschutzfonds.bayern.de/index.html";
+    <https://html.spec.whatwg.org/#innerHTML> "www.naturschutzfonds.bayern.de/index.html";
+    <https://html.spec.whatwg.org/#innerText> "www.naturschutzfonds.bayern.de/index.html";
+    <http://www.w3.org/1999/xhtml#href> "https://www.naturschutzfonds.bayern.de/index.html";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-158771 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158772;
+    rdf:_2 _:n3-158773;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>089 92142235</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 089 92142235".
+_:n3-158772 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-158773 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "089 92142235";
+    <https://html.spec.whatwg.org/#innerHTML> "089 92142235";
+    <https://html.spec.whatwg.org/#innerText> "089 92142235".
+_:n3-158774 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-158775;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-158775 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158776;
+    rdf:_2 _:n3-158780;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-158776 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-158777;
+    rdf:_2 _:n3-158778;
+    rdf:_3 _:n3-158779;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-158777 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-158778 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-158779 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-158780 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-158781;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-158781 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-158782 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-158783 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-158784 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-158785 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/bayerischer-naturschutzfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-158786 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-158787 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Bayerischer Naturschutzfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Bayerischer Naturschutzfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Bayerischer Naturschutzfonds  –  Förderdatenbank".
+_:n3-158788 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-158789 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

@@ -1,0 +1,696 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-162160 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162161;
+    rdf:_10 _:n3-162162;
+    rdf:_11 _:n3-162163;
+    rdf:_12 _:n3-162164;
+    rdf:_13 _:n3-162165;
+    rdf:_14 _:n3-162166;
+    rdf:_15 _:n3-162167;
+    rdf:_16 _:n3-162168;
+    rdf:_17 _:n3-162169;
+    rdf:_18 _:n3-162170;
+    rdf:_19 _:n3-162171;
+    rdf:_2 _:n3-162172;
+    rdf:_20 _:n3-162173;
+    rdf:_21 _:n3-162174;
+    rdf:_22 _:n3-162175;
+    rdf:_23 _:n3-162192;
+    rdf:_24 _:n3-162197;
+    rdf:_25 _:n3-162280;
+    rdf:_26 _:n3-162288;
+    rdf:_3 _:n3-162289;
+    rdf:_4 _:n3-162290;
+    rdf:_5 _:n3-162291;
+    rdf:_6 _:n3-162292;
+    rdf:_7 _:n3-162293;
+    rdf:_8 _:n3-162294;
+    rdf:_9 _:n3-162295;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "deutsch-franzoesischer-buergerfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Deutsch-Französischer Bürgerfonds  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Deutsch-Französischer Bürgerfonds\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Deutsch-Französischer Bürgerfonds\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Deutsch-Französischer Bürgerfonds</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n      <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n      <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n      <p>Antragsberechtigt sind:\n       <br>\n       <br>\n       – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n       <br>\n       – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n       <br>\n       – Wissenschaftliche Institute\n       <br>\n       – Bildungs- und Ausbildungszentren\n       <br>\n       – Sozialunternehmen gGmbHs\n       <br>\n       – Stiftungen\n       <br>\n       – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n       <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n       <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n       <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>über 50.000</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Sophienstraße 28/29,\n        <br>\n        10178 Berlin</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>030 800931231</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Deutsch-Französischer Bürgerfonds Deutsch-Französischer Bürgerfonds Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231 ©2026 Impressum Datenschutzerklärung".
+_:n3-162161 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-162162 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-162163 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-162164 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-162165 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsch-Französischer Bürgerfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-162166 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-162167 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsch-Französischer Bürgerfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-162168 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-162169 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-162170 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-162171 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162172 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-162173 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162174 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-162175 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162176;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162176 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162177;
+    rdf:_2 _:n3-162179;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162177 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162178;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-162178 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-162179 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162180;
+    rdf:_2 _:n3-162183;
+    rdf:_3 _:n3-162186;
+    rdf:_4 _:n3-162189;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-162180 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162181;
+    rdf:_2 _:n3-162182;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162181 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162182 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-162183 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162184;
+    rdf:_2 _:n3-162185;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162184 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162185 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-162186 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162187;
+    rdf:_2 _:n3-162188;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162187 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162188 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-162189 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162190;
+    rdf:_2 _:n3-162191;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162190 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162191 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-162192 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162193;
+    rdf:_2 _:n3-162196;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-162193 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162194;
+    rdf:_2 _:n3-162195;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162194 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-162195 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-162196 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-162197 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-162198;
+    rdf:_2 _:n3-162203;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Deutsch-Französischer Bürgerfonds</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n     <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n     <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n     <p>Antragsberechtigt sind:\n      <br>\n      <br>\n      – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n      <br>\n      – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n      <br>\n      – Wissenschaftliche Institute\n      <br>\n      – Bildungs- und Ausbildungszentren\n      <br>\n      – Sozialunternehmen gGmbHs\n      <br>\n      – Stiftungen\n      <br>\n      – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n      <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n      <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n      <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>über 50.000</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Sophienstraße 28/29,\n       <br>\n       10178 Berlin</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>030 800931231</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Deutsch-Französischer Bürgerfonds Deutsch-Französischer Bürgerfonds Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162198 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162199;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Deutsch-Französischer Bürgerfonds</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Deutsch-Französischer Bürgerfonds".
+_:n3-162199 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162200;
+    rdf:_2 _:n3-162201;
+    rdf:_3 _:n3-162202;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Deutsch-Französischer Bürgerfonds</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Deutsch-Französischer Bürgerfonds".
+_:n3-162200 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162201 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-162202 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Deutsch-Französischer Bürgerfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "Deutsch-Französischer Bürgerfonds";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds".
+_:n3-162203 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-162204;
+    rdf:_2 _:n3-162258;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n    <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n    <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n    <p>Antragsberechtigt sind:\n     <br>\n     <br>\n     – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n     <br>\n     – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n     <br>\n     – Wissenschaftliche Institute\n     <br>\n     – Bildungs- und Ausbildungszentren\n     <br>\n     – Sozialunternehmen gGmbHs\n     <br>\n     – Stiftungen\n     <br>\n     – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n     <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n     <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n     <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>über 50.000</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Sophienstraße 28/29,\n      <br>\n      10178 Berlin</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>030 800931231</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162204 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162205;
+    rdf:_2 _:n3-162233;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n   <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n   <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n   <p>Antragsberechtigt sind:\n    <br>\n    <br>\n    – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n    <br>\n    – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n    <br>\n    – Wissenschaftliche Institute\n    <br>\n    – Bildungs- und Ausbildungszentren\n    <br>\n    – Sozialunternehmen gGmbHs\n    <br>\n    – Stiftungen\n    <br>\n    – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n    <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n    <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n    <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>über 50.000</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162205 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162206;
+    rdf:_2 _:n3-162208;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n  <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n  <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n  <p>Antragsberechtigt sind:\n   <br>\n   <br>\n   – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n   <br>\n   – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n   <br>\n   – Wissenschaftliche Institute\n   <br>\n   – Bildungs- und Ausbildungszentren\n   <br>\n   – Sozialunternehmen gGmbHs\n   <br>\n   – Stiftungen\n   <br>\n   – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n   <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n   <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n   <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende".
+_:n3-162206 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162207;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Deutsch-Französischer Bürgerfonds</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds".
+_:n3-162207 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Deutsch-Französischer Bürgerfonds";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Deutsch-Französischer Bürgerfonds";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds".
+_:n3-162208 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162209;
+    rdf:_2 _:n3-162222;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n <p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n <p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n <p>Antragsberechtigt sind:\n  <br>\n  <br>\n  – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n  <br>\n  – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n  <br>\n  – Wissenschaftliche Institute\n  <br>\n  – Bildungs- und Ausbildungszentren\n  <br>\n  – Sozialunternehmen gGmbHs\n  <br>\n  – Stiftungen\n  <br>\n  – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n  <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n  <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n  <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen) Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende".
+_:n3-162209 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162210;
+    rdf:_2 _:n3-162211;
+    rdf:_3 _:n3-162212;
+    rdf:_4 _:n3-162213;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.</p>\n<p>Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.</p>\n<p>Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte</p>\n<p>Antragsberechtigt sind:\n <br>\n <br>\n – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n <br>\n – Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n <br>\n – Wissenschaftliche Institute\n <br>\n – Bildungs- und Ausbildungszentren\n <br>\n – Sozialunternehmen gGmbHs\n <br>\n – Stiftungen\n <br>\n – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)</p>";
+    <https://html.spec.whatwg.org/#innerText> "Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen. Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert. Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)".
+_:n3-162210 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.";
+    <https://html.spec.whatwg.org/#innerText> "Der Deutsch-Französische Bürgerfonds berät, vernetzt und finanziert Projekte, die die deutsch-französische Freundschaft und Europa in der Breite der Bevölkerung erlebbar machen. Er fördert eine Vielzahl an Formaten und Themen, ist niedrigschwellig und steht allen Akteuren der Zivilgesellschaft offen.".
+_:n3-162211 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.";
+    <https://html.spec.whatwg.org/#innerText> "Förderanträge können mindestens 6 Wochen vor Projektbeginn von Vereinen, Städtepartnerschaften, Stiftungen, Kommunen u. a. gestellt werden. Der Bürgerfonds übernimmt bis zu 80 % der Projektkosten, z. B. für Fahrt und Aufenthalt, für Organisation, Material oder Honorare. Projekte werden in 4 Förderkategorien mit bis zu 5.000 €, bis zu 10.000 €, bis zu 50.000 € und mehr als 50.000 € gefördert.".
+_:n3-162212 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte";
+    <https://html.spec.whatwg.org/#innerHTML> "Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte";
+    <https://html.spec.whatwg.org/#innerText> "Beispiele für geförderte Projekte: www.buergerfonds.eu/gefoerderte-projekte".
+_:n3-162213 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind:";
+    rdf:_10 "– Bildungs- und Ausbildungszentren";
+    rdf:_11 _:n3-162214;
+    rdf:_12 "– Sozialunternehmen gGmbHs";
+    rdf:_13 _:n3-162215;
+    rdf:_14 "– Stiftungen";
+    rdf:_15 _:n3-162216;
+    rdf:_16 "– Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)";
+    rdf:_2 _:n3-162217;
+    rdf:_3 _:n3-162218;
+    rdf:_4 "– Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine";
+    rdf:_5 _:n3-162219;
+    rdf:_6 "– Gebietskörperschaften (Städte, Gemeinden, Landkreise)";
+    rdf:_7 _:n3-162220;
+    rdf:_8 "– Wissenschaftliche Institute";
+    rdf:_9 _:n3-162221;
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind:\n<br>\n<br>\n– Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine\n<br>\n– Gebietskörperschaften (Städte, Gemeinden, Landkreise)\n<br>\n– Wissenschaftliche Institute\n<br>\n– Bildungs- und Ausbildungszentren\n<br>\n– Sozialunternehmen gGmbHs\n<br>\n– Stiftungen\n<br>\n– Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind: – Gemeinnützige Vereine, (Städte-)Partnerschaftsvereine – Gebietskörperschaften (Städte, Gemeinden, Landkreise) – Wissenschaftliche Institute – Bildungs- und Ausbildungszentren – Sozialunternehmen gGmbHs – Stiftungen – Bürgerinitiativen und informelle Gruppen (jeweils mindestens drei Personen)".
+_:n3-162214 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162215 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162216 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162217 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162218 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162219 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162220 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162221 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162222 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162223;
+    rdf:_2 _:n3-162224;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n <li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n <li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n <li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende".
+_:n3-162223 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-162224 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-162225;
+    rdf:_2 _:n3-162227;
+    rdf:_3 _:n3-162229;
+    rdf:_4 _:n3-162231;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a></li>\n<li><a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n<li><a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a></li>\n<li><a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektausschreibung Link zur Antragsseite Link zu Fragen und Antworten Infos für Antragsstellende".
+_:n3-162225 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162226;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerfonds.eu/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Projektausschreibung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektausschreibung".
+_:n3-162226 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Projektausschreibung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Projektausschreibung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Projektausschreibung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerfonds.eu/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162227 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162228;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerfonds.eu/foerderantrag\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragsseite".
+_:n3-162228 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Antragsseite";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Antragsseite";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragsseite";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerfonds.eu/foerderantrag";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162229 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162230;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerfonds.eu/faq\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu Fragen und Antworten</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zu Fragen und Antworten".
+_:n3-162230 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zu Fragen und Antworten";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zu Fragen und Antworten";
+    <https://html.spec.whatwg.org/#innerText> "Link zu Fragen und Antworten";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerfonds.eu/faq";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162231 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162232;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Infos für Antragsstellende</a>";
+    <https://html.spec.whatwg.org/#innerText> "Infos für Antragsstellende".
+_:n3-162232 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Infos für Antragsstellende";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Infos für Antragsstellende";
+    <https://html.spec.whatwg.org/#innerText> "Infos für Antragsstellende";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerfonds.eu/aktuelles/das-perfekte-projekt-461";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162233 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-162234;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>über 50.000</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162234 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162235;
+    rdf:_2 _:n3-162238;
+    rdf:_3 _:n3-162243;
+    rdf:_4 _:n3-162249;
+    rdf:_5 _:n3-162252;
+    rdf:_6 _:n3-162255;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>über 50.000</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: über 50.000 Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162235 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162236;
+    rdf:_2 _:n3-162237;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-162236 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-162237 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-162238 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162239;
+    rdf:_2 _:n3-162240;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-162239 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-162240 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162241;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-162241 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-162242;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-162242 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-162243 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162244;
+    rdf:_2 _:n3-162245;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-162244 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-162245 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162246;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-162246 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-162247;
+    rdf:_2 _:n3-162248;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-162247 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-162248 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-162249 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162250;
+    rdf:_2 _:n3-162251;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>über 50.000</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: über 50.000".
+_:n3-162250 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-162251 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "über 50.000";
+    <https://html.spec.whatwg.org/#innerHTML> "über 50.000";
+    <https://html.spec.whatwg.org/#innerText> "über 50.000".
+_:n3-162252 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162253;
+    rdf:_2 _:n3-162254;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-162253 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-162254 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-162255 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162256;
+    rdf:_2 _:n3-162257;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162256 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-162257 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-162258 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162259;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Sophienstraße 28/29,\n     <br>\n     10178 Berlin</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>030 800931231</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162259 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162260;
+    rdf:_2 _:n3-162278;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Sophienstraße 28/29,\n    <br>\n    10178 Berlin</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>030 800931231</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162260 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162261;
+    rdf:_2 _:n3-162263;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Sophienstraße 28/29,\n   <br>\n   10178 Berlin</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>030 800931231</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162261 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-162262;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds\" class=\"link\">Deutsch-Französischer Bürgerfonds</a>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds".
+_:n3-162262 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Deutsch-Französischer Bürgerfonds";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Deutsch-Französischer Bürgerfonds";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21107-deutsch-franzoesischer-buergerfonds".
+_:n3-162263 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162264;
+    rdf:_2 _:n3-162267;
+    rdf:_3 _:n3-162271;
+    rdf:_4 _:n3-162275;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Sophienstraße 28/29,\n  <br>\n  10178 Berlin</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>030 800931231</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sophienstraße 28/29, 10178 Berlin E-Mail info@buergerfonds.eu Webseite www.buergerfonds.eu/ Telefon 030 800931231".
+_:n3-162264 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162265;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Sophienstraße 28/29,\n <br>\n 10178 Berlin</p>";
+    <https://html.spec.whatwg.org/#innerText> "Sophienstraße 28/29, 10178 Berlin".
+_:n3-162265 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Sophienstraße 28/29,";
+    rdf:_2 _:n3-162266;
+    rdf:_3 "10178 Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Sophienstraße 28/29,\n<br>\n10178 Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Sophienstraße 28/29, 10178 Berlin".
+_:n3-162266 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162267 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162268;
+    rdf:_2 _:n3-162269;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@buergerfonds.eu".
+_:n3-162268 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-162269 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-162270;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@buergerfonds.eu\">info@buergerfonds.eu</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerfonds.eu".
+_:n3-162270 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@buergerfonds.eu";
+    <https://html.spec.whatwg.org/#innerHTML> "info@buergerfonds.eu";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerfonds.eu";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@buergerfonds.eu".
+_:n3-162271 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162272;
+    rdf:_2 _:n3-162273;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.buergerfonds.eu/".
+_:n3-162272 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-162273 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-162274;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.buergerfonds.eu/\" target=\"_blank\">www.buergerfonds.eu/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerfonds.eu/".
+_:n3-162274 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.buergerfonds.eu/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.buergerfonds.eu/";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerfonds.eu/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.buergerfonds.eu/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162275 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162276;
+    rdf:_2 _:n3-162277;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>030 800931231</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 030 800931231".
+_:n3-162276 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-162277 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "030 800931231";
+    <https://html.spec.whatwg.org/#innerHTML> "030 800931231";
+    <https://html.spec.whatwg.org/#innerText> "030 800931231".
+_:n3-162278 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162279;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png\" width=\"800\" height=\"593\">".
+_:n3-162279 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "593";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/logo_dfbfonds_rgb_transparent.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-162280 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-162281;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162281 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162282;
+    rdf:_2 _:n3-162286;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162282 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162283;
+    rdf:_2 _:n3-162284;
+    rdf:_3 _:n3-162285;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162283 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-162284 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-162285 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-162286 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162287;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-162287 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-162288 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-162289 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-162290 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-162291 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/deutsch-franzoesischer-buergerfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-162292 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-162293 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Deutsch-Französischer Bürgerfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Deutsch-Französischer Bürgerfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Deutsch-Französischer Bürgerfonds  –  Förderdatenbank".
+_:n3-162294 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-162295 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

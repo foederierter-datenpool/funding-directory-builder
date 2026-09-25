@@ -1,0 +1,760 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-166412 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166413;
+    rdf:_10 _:n3-166414;
+    rdf:_11 _:n3-166415;
+    rdf:_12 _:n3-166416;
+    rdf:_13 _:n3-166417;
+    rdf:_14 _:n3-166418;
+    rdf:_15 _:n3-166419;
+    rdf:_16 _:n3-166420;
+    rdf:_17 _:n3-166421;
+    rdf:_18 _:n3-166422;
+    rdf:_19 _:n3-166423;
+    rdf:_2 _:n3-166424;
+    rdf:_20 _:n3-166425;
+    rdf:_21 _:n3-166426;
+    rdf:_22 _:n3-166427;
+    rdf:_23 _:n3-166444;
+    rdf:_24 _:n3-166449;
+    rdf:_25 _:n3-166552;
+    rdf:_26 _:n3-166560;
+    rdf:_3 _:n3-166561;
+    rdf:_4 _:n3-166562;
+    rdf:_5 _:n3-166563;
+    rdf:_6 _:n3-166564;
+    rdf:_7 _:n3-166565;
+    rdf:_8 _:n3-166566;
+    rdf:_9 _:n3-166567;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerdermittel-des-akd";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Fördermittel des AKD  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Fördermittel des AKD\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Fördermittel des AKD\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fördermittel des AKD</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n     <p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <ul>\n       <li><strong>Juleica-Kurse</strong>\n        <br>\n        Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n        <br>\n        Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n      </ul>\n      <ul>\n       <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n        <br>\n        Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n        <br>\n        In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n        <br>\n        Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n        <br>\n        Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n       <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n      </ul>\n      <ul>\n       <li><strong>Ferienfahrten und Zeltlager\n         <br>Kinderfreizeiten und Kinderrüstzeiten\n         <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n        <br>\n        Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n       <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n      </ul>\n      <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n      <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n      <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n      <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n      <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n        <br>\n       </b><strong></strong>\n       <br>\n       Geldquelle: Land Brandenburg\n       <br>\n       Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n       <br>\n       in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n      <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Berlin</li>\n        <li>Brandenburg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>030 3191221</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Fördermittel des AKD Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221 ©2026 Impressum Datenschutzerklärung".
+_:n3-166413 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-166414 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-166415 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-166416 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-166417 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Fördermittel des AKD";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-166418 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-166419 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Fördermittel des AKD";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-166420 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-166421 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-166422 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-166423 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-166424 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-166425 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-166426 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-166427 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166428;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-166428 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166429;
+    rdf:_2 _:n3-166431;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-166429 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166430;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-166430 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-166431 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166432;
+    rdf:_2 _:n3-166435;
+    rdf:_3 _:n3-166438;
+    rdf:_4 _:n3-166441;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-166432 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166433;
+    rdf:_2 _:n3-166434;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166433 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166434 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-166435 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166436;
+    rdf:_2 _:n3-166437;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166436 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166437 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-166438 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166439;
+    rdf:_2 _:n3-166440;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166439 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166440 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-166441 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166442;
+    rdf:_2 _:n3-166443;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166442 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166443 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-166444 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-166445;
+    rdf:_2 _:n3-166448;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-166445 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166446;
+    rdf:_2 _:n3-166447;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-166446 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-166447 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-166448 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-166449 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-166450;
+    rdf:_2 _:n3-166455;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fördermittel des AKD</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n    <p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <ul>\n      <li><strong>Juleica-Kurse</strong>\n       <br>\n       Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n       <br>\n       Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n     </ul>\n     <ul>\n      <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n       <br>\n       Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n       <br>\n       In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n       <br>\n       Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n       <br>\n       Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n      <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n     </ul>\n     <ul>\n      <li><strong>Ferienfahrten und Zeltlager\n        <br>Kinderfreizeiten und Kinderrüstzeiten\n        <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n       <br>\n       Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n      <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n     </ul>\n     <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n     <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n     <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n     <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n     <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n       <br>\n      </b><strong></strong>\n      <br>\n      Geldquelle: Land Brandenburg\n      <br>\n      Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n      <br>\n      in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n     <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Berlin</li>\n       <li>Brandenburg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>030 3191221</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fördermittel des AKD Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166450 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166451;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fördermittel des AKD</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fördermittel des AKD".
+_:n3-166451 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166452;
+    rdf:_2 _:n3-166453;
+    rdf:_3 _:n3-166454;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Fördermittel des AKD</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Fördermittel des AKD".
+_:n3-166452 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-166453 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-166454 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Fördermittel des AKD";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittel des AKD";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD".
+_:n3-166455 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-166456;
+    rdf:_2 _:n3-166535;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n   <p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <ul>\n     <li><strong>Juleica-Kurse</strong>\n      <br>\n      Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n      <br>\n      Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n    </ul>\n    <ul>\n     <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n      <br>\n      Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n      <br>\n      In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n      <br>\n      Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n      <br>\n      Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n     <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n    </ul>\n    <ul>\n     <li><strong>Ferienfahrten und Zeltlager\n       <br>Kinderfreizeiten und Kinderrüstzeiten\n       <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n      <br>\n      Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n     <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n    </ul>\n    <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n    <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n    <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n    <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n    <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n      <br>\n     </b><strong></strong>\n     <br>\n     Geldquelle: Land Brandenburg\n     <br>\n     Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n     <br>\n     in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n    <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Berlin</li>\n      <li>Brandenburg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>030 3191221</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166456 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166457;
+    rdf:_2 _:n3-166511;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n  <p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <ul>\n    <li><strong>Juleica-Kurse</strong>\n     <br>\n     Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n     <br>\n     Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n   </ul>\n   <ul>\n    <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n     <br>\n     Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n     <br>\n     In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n     <br>\n     Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n     <br>\n     Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n    <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n   </ul>\n   <ul>\n    <li><strong>Ferienfahrten und Zeltlager\n      <br>Kinderfreizeiten und Kinderrüstzeiten\n      <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n     <br>\n     Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n    <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n   </ul>\n   <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n   <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n   <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n   <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n   <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n     <br>\n    </b><strong></strong>\n    <br>\n    Geldquelle: Land Brandenburg\n    <br>\n    Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n    <br>\n    in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n   <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Berlin</li>\n     <li>Brandenburg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-166457 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166458;
+    rdf:_2 _:n3-166461;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n <p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <ul>\n   <li><strong>Juleica-Kurse</strong>\n    <br>\n    Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n    <br>\n    Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n  </ul>\n  <ul>\n   <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n    <br>\n    Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n    <br>\n    In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n    <br>\n    Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n    <br>\n    Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n   <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n  </ul>\n  <ul>\n   <li><strong>Ferienfahrten und Zeltlager\n     <br>Kinderfreizeiten und Kinderrüstzeiten\n     <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n    <br>\n    Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n   <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n  </ul>\n  <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n  <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n  <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n  <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n  <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n    <br>\n   </b><strong></strong>\n   <br>\n   Geldquelle: Land Brandenburg\n   <br>\n   Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n   <br>\n   in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n  <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln".
+_:n3-166458 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-166459;
+    rdf:_2 _:n3-166460;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Fördermittel des AKD</h1>\n<p class=\"text-lg text-gray-500\">Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz</p>";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz".
+_:n3-166459 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Fördermittel des AKD";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittel des AKD";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD".
+_:n3-166460 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz";
+    <https://html.spec.whatwg.org/#innerText> "Für die evangelische Kinder- und Jugendarbeit in Berlin, Brandenburg und der Schlesischen Oberlausitz".
+_:n3-166461 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166462;
+    rdf:_2 _:n3-166484;
+    rdf:_3 _:n3-166502;
+    rdf:_4 _:n3-166506;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <ul>\n  <li><strong>Juleica-Kurse</strong>\n   <br>\n   Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n   <br>\n   Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n </ul>\n <ul>\n  <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n   <br>\n   Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n   <br>\n   In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n   <br>\n   Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n   <br>\n   Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n  <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n </ul>\n <ul>\n  <li><strong>Ferienfahrten und Zeltlager\n    <br>Kinderfreizeiten und Kinderrüstzeiten\n    <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n   <br>\n   Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n  <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n </ul>\n <p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n <p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n <p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n <p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n   <br>\n  </b><strong></strong>\n  <br>\n  Geldquelle: Land Brandenburg\n  <br>\n  Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n  <br>\n  in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n <p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar. Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden. Weitere Informationen Informationen zu den Fördermitteln".
+_:n3-166462 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166463;
+    rdf:_2 _:n3-166468;
+    rdf:_3 _:n3-166476;
+    rdf:_4 _:n3-166483;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li><strong>Juleica-Kurse</strong>\n  <br>\n  Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n  <br>\n  Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>\n</ul>\n<ul>\n <li><strong>Kurse der außerschulischen Jugendbildung</strong>\n  <br>\n  Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n  <br>\n  In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n  <br>\n  Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n  <br>\n  Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n</ul>\n<ul>\n <li><strong>Ferienfahrten und Zeltlager\n   <br>Kinderfreizeiten und Kinderrüstzeiten\n   <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n  <br>\n  Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n <li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>\n</ul>\n<p>Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden. Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte. Die Antragsfrist für das ganze Jahr ist der 15. Januar.".
+_:n3-166463 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166464;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><strong>Juleica-Kurse</strong>\n <br>\n Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n <br>\n Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.".
+_:n3-166464 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-166465;
+    rdf:_2 _:n3-166466;
+    rdf:_3 "Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin";
+    rdf:_4 _:n3-166467;
+    rdf:_5 "Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Juleica-Kurse</strong>\n<br>\nGeldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n<br>\nAusbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der&nbsp;EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Juleica-Kurse Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Ausbildung von ehrenamtlichen JugendleiterInnen nach den Richtlinien des Berliner Senats und der EJBO für den Erwerb der JugendleiterInnen-Card (Juleica). Solche Kurse werden von den Ämtern oder Arbeitsstellen für Jugendarbeit in den Kirchenkreisen durchgeführt bzw. verantwortet. Fördermittel können nur von diesen beantragt werden.".
+_:n3-166465 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Juleica-Kurse";
+    <https://html.spec.whatwg.org/#innerHTML> "Juleica-Kurse";
+    <https://html.spec.whatwg.org/#innerText> "Juleica-Kurse".
+_:n3-166466 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166467 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166468 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166469;
+    rdf:_2 _:n3-166475;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><strong>Kurse der außerschulischen Jugendbildung</strong>\n <br>\n Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n <br>\n In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n <br>\n Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n <br>\n Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´</li>\n<li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´ Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.".
+_:n3-166469 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-166470;
+    rdf:_2 _:n3-166471;
+    rdf:_3 "Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin";
+    rdf:_4 _:n3-166472;
+    rdf:_5 "In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.";
+    rdf:_6 _:n3-166473;
+    rdf:_7 "Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.";
+    rdf:_8 _:n3-166474;
+    rdf:_9 "Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Kurse der außerschulischen Jugendbildung</strong>\n<br>\nGeldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin\n<br>\nIn diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen.\n<br>\nNicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen&nbsp;Themen.\n<br>\nRegelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´";
+    <https://html.spec.whatwg.org/#innerText> "Kurse der außerschulischen Jugendbildung Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin In diesem Programm werden Kurse mit politischen, musisch-kulturellen, ökologischen und sozialen Bildungsinhalten gefördert, sowie die Aus- und Fortbildung von ehrenamtlichen Gruppenleiter/innen. Nicht gefördert werden Kurse mit konfessionell gebundenen, parteipolitischen bzw. verbandsinternen Themen. Regelmäßige Zusammenkünfte sowie Sitzungen, Tagungen und öffentliche Arbeit im Organisationsinteresse gelten nicht als Kurse.´".
+_:n3-166470 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Kurse der außerschulischen Jugendbildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Kurse der außerschulischen Jugendbildung";
+    <https://html.spec.whatwg.org/#innerText> "Kurse der außerschulischen Jugendbildung".
+_:n3-166471 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166472 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166473 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166474 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166475 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.".
+_:n3-166476 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166477;
+    rdf:_2 _:n3-166482;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><strong>Ferienfahrten und Zeltlager\n  <br>Kinderfreizeiten und Kinderrüstzeiten\n  <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n <br>\n Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin</li>\n<li>Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.".
+_:n3-166477 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-166478;
+    rdf:_2 _:n3-166481;
+    rdf:_3 "Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Ferienfahrten und Zeltlager\n <br>Kinderfreizeiten und Kinderrüstzeiten\n <br>Jugendfreizeiten und Jugendrüstzeiten</strong>\n<br>\nGeldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten Geldquelle: Senatsverwaltung für Bildung, Wissenschaft und Forschung Berlin".
+_:n3-166478 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Ferienfahrten und Zeltlager";
+    rdf:_2 _:n3-166479;
+    rdf:_3 "Kinderfreizeiten und Kinderrüstzeiten";
+    rdf:_4 _:n3-166480;
+    rdf:_5 "Jugendfreizeiten und Jugendrüstzeiten";
+    <https://html.spec.whatwg.org/#innerHTML> "Ferienfahrten und Zeltlager\n<br>Kinderfreizeiten und Kinderrüstzeiten\n<br>Jugendfreizeiten und Jugendrüstzeiten";
+    <https://html.spec.whatwg.org/#innerText> "Ferienfahrten und Zeltlager Kinderfreizeiten und Kinderrüstzeiten Jugendfreizeiten und Jugendrüstzeiten".
+_:n3-166479 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166480 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166481 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166482 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind Gemeinden und Kirchenkreise sowie deren Projekte.".
+_:n3-166483 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragsfrist für das ganze Jahr&nbsp;ist der 15. Januar.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragsfrist für das ganze Jahr ist der 15. Januar.".
+_:n3-166484 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166485;
+    rdf:_2 _:n3-166486;
+    rdf:_3 _:n3-166488;
+    rdf:_4 _:n3-166491;
+    rdf:_5 _:n3-166492;
+    rdf:_6 _:n3-166493;
+    rdf:_7 _:n3-166501;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><strong>Seminare zur außerschulischen Bildung für Brandenburg</strong></p>\n<p><strong></strong>Geldquelle: Land Brandenburg<strong></strong></p>\n<p>Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;</p>\n<p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>\n<p><strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n  <br>\n </b><strong></strong>\n <br>\n Geldquelle: Land Brandenburg\n <br>\n Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n <br>\n in einem sachlichen Zusammenhang (“Roter Faden”) stehen.</p>\n<p>Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Seminare zur außerschulischen Bildung für Brandenburg Geldquelle: Land Brandenburg Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise. Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen. Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.".
+_:n3-166485 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-166486 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166487;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Seminare zur außerschulischen Bildung für Brandenburg</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Seminare zur außerschulischen Bildung für Brandenburg".
+_:n3-166487 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Seminare zur außerschulischen Bildung für Brandenburg";
+    <https://html.spec.whatwg.org/#innerHTML> "Seminare zur außerschulischen Bildung für Brandenburg";
+    <https://html.spec.whatwg.org/#innerText> "Seminare zur außerschulischen Bildung für Brandenburg".
+_:n3-166488 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166489;
+    rdf:_2 "Geldquelle: Land Brandenburg";
+    rdf:_3 _:n3-166490;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong></strong>Geldquelle: Land Brandenburg<strong></strong>";
+    <https://html.spec.whatwg.org/#innerText> "Geldquelle: Land Brandenburg".
+_:n3-166489 a <http://www.w3.org/1999/xhtml#strong>.
+_:n3-166490 a <http://www.w3.org/1999/xhtml#strong>.
+_:n3-166491 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Bildungsseminare sollen Kinder und Jugendliche zur Teilnahme an gesellschaftlichen Prozessen befähigen und sie zum Engagement für Freiheit, Menschenwürde, Frieden und soziale Gerechtigkeit anregen. Hier legt der Landesjugendplan einen weiten Begriff von politischer Bildung zugrunde, der auch sozialen, ökologischen und kulturellen Bildung miteinschließt. Es soll ein ganzheitliches Lernen sein, das auch spielerische Elemente einbeziehen kann. Bei allen Seminaren muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden” - in sich geschlossener Stoffplan) stehen. Christliche Bildung kann aus diesem Fördertopf nicht bezuschusst werden. Für die Förderung von Ehrenamtlichen-Schulungen gibt es weitere Erläuterungen. Bei diesen kann die Altersgrenze der Teilnehmer/innen überschritten werden.".
+_:n3-166492 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt&nbsp;sind Träger von Projekten, Gemeinden und Kirchenkreise.";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.".
+_:n3-166493 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166494;
+    rdf:_2 _:n3-166495;
+    rdf:_3 _:n3-166497;
+    rdf:_4 _:n3-166498;
+    rdf:_5 "Geldquelle: Land Brandenburg";
+    rdf:_6 _:n3-166499;
+    rdf:_7 "Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption";
+    rdf:_8 _:n3-166500;
+    rdf:_9 "in einem sachlichen Zusammenhang (“Roter Faden”) stehen.";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg</strong><b>\n <br>\n</b><strong></strong>\n<br>\nGeldquelle: Land Brandenburg\n<br>\nEin Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können&nbsp;nicht durch uns gefördert werden.&nbsp;Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich&nbsp;auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption\n<br>\nin einem sachlichen Zusammenhang (“Roter Faden”) stehen.";
+    <https://html.spec.whatwg.org/#innerText> "Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg Geldquelle: Land Brandenburg Ein Schwerpunkt evangelischer Kinder- und Jugendarbeit liegt in der Rüstzeitarbeit mit biblisch-theologischen oder spezifisch kirchlichen Inhalten. Doch muss auch hier zwischen thematisch orientierten Rüstzeiten mit einem pädagogischen Konzept (6 Std. \"Thema\" am Tag) einerseits und vor allem an gemeinsamer Freizeitgestaltung orientierten Rüstzeiten andererseits unterschieden werden. Die letzteren können nicht durch uns gefördert werden. Rüstzeiten und Seminare, wie sie hier gefördert werden, sollten Themen aufgreifen, die speziell die Verkündigung bzw. Glaubenspraxis betreffen und auch durch Bibelarbeit geprägt sind. Dazu gehört natürlich auch die spielerische oder musische Arbeit. Bei allen Aktivitäten muss die inhaltliche Gesamtkonzeption in einem sachlichen Zusammenhang (“Roter Faden”) stehen.".
+_:n3-166494 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg";
+    <https://html.spec.whatwg.org/#innerHTML> "Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten&nbsp;für Brandenburg";
+    <https://html.spec.whatwg.org/#innerText> "Rüstzeiten und Seminare mit spezifisch biblischen oder kirchlichen Inhalten für Brandenburg".
+_:n3-166495 a <http://www.w3.org/1999/xhtml#b>;
+    rdf:_1 _:n3-166496;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>".
+_:n3-166496 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166497 a <http://www.w3.org/1999/xhtml#strong>.
+_:n3-166498 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166499 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166500 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166501 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden.&nbsp;Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellung: Laufend bis 14 Tage vorher können Anträge gestellt werden. Antragsberechtigt sind Träger von Projekten, Gemeinden und Kirchenkreise.".
+_:n3-166502 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166503;
+    rdf:_2 _:n3-166504;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden.".
+_:n3-166503 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-166504 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Alle erforderlichen Formulare sind unter&nbsp;";
+    rdf:_2 _:n3-166505;
+    rdf:_3 " zu finden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Alle erforderlichen Formulare sind unter&nbsp;<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\">https://akd-ekbo.de/service/fo...</a> zu finden.";
+    <https://html.spec.whatwg.org/#innerText> "Alle erforderlichen Formulare sind unter https://akd-ekbo.de/service/fo... zu finden.".
+_:n3-166505 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "https://akd-ekbo.de/service/fo...";
+    <https://html.spec.whatwg.org/#innerHTML> "https://akd-ekbo.de/service/fo...";
+    <https://html.spec.whatwg.org/#innerText> "https://akd-ekbo.de/service/fo...";
+    <http://www.w3.org/1999/xhtml#href> "https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/".
+_:n3-166506 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166507;
+    rdf:_2 _:n3-166508;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Informationen zu den Fördermitteln".
+_:n3-166507 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-166508 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166509;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Informationen zu den Fördermitteln".
+_:n3-166509 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-166510;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Informationen zu den Fördermitteln</a>";
+    <https://html.spec.whatwg.org/#innerText> "Informationen zu den Fördermitteln".
+_:n3-166510 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Informationen zu den Fördermitteln";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Informationen zu den Fördermitteln";
+    <https://html.spec.whatwg.org/#innerText> "Informationen zu den Fördermitteln";
+    <http://www.w3.org/1999/xhtml#href> "https://akd-ekbo.de/service/foerdermittel/foerdermittel-kinder-jugend/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166511 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-166512;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Berlin</li>\n    <li>Brandenburg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-166512 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166513;
+    rdf:_2 _:n3-166519;
+    rdf:_3 _:n3-166526;
+    rdf:_4 _:n3-166532;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Berlin</li>\n   <li>Brandenburg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Brandenburg Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-166513 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166514;
+    rdf:_2 _:n3-166515;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Berlin</li>\n  <li>Brandenburg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Berlin Brandenburg".
+_:n3-166514 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-166515 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166516;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Berlin</li>\n <li>Brandenburg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin Brandenburg".
+_:n3-166516 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166517;
+    rdf:_2 _:n3-166518;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Berlin</li>\n<li>Brandenburg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Berlin Brandenburg".
+_:n3-166517 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Berlin";
+    <https://html.spec.whatwg.org/#innerHTML> "Berlin";
+    <https://html.spec.whatwg.org/#innerText> "Berlin".
+_:n3-166518 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Brandenburg";
+    <https://html.spec.whatwg.org/#innerHTML> "Brandenburg";
+    <https://html.spec.whatwg.org/#innerText> "Brandenburg".
+_:n3-166519 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166520;
+    rdf:_2 _:n3-166521;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Kinder und Jugendliche Sonstiges".
+_:n3-166520 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-166521 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166522;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Sonstiges".
+_:n3-166522 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166523;
+    rdf:_2 _:n3-166524;
+    rdf:_3 _:n3-166525;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Sonstiges".
+_:n3-166523 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-166524 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-166525 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-166526 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166527;
+    rdf:_2 _:n3-166528;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-166527 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-166528 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166529;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-166529 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166530;
+    rdf:_2 _:n3-166531;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-166530 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-166531 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-166532 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166533;
+    rdf:_2 _:n3-166534;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-166533 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-166534 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-166535 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166536;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>030 3191221</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166536 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166537;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>030 3191221</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166537 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166538;
+    rdf:_2 _:n3-166540;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>030 3191221</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Amt für kirchliche Dienste in der EKBO E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166538 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-166539;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo\" class=\"link\">Amt für kirchliche Dienste in der EKBO</a>";
+    <https://html.spec.whatwg.org/#innerText> "Amt für kirchliche Dienste in der EKBO".
+_:n3-166539 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Amt für kirchliche Dienste in der EKBO";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Amt für kirchliche Dienste in der EKBO";
+    <https://html.spec.whatwg.org/#innerText> "Amt für kirchliche Dienste in der EKBO";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/30172-amt-fuer-kirchliche-dienste-in-der-ekbo".
+_:n3-166540 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166541;
+    rdf:_2 _:n3-166545;
+    rdf:_3 _:n3-166549;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>030 3191221</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@akd-ekbo.de Webseite akd-ekbo.de/ Telefon 030 3191221".
+_:n3-166541 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166542;
+    rdf:_2 _:n3-166543;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@akd-ekbo.de".
+_:n3-166542 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-166543 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166544;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@akd-ekbo.de\">info@akd-ekbo.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@akd-ekbo.de".
+_:n3-166544 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@akd-ekbo.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@akd-ekbo.de";
+    <https://html.spec.whatwg.org/#innerText> "info@akd-ekbo.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@akd-ekbo.de".
+_:n3-166545 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166546;
+    rdf:_2 _:n3-166547;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite akd-ekbo.de/".
+_:n3-166546 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-166547 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166548;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://akd-ekbo.de/\" target=\"_blank\">akd-ekbo.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "akd-ekbo.de/".
+_:n3-166548 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "akd-ekbo.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "akd-ekbo.de/";
+    <https://html.spec.whatwg.org/#innerText> "akd-ekbo.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://akd-ekbo.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166549 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166550;
+    rdf:_2 _:n3-166551;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>030 3191221</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 030 3191221".
+_:n3-166550 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-166551 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "030 3191221";
+    <https://html.spec.whatwg.org/#innerHTML> "030 3191221";
+    <https://html.spec.whatwg.org/#innerText> "030 3191221".
+_:n3-166552 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-166553;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166553 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166554;
+    rdf:_2 _:n3-166558;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166554 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166555;
+    rdf:_2 _:n3-166556;
+    rdf:_3 _:n3-166557;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166555 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-166556 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-166557 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-166558 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166559;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-166559 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-166560 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-166561 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-166562 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-166563 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerdermittel-des-akd";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-166564 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-166565 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Fördermittel des AKD  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördermittel des AKD  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Fördermittel des AKD  –  Förderdatenbank".
+_:n3-166566 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-166567 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

@@ -1,0 +1,728 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-230404 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230405;
+    rdf:_10 _:n3-230406;
+    rdf:_11 _:n3-230407;
+    rdf:_12 _:n3-230408;
+    rdf:_13 _:n3-230409;
+    rdf:_14 _:n3-230410;
+    rdf:_15 _:n3-230411;
+    rdf:_16 _:n3-230412;
+    rdf:_17 _:n3-230413;
+    rdf:_18 _:n3-230414;
+    rdf:_19 _:n3-230415;
+    rdf:_2 _:n3-230416;
+    rdf:_20 _:n3-230417;
+    rdf:_21 _:n3-230418;
+    rdf:_22 _:n3-230419;
+    rdf:_23 _:n3-230436;
+    rdf:_24 _:n3-230441;
+    rdf:_25 _:n3-230533;
+    rdf:_26 _:n3-230541;
+    rdf:_3 _:n3-230542;
+    rdf:_4 _:n3-230543;
+    rdf:_5 _:n3-230544;
+    rdf:_6 _:n3-230545;
+    rdf:_7 _:n3-230546;
+    rdf:_8 _:n3-230547;
+    rdf:_9 _:n3-230548;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-stiftung-dialoge-begegnungen";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n      <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n       <br></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n      <ul>\n       <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n       <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n       <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n      </ul>\n      <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n      <ul>\n       <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n       <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n       <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n      <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n       <br>\n       Entweder per eMail an&nbsp;</p>\n      <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n       <br>\n       <br></p>\n      <p>Oder per Post an</p>\n      <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n       <br>\n       Gemeinnützige Stiftung\n       <br>\n       Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n       <br>\n       Rothenbaumchaussee 3\n       <br>\n       20148 Hamburg</p>\n      <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n       <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Entwicklungszusammenarbeit</li>\n        <li>Kinder und Jugendliche</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Rothenbaumchaussee 3,\n        <br>\n        20148 Hamburg</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>040 35017488</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Stiftung DIALOGE & BEGEGNUNGEN Förderung der Stiftung DIALOGE & BEGEGNUNGEN Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488 ©2026 Impressum Datenschutzerklärung".
+_:n3-230405 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-230406 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-230407 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-230408 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-230409 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-230410 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-230411 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-230412 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-230413 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-230414 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-230415 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-230416 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-230417 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-230418 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-230419 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230420;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-230420 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230421;
+    rdf:_2 _:n3-230423;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-230421 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-230422;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-230422 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-230423 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230424;
+    rdf:_2 _:n3-230427;
+    rdf:_3 _:n3-230430;
+    rdf:_4 _:n3-230433;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-230424 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-230425;
+    rdf:_2 _:n3-230426;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230425 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-230426 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-230427 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-230428;
+    rdf:_2 _:n3-230429;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230428 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-230429 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-230430 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-230431;
+    rdf:_2 _:n3-230432;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230431 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-230432 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-230433 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-230434;
+    rdf:_2 _:n3-230435;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230434 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-230435 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-230436 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-230437;
+    rdf:_2 _:n3-230440;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-230437 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-230438;
+    rdf:_2 _:n3-230439;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-230438 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-230439 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-230440 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-230441 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-230442;
+    rdf:_2 _:n3-230447;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n     <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n      <br></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n     <ul>\n      <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n      <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n      <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n     </ul>\n     <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n     <ul>\n      <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n      <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n      <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n     <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n      <br>\n      Entweder per eMail an&nbsp;</p>\n     <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n      <br>\n      <br></p>\n     <p>Oder per Post an</p>\n     <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n      <br>\n      Gemeinnützige Stiftung\n      <br>\n      Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n      <br>\n      Rothenbaumchaussee 3\n      <br>\n      20148 Hamburg</p>\n     <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n      <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Entwicklungszusammenarbeit</li>\n       <li>Kinder und Jugendliche</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Rothenbaumchaussee 3,\n       <br>\n       20148 Hamburg</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>040 35017488</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung DIALOGE & BEGEGNUNGEN Förderung der Stiftung DIALOGE & BEGEGNUNGEN Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230442 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-230443;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung DIALOGE & BEGEGNUNGEN".
+_:n3-230443 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230444;
+    rdf:_2 _:n3-230445;
+    rdf:_3 _:n3-230446;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung DIALOGE & BEGEGNUNGEN".
+_:n3-230444 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-230445 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-230446 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN".
+_:n3-230447 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-230448;
+    rdf:_2 _:n3-230513;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n    <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n     <br></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n    <ul>\n     <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n     <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n     <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n    </ul>\n    <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n    <ul>\n     <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n     <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n     <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n    <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n     <br>\n     Entweder per eMail an&nbsp;</p>\n    <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n     <br>\n     <br></p>\n    <p>Oder per Post an</p>\n    <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n     <br>\n     Gemeinnützige Stiftung\n     <br>\n     Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n     <br>\n     Rothenbaumchaussee 3\n     <br>\n     20148 Hamburg</p>\n    <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n     <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Entwicklungszusammenarbeit</li>\n      <li>Kinder und Jugendliche</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Rothenbaumchaussee 3,\n      <br>\n      20148 Hamburg</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>040 35017488</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230448 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230449;
+    rdf:_2 _:n3-230497;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n   <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n    <br></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n   <ul>\n    <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n    <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n    <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n   </ul>\n   <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n   <ul>\n    <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n    <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n    <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n   <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n    <br>\n    Entweder per eMail an&nbsp;</p>\n   <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n    <br>\n    <br></p>\n   <p>Oder per Post an</p>\n   <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n    <br>\n    Gemeinnützige Stiftung\n    <br>\n    Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n    <br>\n    Rothenbaumchaussee 3\n    <br>\n    20148 Hamburg</p>\n   <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n    <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Entwicklungszusammenarbeit</li>\n     <li>Kinder und Jugendliche</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-230449 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230450;
+    rdf:_2 _:n3-230452;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n  <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n   <br></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n  <ul>\n   <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n   <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n   <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n  </ul>\n  <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n  <ul>\n   <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n   <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n   <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n  <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n   <br>\n   Entweder per eMail an&nbsp;</p>\n  <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n   <br>\n   <br></p>\n  <p>Oder per Post an</p>\n  <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n   <br>\n   Gemeinnützige Stiftung\n   <br>\n   Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n   <br>\n   Rothenbaumchaussee 3\n   <br>\n   20148 Hamburg</p>\n  <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n   <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung".
+_:n3-230450 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-230451;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN".
+_:n3-230451 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN".
+_:n3-230452 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230453;
+    rdf:_2 _:n3-230457;
+    rdf:_3 _:n3-230472;
+    rdf:_4 _:n3-230490;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n <p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n  <br></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n <ul>\n  <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n  <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n  <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n </ul>\n <p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n <ul>\n  <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n  <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n  <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n <p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n  <br>\n  Entweder per eMail an&nbsp;</p>\n <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n  <br>\n  <br></p>\n <p>Oder per Post an</p>\n <p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n  <br>\n  Gemeinnützige Stiftung\n  <br>\n  Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n  <br>\n  Rothenbaumchaussee 3\n  <br>\n  20148 Hamburg</p>\n <p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n  <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden. Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung) Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah. Weitere Informationen Link zur Antragsseite Link zur Förderung".
+_:n3-230453 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230454;
+    rdf:_2 _:n3-230455;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.</p>\n<p>Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert. Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.".
+_:n3-230454 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die gemeinnützige Stiftung Dialoge &amp; Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.";
+    <https://html.spec.whatwg.org/#innerText> "Die gemeinnützige Stiftung Dialoge & Begegnungen unterstützt Initiativen, Institutionen und Forschungsprojekte, die sich gegen Diskriminierung wenden sei sie rassistisch, ethnisch, kulturell oder religiös motiviert.".
+_:n3-230455 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;";
+    rdf:_2 _:n3-230456;
+    <https://html.spec.whatwg.org/#innerHTML> "Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.&nbsp;\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Ziel ist ein Beitrag zur Völkerverständigung, indem Toleranz und Dialogfähigkeit vor allem unter jungen Menschen gestärkt und Vorurteile abgebaut werden.".
+_:n3-230456 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230457 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230458;
+    rdf:_2 _:n3-230459;
+    rdf:_3 _:n3-230461;
+    rdf:_4 _:n3-230465;
+    rdf:_5 _:n3-230467;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,</p>\n<ul>\n <li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n <li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n <li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>\n</ul>\n<p><strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong></p>\n<ul>\n <li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n <li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n <li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Dazu werden Projekte und Akteure ideell und finanziell gefördert, insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus. Die Voraussetzungen für einen Förderantrag sind wie folgt: Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung)".
+_:n3-230458 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-230459 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230460;
+    rdf:_2 "Dazu werden Projekte und Akteure ideell und finanziell gefördert,";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:kontakt@dialoge-und-begegnungen.de\"></a>Dazu werden Projekte und Akteure ideell und finanziell gefördert,";
+    <https://html.spec.whatwg.org/#innerText> "Dazu werden Projekte und Akteure ideell und finanziell gefördert,".
+_:n3-230460 a <http://www.w3.org/1999/xhtml#a>;
+    <http://www.w3.org/1999/xhtml#href> "mailto:kontakt@dialoge-und-begegnungen.de".
+_:n3-230461 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-230462;
+    rdf:_2 _:n3-230463;
+    rdf:_3 _:n3-230464;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.</li>\n<li>Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.</li>\n<li>Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.</li>";
+    <https://html.spec.whatwg.org/#innerText> "insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg. Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden. Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.".
+_:n3-230462 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.";
+    <https://html.spec.whatwg.org/#innerHTML> "insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.";
+    <https://html.spec.whatwg.org/#innerText> "insbesondere Gemeinnützige Institutionen und Initiativen, und wissenschaftliche Forschungsprojekte, die in Konfliktzonen friedenspolitisch aktiv sind und interkulturelles Lernen ermöglichen. Im Mittelpunkt steht hier das Projekt Ferien vom Krieg.".
+_:n3-230463 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Workshops für Jugendliche aus Krisengebieten, die von geeigneten Einrichtungen zur gewaltfreien, dialogischen Konfliktbewältigung durchgeführt werden.".
+_:n3-230464 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.";
+    <https://html.spec.whatwg.org/#innerHTML> "Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.";
+    <https://html.spec.whatwg.org/#innerText> "Angebote zu besserer Bildung und Ausbildung für junge Menschen aus finanziell und sozial benachteiligten Erziehungsmilieus.".
+_:n3-230465 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230466;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Die Voraussetzungen für einen Förderantrag sind wie folgt:</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Die Voraussetzungen für einen Förderantrag sind wie folgt:".
+_:n3-230466 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Die Voraussetzungen für einen Förderantrag sind wie folgt:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Voraussetzungen für einen Förderantrag sind wie folgt:";
+    <https://html.spec.whatwg.org/#innerText> "Die Voraussetzungen für einen Förderantrag sind wie folgt:".
+_:n3-230467 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-230468;
+    rdf:_2 _:n3-230469;
+    rdf:_3 _:n3-230470;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?</li>\n<li>Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)</li>\n<li>Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)</li>";
+    <https://html.spec.whatwg.org/#innerText> "Beantragen Sie die Förderung für ein klar abgegrenztes Projekt? Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden) Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung)".
+_:n3-230468 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?";
+    <https://html.spec.whatwg.org/#innerHTML> "Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?";
+    <https://html.spec.whatwg.org/#innerText> "Beantragen Sie die Förderung für ein klar abgegrenztes Projekt?".
+_:n3-230469 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)";
+    <https://html.spec.whatwg.org/#innerHTML> "Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge &amp; Begegnungen nicht unterstützt werden)";
+    <https://html.spec.whatwg.org/#innerText> "Ist der Projektträger nachweislich als gemeinnützig anerkannt? (Einzelpersonen können von der Stiftung Dialoge & Begegnungen nicht unterstützt werden)".
+_:n3-230470 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (";
+    rdf:_2 _:n3-230471;
+    rdf:_3 ")";
+    <https://html.spec.whatwg.org/#innerHTML> "Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge &amp; Begegnungen? (<a href=\"https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf\">Satzung</a>)";
+    <https://html.spec.whatwg.org/#innerText> "Entspricht das zu fördernde Projekt dem Satzungszweck der Stiftung Dialoge & Begegnungen? (Satzung)".
+_:n3-230471 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Satzung";
+    <https://html.spec.whatwg.org/#innerHTML> "Satzung";
+    <https://html.spec.whatwg.org/#innerText> "Satzung";
+    <http://www.w3.org/1999/xhtml#href> "https://dialoge-und-begegnungen.de/wp-content/uploads/2023/09/Satzung_Dialoge_und_Begegnungen_2023.pdf".
+_:n3-230472 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230473;
+    rdf:_2 _:n3-230474;
+    rdf:_3 _:n3-230475;
+    rdf:_4 _:n3-230478;
+    rdf:_5 _:n3-230482;
+    rdf:_6 _:n3-230483;
+    rdf:_7 _:n3-230489;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.</p>\n<p><strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n <br>\n Entweder per eMail an&nbsp;</p>\n<p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n <br>\n <br></p>\n<p>Oder per Post an</p>\n<p><strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n <br>\n Gemeinnützige Stiftung\n <br>\n Mark Klimsa, Theo Christiansen, Alexandra P. Steinert\n <br>\n Rothenbaumchaussee 3\n <br>\n 20148 Hamburg</p>\n<p>Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus. Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an kontakt@dialoge-und-begegnungen.de Oder per Post an DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah.".
+_:n3-230473 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-230474 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.";
+    <https://html.spec.whatwg.org/#innerHTML> "Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite&nbsp;herunter und füllen das Antragsformular vollständig aus.";
+    <https://html.spec.whatwg.org/#innerText> "Für die Antragstellung laden Sie bitte das pdf Dokument auf der Antragsseite herunter und füllen das Antragsformular vollständig aus.".
+_:n3-230475 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230476;
+    rdf:_2 _:n3-230477;
+    rdf:_3 "Entweder per eMail an&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Anträge müssen grundsätzlich schriftlich eingereicht werden</strong>\n<br>\nEntweder per eMail an&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Anträge müssen grundsätzlich schriftlich eingereicht werden Entweder per eMail an".
+_:n3-230476 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Anträge müssen grundsätzlich schriftlich eingereicht werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge müssen grundsätzlich schriftlich eingereicht werden";
+    <https://html.spec.whatwg.org/#innerText> "Anträge müssen grundsätzlich schriftlich eingereicht werden".
+_:n3-230477 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230478 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230479;
+    rdf:_2 _:n3-230480;
+    rdf:_3 _:n3-230481;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>\n<br>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@dialoge-und-begegnungen.de".
+_:n3-230479 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "kontakt@dialoge-und-begegnungen.de";
+    <https://html.spec.whatwg.org/#innerHTML> "kontakt@dialoge-und-begegnungen.de";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@dialoge-und-begegnungen.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:kontakt@dialoge-und-begegnungen.de".
+_:n3-230480 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230481 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230482 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Oder per Post an";
+    <https://html.spec.whatwg.org/#innerHTML> "Oder per Post an";
+    <https://html.spec.whatwg.org/#innerText> "Oder per Post an".
+_:n3-230483 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230484;
+    rdf:_2 _:n3-230485;
+    rdf:_3 "Gemeinnützige Stiftung";
+    rdf:_4 _:n3-230486;
+    rdf:_5 "Mark Klimsa, Theo Christiansen, Alexandra P. Steinert";
+    rdf:_6 _:n3-230487;
+    rdf:_7 "Rothenbaumchaussee 3";
+    rdf:_8 _:n3-230488;
+    rdf:_9 "20148 Hamburg";
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>DIALOGE &amp; BEGEGNUNGEN</strong>\n<br>\nGemeinnützige Stiftung\n<br>\nMark Klimsa, Theo Christiansen, Alexandra P. Steinert\n<br>\nRothenbaumchaussee 3\n<br>\n20148 Hamburg";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN Gemeinnützige Stiftung Mark Klimsa, Theo Christiansen, Alexandra P. Steinert Rothenbaumchaussee 3 20148 Hamburg".
+_:n3-230484 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "DIALOGE &amp; BEGEGNUNGEN";
+    <https://html.spec.whatwg.org/#innerHTML> "DIALOGE &amp; BEGEGNUNGEN";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN".
+_:n3-230485 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230486 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230487 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230488 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230489 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.";
+    <https://html.spec.whatwg.org/#innerHTML> "Über den Antrag entscheidet der Vorstand der Stiftung Dialoge &amp; Begegnungen in der Regel zeitnah.";
+    <https://html.spec.whatwg.org/#innerText> "Über den Antrag entscheidet der Vorstand der Stiftung Dialoge & Begegnungen in der Regel zeitnah.".
+_:n3-230490 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230491;
+    rdf:_2 _:n3-230492;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n <li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Antragsseite Link zur Förderung".
+_:n3-230491 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-230492 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-230493;
+    rdf:_2 _:n3-230495;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a></li>\n<li><a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragsseite Link zur Förderung".
+_:n3-230493 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-230494;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragsseite</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragsseite".
+_:n3-230494 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Antragsseite";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Antragsseite";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragsseite";
+    <http://www.w3.org/1999/xhtml#href> "https://dialoge-und-begegnungen.de/foerderungen/foerderantrag/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230495 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-230496;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://dialoge-und-begegnungen.de/foerderungen/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-230496 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://dialoge-und-begegnungen.de/foerderungen/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230497 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-230498;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Entwicklungszusammenarbeit</li>\n    <li>Kinder und Jugendliche</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-230498 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230499;
+    rdf:_2 _:n3-230502;
+    rdf:_3 _:n3-230510;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Entwicklungszusammenarbeit</li>\n   <li>Kinder und Jugendliche</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-230499 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230500;
+    rdf:_2 _:n3-230501;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-230500 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-230501 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-230502 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230503;
+    rdf:_2 _:n3-230504;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Entwicklungszusammenarbeit</li>\n  <li>Kinder und Jugendliche</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche".
+_:n3-230503 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-230504 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230505;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Entwicklungszusammenarbeit</li>\n <li>Kinder und Jugendliche</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche".
+_:n3-230505 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-230506;
+    rdf:_2 _:n3-230507;
+    rdf:_3 _:n3-230508;
+    rdf:_4 _:n3-230509;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Entwicklungszusammenarbeit</li>\n<li>Kinder und Jugendliche</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Entwicklungszusammenarbeit Kinder und Jugendliche".
+_:n3-230506 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-230507 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-230508 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Entwicklungszusammenarbeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Entwicklungszusammenarbeit";
+    <https://html.spec.whatwg.org/#innerText> "Entwicklungszusammenarbeit".
+_:n3-230509 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-230510 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230511;
+    rdf:_2 _:n3-230512;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-230511 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-230512 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-230513 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230514;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Rothenbaumchaussee 3,\n     <br>\n     20148 Hamburg</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>040 35017488</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230514 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230515;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Rothenbaumchaussee 3,\n    <br>\n    20148 Hamburg</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>040 35017488</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230515 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230516;
+    rdf:_2 _:n3-230518;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Rothenbaumchaussee 3,\n   <br>\n   20148 Hamburg</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>040 35017488</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230516 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-230517;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung\" class=\"link\">DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung".
+_:n3-230517 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "DIALOGE &amp; BEGEGNUNGEN, Gemeinnützige Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "DIALOGE & BEGEGNUNGEN, Gemeinnützige Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/37964-dialoge-begegnungen-gemeinnuetzige-stiftung".
+_:n3-230518 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230519;
+    rdf:_2 _:n3-230522;
+    rdf:_3 _:n3-230526;
+    rdf:_4 _:n3-230530;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Rothenbaumchaussee 3,\n  <br>\n  20148 Hamburg</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>040 35017488</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Rothenbaumchaussee 3, 20148 Hamburg E-Mail kontakt@dialoge-und-begegnungen.de Webseite dialoge-und-begegnungen.de/ Telefon 040 35017488".
+_:n3-230519 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230520;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Rothenbaumchaussee 3,\n <br>\n 20148 Hamburg</p>";
+    <https://html.spec.whatwg.org/#innerText> "Rothenbaumchaussee 3, 20148 Hamburg".
+_:n3-230520 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Rothenbaumchaussee 3,";
+    rdf:_2 _:n3-230521;
+    rdf:_3 "20148 Hamburg";
+    <https://html.spec.whatwg.org/#innerHTML> "Rothenbaumchaussee 3,\n<br>\n20148 Hamburg";
+    <https://html.spec.whatwg.org/#innerText> "Rothenbaumchaussee 3, 20148 Hamburg".
+_:n3-230521 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-230522 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230523;
+    rdf:_2 _:n3-230524;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail kontakt@dialoge-und-begegnungen.de".
+_:n3-230523 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-230524 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230525;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:kontakt@dialoge-und-begegnungen.de\">kontakt@dialoge-und-begegnungen.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@dialoge-und-begegnungen.de".
+_:n3-230525 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "kontakt@dialoge-und-begegnungen.de";
+    <https://html.spec.whatwg.org/#innerHTML> "kontakt@dialoge-und-begegnungen.de";
+    <https://html.spec.whatwg.org/#innerText> "kontakt@dialoge-und-begegnungen.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:kontakt@dialoge-und-begegnungen.de".
+_:n3-230526 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230527;
+    rdf:_2 _:n3-230528;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite dialoge-und-begegnungen.de/".
+_:n3-230527 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-230528 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-230529;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://dialoge-und-begegnungen.de/\" target=\"_blank\">dialoge-und-begegnungen.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "dialoge-und-begegnungen.de/".
+_:n3-230529 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "dialoge-und-begegnungen.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "dialoge-und-begegnungen.de/";
+    <https://html.spec.whatwg.org/#innerText> "dialoge-und-begegnungen.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://dialoge-und-begegnungen.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-230530 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230531;
+    rdf:_2 _:n3-230532;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>040 35017488</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 040 35017488".
+_:n3-230531 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-230532 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "040 35017488";
+    <https://html.spec.whatwg.org/#innerHTML> "040 35017488";
+    <https://html.spec.whatwg.org/#innerText> "040 35017488".
+_:n3-230533 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-230534;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-230534 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230535;
+    rdf:_2 _:n3-230539;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-230535 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-230536;
+    rdf:_2 _:n3-230537;
+    rdf:_3 _:n3-230538;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-230536 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-230537 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-230538 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-230539 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-230540;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-230540 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-230541 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-230542 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-230543 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-230544 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-dialoge-begegnungen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-230545 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-230546 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung DIALOGE &amp; BEGEGNUNGEN  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung DIALOGE & BEGEGNUNGEN  –  Förderdatenbank".
+_:n3-230547 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-230548 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

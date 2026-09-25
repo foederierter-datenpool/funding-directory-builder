@@ -1,0 +1,751 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-166836 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166837;
+    rdf:_10 _:n3-166838;
+    rdf:_11 _:n3-166839;
+    rdf:_12 _:n3-166840;
+    rdf:_13 _:n3-166841;
+    rdf:_14 _:n3-166842;
+    rdf:_15 _:n3-166843;
+    rdf:_16 _:n3-166844;
+    rdf:_17 _:n3-166845;
+    rdf:_18 _:n3-166846;
+    rdf:_19 _:n3-166847;
+    rdf:_2 _:n3-166848;
+    rdf:_20 _:n3-166849;
+    rdf:_21 _:n3-166850;
+    rdf:_22 _:n3-166851;
+    rdf:_23 _:n3-166868;
+    rdf:_24 _:n3-166873;
+    rdf:_25 _:n3-166967;
+    rdf:_26 _:n3-166975;
+    rdf:_3 _:n3-166976;
+    rdf:_4 _:n3-166977;
+    rdf:_5 _:n3-166978;
+    rdf:_6 _:n3-166979;
+    rdf:_7 _:n3-166980;
+    rdf:_8 _:n3-166981;
+    rdf:_9 _:n3-166982;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderpott-ruhr";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr\">\n<meta property=\"og:locale\" content=\"de\">\n<title>FÖRDERPOTT.RUHR  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"FÖRDERPOTT.RUHR\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"FÖRDERPOTT.RUHR\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>FÖRDERPOTT.RUHR</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n     <p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n      <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Um Förderung können sich bewerben</p>\n      <ul>\n       <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n       <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n       <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n      </ul>\n      <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n      <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n      <p>Gefördert werden:</p>\n      <ul>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n       <li>Raummieten</li>\n       <li>Investitionskosten</li>\n       <li>Fort- und Weiterbildungskosten</li>\n       <li>Honorarkosten</li>\n       <li>Reisekosten</li>\n      </ul>\n      <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n      <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n      <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n      <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n       <br>\n       <br>\n       Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n       <br>\n       Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Nordrhein-Westfalen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>5.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Nein</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. September 2026</li>\n        <li>31. März 2027</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0201 83914987</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>FÖRDERPOTT.RUHR FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027 Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987 ©2026 Impressum Datenschutzerklärung".
+_:n3-166837 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-166838 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-166839 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-166840 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-166841 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "FÖRDERPOTT.RUHR";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-166842 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-166843 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "FÖRDERPOTT.RUHR";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-166844 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-166845 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-166846 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-166847 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-166848 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-166849 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-166850 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-166851 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166852;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-166852 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166853;
+    rdf:_2 _:n3-166855;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-166853 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166854;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-166854 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-166855 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166856;
+    rdf:_2 _:n3-166859;
+    rdf:_3 _:n3-166862;
+    rdf:_4 _:n3-166865;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-166856 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166857;
+    rdf:_2 _:n3-166858;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166857 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166858 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-166859 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166860;
+    rdf:_2 _:n3-166861;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166860 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166861 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-166862 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166863;
+    rdf:_2 _:n3-166864;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166863 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166864 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-166865 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166866;
+    rdf:_2 _:n3-166867;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166866 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-166867 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-166868 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-166869;
+    rdf:_2 _:n3-166872;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-166869 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-166870;
+    rdf:_2 _:n3-166871;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-166870 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-166871 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-166872 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-166873 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-166874;
+    rdf:_2 _:n3-166879;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>FÖRDERPOTT.RUHR</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n    <p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n     <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Um Förderung können sich bewerben</p>\n     <ul>\n      <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n      <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n      <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n     </ul>\n     <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n     <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n     <p>Gefördert werden:</p>\n     <ul>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n      <li>Raummieten</li>\n      <li>Investitionskosten</li>\n      <li>Fort- und Weiterbildungskosten</li>\n      <li>Honorarkosten</li>\n      <li>Reisekosten</li>\n     </ul>\n     <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n     <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n     <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n     <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n      <br>\n      <br>\n      Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n      <br>\n      Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Nordrhein-Westfalen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>5.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Nein</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. September 2026</li>\n       <li>31. März 2027</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0201 83914987</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>FÖRDERPOTT.RUHR FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027 Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166874 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166875;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>FÖRDERPOTT.RUHR</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>FÖRDERPOTT.RUHR".
+_:n3-166875 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166876;
+    rdf:_2 _:n3-166877;
+    rdf:_3 _:n3-166878;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>FÖRDERPOTT.RUHR</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>FÖRDERPOTT.RUHR".
+_:n3-166876 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-166877 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-166878 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "FÖRDERPOTT.RUHR";
+    <https://html.spec.whatwg.org/#innerHTML> "FÖRDERPOTT.RUHR";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR".
+_:n3-166879 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-166880;
+    rdf:_2 _:n3-166950;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n   <p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n    <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Um Förderung können sich bewerben</p>\n    <ul>\n     <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n     <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n     <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n    </ul>\n    <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n    <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n    <p>Gefördert werden:</p>\n    <ul>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n     <li>Raummieten</li>\n     <li>Investitionskosten</li>\n     <li>Fort- und Weiterbildungskosten</li>\n     <li>Honorarkosten</li>\n     <li>Reisekosten</li>\n    </ul>\n    <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n    <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n    <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n    <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n     <br>\n     <br>\n     Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n     <br>\n     Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Nordrhein-Westfalen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>5.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Nein</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. September 2026</li>\n      <li>31. März 2027</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0201 83914987</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027 Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166880 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166881;
+    rdf:_2 _:n3-166923;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n  <p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n   <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Um Förderung können sich bewerben</p>\n   <ul>\n    <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n    <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n    <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n   </ul>\n   <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n   <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n   <p>Gefördert werden:</p>\n   <ul>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n    <li>Raummieten</li>\n    <li>Investitionskosten</li>\n    <li>Fort- und Weiterbildungskosten</li>\n    <li>Honorarkosten</li>\n    <li>Reisekosten</li>\n   </ul>\n   <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n   <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n   <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n   <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n    <br>\n    <br>\n    Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n    <br>\n    Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Nordrhein-Westfalen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>5.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Nein</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. September 2026</li>\n     <li>31. März 2027</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027".
+_:n3-166881 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166882;
+    rdf:_2 _:n3-166885;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n <p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n  <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Um Förderung können sich bewerben</p>\n  <ul>\n   <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n   <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n   <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n  </ul>\n  <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n  <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n  <p>Gefördert werden:</p>\n  <ul>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n   <li>Raummieten</li>\n   <li>Investitionskosten</li>\n   <li>Fort- und Weiterbildungskosten</li>\n   <li>Honorarkosten</li>\n   <li>Reisekosten</li>\n  </ul>\n  <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n  <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n  <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n  <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n   <br>\n   <br>\n   Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n   <br>\n   Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm".
+_:n3-166882 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-166883;
+    rdf:_2 _:n3-166884;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">FÖRDERPOTT.RUHR</h1>\n<p class=\"text-lg text-gray-500\">Ermöglicht durch das Stiftungsnetzwerk Ruhr</p>";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR Ermöglicht durch das Stiftungsnetzwerk Ruhr".
+_:n3-166883 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "FÖRDERPOTT.RUHR";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "FÖRDERPOTT.RUHR";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR".
+_:n3-166884 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ermöglicht durch das Stiftungsnetzwerk Ruhr";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Ermöglicht durch das Stiftungsnetzwerk Ruhr";
+    <https://html.spec.whatwg.org/#innerText> "Ermöglicht durch das Stiftungsnetzwerk Ruhr".
+_:n3-166885 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166886;
+    rdf:_2 _:n3-166889;
+    rdf:_3 _:n3-166910;
+    rdf:_4 _:n3-166918;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n <p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Um Förderung können sich bewerben</p>\n <ul>\n  <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n  <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n  <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n </ul>\n <p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n <p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n <p>Gefördert werden:</p>\n <ul>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n  <li>Raummieten</li>\n  <li>Investitionskosten</li>\n  <li>Fort- und Weiterbildungskosten</li>\n  <li>Honorarkosten</li>\n  <li>Reisekosten</li>\n </ul>\n <p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n <p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n <p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n <p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n  <br>\n  <br>\n  Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n  <br>\n  Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw. Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung. Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung. Weitere Informationen Link zum Programm".
+_:n3-166886 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166887;
+    rdf:_2 _:n3-166888;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.</p>\n<p>Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen. Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.".
+_:n3-166887 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.";
+    <https://html.spec.whatwg.org/#innerText> "Ausgezeichnet und finanziell unterstützt werden Ideen und Projekte, die Bewohnerinnen und Bewohner für den eigenen Stadtteil initiieren oder bereits erfolgreich umsetzen. Durch den „Förderpott.Ruhr“ erhalten engagierte Menschen, gemeinnützige Organisationen, Initiativen, Vereine und Projekte eine individuelle Unterstützungsmöglichkeit zur Umsetzung ihrer Ideen für das Gemeinwesen.".
+_:n3-166888 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.";
+    <https://html.spec.whatwg.org/#innerHTML> "Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.";
+    <https://html.spec.whatwg.org/#innerText> "Dabei wird unterstützt, was im Quartier hilft – Vom Material für ein Gemeinschaftsgartenprojekt, Honorar- und Raumkosten für die integrative Theaterinitiative, ein Lastenfahrrad fürs Quartier, die Umsetzung eines BarCamps, den Roboterworkshop mit Jugendlichen, Honorarkosten für Anti-Gewalttrainings usw.".
+_:n3-166889 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166890;
+    rdf:_10 _:n3-166891;
+    rdf:_2 _:n3-166892;
+    rdf:_3 _:n3-166893;
+    rdf:_4 _:n3-166897;
+    rdf:_5 _:n3-166898;
+    rdf:_6 _:n3-166899;
+    rdf:_7 _:n3-166900;
+    rdf:_8 _:n3-166908;
+    rdf:_9 _:n3-166909;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Um Förderung können sich bewerben</p>\n<ul>\n <li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n <li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n <li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>\n</ul>\n<p>Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.</p>\n<p>Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.</p>\n<p>Gefördert werden:</p>\n<ul>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n <li>Raummieten</li>\n <li>Investitionskosten</li>\n <li>Fort- und Weiterbildungskosten</li>\n <li>Honorarkosten</li>\n <li>Reisekosten</li>\n</ul>\n<p>Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.</p>\n<p>Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.</p>\n<p>Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Um Förderung können sich bewerben Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten. Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen. Gefördert werden: Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen. Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden. Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.".
+_:n3-166890 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-166891 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.";
+    <https://html.spec.whatwg.org/#innerText> "Der Mindestförderbetrag beträgt 500 Euro, der Höchstsatz 5.000 Euro pro Bewerbung.".
+_:n3-166892 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Um Förderung können sich bewerben";
+    <https://html.spec.whatwg.org/#innerHTML> "Um Förderung können sich bewerben";
+    <https://html.spec.whatwg.org/#innerText> "Um Förderung können sich bewerben".
+_:n3-166893 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166894;
+    rdf:_2 _:n3-166895;
+    rdf:_3 _:n3-166896;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)</li>\n<li>Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)</li>\n<li>Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden</li>";
+    <https://html.spec.whatwg.org/#innerText> "Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad) Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad) Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden".
+_:n3-166894 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)";
+    <https://html.spec.whatwg.org/#innerHTML> "Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)";
+    <https://html.spec.whatwg.org/#innerText> "Gruppen ab drei Personen (ohne rechtlichen Organisationsgrad)".
+_:n3-166895 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)";
+    <https://html.spec.whatwg.org/#innerHTML> "Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)";
+    <https://html.spec.whatwg.org/#innerText> "Nachbarschaftsinitiativen (ohne rechtlichen Organisationsgrad)".
+_:n3-166896 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden";
+    <https://html.spec.whatwg.org/#innerHTML> "Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden";
+    <https://html.spec.whatwg.org/#innerText> "Steuerbegünstigte operativ tätige Körperschaften, wie z.B. Vereine, Verbände, Stiftungen, Gesellschaften, Kirchengemeinden".
+_:n3-166897 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.";
+    <https://html.spec.whatwg.org/#innerText> "Mitglieder des Stiftungsnetzwerks Ruhr können keine Mittel aus dem Förderpott.Ruhr erhalten.".
+_:n3-166898 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.";
+    <https://html.spec.whatwg.org/#innerText> "Die Mittel aus dem „Förderpott.Ruhr“ sollen nicht der dauerhaften Förderung von Infrastruktur dienen, sondern direkt den engagierten Menschen zur Verfügung stehen, die für das Gemeinwesen tätig sind. Sie sollen in die Lage versetzt werden, ihre Ideen und Projekte durch die Auszeichnung umzusetzen.".
+_:n3-166899 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden:";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden:";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden:".
+_:n3-166900 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166901;
+    rdf:_2 _:n3-166902;
+    rdf:_3 _:n3-166903;
+    rdf:_4 _:n3-166904;
+    rdf:_5 _:n3-166905;
+    rdf:_6 _:n3-166906;
+    rdf:_7 _:n3-166907;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Personalkosten</li>\n<li>Sachkosten</li>\n<li>Raummieten</li>\n<li>Investitionskosten</li>\n<li>Fort- und Weiterbildungskosten</li>\n<li>Honorarkosten</li>\n<li>Reisekosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten Sachkosten Raummieten Investitionskosten Fort- und Weiterbildungskosten Honorarkosten Reisekosten".
+_:n3-166901 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-166902 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-166903 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Raummieten";
+    <https://html.spec.whatwg.org/#innerHTML> "Raummieten";
+    <https://html.spec.whatwg.org/#innerText> "Raummieten".
+_:n3-166904 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Investitionskosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Investitionskosten";
+    <https://html.spec.whatwg.org/#innerText> "Investitionskosten".
+_:n3-166905 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Fort- und Weiterbildungskosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Fort- und Weiterbildungskosten";
+    <https://html.spec.whatwg.org/#innerText> "Fort- und Weiterbildungskosten".
+_:n3-166906 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-166907 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Reisekosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Reisekosten";
+    <https://html.spec.whatwg.org/#innerText> "Reisekosten".
+_:n3-166908 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin&nbsp;nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.";
+    <https://html.spec.whatwg.org/#innerText> "Es soll Vielfalt gefördert werden. Deshalb kann jeder Bewerber und jede Bewerberin nur einmal pro Jahr eine Zusage erhalten. Wurde ein Projekt unterstützt, kann es frühestens im Folgejahr der Erstzusage und nur ein weiteres Mal Gelder erhalten. Projekte dürfen bereits umgesetzt werden, wenn der Förderpott.Ruhr unterstützt. Aber die geförderten Kosten dürfen erst nach Erhalt der Mittel anfallen.".
+_:n3-166909 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.";
+    <https://html.spec.whatwg.org/#innerText> "Die Projektgelder aus dem Förderpott.Ruhr müssen innerhalb eines Jahres nach Erhalt für den zugesagten Zweck verbraucht werden. Es besteht kein Anspruch auf Förderung. Über die einzelnen Bewerbungen wird nach dem jeweiligen Stichtag (31. März/30. September) sowie im Rahmen der Verfügbarkeit der Mittel entschieden.".
+_:n3-166910 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166911;
+    rdf:_2 _:n3-166912;
+    rdf:_3 _:n3-166914;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a></p>\n<p>In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n <br>\n <br>\n Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n <br>\n Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b... In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.".
+_:n3-166911 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-166912 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bewerbung läuft über ein Online-Formular unter&nbsp;";
+    rdf:_2 _:n3-166913;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bewerbung läuft über ein Online-Formular unter&nbsp;<a href=\"https://www.foerderpott.ruhr/bewerbung/\">https://www.foerderpott.ruhr/b...</a>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bewerbung läuft über ein Online-Formular unter https://www.foerderpott.ruhr/b...".
+_:n3-166913 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "https://www.foerderpott.ruhr/b...";
+    <https://html.spec.whatwg.org/#innerHTML> "https://www.foerderpott.ruhr/b...";
+    <https://html.spec.whatwg.org/#innerText> "https://www.foerderpott.ruhr/b...";
+    <http://www.w3.org/1999/xhtml#href> "https://www.foerderpott.ruhr/bewerbung/".
+_:n3-166914 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.";
+    rdf:_2 _:n3-166915;
+    rdf:_3 _:n3-166916;
+    rdf:_4 "Eine Jury berät und entscheidet über die eingegangenen Bewerbungen.";
+    rdf:_5 _:n3-166917;
+    rdf:_6 "Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.";
+    <https://html.spec.whatwg.org/#innerHTML> "In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber&nbsp;angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen.\n<br>\n<br>\nEine Jury berät und entscheidet über die eingegangenen Bewerbungen.\n<br>\nSind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und&nbsp;Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.";
+    <https://html.spec.whatwg.org/#innerText> "In den Bewerbungen müssen der Zweck, der Bedarf, die erwartete nachhaltige Wirkung für das Quartier, das Gesamtbudget und die Verwendung der Gelder begründet werden. Ebenso sollen die Bewerberinnen und Bewerber angeben, welchen Eigenanteil sie zu leisten vermögen. Steuerbegünstigte Körperschaften müssen ihren aktuellen Freistellungsbescheid zur Körperschaftsteuer in Kopie vorlegen. Eine Jury berät und entscheidet über die eingegangenen Bewerbungen. Sind die Kriterien erfüllt und hat die Jury einen Beschluss über eine Auszeichnung gefasst, wird der Betrag nach Vorlage der Mittelanforderung ausgezahlt. Alle Bewerber und Bewerberinnen erhalten spätestens sechs Wochen nach der jeweiligen Bewerbungsfrist eine Rückmeldung.".
+_:n3-166915 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166916 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166917 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-166918 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166919;
+    rdf:_2 _:n3-166920;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm".
+_:n3-166919 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-166920 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166921;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-166921 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-166922;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.foerderpott.ruhr/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-166922 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.foerderpott.ruhr/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166923 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-166924;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Nordrhein-Westfalen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>5.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Nein</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. September 2026</li>\n    <li>31. März 2027</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027".
+_:n3-166924 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166925;
+    rdf:_2 _:n3-166930;
+    rdf:_3 _:n3-166938;
+    rdf:_4 _:n3-166941;
+    rdf:_5 _:n3-166944;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Nordrhein-Westfalen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>5.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Nein</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. September 2026</li>\n   <li>31. März 2027</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Max. Fördersumme: 5.000 € Eigenmittel benötigt: Nein Bewerbungsfrist: 30. September 2026 31. März 2027".
+_:n3-166925 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166926;
+    rdf:_2 _:n3-166927;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Nordrhein-Westfalen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen".
+_:n3-166926 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-166927 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166928;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Nordrhein-Westfalen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-166928 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166929;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Nordrhein-Westfalen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-166929 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerHTML> "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-166930 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166931;
+    rdf:_2 _:n3-166932;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-166931 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-166932 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166933;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-166933 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166934;
+    rdf:_2 _:n3-166935;
+    rdf:_3 _:n3-166936;
+    rdf:_4 _:n3-166937;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales".
+_:n3-166934 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-166935 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-166936 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-166937 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-166938 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166939;
+    rdf:_2 _:n3-166940;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>5.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 5.000 €".
+_:n3-166939 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-166940 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "5.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "5.000 €";
+    <https://html.spec.whatwg.org/#innerText> "5.000 €".
+_:n3-166941 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166942;
+    rdf:_2 _:n3-166943;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Nein".
+_:n3-166942 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-166943 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-166944 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166945;
+    rdf:_2 _:n3-166946;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. September 2026</li>\n  <li>31. März 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. September 2026 31. März 2027".
+_:n3-166945 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-166946 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166947;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. September 2026</li>\n <li>31. März 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026 31. März 2027".
+_:n3-166947 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-166948;
+    rdf:_2 _:n3-166949;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. September 2026</li>\n<li>31. März 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026 31. März 2027".
+_:n3-166948 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. September 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. September 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-166949 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. März 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "31. März 2027";
+    <https://html.spec.whatwg.org/#innerText> "31. März 2027".
+_:n3-166950 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166951;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0201 83914987</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166951 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166952;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0201 83914987</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166952 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166953;
+    rdf:_2 _:n3-166955;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0201 83914987</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt Agentur Essen e.V. E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166953 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-166954;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v\" class=\"link\">Ehrenamt Agentur Essen e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt Agentur Essen e.V.".
+_:n3-166954 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Ehrenamt Agentur Essen e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Ehrenamt Agentur Essen e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Ehrenamt Agentur Essen e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/35617-ehrenamt-agentur-essen-e-v".
+_:n3-166955 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166956;
+    rdf:_2 _:n3-166960;
+    rdf:_3 _:n3-166964;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0201 83914987</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@foerderpott.ruhr Webseite www.ehrenamtessen.de/ Telefon 0201 83914987".
+_:n3-166956 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166957;
+    rdf:_2 _:n3-166958;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@foerderpott.ruhr".
+_:n3-166957 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-166958 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166959;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@foerderpott.ruhr\">info@foerderpott.ruhr</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@foerderpott.ruhr".
+_:n3-166959 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@foerderpott.ruhr";
+    <https://html.spec.whatwg.org/#innerHTML> "info@foerderpott.ruhr";
+    <https://html.spec.whatwg.org/#innerText> "info@foerderpott.ruhr";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@foerderpott.ruhr".
+_:n3-166960 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166961;
+    rdf:_2 _:n3-166962;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.ehrenamtessen.de/".
+_:n3-166961 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-166962 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-166963;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ehrenamtessen.de/\" target=\"_blank\">www.ehrenamtessen.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.ehrenamtessen.de/".
+_:n3-166963 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.ehrenamtessen.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.ehrenamtessen.de/";
+    <https://html.spec.whatwg.org/#innerText> "www.ehrenamtessen.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ehrenamtessen.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-166964 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166965;
+    rdf:_2 _:n3-166966;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0201 83914987</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0201 83914987".
+_:n3-166965 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-166966 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0201 83914987";
+    <https://html.spec.whatwg.org/#innerHTML> "0201 83914987";
+    <https://html.spec.whatwg.org/#innerText> "0201 83914987".
+_:n3-166967 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-166968;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166968 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166969;
+    rdf:_2 _:n3-166973;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166969 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-166970;
+    rdf:_2 _:n3-166971;
+    rdf:_3 _:n3-166972;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-166970 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-166971 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-166972 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-166973 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-166974;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-166974 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-166975 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-166976 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-166977 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-166978 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderpott-ruhr";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-166979 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-166980 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "FÖRDERPOTT.RUHR  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "FÖRDERPOTT.RUHR  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "FÖRDERPOTT.RUHR  –  Förderdatenbank".
+_:n3-166981 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-166982 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

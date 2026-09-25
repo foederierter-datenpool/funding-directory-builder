@@ -1,0 +1,1910 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix cdp: <https://civic-data.de/pipeline#>.
+
+cdp:ff-02b253da-4fec-4e9d-836e-c8a3b3d07a4e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pflegeplätze der Kurzzeitpflege, Verhinderungspflege und palliativen Pflege";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für Pflegeplätze der Kurzzeitpflege, Verhinderungspflege und palliativen Pflege.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-0303340e-ac22-4050-8a7f-d15c448443a3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Weiterbildungsinitiatorinnen und -initiatoren sowie einer Koordinationsstelle";
+    xyz:description "Die Förderung unterstützt Beratungsleistungen für Beschäftigte und Unternehmen, um die Weiterqualifizierung zu fördern und damit den Arbeitsmarkt zu stärken.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "arbeit", "beratung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-031fcdbf-d69d-420f-8e70-2ac0f52c4ed5 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "DigitalPakt Schule 2019 bis 2024; Beantragung einer Förderung für die digitale Bildungsinfrastruktur an bayerischen Schulen";
+    xyz:description "Kommunale Schulaufwandsträger sowie private Träger staatlich anerkannter und genehmigter Ersatzschulen  können eine Förderung für den Ausbau der digitalen\nBildungsinfrastruktur (dBIR) beantragen.";
+    xyz:status "ended";
+    xyz:funderLevel "bund";
+    xyz:fundingArea "digitalisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2022-06-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-03d8393d-6efc-41bf-9818-5db24e18638e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F4-Förderung von Projekten nichtstaatlicher Bibliotheken";
+    xyz:description "Der Freistaat Bayern fördert Sonderprojekte nichtstaatlicher Bibliotheken.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-04e1915c-1652-4430-8a6f-d4120ed4bdfd cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Maßnahmen im Bereich der Nutzbarmachung, Verarbeitung und Nutzung von Gesundheitsdaten - Gesundheitsbereich- und Prävention";
+    xyz:description "Mit der Förderlinie 2 der Gesundheits- und Pflegedigitalisierungsrichtlinie (BayDiGuP) werden durch den Freistaat Bayern Maßnahmen im Bereich der Nutzbarmachung, Verarbeitung und Nutzung von Gesundheitsdaten mit dem Ziel des Aufbaus einer Infrastruktur für vernetzte Gesundheitsdaten gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-084dfb2e-0fe0-46af-9df2-55fb558d264f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für überregionale offene Behindertenarbeit (OBA)";
+    xyz:description "Der Freistaat Bayern und die bayerischen Bezirke gewähren Zuwendungen für Maßnahmen der ambulanten Hilfen im Bereich der überregionalen Offenen Behindertenarbeit.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-0c721be5-842e-446c-a93a-fda037d052e8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Ganztagsangebot; Beantragung der Einrichtung und Förderung von offenen Ganztagsangeboten";
+    xyz:description "Der Freistaat Bayern fördert offene Ganztagsangebote an Schulen. Offene Ganztagsangebote werden auf Antrag des Schulaufwandsträgers genehmigt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "regionalfoerderung", "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-0c7b236f-5a94-4b03-9542-a8f377d2788f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Modernisierungsmaßnahmen bei Mietwohnungen und Pflegeplätze in stationären Pflegeeinrichtungen";
+    xyz:description "Das Förderverfahren wird derzeit überarbeitet. Aktuelle Informationen zum Jahresbauprogramm 2027 stehen unter \"https://www.stmb.bayern.de/wohnen/foerderung\" zur Verfügung. Unten stehende Informationen beziehen sich auf die bis Ende 2026 geltenden Richtlinien.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-0f5e29a2-e852-4ec4-878c-eaec01cc56f2 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "D2-Förderung von Veranstaltungen und sonstigen Projekten (insb. im Bereich der zeitgenössischen Musik), Maßnahmen zur musikalischen Begabtenförderung";
+    xyz:description "Der Freistaat Bayern fördert Sonderkonzerte mit professionellen Musikerinnen und Musikern bzw. Ensembles, neue Konzertreihen oder Festivals, zeitgenössische Musik, Musik-Wettbewerbe, Maßnahmen der musikalischen Begabtenförderung";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-104d59cc-ec8e-4688-b7bc-860da8d743eb cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Grün- und Erholungsanlagen aus Anlass von Gartenschauen";
+    xyz:description "Der Freistaat Bayern fördert die investiven Ausgaben von Städten, Märkten oder Gemeinden für dauerhafte Grün- und Erholungsanlagen aus Anlass von Bayerischen Landesgartenschauen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport", "messen_und_ausstellungen";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-106a183f-e258-4f78-99d3-a250bf437d7a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Fit for Work - Chance Teilzeitausbildung (Aktion 4.2)";
+    xyz:description "Ausbildungsbetriebe können für die Durchführung von Ausbildungsverhältnissen in Teilzeit in Bayern eine ESF+ Förderung von bis zu 6.000 € beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "eu";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-11a3ca68-c6dc-48f0-b64c-39280534c294 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Ausstellungsförderung";
+    xyz:description "Der Freistaat Bayern unterstützt beispielsweise Kunstvereine dabei, mehr Ausstellungen durchzuführen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2024-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-12949681-3a6f-4397-82c9-cd2dc630ea52 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Private Schulen; Beantragung eines Zuschusses zur Lernmittelfreiheit";
+    xyz:description "Zuschuss für Träger privater Ersatzschulen, wenn Lernmittelfreiheit wie an den öffentlichen Schulen gewährt wird";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-187090b3-9cdc-4e9c-ae36-d1986042e56f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung zur besseren Teilhabe demenzkranker Menschen und der Aufbau demenzsensiblen Strukturen vor Ort - Bayerischer Demenzfonds";
+    xyz:description "Mit dem Bayerischen Demenzfonds fördert der Freistaat Bayern Angebote zur Teilhabe von Menschen mit Demenz und ihren An- und Zugehörigen sowie Programme zur Stärkung von demenzsensiblen Kommunen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "digitalisierung", "kultur_medien_und_sport", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-18b81704-ef64-4b78-9721-3fa64b10fb1a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pflegeplätze für pflegebedürftige Menschen mit Behinderung in Wohnformen für volljährige Menschen mit Behinderung";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für Pflegeplätze für pflegebedürftige Menschen mit Behinderung in Wohnformen für volljährige Menschen mit Behinderung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-1a391e8d-9719-4fd5-9938-9bfdbed101ac cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Berufsorientierungsmaßnahmen an Mittelschulen; Beantragung einer Förderung";
+    xyz:description "Schüler an Mittelschulen werden ab der 7. Jahrgangsstufe im Rahmen der erweiterten vertieften Berufsorientierung mit Berufsorientierungsmaßnahmen (BOM) intensiv auf den Übergang von der Schule in den Beruf vorbereitet werden. Diese Maßnahmen werden gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-1ad06f08-e539-4675-b5d3-8f548326a20f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung der Kosten der Beseitigung von Elementar-/Unwetterschäden an Kommunalstraßen nach Art. 13c Abs. 1 BayFAG";
+    xyz:description "Kommunen können für Kosten der Beseitigung von Schäden, die durch ein Elementarschadensereignis/Unwetter an nach Art. 13c Abs. 1 BayFAG förderfähigen kommunalen Straßen- und Brückenbauwerken verursacht wurden, eine Förderung nach Art. 13c Abs. 1 BayFAG erhalten.";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-1c9c189a-0879-4cd4-a1d3-02ca1ee59177 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Stipendium für Medizinstudierende";
+    xyz:description "Das Stipendienprogramm richtet sich an Medizinstudierende, die später ihre Facharztweiterbildung im ländlichen Raum absolvieren und anschließend für mindestens fünf Jahre auf dem Land tätig sind.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "existenzgruendung_und_festigung", "gesundheit_und_soziales", "landwirtschaft_und_laendliche_entwicklung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE1", "DE2", "DE3", "DE4", "DE5", "DE6", "DE7", "DE8", "DE9", "DEA", "DEB", "DEC", "DED", "DEE", "DEF", "DEG".
+cdp:ff-1cc7921d-78ad-4ad0-8551-c4fa7f034c62 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Verkehrstechnologien und Logistikkonzepte; Beantragung einer Förderung";
+    xyz:description "Der Freistaat fördert Pilotprojekte und Demonstrationsvorhaben zur\nbeschleunigten Einführung neuer Verkehrstechnologien sowie innovative\nLogistikkonzepte und Einzelmaßnahmen zur Optimierung des\n(Schienen-)Güterverkehrs.";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien", "infrastruktur", "digitalisierung", "beratung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen";
+    xyz:location "DE2".
+cdp:ff-1d0b6a11-ba10-47c3-9cfa-be4250e0f656 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Radverkehrsinfrastrukturförderung \"Sonderprogramm Stadt und Land\"";
+    xyz:description "Mit dem Sonderprogramm \"Stadt und Land\" unterstützt der Bund die Länder und die Kommunen dabei, die Radverkehrsinfrastruktur zu verbessern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-1e9de928-b3f7-4ace-9b98-6e0e984b3c57 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung nichtstaatlicher Theater und von Einrichtungen auf dem Gebiet der darstellenden Kunst";
+    xyz:description "Der Freistaat Bayern gewährt unter bestimmten Voraussetzungen Zuwendungen zur institutionellen Förderung von professionellen und überregional bedeutsamen Theatern und anderen Einrichtungen auf dem Gebiet der darstellenden Kunst.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "einzelunternehmen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-215fb07e-d9ae-4d01-8510-1c0566e2b467 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Projektförderung zur freiwilligen Rückkehr aus Bayern, zur Reintegration sowie zur Rückkehr- und Reintegrationsvorbereitung";
+    xyz:description "Der Freistaat Bayern fördert Projekte, die die freiwillige Ausreise, insbesondere ausreisepflichtiger ausländischer Staatsangehöriger, in ihr Herkunftsland oder einen aufnahmebereiten Drittstaat unterstützen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "arbeit";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-21fc0e2a-7409-4824-852f-b7c78779f295 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung literarischer Festivals und Veranstaltungen";
+    xyz:description "Der Freistaat Bayern fördert die Durchführung professioneller literarischer Festivals und Veranstaltungen. Wenn Sie ein literarisches Festival oder eine Veranstaltung zur Literaturvermittlung planen, können Sie eine Förderung beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-221f0407-0aa5-4d62-a41a-94d76419fe8e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Lebenswirklichkeit in Bayern";
+    xyz:description "Das Bayerische Staatsministerium des Innern, für Sport und Integration fördert mit der Projektreihe \"Lebenswirklichkeit in Bayern\" Bildungs- und Begegnungsangebote zum gegenseitigen Verständnis von Zugewanderten und Einheimischen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-240799e0-2779-48a2-a327-8646ca4cea86 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Fortbildungsmaßnahmen im Bereich der ehrenamtlichen Suchtkrankenhilfe";
+    xyz:description "Förderung von Fortbildungsmaßnahmen im Bereich der ehrenamtlichen Suchtkrankenhilfe.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-248722ab-a4ef-413a-90ea-b0a0152fff58 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Hauptamtliche Integrationslotsinnen und -lotsen";
+    xyz:description "Der Freistaat Bayern unterstützt mit der Förderung von hauptamtlichen Integrationslotsinnen und Integrationslotsen die Kommunen dabei, die Tätigkeit von Ehrenamtlichen im Bereich Asyl und Integration auf kommunaler Ebene praxisbezogen zu unterstützen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-24bf6ee0-b8fa-4beb-ac37-0856883e9f67 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Radikalisierungsprävention; Beantragung einer Förderung für Projekte";
+    xyz:description "Vereine, Kommunen, Initiativen oder Zusammenschlüsse, die mit Projekten auf die Thematik Salafismus/Islamismus, Rechtsradikalismus, Linksradikalismus oder Antisemitismus aufmerksam machen möchten, können durch den Freistaat Bayern gefördert werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-26c32b94-4a9a-458f-afda-b70c3056f990 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Digitalbonus";
+    xyz:description "Mit dem Förderprogramm Digitalbonus will der Freistaat Bayern kleine Unternehmen unterstützen, sich für die Herausforderungen der digitalen Welt zu rüsten.  Der Digitalbonus ermöglicht es, sich durch Hard- und Software zu digitalisieren und die IT-Sicherheit zu verbessern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "digitalisierung";
+    xyz:fundingType "zuschuss", "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-28476e68-f04c-4613-931e-49b841790cc5 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Linienomnibussen im ÖPNV";
+    xyz:description "Die Beschaffung von Linienomnibussen kann bezuschusst werden, soweit diese zum Erhalt und zur Verbesserung von Linienverkehren nach § 42 des Personenbeförderungsgesetzes erforderlich sind.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien", "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen";
+    xyz:location "DE2";
+    xyz:deadline "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-298c967c-a5a4-413d-bd43-a077c40e2ede cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung besonderer Maßnahmen zur Stärkung des Integrationsprozesses";
+    xyz:description "Die gelingende Integration von Menschen mit Migrationsgeschichte bzw. guter Bleibeperspektive wird  vom Freistaat Bayern durch spezielle Integrationsprojekte (sog. \"besondere Maßnahmen\") unterstützt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2026-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-2a567659-ff4e-44e4-a672-e0622d8dd809 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sport- und Schützenverein (Vereinspauschale)";
+    xyz:description "Der Freistaat Bayern unterstützt den Sportbetrieb in den Sport- und Schützenvereinen in Form einer Vereinspauschale. Die Zuschüsse müssen bis spätestens zum 1. März des Förderjahres bei der zuständigen Kreisverwaltungsbehörde beantragt werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-2b4a2765-c671-4643-bbdb-24d8d0b388a3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F2-Förderung von Investitionen bei nichtstaatlichen Bibliotheken";
+    xyz:description "Der Freistaat Bayern fördert Investitionen bei nichtstaatlichen Bibliotheken";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-2c00720d-3881-4ac9-9731-d625a495458b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Güterverkehrszentrum; Beantragung einer Förderung";
+    xyz:description "Gemeinden und Gemeindeverbände können Förderungen für Planung, Konzeptionierung und infrastrukturelle Investitionen in Güterverkehrszentren beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-2d5a0217-7873-46eb-85a5-0119536e738b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung innovativer Einzelveranstaltungen und Projekte im Bereich Heimatpflege";
+    xyz:description "Der Freistaat Bayern fördert heimatpflegerische Initiativen und die Stärkung des Heimat- und Traditionsbewusstseins.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-2e1de8e5-b84b-4165-b574-022dc378e167 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung des ehrenamtlichen Engagements in der Erziehungshilfe";
+    xyz:description "Der Freistaat Bayern fördert das ehrenamtliche Engagement in der Erziehungshilfe.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-2e505761-082c-4d31-8dca-bf24265d787e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Geburtshilfe; Beantragung einer Förderung für Defizitausgleich für Krankenhaus";
+    xyz:description "Der Freistaat Bayern unterstützt Landkreise und kreisfeie Städte, die Defizite kleinerer Abteilungen Gynäkologie und Geburtshilfe ausgleichen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2027-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-2f55f29e-6d58-41a3-83e1-87d96a14aea7 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "A3-Förderung von Beschaffungsmaßnahmen nichtstaatlicher Theater";
+    xyz:description "Der Freistaat Bayern betreibt eine Projekt- und Investitionsförderung im Kunstbereich für Vorhaben außerhalb der Städte München und Nürnberg.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-30202c21-5ecd-47e6-9d6b-de8d491db3ac cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Radweginfrastruktur, Straßen- und Brückenbau nach Art. 13f BayFAG (kommunales Sonderbaulastprogramm)";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen für Baumaßnahmen an Staatsstraßen, sowie für den Bau von selbständigen Radwegen und für Maßnahmen zur Verbesserung von Barrierefreiheit und Zuwegung vom Individual- zum öffentlichen Verkehr.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-315ac6e4-1811-46c4-a417-61f05a11a02b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F6-Beschaffungsmaßnahmen nichtstaatlicher Archive";
+    xyz:description "Der Freistaat Bayern fördert Beschaffungsmaßnahmen nichtstaatlicher Archive außerhalb der Städte München und Nürnberg.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-348a43b4-13a4-4cdd-853c-de3bbd68e9e7 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Selbsthilfegruppen von Menschen mit Behinderung";
+    xyz:description "Selbsthilfegruppen von Menschen mit Behinderung können eine Förderpauschale für ihre Gruppenarbeit vom Freistaat Bayern erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "privatpersonen";
+    xyz:location "DE2";
+    xyz:deadline "2026-11-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-3599ebb4-1b5d-45ec-a612-f3a638e0110c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Impulsprogramm Volksmusik";
+    xyz:description "Gefördert werden halbjährliche oder jährliche Kurse mit externen Referenten zur Vermittlung von Volksmusik in vielfältigen stilistischen und regionalen Ausprägungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen";
+    xyz:location "DE2";
+    xyz:deadline "2026-03-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-37c9a90d-94da-471b-86bd-620ca8949fad cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kurse zur Vorbereitung auf das Nachholen des Mittelschulabschlusses";
+    xyz:description "Anerkannte Träger können eine Förderung für Kurse für Jugendliche, die den erfolgreichen Abschluss bzw. den qualifizierenden Abschluss der Mittelschule nachholen möchten, beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-383300f6-9d9e-4b27-bb6a-fce605be97aa cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung des Baus oder Ausbaus von Kommunalstraßen und bestimmter Geh- und Radwege nach Art. 13c Abs. 1 BayFAG";
+    xyz:description "Förderung eines dringend notwendigen Baus oder Ausbaus kommunaler Straßen und bestimmter Geh- und Radwege nach Art. 13c Abs. 1 BayFAG, soweit er eine besondere Belastung oder Härte darstellt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2025-09-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-38e7cf71-1b3f-4f5a-b5ac-164005bf92bb cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung der Träger des Freiwilligen Sozialen Jahres in Bayern";
+    xyz:description "Der Freistaat Bayern gewährt als Landesförderung Zuwendungen an die in Bayern mit der Durchführung des Freiwilligen Sozialen Jahres betrauten, zugelassenen Träger.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-3b54aae1-9ba1-4fe5-b603-f5ef77ed4055 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Pflegestützpunkte zur wohnortnahen Pflegeberatung und Koordination von möglichen Unterstützungsangeboten";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen für Pflegestützpunkte";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-3d165a7f-8d3b-43d4-bed7-c0a1f444fdf6 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Maßnahmen des Natur- und Artenschutzes, der Landschaftspflege sowie Naturparks";
+    xyz:description "Das Bayerische Staatsministerium für Umwelt und Verbraucherschutz gewährt Zuwendungen für Maßnahmen zur Pflege, Erhaltung und Entwicklung geschützter und schutzwürdiger Flächen und Einzelbestandteile der Natur.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-3f7b5e19-28c1-497c-9474-d7b9843c8173 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von zertifizierten BOS-TETRA-Pagern (APRT) und von Komponenten zur Ertüchtigung von Sirenenanlagen für die TETRA-Alarmierung - Digitalfunk";
+    xyz:description "Der Freistaat Bayern unterstützt Kommunen, die Durchführenden des Land- und Luftrettungsdienstes, die Kassenärztliche Vereinigung Bayerns und die freiwilligen Hilfsorganisationen des Katastrophenschutzes bei der Erstbeschaffung der Endgeräte für den digitalen BOS-Funk.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur", "digitalisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-4227a456-a2ab-4be8-976d-8bfc278d4f3d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung kommunalen Engagements für die ärztliche Versorgung vor Ort";
+    xyz:description "Das Förderprogramm unterstützt bayerische Gemeinden im ländlichen Raum dabei bestmögliche Rahmenbedingungen für den Erhalt und die Verbesserung der ambulanten medizinischen Versorgung in ihren Gemeinden zu schaffen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur", "gesundheit_und_soziales", "regionalfoerderung", "beratung", "landwirtschaft_und_laendliche_entwicklung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-42a77f4a-98e4-401b-b08c-cdebde31db68 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Gamesförderung Bayern; Bayerische Computerspiel-Förderung;";
+    xyz:description "Der Freistaat Bayern fördert die Produktion und Entwicklung hochwertiger und gewaltfreier Computer- und Videospiele aus Mitteln des Bayerischen Staatsministeriums für Digitales.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "digitalisierung", "kultur_medien_und_sport", "forschung_und_innovation_themenoffen", "unternehmensfinanzierung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "freiberufler";
+    xyz:location "DE2".
+cdp:ff-435a8a4c-fed6-46e8-bc4d-dc523e81c57f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Private weiterführende und berufliche Schulen; Beantragung von Finanzhilfen zu Baumaßnahmen";
+    xyz:description "Träger privater Realschulen, Gymnasien, Freier Waldorfschulen (ab Jahrgangsstufe 5), beruflicher Schulen sowie Schulen des Zweiten Bildungsweges können für notwendige, schulaufsichtlich genehmigte Baumaßnahmen freiwillige staatliche Zuwendungen erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-471c6398-086b-4477-a713-528b43e664e3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Arbeitsmarktfonds; Maßnahmen zur Qualifizierung und Arbeitsförderung";
+    xyz:description "Der Freistaat Bayern unterstützt bei der Finanzierung von Maßnahmen zur Qualifizierung und Arbeitsförderung von Arbeitslosen und von Arbeitslosigkeit bedrohten Personen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "arbeit", "gesundheit_und_soziales", "digitalisierung", "beratung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "forschungseinrichtungen";
+    xyz:location "DE2";
+    xyz:deadline "2026-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-4757c5ec-5b4e-46a8-a0cf-d941700b9042 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Leistungssport; Beantragung einer Betriebskostenförderung für eine Trainingsstätte für den Nachwuchsleistungssport";
+    xyz:description "Der Freistaat Bayern fördert die laufenden Ausgaben von leistungssportlichen Trainingseinrichtungen (Bundes-/ Landesstützpunkte).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-482b1f7a-5af7-4edf-a0c3-411a0ded1b9e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pilotprojekte für innovative Lösungen mit Bezug zur Digitalisierung in Gesundheit und Prävention";
+    xyz:description "Durch die Förderlinie 3 der Gesundheits- und Pflegedigitalisierungsrichtlinie (BayDiGuP) werden durch den Freistaat Bayern Pilotprojekte für innovative Lösungen mit Bezug zur Digitalisierung in Gesundheit, Pflege und Prävention gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-4954d871-ed4b-4d21-8eea-01714ae235a8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Dolmetscherdienste; Beantragung einer Förderung für Ausgaben im Rahmen der Beratungstätigkeit der Frauenhäuser und sonstiger Einrichtungen";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen zu den Ausgaben für Sprach- und Gebärdensprachdolmetscherleistungen. Darüber hinaus gewährt der Freistaat Zuwendungen zu den Ausgaben für Fortbildungsmaßnahmen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-4a32f7c6-72aa-4bea-a499-44b8cb20a0b9 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Eltern- und Familienbildung am Wochenende";
+    xyz:description "Wenn Sie zusammen mit Ihren Kindern an einem Wochenendseminar teilnehmen möchten, können Sie unter bestimmten Voraussetzungen eine staatliche Zuwendung beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-4a71927f-9f35-4b7a-95c4-b24918b75e2e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Bau- und Sanierungsvorhaben für Tierheime";
+    xyz:description "Der Freistaat Bayern fördert Bau- und Sanierungsvorhaben in und an Tierheimen, Ausgaben im Zusammenhang mit der Vermittlung von Heimtieren an Privathaushalte durch Tierheime und Vorhaben zur Eindämmung der Anzahl herrenloser Hauskatzen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss", "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-4ce46213-2943-4b43-8940-8896130048fc cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Private Förderschulen und Klinikschulen; Beantragung einer Förderung zum Ausgleich besonderer Härten";
+    xyz:description "Der Freistaat Bayern gewährt Zuschüsse an Träger privater Förderschulen und privater Klinikschulen zum Ausgleich besonderer Härten, soweit sonstige Leistungen nach dem Bayerisches Schulfinanzierungsgesetz die tatsächlichen und notwendigen Aufwendungen nicht decken..";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-4cf5cd54-c424-4b1a-b97e-8278f63b6b62 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Beitritt des Einrichtungsträgers zu einem Zweckverband oder die Abgabe der Betriebsführung auf einen Zweckverband oder ein Gemeinsames kommunal Unternehmen (gkU)";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Städte und Gemeinden beim Beitritt zu einem Zweckverband in Härtefällen mit Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-4ecca1a2-bcda-4c04-8e4a-02d64fdd230a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Wohnungslosenhilfe Bayern; Beantragung einer Förderung für ein Modellprojekt";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen für Modellprojekte in Bayern, die sich mit der Betreuung und Beratung von wohnungslosen oder von Wohnungslosigkeit bedrohten Personen befassen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-4efcb14c-003d-48db-a56d-00669ff52196 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Interventionsstellen";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendung zur Förderung von Interventionsstellen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-5181a663-401c-4e6a-969e-2065e84dc222 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pflegeplätze in der Tages- und Nachtpflege";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für Pflegeplätze in der Tages- und Nachtpflege.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-52636efe-1494-451d-a023-a2cd7cb2c5de cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Baumaßnahmen an Schülerheimen";
+    xyz:description "Der Freistaat gewährt auf Antrag Zuweisungen zu kommunalen Hochbaumaßnahmen";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "behoerden", "kommunen", "oeffentliche_einrichtung";
+    xyz:location "DE2".
+cdp:ff-5427ceeb-927c-43a4-83f5-37a3f52f1b03 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Zuwendungen zu Investitionen in die Infrastruktur und Ausrüstung von Landeplätzen";
+    xyz:description "Als Flugplatzbetreiber können Sie unter Umständen eine Zuwendung erhalten, wenn Sie in die Infrastruktur und Ausrüstung Ihres Landeplatzes investieren.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien", "infrastruktur", "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen";
+    xyz:location "DE2".
+cdp:ff-54892668-d84e-40b6-8f55-a4c44976db3f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Unterstützung, Stärkung und Sicherung der geburtshilflichen Hebammenversorgung";
+    xyz:description "Der Freistaat Bayern unterstützt die Kommunen bei der Sicherstellung der Hebammenversorgung in der Geburtshilfe und in der Wochenbettbetreuung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-569951ee-31e6-42dd-a2d4-6b3c429ab42c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kommunales Energiemanagement (KEM)";
+    xyz:description "Bringen Sie Ordnung in den Energieverbrauch Ihrer Kommune! Unsere Förderung hilft Kommunen bei der Analyse des Energieverbrauchs. Mit einem Energie- und ggf. kombinierten Qualitätsmanagement sparen Sie beim Betrieb Ihrer Liegenschaften CO2 und bares Geld.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-56d14b5b-6e44-4125-8755-5928b48dbc97 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Städtebauliche Erneuerungsmaßnahmen fördern";
+    xyz:description "Land, Bund und EU können Städte und Gemeinden bei städtebaulichen Erneuerungsmaßnahmen fördern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "staedtebau_und_stadterneuerung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-58305ea5-a295-427e-a24a-c9b9c68865bd cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Plätze des Kurzzeitwohnens für pflegebedürftige Kinder, Jugendliche und junge Volljährige mit Behinderung";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für Plätze des Kurzzeitwohnens für pflegebedürftige Kinder, Jugendliche und junge Volljährige mit Behinderung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-58596168-b7c4-48aa-be43-d4d29d02908f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sportverein; Beantragung einer Förderung für den vereinseigenen Sportstättenbau.";
+    xyz:description "Der Freistaat Bayern fördert die Errichtung und die Sanierung von Sportstätten, die Sportvereine für den unmittelbaren Sportbetrieb ihrer Mitglieder benötigen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-5b1c3172-60fc-4221-86eb-aada3717d51f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Neu- und Umbaumaßnahmen bei Mietwohnungen";
+    xyz:description "Das Förderverfahren wird derzeit überarbeitet. Aktuelle Informationen zum Jahresbauprogramm 2027 stehen unter \"https://www.stmb.bayern.de/wohnen/foerderung\" zur Verfügung. Unten stehende Informationen beziehen sich auf die bis Ende 2026 geltenden Richtlinien.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-5c36ad34-3a10-431e-b4b9-bfe92aa6f799 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bewerbung für die Auszeichnung des Bayerischen Demenzfonds";
+    xyz:description "Aus den Mitteln des Bayerischen Demenzfonds werden jährlich Preise für wissenschaftliche Arbeiten vergeben, die sich mit praxisbezogenen Fragestellungen zur Verbesserung der Lebenssituation von Menschen mit Demenz sowie ihren An- und Zugehörigen befassen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-5f8ac1eb-c2e4-4c92-9592-70604a062b68 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für regionale Offene Behindertenarbeit (OBA)";
+    xyz:description "Der Freistaat Bayern und die bayerischen Bezirke gewähren Zuwendungen für Maßnahmen der ambulanten Hilfen im Bereich der regionalen Offenen Behindertenarbeit.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-601bff54-0a82-45aa-b451-2f5dc62b108e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "B2-Förderung von Ausstellungen und anderen Projekten nichtstaatlicher Museen";
+    xyz:description "Der Freistaat Bayern fördert Sonderausstellungen nichtstaatlicher Museen";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-610a4263-c1b3-428a-bf15-73e74dfcfad5 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bezuschussung einer literarischen Veranstaltung durch Bayern liest e. V.";
+    xyz:description "Gefördert werden Lesungen vor Ort von Autoren/Autorinnen an öffentlichen Büchereien, gemeinnützigen Einrichtungen des öffentlichen Lebens, Buchhandlungen etc.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-65b68244-f3f4-4e60-8dc0-50639e252d8d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Fortbildungsmaßnahmen Behindertenhilfe";
+    xyz:description "Träger, die Fortbildungen anbieten für Personen, die in der Behindertenhilfe tätig sind, können eine Zuwendung für die Fortbildungsmaßnahmen vom Freistaat Bayern erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-10-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-676af4c4-54db-44ea-97c9-be7a43d00835 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kulturfonds Kulturelle Bildung";
+    xyz:description "Wenn Sie eine kreative, neuartige Idee für ein Bildungsprojekt haben, können Sie unter Umständen eine Förderung beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-6cd70616-a328-46f3-a753-0433d5413f8a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bayerisches Regionales Förderprogramm für die gewerbliche Wirtschaft";
+    xyz:description "Mit der gewerblichen Regionalförderung werden einzelbetriebliche Investitionen gefördert, um die Wettbewerbs- und Anpassungsfähigkeit der Unternehmen zu unterstützen, Beschäftigung und Einkommen zu schaffen und zu sichern, und auch Transformationsprozesse zu beschleunigen.";
+    xyz:status "active";
+    xyz:fundingArea "regionalfoerderung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen";
+    xyz:location "DE2".
+cdp:ff-6d28d146-79a8-41c3-bb34-9739f7d052a3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Betriebsinterne Wasserstofftankstellen";
+    xyz:description "Förderung von betriebsinternen Wasserstofftankstellen";
+    xyz:status "ended";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-6f8c8dc9-f99b-41b4-981c-b13d370738ec cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F7-Beschaffungsmaßnahmen nichtstaatlicher Bibliotheken";
+    xyz:description "Der Freistaat Bayern fördert Beschaffungsmaßnahmen nichtstaatlicher Bibliotheken außerhalb der Städte München und Nürnberg.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-706d26bc-97fd-418a-977a-7dcc73bee32c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Fortbildung der in den Bereichen Behindertenhilfe und psychiatrische Versorgung tätigen Personen";
+    xyz:description "Sie können eine Förderung für Maßnahmen zur Fortbildung in den Bereichen Behindertenhilfe und psychiatrische Versorgung beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-721b6acb-8ec6-4fc9-b3f8-8412bd0d5b9d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Holzbauförderprogramm";
+    xyz:description "Mit der BayFHolz unterstützt der Freistaat Bauvorhaben in Holzbauweise zur Förderung von langfristig gebundenem Kohlenstoff in Gebäuden. Die Richtlinie läuft bis 31. Dezember 2026. Eine Antragstellung ist nicht mehr möglich.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-726e97ec-f8da-4b22-9369-f3c22899fb5c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Biomasseheizwerken und zugehörigen Wärmenetzen (Förderprogramm BioWärme Bayern)";
+    xyz:description "Mit dem Förderprogramm BioWärme Bayern unterstützt Bayern Investitionen in neue, umweltschonende Biomasseheizwerke und zugehörige Wärmenetze.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-72e11f7d-6e6e-4552-9639-58ffce3dc0a6 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Mobilität im ländlichen Raum; Förderung ergänzender Nahverkehrsangebote (ErNa)";
+    xyz:description "Der Freistaat Bayern fördert die Mobilität im ländlichen Raum.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-74a90c1a-0af2-4f19-917b-8a4626ba1ee1 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Private Grund- und Mittelschulen; Beantragung eines Zuschusses für den Schulaufwand";
+    xyz:description "Schulaufsichtlich genehmigte private Grundschulen und Mittelschulen werden auf\nAntrag des Schulträgers staatlich gefördert. Für den notwendigen Schulaufwand\nwerden pauschalierte Zuschüsse gewährt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-74f3432a-981a-4f19-a3dd-5c4e84c76539 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Projekten im bayerisch-tschechischen Grenzraum";
+    xyz:description "Der Freistaat Bayern fördert im ländlichen Raum der Regierungsbezirke Niederbayern, Oberpfalz oder Oberfranken zukunftsweisende Projekte mit grenzüberschreitendem Charakter und fachübergreifendem Ansatz.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-771dd9cc-addb-4a4d-9d94-4966c6082ee9 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Landarztprämie";
+    xyz:description "Der Freistaat Bayern gewährt eine Prämie für die Niederlassung von Ärztinnen und Ärzten, die Gründung von Medizinischen Versorgungszentren (MVZ) und Filialbildungen in medizinisch schlechter versorgten Regionen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur", "arbeit", "existenzgruendung_und_festigung", "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-7a22ab4a-a736-44b0-9606-794b6b61722a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Richtlinien zur Förderung von Projekten von Maßnahmenträgern aus der  Kultur- und Kreativwirtschaft";
+    xyz:description "Projekte zur Entwicklung und Stärkung der bayerischen Kultur- und Kreativwirtschaft können gefördert werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "arbeit", "existenzgruendung_und_festigung", "beratung", "forschung_und_innovation_themenoffen";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-7b46b240-ee09-4595-bb96-34a575540b04 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Finanzhilfen für Baumaßnahmen privater Grund- und Mittelschulen";
+    xyz:description "Schulaufsichtlich genehmigte private Grundschulen und Mittelschulen können Zuschüsse für Baumaßnahmen erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur", "regionalfoerderung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-7c89b2bd-980f-4697-b896-3b0fd4942660 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Schützenverein; Beantragung einer Förderung für den vereinseigenen Sportstättenbau";
+    xyz:description "Der Freistaat Bayern fördert die Errichtung und die Sanierung von Schießsportstätten, die Schützenvereine für den unmittelbaren Sportbetrieb ihrer Mitglieder benötigen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-7e281c6d-cd8c-429e-8b72-102dd8bf5b43 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Werteprojekte allgemein";
+    xyz:description "Das Bayerische Staatsministerium des Innern, für Sport und Integration fördert die Integration von zugewanderten Menschen mit Projekten zur Wertevermittlung. Unterstützt werden Vorhaben, die demokratische Grundwerte stärken und den gesellschaftlichen Zusammenhalt fördern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-7ee47924-b027-4777-8dad-0af91822e20c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Festivals und Veranstaltungsreihen im Bereich der klassischen Musik und Jazz";
+    xyz:description "Für musikalische Festivals oder Veranstaltungsreihen mit Schwerpunkt im Bereich der klassischen Musik (z.B. Alte Musik, romantische Musik, zeitgenössische Musik etc.) oder Jazz, die in Bayern stattfinden, kann eine staatliche Förderung beantragt werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-83572cd0-b9d0-4ccf-a1c6-46d4d05ae650 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von unabhängigen psychiatrischen Beschwerdestellen";
+    xyz:description "Sie können eine Förderung für die Errichtung und den Betrieb einer unabhängigen psychiatrischen Beschwerdestelle (upB) beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-83b654b9-e93a-4836-b027-b53b4e239eea cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Hebammenbonus";
+    xyz:description "Wenn Sie in Bayern in der Geburtshilfe freiberuflich tätig sind, können Sie unter Umständen den Bayerischen Hebammenbonus erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "arbeit", "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen", "freiberufler";
+    xyz:location "DE2";
+    xyz:deadline "2027-06-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-83b9ed2a-be4f-4cc9-90c3-217a66ada436 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Gute Pflege in Bayern";
+    xyz:description "Der Freistaat Bayern gewährt Kommunen Zuwendungen zur Stärkung einer bedarfsgerechten und bedürfnisorientierten auf den sozialen Nahraum ausgerichteten Pflege sowie für die Schaffung, den Ausbau und den Betrieb von Koordinierungsstellen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-84849ff9-dd69-48da-82e0-8ec4442919bb cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Projekte der Bildung für nachhaltige Entwicklung (BNE) und Umweltbildung in Bayern";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen zur Förderung von Projekten der Bildung für nachhaltige Entwicklung und Umweltbildung in Bayern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss", "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-84b5ed7e-774d-473c-897d-04836348de2f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Radoffensive Klimaland Bayern";
+    xyz:description "Mit dem Förderprogramm \"Radoffensive Klimaland Bayern\" unterstützt der Freistaat die bayerischen Gemeinden bei der Verbesserung der kommunalen Infrastruktur und der Verkehrssicherheit für Radfahrende.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-86433b44-7e53-4c58-9d02-119f0533b97b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Hebammenniederlassungsprämie für freiberufliche Hebammen";
+    xyz:description "Wenn Sie sich als freiberufliche Hebammen in Bayern niederlassen wollen, können Sie u.U. die Hebammenniederlassungsprämie erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "arbeit", "existenzgruendung_und_festigung", "gesundheit_und_soziales", "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "privatpersonen", "freiberufler";
+    xyz:location "DE2".
+cdp:ff-86649b76-f78e-484a-8071-003ae4b99016 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Feuerwehr; Beantragung einer staatlichen Förderung für den Bau von Feuerwehrhäusern";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Kommunen  beim Bau von Feuerwehrhäusern mit staatlichen Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-8948ca5e-ce2d-4022-802f-9dc1cd613b7f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Entwicklungskonzept klimaneutrale Kommune";
+    xyz:description "Geben Sie Ihrer Kommune einen klaren Kurs in Richtung Klimaneutralität! Unsere Förderung unterstützt Kommunen beim Aufstellen eines Entwicklungspfads hin zu einer klimaneutralen Zukunft und macht auch erste Umsetzungsschritte möglich.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-8a3cfde8-718d-4809-88dc-64fb2dc6557d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kommunales Wohnraumförderungsprogramm";
+    xyz:description "Das Förderverfahren wird aktuell überarbeitet. Aktuelle Informationen zum Jahresbauprogramm 2027 stehen unter \"https://www.stmb.bayern.de/wohnen/foerderung\" zur Verfügung. Unten stehende Informationen beziehen sich auf die bis Ende 2026 geltenden Richtlinien.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-8cf405c0-aa0b-4c95-a887-7d2b60808928 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Ganztagsangebot; Beantragung der Einrichtung und Förderung von gebundenen Ganztagsangeboten";
+    xyz:description "Schulaufwandsträger können die Einrichtung und die Förderungen von gebundenen\nGanztagsangeboten beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "gesundheit_und_soziales", "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-8fc84e50-5c1f-4323-8486-a04bcc88536b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Außerschulische Hausaufgabenhilfe mit Schwerpunkt Deutschförderung";
+    xyz:description "Der Freistaat Bayern fördert mit der außerschulischen Hausaufgabenhilfe die sprachliche Integration von schulpflichtigen Kindern und Jugendlichen mit Migrationsgeschichte, die rechtmäßig und dauerhaft in Bayern leben bzw. eine gute Bleibeperspektive haben.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-90aff069-2155-4b92-b65a-be34c0fc5289 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pflegeplätze in einer ambulant betreuten Wohngemeinschaft";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für Pflegeplätze in einer ambulant betreuten Wohngemeinschaft.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-93b6094a-582b-4e9c-82f1-5104052d2400 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Fachberatungsstellen bei häuslicher und/oder sexualisierter Gewalt";
+    xyz:description "Der Freistaat Bayern gewährt Zuschüsse zur Förderung von Fachberatungsstellen bei häuslicher und/oder sexualisierter Gewalt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-94304e4f-721f-42a5-ab10-9ab77e606489 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Einrichtung einer Koordinierungsstelle zum Klimaschutz (Klimaschutzlotse)";
+    xyz:description "Geben Sie Ihrem Klimaschutz ein Gesicht - den Klimaschutzlotsen! \nGemeinsam ist man stärker. Wir fördern Koordinierungsstellen, damit sich Kommunen mit Partnerkommunen bei der Planung von wirksamen Klimaschutz- und Klimaanpassungsprojekten koordinieren können.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-966d35cb-4e30-47e1-bee3-abdf2d5ce80b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "H1-Förderung innovativer Vorhaben und spartenübergreifender kultureller Projekte";
+    xyz:description "Der Freistaat Bayern fördert innovative spartenübergreifende Vorhaben.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-96b61ea0-5aa1-4563-b35e-9ebf63ca14b7 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Komplementäre Förderung des Baus oder Ausbaus von Verkehrswegen und -anlagen des allgemeinen ÖPNV und von S-Bahnen nach Art. 13c Abs. 2 BayFAG";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen nach Art. 13c Abs. 2 BayFAG für den Bau oder Ausbau von Verkehrsanlagen des allgemeinen öffentlichen Personennahverkehrs (ÖPNV) und der S-\\Bahnen, soweit dieser auch nach BayGVFG/GVFG förderfähig ist.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-980da20b-e8db-472f-a408-5682329c1ad7 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sonderzuschuss für die Beförderung von Schülerinnen und Schülern mit Schwerbehinderung";
+    xyz:description "Schulaufsichtlich genehmigte private Grundschulen und Mittelschulen können Sonderzuschüsse für die Beförderung von Schülerinnen und Schüler mit nachgewiesener Schwerbehinderung erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-98444b21-50f6-471e-82d0-bf21842e8eb2 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Öffentliche Wasserstofftankstellen";
+    xyz:description "Förderung von öffentlichen Wasserstofftankstellen";
+    xyz:status "ended";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-9918100e-cbfc-4e54-9a2d-dfe41f1da687 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Stationäre Wohnplätze für Menschen mit Behinderung";
+    xyz:description "Der Staat fördert den Neu- und Umbau von stationären Wohnplätzen für Menschen mit Behinderung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-99ae93c7-9229-4dea-b0e1-7186e01a41da cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bayerische Kofinanzierungs-Gigabitrichtlinie 2.0 - KofGibitR 2.0";
+    xyz:description "Der Freistaat Bayern fördert den Ausbau von gigabitfähigen Netzen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-99defcba-e823-42e2-9582-58b780360c15 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Landesstiftung Hilfe für Mutter und Kind - Leistungen für Familien in Not";
+    xyz:description "Familien, insbesondere kinderreiche Familien sowie allein erziehende Elternteile, die unverschuldet in eine Existenz bedrohende Notlage geraten sind, können als Hilfe zur Selbsthilfe Leistungen der \"Landesstiftung Hilfe für Mutter und Kind\" erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-9b69dff4-a191-4bc9-a479-51d18c5ca630 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Wohnraum für Auszubildende";
+    xyz:description "Der Freistaat Bayern fördert in Zusammenarbeit mit dem Bund die Schaffung und den Erhalt von Wohnraum für Auszubildende.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-9d15254f-8cc4-402b-a7b5-ce0106caeec1 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung zur Steigerung der medizinischen Qualität in bayerischen Kurorten und Heilbädern und anerkannten Heilquellen- und Moorkurbetrieben";
+    xyz:description "Das Förderprogramm unterstützt bayerische hochprädikatisierte Kurorte und Heilbäder sowie anerkannte Heilquellen- oder Moorkurbetriebe dabei, die medizinische Qualität im Sinne einer Ergebnisqualität weiter zu verbessern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-9f3920f8-c4ef-4134-9551-8ca6345b030d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Betreuung von psychisch Kranken (Laienhelfer)";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen für die Betreuung von psychisch Kranken durch Laienhelfer in Bayern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-9f81f8eb-e68c-4b63-9fec-df08bfc51a23 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Schwimmbadsanierung; Beantragung einer Förderung";
+    xyz:description "Der Freistaat unterstützt die bayerischen Kommunen mit dem Sonderprogramm Schwimmbadförderung bei der Sanierung ihrer Schwimmbäder. Ziel des Programms ist der Erhalt der kommunalen Bäder als Voraussetzung für den Erwerb der Schwimmfähigkeit der Kinder und Jugendlichen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-9fccd0c4-c7b1-4d63-957a-5be1edb9aa19 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "A2-Förderung besonderer Theatervorhaben";
+    xyz:description "Der Freistaat Bayern fördert besondere Theatervorhaben und Sonderproduktionen nichtstaatlicher Theater.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-a00f708b-452b-408c-8940-e156e268ea7b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Private Grund- und Mittelschulen; Beantragung eines Zuschusses für den Personalaufwand";
+    xyz:description "Schulaufsichtlich genehmigte private Grundschulen und Mittelschulen werden auf Antrag des Schulträgers staatlich gefördert. Für den notwendigen Personalaufwand werden pauschalierte Zuschüsse gewährt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a03eeb77-bea5-438a-b86c-c6662ea45e54 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Angehörigenarbeit; Beantragung einer Förderung";
+    xyz:description "Fachstellen für pflegende Angehörige beraten und unterstützen vor allem psychosozial pflegende Angehörige von älteren pflegebedürftigen Menschen. Deren Träger können eine Zuwendung im Rahmen einer Projektförderung erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a080f4a8-145d-422b-a5ce-1bcd6c513cbd cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für vollstationäre Dauerpflegeeinrichtungen (ohne Öffnung in den sozialen Nahraum)";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für vollstationäre Dauerpflegeeinrichtungen (ohne Öffnung in den sozialen Nahraum).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-a18744e4-6903-47aa-936b-6284ea7f6e15 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung der Ladeinfrastruktur für Elektromobilität in Bayern";
+    xyz:description "Der Freistaat fördert Ladeinfrastruktur für Elektrofahrzeuge in Bayern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur", "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a36550e1-ea95-4df4-ae41-b41b14500a1b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung nichtstaatlicher Museen in Bayern";
+    xyz:description "Der Freistaat Bayern vergibt über die Landesstelle für die nichtstaatlichen Museen Zuwendungen für Projekte im Bereich der nichtstaatlichen Museen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a4736f67-5820-41aa-b743-445187cc8151 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Eigenwohnraum für Menschen mit Behinderung";
+    xyz:description "Der Staat fördert die Anpassung von Eigenwohnraum (eigenes Haus oder eigengenutzte Eigentumswohnung) für Menschen mit Behinderung (§ 2 Abs. 1 Neuntes Buch Sozialgesetzbuch).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-a59ca8fb-49ff-407d-bf76-d694c84961a8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung internationaler Begegnungen von Laienmusikensembles";
+    xyz:description "Sie sind ein Laienmusikensemble und möchten einen Zuschuss für eine Auslandsreise beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-a6d62298-ae06-464c-86b6-0a8307aa9578 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung digitaler regionaler Heimatprojekte";
+    xyz:description "Der Freistaat Bayern fördert innovative, fachübergreifende Heimatprojekte mit Schwerpunkt Digitalisierung, die sich positiv auf die räumliche Entwicklung Bayerns auswirken und insbesondere der Stärkung der regionalen Identität dienen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "energieeffizienz_und_erneuerbare_energien", "infrastruktur", "arbeit", "gesundheit_und_soziales", "regionalfoerderung", "digitalisierung", "kultur_medien_und_sport", "umwelt_und_naturschutz", "smart_cities_und_regionen";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a907ae22-df93-43a2-8770-0908d13c0e88 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Betreuung suchtkranker und suchtgefährdeter Gefangener und Verwahrter in den bayerischen Justizvollzugsanstalten (JVA) durch externe Fachkräfte";
+    xyz:description "Betreuung suchtkranker und suchtgefährdeter Gefangener und Verwahrter in den bayerischen Justizvollzugsanstalten durch externe Fachkräfte";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-a9ea6570-e85b-406a-b502-33428166c8ef cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung Koordinierender Kinderschutzstellen KoKi - Netzwerk frühe Kindheit";
+    xyz:description "Der Freistaat Bayern unterstützt die Kommunen bei der flächendeckenden systematischen Bündelung und Vernetzung Früher Hilfen durch Koordinierende Kinderschutzstellen (KoKis).";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-ad7ecadb-ded5-4646-aa13-d51e4628efcf cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung zur Weiterentwicklung des Hilfesystems für gewaltbetroffene Frauen und ihre Kinder - Second-Stage-Projekte";
+    xyz:description "Der Freistaat Bayern fördert Second-Stage-Projekte, mit denen von häuslicher und/oder sexualisierter Gewalt im sozialen Nahraum betroffene Frauen und deren Kinder in der Übergangsphase vom Frauenhausaufenthalt in eine eigene Wohnung unterstützt werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-ae73e055-b15b-4b5f-bc25-b77ff9094d5d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Frauenhäuser; Beantragung einer Zuwendung";
+    xyz:description "Der Freistaat Bayern gewährt Zuschüsse zur Förderung von Frauenhäusern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-afcaadf5-1066-4102-a005-312da86c1e11 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Maßnahmen im Bereich E-Care";
+    xyz:description "Durch die Förderlinie 1 der Gesundheits- und Pflegedigitalisierungsrichtlinie (BayDiGuP) werden durch den Freistaat Bayern Maßnahmen im Bereich E-Health und E-Care unter besonderer Berücksichtigung der Telematikinfrastruktur gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-b0b850b1-8530-4f68-ad8b-8a2a985e1571 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "C1-Förderung von Investitionen beim Bau und Ausbau von Ausstellungsräumen für zeitgenössische Kunst und von Künstlerhäusern";
+    xyz:description "Der Freistaat Bayern fördert Investitionsmaßnahmen an Ausstellungsräumen für zeitgenössische Kunst und Künstlerhäusern";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-b2cbedf0-086f-41e4-bd24-15c005a2b7be cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung eines Trinkbrunnen im öffentlichen Raum";
+    xyz:description "Wenn Sie für Ihre Bürger einen öffentlich zugänglichen Trinkbrunnen anbieten möchten, können Sie sich den Bau von maximal zwei Trinkbrunnen fördern lassen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-b39a56b7-5640-46f1-a420-0bb67a3b22bf cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Praxis an Mittelschulen";
+    xyz:description "Das Programm \"Praxis an Mittelschulen\" steht grundsätzlich allen Mittelschulen offen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "oeffentliche_einrichtung", "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-b4f43919-91ec-4fb2-af9c-08d6940865d6 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Zuweisungen für die bei der technischen Administration, Wartung und Pflege der Schul-IT anfallenden Personalkosten";
+    xyz:description "Schulaufwandsträger können für den Auf- und Ausbau von IT-Infrastrukturen an Schulen und für deren technische Administration eine Förderung aus Mitteln der Bundesrepublik Deutschland (DigitalPakt- bzw. Bundesförderung) und aus Landesmitteln (Landesförderung) beantragen.";
+    xyz:status "ended";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "digitalisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2024-06-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-b5463e68-622b-431b-ab9e-4556ed187728 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bezuschussung einer literarischen Veranstaltung durch Friedrich-Bödecker-Kreis in Bayern e. V.";
+    xyz:description "Es werden Veranstaltungen zur Leseförderung, insbesondere Autorenbegegnungen, bezuschusst.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-b5929995-4a8f-4525-ab28-72ce31d03876 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Pilotprojekte für innovative Lösungen mit Bezug zur Digitalisierung in der Pflege";
+    xyz:description "Durch die Förderlinie 3 der Gesundheits- und Pflegedigitalisierungsrichtlinie (BayDiGuP) werden durch den Freistaat Bayern Pilotprojekte für innovative Lösungen mit Bezug zur Digitalisierung in Gesundheit, Pflege und Prävention gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-b68906d5-c421-4ff8-b49a-1d1c0e793497 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Investitionsförderung für Spielstätten historischer Heimatschauspiele";
+    xyz:description "Der Freistaat Bayern fördert heimatpflegerische Initiativen und die Stärkung des Heimat- und Traditionsbewusstseins.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-b7c3279d-0756-4ad1-be81-4da20cd8fa6d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Alpha Asyl - Kurse zur Alphabetisierung für Asylsuchende";
+    xyz:description "Der Freistaat Bayern fördert Kurse zur Alphabetisierung für Asylsuchende im Rahmen eines Förderprogramms \"Kurse zur Alphabetisierung für Asylsuchende - Alpha Asyl\".";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "arbeit", "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-b8987cc6-e680-43d3-b1af-30132d958a1c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Vorhaben zur Umsetzung der EG-Wasserrahmenrichtlinie bei Anlagen der öffentlichen Abwasserentsorgung (Teil C RZWas 2021)";
+    xyz:description "Wenn ergänzende Maßnahmen nach EG_WRRL im Maßnahmenprogramm gefordert sind, können Sie Zuwendungen erhalten.";
+    xyz:status "ended";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-b99f62ae-5cf3-467b-96dd-f90ecd4d337a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "ÖPNV-Infrastrukturförderung nach BayGVFG";
+    xyz:description "Der Freistaat Bayern fördert Maßnahmen der Verbesserung des öffentlichen Personennahverkehrs (ÖPNV).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-b9fb5e4e-cfd6-4374-b315-f49e23a4401a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Frauenhäuser; Beantragung einer Förderung für eine quantitative und/oder qualitative Erweiterung";
+    xyz:description "Der Freistaat Bayern gewährt Zuschüsse zur Förderung zusätzlicher Frauenhausplätze sowie zur Anpassung von Frauenhausplätzen an besondere Bedarfe.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung";
+    xyz:location "DE2";
+    xyz:deadline "2026-08-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-bba9531d-3751-4ca3-bfa8-dfa95685f585 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "G1-Förderung internationaler Begegnungen im Bereich Kunst und Kultur";
+    xyz:description "Der Freistaat Bayern fördert den kulturellen Austausch mit dem Ausland, die Präsentation bayerischer Kultur im Ausland und die Präsentation ausländischer Kultur in Bayern.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-bc01cf40-9371-49ef-9e0b-0201abdd32a8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Mietwohnung; Beantragung einer Zusatzförderung";
+    xyz:description "Um eine zumutbare Miete zu gewährleisten, erhalten berechtigte Mieter laufende Zuschüsse (Zusatzförderung).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-bc609ac9-69cd-425a-8c1c-0ee6d7346dfe cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Pilotförderprogramm Heimat.Engagiert";
+    xyz:description "Wenn Sie sich in besonderer oder innovativer Art und Weise mit der Pflege und Vermittlung von Heimatgeschichte und Kulturformen im Zusammenhang mit örtlich herausragenden Inhalten befassen, könnte eine Förderung für Sie in Betracht kommen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "regionalfoerderung", "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-bc6651d6-6bec-468d-ac7f-dc7e08692c63 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kulturförderung für Vertriebene und Flüchtlinge nach dem Zweiten Weltkrieg";
+    xyz:description "Der Freistaat Bayern fördert kulturelle Projekte zur Pflege, Vermittlung und Weiterentwicklung des Kulturerbes deutscher Heimatvertriebener und Spätaussiedler, die infolge des Zweiten Weltkriegs ihre Heimat verlassen mussten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "forschungseinrichtungen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-bc98a853-db5b-4ceb-84ca-992215769623 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Elektrolyseure zur Produktion von erneuerbarem Wasserstoff";
+    xyz:description "Förderung von Elektrolyseuren zur Erzeugung von erneuerbarem Wasserstoff";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-bcd0723a-9166-497c-a464-73a99d0a8ead cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Pflegeeinrichtungen; Beantragung einer Förderung für Fortbildungsmaßnahmen";
+    xyz:description "Der Freistaat Bayern fördert Maßnahmen zur Stärkung der Führungskompetenzen und Resilienz der Beschäftigten in Pflegeeinrichtungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-bd9aa6d0-8d2a-445b-92b3-5d274d687627 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung ambulanter Krebsberatungsstellen";
+    xyz:description "Der Freistaat Bayern und die bayerischen Bezirke unterstützen ambulante Krebsberatungsstellen, die psychosoziale Beratung und Unterstützung für krebskranke Menschen und ihre Angehörigen anbieten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "arbeit", "gesundheit_und_soziales", "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-bdb5c0c6-eef9-47a4-9e9b-df7184c554d5 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Fit for Work - Chance Ausbildung (Aktion 4.1)";
+    xyz:description "Ausbildungsbetriebe können für die Ausbildung von jungen Menschen in Bayern, deren Chancen auf dem Ausbildungsstellenmarkt verringert sind, eine ESF+ Förderung in Höhe von bis zu 6.000 € beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "eu";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-be2f47f4-92ba-4ef6-82d0-b6067f380b90 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Berufsbegleitende (online-gestützte) Kurse zur Vorbereitung auf den Mittleren Schulabschluss";
+    xyz:description "Anerkannte Träger können eine Förderung für berufsbegleitende, online-gestützte Kurse zum Nachholen des Mittleren Schulabschlussses beantragen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-c08746b4-997a-43af-b680-c08e303ce47c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Angeboten für Pflegebedürftige in häuslicher Pflege zur Unterstützung im Alltag";
+    xyz:description "Angebote zur Unterstützung im Alltag sollen Pflegebedürftige sowie pflegende An- und Zugehörige stundenweise entlasten. Träger von anerkannten Angeboten zur Unterstützung im Alltag können eine Zuwendung im Rahmen einer Projektförderung erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-c17e9686-c9f4-4709-976f-7947b8d3d3c4 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Radweginfrastruktur, Straßen- und Brückenbau nach Art. 2 BayGVFG";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen für kommunale Straßen- und Brückenbaumaßnahmen, soweit sie zur Verbesserung der Verkehrsverhältnisse dringend notwendig sind.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-c4c2ddce-1547-4612-b417-9a4c96d0b115 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Begegnungsstätten (Quartiersräume)";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur von Begegnungsstätten (Quartiersräume).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-10-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-c59aeb62-f194-4fe3-be7a-eab943741959 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "B1-Förderung von Investitionen bei nichtstaatlichen Museen";
+    xyz:description "Der Freistaat Bayern fördert Investitionen bei nichtstaatlichen Museen";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-c628b68e-978e-4f08-ab79-7a1927aae1d0 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F3-Förderung von Projekten nichtstaatlicher Archive";
+    xyz:description "Der Freistaat Bayern fördert Sonderprojekte nichtstaatlicher Archive";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-c6cc8c91-8839-41a8-8675-c3772f7d247a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Landesförderprogramm Ganztagsausbau";
+    xyz:description "Der Freistaat Bayern fördert die Schaffung zusätzlicher rechtsanspruchserfüllender Plätze in Bildungs- und Betreuungsangeboten für Kinder im Grundschulalter.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2";
+    xyz:deadline "2028-06-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-c7fa6469-9103-4155-8f38-ccb3d9e36c46 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Jugendsozialarbeit an Schulen; Beantragung einer Förderung";
+    xyz:description "Jugendsozialarbeit an Schulen (JaS) ist eine Maßnahme der Jugendhilfe. Durch den Einsatz von JaS-Fachkräften an der Schule erfolgt eine intensive Kooperation von Jugendhilfe und Schule.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-c90a5009-2baa-4755-8fb4-7fa4f6081a1c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Zuschuss für Familienerholung in Familienferienstätten";
+    xyz:description "Wenn Sie zusammen mit Ihren Kindern verreisen möchten und sich für einen Erholungsaufenthalt in einer Familienferienstätte entscheiden, können Sie unter bestimmten Voraussetzungen eine Förderung bekommen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-c942d7d4-9b35-4476-ba45-fd1cee546ab6 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Familienpflege; Beantragung einer Förderung";
+    xyz:description "Die Familienpflege trägt dazu bei, Familien in besonderen Not- und\nKrisensituationen zu stützen und die Fremdunterbringung von Kindern zu\nvermeiden. Die Träger von Familienpflegestationen können eine Zuwendung im\nRahmen einer Projektförderung erhalten.";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-c94f84b7-f39b-4de1-9378-a59fde9f536a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Erstmaliger Bau von Verbundleitungen für Wasserversorgungsanlagen und erstmaliger Bau von Verbundkanälen bei Auflassung von Kläranlagen (nach Nr. 2.2.2 der RZWas 2025)";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Städte und Gemeinden bei der\nSanierung von öffentlichen Trinkwasser- und Abwasseranlagen in Härtefällen mit Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-caa08826-e6bb-41ff-9534-78d8b92b647c cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Zuwendung zu Einsatzkosten der Katastrophenbewältigung";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen zu den Einsatzkosten der Katastrophenabwehr und Bewältigung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "regionalfoerderung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-cb8c87b5-cf32-4478-b202-15afb07fdbfa cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "ALPHA+ besser lesen und schreiben";
+    xyz:description "Mit der Förderung \"ALPHA+ besser lesen und schreiben\" soll flächendeckend in Bayern geeigneten Trägern ein finanzieller Anreiz für die Durchführung von Kursen zur Alphabetisierung von erwachsenen Personen geboten werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "arbeit", "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-cef8c6a3-6789-4cb0-9ce9-224300da10ba cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "A1-Förderung von Investitionen bei nichtstaatlichen Theaterspielstätten";
+    xyz:description "Der Freistaat Bayern betreibt Investitionsförderung bei nichtstaatlichen Theaterspielstätten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-d13dfe93-348b-4432-a29f-e8ba3e0101a1 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Biogasaufbereitungsanlagen und Biogas- bzw. Biomethanleitungen im Förderprogramm BioMeth Bayern";
+    xyz:description "Über BioMeth Bayern wird die Errichtung von Biogasaufbereitungsanlagen und von Biogas- bzw. Biomethanleitungen gefördert. Damit kann Biomethan als Kraftstoff, für die Einspeisung in das Gasnetz oder für die Nutzung im Wärmemarkt bereitgestellt werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende", "ehrenamt";
+    xyz:location "DE2".
+cdp:ff-d2505b35-e905-41d4-962f-c457fc2a6459 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Unterstützungsmaßnahmen und Wohnformen für ein selbstbestimmtes Leben im Alter";
+    xyz:description "Die meisten Menschen wollen an dem Ort, der ihr Zuhause ist, möglichst lange möglichst selbstbestimmt und unabhängig wohnen. Dabei kann eine Zuwendung nach der SeLA-Richtlinie unterstützen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-d33e364c-e4b9-43db-8a96-be0dab8bd282 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Landesbehindertenverbänden";
+    xyz:description "Bayerische Landesverbände von Menschen mit Behinderung können eine Zuwendung für ihre Verbandsarbeit vom Freistaat Bayern erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2025-10-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-d62d789a-0c67-4721-abdb-49b6c216e4a3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Bauliche Sanierung (Erneuerung und Renovierung, nicht Reparatur) bestehender Trinkwasserleitungen und Abwasserkanäle (Misch-, Schmutz- und Niederschlagswasserkanäle)";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Städte und Gemeinden bei der\nSanierung von öffentlichen Trinkwasser- und Abwasseranlagen in Härtefällen mit Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-d6a704d7-20a3-4ee9-a5bf-f823ab077d81 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung neuer Energie- und Energieeffizienztechnologien - Bayerisches Energieforschungsprogramm";
+    xyz:description "Der Freistaat Bayern fördert mit dem Bayerischen Energieforschungsprogramm die Erforschung, Entwicklung und Anwendung neuer Energie- und Energieeffizienztechnologien.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen";
+    xyz:location "DE2".
+cdp:ff-d8036bc3-2162-4528-af39-e454e496827b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Energiekonzepten und kommunalen Energienutzungsplänen";
+    xyz:description "Förderung von Energiekonzepten und kommunalen Energienutzungsplänen";
+    xyz:status "ended";
+    xyz:funderLevel "land";
+    xyz:fundingArea "energieeffizienz_und_erneuerbare_energien";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "forschungseinrichtungen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-d8e15a60-ce6f-4d4f-9d89-c8563e5f5169 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für vollstationäre Dauerpflegeeinrichtungen mit einer Öffnung in den sozialen Nahraum";
+    xyz:description "Der Freistaat Bayern fördert den flächendeckenden und bedarfsgerechten Ausbau der pflegerischen Versorgungsstruktur für vollstationäre Dauerpflegeeinrichtungen mit einer Öffnung in den sozialen Nahraum.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-d9c88b65-9906-479e-b22d-a0e28db1ae7b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F5-Förderung von Veranstaltungen im Rahmen der Literaturpflege";
+    xyz:description "Der Freistaat Bayern fördert innovative kulturelle Veranstaltungen aus dem Bereich Literaturpflege.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-dbe56d8c-5c73-453e-b858-591b6a05a7c8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Unternehmensneugründungen im Bereich Digitalisierung; Start?Zuschuss!";
+    xyz:description "Der Freistaat Bayern fördert technologieorientierte Start-ups mit innovativem, zukunftsfähigem Geschäftsmodell im Bereich Digitalisierung, deren Gründung höchstens zwei Jahre zurückliegt (maßgeblich ist der Stichtag des Bewerbungsfristendes).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "existenzgruendung_und_festigung", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-dc1cf130-467b-4584-8b34-7a871992ab54 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Mittagsbetreuung an Grund- und Förderschulen; Beantragung einer Förderung";
+    xyz:description "Der Freistaat Bayern fördert Gruppen der Mittagsbetreuung, um eine verlässliche Betreuung der Kinder nach dem stundenplanmäßigen Unterrichtsende zu unterstützen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung", "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung";
+    xyz:location "DE2".
+cdp:ff-e0fc396d-50b3-4035-970e-86864c4ed45d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Flüchtlings- und Integrationsberatung";
+    xyz:description "Der Freistaat Bayern gewährt Zuwendungen zur Unterstützung und Beratung von Asylbewerberinnen\nund Asylbewerber sowie dauerhaft bleibeberechtigten Menschen mit Migrationshintergrund.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-e1a361fa-c0a5-47d6-9aaa-2b33cb7a2d03 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Gebundenes Ganztagsangebot für Deutschklassen; Beantragung einer Förderung aus dem Europäischen Sozialfonds Plus";
+    xyz:description "Die Einrichtung gebundener Ganztagsangebote für Deutschklassen an Grund- und Mittelschulen wird aus dem Europäischen Sozialfonds Plus (ESF+) 2021 - 2027 gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "eu";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-e368b99e-a725-49af-8d1a-01845adb6410 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Projekte und Maßnahmen zur Suchtprävention und Suchtbekämpfung";
+    xyz:description "Projekte und Maßnahmen zur Suchtprävention und Suchtbekämpfung";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-e3ca43eb-d8cd-4787-a73c-5d16b1907c1f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Digitalisierung in Pflegeeinrichtungen";
+    xyz:description "Der Freistaat Bayern fördert die Anschaffung von digitaler und technischer Ausstattung in Pflegeeinrichtungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "digitalisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "grossunternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-e5075cba-73b5-4883-9a16-7b3b22463508 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Wohnraum für Studierende";
+    xyz:description "Der Staat fördert die Schaffung und Erhaltung von Wohnraum für Studierende mit Mitteln aus öffentlichen Haushalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-e51126eb-97a8-4015-b96b-c4e39b302630 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Baumaßnahmen an öffentlichen Schulen und Schulsportanlagen";
+    xyz:description "Der Freistaat gewährt auf Antrag Zuweisungen zu kommunalen Baumaßnahmen an Schulgebäuden öffentlicher Schulen und Schulsportanlagen, wenn sie schulaufsichtlich genehmigt sind.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "infrastruktur";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "behoerden", "kommunen", "oeffentliche_einrichtung";
+    xyz:location "DE2".
+cdp:ff-e6bb80a6-08cf-4666-9b9d-0227bf9ee8e2 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Erstellung von Sanierungs- und Strukturkonzepten";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Städte und Gemeinden bei der\nSanierung von öffentlichen Trinkwasser- und Abwasseranlagen in Härtefällen mit Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-e86112b9-2c12-49bc-b9e2-d8cdd4b3bc19 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Maßnahmen im Bereich der Nutzbarmachung, Verarbeitung und Nutzung von Gesundheitsdaten - Bereich Pflege";
+    xyz:description "Mit der Förderlinie 2 werden Maßnahmen im Bereich der Nutzbarmachung, Verarbeitung und Nutzung von Gesundheitsdaten mit dem Ziel des Aufbaus einer Infrastruktur für vernetzte Gesundheitsdaten gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-ea593114-fc64-4500-8e18-e14f06b576e1 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Mietwohnungen für Menschen mit Behinderung";
+    xyz:description "Die Anpassung von Mietwohnraum an die Belange von Menschen mit Behinderung (§2 Abs. 1 Neuntes Buch Sozialgesetzbuch) kann gefördert werden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "kredit_darlehen";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2".
+cdp:ff-eab704e5-7bce-4d22-9b34-8e2fd8431b73 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Digitale Schule der Zukunft - Lernen mit mobilen Endgeräten";
+    xyz:description "Die Digitale Schule der Zukunft verfolgt das Ziel der Weiterentwicklung des Unterrichts auf Basis einer 1:1-Ausstattung mit mobilen Endgeräten.";
+    xyz:funderLevel "land";
+    xyz:fundingArea "digitalisierung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-ec07b42e-daa3-40be-8543-03c46988420a cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sportförderung für Menschen mit Behinderung";
+    xyz:description "Der Freistaat Bayern fördert die Durchführung von Maßnahmen im Breitensport für Menschen mit Behinderung.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-ec0fe757-e317-476b-adc6-6a5d6ffd6069 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "C2-Förderung von Ausstellungen, Symposien oder ähnlichen Projekten aus dem Bereich zeitgenössische Kunst";
+    xyz:description "Der Freistaat Bayern fördert Ausstellungen, Symposien und ähnliche Projekte aus dem Bereich der zeitgenössischen Kunst";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-ec4b78e7-b04a-42ad-b24d-4d7fd58846d0 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung der Erziehungsberatungsstellen";
+    xyz:description "Der Freistaat Bayern fördert flächendeckend rund 180 Erziehungsberatungsstellen (inkl. Nebenstellen und Außensprechstunden).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "beratung";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-ed45cd35-7fbd-48ff-9212-199166b0f790 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Maßnahmen im Bereich E-Health";
+    xyz:description "Durch die Förderlinie 1 der Gesundheits- und Pflegedigitalisierungsrichtlinie (BayDiGuP) werden durch den Freistaat Bayern Maßnahmen im Bereich E-Health und E-Care unter besonderer Berücksichtigung der Telematikinfrastruktur gefördert.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales", "digitalisierung", "forschung_und_innovation_themenspezifisch";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen", "unternehmen_mit_auslaendischem_mehrheitsbesitz", "grossunternehmen", "forschungseinrichtungen", "freiberufler", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2027-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-ee2a3b90-ebbb-4b3c-aeb0-61815f459d2b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Umsetzung zur systematischen Verringerung von Treibhausgasen";
+    xyz:description "Bringen Sie die CO2-Bilanz Ihrer Kommune spürbar nach unten!\nMit unserer Förderung können Kommunen CO2-intensive Anlageteile ersetzen sowie Innen- und Hallenbeleuchtungen auf LED umstellen. Das schafft dauerhaft messbare CO2-Einsparungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-ef65e416-a081-48c9-881f-1ca6702ddf16 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Umsetzung zur Klimaanpassung";
+    xyz:description "Machen Sie Ihre Kommune fit für heiße Sommer!\nMit unserer Förderung investieren Städte, Gemeinden und Landkreise  in Klimaanpassung - z.B. Zisternen, Regenwassernutzung oder hitzetolerante Bäume. So sinken Hitzebelastung und Klimarisiken, die Aufenthaltsqualität steigt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen";
+    xyz:location "DE2".
+cdp:ff-f1718220-919e-4f0f-810b-5619ac0bd54f cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderstätten für Menschen mit Behinderung und Tagesstruktureinrichtungen für erwachsene Menschen mit Behinderung nach dem Erwerbsleben";
+    xyz:description "Der Freistaat Bayern unterstützt sogenannte Förderstätten für Menschen mit Behinderung und Tagesstruktureinrichtungen für erwachsene Menschen mit Behinderung nach dem Erwerbsleben (T-ENE) indem er Einrichtungsträgern Zuwendungen für bauliche Investitionen gewährt.";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2025-03-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-f1ccbb7c-df59-4117-be23-30d5d51d5e96 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Leistungssport; Beantragung einer Förderung für eine leistungssportliche Trainingseinrichtung";
+    xyz:description "Der Freistaat Bayern fördert den Neubau, die Erweiterung oder Sanierung von leistungssportlichen Trainingseinrichtungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "unternehmen", "kleine_und_mittlere_unternehmen", "verbaende";
+    xyz:location "DE2".
+cdp:ff-f46e90a0-d838-43fe-83d6-c34baab1d10d cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Ehrenamt, bürgerschaftliches Engagement und Selbsthilfe in der Pflege";
+    xyz:description "Ehrenamtliche Strukturen, die sich die Unterstützung, Betreuung und Entlastung von Pflegebedürftigen sowie deren An- und Zugehörigen zum Ziel gesetzt haben, können eine Zuwendung im Rahmen einer Projektförderung erhalten.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2026-12-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+cdp:ff-f66be0a5-f6cb-411f-8770-f00baab7432e cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Eigenwohnraumförderung -  Bayerisches Zinsverbilligungsprogramm";
+    xyz:description "Der Staat fördert das Schaffen oder den Erwerb von Eigenwohnraum (eigenes Haus oder Eigentumswohnung zur Eigennutzung).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "wohnungsbau_und_modernisierung";
+    xyz:fundingType "zuschuss", "kredit_darlehen";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-f82bf67c-2b75-45c0-971f-ad675e02379b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sprachangebote für Erwachsene mit Flucht- oder Migrationshintergrund; Beantragung einer Förderung für Ehrenamtliche";
+    xyz:description "Der Freistaat Bayern unterstützt im Rahmen des Projekts \"Sprache schafft Chancen\" Ehrenamtliche finanziell, die volljährigen Menschen mit Flucht- oder Migrationshintergrund die deutsche Sprache beibringen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "vereine", "verband_vereinigung", "ehrenamt";
+    xyz:location "DE2".
+cdp:ff-f8530627-ef82-4c53-887a-3c61a01d0e7b cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung für Inklusionsbetriebe";
+    xyz:description "Der Freistaat Bayern unterstützt Inklusionsbetriebe mit finanziellen Mitteln, damit diese dauerhaft Arbeitsplätze für Menschen mit Schwerbehinderung oder Gleichstellung schaffen oder erhalten können.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen", "einzelunternehmen";
+    xyz:location "DE2".
+cdp:ff-f85544d3-f658-4b2a-b5a7-e6285f6c0bb2 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "F1-Förderung von Investitionen bei nichtstaatlichen Archiven";
+    xyz:description "Der Freistaat Bayern betreibt eine Förderung von Investitionen bei nichtstaatlichen Archiven.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-f884a36c-4689-4c7d-a892-ca18f538bb90 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Kursreihe \"Leben in Bayern\"";
+    xyz:description "Das Bayerische Staatsministerium des Innern, für Sport und Integration fördert Projekte zur Wertevermittlung. Die Kursreihe \"Leben in Bayern\" vermittelt Wissen zu Alltag, Werten und gesellschaftlichem Zusammenleben im Freistaat.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "integration";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-f9617a6e-74f8-4891-9288-b01c064c2852 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung von Umweltstationen";
+    xyz:description "Der Freistaat Bayern gewährt an staatlich anerkannte Umweltstationen Zuwendungen für Bildungsarbeit im Sinn einer hochwertigen Bildung für nachhaltige Entwicklung und Umweltbildung (BNE/UB).";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "behoerden", "kommunen", "vereine", "oeffentliche_einrichtung", "stiftungen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-f96c9403-7d2b-45a7-9074-0053321c12c3 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Suchtpräventionsfachkräfte der Verbände und Kommunen";
+    xyz:description "Suchtpräventionsfachkräfte";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2".
+cdp:ff-f98eccad-da35-42f8-a679-582826574ade cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderleistung für Schwangere in Not durch die \"Landesstiftung Hilfe für Mutter und Kind\"";
+    xyz:description "Die \"Landesstiftung Hilfe für Mutter und Kind\" hilft schwangeren Frauen vor Geburt und bis zu 36 Monate nach Geburt des Kindes, sofern sie sich in einer Notlage befinden.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "gesundheit_und_soziales";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "privatpersonen";
+    xyz:location "DE2".
+cdp:ff-fa18e2ab-36fa-4f76-8e1e-fc918cb050fd cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "D1-Förderung von Investitionen beim Bau und Ausbau von Veranstaltungs- und Proberäumen für professionelle Musikerinnen und Musiker";
+    xyz:description "Der Freistaat Bayern fördert Investitionen beim Bau oder Ausbau von Veranstaltungsräumen (Konzertsaal) und Proberäumen für professionelle Musikerinnen und Musiker und Ensembles.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "stiftungen", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-fa31b507-2284-4f48-9614-978ca972bccc cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "E1- Förderung von Investitionen beim Bau- und Ausbau von Veranstaltungs- und Proberäume für Laienmusikvereine";
+    xyz:description "Der Freistaat Bayern fördert Investitionen bei Proben- und Veranstaltungsräumen für Laienmusikvereine";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-fb16fb37-f479-48af-b517-7646ac8379f8 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Förderung arbeitsweltbezogener Jugendsozialarbeit";
+    xyz:description "Der Freistaat Bayern fördert Maßnahmen, in denen sozial benachteiligte bzw. individuell beeinträchtigte junge Menschen ausgebildet werden. Ziel der Maßnahmen ist ein gelingender Übergang von der Schule in den Beruf und die dauerhafte Eingliederung in den Arbeitsmarkt.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "aus_und_weiterbildung";
+    xyz:fundingType "anteilsfinanzierung_kapitalbeteiligung";
+    xyz:eligibleApplicant "unternehmen", "kleine_und_mittlere_unternehmen";
+    xyz:location "DE2".
+cdp:ff-fbc93a27-0409-4497-87fa-4a9523a1b455 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "E2-Förderung von Einzelprojekten aus dem Bereich Laienmusik";
+    xyz:description "Der Freistaat Bayern fördert Veranstaltungen aus dem Bereich Laien- oder Amateurmusik die bayernweite Bedeutung haben.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "kultur_medien_und_sport";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "vereine", "verband_vereinigung", "privatpersonen", "verbaende";
+    xyz:location "DE2";
+    xyz:deadlineModel "multiple_cut_off".
+cdp:ff-fbcdde84-d1fd-4a52-8e1e-4db788484541 cdp:fromSource cdp:foerderfinderSource;
+    xyz:title "Sanierung von Bauwerken bestehender Trinkwassergewinnungs- und -aufbereitungsanlagen, Trinkwasserspeicher, Kläranlagen, Pumpwerke und Regenbecken";
+    xyz:description "Der Freistaat Bayern unterstützt die bayerischen Städte und Gemeinden bei der Sanierung von öffentlichen Trinkwasser- und Abwasseranlagen in Härtefällen mit Zuwendungen.";
+    xyz:status "active";
+    xyz:funderLevel "land";
+    xyz:fundingArea "umwelt_und_naturschutz";
+    xyz:fundingType "zuschuss";
+    xyz:eligibleApplicant "kommunen", "verband_vereinigung", "verbaende";
+    xyz:location "DE2";
+    xyz:deadline "2028-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.

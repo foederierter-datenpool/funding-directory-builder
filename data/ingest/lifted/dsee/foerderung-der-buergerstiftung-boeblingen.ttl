@@ -1,0 +1,658 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-131780 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131781;
+    rdf:_10 _:n3-131782;
+    rdf:_11 _:n3-131783;
+    rdf:_12 _:n3-131784;
+    rdf:_13 _:n3-131785;
+    rdf:_14 _:n3-131786;
+    rdf:_15 _:n3-131787;
+    rdf:_16 _:n3-131788;
+    rdf:_17 _:n3-131789;
+    rdf:_18 _:n3-131790;
+    rdf:_19 _:n3-131791;
+    rdf:_2 _:n3-131792;
+    rdf:_20 _:n3-131793;
+    rdf:_21 _:n3-131794;
+    rdf:_22 _:n3-131795;
+    rdf:_23 _:n3-131812;
+    rdf:_24 _:n3-131817;
+    rdf:_25 _:n3-131891;
+    rdf:_26 _:n3-131899;
+    rdf:_3 _:n3-131900;
+    rdf:_4 _:n3-131901;
+    rdf:_5 _:n3-131902;
+    rdf:_6 _:n3-131903;
+    rdf:_7 _:n3-131904;
+    rdf:_8 _:n3-131905;
+    rdf:_9 _:n3-131906;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-buergerstiftung-boeblingen";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Bürgerstiftung Böblingen  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Bürgerstiftung Böblingen\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Bürgerstiftung Böblingen\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Böblingen</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n       <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Baden-Württemberg</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Wissenschaft und Forschung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Marktplatz 16,\n        <br>\n        71032 Böblingen</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>07031 669 1173</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Bürgerstiftung Böblingen Förderung der Bürgerstiftung Böblingen Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173 ©2026 Impressum Datenschutzerklärung".
+_:n3-131781 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-131782 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-131783 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-131784 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-131785 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Böblingen";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-131786 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-131787 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Böblingen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-131788 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-131789 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-131790 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-131791 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-131792 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-131793 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-131794 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-131795 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131796;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-131796 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131797;
+    rdf:_2 _:n3-131799;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-131797 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-131798;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-131798 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-131799 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131800;
+    rdf:_2 _:n3-131803;
+    rdf:_3 _:n3-131806;
+    rdf:_4 _:n3-131809;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-131800 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-131801;
+    rdf:_2 _:n3-131802;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131801 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-131802 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-131803 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-131804;
+    rdf:_2 _:n3-131805;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131804 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-131805 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-131806 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-131807;
+    rdf:_2 _:n3-131808;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131807 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-131808 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-131809 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-131810;
+    rdf:_2 _:n3-131811;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131810 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-131811 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-131812 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-131813;
+    rdf:_2 _:n3-131816;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-131813 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-131814;
+    rdf:_2 _:n3-131815;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-131814 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-131815 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-131816 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-131817 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-131818;
+    rdf:_2 _:n3-131823;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Böblingen</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n      <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Baden-Württemberg</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Marktplatz 16,\n       <br>\n       71032 Böblingen</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>07031 669 1173</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Böblingen Förderung der Bürgerstiftung Böblingen Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131818 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-131819;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Böblingen</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Böblingen".
+_:n3-131819 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131820;
+    rdf:_2 _:n3-131821;
+    rdf:_3 _:n3-131822;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Böblingen</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Böblingen".
+_:n3-131820 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-131821 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-131822 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Bürgerstiftung Böblingen";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Böblingen";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen".
+_:n3-131823 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-131824;
+    rdf:_2 _:n3-131869;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n     <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Baden-Württemberg</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Marktplatz 16,\n      <br>\n      71032 Böblingen</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>07031 669 1173</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131824 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131825;
+    rdf:_2 _:n3-131844;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n    <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Baden-Württemberg</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-131825 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131826;
+    rdf:_2 _:n3-131828;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n   <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung".
+_:n3-131826 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-131827;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Böblingen</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen".
+_:n3-131827 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Bürgerstiftung Böblingen";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Böblingen";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen".
+_:n3-131828 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131829;
+    rdf:_2 _:n3-131831;
+    rdf:_3 _:n3-131834;
+    rdf:_4 _:n3-131837;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n  <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg. Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen. Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen. Weitere Informationen Link zur Website Link zur Antragstellung".
+_:n3-131829 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131830;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.".
+_:n3-131830 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.";
+    <https://html.spec.whatwg.org/#innerHTML> "Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen&nbsp;für Bürgern und Bürgerinnen&nbsp;ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.";
+    <https://html.spec.whatwg.org/#innerText> "Böblingen lebt vom Engagement seiner Bürgerinnen und Bürger. Mit der Bürgerstiftung Böblingen soll von Bürgern und Bürgerinnen für Bürgern und Bürgerinnen ein Kapitalstock aufgebaut werden, aus dessen Erträgen gemeinnützige und mildtätige Zwecke unterstützt werden. Ziel der Bürgerstiftung Böblingen ist die Integration und das Miteinander von Jung und Alt, Gesunden und Kranken, Behinderten und Nichtbehinderten sowie Ausländern und Einheimischen zu fördern. Im Sinne der Hilfe zur Selbsthilfe sollen das freiwillige ehrenamtliche Engagement und die Übernahme von gesellschaftlicher Verantwortung in Böblingen gestärkt werden. Die Bürgerstiftung Böblinger ist den Grundwerten der persönlichen Freiheit, der Toleranz und der Solidarität sowie den Grundrechten der Verfassung verpflichtet. Sie ist wirtschaftlich und politisch unabhängig und offen über konfessionelle Grenzen hinweg.".
+_:n3-131831 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131832;
+    rdf:_2 _:n3-131833;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.".
+_:n3-131832 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-131833 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Eine Förderung kann innerhalb der Stadt Böblingen erfolgen.".
+_:n3-131834 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131835;
+    rdf:_2 _:n3-131836;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.".
+_:n3-131835 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-131836 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Ein Förderantrag kann über das verlinkte Antragsformular erfolgen.".
+_:n3-131837 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131838;
+    rdf:_2 _:n3-131839;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n <li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Website Link zur Antragstellung".
+_:n3-131838 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-131839 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-131840;
+    rdf:_2 _:n3-131842;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n<li><a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website Link zur Antragstellung".
+_:n3-131840 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-131841;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://buergerstiftung-bb.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-131841 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Website";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Website";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website";
+    <http://www.w3.org/1999/xhtml#href> "https://buergerstiftung-bb.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131842 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-131843;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://buergerstiftung-bb.de/antragsformular-projektfoerderung/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung".
+_:n3-131843 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Antragstellung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#href> "https://buergerstiftung-bb.de/antragsformular-projektfoerderung/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131844 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-131845;
+    rdf:_2 _:n3-131848;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Baden-Württemberg</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-131845 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131846;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">\n</figure>".
+_:n3-131846 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-131847;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png\" width=\"800\" height=\"600\">".
+_:n3-131847 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "600";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-131848 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131849;
+    rdf:_2 _:n3-131854;
+    rdf:_3 _:n3-131866;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Baden-Württemberg</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-131849 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131850;
+    rdf:_2 _:n3-131851;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Baden-Württemberg</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Baden-Württemberg".
+_:n3-131850 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-131851 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131852;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Baden-Württemberg</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-131852 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-131853;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Baden-Württemberg</li>";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-131853 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Baden-Württemberg";
+    <https://html.spec.whatwg.org/#innerText> "Baden-Württemberg".
+_:n3-131854 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131855;
+    rdf:_2 _:n3-131856;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-131855 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-131856 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131857;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Wissenschaft und Forschung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-131857 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-131858;
+    rdf:_2 _:n3-131859;
+    rdf:_3 _:n3-131860;
+    rdf:_4 _:n3-131861;
+    rdf:_5 _:n3-131862;
+    rdf:_6 _:n3-131863;
+    rdf:_7 _:n3-131864;
+    rdf:_8 _:n3-131865;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Wissenschaft und Forschung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-131858 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-131859 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-131860 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-131861 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-131862 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-131863 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-131864 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-131865 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-131866 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131867;
+    rdf:_2 _:n3-131868;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-131867 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-131868 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-131869 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131870;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Marktplatz 16,\n     <br>\n     71032 Böblingen</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>07031 669 1173</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131870 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131871;
+    rdf:_2 _:n3-131889;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Marktplatz 16,\n    <br>\n    71032 Böblingen</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>07031 669 1173</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131871 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131872;
+    rdf:_2 _:n3-131874;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Marktplatz 16,\n   <br>\n   71032 Böblingen</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>07031 669 1173</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Böblingen Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131872 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-131873;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen\" class=\"link\">Bürgerstiftung Böblingen</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Böblingen".
+_:n3-131873 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bürgerstiftung Böblingen";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bürgerstiftung Böblingen";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Böblingen";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/1084-buergerstiftung-boeblingen".
+_:n3-131874 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131875;
+    rdf:_2 _:n3-131878;
+    rdf:_3 _:n3-131882;
+    rdf:_4 _:n3-131886;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Marktplatz 16,\n  <br>\n  71032 Böblingen</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>07031 669 1173</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Marktplatz 16, 71032 Böblingen E-Mail brockmann@buergerstiftung-bb.de Webseite www.buergerstiftung.boeblingen.de Telefon 07031 669 1173".
+_:n3-131875 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131876;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Marktplatz 16,\n <br>\n 71032 Böblingen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Marktplatz 16, 71032 Böblingen".
+_:n3-131876 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Marktplatz 16,";
+    rdf:_2 _:n3-131877;
+    rdf:_3 "71032 Böblingen";
+    <https://html.spec.whatwg.org/#innerHTML> "Marktplatz 16,\n<br>\n71032 Böblingen";
+    <https://html.spec.whatwg.org/#innerText> "Marktplatz 16, 71032 Böblingen".
+_:n3-131877 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-131878 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131879;
+    rdf:_2 _:n3-131880;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail brockmann@buergerstiftung-bb.de".
+_:n3-131879 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-131880 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-131881;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:brockmann@buergerstiftung-bb.de\">brockmann@buergerstiftung-bb.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "brockmann@buergerstiftung-bb.de".
+_:n3-131881 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "brockmann@buergerstiftung-bb.de";
+    <https://html.spec.whatwg.org/#innerHTML> "brockmann@buergerstiftung-bb.de";
+    <https://html.spec.whatwg.org/#innerText> "brockmann@buergerstiftung-bb.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:brockmann@buergerstiftung-bb.de".
+_:n3-131882 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131883;
+    rdf:_2 _:n3-131884;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.buergerstiftung.boeblingen.de".
+_:n3-131883 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-131884 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-131885;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerstiftung.boeblingen.de\" target=\"_blank\">www.buergerstiftung.boeblingen.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung.boeblingen.de".
+_:n3-131885 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.buergerstiftung.boeblingen.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.buergerstiftung.boeblingen.de";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung.boeblingen.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerstiftung.boeblingen.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-131886 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131887;
+    rdf:_2 _:n3-131888;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>07031 669 1173</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 07031 669 1173".
+_:n3-131887 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-131888 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "07031 669 1173";
+    <https://html.spec.whatwg.org/#innerHTML> "07031 669 1173";
+    <https://html.spec.whatwg.org/#innerText> "07031 669 1173".
+_:n3-131889 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131890;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png\" width=\"800\" height=\"600\">".
+_:n3-131890 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "600";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Bürgerstiftung-Böblingen_1.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-131891 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-131892;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-131892 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131893;
+    rdf:_2 _:n3-131897;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-131893 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-131894;
+    rdf:_2 _:n3-131895;
+    rdf:_3 _:n3-131896;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-131894 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-131895 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-131896 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-131897 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-131898;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-131898 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-131899 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-131900 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-131901 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-131902 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-boeblingen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-131903 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-131904 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Bürgerstiftung Böblingen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Böblingen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Böblingen  –  Förderdatenbank".
+_:n3-131905 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-131906 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

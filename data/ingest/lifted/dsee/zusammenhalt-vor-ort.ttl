@@ -1,0 +1,881 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-276638 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276639;
+    rdf:_10 _:n3-276640;
+    rdf:_11 _:n3-276641;
+    rdf:_12 _:n3-276642;
+    rdf:_13 _:n3-276643;
+    rdf:_14 _:n3-276644;
+    rdf:_15 _:n3-276645;
+    rdf:_16 _:n3-276646;
+    rdf:_17 _:n3-276647;
+    rdf:_18 _:n3-276648;
+    rdf:_19 _:n3-276649;
+    rdf:_2 _:n3-276650;
+    rdf:_20 _:n3-276651;
+    rdf:_21 _:n3-276652;
+    rdf:_22 _:n3-276653;
+    rdf:_23 _:n3-276670;
+    rdf:_24 _:n3-276675;
+    rdf:_25 _:n3-276791;
+    rdf:_26 _:n3-276799;
+    rdf:_3 _:n3-276800;
+    rdf:_4 _:n3-276801;
+    rdf:_5 _:n3-276802;
+    rdf:_6 _:n3-276803;
+    rdf:_7 _:n3-276804;
+    rdf:_8 _:n3-276805;
+    rdf:_9 _:n3-276806;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "zusammenhalt-vor-ort";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Zusammenhalt vor Ort  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Zusammenhalt vor Ort\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Zusammenhalt vor Ort\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Zusammenhalt vor Ort</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n     <p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n      <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n      <p>&nbsp;</p>\n      <p>Projektbeispiele:&nbsp;\n       <br>\n       &nbsp;</p>\n      <ul>\n       <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n       <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n       <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n       <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n       <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n        <br>\n        und vieles mehr.&nbsp;</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n       <br>\n       &nbsp;</p>\n      <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n      <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n      <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n       <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n       <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Digitalisierung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Migration</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Wissenschaft und Forschung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Personalkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>3.000 Euro</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Nein</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Goseriede 4,\n        <br>\n        30159 Hannover</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0511 99987351</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Zusammenhalt vor Ort Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten. Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351 ©2026 Impressum Datenschutzerklärung".
+_:n3-276639 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-276640 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-276641 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-276642 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-276643 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Zusammenhalt vor Ort";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-276644 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-276645 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Zusammenhalt vor Ort";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-276646 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-276647 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-276648 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-276649 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-276650 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-276651 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-276652 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-276653 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276654;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-276654 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276655;
+    rdf:_2 _:n3-276657;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-276655 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-276656;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-276656 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-276657 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276658;
+    rdf:_2 _:n3-276661;
+    rdf:_3 _:n3-276664;
+    rdf:_4 _:n3-276667;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-276658 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-276659;
+    rdf:_2 _:n3-276660;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276659 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-276660 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-276661 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-276662;
+    rdf:_2 _:n3-276663;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276662 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-276663 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-276664 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-276665;
+    rdf:_2 _:n3-276666;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276665 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-276666 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-276667 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-276668;
+    rdf:_2 _:n3-276669;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276668 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-276669 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-276670 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-276671;
+    rdf:_2 _:n3-276674;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-276671 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-276672;
+    rdf:_2 _:n3-276673;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-276672 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-276673 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-276674 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-276675 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-276676;
+    rdf:_2 _:n3-276681;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Zusammenhalt vor Ort</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n    <p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n     <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n     <p>&nbsp;</p>\n     <p>Projektbeispiele:&nbsp;\n      <br>\n      &nbsp;</p>\n     <ul>\n      <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n      <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n      <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n      <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n      <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n       <br>\n       und vieles mehr.&nbsp;</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n      <br>\n      &nbsp;</p>\n     <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n     <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n     <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n      <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n      <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Digitalisierung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Migration</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Personalkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>3.000 Euro</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Nein</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Goseriede 4,\n       <br>\n       30159 Hannover</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0511 99987351</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Zusammenhalt vor Ort Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten. Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276676 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-276677;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Zusammenhalt vor Ort</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Zusammenhalt vor Ort".
+_:n3-276677 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276678;
+    rdf:_2 _:n3-276679;
+    rdf:_3 _:n3-276680;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Zusammenhalt vor Ort</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Zusammenhalt vor Ort".
+_:n3-276678 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-276679 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-276680 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zusammenhalt vor Ort";
+    <https://html.spec.whatwg.org/#innerHTML> "Zusammenhalt vor Ort";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort".
+_:n3-276681 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-276682;
+    rdf:_2 _:n3-276769;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n   <p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n    <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n    <p>&nbsp;</p>\n    <p>Projektbeispiele:&nbsp;\n     <br>\n     &nbsp;</p>\n    <ul>\n     <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n     <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n     <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n     <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n     <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n      <br>\n      und vieles mehr.&nbsp;</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n     <br>\n     &nbsp;</p>\n    <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n    <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n    <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n     <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n     <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Digitalisierung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Migration</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Personalkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>3.000 Euro</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Nein</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Goseriede 4,\n      <br>\n      30159 Hannover</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0511 99987351</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten. Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276682 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276683;
+    rdf:_2 _:n3-276729;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n  <p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n   <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n   <p>&nbsp;</p>\n   <p>Projektbeispiele:&nbsp;\n    <br>\n    &nbsp;</p>\n   <ul>\n    <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n    <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n    <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n    <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n    <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n     <br>\n     und vieles mehr.&nbsp;</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n    <br>\n    &nbsp;</p>\n   <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n   <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n   <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n    <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n    <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Digitalisierung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Migration</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Personalkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>3.000 Euro</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Nein</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten. Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-276683 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276684;
+    rdf:_2 _:n3-276687;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n <p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n  <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n  <p>&nbsp;</p>\n  <p>Projektbeispiele:&nbsp;\n   <br>\n   &nbsp;</p>\n  <ul>\n   <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n   <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n   <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n   <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n   <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n    <br>\n    und vieles mehr.&nbsp;</li>\n  </ul>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n   <br>\n   &nbsp;</p>\n  <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n  <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n  <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n   <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n   <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten. Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung".
+_:n3-276684 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-276685;
+    rdf:_2 _:n3-276686;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Zusammenhalt vor Ort</h1>\n<p class=\"text-lg text-gray-500\">Mitmachen. Mitreden. Mitgestalten.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort Mitmachen. Mitreden. Mitgestalten.".
+_:n3-276685 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Zusammenhalt vor Ort";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Zusammenhalt vor Ort";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort".
+_:n3-276686 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mitmachen. Mitreden. Mitgestalten.";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Mitmachen. Mitreden. Mitgestalten.";
+    <https://html.spec.whatwg.org/#innerText> "Mitmachen. Mitreden. Mitgestalten.".
+_:n3-276687 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276688;
+    rdf:_2 _:n3-276701;
+    rdf:_3 _:n3-276712;
+    rdf:_4 _:n3-276720;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n <p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n <p>&nbsp;</p>\n <p>Projektbeispiele:&nbsp;\n  <br>\n  &nbsp;</p>\n <ul>\n  <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n  <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n  <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n  <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n  <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n   <br>\n   und vieles mehr.&nbsp;</li>\n </ul>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n  <br>\n  &nbsp;</p>\n <p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n <p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n <p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n  <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n  <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr. Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander. Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden. Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung".
+_:n3-276688 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276689;
+    rdf:_2 _:n3-276690;
+    rdf:_3 _:n3-276691;
+    rdf:_4 _:n3-276692;
+    rdf:_5 _:n3-276694;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;</p>\n<p>Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Projektbeispiele:&nbsp;\n <br>\n &nbsp;</p>\n<ul>\n <li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n <li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n <li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n <li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n <li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n  <br>\n  und vieles mehr.&nbsp;</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können. Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen. Projektbeispiele: Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr.".
+_:n3-276689 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Viele Engagierte vor Ort haben bereits Ideen davon, wie Gemeinschaft gestärkt und Beteiligung gefördert werden kann. Unterschiedliche Perspektiven, gesellschaftliche Veränderungen und zwischenmenschliche Konflikte stellen lokale Gemeinschaften jedoch vor größere Herausforderungen der Bewältigung. Zusammenhalt vor Ort sieht hierin eine Chance des produktiven Dissens, durch den sich ein übergeordneter Gemeinschafssinn, breiterer Dialog und letztlich demokratische Teilhabe ergeben können.".
+_:n3-276690 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Damit sich aus vielen guten Ideen konkrete Projekte entfalten, begleiten wir ehrenamtlich Aktive engmaschig dabei, gemeinsame Lösungen zu entwickeln und Prozesse vor Ort aktiv zu gestalten. Stets lösungsorientiert und ressourcenorientiert, bietet das Programm daher unterschiedliche Gelegenheiten, gemeinschaftliche Vorhaben unkompliziert umzusetzen und neue Kooperationen zwischen Sport, Bildung und Kultur aufzubauen.".
+_:n3-276691 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;".
+_:n3-276692 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projektbeispiele:&nbsp;";
+    rdf:_2 _:n3-276693;
+    rdf:_3 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Projektbeispiele:&nbsp;\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Projektbeispiele:".
+_:n3-276693 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-276694 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-276695;
+    rdf:_2 _:n3-276696;
+    rdf:_3 _:n3-276697;
+    rdf:_4 _:n3-276698;
+    rdf:_5 _:n3-276699;
+    <https://html.spec.whatwg.org/#innerHTML> "<li data-list-item-id=\"e230062e042d98808141e833bc69c597c\">Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;</li>\n<li data-list-item-id=\"e1308820c3f547c64e2e81e31d823e37a\">Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;</li>\n<li data-list-item-id=\"e1bb2dd663634401b633ed5539f62fc5d\">Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur</li>\n<li data-list-item-id=\"eac073df9c5fa9663de7ea15ffea2c613\">Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;</li>\n<li data-list-item-id=\"ebf2cce418043e4571860c17a0be014ce\">Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n <br>\n und vieles mehr.&nbsp;</li>";
+    <https://html.spec.whatwg.org/#innerText> "Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr.".
+_:n3-276695 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Workshops und Projektwerkstätten zur Entwicklung lokaler Ideen";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e230062e042d98808141e833bc69c597c".
+_:n3-276696 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Nachbarschafts- und Stadtteilaktionen zur Förderung von Austausch und Zusammenhalt";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e1308820c3f547c64e2e81e31d823e37a".
+_:n3-276697 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur";
+    <https://html.spec.whatwg.org/#innerHTML> "Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur";
+    <https://html.spec.whatwg.org/#innerText> "Lokale Konferenzen und moderierte Dialogformate zwischen Gruppen aus Sport, Bildung und Kultur";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "e1bb2dd663634401b633ed5539f62fc5d".
+_:n3-276698 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Festliche Aktionstage zur Stärkung des gesellschaftlichen Miteinanders";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "eac073df9c5fa9663de7ea15ffea2c613".
+_:n3-276699 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter";
+    rdf:_2 _:n3-276700;
+    rdf:_3 "und vieles mehr.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter\n<br>\nund vieles mehr.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Co-kreative Gemeinschaftsaktionen mit sportlichem Beteiligungscharakter und vieles mehr.";
+    <http://www.w3.org/1999/xhtml#data-list-item-id> "ebf2cce418043e4571860c17a0be014ce".
+_:n3-276700 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-276701 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276702;
+    rdf:_2 _:n3-276703;
+    rdf:_3 _:n3-276709;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n <br>\n &nbsp;</p>\n<p>Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen. Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander.".
+_:n3-276702 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-276703 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mittels sogenannter ";
+    rdf:_10 _:n3-276704;
+    rdf:_11 "&nbsp;";
+    rdf:_2 _:n3-276705;
+    rdf:_3 " werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;";
+    rdf:_4 _:n3-276706;
+    rdf:_5 " erhalten wiederholt die ";
+    rdf:_6 _:n3-276707;
+    rdf:_7 ", oder ";
+    rdf:_8 _:n3-276708;
+    rdf:_9 " in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Mittels sogenannter <strong>Mitmach-Aktionen</strong> werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte:&nbsp;<strong>Menschen unterschiedlicher Zusammensetzungen</strong> erhalten wiederholt die <strong>Chance sich zu beteiligen</strong>, oder <strong>gemeinsam Verantwortung</strong> in ihrem Umfeld und Gemeinden zu übernehmen.&nbsp;\n<br>\n&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Mittels sogenannter Mitmach-Aktionen werden unterschiedliche Perspektiven sichtbar im öffentlichen Raum platziert und demokratische Prozesse vor Ort gestärkt. Ganz gleich, ob durch gängige Formate wie Workshops, Dialogrunden oder innovative Begegnungsorte: Menschen unterschiedlicher Zusammensetzungen erhalten wiederholt die Chance sich zu beteiligen, oder gemeinsam Verantwortung in ihrem Umfeld und Gemeinden zu übernehmen.".
+_:n3-276704 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-276705 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Mitmach-Aktionen";
+    <https://html.spec.whatwg.org/#innerHTML> "Mitmach-Aktionen";
+    <https://html.spec.whatwg.org/#innerText> "Mitmach-Aktionen".
+_:n3-276706 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Menschen unterschiedlicher Zusammensetzungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Menschen unterschiedlicher Zusammensetzungen";
+    <https://html.spec.whatwg.org/#innerText> "Menschen unterschiedlicher Zusammensetzungen".
+_:n3-276707 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Chance sich zu beteiligen";
+    <https://html.spec.whatwg.org/#innerHTML> "Chance sich zu beteiligen";
+    <https://html.spec.whatwg.org/#innerText> "Chance sich zu beteiligen".
+_:n3-276708 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "gemeinsam Verantwortung";
+    <https://html.spec.whatwg.org/#innerHTML> "gemeinsam Verantwortung";
+    <https://html.spec.whatwg.org/#innerText> "gemeinsam Verantwortung".
+_:n3-276709 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die entstehenden ";
+    rdf:_2 _:n3-276710;
+    rdf:_3 "t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein ";
+    rdf:_4 _:n3-276711;
+    rdf:_5 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die entstehenden <strong>Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder</strong>t, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein <strong>zukunftsorientiertes Miteinander.</strong>&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die entstehenden Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro gefördert, verdeutlichen Vielfalt und stiften gegenseitiges Verständnis für ein zukunftsorientiertes Miteinander.".
+_:n3-276710 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder";
+    <https://html.spec.whatwg.org/#innerHTML> "Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder";
+    <https://html.spec.whatwg.org/#innerText> "Gemeinschaftsprojekte, werden mit bis zu 3.000 Euro geförder".
+_:n3-276711 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "zukunftsorientiertes Miteinander.";
+    <https://html.spec.whatwg.org/#innerHTML> "zukunftsorientiertes Miteinander.";
+    <https://html.spec.whatwg.org/#innerText> "zukunftsorientiertes Miteinander.".
+_:n3-276712 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276713;
+    rdf:_2 _:n3-276714;
+    rdf:_3 _:n3-276716;
+    rdf:_4 _:n3-276717;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.</p>\n<p>Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.</p>\n<p>Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Anträge können direkt über unser Online-Antragsverfahren gestellt werden. Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden. Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden.".
+_:n3-276713 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-276714 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Anträge können direkt über unser ";
+    rdf:_2 _:n3-276715;
+    rdf:_3 " gestellt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge können direkt über unser <a href=\"https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/\">Online-Antragsverfahren</a> gestellt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Anträge können direkt über unser Online-Antragsverfahren gestellt werden.".
+_:n3-276715 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Online-Antragsverfahren";
+    <https://html.spec.whatwg.org/#innerHTML> "Online-Antragsverfahren";
+    <https://html.spec.whatwg.org/#innerText> "Online-Antragsverfahren";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lotto-sport-stiftung.de/aktuelles/zusammenhalt-vor-ort/".
+_:n3-276716 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Formlose Anträge per E-Mail&nbsp; werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens&nbsp;gemeinsam geprüft werden.";
+    <https://html.spec.whatwg.org/#innerText> "Formlose Anträge per E-Mail werden nicht berücksichtigt, können jedoch vor Einreichen eines Vorhabens gemeinsam geprüft werden.".
+_:n3-276717 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Klicken sie hier, um einen&nbsp; ";
+    rdf:_2 _:n3-276718;
+    rdf:_3 " zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter ";
+    rdf:_4 _:n3-276719;
+    rdf:_5 " zu finden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Klicken sie hier, um einen&nbsp; <a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\">individuellen Telefon- oder Videotermin</a> zur Besprechung Ihrer Ideen oder Fragen zu buchen.&nbsp;Weiterführende Infos und Projektbeispiele sind unter <a href=\"https://zusammenhalt-vor-ort.de/\">zusammenhalt-vor-ort.de</a> zu finden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Klicken sie hier, um einen individuellen Telefon- oder Videotermin zur Besprechung Ihrer Ideen oder Fragen zu buchen. Weiterführende Infos und Projektbeispiele sind unter zusammenhalt-vor-ort.de zu finden.".
+_:n3-276718 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "individuellen Telefon- oder Videotermin";
+    <https://html.spec.whatwg.org/#innerHTML> "individuellen Telefon- oder Videotermin";
+    <https://html.spec.whatwg.org/#innerText> "individuellen Telefon- oder Videotermin";
+    <http://www.w3.org/1999/xhtml#href> "https://zusammenhalt-vor-ort.de/kontakt/#online-termin".
+_:n3-276719 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "zusammenhalt-vor-ort.de";
+    <https://html.spec.whatwg.org/#innerHTML> "zusammenhalt-vor-ort.de";
+    <https://html.spec.whatwg.org/#innerText> "zusammenhalt-vor-ort.de";
+    <http://www.w3.org/1999/xhtml#href> "https://zusammenhalt-vor-ort.de/".
+_:n3-276720 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276721;
+    rdf:_2 _:n3-276722;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n <li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n <li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung".
+_:n3-276721 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-276722 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-276723;
+    rdf:_2 _:n3-276725;
+    rdf:_3 _:n3-276727;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a></li>\n<li><a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a></li>\n<li><a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Programmwebsite Sprechstundentermin buchen Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung".
+_:n3-276723 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-276724;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://zusammenhalt-vor-ort.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Programmwebsite</a>";
+    <https://html.spec.whatwg.org/#innerText> "Programmwebsite".
+_:n3-276724 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Programmwebsite";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Programmwebsite";
+    <https://html.spec.whatwg.org/#innerText> "Programmwebsite";
+    <http://www.w3.org/1999/xhtml#href> "https://zusammenhalt-vor-ort.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276725 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-276726;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://zusammenhalt-vor-ort.de/kontakt/#online-termin\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Sprechstundentermin buchen</a>";
+    <https://html.spec.whatwg.org/#innerText> "Sprechstundentermin buchen".
+_:n3-276726 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Sprechstundentermin buchen";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Sprechstundentermin buchen";
+    <https://html.spec.whatwg.org/#innerText> "Sprechstundentermin buchen";
+    <http://www.w3.org/1999/xhtml#href> "https://zusammenhalt-vor-ort.de/kontakt/#online-termin";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276727 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-276728;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung".
+_:n3-276728 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Alle Fördermöglichkeiten der Niedersächsischen Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lotto-sport-stiftung.de/foerdermoeglichkeiten/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276729 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-276730;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Digitalisierung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Migration</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Personalkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>3.000 Euro</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Nein</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-276730 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276731;
+    rdf:_2 _:n3-276736;
+    rdf:_3 _:n3-276750;
+    rdf:_4 _:n3-276757;
+    rdf:_5 _:n3-276760;
+    rdf:_6 _:n3-276763;
+    rdf:_7 _:n3-276766;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Digitalisierung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Migration</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Personalkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>3.000 Euro</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Nein</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten Max. Fördersumme: 3.000 Euro Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-276731 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276732;
+    rdf:_2 _:n3-276733;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-276732 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-276733 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276734;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-276734 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-276735;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-276735 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-276736 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276737;
+    rdf:_2 _:n3-276738;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Digitalisierung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Migration</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges".
+_:n3-276737 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-276738 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276739;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Digitalisierung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Migration</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Wissenschaft und Forschung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges".
+_:n3-276739 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-276740;
+    rdf:_10 _:n3-276741;
+    rdf:_2 _:n3-276742;
+    rdf:_3 _:n3-276743;
+    rdf:_4 _:n3-276744;
+    rdf:_5 _:n3-276745;
+    rdf:_6 _:n3-276746;
+    rdf:_7 _:n3-276747;
+    rdf:_8 _:n3-276748;
+    rdf:_9 _:n3-276749;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Digitalisierung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Migration</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Wissenschaft und Forschung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Wissenschaft und Forschung Sonstiges".
+_:n3-276740 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-276741 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-276742 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerHTML> "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-276743 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-276744 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-276745 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-276746 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-276747 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-276748 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-276749 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-276750 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276751;
+    rdf:_2 _:n3-276752;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Personalkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Personalkosten Sachkosten".
+_:n3-276751 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-276752 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276753;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Personalkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-276753 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-276754;
+    rdf:_2 _:n3-276755;
+    rdf:_3 _:n3-276756;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Personalkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Personalkosten Sachkosten".
+_:n3-276754 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-276755 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten".
+_:n3-276756 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-276757 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276758;
+    rdf:_2 _:n3-276759;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>3.000 Euro</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 3.000 Euro".
+_:n3-276758 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-276759 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "3.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "3.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "3.000 Euro".
+_:n3-276760 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276761;
+    rdf:_2 _:n3-276762;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Nein".
+_:n3-276761 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-276762 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-276763 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276764;
+    rdf:_2 _:n3-276765;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-276764 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-276765 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-276766 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276767;
+    rdf:_2 _:n3-276768;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-276767 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-276768 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-276769 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276770;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Goseriede 4,\n     <br>\n     30159 Hannover</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0511 99987351</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276770 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276771;
+    rdf:_2 _:n3-276789;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Goseriede 4,\n    <br>\n    30159 Hannover</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0511 99987351</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276771 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276772;
+    rdf:_2 _:n3-276774;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Goseriede 4,\n   <br>\n   30159 Hannover</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0511 99987351</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276772 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-276773;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2\" class=\"link\">Niedersächsische Lotto-Sport-Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung".
+_:n3-276773 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersächsische Lotto-Sport-Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Niedersächsische Lotto-Sport-Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/227-niedersaechsische-lotto-sport-stiftung-2".
+_:n3-276774 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276775;
+    rdf:_2 _:n3-276778;
+    rdf:_3 _:n3-276782;
+    rdf:_4 _:n3-276786;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Goseriede 4,\n  <br>\n  30159 Hannover</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0511 99987351</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover E-Mail info@lotto-sport-stiftung.de Webseite www.lotto-sport-stiftung.de Telefon 0511 99987351".
+_:n3-276775 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276776;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Goseriede 4,\n <br>\n 30159 Hannover</p>";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-276776 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Goseriede 4,";
+    rdf:_2 _:n3-276777;
+    rdf:_3 "30159 Hannover";
+    <https://html.spec.whatwg.org/#innerHTML> "Goseriede 4,\n<br>\n30159 Hannover";
+    <https://html.spec.whatwg.org/#innerText> "Goseriede 4, 30159 Hannover".
+_:n3-276777 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-276778 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276779;
+    rdf:_2 _:n3-276780;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@lotto-sport-stiftung.de".
+_:n3-276779 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-276780 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-276781;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@lotto-sport-stiftung.de\">info@lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de".
+_:n3-276781 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@lotto-sport-stiftung.de".
+_:n3-276782 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276783;
+    rdf:_2 _:n3-276784;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.lotto-sport-stiftung.de".
+_:n3-276783 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-276784 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-276785;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.lotto-sport-stiftung.de\" target=\"_blank\">www.lotto-sport-stiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de".
+_:n3-276785 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.lotto-sport-stiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.lotto-sport-stiftung.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-276786 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276787;
+    rdf:_2 _:n3-276788;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0511 99987351</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0511 99987351".
+_:n3-276787 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-276788 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0511 99987351";
+    <https://html.spec.whatwg.org/#innerHTML> "0511 99987351";
+    <https://html.spec.whatwg.org/#innerText> "0511 99987351".
+_:n3-276789 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276790;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg\" width=\"800\" height=\"178\">".
+_:n3-276790 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "178";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Niedersächsische-Lotto-Sport-Stiftung.svg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-276791 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-276792;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-276792 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276793;
+    rdf:_2 _:n3-276797;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-276793 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-276794;
+    rdf:_2 _:n3-276795;
+    rdf:_3 _:n3-276796;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-276794 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-276795 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-276796 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-276797 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-276798;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-276798 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-276799 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-276800 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-276801 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-276802 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/zusammenhalt-vor-ort";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-276803 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-276804 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Zusammenhalt vor Ort  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Zusammenhalt vor Ort  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Zusammenhalt vor Ort  –  Förderdatenbank".
+_:n3-276805 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-276806 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

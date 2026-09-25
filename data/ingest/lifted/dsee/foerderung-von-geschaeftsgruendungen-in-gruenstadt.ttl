@@ -1,0 +1,732 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-264515 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264516;
+    rdf:_10 _:n3-264517;
+    rdf:_11 _:n3-264518;
+    rdf:_12 _:n3-264519;
+    rdf:_13 _:n3-264520;
+    rdf:_14 _:n3-264521;
+    rdf:_15 _:n3-264522;
+    rdf:_16 _:n3-264523;
+    rdf:_17 _:n3-264524;
+    rdf:_18 _:n3-264525;
+    rdf:_19 _:n3-264526;
+    rdf:_2 _:n3-264527;
+    rdf:_20 _:n3-264528;
+    rdf:_21 _:n3-264529;
+    rdf:_22 _:n3-264530;
+    rdf:_23 _:n3-264547;
+    rdf:_24 _:n3-264552;
+    rdf:_25 _:n3-264642;
+    rdf:_26 _:n3-264650;
+    rdf:_3 _:n3-264651;
+    rdf:_4 _:n3-264652;
+    rdf:_5 _:n3-264653;
+    rdf:_6 _:n3-264654;
+    rdf:_7 _:n3-264655;
+    rdf:_8 _:n3-264656;
+    rdf:_9 _:n3-264657;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-von-geschaeftsgruendungen-in-gruenstadt";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung von Geschäftsgründungen in Grünstadt  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung von Geschäftsgründungen in Grünstadt\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung von Geschäftsgründungen in Grünstadt\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung von Geschäftsgründungen in Grünstadt</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n      <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n      <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n      <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n      <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n      <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n      <ul>\n       <li>vollständig ausgefülltes Antragsformular</li>\n       <li>aussagekräftiger Businessplan</li>\n       <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n       <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n       <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n       <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n       <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n       <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n      </ul>\n      <p>\n       <br>\n      </p>\n      <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n       <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Rheinland-Pfalz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>bis zu 400 Euro monatlich</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Kreuzerweg 2,\n        <br>\n        67269 Grünstadt</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>06359 8050</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung von Geschäftsgründungen in Grünstadt Förderung von Geschäftsgründungen in Grünstadt Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050 ©2026 Impressum Datenschutzerklärung".
+_:n3-264516 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-264517 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-264518 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-264519 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-264520 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung von Geschäftsgründungen in Grünstadt";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-264521 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-264522 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung von Geschäftsgründungen in Grünstadt";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-264523 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-264524 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-264525 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-264526 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-264527 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-264528 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-264529 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-264530 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264531;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-264531 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264532;
+    rdf:_2 _:n3-264534;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-264532 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-264533;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-264533 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-264534 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264535;
+    rdf:_2 _:n3-264538;
+    rdf:_3 _:n3-264541;
+    rdf:_4 _:n3-264544;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-264535 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-264536;
+    rdf:_2 _:n3-264537;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264536 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-264537 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-264538 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-264539;
+    rdf:_2 _:n3-264540;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264539 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-264540 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-264541 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-264542;
+    rdf:_2 _:n3-264543;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264542 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-264543 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-264544 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-264545;
+    rdf:_2 _:n3-264546;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264545 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-264546 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-264547 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-264548;
+    rdf:_2 _:n3-264551;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-264548 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-264549;
+    rdf:_2 _:n3-264550;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-264549 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-264550 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-264551 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-264552 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-264553;
+    rdf:_2 _:n3-264558;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung von Geschäftsgründungen in Grünstadt</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n     <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n     <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n     <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n     <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n     <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n     <ul>\n      <li>vollständig ausgefülltes Antragsformular</li>\n      <li>aussagekräftiger Businessplan</li>\n      <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n      <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n      <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n      <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n      <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n      <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n     </ul>\n     <p>\n      <br>\n     </p>\n     <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n      <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Rheinland-Pfalz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>bis zu 400 Euro monatlich</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Kreuzerweg 2,\n       <br>\n       67269 Grünstadt</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>06359 8050</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung von Geschäftsgründungen in Grünstadt Förderung von Geschäftsgründungen in Grünstadt Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264553 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-264554;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung von Geschäftsgründungen in Grünstadt</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung von Geschäftsgründungen in Grünstadt".
+_:n3-264554 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264555;
+    rdf:_2 _:n3-264556;
+    rdf:_3 _:n3-264557;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung von Geschäftsgründungen in Grünstadt</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung von Geschäftsgründungen in Grünstadt".
+_:n3-264555 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-264556 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-264557 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung von Geschäftsgründungen in Grünstadt";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung von Geschäftsgründungen in Grünstadt";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt".
+_:n3-264558 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-264559;
+    rdf:_2 _:n3-264620;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n    <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n    <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n    <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n    <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n    <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n    <ul>\n     <li>vollständig ausgefülltes Antragsformular</li>\n     <li>aussagekräftiger Businessplan</li>\n     <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n     <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n     <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n     <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n     <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n     <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n    </ul>\n    <p>\n     <br>\n    </p>\n    <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n     <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Rheinland-Pfalz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>bis zu 400 Euro monatlich</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Kreuzerweg 2,\n      <br>\n      67269 Grünstadt</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>06359 8050</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264559 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264560;
+    rdf:_2 _:n3-264596;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n   <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n   <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n   <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n   <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n   <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n   <ul>\n    <li>vollständig ausgefülltes Antragsformular</li>\n    <li>aussagekräftiger Businessplan</li>\n    <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n    <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n    <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n    <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n    <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n    <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n   </ul>\n   <p>\n    <br>\n   </p>\n   <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n    <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Rheinland-Pfalz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>bis zu 400 Euro monatlich</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-264560 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264561;
+    rdf:_2 _:n3-264563;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n  <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n  <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n  <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n  <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n  <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n  <ul>\n   <li>vollständig ausgefülltes Antragsformular</li>\n   <li>aussagekräftiger Businessplan</li>\n   <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n   <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n   <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n   <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n   <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n   <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n  </ul>\n  <p>\n   <br>\n  </p>\n  <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n   <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular".
+_:n3-264561 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-264562;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung von Geschäftsgründungen in Grünstadt</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt".
+_:n3-264562 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung von Geschäftsgründungen in Grünstadt";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung von Geschäftsgründungen in Grünstadt";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt".
+_:n3-264563 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264564;
+    rdf:_2 _:n3-264569;
+    rdf:_3 _:n3-264574;
+    rdf:_4 _:n3-264589;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n <p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n <p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n <p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n <p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n <p>Der Förderzeitraum beträgt maximal 24 Monate.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n <ul>\n  <li>vollständig ausgefülltes Antragsformular</li>\n  <li>aussagekräftiger Businessplan</li>\n  <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n  <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n  <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n  <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n  <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n  <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n </ul>\n <p>\n  <br>\n </p>\n <p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n  <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern. Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate. Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular".
+_:n3-264564 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264565;
+    rdf:_2 _:n3-264566;
+    rdf:_3 _:n3-264567;
+    rdf:_4 _:n3-264568;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;</p>\n<p>Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.</p>\n<p>Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.</p>\n<p>Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten. Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen. Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren. Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.".
+_:n3-264565 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern&nbsp;für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Aufgrund der allgemein angespannten Gesamtsituation im Einzelhandel, die sich insbesondere dadurch zeigt, dass immer mehr Geschäfte geschlossen werden und so Ladenlokale und Gewerbeimmobilien im Stadtkern für immer längere Zeiträumen leer stehen, ist es Absicht der Stadt Grünstadt, im Rahmen der Wirtschaftsförderung einen finanziellen Beitrag zur Leerstandbeseitigung und Vitalisierung der Immobilien zu leisten.".
+_:n3-264566 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.";
+    <https://html.spec.whatwg.org/#innerText> "Ziel ist es, eine Daseinsversorgung der Bürgerinnen und Bürger für den täglichen Lebensbedarf in der Innenstadt zu schaffen und sicherzustellen.".
+_:n3-264567 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.";
+    <https://html.spec.whatwg.org/#innerText> "Es ist daher beabsichtigt, im Rahmen der jeweiligen haushaltsmäßigen Bereitstellung Existenzgründern, Einzelpersonen sowie Personengesellschaften, die innerhalb des Geltungsbereiches einen Leerstand durch Aufnahme einer Geschäftstätigkeit beseitigen, eine Starthilfe in Form eines Einstiegszuschusses zu gewähren.".
+_:n3-264568 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.";
+    <https://html.spec.whatwg.org/#innerHTML> "Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.";
+    <https://html.spec.whatwg.org/#innerText> "Dieser Zuschuss soll helfen, bestehende Anlaufschwierigkeiten (Miet-, Genehmigungs-, Eröffnungskosten etc.) zu mindern.".
+_:n3-264569 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264570;
+    rdf:_2 _:n3-264571;
+    rdf:_3 _:n3-264572;
+    rdf:_4 _:n3-264573;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;</p>\n<p>Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.</p>\n<p>Der Förderzeitraum beträgt maximal 24 Monate.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich. Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden. Der Förderzeitraum beträgt maximal 24 Monate.".
+_:n3-264570 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-264571 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert wird jegliche Eröffnung- bzw. Wiederbelebung des Leerstandes einer Immobilie im Fördergebiet mit einem an die Bürgerinnen und Bürger gerichteten Waren- und Dienstleistungsangebot aus dem nahversorgungs- und zentrenrelevanten Sortimentsbereich.".
+_:n3-264572 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.";
+    <https://html.spec.whatwg.org/#innerText> "Dabei ist darauf zu achten, dass es im Programmgebiet nicht zu einer Überversorgung verschiedener Warengruppen und Sortimenten kommt und so ungewollt Konkurrenzsituationen geschaffen werden.".
+_:n3-264573 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Förderzeitraum beträgt maximal 24 Monate.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Förderzeitraum beträgt maximal 24 Monate.";
+    <https://html.spec.whatwg.org/#innerText> "Der Förderzeitraum beträgt maximal 24 Monate.".
+_:n3-264574 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264575;
+    rdf:_2 _:n3-264576;
+    rdf:_3 _:n3-264577;
+    rdf:_4 _:n3-264586;
+    rdf:_5 _:n3-264588;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Bearbeitung des Antrages erfordert folgende Unterlagen:</p>\n<ul>\n <li>vollständig ausgefülltes Antragsformular</li>\n <li>aussagekräftiger Businessplan</li>\n <li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n <li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n <li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n <li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n <li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n <li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>\n</ul>\n<p>\n <br>\n</p>\n<p>Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Bearbeitung des Antrages erfordert folgende Unterlagen: vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“. Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen".
+_:n3-264575 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-264576 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bearbeitung des Antrages erfordert folgende Unterlagen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bearbeitung des Antrages erfordert folgende Unterlagen:";
+    <https://html.spec.whatwg.org/#innerText> "Die Bearbeitung des Antrages erfordert folgende Unterlagen:".
+_:n3-264577 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-264578;
+    rdf:_2 _:n3-264579;
+    rdf:_3 _:n3-264580;
+    rdf:_4 _:n3-264581;
+    rdf:_5 _:n3-264582;
+    rdf:_6 _:n3-264583;
+    rdf:_7 _:n3-264584;
+    rdf:_8 _:n3-264585;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>vollständig ausgefülltes Antragsformular</li>\n<li>aussagekräftiger Businessplan</li>\n<li>Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme</li>\n<li>eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe</li>\n<li>Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)</li>\n<li>vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)</li>\n<li>Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)</li>\n<li>Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.</li>";
+    <https://html.spec.whatwg.org/#innerText> "vollständig ausgefülltes Antragsformular aussagekräftiger Businessplan Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe Gewerbeanmeldung bei der Stadt Grünstadt (Kopie) vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie) Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie) Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.".
+_:n3-264578 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "vollständig ausgefülltes Antragsformular";
+    <https://html.spec.whatwg.org/#innerHTML> "vollständig ausgefülltes Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "vollständig ausgefülltes Antragsformular".
+_:n3-264579 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "aussagekräftiger Businessplan";
+    <https://html.spec.whatwg.org/#innerHTML> "aussagekräftiger Businessplan";
+    <https://html.spec.whatwg.org/#innerText> "aussagekräftiger Businessplan".
+_:n3-264580 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme";
+    <https://html.spec.whatwg.org/#innerHTML> "Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme";
+    <https://html.spec.whatwg.org/#innerText> "Kurzgutachten der Industrie- und Handelskammer oder positive Stellungnahme".
+_:n3-264581 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe";
+    <https://html.spec.whatwg.org/#innerHTML> "eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe";
+    <https://html.spec.whatwg.org/#innerText> "eines Wirtschaftsprüfers/Steuerberaters oder einer Bank in Zusammenhang mit einer Kreditvergabe".
+_:n3-264582 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)";
+    <https://html.spec.whatwg.org/#innerHTML> "Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)";
+    <https://html.spec.whatwg.org/#innerText> "Gewerbeanmeldung bei der Stadt Grünstadt (Kopie)".
+_:n3-264583 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)";
+    <https://html.spec.whatwg.org/#innerHTML> "vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)";
+    <https://html.spec.whatwg.org/#innerText> "vorläufiger Mietvertrag für gewerbliche Räume mit Lageplan/Grundriss des Betriebes (Kopie)".
+_:n3-264584 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)";
+    <https://html.spec.whatwg.org/#innerText> "Bei Fortführung eines bestehenden Betriebes: bisheriger Mietvertrag (Kopie)".
+_:n3-264585 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.";
+    <https://html.spec.whatwg.org/#innerText> "Antrag auf Mitgliedschaft im Gewerbeverein „Wirtschafts-Forum Grünstadt e. V.“.".
+_:n3-264586 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-264587;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>".
+_:n3-264587 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-264588 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen";
+    <https://html.spec.whatwg.org/#innerText> "Der Förderantrag ist schriftlich vor Beginn des Mietzeitraumes einzureichen".
+_:n3-264589 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264590;
+    rdf:_2 _:n3-264591;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n <li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zu den Förderrichtlinien Link zum Antragsformular".
+_:n3-264590 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-264591 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-264592;
+    rdf:_2 _:n3-264594;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n<li><a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien Link zum Antragsformular".
+_:n3-264592 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-264593;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien".
+_:n3-264593 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zu den Förderrichtlinien";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#href> "https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-nur-richtlinie.pdf?cid=1oa";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264594 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-264595;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Antragsformular".
+_:n3-264595 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.gruenstadt.de/wirtschaft/wirtschaftsfoerderung/foerderung-von-geschaeftsgruendungen/2018-richtlinie-zur-foerderung-von-geschaeftsgruendungen-in-gruenstadt-antragsformular.pdf?cid=1o7";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264596 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-264597;
+    rdf:_2 _:n3-264600;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Rheinland-Pfalz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>bis zu 400 Euro monatlich</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-264597 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264598;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">\n</figure>".
+_:n3-264598 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-264599;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg\" width=\"800\" height=\"293\">".
+_:n3-264599 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "293";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/clipboard.6ec82995-1874-47f3-bc1a-811b8ef626ef.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-264600 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264601;
+    rdf:_2 _:n3-264606;
+    rdf:_3 _:n3-264611;
+    rdf:_4 _:n3-264614;
+    rdf:_5 _:n3-264617;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Rheinland-Pfalz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>bis zu 400 Euro monatlich</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Sonstiges Max. Fördersumme: bis zu 400 Euro monatlich Eigenmittel benötigt: Ja Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-264601 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264602;
+    rdf:_2 _:n3-264603;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Rheinland-Pfalz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz".
+_:n3-264602 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-264603 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264604;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Rheinland-Pfalz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-264604 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-264605;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Rheinland-Pfalz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-264605 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerHTML> "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-264606 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264607;
+    rdf:_2 _:n3-264608;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Sonstiges".
+_:n3-264607 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-264608 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264609;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-264609 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-264610;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-264610 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-264611 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264612;
+    rdf:_2 _:n3-264613;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>bis zu 400 Euro monatlich</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: bis zu 400 Euro monatlich".
+_:n3-264612 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-264613 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "bis zu 400 Euro monatlich";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zu 400 Euro monatlich";
+    <https://html.spec.whatwg.org/#innerText> "bis zu 400 Euro monatlich".
+_:n3-264614 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264615;
+    rdf:_2 _:n3-264616;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-264615 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-264616 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-264617 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264618;
+    rdf:_2 _:n3-264619;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-264618 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-264619 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-264620 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264621;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Kreuzerweg 2,\n     <br>\n     67269 Grünstadt</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>06359 8050</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264621 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264622;
+    rdf:_2 _:n3-264640;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Kreuzerweg 2,\n    <br>\n    67269 Grünstadt</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>06359 8050</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264622 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264623;
+    rdf:_2 _:n3-264625;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Kreuzerweg 2,\n   <br>\n   67269 Grünstadt</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>06359 8050</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Grünstadt Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264623 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-264624;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt\" class=\"link\">Stiftung Grünstadt</a>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Grünstadt".
+_:n3-264624 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Stiftung Grünstadt";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Stiftung Grünstadt";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung Grünstadt";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/482-stiftung-gruenstadt".
+_:n3-264625 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264626;
+    rdf:_2 _:n3-264629;
+    rdf:_3 _:n3-264633;
+    rdf:_4 _:n3-264637;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Kreuzerweg 2,\n  <br>\n  67269 Grünstadt</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>06359 8050</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Kreuzerweg 2, 67269 Grünstadt E-Mail stiftung@gruenstadt.de Webseite www.gruenstadt.de Telefon 06359 8050".
+_:n3-264626 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264627;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Kreuzerweg 2,\n <br>\n 67269 Grünstadt</p>";
+    <https://html.spec.whatwg.org/#innerText> "Kreuzerweg 2, 67269 Grünstadt".
+_:n3-264627 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Kreuzerweg 2,";
+    rdf:_2 _:n3-264628;
+    rdf:_3 "67269 Grünstadt";
+    <https://html.spec.whatwg.org/#innerHTML> "Kreuzerweg 2,\n<br>\n67269 Grünstadt";
+    <https://html.spec.whatwg.org/#innerText> "Kreuzerweg 2, 67269 Grünstadt".
+_:n3-264628 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-264629 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264630;
+    rdf:_2 _:n3-264631;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail stiftung@gruenstadt.de".
+_:n3-264630 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-264631 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-264632;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:stiftung@gruenstadt.de\">stiftung@gruenstadt.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "stiftung@gruenstadt.de".
+_:n3-264632 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "stiftung@gruenstadt.de";
+    <https://html.spec.whatwg.org/#innerHTML> "stiftung@gruenstadt.de";
+    <https://html.spec.whatwg.org/#innerText> "stiftung@gruenstadt.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:stiftung@gruenstadt.de".
+_:n3-264633 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264634;
+    rdf:_2 _:n3-264635;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.gruenstadt.de".
+_:n3-264634 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-264635 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-264636;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.gruenstadt.de\" target=\"_blank\">www.gruenstadt.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.gruenstadt.de".
+_:n3-264636 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.gruenstadt.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.gruenstadt.de";
+    <https://html.spec.whatwg.org/#innerText> "www.gruenstadt.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.gruenstadt.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-264637 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264638;
+    rdf:_2 _:n3-264639;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>06359 8050</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 06359 8050".
+_:n3-264638 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-264639 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "06359 8050";
+    <https://html.spec.whatwg.org/#innerHTML> "06359 8050";
+    <https://html.spec.whatwg.org/#innerText> "06359 8050".
+_:n3-264640 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264641;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg\" width=\"800\" height=\"294\">".
+_:n3-264641 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "294";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Grünstadt-Logo-farbig-klein.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-264642 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-264643;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-264643 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264644;
+    rdf:_2 _:n3-264648;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-264644 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-264645;
+    rdf:_2 _:n3-264646;
+    rdf:_3 _:n3-264647;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-264645 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-264646 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-264647 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-264648 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-264649;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-264649 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-264650 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-264651 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-264652 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-264653 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-von-geschaeftsgruendungen-in-gruenstadt";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-264654 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-264655 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung von Geschäftsgründungen in Grünstadt  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung von Geschäftsgründungen in Grünstadt  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung von Geschäftsgründungen in Grünstadt  –  Förderdatenbank".
+_:n3-264656 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-264657 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

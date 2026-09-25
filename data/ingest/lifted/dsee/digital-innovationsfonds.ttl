@@ -1,0 +1,713 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-162538 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162539;
+    rdf:_10 _:n3-162540;
+    rdf:_11 _:n3-162541;
+    rdf:_12 _:n3-162542;
+    rdf:_13 _:n3-162543;
+    rdf:_14 _:n3-162544;
+    rdf:_15 _:n3-162545;
+    rdf:_16 _:n3-162546;
+    rdf:_17 _:n3-162547;
+    rdf:_18 _:n3-162548;
+    rdf:_19 _:n3-162549;
+    rdf:_2 _:n3-162550;
+    rdf:_20 _:n3-162551;
+    rdf:_21 _:n3-162552;
+    rdf:_22 _:n3-162553;
+    rdf:_23 _:n3-162570;
+    rdf:_24 _:n3-162575;
+    rdf:_25 _:n3-162658;
+    rdf:_26 _:n3-162666;
+    rdf:_3 _:n3-162667;
+    rdf:_4 _:n3-162668;
+    rdf:_5 _:n3-162669;
+    rdf:_6 _:n3-162670;
+    rdf:_7 _:n3-162671;
+    rdf:_8 _:n3-162672;
+    rdf:_9 _:n3-162673;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "digital-innovationsfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Digital-Innovationsfonds  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Digital-Innovationsfonds\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Digital-Innovationsfonds\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Digital-Innovationsfonds</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n     <p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n      <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n      <h2>Ziele</h2>\n      <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n      <ol>\n       <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n        <br></li>\n       <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n        <br></li>\n       <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n        <br></li>\n       <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n      </ol>\n      <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n      <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n      <h2>Wer kann gefördert werden?</h2>\n      <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n      <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n      <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n       <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Digitalisierung</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>100.000 Euro</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0800 - 50 40 602</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Digital-Innovationsfonds Digital-Innovationsfonds Antragsstellung fortlaufend möglich Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602 ©2026 Impressum Datenschutzerklärung".
+_:n3-162539 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-162540 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-162541 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-162542 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-162543 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Digital-Innovationsfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-162544 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-162545 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Digital-Innovationsfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-162546 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-162547 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-162548 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-162549 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162550 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-162551 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-162552 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-162553 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162554;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162554 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162555;
+    rdf:_2 _:n3-162557;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-162555 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162556;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-162556 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-162557 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162558;
+    rdf:_2 _:n3-162561;
+    rdf:_3 _:n3-162564;
+    rdf:_4 _:n3-162567;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-162558 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162559;
+    rdf:_2 _:n3-162560;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162559 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162560 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-162561 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162562;
+    rdf:_2 _:n3-162563;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162562 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162563 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-162564 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162565;
+    rdf:_2 _:n3-162566;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162565 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162566 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-162567 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162568;
+    rdf:_2 _:n3-162569;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162568 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-162569 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-162570 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162571;
+    rdf:_2 _:n3-162574;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-162571 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-162572;
+    rdf:_2 _:n3-162573;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162572 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-162573 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-162574 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-162575 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-162576;
+    rdf:_2 _:n3-162581;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Digital-Innovationsfonds</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n    <p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n     <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n     <h2>Ziele</h2>\n     <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n     <ol>\n      <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n       <br></li>\n      <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n       <br></li>\n      <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n       <br></li>\n      <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n     </ol>\n     <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n     <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n     <h2>Wer kann gefördert werden?</h2>\n     <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n     <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n     <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n      <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Digitalisierung</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>100.000 Euro</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0800 - 50 40 602</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Digital-Innovationsfonds Digital-Innovationsfonds Antragsstellung fortlaufend möglich Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162576 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162577;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Digital-Innovationsfonds</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Digital-Innovationsfonds".
+_:n3-162577 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162578;
+    rdf:_2 _:n3-162579;
+    rdf:_3 _:n3-162580;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Digital-Innovationsfonds</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Digital-Innovationsfonds".
+_:n3-162578 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-162579 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-162580 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Digital-Innovationsfonds";
+    <https://html.spec.whatwg.org/#innerHTML> "Digital-Innovationsfonds";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds".
+_:n3-162581 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-162582;
+    rdf:_2 _:n3-162639;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n   <p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n    <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n    <h2>Ziele</h2>\n    <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n    <ol>\n     <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n      <br></li>\n     <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n      <br></li>\n     <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n      <br></li>\n     <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n    </ol>\n    <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n    <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n    <h2>Wer kann gefördert werden?</h2>\n    <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n    <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n    <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n     <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Digitalisierung</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>100.000 Euro</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0800 - 50 40 602</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds Antragsstellung fortlaufend möglich Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162582 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162583;
+    rdf:_2 _:n3-162623;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n  <p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n   <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n   <h2>Ziele</h2>\n   <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n   <ol>\n    <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n     <br></li>\n    <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n     <br></li>\n    <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n     <br></li>\n    <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n   </ol>\n   <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n   <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n   <h2>Wer kann gefördert werden?</h2>\n   <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n   <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n   <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n    <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Digitalisierung</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>100.000 Euro</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds Antragsstellung fortlaufend möglich Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162583 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162584;
+    rdf:_2 _:n3-162587;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n <p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n  <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n  <h2>Ziele</h2>\n  <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n  <ol>\n   <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n    <br></li>\n   <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n    <br></li>\n   <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n    <br></li>\n   <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n  </ol>\n  <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n  <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n  <h2>Wer kann gefördert werden?</h2>\n  <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n  <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n  <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n   <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds Antragsstellung fortlaufend möglich Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ".
+_:n3-162584 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-162585;
+    rdf:_2 _:n3-162586;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Digital-Innovationsfonds</h1>\n<p class=\"text-lg text-gray-500\">Antragsstellung fortlaufend möglich</p>";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds Antragsstellung fortlaufend möglich".
+_:n3-162585 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Digital-Innovationsfonds";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Digital-Innovationsfonds";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds".
+_:n3-162586 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsstellung fortlaufend möglich";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsstellung fortlaufend möglich";
+    <https://html.spec.whatwg.org/#innerText> "Antragsstellung fortlaufend möglich".
+_:n3-162587 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162588;
+    rdf:_2 _:n3-162614;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n <p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n <h2>Ziele</h2>\n <p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n <ol>\n  <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n   <br></li>\n  <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n   <br></li>\n  <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n   <br></li>\n  <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n </ol>\n <p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n <p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n <h2>Wer kann gefördert werden?</h2>\n <p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n <p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n <p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n  <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ. Weitere Informationen Link zum Programm Antragsformular FAQ".
+_:n3-162588 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162589;
+    rdf:_10 _:n3-162590;
+    rdf:_11 _:n3-162592;
+    rdf:_2 _:n3-162593;
+    rdf:_3 _:n3-162594;
+    rdf:_4 _:n3-162595;
+    rdf:_5 _:n3-162596;
+    rdf:_6 _:n3-162604;
+    rdf:_7 _:n3-162605;
+    rdf:_8 _:n3-162606;
+    rdf:_9 _:n3-162607;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.</p>\n<p>In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n<h2>Ziele</h2>\n<p>Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:</p>\n<ol>\n <li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n  <br></li>\n <li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n  <br></li>\n <li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n  <br></li>\n <li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>\n</ol>\n<p>Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).</p>\n<p>Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.</p>\n<h2>Wer kann gefördert werden?</h2>\n<p>Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.</p>\n<p>Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.</p>\n<p>Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit. In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Ziele Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen: „Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“ Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird). Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten. Wer kann gefördert werden? Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate. Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist. Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.".
+_:n3-162589 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.";
+    <https://html.spec.whatwg.org/#innerHTML> "Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.";
+    <https://html.spec.whatwg.org/#innerText> "Mit digitalen Werkzeugen können die evangelische Kirche und zugehörige Einrichtungen ihre Aufgaben noch besser erfüllen. Millionen evangelischer Christinnen und Christen haben gemeinsam gigantische Fähigkeiten und unzählbare kreative Ideen. Egal, ob Sie auf YouTube die frohmachende Botschaft der Liebe Gottes weitersagen oder Kirche mit IT ein kleines Stückchen schneller, wirksamer oder kundenfreundlicher gestalten möchten: Der Digitalinnovationsfonds kann Ihnen dabei helfen. Auch für das Jahr 2022 steht wieder ein Förderbudget bereit.".
+_:n3-162590 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen ";
+    rdf:_2 _:n3-162591;
+    rdf:_3 " werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen <strong>nicht gefördert</strong> werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.";
+    <https://html.spec.whatwg.org/#innerText> "Projekte aus Abteilungen des Kirchenamtes der EKD und Medien des Gemeinschaftswerk Evangelische Publizistik können aus Haushaltsgründen nicht gefördert werden. Grundsätzlich gilt das Subsidiaritätsprinzip: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.".
+_:n3-162591 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "nicht gefördert";
+    <https://html.spec.whatwg.org/#innerHTML> "nicht gefördert";
+    <https://html.spec.whatwg.org/#innerText> "nicht gefördert".
+_:n3-162592 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.";
+    <https://html.spec.whatwg.org/#innerText> "Zur Antragstellung das Formular ausfüllen und per Mail an digital@ekd.de schicken; weitere Informationen zum Ablauf siehe FAQ.".
+_:n3-162593 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.";
+    <https://html.spec.whatwg.org/#innerHTML> "In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.";
+    <https://html.spec.whatwg.org/#innerText> "In kürzester Zeit hat sich der Digitalinnovationsfonds zu einem wichtigen Förderinstrument für die digitale Landschaft der evangelischen Kirche entwickelt. Aus den bereits geförderten Projekten gehen wichtige Impulse aus; viele Ergebnisse werden frei geteilt und anderen zur Verfügung gestellt, und wir alle profitieren von den Erfahrungen, die in den Projekten gesammelt werden. Dabei gilt der Grundgedanke der Subsidiarität: Projekte in Kirchengemeinden finanziert die EKD nur dann, wenn damit eine innovative Idee erprobt wird, die im Erfolgsfall für die Gemeinschaft der Gliedkirchen nützlich ist.".
+_:n3-162594 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 "Ziele";
+    <https://html.spec.whatwg.org/#innerHTML> "Ziele";
+    <https://html.spec.whatwg.org/#innerText> "Ziele".
+_:n3-162595 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:";
+    <https://html.spec.whatwg.org/#innerText> "Grundsätzlich unterstützt der Digitalinnnovationsfonds Projekte, die auf die folgenden grundlegenden Ziele des Projektes Kirche im digitalen Wandel einzahlen:".
+_:n3-162596 a <http://www.w3.org/1999/xhtml#ol>;
+    rdf:_1 _:n3-162597;
+    rdf:_2 _:n3-162599;
+    rdf:_3 _:n3-162601;
+    rdf:_4 _:n3-162603;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n <br></li>\n<li>„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n <br></li>\n<li>„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n <br></li>\n<li>„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“</li>";
+    <https://html.spec.whatwg.org/#innerText> "„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“ „Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“ „Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“ „EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“".
+_:n3-162597 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“";
+    rdf:_2 _:n3-162598;
+    <https://html.spec.whatwg.org/#innerHTML> "„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "„Menschen werden von Kirche im digitalen Raum erreicht und Kirche wird von den Menschen erreicht. Bei kirchlichen Kernaufgaben werden auch digitale Möglichkeiten genutzt.“".
+_:n3-162598 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162599 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“";
+    rdf:_2 _:n3-162600;
+    <https://html.spec.whatwg.org/#innerHTML> "„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "„Effektivität und Effizienz der Verwaltung und IT der EKD und der Gliedkirchen sind gegenüber dem Ist-Stand durch Zusammenarbeit und Vernetzung gesteigert.“".
+_:n3-162600 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162601 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“";
+    rdf:_2 _:n3-162602;
+    <https://html.spec.whatwg.org/#innerHTML> "„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "„Evangelische Kirche nutzt digitale Instrumente in ihren Leitungs- und Organisationsstrukturen und agiert damit in einer neuen analog-digitalen Leitungs- und Kommunikationskultur.“".
+_:n3-162602 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-162603 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“";
+    <https://html.spec.whatwg.org/#innerHTML> "„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“";
+    <https://html.spec.whatwg.org/#innerText> "„EKD ist zusammen mit den Gliedkirchen kompetent hinsichtlich der theologisch-ethischen Reflexion der Digitalisierung in der öffentlichen Debatte und der Digitalisierung kirchlicher Handlungsfelder.“".
+_:n3-162604 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).";
+    <https://html.spec.whatwg.org/#innerHTML> "Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).";
+    <https://html.spec.whatwg.org/#innerText> "Die vorgelegten Projekte sollen innovativ sein, d.h. in der kirchlichen Nutzung neuartige Aspekte aufweisen (z.B. ist es auch als innovativ anzusehen, wenn in der Industrie gut etablierte Digitaltechnologie nun neu in den kirchlichen Nutzen gestellt wird).".
+_:n3-162605 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.";
+    <https://html.spec.whatwg.org/#innerText> "Geförderte Projekte sollen ihre Arbeit nach Möglichkeit unter offenen Lizenzen (z.B. Creative Commons, GPL) stellen. Bei maßgeblichen Förderungen durch die EKD soll die EKD mit den Gliedkirchen maßgeblich an den Rechten der Ergebnisse profitieren. Ausnahmen gelten u.a. bei Erprobungsförderungen und nicht einholbaren Schutzrechten.".
+_:n3-162606 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 "Wer kann gefördert werden?";
+    <https://html.spec.whatwg.org/#innerHTML> "Wer kann gefördert werden?";
+    <https://html.spec.whatwg.org/#innerText> "Wer kann gefördert werden?".
+_:n3-162607 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert werden können Projekte von ";
+    rdf:_10 _:n3-162608;
+    rdf:_11 " fördern wir weiterhin für ";
+    rdf:_12 _:n3-162609;
+    rdf:_13 ".";
+    rdf:_2 _:n3-162610;
+    rdf:_3 " oder ";
+    rdf:_4 _:n3-162611;
+    rdf:_5 " und ";
+    rdf:_6 _:n3-162612;
+    rdf:_7 ", die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit ";
+    rdf:_8 _:n3-162613;
+    rdf:_9 " gefördert. Kleinere Vorhaben von ";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert werden können Projekte von <strong>Einzelpersonen</strong> oder <strong>Gruppen</strong> und <strong>kirchlichen Institutionen</strong>, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit <strong>maximal 100.000 EUR für maximal 24 Monate</strong> gefördert. Kleinere Vorhaben von <strong>bis zu 2.000 Euro</strong> fördern wir weiterhin für <strong>maximal 12 Monate</strong>.";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert werden können Projekte von Einzelpersonen oder Gruppen und kirchlichen Institutionen, die mit ihrem Projekt digitale Innovation in der Evangelischen Kirche von Deutschland voranbringen wollen. Um möglichst viele unterschiedliche Erprobungsräume zu erschließen, werden Projekte mit maximal 100.000 EUR für maximal 24 Monate gefördert. Kleinere Vorhaben von bis zu 2.000 Euro fördern wir weiterhin für maximal 12 Monate.".
+_:n3-162608 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "bis zu 2.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zu 2.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "bis zu 2.000 Euro".
+_:n3-162609 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "maximal 12 Monate";
+    <https://html.spec.whatwg.org/#innerHTML> "maximal 12 Monate";
+    <https://html.spec.whatwg.org/#innerText> "maximal 12 Monate".
+_:n3-162610 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Einzelpersonen";
+    <https://html.spec.whatwg.org/#innerHTML> "Einzelpersonen";
+    <https://html.spec.whatwg.org/#innerText> "Einzelpersonen".
+_:n3-162611 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Gruppen";
+    <https://html.spec.whatwg.org/#innerHTML> "Gruppen";
+    <https://html.spec.whatwg.org/#innerText> "Gruppen".
+_:n3-162612 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "kirchlichen Institutionen";
+    <https://html.spec.whatwg.org/#innerHTML> "kirchlichen Institutionen";
+    <https://html.spec.whatwg.org/#innerText> "kirchlichen Institutionen".
+_:n3-162613 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "maximal 100.000 EUR für maximal 24 Monate";
+    <https://html.spec.whatwg.org/#innerHTML> "maximal 100.000 EUR für maximal 24 Monate";
+    <https://html.spec.whatwg.org/#innerText> "maximal 100.000 EUR für maximal 24 Monate".
+_:n3-162614 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162615;
+    rdf:_2 _:n3-162616;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n <li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Antragsformular FAQ".
+_:n3-162615 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-162616 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-162617;
+    rdf:_2 _:n3-162619;
+    rdf:_3 _:n3-162621;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a></li>\n<li><a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Antragsformular FAQ".
+_:n3-162617 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162618;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ekd.de/digital-innovationsfonds-50617.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-162618 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ekd.de/digital-innovationsfonds-50617.htm";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162619 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162620;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Antragsformular</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-162620 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Antragsformular";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ekd.de/ekd_de/ds_doc/Antragsformular%20DIF%202022.dotx";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162621 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-162622;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a>";
+    <https://html.spec.whatwg.org/#innerText> "FAQ".
+_:n3-162622 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "FAQ";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "FAQ";
+    <https://html.spec.whatwg.org/#innerText> "FAQ";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ekd.de/mitmachen-digital-innovationsfonds-50627.htm";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162623 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-162624;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Digitalisierung</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>100.000 Euro</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162624 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162625;
+    rdf:_2 _:n3-162628;
+    rdf:_3 _:n3-162633;
+    rdf:_4 _:n3-162636;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Digitalisierung</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>100.000 Euro</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Digitalisierung Max. Fördersumme: 100.000 Euro Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162625 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162626;
+    rdf:_2 _:n3-162627;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-162626 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-162627 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-162628 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162629;
+    rdf:_2 _:n3-162630;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Digitalisierung</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Digitalisierung".
+_:n3-162629 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-162630 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162631;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Digitalisierung</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-162631 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-162632;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Digitalisierung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-162632 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerHTML> "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-162633 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162634;
+    rdf:_2 _:n3-162635;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>100.000 Euro</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 100.000 Euro".
+_:n3-162634 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-162635 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "100.000 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "100.000 Euro";
+    <https://html.spec.whatwg.org/#innerText> "100.000 Euro".
+_:n3-162636 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162637;
+    rdf:_2 _:n3-162638;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-162637 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-162638 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-162639 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162640;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0800 - 50 40 602</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162640 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162641;
+    rdf:_2 _:n3-162656;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0800 - 50 40 602</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162641 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162642;
+    rdf:_2 _:n3-162644;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0800 - 50 40 602</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Evangelische Kirche in Deutschland E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162642 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-162643;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland\" class=\"link\">Evangelische Kirche in Deutschland</a>";
+    <https://html.spec.whatwg.org/#innerText> "Evangelische Kirche in Deutschland".
+_:n3-162643 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Evangelische Kirche in Deutschland";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Evangelische Kirche in Deutschland";
+    <https://html.spec.whatwg.org/#innerText> "Evangelische Kirche in Deutschland";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/21118-evangelische-kirche-in-deutschland".
+_:n3-162644 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162645;
+    rdf:_2 _:n3-162649;
+    rdf:_3 _:n3-162653;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0800 - 50 40 602</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail digital@ekd.de Webseite www.ekd.de/index.htm Telefon 0800 - 50 40 602".
+_:n3-162645 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162646;
+    rdf:_2 _:n3-162647;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:digital@ekd.de\">digital@ekd.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail digital@ekd.de".
+_:n3-162646 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-162647 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-162648;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:digital@ekd.de\">digital@ekd.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "digital@ekd.de".
+_:n3-162648 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "digital@ekd.de";
+    <https://html.spec.whatwg.org/#innerHTML> "digital@ekd.de";
+    <https://html.spec.whatwg.org/#innerText> "digital@ekd.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:digital@ekd.de".
+_:n3-162649 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162650;
+    rdf:_2 _:n3-162651;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.ekd.de/index.htm".
+_:n3-162650 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-162651 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-162652;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.ekd.de/index.htm\" target=\"_blank\">www.ekd.de/index.htm</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.ekd.de/index.htm".
+_:n3-162652 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.ekd.de/index.htm";
+    <https://html.spec.whatwg.org/#innerHTML> "www.ekd.de/index.htm";
+    <https://html.spec.whatwg.org/#innerText> "www.ekd.de/index.htm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.ekd.de/index.htm";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-162653 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162654;
+    rdf:_2 _:n3-162655;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0800 - 50 40 602</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0800 - 50 40 602".
+_:n3-162654 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-162655 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0800 - 50 40 602";
+    <https://html.spec.whatwg.org/#innerHTML> "0800 - 50 40 602";
+    <https://html.spec.whatwg.org/#innerText> "0800 - 50 40 602".
+_:n3-162656 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162657;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp\" width=\"800\" height=\"425\">".
+_:n3-162657 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "425";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/EKD-Logo_hoch_rgb.png.webp";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-162658 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-162659;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162659 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162660;
+    rdf:_2 _:n3-162664;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162660 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-162661;
+    rdf:_2 _:n3-162662;
+    rdf:_3 _:n3-162663;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-162661 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-162662 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-162663 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-162664 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-162665;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-162665 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-162666 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-162667 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-162668 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-162669 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/digital-innovationsfonds";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-162670 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-162671 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Digital-Innovationsfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Digital-Innovationsfonds  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Digital-Innovationsfonds  –  Förderdatenbank".
+_:n3-162672 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-162673 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

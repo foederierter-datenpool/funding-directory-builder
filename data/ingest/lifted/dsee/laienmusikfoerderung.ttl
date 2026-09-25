@@ -1,0 +1,682 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-258899 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258900;
+    rdf:_10 _:n3-258901;
+    rdf:_11 _:n3-258902;
+    rdf:_12 _:n3-258903;
+    rdf:_13 _:n3-258904;
+    rdf:_14 _:n3-258905;
+    rdf:_15 _:n3-258906;
+    rdf:_16 _:n3-258907;
+    rdf:_17 _:n3-258908;
+    rdf:_18 _:n3-258909;
+    rdf:_19 _:n3-258910;
+    rdf:_2 _:n3-258911;
+    rdf:_20 _:n3-258912;
+    rdf:_21 _:n3-258913;
+    rdf:_22 _:n3-258914;
+    rdf:_23 _:n3-258931;
+    rdf:_24 _:n3-258936;
+    rdf:_25 _:n3-259016;
+    rdf:_26 _:n3-259024;
+    rdf:_3 _:n3-259025;
+    rdf:_4 _:n3-259026;
+    rdf:_5 _:n3-259027;
+    rdf:_6 _:n3-259028;
+    rdf:_7 _:n3-259029;
+    rdf:_8 _:n3-259030;
+    rdf:_9 _:n3-259031;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "laienmusikfoerderung";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Laienmusikförderung Rheinland-Pfalz  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Laienmusikförderung Rheinland-Pfalz\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Laienmusikförderung Rheinland-Pfalz\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Laienmusikförderung Rheinland-Pfalz</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n     <p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <ul>\n       <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n      </ul>\n      <p><em></em>Institutionelle Förderung von</p>\n      <p>- Landesmusikrat</p>\n      <p>- Chorverbänden</p>\n      <p>- Landesmusikverband</p>\n      <p>- Landesmusikakademie</p>\n      <ul>\n       <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n      </ul>\n      <ul>\n       <li><em>Themenfeld:</em></li>\n      </ul>\n      <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n      <ul>\n       <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <ul>\n       <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Rheinland-Pfalz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Kultur, Medien und Musik</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>06131 162518</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Laienmusikförderung Rheinland-Pfalz Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518 ©2026 Impressum Datenschutzerklärung".
+_:n3-258900 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-258901 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-258902 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-258903 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-258904 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Laienmusikförderung Rheinland-Pfalz";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-258905 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-258906 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Laienmusikförderung Rheinland-Pfalz";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-258907 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-258908 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-258909 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-258910 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258911 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-258912 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-258913 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-258914 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258915;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258915 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258916;
+    rdf:_2 _:n3-258918;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-258916 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258917;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-258917 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-258918 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258919;
+    rdf:_2 _:n3-258922;
+    rdf:_3 _:n3-258925;
+    rdf:_4 _:n3-258928;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-258919 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258920;
+    rdf:_2 _:n3-258921;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258920 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258921 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-258922 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258923;
+    rdf:_2 _:n3-258924;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258923 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258924 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-258925 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258926;
+    rdf:_2 _:n3-258927;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258926 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258927 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-258928 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258929;
+    rdf:_2 _:n3-258930;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258929 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-258930 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-258931 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258932;
+    rdf:_2 _:n3-258935;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-258932 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-258933;
+    rdf:_2 _:n3-258934;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258933 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-258934 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-258935 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-258936 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-258937;
+    rdf:_2 _:n3-258942;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Laienmusikförderung Rheinland-Pfalz</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n    <p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <ul>\n      <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n     </ul>\n     <p><em></em>Institutionelle Förderung von</p>\n     <p>- Landesmusikrat</p>\n     <p>- Chorverbänden</p>\n     <p>- Landesmusikverband</p>\n     <p>- Landesmusikakademie</p>\n     <ul>\n      <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n     </ul>\n     <ul>\n      <li><em>Themenfeld:</em></li>\n     </ul>\n     <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n     <ul>\n      <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <ul>\n      <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Rheinland-Pfalz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Kultur, Medien und Musik</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>06131 162518</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Laienmusikförderung Rheinland-Pfalz Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-258937 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-258938;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Laienmusikförderung Rheinland-Pfalz</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Laienmusikförderung Rheinland-Pfalz".
+_:n3-258938 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258939;
+    rdf:_2 _:n3-258940;
+    rdf:_3 _:n3-258941;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Laienmusikförderung Rheinland-Pfalz</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Laienmusikförderung Rheinland-Pfalz".
+_:n3-258939 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-258940 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-258941 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Laienmusikförderung Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerHTML> "Laienmusikförderung Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz".
+_:n3-258942 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-258943;
+    rdf:_2 _:n3-258999;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n   <p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <ul>\n     <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n    </ul>\n    <p><em></em>Institutionelle Förderung von</p>\n    <p>- Landesmusikrat</p>\n    <p>- Chorverbänden</p>\n    <p>- Landesmusikverband</p>\n    <p>- Landesmusikakademie</p>\n    <ul>\n     <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n    </ul>\n    <ul>\n     <li><em>Themenfeld:</em></li>\n    </ul>\n    <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n    <ul>\n     <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <ul>\n     <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Rheinland-Pfalz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Kultur, Medien und Musik</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>06131 162518</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-258943 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258944;
+    rdf:_2 _:n3-258984;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n  <p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <ul>\n    <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n   </ul>\n   <p><em></em>Institutionelle Förderung von</p>\n   <p>- Landesmusikrat</p>\n   <p>- Chorverbänden</p>\n   <p>- Landesmusikverband</p>\n   <p>- Landesmusikakademie</p>\n   <ul>\n    <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n   </ul>\n   <ul>\n    <li><em>Themenfeld:</em></li>\n   </ul>\n   <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n   <ul>\n    <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <ul>\n    <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Rheinland-Pfalz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Kultur, Medien und Musik</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-258944 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258945;
+    rdf:_2 _:n3-258948;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n <p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <ul>\n   <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n  </ul>\n  <p><em></em>Institutionelle Förderung von</p>\n  <p>- Landesmusikrat</p>\n  <p>- Chorverbänden</p>\n  <p>- Landesmusikverband</p>\n  <p>- Landesmusikakademie</p>\n  <ul>\n   <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n  </ul>\n  <ul>\n   <li><em>Themenfeld:</em></li>\n  </ul>\n  <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n  <ul>\n   <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n  </ul>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <ul>\n   <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution".
+_:n3-258945 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-258946;
+    rdf:_2 _:n3-258947;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Laienmusikförderung Rheinland-Pfalz</h1>\n<p class=\"text-lg text-gray-500\">Institutionelle Förderung größerer Musikverbände</p>";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz Institutionelle Förderung größerer Musikverbände".
+_:n3-258946 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Laienmusikförderung Rheinland-Pfalz";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Laienmusikförderung Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz".
+_:n3-258947 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Institutionelle Förderung größerer Musikverbände";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Institutionelle Förderung größerer Musikverbände";
+    <https://html.spec.whatwg.org/#innerText> "Institutionelle Förderung größerer Musikverbände".
+_:n3-258948 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258949;
+    rdf:_2 _:n3-258970;
+    rdf:_3 _:n3-258975;
+    rdf:_4 _:n3-258979;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <ul>\n  <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n </ul>\n <p><em></em>Institutionelle Förderung von</p>\n <p>- Landesmusikrat</p>\n <p>- Chorverbänden</p>\n <p>- Landesmusikverband</p>\n <p>- Landesmusikakademie</p>\n <ul>\n  <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n </ul>\n <ul>\n  <li><em>Themenfeld:</em></li>\n </ul>\n <p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n <ul>\n  <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n </ul>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <ul>\n  <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard. Weitere Informationen Förderinstitution".
+_:n3-258949 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258950;
+    rdf:_10 _:n3-258953;
+    rdf:_2 _:n3-258956;
+    rdf:_3 _:n3-258958;
+    rdf:_4 _:n3-258959;
+    rdf:_5 _:n3-258960;
+    rdf:_6 _:n3-258961;
+    rdf:_7 _:n3-258962;
+    rdf:_8 _:n3-258966;
+    rdf:_9 _:n3-258969;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li><em>Für welche Zwecke gibt es eine Förderung?</em></li>\n</ul>\n<p><em></em>Institutionelle Förderung von</p>\n<p>- Landesmusikrat</p>\n<p>- Chorverbänden</p>\n<p>- Landesmusikverband</p>\n<p>- Landesmusikakademie</p>\n<ul>\n <li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>\n</ul>\n<ul>\n <li><em>Themenfeld:</em></li>\n</ul>\n<p>Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung</p>\n<ul>\n <li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Für welche Zwecke gibt es eine Förderung? Institutionelle Förderung von - Landesmusikrat - Chorverbänden - Landesmusikverband - Landesmusikakademie Art der Förderung: Zuwendung, Festbetragsfinanzierung Themenfeld: Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung Regelmäßigkeit der Förderung: fortlaufend".
+_:n3-258950 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258951;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><em>Für welche Zwecke gibt es eine Förderung?</em></li>";
+    <https://html.spec.whatwg.org/#innerText> "Für welche Zwecke gibt es eine Förderung?".
+_:n3-258951 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258952;
+    <https://html.spec.whatwg.org/#innerHTML> "<em>Für welche Zwecke gibt es eine Förderung?</em>";
+    <https://html.spec.whatwg.org/#innerText> "Für welche Zwecke gibt es eine Förderung?".
+_:n3-258952 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "Für welche Zwecke gibt es eine Förderung?";
+    <https://html.spec.whatwg.org/#innerHTML> "Für welche Zwecke gibt es eine Förderung?";
+    <https://html.spec.whatwg.org/#innerText> "Für welche Zwecke gibt es eine Förderung?".
+_:n3-258953 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258954;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend</li>";
+    <https://html.spec.whatwg.org/#innerText> "Regelmäßigkeit der Förderung: fortlaufend".
+_:n3-258954 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258955;
+    rdf:_2 "fortlaufend";
+    <https://html.spec.whatwg.org/#innerHTML> "<em>Regelmäßigkeit der Förderung:&nbsp;</em>fortlaufend";
+    <https://html.spec.whatwg.org/#innerText> "Regelmäßigkeit der Förderung: fortlaufend".
+_:n3-258955 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "Regelmäßigkeit der Förderung:&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Regelmäßigkeit der Förderung:&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Regelmäßigkeit der Förderung:".
+_:n3-258956 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-258957;
+    rdf:_2 "Institutionelle Förderung von";
+    <https://html.spec.whatwg.org/#innerHTML> "<em></em>Institutionelle Förderung von";
+    <https://html.spec.whatwg.org/#innerText> "Institutionelle Förderung von".
+_:n3-258957 a <http://www.w3.org/1999/xhtml#em>.
+_:n3-258958 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Landesmusikrat";
+    <https://html.spec.whatwg.org/#innerHTML> "- Landesmusikrat";
+    <https://html.spec.whatwg.org/#innerText> "- Landesmusikrat".
+_:n3-258959 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Chorverbänden";
+    <https://html.spec.whatwg.org/#innerHTML> "- Chorverbänden";
+    <https://html.spec.whatwg.org/#innerText> "- Chorverbänden".
+_:n3-258960 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Landesmusikverband";
+    <https://html.spec.whatwg.org/#innerHTML> "- Landesmusikverband";
+    <https://html.spec.whatwg.org/#innerText> "- Landesmusikverband".
+_:n3-258961 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "- Landesmusikakademie";
+    <https://html.spec.whatwg.org/#innerHTML> "- Landesmusikakademie";
+    <https://html.spec.whatwg.org/#innerText> "- Landesmusikakademie".
+_:n3-258962 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258963;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung</li>";
+    <https://html.spec.whatwg.org/#innerText> "Art der Förderung: Zuwendung, Festbetragsfinanzierung".
+_:n3-258963 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258964;
+    rdf:_2 _:n3-258965;
+    rdf:_3 "Zuwendung, Festbetragsfinanzierung";
+    <https://html.spec.whatwg.org/#innerHTML> "<em>Art der Förderung:</em><em>&nbsp;</em>Zuwendung, Festbetragsfinanzierung";
+    <https://html.spec.whatwg.org/#innerText> "Art der Förderung: Zuwendung, Festbetragsfinanzierung".
+_:n3-258964 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "Art der Förderung:";
+    <https://html.spec.whatwg.org/#innerHTML> "Art der Förderung:";
+    <https://html.spec.whatwg.org/#innerText> "Art der Förderung:".
+_:n3-258965 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;".
+_:n3-258966 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258967;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><em>Themenfeld:</em></li>";
+    <https://html.spec.whatwg.org/#innerText> "Themenfeld:".
+_:n3-258967 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258968;
+    <https://html.spec.whatwg.org/#innerHTML> "<em>Themenfeld:</em>";
+    <https://html.spec.whatwg.org/#innerText> "Themenfeld:".
+_:n3-258968 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "Themenfeld:";
+    <https://html.spec.whatwg.org/#innerHTML> "Themenfeld:";
+    <https://html.spec.whatwg.org/#innerText> "Themenfeld:".
+_:n3-258969 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung";
+    <https://html.spec.whatwg.org/#innerText> "Musik – Dachverband und Jugendförderung/ Chormusik/ Instrumentalmusik/ Fort-/Weiterbildung".
+_:n3-258970 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258971;
+    rdf:_2 _:n3-258972;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<ul>\n <li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute".
+_:n3-258971 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-258972 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258973;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute</li>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute".
+_:n3-258973 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258974;
+    rdf:_2 "u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute";
+    <https://html.spec.whatwg.org/#innerHTML> "<em>Zielgruppen: </em>u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen: u.a. Ehrenamt: Institutionelle Förderung der Musikdachverbände sowie Projektförderungen im Musikbereich kommen auch dem Ehrenamt zugute".
+_:n3-258974 a <http://www.w3.org/1999/xhtml#em>;
+    rdf:_1 "Zielgruppen: ";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen:";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen:".
+_:n3-258975 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258976;
+    rdf:_2 _:n3-258977;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Bitte wenden Sie sich bei Interesse an Etienne Emard.".
+_:n3-258976 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-258977 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bitte wenden Sie sich bei Interesse an ";
+    rdf:_2 _:n3-258978;
+    rdf:_3 ".";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte wenden Sie sich bei Interesse an <a href=\"mailto:etienne.emard@mffki.rlp.de\">Etienne Emard</a>.";
+    <https://html.spec.whatwg.org/#innerText> "Bitte wenden Sie sich bei Interesse an Etienne Emard.".
+_:n3-258978 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Etienne Emard";
+    <https://html.spec.whatwg.org/#innerHTML> "Etienne Emard";
+    <https://html.spec.whatwg.org/#innerText> "Etienne Emard";
+    <http://www.w3.org/1999/xhtml#href> "mailto:etienne.emard@mffki.rlp.de".
+_:n3-258979 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258980;
+    rdf:_2 _:n3-258981;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Förderinstitution".
+_:n3-258980 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-258981 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258982;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Förderinstitution".
+_:n3-258982 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-258983;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://mffki.rlp.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Förderinstitution</a>";
+    <https://html.spec.whatwg.org/#innerText> "Förderinstitution".
+_:n3-258983 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderinstitution";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderinstitution";
+    <https://html.spec.whatwg.org/#innerText> "Förderinstitution";
+    <http://www.w3.org/1999/xhtml#href> "https://mffki.rlp.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-258984 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-258985;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Rheinland-Pfalz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Kultur, Medien und Musik</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-258985 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258986;
+    rdf:_2 _:n3-258991;
+    rdf:_3 _:n3-258996;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Rheinland-Pfalz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Kultur, Medien und Musik</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz Engagementbereiche: Kultur, Medien und Musik Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-258986 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258987;
+    rdf:_2 _:n3-258988;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Rheinland-Pfalz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Rheinland-Pfalz".
+_:n3-258987 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-258988 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258989;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Rheinland-Pfalz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-258989 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258990;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Rheinland-Pfalz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-258990 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerHTML> "Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Rheinland-Pfalz".
+_:n3-258991 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258992;
+    rdf:_2 _:n3-258993;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Kultur, Medien und Musik</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Kultur, Medien und Musik".
+_:n3-258992 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-258993 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258994;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Kultur, Medien und Musik</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258994 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-258995;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Kultur, Medien und Musik</li>";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258995 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-258996 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-258997;
+    rdf:_2 _:n3-258998;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-258997 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-258998 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-258999 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259000;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>06131 162518</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-259000 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259001;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>06131 162518</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-259001 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259002;
+    rdf:_2 _:n3-259004;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>06131 162518</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-259002 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-259003;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz\" class=\"link\">Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz</a>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz".
+_:n3-259003 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Familie, Frauen, Kultur und Integration des Landes Rheinland-Pfalz";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/30287-ministerium-fuer-familie-frauen-kultur-und-integration-des-landes-rheinland-pfalz".
+_:n3-259004 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259005;
+    rdf:_2 _:n3-259009;
+    rdf:_3 _:n3-259013;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>06131 162518</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail poststelle@mffki.rlp.de Webseite mffki.rlp.de/ Telefon 06131 162518".
+_:n3-259005 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259006;
+    rdf:_2 _:n3-259007;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail poststelle@mffki.rlp.de".
+_:n3-259006 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-259007 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-259008;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:poststelle@mffki.rlp.de\">poststelle@mffki.rlp.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "poststelle@mffki.rlp.de".
+_:n3-259008 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "poststelle@mffki.rlp.de";
+    <https://html.spec.whatwg.org/#innerHTML> "poststelle@mffki.rlp.de";
+    <https://html.spec.whatwg.org/#innerText> "poststelle@mffki.rlp.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:poststelle@mffki.rlp.de".
+_:n3-259009 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259010;
+    rdf:_2 _:n3-259011;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite mffki.rlp.de/".
+_:n3-259010 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-259011 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-259012;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://mffki.rlp.de/\" target=\"_blank\">mffki.rlp.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "mffki.rlp.de/".
+_:n3-259012 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "mffki.rlp.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "mffki.rlp.de/";
+    <https://html.spec.whatwg.org/#innerText> "mffki.rlp.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://mffki.rlp.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-259013 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259014;
+    rdf:_2 _:n3-259015;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>06131 162518</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 06131 162518".
+_:n3-259014 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-259015 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "06131 162518";
+    <https://html.spec.whatwg.org/#innerHTML> "06131 162518";
+    <https://html.spec.whatwg.org/#innerText> "06131 162518".
+_:n3-259016 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-259017;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-259017 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259018;
+    rdf:_2 _:n3-259022;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-259018 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-259019;
+    rdf:_2 _:n3-259020;
+    rdf:_3 _:n3-259021;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-259019 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-259020 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-259021 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-259022 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-259023;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-259023 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-259024 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-259025 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-259026 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-259027 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/laienmusikfoerderung";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-259028 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-259029 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Laienmusikförderung Rheinland-Pfalz  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Laienmusikförderung Rheinland-Pfalz  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Laienmusikförderung Rheinland-Pfalz  –  Förderdatenbank".
+_:n3-259030 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-259031 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

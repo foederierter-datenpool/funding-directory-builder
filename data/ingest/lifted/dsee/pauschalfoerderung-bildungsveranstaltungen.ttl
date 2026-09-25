@@ -1,0 +1,846 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-281906 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281907;
+    rdf:_10 _:n3-281908;
+    rdf:_11 _:n3-281909;
+    rdf:_12 _:n3-281910;
+    rdf:_13 _:n3-281911;
+    rdf:_14 _:n3-281912;
+    rdf:_15 _:n3-281913;
+    rdf:_16 _:n3-281914;
+    rdf:_17 _:n3-281915;
+    rdf:_18 _:n3-281916;
+    rdf:_19 _:n3-281917;
+    rdf:_2 _:n3-281918;
+    rdf:_20 _:n3-281919;
+    rdf:_21 _:n3-281920;
+    rdf:_22 _:n3-281921;
+    rdf:_23 _:n3-281938;
+    rdf:_24 _:n3-281943;
+    rdf:_25 _:n3-282054;
+    rdf:_26 _:n3-282062;
+    rdf:_3 _:n3-282063;
+    rdf:_4 _:n3-282064;
+    rdf:_5 _:n3-282065;
+    rdf:_6 _:n3-282066;
+    rdf:_7 _:n3-282067;
+    rdf:_8 _:n3-282068;
+    rdf:_9 _:n3-282069;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "pauschalfoerderung-bildungsveranstaltungen";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Pauschalförderung Bildungsveranstaltungen  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Pauschalförderung Bildungsveranstaltungen\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Pauschalförderung Bildungsveranstaltungen\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Pauschalförderung Bildungsveranstaltungen</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n      <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n       <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n       <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n       <li>Übernachtungspauschale pro Person 70 Euro</li>\n       <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n      </ul>\n      <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n      <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n      <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n       <li>Tagespauschale: kein eigenes Geld notwendig</li>\n       <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n        <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n        </ul></li>\n      </ul>\n      <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n      <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n       <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n       <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n       <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n       <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n       <li>Die Übernachtungspauschale kann gewährt werden, wenn\n        <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n         <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n         <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n         <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n        </ul></li>\n      </ul>\n      <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n       <br>\n       <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n      <p>Förderfähige Kosten</p>\n      <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n      <p>Förderzeitraum</p>\n      <p>6 Monate maximal</p>\n      <p>Förderhöhe</p>\n      <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n      <p>Eigenmittel</p>\n      <p>Es sind keine Eigenmittel erforderlich.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>Pauschale Förderung bis zu 300.000,00 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Nein</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Ja</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Heinemannstr. 36,\n        <br>\n        53175 Bonn</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0228 2092300</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Pauschalförderung Bildungsveranstaltungen Pauschalförderung Bildungsveranstaltungen Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300 ©2026 Impressum Datenschutzerklärung".
+_:n3-281907 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-281908 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-281909 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-281910 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-281911 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Pauschalförderung Bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-281912 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-281913 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Pauschalförderung Bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-281914 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-281915 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-281916 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-281917 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-281918 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-281919 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-281920 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-281921 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281922;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-281922 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281923;
+    rdf:_2 _:n3-281925;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-281923 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-281924;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-281924 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-281925 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281926;
+    rdf:_2 _:n3-281929;
+    rdf:_3 _:n3-281932;
+    rdf:_4 _:n3-281935;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-281926 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-281927;
+    rdf:_2 _:n3-281928;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-281927 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-281928 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-281929 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-281930;
+    rdf:_2 _:n3-281931;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-281930 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-281931 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-281932 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-281933;
+    rdf:_2 _:n3-281934;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-281933 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-281934 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-281935 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-281936;
+    rdf:_2 _:n3-281937;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-281936 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-281937 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-281938 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-281939;
+    rdf:_2 _:n3-281942;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-281939 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-281940;
+    rdf:_2 _:n3-281941;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-281940 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-281941 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-281942 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-281943 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-281944;
+    rdf:_2 _:n3-281949;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Pauschalförderung Bildungsveranstaltungen</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n     <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n      <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n      <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n      <li>Übernachtungspauschale pro Person 70 Euro</li>\n      <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n     </ul>\n     <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n     <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n     <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n      <li>Tagespauschale: kein eigenes Geld notwendig</li>\n      <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n       <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n       </ul></li>\n     </ul>\n     <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n     <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n      <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n      <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n      <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n      <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n      <li>Die Übernachtungspauschale kann gewährt werden, wenn\n       <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n        <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n        <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n        <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n       </ul></li>\n     </ul>\n     <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n      <br>\n      <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n     <p>Förderfähige Kosten</p>\n     <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n     <p>Förderzeitraum</p>\n     <p>6 Monate maximal</p>\n     <p>Förderhöhe</p>\n     <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n     <p>Eigenmittel</p>\n     <p>Es sind keine Eigenmittel erforderlich.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>Pauschale Förderung bis zu 300.000,00 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Nein</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Ja</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Heinemannstr. 36,\n       <br>\n       53175 Bonn</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0228 2092300</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Pauschalförderung Bildungsveranstaltungen Pauschalförderung Bildungsveranstaltungen Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-281944 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-281945;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Pauschalförderung Bildungsveranstaltungen</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Pauschalförderung Bildungsveranstaltungen".
+_:n3-281945 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281946;
+    rdf:_2 _:n3-281947;
+    rdf:_3 _:n3-281948;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Pauschalförderung Bildungsveranstaltungen</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Pauschalförderung Bildungsveranstaltungen".
+_:n3-281946 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-281947 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-281948 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Pauschalförderung Bildungsveranstaltungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Pauschalförderung Bildungsveranstaltungen";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen".
+_:n3-281949 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-281950;
+    rdf:_2 _:n3-282032;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n    <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n     <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n     <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n     <li>Übernachtungspauschale pro Person 70 Euro</li>\n     <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n    </ul>\n    <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n    <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n    <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n     <li>Tagespauschale: kein eigenes Geld notwendig</li>\n     <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n      <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n       <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n       <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n      </ul></li>\n    </ul>\n    <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n    <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n     <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n     <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n     <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n     <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n     <li>Die Übernachtungspauschale kann gewährt werden, wenn\n      <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n       <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n       <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n       <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n      </ul></li>\n    </ul>\n    <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n     <br>\n     <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n    <p>Förderfähige Kosten</p>\n    <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n    <p>Förderzeitraum</p>\n    <p>6 Monate maximal</p>\n    <p>Förderhöhe</p>\n    <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n    <p>Eigenmittel</p>\n    <p>Es sind keine Eigenmittel erforderlich.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>Pauschale Förderung bis zu 300.000,00 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Nein</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Ja</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Heinemannstr. 36,\n      <br>\n      53175 Bonn</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0228 2092300</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-281950 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281951;
+    rdf:_2 _:n3-282008;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n   <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n    <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n    <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n    <li>Übernachtungspauschale pro Person 70 Euro</li>\n    <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n   </ul>\n   <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n   <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n   <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n    <li>Tagespauschale: kein eigenes Geld notwendig</li>\n    <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n     <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n     </ul></li>\n   </ul>\n   <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n   <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n    <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n    <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n    <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n    <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n    <li>Die Übernachtungspauschale kann gewährt werden, wenn\n     <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n      <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n      <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n      <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n     </ul></li>\n   </ul>\n   <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n    <br>\n    <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n   <p>Förderfähige Kosten</p>\n   <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n   <p>Förderzeitraum</p>\n   <p>6 Monate maximal</p>\n   <p>Förderhöhe</p>\n   <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n   <p>Eigenmittel</p>\n   <p>Es sind keine Eigenmittel erforderlich.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>Pauschale Förderung bis zu 300.000,00 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Nein</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Ja</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-281951 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281952;
+    rdf:_2 _:n3-281954;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n  <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n   <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n   <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n   <li>Übernachtungspauschale pro Person 70 Euro</li>\n   <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n  </ul>\n  <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n  <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n  <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n   <li>Tagespauschale: kein eigenes Geld notwendig</li>\n   <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n    <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n    </ul></li>\n  </ul>\n  <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n  <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n   <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n   <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n   <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n   <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n   <li>Die Übernachtungspauschale kann gewährt werden, wenn\n    <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n     <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n     <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n     <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n    </ul></li>\n  </ul>\n  <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n   <br>\n   <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n  <p>Förderfähige Kosten</p>\n  <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n  <p>Förderzeitraum</p>\n  <p>6 Monate maximal</p>\n  <p>Förderhöhe</p>\n  <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n  <p>Eigenmittel</p>\n  <p>Es sind keine Eigenmittel erforderlich.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm".
+_:n3-281952 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-281953;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Pauschalförderung Bildungsveranstaltungen</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen".
+_:n3-281953 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Pauschalförderung Bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Pauschalförderung Bildungsveranstaltungen";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen".
+_:n3-281954 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281955;
+    rdf:_2 _:n3-281987;
+    rdf:_3 _:n3-281990;
+    rdf:_4 _:n3-282003;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n  <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n  <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n  <li>Übernachtungspauschale pro Person 70 Euro</li>\n  <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n </ul>\n <p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n  <li>Tagespauschale: kein eigenes Geld notwendig</li>\n  <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n   <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n   </ul></li>\n </ul>\n <p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n <ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n  <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n  <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n  <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n  <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n  <li>Die Übernachtungspauschale kann gewährt werden, wenn\n   <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n    <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n    <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n    <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n   </ul></li>\n </ul>\n <p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n  <br>\n  <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n <p>Förderfähige Kosten</p>\n <p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n <p>Förderzeitraum</p>\n <p>6 Monate maximal</p>\n <p>Förderhöhe</p>\n <p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n <p>Eigenmittel</p>\n <p>Es sind keine Eigenmittel erforderlich.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme. Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich. Weitere Informationen Link zum Programm".
+_:n3-281955 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281956;
+    rdf:_2 _:n3-281958;
+    rdf:_3 _:n3-281963;
+    rdf:_4 _:n3-281964;
+    rdf:_5 _:n3-281966;
+    rdf:_6 _:n3-281972;
+    rdf:_7 _:n3-281974;
+    rdf:_8 _:n3-281986;
+    <https://html.spec.whatwg.org/#innerHTML> "<p style=\"padding:0px;color:rgb(40,40,40);\"><span>Wieviel gibt es:</span></p>\n<ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n <li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n <li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n <li>Übernachtungspauschale pro Person 70 Euro</li>\n <li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>\n</ul>\n<p style=\"padding:0px;color:rgb(40,40,40);\">= maximal 400.000 Euro/Jahr pro Projekt-Partner</p>\n<p style=\"padding:0px;color:rgb(40,40,40);\"><span>Finanzierungsmittel:</span></p>\n<ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n <li>Tagespauschale: kein eigenes Geld notwendig</li>\n <li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n  <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n   <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n   <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n  </ul></li>\n</ul>\n<p style=\"padding:0px;color:rgb(40,40,40);\"><span>Hinweise für die Pauschalförderung:</span></p>\n<ul style=\"margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:\">\n <li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n <li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n <li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n <li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n <li>Die Übernachtungspauschale kann gewährt werden, wenn\n  <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n   <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n   <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n   <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n  </ul></li>\n</ul>\n<p style=\"padding:0px;color:rgb(40,40,40);\">das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Wieviel gibt es: Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots = maximal 400.000 Euro/Jahr pro Projekt-Partner Finanzierungsmittel: Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden Hinweise für die Pauschalförderung: Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.".
+_:n3-281956 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-281957;
+    <https://html.spec.whatwg.org/#innerHTML> "<span>Wieviel gibt es:</span>";
+    <https://html.spec.whatwg.org/#innerText> "Wieviel gibt es:";
+    <http://www.w3.org/1999/xhtml#style> "padding:0px;color:rgb(40,40,40);".
+_:n3-281957 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Wieviel gibt es:";
+    <https://html.spec.whatwg.org/#innerHTML> "Wieviel gibt es:";
+    <https://html.spec.whatwg.org/#innerText> "Wieviel gibt es:".
+_:n3-281958 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-281959;
+    rdf:_2 _:n3-281960;
+    rdf:_3 _:n3-281961;
+    rdf:_4 _:n3-281962;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Tagespauschale für die physische Teilnahme pro Person 50 Euro</li>\n<li>Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro</li>\n<li>Übernachtungspauschale pro Person 70 Euro</li>\n<li>bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots</li>";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale für die physische Teilnahme pro Person 50 Euro Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro Übernachtungspauschale pro Person 70 Euro bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots";
+    <http://www.w3.org/1999/xhtml#style> "margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:".
+_:n3-281959 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Tagespauschale für die physische Teilnahme pro Person 50 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Tagespauschale für die physische Teilnahme pro Person 50 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale für die physische Teilnahme pro Person 50 Euro".
+_:n3-281960 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale für die virtuelle Teilnahme pro Person 30 Euro".
+_:n3-281961 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Übernachtungspauschale pro Person 70 Euro";
+    <https://html.spec.whatwg.org/#innerHTML> "Übernachtungspauschale pro Person 70 Euro";
+    <https://html.spec.whatwg.org/#innerText> "Übernachtungspauschale pro Person 70 Euro".
+_:n3-281962 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots";
+    <https://html.spec.whatwg.org/#innerHTML> "bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots";
+    <https://html.spec.whatwg.org/#innerText> "bis zu 70 Prozent der Kosten für die Zugänglichkeit des Angebots".
+_:n3-281963 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "= maximal 400.000 Euro/Jahr pro Projekt-Partner";
+    <https://html.spec.whatwg.org/#innerHTML> "= maximal 400.000 Euro/Jahr pro Projekt-Partner";
+    <https://html.spec.whatwg.org/#innerText> "= maximal 400.000 Euro/Jahr pro Projekt-Partner";
+    <http://www.w3.org/1999/xhtml#style> "padding:0px;color:rgb(40,40,40);".
+_:n3-281964 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-281965;
+    <https://html.spec.whatwg.org/#innerHTML> "<span>Finanzierungsmittel:</span>";
+    <https://html.spec.whatwg.org/#innerText> "Finanzierungsmittel:";
+    <http://www.w3.org/1999/xhtml#style> "padding:0px;color:rgb(40,40,40);".
+_:n3-281965 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Finanzierungsmittel:";
+    <https://html.spec.whatwg.org/#innerHTML> "Finanzierungsmittel:";
+    <https://html.spec.whatwg.org/#innerText> "Finanzierungsmittel:".
+_:n3-281966 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-281967;
+    rdf:_2 _:n3-281968;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Tagespauschale: kein eigenes Geld notwendig</li>\n<li>Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n </ul></li>";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale: kein eigenes Geld notwendig Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden";
+    <http://www.w3.org/1999/xhtml#style> "margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:".
+_:n3-281967 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Tagespauschale: kein eigenes Geld notwendig";
+    <https://html.spec.whatwg.org/#innerHTML> "Tagespauschale: kein eigenes Geld notwendig";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale: kein eigenes Geld notwendig".
+_:n3-281968 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:";
+    rdf:_2 _:n3-281969;
+    <https://html.spec.whatwg.org/#innerHTML> "Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten:\n<ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Für die Zugänglichkeit des Angebots: Eigenmittel von mindestens 30 Prozent der förderfähigen Kosten: Bare Mittel Spenden".
+_:n3-281969 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-281970;
+    rdf:_2 _:n3-281971;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel</li>\n<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bare Mittel Spenden";
+    <http://www.w3.org/1999/xhtml#style> "margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;".
+_:n3-281970 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bare Mittel";
+    <https://html.spec.whatwg.org/#innerText> "Bare Mittel".
+_:n3-281971 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spenden";
+    <https://html.spec.whatwg.org/#innerText> "Spenden".
+_:n3-281972 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-281973;
+    <https://html.spec.whatwg.org/#innerHTML> "<span>Hinweise für die Pauschalförderung:</span>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise für die Pauschalförderung:";
+    <http://www.w3.org/1999/xhtml#style> "padding:0px;color:rgb(40,40,40);".
+_:n3-281973 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Hinweise für die Pauschalförderung:";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise für die Pauschalförderung:";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise für die Pauschalförderung:".
+_:n3-281974 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-281975;
+    rdf:_2 _:n3-281978;
+    rdf:_3 _:n3-281979;
+    rdf:_4 _:n3-281980;
+    rdf:_5 _:n3-281981;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.</li>\n<li>Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.</li>\n<li>Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.</li>\n<li>Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.</li>\n<li>Die Übernachtungspauschale kann gewährt werden, wenn\n <ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n  <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n  <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n  <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n </ul></li>";
+    <https://html.spec.whatwg.org/#innerText> "Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen. Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale. Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen. Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt. Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende";
+    <http://www.w3.org/1999/xhtml#style> "margin-top: 0px; margin-bottom: 1rem; padding-left: 2rem; color: rgb(40, 40, 40); font-family:".
+_:n3-281975 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Es müssen&nbsp;";
+    rdf:_2 _:n3-281976;
+    rdf:_3 "&nbsp;";
+    rdf:_4 _:n3-281977;
+    rdf:_5 "&nbsp;an der Bildungsveranstaltung teilnehmen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es müssen&nbsp;<span>mindestens sechs Teilnehmer*innen</span>&nbsp;<span>und ein*e Referent*in</span>&nbsp;an der Bildungsveranstaltung teilnehmen.";
+    <https://html.spec.whatwg.org/#innerText> "Es müssen mindestens sechs Teilnehmer*innen und ein*e Referent*in an der Bildungsveranstaltung teilnehmen.".
+_:n3-281976 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "mindestens sechs Teilnehmer*innen";
+    <https://html.spec.whatwg.org/#innerHTML> "mindestens sechs Teilnehmer*innen";
+    <https://html.spec.whatwg.org/#innerText> "mindestens sechs Teilnehmer*innen".
+_:n3-281977 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "und ein*e Referent*in";
+    <https://html.spec.whatwg.org/#innerHTML> "und ein*e Referent*in";
+    <https://html.spec.whatwg.org/#innerText> "und ein*e Referent*in".
+_:n3-281978 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.";
+    <https://html.spec.whatwg.org/#innerText> "Sowohl mehr- als auch eintägige Veranstaltungen erhalten die gleiche Pauschale.".
+_:n3-281979 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.";
+    <https://html.spec.whatwg.org/#innerText> "Die Tagespauschale kann gewährt werden, wenn in mindestens vier Zeitstunden Bildungsinhalte vermittelt werden. Am ersten und /oder am letzten Tag darf die Vermittlung der Bildungsinhalte weniger als vier Zeitstunden betragen. In diesen Fällen werden der erste und der letzte Tag als ein förderfähiger Tag zusammengefasst. Die Vermittlung der Bildungsinhalte muss an beiden Tagen zusammen mindestens vier Zeitstunden umfassen.".
+_:n3-281980 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.";
+    <https://html.spec.whatwg.org/#innerText> "Die Anzahl der virtuell Teilnehmenden ist auf maximal 50 Teilnehmer*innen begrenzt.".
+_:n3-281981 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Übernachtungspauschale kann gewährt werden, wenn";
+    rdf:_2 _:n3-281982;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Übernachtungspauschale kann gewährt werden, wenn\n<ul style=\"margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;\">\n <li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n <li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n <li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Die Übernachtungspauschale kann gewährt werden, wenn am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende".
+_:n3-281982 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-281983;
+    rdf:_2 _:n3-281984;
+    rdf:_3 _:n3-281985;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet</li>\n<li>&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat</li>\n<li>&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende</li>";
+    <https://html.spec.whatwg.org/#innerText> "am nächsten Tag eine Bildungsveranstaltung stattfindet am Tag zuvor eine Bildungsveranstaltung stattgefunden hat nur für physisch an den Bildungsveranstaltungen Teilnehmende";
+    <http://www.w3.org/1999/xhtml#style> "margin-top: 0px; margin-bottom: 0px; padding-left: 2rem;".
+_:n3-281983 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;&nbsp;&nbsp;&nbsp; am nächsten Tag eine Bildungsveranstaltung stattfindet";
+    <https://html.spec.whatwg.org/#innerText> "am nächsten Tag eine Bildungsveranstaltung stattfindet".
+_:n3-281984 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;&nbsp;&nbsp;&nbsp; am Tag zuvor eine Bildungsveranstaltung stattgefunden hat";
+    <https://html.spec.whatwg.org/#innerText> "am Tag zuvor eine Bildungsveranstaltung stattgefunden hat".
+_:n3-281985 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende";
+    <https://html.spec.whatwg.org/#innerHTML> "&nbsp;&nbsp;&nbsp;&nbsp; nur für physisch an den Bildungsveranstaltungen Teilnehmende";
+    <https://html.spec.whatwg.org/#innerText> "nur für physisch an den Bildungsveranstaltungen Teilnehmende".
+_:n3-281986 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.";
+    <https://html.spec.whatwg.org/#innerHTML> "das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.";
+    <https://html.spec.whatwg.org/#innerText> "das heißt die Zahl der Übernachtungspauschalen kann maximal um eine höher sein als die Zahl der Tagespauschalen für die physische Teilnahme.";
+    <http://www.w3.org/1999/xhtml#style> "padding:0px;color:rgb(40,40,40);".
+_:n3-281987 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281988;
+    rdf:_2 _:n3-281989;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen".
+_:n3-281988 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-281989 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen";
+    <https://html.spec.whatwg.org/#innerHTML> "Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen";
+    <https://html.spec.whatwg.org/#innerText> "Menschen mit Behinderung, ihre Angehörige und ehrenamtliche Mitarbeiter*innen".
+_:n3-281990 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-281991;
+    rdf:_10 _:n3-281992;
+    rdf:_2 _:n3-281993;
+    rdf:_3 _:n3-281996;
+    rdf:_4 _:n3-281997;
+    rdf:_5 _:n3-281998;
+    rdf:_6 _:n3-281999;
+    rdf:_7 _:n3-282000;
+    rdf:_8 _:n3-282001;
+    rdf:_9 _:n3-282002;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Antragstellung nur über das Antragssystem der Aktion Mensch:\n <br>\n <a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a></p>\n<p>Förderfähige Kosten</p>\n<p>Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit</p>\n<p>Förderzeitraum</p>\n<p>6 Monate maximal</p>\n<p>Förderhöhe</p>\n<p>Bis zu 100,00 % (max. 300.000,00 €)</p>\n<p>Eigenmittel</p>\n<p>Es sind keine Eigenmittel erforderlich.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de Förderfähige Kosten Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit Förderzeitraum 6 Monate maximal Förderhöhe Bis zu 100,00 % (max. 300.000,00 €) Eigenmittel Es sind keine Eigenmittel erforderlich.".
+_:n3-281991 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-281992 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Es sind keine Eigenmittel erforderlich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es sind keine Eigenmittel erforderlich.";
+    <https://html.spec.whatwg.org/#innerText> "Es sind keine Eigenmittel erforderlich.".
+_:n3-281993 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragstellung nur über das Antragssystem der Aktion Mensch:";
+    rdf:_2 _:n3-281994;
+    rdf:_3 _:n3-281995;
+    <https://html.spec.whatwg.org/#innerHTML> "Antragstellung nur über das Antragssystem der Aktion Mensch:\n<br>\n<a href=\"https://antrag.aktion-mensch.de\">https://antrag.aktion-mensch.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellung nur über das Antragssystem der Aktion Mensch: https://antrag.aktion-mensch.de".
+_:n3-281994 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-281995 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "https://antrag.aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerHTML> "https://antrag.aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerText> "https://antrag.aktion-mensch.de";
+    <http://www.w3.org/1999/xhtml#href> "https://antrag.aktion-mensch.de".
+_:n3-281996 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderfähige Kosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten".
+_:n3-281997 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit";
+    <https://html.spec.whatwg.org/#innerHTML> "Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit";
+    <https://html.spec.whatwg.org/#innerText> "Tagespauschale physische Teilnahme | Übernachtungspauschale Bildungsmaßnahmen | Tagespauschale digitale Teilnahme | Kosten zur Herstellung der Barrierefreiheit".
+_:n3-281998 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderzeitraum";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderzeitraum";
+    <https://html.spec.whatwg.org/#innerText> "Förderzeitraum".
+_:n3-281999 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "6 Monate maximal";
+    <https://html.spec.whatwg.org/#innerHTML> "6 Monate maximal";
+    <https://html.spec.whatwg.org/#innerText> "6 Monate maximal".
+_:n3-282000 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderhöhe";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderhöhe";
+    <https://html.spec.whatwg.org/#innerText> "Förderhöhe".
+_:n3-282001 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bis zu 100,00 % (max. 300.000,00 €)";
+    <https://html.spec.whatwg.org/#innerHTML> "Bis zu 100,00 % (max. 300.000,00 €)";
+    <https://html.spec.whatwg.org/#innerText> "Bis zu 100,00 % (max. 300.000,00 €)".
+_:n3-282002 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Eigenmittel";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel".
+_:n3-282003 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282004;
+    rdf:_2 _:n3-282005;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm".
+_:n3-282004 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-282005 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-282006;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-282006 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-282007;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-282007 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.aktion-mensch.de/foerderung/foerderprogramme/lebensbereich-bildung-persoenlichkeit";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-282008 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-282009;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>Pauschale Förderung bis zu 300.000,00 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Nein</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Ja</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-282009 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282010;
+    rdf:_2 _:n3-282013;
+    rdf:_3 _:n3-282020;
+    rdf:_4 _:n3-282023;
+    rdf:_5 _:n3-282026;
+    rdf:_6 _:n3-282029;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>Pauschale Förderung bis zu 300.000,00 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Nein</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Ja</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 € Eigenmittel benötigt: Nein Bewerbungsfrist: Fortlaufende Förderung Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-282010 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282011;
+    rdf:_2 _:n3-282012;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-282011 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-282012 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-282013 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282014;
+    rdf:_2 _:n3-282015;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bildung Bildung für nachhaltige Entwicklung Soziales".
+_:n3-282014 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-282015 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282016;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Soziales".
+_:n3-282016 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-282017;
+    rdf:_2 _:n3-282018;
+    rdf:_3 _:n3-282019;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung Bildung für nachhaltige Entwicklung Soziales".
+_:n3-282017 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-282018 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-282019 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-282020 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282021;
+    rdf:_2 _:n3-282022;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>Pauschale Förderung bis zu 300.000,00 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: Pauschale Förderung bis zu 300.000,00 €".
+_:n3-282021 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-282022 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Pauschale Förderung bis zu 300.000,00 €";
+    <https://html.spec.whatwg.org/#innerHTML> "Pauschale Förderung bis zu 300.000,00 €";
+    <https://html.spec.whatwg.org/#innerText> "Pauschale Förderung bis zu 300.000,00 €".
+_:n3-282023 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282024;
+    rdf:_2 _:n3-282025;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Nein".
+_:n3-282024 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-282025 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-282026 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282027;
+    rdf:_2 _:n3-282028;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-282027 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-282028 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-282029 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282030;
+    rdf:_2 _:n3-282031;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Ja".
+_:n3-282030 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-282031 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-282032 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282033;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Heinemannstr. 36,\n     <br>\n     53175 Bonn</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0228 2092300</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-282033 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282034;
+    rdf:_2 _:n3-282052;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Heinemannstr. 36,\n    <br>\n    53175 Bonn</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0228 2092300</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-282034 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282035;
+    rdf:_2 _:n3-282037;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Heinemannstr. 36,\n   <br>\n   53175 Bonn</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0228 2092300</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Aktion Mensch e.V. Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-282035 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-282036;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v\" class=\"link\">Aktion Mensch e.V.</a>";
+    <https://html.spec.whatwg.org/#innerText> "Aktion Mensch e.V.".
+_:n3-282036 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Aktion Mensch e.V.";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Aktion Mensch e.V.";
+    <https://html.spec.whatwg.org/#innerText> "Aktion Mensch e.V.";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/38344-aktion-mensch-e-v".
+_:n3-282037 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282038;
+    rdf:_2 _:n3-282041;
+    rdf:_3 _:n3-282045;
+    rdf:_4 _:n3-282049;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Heinemannstr. 36,\n  <br>\n  53175 Bonn</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0228 2092300</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Heinemannstr. 36, 53175 Bonn E-Mail info@aktion-mensch.de Webseite www.aktion-mensch.de Telefon 0228 2092300".
+_:n3-282038 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282039;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Heinemannstr. 36,\n <br>\n 53175 Bonn</p>";
+    <https://html.spec.whatwg.org/#innerText> "Heinemannstr. 36, 53175 Bonn".
+_:n3-282039 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Heinemannstr. 36,";
+    rdf:_2 _:n3-282040;
+    rdf:_3 "53175 Bonn";
+    <https://html.spec.whatwg.org/#innerHTML> "Heinemannstr. 36,\n<br>\n53175 Bonn";
+    <https://html.spec.whatwg.org/#innerText> "Heinemannstr. 36, 53175 Bonn".
+_:n3-282040 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-282041 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282042;
+    rdf:_2 _:n3-282043;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@aktion-mensch.de".
+_:n3-282042 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-282043 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-282044;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@aktion-mensch.de\">info@aktion-mensch.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@aktion-mensch.de".
+_:n3-282044 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerText> "info@aktion-mensch.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@aktion-mensch.de".
+_:n3-282045 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282046;
+    rdf:_2 _:n3-282047;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.aktion-mensch.de".
+_:n3-282046 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-282047 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-282048;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.aktion-mensch.de\" target=\"_blank\">www.aktion-mensch.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.aktion-mensch.de".
+_:n3-282048 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.aktion-mensch.de";
+    <https://html.spec.whatwg.org/#innerText> "www.aktion-mensch.de";
+    <http://www.w3.org/1999/xhtml#href> "https://www.aktion-mensch.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-282049 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282050;
+    rdf:_2 _:n3-282051;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0228 2092300</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0228 2092300".
+_:n3-282050 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-282051 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0228 2092300";
+    <https://html.spec.whatwg.org/#innerHTML> "0228 2092300";
+    <https://html.spec.whatwg.org/#innerText> "0228 2092300".
+_:n3-282052 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282053;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg\" width=\"800\" height=\"470\">".
+_:n3-282053 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "470";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/AM_Foerder_Logo_RGB.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-282054 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-282055;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-282055 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282056;
+    rdf:_2 _:n3-282060;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-282056 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-282057;
+    rdf:_2 _:n3-282058;
+    rdf:_3 _:n3-282059;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-282057 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-282058 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-282059 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-282060 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-282061;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-282061 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-282062 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-282063 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-282064 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-282065 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/pauschalfoerderung-bildungsveranstaltungen";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-282066 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-282067 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Pauschalförderung Bildungsveranstaltungen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Pauschalförderung Bildungsveranstaltungen  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Pauschalförderung Bildungsveranstaltungen  –  Förderdatenbank".
+_:n3-282068 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-282069 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

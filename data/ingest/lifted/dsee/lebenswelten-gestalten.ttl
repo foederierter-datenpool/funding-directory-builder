@@ -1,0 +1,852 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-289303 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289304;
+    rdf:_10 _:n3-289305;
+    rdf:_11 _:n3-289306;
+    rdf:_12 _:n3-289307;
+    rdf:_13 _:n3-289308;
+    rdf:_14 _:n3-289309;
+    rdf:_15 _:n3-289310;
+    rdf:_16 _:n3-289311;
+    rdf:_17 _:n3-289312;
+    rdf:_18 _:n3-289313;
+    rdf:_19 _:n3-289314;
+    rdf:_2 _:n3-289315;
+    rdf:_20 _:n3-289316;
+    rdf:_21 _:n3-289317;
+    rdf:_22 _:n3-289318;
+    rdf:_23 _:n3-289335;
+    rdf:_24 _:n3-289340;
+    rdf:_25 _:n3-289459;
+    rdf:_26 _:n3-289467;
+    rdf:_3 _:n3-289468;
+    rdf:_4 _:n3-289469;
+    rdf:_5 _:n3-289470;
+    rdf:_6 _:n3-289471;
+    rdf:_7 _:n3-289472;
+    rdf:_8 _:n3-289473;
+    rdf:_9 _:n3-289474;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "lebenswelten-gestalten";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Lebenswelten gestalten  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Lebenswelten gestalten\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Lebenswelten gestalten\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Lebenswelten gestalten</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n     <p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n      <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n       <br>\n       Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n      <ul>\n       <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n       <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n       <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n       <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n       <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n       <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n       <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n       <li>Kosten für die Versicherung Ehrenamtlicher</li>\n       <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n       <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n      </ul>\n      <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n      <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n       <br>\n       Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n      <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n       <br>\n       <br>\n       Lebensweltenprojekte...\n       <br>\n       ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n       <br>\n       ...sind gemeinwohlorientiert.\n       <br>\n       ...ermöglichen die Partizipation und Mitwirkung Anderer.\n       <br>\n       ...sind innovativ.\n       <br>\n       ...sind sichtbar.\n       <br>\n       ...sind lokal vernetzt.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n       <br>\n       <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n       <br>\n       <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Thüringen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bevölkerungs- und Katastrophenschutz</li>\n        <li>Bildung</li>\n        <li>Bildung für nachhaltige Entwicklung</li>\n        <li>Digitalisierung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Migration</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Honorarkosten</li>\n        <li>Sachkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>4.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. Oktober 2026</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Löberwallgraben 8,\n        <br>\n        99096 Erfurt</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0361 6573661</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Lebenswelten gestalten Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort. Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026 Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661 ©2026 Impressum Datenschutzerklärung".
+_:n3-289304 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-289305 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-289306 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-289307 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-289308 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Lebenswelten gestalten";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-289309 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-289310 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Lebenswelten gestalten";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-289311 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-289312 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-289313 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-289314 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-289315 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-289316 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-289317 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-289318 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289319;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-289319 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289320;
+    rdf:_2 _:n3-289322;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-289320 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-289321;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-289321 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-289322 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289323;
+    rdf:_2 _:n3-289326;
+    rdf:_3 _:n3-289329;
+    rdf:_4 _:n3-289332;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-289323 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289324;
+    rdf:_2 _:n3-289325;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289324 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-289325 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-289326 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289327;
+    rdf:_2 _:n3-289328;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289327 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-289328 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-289329 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289330;
+    rdf:_2 _:n3-289331;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289330 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-289331 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-289332 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289333;
+    rdf:_2 _:n3-289334;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289333 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-289334 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-289335 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-289336;
+    rdf:_2 _:n3-289339;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-289336 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289337;
+    rdf:_2 _:n3-289338;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-289337 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-289338 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-289339 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-289340 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-289341;
+    rdf:_2 _:n3-289346;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Lebenswelten gestalten</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n    <p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n     <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n      <br>\n      Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n     <ul>\n      <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n      <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n      <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n      <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n      <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n      <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n      <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n      <li>Kosten für die Versicherung Ehrenamtlicher</li>\n      <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n      <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n     </ul>\n     <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n     <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n      <br>\n      Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n     <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n      <br>\n      <br>\n      Lebensweltenprojekte...\n      <br>\n      ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n      <br>\n      ...sind gemeinwohlorientiert.\n      <br>\n      ...ermöglichen die Partizipation und Mitwirkung Anderer.\n      <br>\n      ...sind innovativ.\n      <br>\n      ...sind sichtbar.\n      <br>\n      ...sind lokal vernetzt.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n      <br>\n      <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n      <br>\n      <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Thüringen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bevölkerungs- und Katastrophenschutz</li>\n       <li>Bildung</li>\n       <li>Bildung für nachhaltige Entwicklung</li>\n       <li>Digitalisierung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Migration</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Honorarkosten</li>\n       <li>Sachkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>4.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. Oktober 2026</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Löberwallgraben 8,\n       <br>\n       99096 Erfurt</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0361 6573661</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Lebenswelten gestalten Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort. Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026 Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289341 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-289342;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Lebenswelten gestalten</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Lebenswelten gestalten".
+_:n3-289342 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289343;
+    rdf:_2 _:n3-289344;
+    rdf:_3 _:n3-289345;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Lebenswelten gestalten</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Lebenswelten gestalten".
+_:n3-289343 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-289344 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-289345 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Lebenswelten gestalten";
+    <https://html.spec.whatwg.org/#innerHTML> "Lebenswelten gestalten";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten".
+_:n3-289346 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-289347;
+    rdf:_2 _:n3-289437;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n   <p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n    <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n     <br>\n     Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n    <ul>\n     <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n     <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n     <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n     <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n     <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n     <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n     <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n     <li>Kosten für die Versicherung Ehrenamtlicher</li>\n     <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n     <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n    </ul>\n    <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n    <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n     <br>\n     Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n    <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n     <br>\n     <br>\n     Lebensweltenprojekte...\n     <br>\n     ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n     <br>\n     ...sind gemeinwohlorientiert.\n     <br>\n     ...ermöglichen die Partizipation und Mitwirkung Anderer.\n     <br>\n     ...sind innovativ.\n     <br>\n     ...sind sichtbar.\n     <br>\n     ...sind lokal vernetzt.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n     <br>\n     <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n     <br>\n     <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Thüringen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bevölkerungs- und Katastrophenschutz</li>\n      <li>Bildung</li>\n      <li>Bildung für nachhaltige Entwicklung</li>\n      <li>Digitalisierung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Migration</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Honorarkosten</li>\n      <li>Sachkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>4.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. Oktober 2026</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Löberwallgraben 8,\n      <br>\n      99096 Erfurt</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0361 6573661</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort. Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026 Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289347 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289348;
+    rdf:_2 _:n3-289400;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n  <p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n   <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n    <br>\n    Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n   <ul>\n    <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n    <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n    <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n    <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n    <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n    <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n    <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n    <li>Kosten für die Versicherung Ehrenamtlicher</li>\n    <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n    <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n   </ul>\n   <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n   <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n    <br>\n    Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n   <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n    <br>\n    <br>\n    Lebensweltenprojekte...\n    <br>\n    ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n    <br>\n    ...sind gemeinwohlorientiert.\n    <br>\n    ...ermöglichen die Partizipation und Mitwirkung Anderer.\n    <br>\n    ...sind innovativ.\n    <br>\n    ...sind sichtbar.\n    <br>\n    ...sind lokal vernetzt.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n    <br>\n    <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n    <br>\n    <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Thüringen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bevölkerungs- und Katastrophenschutz</li>\n     <li>Bildung</li>\n     <li>Bildung für nachhaltige Entwicklung</li>\n     <li>Digitalisierung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Migration</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Honorarkosten</li>\n     <li>Sachkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>4.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. Oktober 2026</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort. Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026".
+_:n3-289348 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289349;
+    rdf:_2 _:n3-289352;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n <p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n  <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n   <br>\n   Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n  <ul>\n   <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n   <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n   <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n   <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n   <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n   <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n   <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n   <li>Kosten für die Versicherung Ehrenamtlicher</li>\n   <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n   <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n  </ul>\n  <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n  <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n   <br>\n   Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n  <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n   <br>\n   <br>\n   Lebensweltenprojekte...\n   <br>\n   ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n   <br>\n   ...sind gemeinwohlorientiert.\n   <br>\n   ...ermöglichen die Partizipation und Mitwirkung Anderer.\n   <br>\n   ...sind innovativ.\n   <br>\n   ...sind sichtbar.\n   <br>\n   ...sind lokal vernetzt.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n   <br>\n   <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n   <br>\n   <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort. Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm".
+_:n3-289349 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-289350;
+    rdf:_2 _:n3-289351;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Lebenswelten gestalten</h1>\n<p class=\"text-lg text-gray-500\">Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.".
+_:n3-289350 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Lebenswelten gestalten";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Lebenswelten gestalten";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten".
+_:n3-289351 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.";
+    <https://html.spec.whatwg.org/#innerText> "Ein Förderprogramm für engagierte Menschen, ihre Ideen, Aktivitäten und Netzwerke vor Ort.".
+_:n3-289352 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289353;
+    rdf:_2 _:n3-289355;
+    rdf:_3 _:n3-289384;
+    rdf:_4 _:n3-289395;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n <p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n  <br>\n  Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n <ul>\n  <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n  <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n  <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n  <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n  <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n  <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n  <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n  <li>Kosten für die Versicherung Ehrenamtlicher</li>\n  <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n  <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n </ul>\n <p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n <p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n  <br>\n  Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n <p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n  <br>\n  <br>\n  Lebensweltenprojekte...\n  <br>\n  ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n  <br>\n  ...sind gemeinwohlorientiert.\n  <br>\n  ...ermöglichen die Partizipation und Mitwirkung Anderer.\n  <br>\n  ...sind innovativ.\n  <br>\n  ...sind sichtbar.\n  <br>\n  ...sind lokal vernetzt.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n  <br>\n  <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n  <br>\n  <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit. Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt. Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular. Weitere Informationen Link zum Programm".
+_:n3-289353 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289354;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.".
+_:n3-289354 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.";
+    <https://html.spec.whatwg.org/#innerText> "Das Engagement vor der eigenen Haustür ist vielfältig und bereichert das Zusammenleben. Mit dem Programm „Lebenswelten gestalten“ fördert die Thüringer Ehrenamtsstiftung Freiwilligenprojekte, die in die unterschiedlichsten Lebensbereiche wirken. Dazu zählen beispielsweise die direkte Nachbarschaftshilfe, ehrenamtliche Kulturprojekte, außerschulische Bildung, die Schaffung von Begegnungsorten im Dorf oder generationsübergreifende Initiativen. Im Rahmen des Programmes werden mehrjährige Projekte sowie sich neu etablierende Freiwilligen-Initiativen durch Beratung, Vernetzung und fachliche Impulse unterstützt. Gefördert werden die Vorhaben mit 4.000 Euro pro Organisation und Jahr. Jährlich stehen im Programm dafür insgesamt 40.000 Euro bereit.".
+_:n3-289355 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289356;
+    rdf:_2 _:n3-289357;
+    rdf:_3 _:n3-289358;
+    rdf:_4 _:n3-289360;
+    rdf:_5 _:n3-289371;
+    rdf:_6 _:n3-289373;
+    rdf:_7 _:n3-289375;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.</p>\n<p>Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n <br>\n Exemplarisch sind dies im Programm „Lebenswelten gestalten“:</p>\n<ul>\n <li>Sachkosten zur Umsetzung der Projektinhalte</li>\n <li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n <li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n <li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n <li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n <li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n <li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n <li>Kosten für die Versicherung Ehrenamtlicher</li>\n <li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n <li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>\n</ul>\n<p><strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong></p>\n<p>Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n <br>\n Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.</p>\n<p>Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n <br>\n <br>\n Lebensweltenprojekte...\n <br>\n ...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n <br>\n ...sind gemeinwohlorientiert.\n <br>\n ...ermöglichen die Partizipation und Mitwirkung Anderer.\n <br>\n ...sind innovativ.\n <br>\n ...sind sichtbar.\n <br>\n ...sind lokal vernetzt.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten. Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“: Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto. Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig. Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt.".
+_:n3-289356 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-289357 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.";
+    <https://html.spec.whatwg.org/#innerText> "Das Förderprogramm richtet sich an lokal tätige Organisationen mit Sitz in Thüringen. Antragsberechtigt sind Vereine, Verbände sowie Kirchen und anerkannte Religionsgemeinschaften, Stiftungen, Infrastruktureinrichtungen zur Förderung des bürgerschaftlichen Engagements und ehrenamtlich Engagierte mit ihren Initiativen oder Projekten.".
+_:n3-289358 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.";
+    rdf:_2 _:n3-289359;
+    rdf:_3 "Exemplarisch sind dies im Programm „Lebenswelten gestalten“:";
+    <https://html.spec.whatwg.org/#innerHTML> "Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung.\n<br>\nExemplarisch sind dies im Programm „Lebenswelten gestalten“:";
+    <https://html.spec.whatwg.org/#innerText> "Gefördert wird das ehrenamtliche Engagement entsprechend den Förderzwecken gemäß § 2 Abs. 2 der Satzung der Thüringer Ehrenamtsstiftung. Exemplarisch sind dies im Programm „Lebenswelten gestalten“:".
+_:n3-289359 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289360 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289361;
+    rdf:_10 _:n3-289362;
+    rdf:_2 _:n3-289363;
+    rdf:_3 _:n3-289364;
+    rdf:_4 _:n3-289365;
+    rdf:_5 _:n3-289366;
+    rdf:_6 _:n3-289367;
+    rdf:_7 _:n3-289368;
+    rdf:_8 _:n3-289369;
+    rdf:_9 _:n3-289370;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Sachkosten zur Umsetzung der Projektinhalte</li>\n<li>Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision</li>\n<li>Maßnahmen zur Qualifizierung Ehrenamtlicher</li>\n<li>Kosten für die individuelle Würdigung Ehrenamtlicher</li>\n<li>Aufwandsentschädigungen für freiwillig Engagierte</li>\n<li>Fahrtkosten nach dem Thüringer Reisekostengesetz</li>\n<li>Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt</li>\n<li>Kosten für die Versicherung Ehrenamtlicher</li>\n<li>Telefon, Porto, Fachliteratur, Büromaterial</li>\n<li>anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind</li>";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten zur Umsetzung der Projektinhalte Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision Maßnahmen zur Qualifizierung Ehrenamtlicher Kosten für die individuelle Würdigung Ehrenamtlicher Aufwandsentschädigungen für freiwillig Engagierte Fahrtkosten nach dem Thüringer Reisekostengesetz Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt Kosten für die Versicherung Ehrenamtlicher Telefon, Porto, Fachliteratur, Büromaterial anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind".
+_:n3-289361 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten zur Umsetzung der Projektinhalte";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten zur Umsetzung der Projektinhalte";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten zur Umsetzung der Projektinhalte".
+_:n3-289362 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind";
+    <https://html.spec.whatwg.org/#innerHTML> "anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind";
+    <https://html.spec.whatwg.org/#innerText> "anteilige Kosten für Miete und Anschaffungen im Bereich der Digitalisierung, insoweit diese für die Umsetzung der Projektinhalte notwendig sind".
+_:n3-289363 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision";
+    <https://html.spec.whatwg.org/#innerHTML> "Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision";
+    <https://html.spec.whatwg.org/#innerText> "Kosten für Vernetzungstreffen, Erfahrungsaustausche Ehrenamtlicher und Supervision".
+_:n3-289364 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Maßnahmen zur Qualifizierung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerHTML> "Maßnahmen zur Qualifizierung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerText> "Maßnahmen zur Qualifizierung Ehrenamtlicher".
+_:n3-289365 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kosten für die individuelle Würdigung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerHTML> "Kosten für die individuelle Würdigung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerText> "Kosten für die individuelle Würdigung Ehrenamtlicher".
+_:n3-289366 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Aufwandsentschädigungen für freiwillig Engagierte";
+    <https://html.spec.whatwg.org/#innerHTML> "Aufwandsentschädigungen für freiwillig Engagierte";
+    <https://html.spec.whatwg.org/#innerText> "Aufwandsentschädigungen für freiwillig Engagierte".
+_:n3-289367 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Fahrtkosten nach dem Thüringer Reisekostengesetz";
+    <https://html.spec.whatwg.org/#innerHTML> "Fahrtkosten nach dem Thüringer Reisekostengesetz";
+    <https://html.spec.whatwg.org/#innerText> "Fahrtkosten nach dem Thüringer Reisekostengesetz".
+_:n3-289368 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt";
+    <https://html.spec.whatwg.org/#innerHTML> "Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt";
+    <https://html.spec.whatwg.org/#innerText> "Maßnahmen zur Gewinnung Ehrenamtlicher und Öffentlichkeitsarbeit für das Projekt".
+_:n3-289369 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kosten für die Versicherung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerHTML> "Kosten für die Versicherung Ehrenamtlicher";
+    <https://html.spec.whatwg.org/#innerText> "Kosten für die Versicherung Ehrenamtlicher".
+_:n3-289370 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Telefon, Porto, Fachliteratur, Büromaterial";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon, Porto, Fachliteratur, Büromaterial";
+    <https://html.spec.whatwg.org/#innerText> "Telefon, Porto, Fachliteratur, Büromaterial".
+_:n3-289371 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-289372;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.".
+_:n3-289372 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.";
+    <https://html.spec.whatwg.org/#innerHTML> "Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.";
+    <https://html.spec.whatwg.org/#innerText> "Nicht förderfähig sind Personalkosten, Einzelmaßnahmen wie kulturelle Events oder umfangreiche Sachanschaffungen in Höhe von mehr als 1.000 Euro netto.".
+_:n3-289373 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.";
+    rdf:_2 _:n3-289374;
+    rdf:_3 "Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr.\n<br>\nIm Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.";
+    <https://html.spec.whatwg.org/#innerText> "Die Förderung beträgt einmalig bis zu 4.000,- Euro pro antragstellender Organisation und Jahr. Im Rahmen des Programmes werden auch mehrjährige Projekte berücksichtigt. Hierfür ist jährlich eine erneute Antragstellung notwendig.".
+_:n3-289374 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289375 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.";
+    rdf:_10 "...ermöglichen die Partizipation und Mitwirkung Anderer.";
+    rdf:_11 _:n3-289376;
+    rdf:_12 "...sind innovativ.";
+    rdf:_13 _:n3-289377;
+    rdf:_14 "...sind sichtbar.";
+    rdf:_15 _:n3-289378;
+    rdf:_16 "...sind lokal vernetzt.";
+    rdf:_2 _:n3-289379;
+    rdf:_3 _:n3-289380;
+    rdf:_4 "Lebensweltenprojekte...";
+    rdf:_5 _:n3-289381;
+    rdf:_6 "...verändern eine konkrete gesellschaftliche Problemlage vor Ort.";
+    rdf:_7 _:n3-289382;
+    rdf:_8 "...sind gemeinwohlorientiert.";
+    rdf:_9 _:n3-289383;
+    <https://html.spec.whatwg.org/#innerHTML> "Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein.\n<br>\n<br>\nLebensweltenprojekte...\n<br>\n...verändern eine konkrete gesellschaftliche Problemlage vor Ort.\n<br>\n...sind gemeinwohlorientiert.\n<br>\n...ermöglichen die Partizipation und Mitwirkung Anderer.\n<br>\n...sind innovativ.\n<br>\n...sind sichtbar.\n<br>\n...sind lokal vernetzt.";
+    <https://html.spec.whatwg.org/#innerText> "Freiwilliges Engagement sollte das Kernstück des Projektes sein, es sollten mindestens 15 engagierte Personen an der Projektumsetzung beteiligt sein. Lebensweltenprojekte... ...verändern eine konkrete gesellschaftliche Problemlage vor Ort. ...sind gemeinwohlorientiert. ...ermöglichen die Partizipation und Mitwirkung Anderer. ...sind innovativ. ...sind sichtbar. ...sind lokal vernetzt.".
+_:n3-289376 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289377 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289378 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289379 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289380 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289381 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289382 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289383 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289384 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289385;
+    rdf:_2 _:n3-289386;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n <br>\n <strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n <br>\n <strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong></p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular.".
+_:n3-289385 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-289386 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die ";
+    rdf:_2 _:n3-289387;
+    rdf:_3 ".";
+    rdf:_4 _:n3-289388;
+    rdf:_5 _:n3-289389;
+    rdf:_6 _:n3-289390;
+    rdf:_7 _:n3-289391;
+    rdf:_8 _:n3-289392;
+    rdf:_9 _:n3-289394;
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die <a href=\"mailto:neiser@thueringer-ehrenamtsstiftung.de\">Thüringer Ehrenamtsstiftung</a>.\n<br>\n<strong>Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.</strong>\n<br>\n<strong>Bitte verwenden Sie für die Antragstellung das </strong><a href=\"https://www.lebenswelten-gestalten.de/?eID=download&amp;src=1449\"><strong>Antragsformular</strong></a><strong>.</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsteller werden durch eine Beratung auf die Einreichung des Antrags vorbereitet. Bitte senden Sie hierzu vorab kurz gefasst Ihre Projektidee und eine Angabe, für welche Zwecke Sie die Fördermittel benötigen per Mail an die Thüringer Ehrenamtsstiftung. Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein. Bitte verwenden Sie für die Antragstellung das Antragsformular.".
+_:n3-289387 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Thüringer Ehrenamtsstiftung";
+    <https://html.spec.whatwg.org/#innerHTML> "Thüringer Ehrenamtsstiftung";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung";
+    <http://www.w3.org/1999/xhtml#href> "mailto:neiser@thueringer-ehrenamtsstiftung.de".
+_:n3-289388 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289389 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.";
+    <https://html.spec.whatwg.org/#innerText> "Die Antragstellung ist ab dem 1. September bis spätestens 31. Oktober des Jahres möglich. Bitte beachten Sie: Die Fördermittel können unter Umständen bereits im laufenden Jahr ausgeschöpft sein.".
+_:n3-289390 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289391 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Bitte verwenden Sie für die Antragstellung das ";
+    <https://html.spec.whatwg.org/#innerHTML> "Bitte verwenden Sie für die Antragstellung das";
+    <https://html.spec.whatwg.org/#innerText> "Bitte verwenden Sie für die Antragstellung das".
+_:n3-289392 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-289393;
+    <https://html.spec.whatwg.org/#innerHTML> "<strong>Antragsformular</strong>";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lebenswelten-gestalten.de/?eID=download&src=1449".
+_:n3-289393 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Antragsformular";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsformular";
+    <https://html.spec.whatwg.org/#innerText> "Antragsformular".
+_:n3-289394 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 ".";
+    <https://html.spec.whatwg.org/#innerHTML> ".";
+    <https://html.spec.whatwg.org/#innerText> ".".
+_:n3-289395 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289396;
+    rdf:_2 _:n3-289397;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm".
+_:n3-289396 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-289397 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289398;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-289398 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-289399;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.lebenswelten-gestalten.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-289399 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.lebenswelten-gestalten.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289400 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-289401;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Thüringen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bevölkerungs- und Katastrophenschutz</li>\n    <li>Bildung</li>\n    <li>Bildung für nachhaltige Entwicklung</li>\n    <li>Digitalisierung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Migration</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Honorarkosten</li>\n    <li>Sachkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>4.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. Oktober 2026</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026".
+_:n3-289401 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289402;
+    rdf:_2 _:n3-289407;
+    rdf:_3 _:n3-289423;
+    rdf:_4 _:n3-289429;
+    rdf:_5 _:n3-289432;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Thüringen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bevölkerungs- und Katastrophenschutz</li>\n   <li>Bildung</li>\n   <li>Bildung für nachhaltige Entwicklung</li>\n   <li>Digitalisierung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Migration</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Honorarkosten</li>\n   <li>Sachkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>4.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. Oktober 2026</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Förderfähige Kosten: Honorarkosten Sachkosten Max. Fördersumme: 4.000 € Bewerbungsfrist: 31. Oktober 2026".
+_:n3-289402 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289403;
+    rdf:_2 _:n3-289404;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Thüringen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Thüringen".
+_:n3-289403 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-289404 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289405;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Thüringen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-289405 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289406;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Thüringen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-289406 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Thüringen";
+    <https://html.spec.whatwg.org/#innerHTML> "Thüringen";
+    <https://html.spec.whatwg.org/#innerText> "Thüringen".
+_:n3-289407 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289408;
+    rdf:_2 _:n3-289409;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bevölkerungs- und Katastrophenschutz</li>\n  <li>Bildung</li>\n  <li>Bildung für nachhaltige Entwicklung</li>\n  <li>Digitalisierung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Migration</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-289408 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-289409 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289410;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bevölkerungs- und Katastrophenschutz</li>\n <li>Bildung</li>\n <li>Bildung für nachhaltige Entwicklung</li>\n <li>Digitalisierung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Migration</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-289410 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289411;
+    rdf:_10 _:n3-289412;
+    rdf:_11 _:n3-289413;
+    rdf:_12 _:n3-289414;
+    rdf:_2 _:n3-289415;
+    rdf:_3 _:n3-289416;
+    rdf:_4 _:n3-289417;
+    rdf:_5 _:n3-289418;
+    rdf:_6 _:n3-289419;
+    rdf:_7 _:n3-289420;
+    rdf:_8 _:n3-289421;
+    rdf:_9 _:n3-289422;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bevölkerungs- und Katastrophenschutz</li>\n<li>Bildung</li>\n<li>Bildung für nachhaltige Entwicklung</li>\n<li>Digitalisierung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Migration</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz Bildung Bildung für nachhaltige Entwicklung Digitalisierung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Migration Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-289411 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bevölkerungs- und Katastrophenschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bevölkerungs- und Katastrophenschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bevölkerungs- und Katastrophenschutz".
+_:n3-289412 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-289413 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-289414 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-289415 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-289416 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung für nachhaltige Entwicklung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung für nachhaltige Entwicklung".
+_:n3-289417 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerHTML> "Digitalisierung";
+    <https://html.spec.whatwg.org/#innerText> "Digitalisierung".
+_:n3-289418 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-289419 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-289420 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-289421 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-289422 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-289423 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289424;
+    rdf:_2 _:n3-289425;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Honorarkosten</li>\n  <li>Sachkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Honorarkosten Sachkosten".
+_:n3-289424 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-289425 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289426;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Honorarkosten</li>\n <li>Sachkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-289426 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289427;
+    rdf:_2 _:n3-289428;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Honorarkosten</li>\n<li>Sachkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten Sachkosten".
+_:n3-289427 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Honorarkosten";
+    <https://html.spec.whatwg.org/#innerText> "Honorarkosten".
+_:n3-289428 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sachkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Sachkosten";
+    <https://html.spec.whatwg.org/#innerText> "Sachkosten".
+_:n3-289429 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289430;
+    rdf:_2 _:n3-289431;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>4.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 4.000 €".
+_:n3-289430 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-289431 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "4.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "4.000 €";
+    <https://html.spec.whatwg.org/#innerText> "4.000 €".
+_:n3-289432 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289433;
+    rdf:_2 _:n3-289434;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. Oktober 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. Oktober 2026".
+_:n3-289433 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-289434 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289435;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. Oktober 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-289435 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-289436;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. Oktober 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-289436 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "31. Oktober 2026";
+    <https://html.spec.whatwg.org/#innerText> "31. Oktober 2026".
+_:n3-289437 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289438;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Löberwallgraben 8,\n     <br>\n     99096 Erfurt</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0361 6573661</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289438 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289439;
+    rdf:_2 _:n3-289457;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Löberwallgraben 8,\n    <br>\n    99096 Erfurt</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0361 6573661</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289439 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289440;
+    rdf:_2 _:n3-289442;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Löberwallgraben 8,\n   <br>\n   99096 Erfurt</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0361 6573661</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289440 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-289441;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung\" class=\"link\">Thüringer Ehrenamtsstiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung".
+_:n3-289441 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Thüringer Ehrenamtsstiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Thüringer Ehrenamtsstiftung";
+    <https://html.spec.whatwg.org/#innerText> "Thüringer Ehrenamtsstiftung";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/25930-thueringer-ehrenamtsstiftung".
+_:n3-289442 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289443;
+    rdf:_2 _:n3-289446;
+    rdf:_3 _:n3-289450;
+    rdf:_4 _:n3-289454;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Löberwallgraben 8,\n  <br>\n  99096 Erfurt</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0361 6573661</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Löberwallgraben 8, 99096 Erfurt E-Mail info@thueringer-ehrenamtsstiftung.de Webseite www.thueringer-ehrenamtsstiftung.de/ Telefon 0361 6573661".
+_:n3-289443 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289444;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Löberwallgraben 8,\n <br>\n 99096 Erfurt</p>";
+    <https://html.spec.whatwg.org/#innerText> "Löberwallgraben 8, 99096 Erfurt".
+_:n3-289444 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Löberwallgraben 8,";
+    rdf:_2 _:n3-289445;
+    rdf:_3 "99096 Erfurt";
+    <https://html.spec.whatwg.org/#innerHTML> "Löberwallgraben 8,\n<br>\n99096 Erfurt";
+    <https://html.spec.whatwg.org/#innerText> "Löberwallgraben 8, 99096 Erfurt".
+_:n3-289445 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-289446 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289447;
+    rdf:_2 _:n3-289448;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@thueringer-ehrenamtsstiftung.de".
+_:n3-289447 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-289448 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-289449;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@thueringer-ehrenamtsstiftung.de\">info@thueringer-ehrenamtsstiftung.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@thueringer-ehrenamtsstiftung.de".
+_:n3-289449 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@thueringer-ehrenamtsstiftung.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@thueringer-ehrenamtsstiftung.de";
+    <https://html.spec.whatwg.org/#innerText> "info@thueringer-ehrenamtsstiftung.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@thueringer-ehrenamtsstiftung.de".
+_:n3-289450 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289451;
+    rdf:_2 _:n3-289452;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.thueringer-ehrenamtsstiftung.de/".
+_:n3-289451 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-289452 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-289453;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.thueringer-ehrenamtsstiftung.de/\" target=\"_blank\">www.thueringer-ehrenamtsstiftung.de/</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.thueringer-ehrenamtsstiftung.de/".
+_:n3-289453 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.thueringer-ehrenamtsstiftung.de/";
+    <https://html.spec.whatwg.org/#innerHTML> "www.thueringer-ehrenamtsstiftung.de/";
+    <https://html.spec.whatwg.org/#innerText> "www.thueringer-ehrenamtsstiftung.de/";
+    <http://www.w3.org/1999/xhtml#href> "https://www.thueringer-ehrenamtsstiftung.de/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-289454 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289455;
+    rdf:_2 _:n3-289456;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0361 6573661</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0361 6573661".
+_:n3-289455 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-289456 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0361 6573661";
+    <https://html.spec.whatwg.org/#innerHTML> "0361 6573661";
+    <https://html.spec.whatwg.org/#innerText> "0361 6573661".
+_:n3-289457 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289458;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg\" width=\"800\" height=\"146\">".
+_:n3-289458 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "146";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/TES-Wortbildmarke-Webfarbe.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-289459 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-289460;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-289460 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289461;
+    rdf:_2 _:n3-289465;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-289461 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-289462;
+    rdf:_2 _:n3-289463;
+    rdf:_3 _:n3-289464;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-289462 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-289463 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-289464 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-289465 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-289466;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-289466 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-289467 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-289468 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-289469 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-289470 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/lebenswelten-gestalten";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-289471 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-289472 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Lebenswelten gestalten  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Lebenswelten gestalten  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Lebenswelten gestalten  –  Förderdatenbank".
+_:n3-289473 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-289474 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

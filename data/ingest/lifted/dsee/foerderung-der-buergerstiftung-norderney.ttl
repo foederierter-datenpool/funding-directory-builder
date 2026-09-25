@@ -1,0 +1,686 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-123414 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123415;
+    rdf:_10 _:n3-123416;
+    rdf:_11 _:n3-123417;
+    rdf:_12 _:n3-123418;
+    rdf:_13 _:n3-123419;
+    rdf:_14 _:n3-123420;
+    rdf:_15 _:n3-123421;
+    rdf:_16 _:n3-123422;
+    rdf:_17 _:n3-123423;
+    rdf:_18 _:n3-123424;
+    rdf:_19 _:n3-123425;
+    rdf:_2 _:n3-123426;
+    rdf:_20 _:n3-123427;
+    rdf:_21 _:n3-123428;
+    rdf:_22 _:n3-123429;
+    rdf:_23 _:n3-123446;
+    rdf:_24 _:n3-123451;
+    rdf:_25 _:n3-123532;
+    rdf:_26 _:n3-123540;
+    rdf:_3 _:n3-123541;
+    rdf:_4 _:n3-123542;
+    rdf:_5 _:n3-123543;
+    rdf:_6 _:n3-123544;
+    rdf:_7 _:n3-123545;
+    rdf:_8 _:n3-123546;
+    rdf:_9 _:n3-123547;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-buergerstiftung-norderney";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Bürgerstiftung Norderney  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Bürgerstiftung Norderney\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Bürgerstiftung Norderney\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Norderney</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n      <ul>\n       <li>Bildung und Erziehung</li>\n       <li>Jugend- und Altenhilfe</li>\n       <li>Kunst und Kultur</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Umwelt- und Naturschutz</li>\n       <li>Heimatpflege</li>\n       <li>Gesundheit und Sport</li>\n       <li>Mildtätige Zwecke</li>\n      </ul>\n      <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bauten und Denkmalschutz</li>\n        <li>Bildung</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Wissenschaft und Forschung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Postfach 1524,\n        <br>\n        26537 Norderney</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0175 5326227</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Bürgerstiftung Norderney Förderung der Bürgerstiftung Norderney Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227 ©2026 Impressum Datenschutzerklärung".
+_:n3-123415 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-123416 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-123417 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-123418 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-123419 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Norderney";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-123420 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-123421 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Bürgerstiftung Norderney";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-123422 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-123423 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-123424 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-123425 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-123426 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-123427 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-123428 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-123429 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123430;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-123430 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123431;
+    rdf:_2 _:n3-123433;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-123431 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-123432;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-123432 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-123433 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123434;
+    rdf:_2 _:n3-123437;
+    rdf:_3 _:n3-123440;
+    rdf:_4 _:n3-123443;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-123434 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-123435;
+    rdf:_2 _:n3-123436;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123435 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-123436 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-123437 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-123438;
+    rdf:_2 _:n3-123439;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123438 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-123439 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-123440 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-123441;
+    rdf:_2 _:n3-123442;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123441 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-123442 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-123443 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-123444;
+    rdf:_2 _:n3-123445;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123444 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-123445 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-123446 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-123447;
+    rdf:_2 _:n3-123450;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-123447 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-123448;
+    rdf:_2 _:n3-123449;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-123448 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-123449 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-123450 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-123451 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-123452;
+    rdf:_2 _:n3-123457;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Norderney</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n     <ul>\n      <li>Bildung und Erziehung</li>\n      <li>Jugend- und Altenhilfe</li>\n      <li>Kunst und Kultur</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Umwelt- und Naturschutz</li>\n      <li>Heimatpflege</li>\n      <li>Gesundheit und Sport</li>\n      <li>Mildtätige Zwecke</li>\n     </ul>\n     <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bauten und Denkmalschutz</li>\n       <li>Bildung</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Wissenschaft und Forschung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Postfach 1524,\n       <br>\n       26537 Norderney</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0175 5326227</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Norderney Förderung der Bürgerstiftung Norderney Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123452 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-123453;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Norderney</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Norderney".
+_:n3-123453 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123454;
+    rdf:_2 _:n3-123455;
+    rdf:_3 _:n3-123456;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Bürgerstiftung Norderney</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Bürgerstiftung Norderney".
+_:n3-123454 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-123455 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-123456 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Bürgerstiftung Norderney";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Norderney";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney".
+_:n3-123457 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-123458;
+    rdf:_2 _:n3-123510;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n    <ul>\n     <li>Bildung und Erziehung</li>\n     <li>Jugend- und Altenhilfe</li>\n     <li>Kunst und Kultur</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Umwelt- und Naturschutz</li>\n     <li>Heimatpflege</li>\n     <li>Gesundheit und Sport</li>\n     <li>Mildtätige Zwecke</li>\n    </ul>\n    <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bauten und Denkmalschutz</li>\n      <li>Bildung</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Wissenschaft und Forschung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Postfach 1524,\n      <br>\n      26537 Norderney</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0175 5326227</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123458 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123459;
+    rdf:_2 _:n3-123484;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n   <ul>\n    <li>Bildung und Erziehung</li>\n    <li>Jugend- und Altenhilfe</li>\n    <li>Kunst und Kultur</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Umwelt- und Naturschutz</li>\n    <li>Heimatpflege</li>\n    <li>Gesundheit und Sport</li>\n    <li>Mildtätige Zwecke</li>\n   </ul>\n   <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bauten und Denkmalschutz</li>\n     <li>Bildung</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Wissenschaft und Forschung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-123459 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123460;
+    rdf:_2 _:n3-123462;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n  <ul>\n   <li>Bildung und Erziehung</li>\n   <li>Jugend- und Altenhilfe</li>\n   <li>Kunst und Kultur</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Umwelt- und Naturschutz</li>\n   <li>Heimatpflege</li>\n   <li>Gesundheit und Sport</li>\n   <li>Mildtätige Zwecke</li>\n  </ul>\n  <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website".
+_:n3-123460 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-123461;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Bürgerstiftung Norderney</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney".
+_:n3-123461 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Bürgerstiftung Norderney";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Norderney";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney".
+_:n3-123462 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123463;
+    rdf:_2 _:n3-123476;
+    rdf:_3 _:n3-123479;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n <ul>\n  <li>Bildung und Erziehung</li>\n  <li>Jugend- und Altenhilfe</li>\n  <li>Kunst und Kultur</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Umwelt- und Naturschutz</li>\n  <li>Heimatpflege</li>\n  <li>Gesundheit und Sport</li>\n  <li>Mildtätige Zwecke</li>\n </ul>\n <p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen. Weitere Informationen Link zur Website".
+_:n3-123463 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123464;
+    rdf:_2 _:n3-123465;
+    rdf:_3 _:n3-123474;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:</p>\n<ul>\n <li>Bildung und Erziehung</li>\n <li>Jugend- und Altenhilfe</li>\n <li>Kunst und Kultur</li>\n <li>Wissenschaft und Forschung</li>\n <li>Umwelt- und Naturschutz</li>\n <li>Heimatpflege</li>\n <li>Gesundheit und Sport</li>\n <li>Mildtätige Zwecke</li>\n</ul>\n<p><a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen: Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke".
+_:n3-123464 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. &nbsp;Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:";
+    <https://html.spec.whatwg.org/#innerText> "Die Bürgerstiftung Norderney engagiert sich für Projekte, die die Insel Norderney lebenswert erhalten und zukunftsfähig machen. Sie wurde 2003 als gemeinnützige Stiftung gegründet. Sie ist politisch unabhängig und berichtet regelmäßig öffentlich über Ergebnisse ihrer Arbeit. Die Stiftung ist selbstlos tätig und darf ihre Mittel ausschließlich für satzungsgemäße Zwecke verwenden. Die Bürgerstiftung Norderney ist als gemeinnützig anerkannt. Zuwendungen und Spenden sind deshalb steuerlich absetzbar. Die Bürgerstiftung Norderney initiiert, realisiert und fördert Projekte auf und für Norderney in folgenden Bereichen:".
+_:n3-123465 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-123466;
+    rdf:_2 _:n3-123467;
+    rdf:_3 _:n3-123468;
+    rdf:_4 _:n3-123469;
+    rdf:_5 _:n3-123470;
+    rdf:_6 _:n3-123471;
+    rdf:_7 _:n3-123472;
+    rdf:_8 _:n3-123473;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bildung und Erziehung</li>\n<li>Jugend- und Altenhilfe</li>\n<li>Kunst und Kultur</li>\n<li>Wissenschaft und Forschung</li>\n<li>Umwelt- und Naturschutz</li>\n<li>Heimatpflege</li>\n<li>Gesundheit und Sport</li>\n<li>Mildtätige Zwecke</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bildung und Erziehung Jugend- und Altenhilfe Kunst und Kultur Wissenschaft und Forschung Umwelt- und Naturschutz Heimatpflege Gesundheit und Sport Mildtätige Zwecke".
+_:n3-123466 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung und Erziehung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung und Erziehung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung und Erziehung".
+_:n3-123467 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Jugend- und Altenhilfe";
+    <https://html.spec.whatwg.org/#innerHTML> "Jugend- und Altenhilfe";
+    <https://html.spec.whatwg.org/#innerText> "Jugend- und Altenhilfe".
+_:n3-123468 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kunst und Kultur";
+    <https://html.spec.whatwg.org/#innerHTML> "Kunst und Kultur";
+    <https://html.spec.whatwg.org/#innerText> "Kunst und Kultur".
+_:n3-123469 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-123470 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt- und Naturschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt- und Naturschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt- und Naturschutz".
+_:n3-123471 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Heimatpflege";
+    <https://html.spec.whatwg.org/#innerHTML> "Heimatpflege";
+    <https://html.spec.whatwg.org/#innerText> "Heimatpflege".
+_:n3-123472 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Gesundheit und Sport";
+    <https://html.spec.whatwg.org/#innerHTML> "Gesundheit und Sport";
+    <https://html.spec.whatwg.org/#innerText> "Gesundheit und Sport".
+_:n3-123473 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Mildtätige Zwecke";
+    <https://html.spec.whatwg.org/#innerHTML> "Mildtätige Zwecke";
+    <https://html.spec.whatwg.org/#innerText> "Mildtätige Zwecke".
+_:n3-123474 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-123475;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://buergerstiftung-norderney.de/aktuelles/\"></a>".
+_:n3-123475 a <http://www.w3.org/1999/xhtml#a>;
+    <http://www.w3.org/1999/xhtml#href> "https://buergerstiftung-norderney.de/aktuelles/".
+_:n3-123476 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123477;
+    rdf:_2 _:n3-123478;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Eine Förderung kann innerhalb der Insel Norderney erfolgen.".
+_:n3-123477 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-123478 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Eine Förderung kann innerhalb der Insel Norderney erfolgen.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Eine Förderung kann innerhalb der Insel Norderney erfolgen.".
+_:n3-123479 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123480;
+    rdf:_2 _:n3-123481;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Website".
+_:n3-123480 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-123481 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-123482;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-123482 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-123483;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://buergerstiftung-norderney.de\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Website</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website".
+_:n3-123483 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Website";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Website";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Website";
+    <http://www.w3.org/1999/xhtml#href> "https://buergerstiftung-norderney.de";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123484 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-123485;
+    rdf:_2 _:n3-123488;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bauten und Denkmalschutz</li>\n    <li>Bildung</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Wissenschaft und Forschung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-123485 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123486;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n</figure>".
+_:n3-123486 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-123487;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">".
+_:n3-123487 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "280";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-123488 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123489;
+    rdf:_2 _:n3-123494;
+    rdf:_3 _:n3-123507;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bauten und Denkmalschutz</li>\n   <li>Bildung</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Wissenschaft und Forschung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-123489 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123490;
+    rdf:_2 _:n3-123491;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-123490 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-123491 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123492;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-123492 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-123493;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-123493 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-123494 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123495;
+    rdf:_2 _:n3-123496;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bauten und Denkmalschutz</li>\n  <li>Bildung</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Wissenschaft und Forschung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-123495 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-123496 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123497;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bauten und Denkmalschutz</li>\n <li>Bildung</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Wissenschaft und Forschung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-123497 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-123498;
+    rdf:_2 _:n3-123499;
+    rdf:_3 _:n3-123500;
+    rdf:_4 _:n3-123501;
+    rdf:_5 _:n3-123502;
+    rdf:_6 _:n3-123503;
+    rdf:_7 _:n3-123504;
+    rdf:_8 _:n3-123505;
+    rdf:_9 _:n3-123506;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bauten und Denkmalschutz</li>\n<li>Bildung</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Wissenschaft und Forschung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Wissenschaft und Forschung Sonstiges".
+_:n3-123498 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-123499 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-123500 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-123501 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-123502 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-123503 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-123504 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-123505 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerHTML> "Wissenschaft und Forschung";
+    <https://html.spec.whatwg.org/#innerText> "Wissenschaft und Forschung".
+_:n3-123506 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-123507 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123508;
+    rdf:_2 _:n3-123509;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-123508 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-123509 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-123510 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123511;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Postfach 1524,\n     <br>\n     26537 Norderney</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0175 5326227</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123511 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123512;
+    rdf:_2 _:n3-123530;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Postfach 1524,\n    <br>\n    26537 Norderney</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0175 5326227</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123512 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123513;
+    rdf:_2 _:n3-123515;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Postfach 1524,\n   <br>\n   26537 Norderney</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0175 5326227</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Norderney Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123513 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-123514;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney\" class=\"link\">Bürgerstiftung Norderney</a>";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Norderney".
+_:n3-123514 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Bürgerstiftung Norderney";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Bürgerstiftung Norderney";
+    <https://html.spec.whatwg.org/#innerText> "Bürgerstiftung Norderney";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/2237-buergerstiftung-norderney".
+_:n3-123515 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123516;
+    rdf:_2 _:n3-123519;
+    rdf:_3 _:n3-123523;
+    rdf:_4 _:n3-123527;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Postfach 1524,\n  <br>\n  26537 Norderney</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0175 5326227</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Postfach 1524, 26537 Norderney E-Mail info@buergerstiftung-norderney.de Webseite www.buergerstiftung-norderney.de Telefon 0175 5326227".
+_:n3-123516 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123517;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Postfach 1524,\n <br>\n 26537 Norderney</p>";
+    <https://html.spec.whatwg.org/#innerText> "Postfach 1524, 26537 Norderney".
+_:n3-123517 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Postfach 1524,";
+    rdf:_2 _:n3-123518;
+    rdf:_3 "26537 Norderney";
+    <https://html.spec.whatwg.org/#innerHTML> "Postfach 1524,\n<br>\n26537 Norderney";
+    <https://html.spec.whatwg.org/#innerText> "Postfach 1524, 26537 Norderney".
+_:n3-123518 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-123519 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123520;
+    rdf:_2 _:n3-123521;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@buergerstiftung-norderney.de".
+_:n3-123520 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-123521 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-123522;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@buergerstiftung-norderney.de\">info@buergerstiftung-norderney.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerstiftung-norderney.de".
+_:n3-123522 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@buergerstiftung-norderney.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@buergerstiftung-norderney.de";
+    <https://html.spec.whatwg.org/#innerText> "info@buergerstiftung-norderney.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@buergerstiftung-norderney.de".
+_:n3-123523 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123524;
+    rdf:_2 _:n3-123525;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.buergerstiftung-norderney.de".
+_:n3-123524 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-123525 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-123526;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.buergerstiftung-norderney.de\" target=\"_blank\">www.buergerstiftung-norderney.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-norderney.de".
+_:n3-123526 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.buergerstiftung-norderney.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.buergerstiftung-norderney.de";
+    <https://html.spec.whatwg.org/#innerText> "www.buergerstiftung-norderney.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.buergerstiftung-norderney.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-123527 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123528;
+    rdf:_2 _:n3-123529;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0175 5326227</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0175 5326227".
+_:n3-123528 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-123529 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0175 5326227";
+    <https://html.spec.whatwg.org/#innerHTML> "0175 5326227";
+    <https://html.spec.whatwg.org/#innerText> "0175 5326227".
+_:n3-123530 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123531;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png\" width=\"800\" height=\"280\">".
+_:n3-123531 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "280";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Unknown_160403_134014.png";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-123532 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-123533;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-123533 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123534;
+    rdf:_2 _:n3-123538;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-123534 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-123535;
+    rdf:_2 _:n3-123536;
+    rdf:_3 _:n3-123537;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-123535 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-123536 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-123537 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-123538 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-123539;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-123539 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-123540 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-123541 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-123542 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-123543 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-buergerstiftung-norderney";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-123544 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-123545 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Bürgerstiftung Norderney  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Bürgerstiftung Norderney  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Bürgerstiftung Norderney  –  Förderdatenbank".
+_:n3-123546 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-123547 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

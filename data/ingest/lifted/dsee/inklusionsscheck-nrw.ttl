@@ -1,0 +1,774 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-254670 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254671;
+    rdf:_10 _:n3-254672;
+    rdf:_11 _:n3-254673;
+    rdf:_12 _:n3-254674;
+    rdf:_13 _:n3-254675;
+    rdf:_14 _:n3-254676;
+    rdf:_15 _:n3-254677;
+    rdf:_16 _:n3-254678;
+    rdf:_17 _:n3-254679;
+    rdf:_18 _:n3-254680;
+    rdf:_19 _:n3-254681;
+    rdf:_2 _:n3-254682;
+    rdf:_20 _:n3-254683;
+    rdf:_21 _:n3-254684;
+    rdf:_22 _:n3-254685;
+    rdf:_23 _:n3-254702;
+    rdf:_24 _:n3-254707;
+    rdf:_25 _:n3-254805;
+    rdf:_26 _:n3-254813;
+    rdf:_3 _:n3-254814;
+    rdf:_4 _:n3-254815;
+    rdf:_5 _:n3-254816;
+    rdf:_6 _:n3-254817;
+    rdf:_7 _:n3-254818;
+    rdf:_8 _:n3-254819;
+    rdf:_9 _:n3-254820;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "inklusionsscheck-nrw";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Inklusionsscheck NRW  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Inklusionsscheck NRW\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Inklusionsscheck NRW\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Inklusionsscheck NRW</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n     <p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n      <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n      <ul>\n       <li>Veranstaltungen</li>\n       <li>Publikationen</li>\n       <li>Kulturaktivitäten</li>\n       <li>Aktivitäten im Kontext von Digitalisierung</li>\n       <li>Öffentlichkeitsarbeit</li>\n       <li>Fortbildungen</li>\n       <li>Sport-, Bewegungs- und Freizeitangebote</li>\n       <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n      </ul>\n      <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n      <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n       <br></p>\n      <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n      <p>Fördervoraussetzungen sind:</p>\n      <ul>\n       <li>Antragstellung bis zum 30. September</li>\n       <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n       <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n       <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n       <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n      </ul>\n      <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n      <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n       <br></p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n      <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n       <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Nordrhein-Westfalen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Soziales</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Max. Fördersumme:</div>\n      <div>2.000 €</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>30. September 2026</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n      <div>Nein</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0211 8555</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Inklusionsscheck NRW Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555 ©2026 Impressum Datenschutzerklärung".
+_:n3-254671 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-254672 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-254673 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-254674 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-254675 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Inklusionsscheck NRW";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-254676 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-254677 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Inklusionsscheck NRW";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-254678 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-254679 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-254680 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-254681 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-254682 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-254683 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-254684 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-254685 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254686;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-254686 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254687;
+    rdf:_2 _:n3-254689;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-254687 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-254688;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-254688 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-254689 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254690;
+    rdf:_2 _:n3-254693;
+    rdf:_3 _:n3-254696;
+    rdf:_4 _:n3-254699;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-254690 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-254691;
+    rdf:_2 _:n3-254692;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254691 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-254692 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-254693 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-254694;
+    rdf:_2 _:n3-254695;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254694 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-254695 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-254696 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-254697;
+    rdf:_2 _:n3-254698;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254697 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-254698 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-254699 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-254700;
+    rdf:_2 _:n3-254701;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254700 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-254701 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-254702 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-254703;
+    rdf:_2 _:n3-254706;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-254703 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-254704;
+    rdf:_2 _:n3-254705;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-254704 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-254705 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-254706 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-254707 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-254708;
+    rdf:_2 _:n3-254713;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Inklusionsscheck NRW</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n    <p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n     <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n     <ul>\n      <li>Veranstaltungen</li>\n      <li>Publikationen</li>\n      <li>Kulturaktivitäten</li>\n      <li>Aktivitäten im Kontext von Digitalisierung</li>\n      <li>Öffentlichkeitsarbeit</li>\n      <li>Fortbildungen</li>\n      <li>Sport-, Bewegungs- und Freizeitangebote</li>\n      <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n     </ul>\n     <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n     <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n      <br></p>\n     <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n     <p>Fördervoraussetzungen sind:</p>\n     <ul>\n      <li>Antragstellung bis zum 30. September</li>\n      <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n      <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n      <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n      <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n     </ul>\n     <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n     <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n      <br></p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n     <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n      <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Nordrhein-Westfalen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Soziales</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Max. Fördersumme:</div>\n     <div>2.000 €</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>30. September 2026</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n     <div>Nein</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0211 8555</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Inklusionsscheck NRW Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254708 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-254709;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Inklusionsscheck NRW</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Inklusionsscheck NRW".
+_:n3-254709 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254710;
+    rdf:_2 _:n3-254711;
+    rdf:_3 _:n3-254712;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Inklusionsscheck NRW</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Inklusionsscheck NRW".
+_:n3-254710 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-254711 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-254712 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Inklusionsscheck NRW";
+    <https://html.spec.whatwg.org/#innerHTML> "Inklusionsscheck NRW";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW".
+_:n3-254713 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-254714;
+    rdf:_2 _:n3-254788;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n   <p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n    <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n    <ul>\n     <li>Veranstaltungen</li>\n     <li>Publikationen</li>\n     <li>Kulturaktivitäten</li>\n     <li>Aktivitäten im Kontext von Digitalisierung</li>\n     <li>Öffentlichkeitsarbeit</li>\n     <li>Fortbildungen</li>\n     <li>Sport-, Bewegungs- und Freizeitangebote</li>\n     <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n    </ul>\n    <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n    <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n     <br></p>\n    <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n    <p>Fördervoraussetzungen sind:</p>\n    <ul>\n     <li>Antragstellung bis zum 30. September</li>\n     <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n     <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n     <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n     <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n    </ul>\n    <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n    <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n     <br></p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n    <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n     <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Nordrhein-Westfalen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Soziales</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Max. Fördersumme:</div>\n    <div>2.000 €</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>30. September 2026</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n    <div>Nein</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0211 8555</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254714 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254715;
+    rdf:_2 _:n3-254762;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n  <p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n   <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n   <ul>\n    <li>Veranstaltungen</li>\n    <li>Publikationen</li>\n    <li>Kulturaktivitäten</li>\n    <li>Aktivitäten im Kontext von Digitalisierung</li>\n    <li>Öffentlichkeitsarbeit</li>\n    <li>Fortbildungen</li>\n    <li>Sport-, Bewegungs- und Freizeitangebote</li>\n    <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n   </ul>\n   <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n   <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n    <br></p>\n   <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n   <p>Fördervoraussetzungen sind:</p>\n   <ul>\n    <li>Antragstellung bis zum 30. September</li>\n    <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n    <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n    <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n    <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n   </ul>\n   <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n   <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n    <br></p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n   <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n    <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Nordrhein-Westfalen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Soziales</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Max. Fördersumme:</div>\n   <div>2.000 €</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>30. September 2026</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n   <div>Nein</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-254715 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254716;
+    rdf:_2 _:n3-254719;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n <p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n  <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n  <ul>\n   <li>Veranstaltungen</li>\n   <li>Publikationen</li>\n   <li>Kulturaktivitäten</li>\n   <li>Aktivitäten im Kontext von Digitalisierung</li>\n   <li>Öffentlichkeitsarbeit</li>\n   <li>Fortbildungen</li>\n   <li>Sport-, Bewegungs- und Freizeitangebote</li>\n   <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n  </ul>\n  <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n  <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n   <br></p>\n  <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n  <p>Fördervoraussetzungen sind:</p>\n  <ul>\n   <li>Antragstellung bis zum 30. September</li>\n   <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n   <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n   <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n   <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n  </ul>\n  <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n  <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n   <br></p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n  <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n   <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung".
+_:n3-254716 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-254717;
+    rdf:_2 _:n3-254718;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Inklusionsscheck NRW</h1>\n<p class=\"text-lg text-gray-500\">Das Miteinander von Menschen mit und ohne Behinderung stärken</p>";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW Das Miteinander von Menschen mit und ohne Behinderung stärken".
+_:n3-254717 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Inklusionsscheck NRW";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Inklusionsscheck NRW";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW".
+_:n3-254718 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Das Miteinander von Menschen mit und ohne Behinderung stärken";
+    <http://www.w3.org/1999/xhtml#class> "text-lg text-gray-500";
+    <https://html.spec.whatwg.org/#innerHTML> "Das Miteinander von Menschen mit und ohne Behinderung stärken";
+    <https://html.spec.whatwg.org/#innerText> "Das Miteinander von Menschen mit und ohne Behinderung stärken".
+_:n3-254719 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254720;
+    rdf:_2 _:n3-254734;
+    rdf:_3 _:n3-254749;
+    rdf:_4 _:n3-254755;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n <p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n <ul>\n  <li>Veranstaltungen</li>\n  <li>Publikationen</li>\n  <li>Kulturaktivitäten</li>\n  <li>Aktivitäten im Kontext von Digitalisierung</li>\n  <li>Öffentlichkeitsarbeit</li>\n  <li>Fortbildungen</li>\n  <li>Sport-, Bewegungs- und Freizeitangebote</li>\n  <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n </ul>\n <p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n <p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n  <br></p>\n <p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n <p>Fördervoraussetzungen sind:</p>\n <ul>\n  <li>Antragstellung bis zum 30. September</li>\n  <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n  <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n  <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n  <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n </ul>\n <p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n <p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n  <br></p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n <p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n  <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen. Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht. Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags. Weitere Informationen Link zum Programm Link zur Antragstellung".
+_:n3-254720 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254721;
+    rdf:_2 _:n3-254722;
+    rdf:_3 _:n3-254723;
+    rdf:_4 _:n3-254732;
+    rdf:_5 _:n3-254733;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!</p>\n<p>Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:</p>\n<ul>\n <li>Veranstaltungen</li>\n <li>Publikationen</li>\n <li>Kulturaktivitäten</li>\n <li>Aktivitäten im Kontext von Digitalisierung</li>\n <li>Öffentlichkeitsarbeit</li>\n <li>Fortbildungen</li>\n <li>Sport-, Bewegungs- und Freizeitangebote</li>\n <li>Maßnahmen zur Herstellung von Barrierefreiheit</li>\n</ul>\n<p>Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.</p>\n<p>Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich! Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten: Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten. Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.".
+_:n3-254721 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!";
+    <https://html.spec.whatwg.org/#innerHTML> "Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!";
+    <https://html.spec.whatwg.org/#innerText> "Ausrichtung einer inklusiven Veranstaltung, barrierefreie Umgestaltung der Internetseite eines Vereins, Beauftragung von Dolmetschung in Gebärdensprache - der Inklusionsscheck Nordrhein-Westfalen macht's möglich!".
+_:n3-254722 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:";
+    <https://html.spec.whatwg.org/#innerText> "Die Maßnahmen sollen das Miteinander von Menschen mit und ohne Behinderungen stärken und dadurch einen Beitrag zur Entwicklung eines inklusiven Gemeinwesens leisten. Förderfähig ist daher die inklusive Gestaltung folgender Aktivitäten:".
+_:n3-254723 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254724;
+    rdf:_2 _:n3-254725;
+    rdf:_3 _:n3-254726;
+    rdf:_4 _:n3-254727;
+    rdf:_5 _:n3-254728;
+    rdf:_6 _:n3-254729;
+    rdf:_7 _:n3-254730;
+    rdf:_8 _:n3-254731;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Veranstaltungen</li>\n<li>Publikationen</li>\n<li>Kulturaktivitäten</li>\n<li>Aktivitäten im Kontext von Digitalisierung</li>\n<li>Öffentlichkeitsarbeit</li>\n<li>Fortbildungen</li>\n<li>Sport-, Bewegungs- und Freizeitangebote</li>\n<li>Maßnahmen zur Herstellung von Barrierefreiheit</li>";
+    <https://html.spec.whatwg.org/#innerText> "Veranstaltungen Publikationen Kulturaktivitäten Aktivitäten im Kontext von Digitalisierung Öffentlichkeitsarbeit Fortbildungen Sport-, Bewegungs- und Freizeitangebote Maßnahmen zur Herstellung von Barrierefreiheit".
+_:n3-254724 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerText> "Veranstaltungen".
+_:n3-254725 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Publikationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Publikationen";
+    <https://html.spec.whatwg.org/#innerText> "Publikationen".
+_:n3-254726 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kulturaktivitäten";
+    <https://html.spec.whatwg.org/#innerHTML> "Kulturaktivitäten";
+    <https://html.spec.whatwg.org/#innerText> "Kulturaktivitäten".
+_:n3-254727 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Aktivitäten im Kontext von Digitalisierung";
+    <https://html.spec.whatwg.org/#innerHTML> "Aktivitäten im Kontext von Digitalisierung";
+    <https://html.spec.whatwg.org/#innerText> "Aktivitäten im Kontext von Digitalisierung".
+_:n3-254728 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Öffentlichkeitsarbeit";
+    <https://html.spec.whatwg.org/#innerHTML> "Öffentlichkeitsarbeit";
+    <https://html.spec.whatwg.org/#innerText> "Öffentlichkeitsarbeit".
+_:n3-254729 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Fortbildungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortbildungen";
+    <https://html.spec.whatwg.org/#innerText> "Fortbildungen".
+_:n3-254730 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport-, Bewegungs- und Freizeitangebote";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport-, Bewegungs- und Freizeitangebote";
+    <https://html.spec.whatwg.org/#innerText> "Sport-, Bewegungs- und Freizeitangebote".
+_:n3-254731 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Maßnahmen zur Herstellung von Barrierefreiheit";
+    <https://html.spec.whatwg.org/#innerHTML> "Maßnahmen zur Herstellung von Barrierefreiheit";
+    <https://html.spec.whatwg.org/#innerText> "Maßnahmen zur Herstellung von Barrierefreiheit".
+_:n3-254732 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen&nbsp;für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.";
+    <https://html.spec.whatwg.org/#innerText> "Beispiele: Finanzierung von Gebärdensprachdolmetschern und -dolmetscherinnen, Erstellung von Informationsmaterialien in Leichter Sprache, barrierefreie Umgestaltung von Webseiten, Anschaffungen mobiler Rampen zur Unterstützung von Barrierefreiheit, Unterstützung von Maßnahmen zur Beteiligung von Menschen mit Behinderungen, Fortbildung von Übungsleitern und Übrungsleiterinnen für inklusive Sport-, Bewegungs- oder Freizeitangebote, inklusive Gestaltung von Straßenfesten.".
+_:n3-254733 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.";
+    <https://html.spec.whatwg.org/#innerText> "Es können darüber hinaus auch andere Maßnahmen in Betracht kommen, sofern sie geeignet sind, Inklusion vor Ort sichtbar und erlebbar zu machen.".
+_:n3-254734 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254735;
+    rdf:_2 _:n3-254736;
+    rdf:_3 _:n3-254738;
+    rdf:_4 _:n3-254739;
+    rdf:_5 _:n3-254740;
+    rdf:_6 _:n3-254746;
+    rdf:_7 _:n3-254747;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n <br></p>\n<p>Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.</p>\n<p>Fördervoraussetzungen sind:</p>\n<ul>\n <li>Antragstellung bis zum 30. September</li>\n <li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n <li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n <li>Die Maßnahme muss in NRW durchgeführt werden</li>\n <li>Keine anderweitige öffentliche Förderung der Maßnahme</li>\n</ul>\n<p>Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.</p>\n<p>Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt. Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind. Fördervoraussetzungen sind: Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen. Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.".
+_:n3-254735 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-254736 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.";
+    rdf:_2 _:n3-254737;
+    <https://html.spec.whatwg.org/#innerHTML> "Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Mit dem Inklusionsscheck werden gute Ideen und Aktivitäten vor Ort mit 2.000 Euro pro Scheck unterstützt.".
+_:n3-254737 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-254738 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind&nbsp;Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind Vereine, Initiativen, Organisationen, ebenso Firmen (GmbH, gGmbH). Natürliche und juristische Personen. Nicht antragsberechtigt sind Kommunen, weil sie ohnehin gesetzlich zur Inklusion verpflichtet sind.".
+_:n3-254739 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Fördervoraussetzungen sind:";
+    <https://html.spec.whatwg.org/#innerHTML> "Fördervoraussetzungen sind:";
+    <https://html.spec.whatwg.org/#innerText> "Fördervoraussetzungen sind:".
+_:n3-254740 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254741;
+    rdf:_2 _:n3-254742;
+    rdf:_3 _:n3-254743;
+    rdf:_4 _:n3-254744;
+    rdf:_5 _:n3-254745;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Antragstellung bis zum 30. September</li>\n<li>Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden</li>\n<li>Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein</li>\n<li>Die Maßnahme muss in NRW durchgeführt werden</li>\n<li>Keine anderweitige öffentliche Förderung der Maßnahme</li>";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellung bis zum 30. September Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein Die Maßnahme muss in NRW durchgeführt werden Keine anderweitige öffentliche Förderung der Maßnahme".
+_:n3-254741 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Antragstellung bis zum 30. September";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragstellung bis zum 30. September";
+    <https://html.spec.whatwg.org/#innerText> "Antragstellung bis zum 30. September".
+_:n3-254742 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden";
+    <https://html.spec.whatwg.org/#innerText> "Bei der Antragstellung müssen mindestens 2.000 Euro kalkulierte förderfähige Ausgaben dargelegt werden".
+_:n3-254743 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein";
+    <https://html.spec.whatwg.org/#innerText> "Die Maßnahme muss bis zum 31.12. des Jahres abgeschlossen sein".
+_:n3-254744 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Die Maßnahme muss in NRW durchgeführt werden";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Maßnahme muss in NRW durchgeführt werden";
+    <https://html.spec.whatwg.org/#innerText> "Die Maßnahme muss in NRW durchgeführt werden".
+_:n3-254745 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Keine anderweitige öffentliche Förderung der Maßnahme";
+    <https://html.spec.whatwg.org/#innerHTML> "Keine anderweitige öffentliche Förderung der Maßnahme";
+    <https://html.spec.whatwg.org/#innerText> "Keine anderweitige öffentliche Förderung der Maßnahme".
+_:n3-254746 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.";
+    <https://html.spec.whatwg.org/#innerHTML> "Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.";
+    <https://html.spec.whatwg.org/#innerText> "Zwischen dem Antragstellenden und einem durchführenden Unternehmen dürfen keine engen persönlichen Verhältnisse bestehen.".
+_:n3-254747 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.";
+    rdf:_2 _:n3-254748;
+    <https://html.spec.whatwg.org/#innerHTML> "Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Pro Kalenderjahr sind zwei Anträge möglich. Ein Anspruch auf eine Förderung besteht nicht.".
+_:n3-254748 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-254749 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254750;
+    rdf:_2 _:n3-254751;
+    rdf:_3 _:n3-254754;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.</p>\n<p>Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Alle Anträge können während der Antragsphase online gestellt werden. Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.".
+_:n3-254750 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-254751 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Alle ";
+    rdf:_2 _:n3-254752;
+    rdf:_3 " können während der Antragsphase ";
+    rdf:_4 _:n3-254753;
+    rdf:_5 "gestellt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Alle <strong>Anträge</strong> können während der Antragsphase <strong>online </strong>gestellt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Alle Anträge können während der Antragsphase online gestellt werden.".
+_:n3-254752 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "Anträge";
+    <https://html.spec.whatwg.org/#innerHTML> "Anträge";
+    <https://html.spec.whatwg.org/#innerText> "Anträge".
+_:n3-254753 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "online ";
+    <https://html.spec.whatwg.org/#innerHTML> "online";
+    <https://html.spec.whatwg.org/#innerText> "online".
+_:n3-254754 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.";
+    <https://html.spec.whatwg.org/#innerText> "Die Auswahl der finanziell unterstützten Vorhaben richtet sich nach dem Eingang des Antrags.".
+_:n3-254755 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254756;
+    rdf:_2 _:n3-254757;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n <li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zum Programm Link zur Antragstellung".
+_:n3-254756 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-254757 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254758;
+    rdf:_2 _:n3-254760;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a></li>\n<li><a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm Link zur Antragstellung".
+_:n3-254758 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-254759;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.mags.nrw/inklusionsscheck\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Programm</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm".
+_:n3-254759 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Programm";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Programm";
+    <http://www.w3.org/1999/xhtml#href> "https://www.mags.nrw/inklusionsscheck";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254760 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-254761;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.soziales.web.nrw.de/onlineantrag#loginform\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Antragstellung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung".
+_:n3-254761 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Antragstellung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Antragstellung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.soziales.web.nrw.de/onlineantrag#loginform";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254762 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-254763;
+    rdf:_2 _:n3-254766;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Nordrhein-Westfalen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Soziales</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Max. Fördersumme:</div>\n  <div>2.000 €</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>30. September 2026</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n  <div>Nein</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-254763 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254764;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">\n</figure>".
+_:n3-254764 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-254765;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg\" width=\"800\" height=\"588\">".
+_:n3-254765 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "588";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/soziales_logo_inklusionsscheck.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-254766 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254767;
+    rdf:_2 _:n3-254772;
+    rdf:_3 _:n3-254777;
+    rdf:_4 _:n3-254780;
+    rdf:_5 _:n3-254785;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Nordrhein-Westfalen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Soziales</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Max. Fördersumme:</div>\n <div>2.000 €</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>30. September 2026</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n <div>Nein</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Soziales Max. Fördersumme: 2.000 € Bewerbungsfrist: 30. September 2026 Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-254767 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254768;
+    rdf:_2 _:n3-254769;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Nordrhein-Westfalen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen".
+_:n3-254768 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-254769 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254770;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Nordrhein-Westfalen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-254770 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254771;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Nordrhein-Westfalen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-254771 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerHTML> "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-254772 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254773;
+    rdf:_2 _:n3-254774;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Soziales</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Soziales".
+_:n3-254773 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-254774 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254775;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Soziales</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-254775 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254776;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Soziales</li>";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-254776 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-254777 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254778;
+    rdf:_2 _:n3-254779;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Max. Fördersumme:</div>\n<div>2.000 €</div>";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme: 2.000 €".
+_:n3-254778 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Max. Fördersumme:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Max. Fördersumme:";
+    <https://html.spec.whatwg.org/#innerText> "Max. Fördersumme:".
+_:n3-254779 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "2.000 €";
+    <https://html.spec.whatwg.org/#innerHTML> "2.000 €";
+    <https://html.spec.whatwg.org/#innerText> "2.000 €".
+_:n3-254780 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254781;
+    rdf:_2 _:n3-254782;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>30. September 2026</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 30. September 2026".
+_:n3-254781 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-254782 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254783;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>30. September 2026</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-254783 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-254784;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>30. September 2026</li>";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-254784 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "30. September 2026";
+    <https://html.spec.whatwg.org/#innerHTML> "30. September 2026";
+    <https://html.spec.whatwg.org/#innerText> "30. September 2026".
+_:n3-254785 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254786;
+    rdf:_2 _:n3-254787;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Vorzeitiger Maßnahmebeginn:</div>\n<div>Nein</div>";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn: Nein".
+_:n3-254786 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Vorzeitiger Maßnahmebeginn:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Vorzeitiger Maßnahmebeginn:";
+    <https://html.spec.whatwg.org/#innerText> "Vorzeitiger Maßnahmebeginn:".
+_:n3-254787 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Nein";
+    <https://html.spec.whatwg.org/#innerHTML> "Nein";
+    <https://html.spec.whatwg.org/#innerText> "Nein".
+_:n3-254788 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254789;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0211 8555</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254789 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254790;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0211 8555</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254790 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254791;
+    rdf:_2 _:n3-254793;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0211 8555</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW) E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254791 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-254792;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw\" class=\"link\">Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)</a>";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)".
+_:n3-254792 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)";
+    <https://html.spec.whatwg.org/#innerText> "Ministerium für Arbeit, Gesundheit und Soziales (MAGS NRW)";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/36019-ministerium-fuer-arbeit-gesundheit-und-soziales-mags-nrw".
+_:n3-254793 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254794;
+    rdf:_2 _:n3-254798;
+    rdf:_3 _:n3-254802;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0211 8555</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail inklusionsscheck@mags.nrw.de Webseite www.mags.nrw/ministerium Telefon 0211 8555".
+_:n3-254794 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254795;
+    rdf:_2 _:n3-254796;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail inklusionsscheck@mags.nrw.de".
+_:n3-254795 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-254796 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-254797;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:inklusionsscheck@mags.nrw.de\">inklusionsscheck@mags.nrw.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "inklusionsscheck@mags.nrw.de".
+_:n3-254797 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "inklusionsscheck@mags.nrw.de";
+    <https://html.spec.whatwg.org/#innerHTML> "inklusionsscheck@mags.nrw.de";
+    <https://html.spec.whatwg.org/#innerText> "inklusionsscheck@mags.nrw.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:inklusionsscheck@mags.nrw.de".
+_:n3-254798 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254799;
+    rdf:_2 _:n3-254800;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.mags.nrw/ministerium".
+_:n3-254799 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-254800 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-254801;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.mags.nrw/ministerium\" target=\"_blank\">www.mags.nrw/ministerium</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.mags.nrw/ministerium".
+_:n3-254801 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.mags.nrw/ministerium";
+    <https://html.spec.whatwg.org/#innerHTML> "www.mags.nrw/ministerium";
+    <https://html.spec.whatwg.org/#innerText> "www.mags.nrw/ministerium";
+    <http://www.w3.org/1999/xhtml#href> "https://www.mags.nrw/ministerium";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-254802 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254803;
+    rdf:_2 _:n3-254804;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0211 8555</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0211 8555".
+_:n3-254803 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-254804 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0211 8555";
+    <https://html.spec.whatwg.org/#innerHTML> "0211 8555";
+    <https://html.spec.whatwg.org/#innerText> "0211 8555".
+_:n3-254805 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-254806;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-254806 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254807;
+    rdf:_2 _:n3-254811;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-254807 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-254808;
+    rdf:_2 _:n3-254809;
+    rdf:_3 _:n3-254810;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-254808 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-254809 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-254810 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-254811 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-254812;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-254812 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-254813 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-254814 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-254815 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-254816 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/inklusionsscheck-nrw";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-254817 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-254818 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Inklusionsscheck NRW  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Inklusionsscheck NRW  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Inklusionsscheck NRW  –  Förderdatenbank".
+_:n3-254819 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-254820 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

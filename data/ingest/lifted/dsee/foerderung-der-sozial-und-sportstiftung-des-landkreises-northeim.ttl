@@ -1,0 +1,734 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-219116 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219117;
+    rdf:_10 _:n3-219118;
+    rdf:_11 _:n3-219119;
+    rdf:_12 _:n3-219120;
+    rdf:_13 _:n3-219121;
+    rdf:_14 _:n3-219122;
+    rdf:_15 _:n3-219123;
+    rdf:_16 _:n3-219124;
+    rdf:_17 _:n3-219125;
+    rdf:_18 _:n3-219126;
+    rdf:_19 _:n3-219127;
+    rdf:_2 _:n3-219128;
+    rdf:_20 _:n3-219129;
+    rdf:_21 _:n3-219130;
+    rdf:_22 _:n3-219131;
+    rdf:_23 _:n3-219148;
+    rdf:_24 _:n3-219153;
+    rdf:_25 _:n3-219244;
+    rdf:_26 _:n3-219252;
+    rdf:_3 _:n3-219253;
+    rdf:_4 _:n3-219254;
+    rdf:_5 _:n3-219255;
+    rdf:_6 _:n3-219256;
+    rdf:_7 _:n3-219257;
+    rdf:_8 _:n3-219258;
+    rdf:_9 _:n3-219259;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Sozial- und Sportstiftung des Landkreises Northeim  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Sozial- und Sportstiftung des Landkreises Northeim\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Sozial- und Sportstiftung des Landkreises Northeim\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Sozial- und Sportstiftung des Landkreises Northeim</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n      <ul>\n       <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n       <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n       <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n      </ul>\n      <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n       <br></p>\n      <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n       <br></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n      <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n       <br></p>\n      <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n      <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n      <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n       <br>\n       Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n      <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n       <br></p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n       <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n       <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"mb-10 max-w-sm\">\n     <figure class=\"ml-auto max-w-[600px]\">\n      <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n     </figure>\n    </div>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Niedersachsen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Migration</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n      <div class=\"prose text-base\">\n       <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n       <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Medenheimer Straße 6–8,\n        <br>\n        37154 Northeim</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>05551 7080</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Sozial- und Sportstiftung des Landkreises Northeim Förderung der Sozial- und Sportstiftung des Landkreises Northeim Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich. Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080 ©2026 Impressum Datenschutzerklärung".
+_:n3-219117 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-219118 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-219119 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-219120 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-219121 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-219122 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-219123 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-219124 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-219125 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-219126 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-219127 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-219128 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-219129 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-219130 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-219131 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219132;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-219132 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219133;
+    rdf:_2 _:n3-219135;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-219133 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-219134;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-219134 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-219135 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219136;
+    rdf:_2 _:n3-219139;
+    rdf:_3 _:n3-219142;
+    rdf:_4 _:n3-219145;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-219136 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-219137;
+    rdf:_2 _:n3-219138;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219137 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-219138 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-219139 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-219140;
+    rdf:_2 _:n3-219141;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219140 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-219141 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-219142 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-219143;
+    rdf:_2 _:n3-219144;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219143 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-219144 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-219145 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-219146;
+    rdf:_2 _:n3-219147;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219146 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-219147 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-219148 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-219149;
+    rdf:_2 _:n3-219152;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-219149 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-219150;
+    rdf:_2 _:n3-219151;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-219150 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-219151 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-219152 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-219153 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-219154;
+    rdf:_2 _:n3-219159;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Sozial- und Sportstiftung des Landkreises Northeim</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n     <ul>\n      <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n      <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n      <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n     </ul>\n     <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n      <br></p>\n     <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n      <br></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n     <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n      <br></p>\n     <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n     <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n     <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n      <br>\n      Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n     <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n      <br></p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n      <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n      <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"mb-10 max-w-sm\">\n    <figure class=\"ml-auto max-w-[600px]\">\n     <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n    </figure>\n   </div>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Niedersachsen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Migration</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n     <div class=\"prose text-base\">\n      <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n      <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Medenheimer Straße 6–8,\n       <br>\n       37154 Northeim</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>05551 7080</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Sozial- und Sportstiftung des Landkreises Northeim Förderung der Sozial- und Sportstiftung des Landkreises Northeim Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich. Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219154 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-219155;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Sozial- und Sportstiftung des Landkreises Northeim</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219155 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219156;
+    rdf:_2 _:n3-219157;
+    rdf:_3 _:n3-219158;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Sozial- und Sportstiftung des Landkreises Northeim</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219156 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-219157 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-219158 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219159 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-219160;
+    rdf:_2 _:n3-219224;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n    <ul>\n     <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n     <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n     <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n    </ul>\n    <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n     <br></p>\n    <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n     <br></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n    <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n     <br></p>\n    <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n    <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n    <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n     <br>\n     Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n    <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n     <br></p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n     <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n     <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"mb-10 max-w-sm\">\n   <figure class=\"ml-auto max-w-[600px]\">\n    <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n   </figure>\n  </div>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Niedersachsen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Migration</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n    <div class=\"prose text-base\">\n     <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n     <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Medenheimer Straße 6–8,\n      <br>\n      37154 Northeim</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>05551 7080</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich. Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219160 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219161;
+    rdf:_2 _:n3-219200;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n   <ul>\n    <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n    <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n    <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n   </ul>\n   <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n    <br></p>\n   <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n    <br></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n   <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n    <br></p>\n   <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n   <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n   <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n    <br>\n    Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n   <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n    <br></p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n    <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n    <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"mb-10 max-w-sm\">\n  <figure class=\"ml-auto max-w-[600px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n  </figure>\n </div>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Niedersachsen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Migration</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n   <div class=\"prose text-base\">\n    <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n    <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219161 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219162;
+    rdf:_2 _:n3-219164;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n  <ul>\n   <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n   <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n   <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n  </ul>\n  <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n   <br></p>\n  <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n   <br></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n  <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n   <br></p>\n  <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n  <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n  <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n   <br>\n   Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n  <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n   <br></p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n   <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n   <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien".
+_:n3-219162 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-219163;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Sozial- und Sportstiftung des Landkreises Northeim</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219163 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219164 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219165;
+    rdf:_2 _:n3-219175;
+    rdf:_3 _:n3-219182;
+    rdf:_4 _:n3-219189;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n <ul>\n  <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n  <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n  <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n </ul>\n <p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n  <br></p>\n <p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n  <br></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n <p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n  <br></p>\n <p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n <p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n <p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n  <br>\n  Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n <p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n  <br></p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n  <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n  <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter. Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel. Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien".
+_:n3-219165 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219166;
+    rdf:_2 _:n3-219167;
+    rdf:_3 _:n3-219171;
+    rdf:_4 _:n3-219173;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;</p>\n<ul>\n <li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n <li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n <li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>\n</ul>\n<p>Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n <br></p>\n<p>Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden. Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet. Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben. Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.".
+_:n3-219166 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der&nbsp;Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung hat den Zweck, Maßnahmen zu fördern, die zum Nutzen von Einwohnerinnen und Einwohnern im Landkreis Northeim einen Beitrag leisten. Angebote an Sportprojekten und sozialen bzw. mildtätigen Projekten und entsprechender Veranstaltungen sollen zur Verbesserung der Lebenssituation führen und Möglichkeiten schaffen, Begabungen zu fördern. Weiterhin soll eine aktive Teilhabe an gesellschaftlichen Prozessen ermöglicht werden.".
+_:n3-219167 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-219168;
+    rdf:_2 _:n3-219169;
+    rdf:_3 _:n3-219170;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.</li>\n<li>Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.</li>\n<li>Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.</li>";
+    <https://html.spec.whatwg.org/#innerText> "Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert. Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten. Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.".
+_:n3-219168 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.";
+    <https://html.spec.whatwg.org/#innerText> "Ein Ziel ist dabei, benachteiligte Personengruppen zu unterstützen. Außerdem wird die Integration von Menschen mit Migrationshintergrund gefördert.".
+_:n3-219169 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.";
+    <https://html.spec.whatwg.org/#innerText> "Ein weiteres Ziel liegt in der Verbesserung der Lebenssituation älterer Menschen im Landkreis. Die Stiftung begünstigt Veranstaltungen, die sich vorwiegend an ältere Menschen im Landkreis richten.".
+_:n3-219170 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.";
+    <https://html.spec.whatwg.org/#innerHTML> "Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.";
+    <https://html.spec.whatwg.org/#innerText> "Sie fördert außerdem den Breitensport und unterstützt die Tätigkeit von Sportvereinen und ihrenDachorganisationen im Kreisgebiet.".
+_:n3-219171 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.";
+    rdf:_2 _:n3-219172;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung verfolgt in allen Stiftungsbereichen das Ziel, das soziale und sportliche ehrenamtliche Engagement zu fördern. Sie ermutigt zu ehrenamtlicher Tätigkeit und zeichnet ehrenamtlich tätige Menschen aus, die sich in besonderer Weise um das Wohl der Einwohner und Einwohnerinnen des Landkreises Northeim verdient gemacht haben.".
+_:n3-219172 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219173 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.";
+    rdf:_2 _:n3-219174;
+    <https://html.spec.whatwg.org/#innerHTML> "Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Die Sozial- und Sportstiftung führt keine eigenen Projekte durch, sondern unterstützt ausschließlich Maßnahmen Dritter.".
+_:n3-219174 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219175 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219176;
+    rdf:_2 _:n3-219177;
+    rdf:_3 _:n3-219178;
+    rdf:_4 _:n3-219180;
+    rdf:_5 _:n3-219181;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;</p>\n<p>Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n <br></p>\n<p>Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.</p>\n<p>Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben. Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden. Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein. Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.".
+_:n3-219176 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-219177 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;";
+    <https://html.spec.whatwg.org/#innerHTML> "Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.&nbsp;";
+    <https://html.spec.whatwg.org/#innerText> "Alle Fördermaßnahmen müssen regionale Bedeutung im Landkreis Northeim haben.".
+_:n3-219178 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.";
+    rdf:_2 _:n3-219179;
+    <https://html.spec.whatwg.org/#innerHTML> "Beispielhaft&nbsp;sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Beispielhaft sind für die Sozial- und Sportstiftung Projekte, die im lokalen und regionalen Bereich neuartig sind; Projekte, die über die Förderungsmöglichkeit der Sozial- und Sportstiftung hinaus das ehrenamtliche Engagement für soziale und sportliche Zwecke binden.".
+_:n3-219179 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219180 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.";
+    <https://html.spec.whatwg.org/#innerText> "Bei der Förderung ist die Finanzkraft des Antragstellers zu berücksichtigen. Eigenmittel sind – sofern vorhanden – in angemessenem Rahmen aufzubringen, weitere Finanzierungsmöglichkeiten sind, soweit möglich, auszuschöpfen. Die Gesamtfinanzierung muss gesichert sein.".
+_:n3-219181 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.";
+    <https://html.spec.whatwg.org/#innerHTML> "Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.";
+    <https://html.spec.whatwg.org/#innerText> "Um die vorhandenen Mittel so wirksam wie möglich einzusetzen, konzentriert sich die Sozial- und Sportstiftung des Landkreises Northeim auf eine möglichst ausgewogene Ausschüttung der vorhandenen Fördermittel.".
+_:n3-219182 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219183;
+    rdf:_2 _:n3-219184;
+    rdf:_3 _:n3-219185;
+    rdf:_4 _:n3-219187;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.</p>\n<p>Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n <br>\n Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.</p>\n<p>Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten. Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet. Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.".
+_:n3-219183 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-219184 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Umfang und&nbsp;ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.";
+    <https://html.spec.whatwg.org/#innerText> "Der Umfang und ihre mögliche finanzielle Höhe richten sich nach den jeweiligen sachlichen Anforderungen deskonkreten Projekts. Es ist eine sparsame und sachgerechte Haushaltsführung sowie eine detaillierte und transparente Aufstellung des Finanzplanes durch den Antragsteller zu gewährleisten.".
+_:n3-219185 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im";
+    rdf:_2 _:n3-219186;
+    rdf:_3 "Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.";
+    <https://html.spec.whatwg.org/#innerHTML> "Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im\n<br>\nLandkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.";
+    <https://html.spec.whatwg.org/#innerText> "Antragsberechtigt sind natürliche und juristische Personen mit Wohnsitz oder Geschäftssitz im Landkreis Northeim oder andere Antragsteller, wenn sich das Fördervorhaben im Landkreis Northeim befindet.".
+_:n3-219186 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219187 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.";
+    rdf:_2 _:n3-219188;
+    <https://html.spec.whatwg.org/#innerHTML> "Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Der Antrag auf Förderung eines Projektes ist unter Verwendung eines Antragsvordruckes an die Sozial- und Sportstiftung des Landkreises Northeim zu richten. Eine Bewilligung kann nur bei Vorliegen vollständiger Unterlagen und Nachweisen erfolgen.".
+_:n3-219188 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219189 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219190;
+    rdf:_2 _:n3-219191;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n <li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien".
+_:n3-219190 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-219191 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-219192;
+    rdf:_2 _:n3-219194;
+    rdf:_3 _:n3-219196;
+    rdf:_4 _:n3-219198;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n<li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a></li>\n<li><a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung Link zum Förderantrag Link zum Zuwendungsantrag Link zu den Förderrichtlinien".
+_:n3-219192 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-219193;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://sozial-sport.stiftungen-northeim.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-219193 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "http://sozial-sport.stiftungen-northeim.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219194 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-219195;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag".
+_:n3-219195 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Förderantrag";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#href> "http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/03/Antrag-auf-Projektf%C3%B6rderung-mit-Datenschutz.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219196 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-219197;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Zuwendungsantrag</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Zuwendungsantrag".
+_:n3-219197 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Zuwendungsantrag";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Zuwendungsantrag";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Zuwendungsantrag";
+    <http://www.w3.org/1999/xhtml#href> "http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2015/06/Anforderung-einer-Zuwendung.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219198 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-219199;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zu den Förderrichtlinien</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien".
+_:n3-219199 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zu den Förderrichtlinien";
+    <https://html.spec.whatwg.org/#innerText> "Link zu den Förderrichtlinien";
+    <http://www.w3.org/1999/xhtml#href> "http://sozial-sport.stiftungen-northeim.de/wp-content/uploads/sites/2/2022/11/F%C3%B6rderrichtlinien-Stand-November-2022-Homepage-1.pdf";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219200 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-219201;
+    rdf:_2 _:n3-219204;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"mb-10 max-w-sm\">\n <figure class=\"ml-auto max-w-[600px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n </figure>\n</div>\n<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Niedersachsen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Migration</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n  <div class=\"prose text-base\">\n   <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n   <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219201 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219202;
+    <http://www.w3.org/1999/xhtml#class> "mb-10 max-w-sm";
+    <https://html.spec.whatwg.org/#innerHTML> "<figure class=\"ml-auto max-w-[600px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">\n</figure>".
+_:n3-219202 a <http://www.w3.org/1999/xhtml#figure>;
+    rdf:_1 _:n3-219203;
+    <http://www.w3.org/1999/xhtml#class> "ml-auto max-w-[600px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg\" width=\"800\" height=\"667\">".
+_:n3-219203 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#height> "667";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Logo_SSt-Kopie.jpeg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-219204 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219205;
+    rdf:_2 _:n3-219210;
+    rdf:_3 _:n3-219218;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Niedersachsen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Migration</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n <div class=\"prose text-base\">\n  <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n  <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219205 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219206;
+    rdf:_2 _:n3-219207;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Niedersachsen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Niedersachsen".
+_:n3-219206 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-219207 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219208;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Niedersachsen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-219208 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-219209;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Niedersachsen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-219209 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerHTML> "Niedersachsen";
+    <https://html.spec.whatwg.org/#innerText> "Niedersachsen".
+_:n3-219210 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219211;
+    rdf:_2 _:n3-219212;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Migration</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Migration Soziales Sport und Bewegung Sonstiges".
+_:n3-219211 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-219212 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219213;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Migration</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Migration Soziales Sport und Bewegung Sonstiges".
+_:n3-219213 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-219214;
+    rdf:_2 _:n3-219215;
+    rdf:_3 _:n3-219216;
+    rdf:_4 _:n3-219217;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Migration</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Migration Soziales Sport und Bewegung Sonstiges".
+_:n3-219214 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Migration";
+    <https://html.spec.whatwg.org/#innerHTML> "Migration";
+    <https://html.spec.whatwg.org/#innerText> "Migration".
+_:n3-219215 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-219216 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-219217 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-219218 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219219;
+    rdf:_2 _:n3-219220;
+    rdf:_3 _:n3-219221;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>\n<div class=\"prose text-base\">\n <p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n <p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219219 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-219220 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-219221 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219222;
+    rdf:_2 _:n3-219223;
+    <http://www.w3.org/1999/xhtml#class> "prose text-base";
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.</p>\n<p>Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel. Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219222 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.";
+    <https://html.spec.whatwg.org/#innerHTML> "Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.";
+    <https://html.spec.whatwg.org/#innerText> "Der Vorstand berät gewöhnlich viermal im Jahr über die Vergabe der Fördermittel.".
+_:n3-219223 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.";
+    <https://html.spec.whatwg.org/#innerText> "Förderanträge müssen grundsätzlich vor Beginn der Maßnahme gestellt werden. Eine rückwirkende Bezuschussung von Maßnahmen ist nur in begründeten Ausnahmefällen möglich.".
+_:n3-219224 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219225;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Medenheimer Straße 6–8,\n     <br>\n     37154 Northeim</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>05551 7080</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219225 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219226;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Medenheimer Straße 6–8,\n    <br>\n    37154 Northeim</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>05551 7080</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219226 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219227;
+    rdf:_2 _:n3-219229;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Medenheimer Straße 6–8,\n   <br>\n   37154 Northeim</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>05551 7080</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Sozial- und Sportstiftung des Landkreises Northeim Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219227 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-219228;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim\" class=\"link\">Sozial- und Sportstiftung des Landkreises Northeim</a>";
+    <https://html.spec.whatwg.org/#innerText> "Sozial- und Sportstiftung des Landkreises Northeim".
+_:n3-219228 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Sozial- und Sportstiftung des Landkreises Northeim";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Sozial- und Sportstiftung des Landkreises Northeim";
+    <https://html.spec.whatwg.org/#innerText> "Sozial- und Sportstiftung des Landkreises Northeim";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/3140-sozial-und-sportstiftung-des-landkreises-northeim".
+_:n3-219229 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219230;
+    rdf:_2 _:n3-219233;
+    rdf:_3 _:n3-219237;
+    rdf:_4 _:n3-219241;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Medenheimer Straße 6–8,\n  <br>\n  37154 Northeim</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>05551 7080</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Medenheimer Straße 6–8, 37154 Northeim E-Mail sozial-undsportstiftung@landkreis-northeim.de Webseite sozial-sport.stiftungen-northeim.de Telefon 05551 7080".
+_:n3-219230 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219231;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Medenheimer Straße 6–8,\n <br>\n 37154 Northeim</p>";
+    <https://html.spec.whatwg.org/#innerText> "Medenheimer Straße 6–8, 37154 Northeim".
+_:n3-219231 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Medenheimer Straße 6–8,";
+    rdf:_2 _:n3-219232;
+    rdf:_3 "37154 Northeim";
+    <https://html.spec.whatwg.org/#innerHTML> "Medenheimer Straße 6–8,\n<br>\n37154 Northeim";
+    <https://html.spec.whatwg.org/#innerText> "Medenheimer Straße 6–8, 37154 Northeim".
+_:n3-219232 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-219233 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219234;
+    rdf:_2 _:n3-219235;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail sozial-undsportstiftung@landkreis-northeim.de".
+_:n3-219234 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-219235 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-219236;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:sozial-undsportstiftung@landkreis-northeim.de\">sozial-undsportstiftung@landkreis-northeim.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "sozial-undsportstiftung@landkreis-northeim.de".
+_:n3-219236 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "sozial-undsportstiftung@landkreis-northeim.de";
+    <https://html.spec.whatwg.org/#innerHTML> "sozial-undsportstiftung@landkreis-northeim.de";
+    <https://html.spec.whatwg.org/#innerText> "sozial-undsportstiftung@landkreis-northeim.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:sozial-undsportstiftung@landkreis-northeim.de".
+_:n3-219237 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219238;
+    rdf:_2 _:n3-219239;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite sozial-sport.stiftungen-northeim.de".
+_:n3-219238 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-219239 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-219240;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://sozial-sport.stiftungen-northeim.de\" target=\"_blank\">sozial-sport.stiftungen-northeim.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "sozial-sport.stiftungen-northeim.de".
+_:n3-219240 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "sozial-sport.stiftungen-northeim.de";
+    <https://html.spec.whatwg.org/#innerHTML> "sozial-sport.stiftungen-northeim.de";
+    <https://html.spec.whatwg.org/#innerText> "sozial-sport.stiftungen-northeim.de";
+    <http://www.w3.org/1999/xhtml#href> "http://sozial-sport.stiftungen-northeim.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-219241 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219242;
+    rdf:_2 _:n3-219243;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>05551 7080</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 05551 7080".
+_:n3-219242 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-219243 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "05551 7080";
+    <https://html.spec.whatwg.org/#innerHTML> "05551 7080";
+    <https://html.spec.whatwg.org/#innerText> "05551 7080".
+_:n3-219244 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-219245;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-219245 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219246;
+    rdf:_2 _:n3-219250;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-219246 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-219247;
+    rdf:_2 _:n3-219248;
+    rdf:_3 _:n3-219249;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-219247 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-219248 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-219249 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-219250 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-219251;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-219251 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-219252 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-219253 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-219254 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-219255 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-sozial-und-sportstiftung-des-landkreises-northeim";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-219256 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-219257 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Sozial- und Sportstiftung des Landkreises Northeim  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Sozial- und Sportstiftung des Landkreises Northeim  –  Förderdatenbank".
+_:n3-219258 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-219259 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

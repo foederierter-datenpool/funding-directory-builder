@@ -1,0 +1,681 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-220816 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220817;
+    rdf:_10 _:n3-220818;
+    rdf:_11 _:n3-220819;
+    rdf:_12 _:n3-220820;
+    rdf:_13 _:n3-220821;
+    rdf:_14 _:n3-220822;
+    rdf:_15 _:n3-220823;
+    rdf:_16 _:n3-220824;
+    rdf:_17 _:n3-220825;
+    rdf:_18 _:n3-220826;
+    rdf:_19 _:n3-220827;
+    rdf:_2 _:n3-220828;
+    rdf:_20 _:n3-220829;
+    rdf:_21 _:n3-220830;
+    rdf:_22 _:n3-220831;
+    rdf:_23 _:n3-220848;
+    rdf:_24 _:n3-220853;
+    rdf:_25 _:n3-220934;
+    rdf:_26 _:n3-220942;
+    rdf:_3 _:n3-220943;
+    rdf:_4 _:n3-220944;
+    rdf:_5 _:n3-220945;
+    rdf:_6 _:n3-220946;
+    rdf:_7 _:n3-220947;
+    rdf:_8 _:n3-220948;
+    rdf:_9 _:n3-220949;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "foerderung-der-stiftung-deutscher-denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz\">\n<meta property=\"og:locale\" content=\"de\">\n<title>Förderung der Stiftung Deutscher Denkmalschutz  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"Förderung der Stiftung Deutscher Denkmalschutz\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"Förderung der Stiftung Deutscher Denkmalschutz\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Deutscher Denkmalschutz</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n       <br></p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p></p>\n      <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n      <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n      <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n      <p></p>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n      <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n      <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n       <br>\n       <br>\n       Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n       <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>Bundesweit</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bauten und Denkmalschutz</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Förderfähige Kosten:</div>\n      <div>\n       <ul>\n        <li>Bau- und Investkosten</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Eigenmittel benötigt:</div>\n      <div>Ja</div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">\n       <ul>\n        <li>31. August 2027</li>\n       </ul>\n      </div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Schlegelstr. 1,\n        <br>\n        53113 Bonn</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>0228 90910</p>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>Förderung der Stiftung Deutscher Denkmalschutz Förderung der Stiftung Deutscher Denkmalschutz Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027 Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910 ©2026 Impressum Datenschutzerklärung".
+_:n3-220817 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-220818 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-220819 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-220820 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-220821 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung Deutscher Denkmalschutz";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-220822 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-220823 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Förderung der Stiftung Deutscher Denkmalschutz";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-220824 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-220825 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-220826 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-220827 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-220828 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-220829 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-220830 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-220831 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220832;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-220832 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220833;
+    rdf:_2 _:n3-220835;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-220833 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-220834;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-220834 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-220835 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220836;
+    rdf:_2 _:n3-220839;
+    rdf:_3 _:n3-220842;
+    rdf:_4 _:n3-220845;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-220836 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-220837;
+    rdf:_2 _:n3-220838;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220837 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-220838 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-220839 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-220840;
+    rdf:_2 _:n3-220841;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220840 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-220841 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-220842 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-220843;
+    rdf:_2 _:n3-220844;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220843 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-220844 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-220845 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-220846;
+    rdf:_2 _:n3-220847;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220846 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-220847 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-220848 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-220849;
+    rdf:_2 _:n3-220852;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-220849 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-220850;
+    rdf:_2 _:n3-220851;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-220850 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-220851 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-220852 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-220853 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-220854;
+    rdf:_2 _:n3-220859;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Deutscher Denkmalschutz</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n      <br></p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p></p>\n     <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n     <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n     <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n     <p></p>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n     <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n     <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n      <br>\n      <br>\n      Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n      <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>Bundesweit</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bauten und Denkmalschutz</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Förderfähige Kosten:</div>\n     <div>\n      <ul>\n       <li>Bau- und Investkosten</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Eigenmittel benötigt:</div>\n     <div>Ja</div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">\n      <ul>\n       <li>31. August 2027</li>\n      </ul>\n     </div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Schlegelstr. 1,\n       <br>\n       53113 Bonn</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>0228 90910</p>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Deutscher Denkmalschutz Förderung der Stiftung Deutscher Denkmalschutz Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027 Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220854 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-220855;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Deutscher Denkmalschutz</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Deutscher Denkmalschutz".
+_:n3-220855 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220856;
+    rdf:_2 _:n3-220857;
+    rdf:_3 _:n3-220858;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>Förderung der Stiftung Deutscher Denkmalschutz</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>Förderung der Stiftung Deutscher Denkmalschutz".
+_:n3-220856 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-220857 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-220858 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Förderung der Stiftung Deutscher Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Deutscher Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz".
+_:n3-220859 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-220860;
+    rdf:_2 _:n3-220914;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n     <br></p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p></p>\n    <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n    <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n    <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n    <p></p>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n    <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n    <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n     <br>\n     <br>\n     Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n     <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>Bundesweit</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bauten und Denkmalschutz</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Förderfähige Kosten:</div>\n    <div>\n     <ul>\n      <li>Bau- und Investkosten</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Eigenmittel benötigt:</div>\n    <div>Ja</div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">\n     <ul>\n      <li>31. August 2027</li>\n     </ul>\n    </div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Schlegelstr. 1,\n      <br>\n      53113 Bonn</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>0228 90910</p>\n    </div>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027 Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220860 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220861;
+    rdf:_2 _:n3-220891;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n    <br></p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p></p>\n   <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n   <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n   <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n   <p></p>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n   <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n   <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n    <br>\n    <br>\n    Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n    <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>Bundesweit</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bauten und Denkmalschutz</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Förderfähige Kosten:</div>\n   <div>\n    <ul>\n     <li>Bau- und Investkosten</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Eigenmittel benötigt:</div>\n   <div>Ja</div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">\n    <ul>\n     <li>31. August 2027</li>\n    </ul>\n   </div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027".
+_:n3-220861 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220862;
+    rdf:_2 _:n3-220864;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n   <br></p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p></p>\n  <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n  <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n  <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n  <p></p>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n  <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n  <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n   <br>\n   <br>\n   Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n   <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ".
+_:n3-220862 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-220863;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">Förderung der Stiftung Deutscher Denkmalschutz</h1>";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz".
+_:n3-220863 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "Förderung der Stiftung Deutscher Denkmalschutz";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Deutscher Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz".
+_:n3-220864 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220865;
+    rdf:_2 _:n3-220868;
+    rdf:_3 _:n3-220875;
+    rdf:_4 _:n3-220884;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n  <br></p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p></p>\n <p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n <p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n <p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n <p></p>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n <p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n <p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n  <br>\n  <br>\n  Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n  <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute. Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten. Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein. Weitere Informationen Link zur Förderung FAQ".
+_:n3-220865 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220866;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.".
+_:n3-220866 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.";
+    rdf:_2 _:n3-220867;
+    <https://html.spec.whatwg.org/#innerHTML> "Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Rund 600 Sanierungsprojekte fördert die Deutsche Stiftung Denkmalschutz jährlich im gesamten Bundesgebiet. Die Unterstützung kommt Denkmalen aller Arten zugute.".
+_:n3-220867 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-220868 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220869;
+    rdf:_2 _:n3-220870;
+    rdf:_3 _:n3-220871;
+    rdf:_4 _:n3-220872;
+    rdf:_5 _:n3-220873;
+    rdf:_6 _:n3-220874;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p></p>\n<p>Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.</p>\n<p>Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.</p>\n<p>Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.</p>\n<p></p>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben. Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt. Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.".
+_:n3-220869 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-220870 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-220871 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.";
+    <https://html.spec.whatwg.org/#innerText> "Die Deutsche Stiftung Denkmalschutz hilft als Förderstiftung dort, wo Eigentümer nicht in der Lage sind, den Erhalt eines Denkmals alleine zu bewältigen. Sie fördert dabei bevorzugt Denkmale im Besitz von Privatpersonen, privaten Einrichtungen, Fördervereinen, Kirchengemeinden und Kommunen, um die Eigentümer bei der anspruchsvollen Aufgabe, historische Bausubstanz zu erhalten, zu unterstützen. Ihre Mittel sollen nicht vordringlich dazu dienen, die öffentliche Hand von ihrer Verantwortung für die Pflege und Zukunftssicherung unseres Kulturerbes zu entheben.".
+_:n3-220872 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.";
+    <https://html.spec.whatwg.org/#innerHTML> "Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.";
+    <https://html.spec.whatwg.org/#innerText> "Grundsätzliche Voraussetzung für eine Förderung durch die Deutsche Stiftung Denkmalschutz ist die positive Bewertung des Denkmals durch die zuständigen Fachbehörden. Über Höhe und Umfang einer Förderung entscheidet die Stiftung alleine und unabhängig. Die Beteiligung an den Kosten erfolgt nicht nach festen Prozentsätzen, vielmehr wird jede Fördersumme für konkret geplante Maßnahmen innerhalb eines Jahres bewilligt.".
+_:n3-220873 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.";
+    <https://html.spec.whatwg.org/#innerHTML> "Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.";
+    <https://html.spec.whatwg.org/#innerText> "Qualifizierte Projektreferenten und -architekten der Deutschen Stiftung Denkmalschutz begleiten sowohl die Vorbereitungen als auch die Durchführung der Maßnahmen, um eine angemessene Verwendung der Mittel ebenso sicherzustellen wie eine denkmalpflegerisch hochwertige Umsetzung der Maßnahmen. Pro Projekt begleiten jeweils ein Referent und ein Architekt der Stiftung die Sanierungsarbeiten.".
+_:n3-220874 a <http://www.w3.org/1999/xhtml#p>.
+_:n3-220875 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220876;
+    rdf:_2 _:n3-220877;
+    rdf:_3 _:n3-220878;
+    rdf:_4 _:n3-220881;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.</p>\n<p>Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.</p>\n<p>Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n <br>\n <br>\n Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.</p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme. Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden. Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.".
+_:n3-220876 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-220877 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stiftung bittet vor der Antragstellung&nbsp;um telefonische Kontaktaufnahme.";
+    <https://html.spec.whatwg.org/#innerText> "Die Stiftung bittet vor der Antragstellung um telefonische Kontaktaufnahme.".
+_:n3-220878 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderanträge können jährlich bis zum ";
+    rdf:_2 _:n3-220879;
+    rdf:_3 " eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ";
+    rdf:_4 _:n3-220880;
+    rdf:_5 " beantragt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderanträge können jährlich bis zum <strong>31. August</strong> eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe <strong>ganzjährig</strong> beantragt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Förderanträge können jährlich bis zum 31. August eingereicht werden. Für hochwassergeschädigte Denkmale kann Hilfe ganzjährig beantragt werden.".
+_:n3-220879 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "31. August";
+    <https://html.spec.whatwg.org/#innerHTML> "31. August";
+    <https://html.spec.whatwg.org/#innerText> "31. August".
+_:n3-220880 a <http://www.w3.org/1999/xhtml#strong>;
+    rdf:_1 "ganzjährig";
+    <https://html.spec.whatwg.org/#innerHTML> "ganzjährig";
+    <https://html.spec.whatwg.org/#innerText> "ganzjährig".
+_:n3-220881 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.";
+    rdf:_2 _:n3-220882;
+    rdf:_3 _:n3-220883;
+    rdf:_4 "Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.";
+    <https://html.spec.whatwg.org/#innerHTML> "Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage.\n<br>\n<br>\nFördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.";
+    <https://html.spec.whatwg.org/#innerText> "Nach einer Begutachtung durch die Stiftung und eine Bewertung durch die Wissenschaftliche Kommission erhalten Antragsteller im Frühjahr des kommenden Jahres eine Förderzusage oder -absage. Fördervoraussetzung ist das Stellen eines formalen Antrags auf finanzielle Förderung an die Deutsche Stiftung Denkmalschutz. Soweit nicht der Eigentümer oder Verfügungsberechtigte selbst Antragsteller ist, muss der Antragsteller von diesem bevollmächtigt sein.".
+_:n3-220882 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-220883 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-220884 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220885;
+    rdf:_2 _:n3-220886;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n <li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Förderung FAQ".
+_:n3-220885 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-220886 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-220887;
+    rdf:_2 _:n3-220889;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a></li>\n<li><a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung FAQ".
+_:n3-220887 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-220888;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Förderung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung".
+_:n3-220888 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Förderung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/foerderung-erhalten.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220889 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-220890;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">FAQ</a>";
+    <https://html.spec.whatwg.org/#innerText> "FAQ".
+_:n3-220890 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "FAQ";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "FAQ";
+    <https://html.spec.whatwg.org/#innerText> "FAQ";
+    <http://www.w3.org/1999/xhtml#href> "https://www.denkmalschutz.de/ueber-uns/die-deutsche-stiftung-denkmalschutz/aufgaben-ziele/denkmalfoerderung/faqs.html";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220891 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-220892;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>Bundesweit</div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bauten und Denkmalschutz</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Förderfähige Kosten:</div>\n  <div>\n   <ul>\n    <li>Bau- und Investkosten</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Eigenmittel benötigt:</div>\n  <div>Ja</div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">\n   <ul>\n    <li>31. August 2027</li>\n   </ul>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027".
+_:n3-220892 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220893;
+    rdf:_2 _:n3-220896;
+    rdf:_3 _:n3-220901;
+    rdf:_4 _:n3-220906;
+    rdf:_5 _:n3-220909;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>Bundesweit</div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bauten und Denkmalschutz</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Förderfähige Kosten:</div>\n <div>\n  <ul>\n   <li>Bau- und Investkosten</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Eigenmittel benötigt:</div>\n <div>Ja</div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">\n  <ul>\n   <li>31. August 2027</li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit Engagementbereiche: Bauten und Denkmalschutz Förderfähige Kosten: Bau- und Investkosten Eigenmittel benötigt: Ja Bewerbungsfrist: 31. August 2027".
+_:n3-220893 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220894;
+    rdf:_2 _:n3-220895;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>Bundesweit</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Bundesweit".
+_:n3-220894 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-220895 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bundesweit";
+    <https://html.spec.whatwg.org/#innerHTML> "Bundesweit";
+    <https://html.spec.whatwg.org/#innerText> "Bundesweit".
+_:n3-220896 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220897;
+    rdf:_2 _:n3-220898;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bauten und Denkmalschutz</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bauten und Denkmalschutz".
+_:n3-220897 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-220898 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220899;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bauten und Denkmalschutz</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-220899 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-220900;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bauten und Denkmalschutz</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-220900 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-220901 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220902;
+    rdf:_2 _:n3-220903;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Förderfähige Kosten:</div>\n<div>\n <ul>\n  <li>Bau- und Investkosten</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten: Bau- und Investkosten".
+_:n3-220902 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Förderfähige Kosten:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderfähige Kosten:";
+    <https://html.spec.whatwg.org/#innerText> "Förderfähige Kosten:".
+_:n3-220903 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220904;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bau- und Investkosten</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-220904 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-220905;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bau- und Investkosten</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-220905 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerHTML> "Bau- und Investkosten";
+    <https://html.spec.whatwg.org/#innerText> "Bau- und Investkosten".
+_:n3-220906 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220907;
+    rdf:_2 _:n3-220908;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Eigenmittel benötigt:</div>\n<div>Ja</div>";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt: Ja".
+_:n3-220907 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Eigenmittel benötigt:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Eigenmittel benötigt:";
+    <https://html.spec.whatwg.org/#innerText> "Eigenmittel benötigt:".
+_:n3-220908 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Ja";
+    <https://html.spec.whatwg.org/#innerHTML> "Ja";
+    <https://html.spec.whatwg.org/#innerText> "Ja".
+_:n3-220909 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220910;
+    rdf:_2 _:n3-220911;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">\n <ul>\n  <li>31. August 2027</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: 31. August 2027".
+_:n3-220910 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-220911 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220912;
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>31. August 2027</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "31. August 2027".
+_:n3-220912 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-220913;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>31. August 2027</li>";
+    <https://html.spec.whatwg.org/#innerText> "31. August 2027".
+_:n3-220913 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "31. August 2027";
+    <https://html.spec.whatwg.org/#innerHTML> "31. August 2027";
+    <https://html.spec.whatwg.org/#innerText> "31. August 2027".
+_:n3-220914 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220915;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Schlegelstr. 1,\n     <br>\n     53113 Bonn</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>0228 90910</p>\n   </div>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220915 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220916;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Schlegelstr. 1,\n    <br>\n    53113 Bonn</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>0228 90910</p>\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220916 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220917;
+    rdf:_2 _:n3-220919;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Schlegelstr. 1,\n   <br>\n   53113 Bonn</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>0228 90910</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsche Stiftung Denkmalschutz Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220917 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-220918;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz\" class=\"link\">Deutsche Stiftung Denkmalschutz</a>";
+    <https://html.spec.whatwg.org/#innerText> "Deutsche Stiftung Denkmalschutz".
+_:n3-220918 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Deutsche Stiftung Denkmalschutz";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Deutsche Stiftung Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Deutsche Stiftung Denkmalschutz";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/36395-deutsche-stiftung-denkmalschutz".
+_:n3-220919 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220920;
+    rdf:_2 _:n3-220923;
+    rdf:_3 _:n3-220927;
+    rdf:_4 _:n3-220931;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Schlegelstr. 1,\n  <br>\n  53113 Bonn</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>0228 90910</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Schlegelstr. 1, 53113 Bonn E-Mail info@denkmalschutz.de Webseite www.denkmalschutz.de/aktuelles.html Telefon 0228 90910".
+_:n3-220920 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220921;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Schlegelstr. 1,\n <br>\n 53113 Bonn</p>";
+    <https://html.spec.whatwg.org/#innerText> "Schlegelstr. 1, 53113 Bonn".
+_:n3-220921 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Schlegelstr. 1,";
+    rdf:_2 _:n3-220922;
+    rdf:_3 "53113 Bonn";
+    <https://html.spec.whatwg.org/#innerHTML> "Schlegelstr. 1,\n<br>\n53113 Bonn";
+    <https://html.spec.whatwg.org/#innerText> "Schlegelstr. 1, 53113 Bonn".
+_:n3-220922 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-220923 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220924;
+    rdf:_2 _:n3-220925;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail info@denkmalschutz.de".
+_:n3-220924 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-220925 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-220926;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:info@denkmalschutz.de\">info@denkmalschutz.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "info@denkmalschutz.de".
+_:n3-220926 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "info@denkmalschutz.de";
+    <https://html.spec.whatwg.org/#innerHTML> "info@denkmalschutz.de";
+    <https://html.spec.whatwg.org/#innerText> "info@denkmalschutz.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:info@denkmalschutz.de".
+_:n3-220927 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220928;
+    rdf:_2 _:n3-220929;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.denkmalschutz.de/aktuelles.html".
+_:n3-220928 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-220929 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-220930;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://www.denkmalschutz.de/aktuelles.html\" target=\"_blank\">www.denkmalschutz.de/aktuelles.html</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.denkmalschutz.de/aktuelles.html".
+_:n3-220930 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.denkmalschutz.de/aktuelles.html";
+    <https://html.spec.whatwg.org/#innerHTML> "www.denkmalschutz.de/aktuelles.html";
+    <https://html.spec.whatwg.org/#innerText> "www.denkmalschutz.de/aktuelles.html";
+    <http://www.w3.org/1999/xhtml#href> "https://www.denkmalschutz.de/aktuelles.html";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-220931 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220932;
+    rdf:_2 _:n3-220933;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>0228 90910</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 0228 90910".
+_:n3-220932 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-220933 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "0228 90910";
+    <https://html.spec.whatwg.org/#innerHTML> "0228 90910";
+    <https://html.spec.whatwg.org/#innerText> "0228 90910".
+_:n3-220934 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-220935;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-220935 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220936;
+    rdf:_2 _:n3-220940;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-220936 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-220937;
+    rdf:_2 _:n3-220938;
+    rdf:_3 _:n3-220939;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-220937 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-220938 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-220939 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-220940 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-220941;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-220941 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-220942 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-220943 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-220944 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-220945 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/foerderung-der-stiftung-deutscher-denkmalschutz";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-220946 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-220947 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "Förderung der Stiftung Deutscher Denkmalschutz  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderung der Stiftung Deutscher Denkmalschutz  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "Förderung der Stiftung Deutscher Denkmalschutz  –  Förderdatenbank".
+_:n3-220948 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-220949 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".

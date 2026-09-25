@@ -1,0 +1,745 @@
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+_:n3-160304 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160305;
+    rdf:_10 _:n3-160306;
+    rdf:_11 _:n3-160307;
+    rdf:_12 _:n3-160308;
+    rdf:_13 _:n3-160309;
+    rdf:_14 _:n3-160310;
+    rdf:_15 _:n3-160311;
+    rdf:_16 _:n3-160312;
+    rdf:_17 _:n3-160313;
+    rdf:_18 _:n3-160314;
+    rdf:_19 _:n3-160315;
+    rdf:_2 _:n3-160316;
+    rdf:_20 _:n3-160317;
+    rdf:_21 _:n3-160318;
+    rdf:_22 _:n3-160319;
+    rdf:_23 _:n3-160336;
+    rdf:_24 _:n3-160341;
+    rdf:_25 _:n3-160436;
+    rdf:_26 _:n3-160444;
+    rdf:_3 _:n3-160445;
+    rdf:_4 _:n3-160446;
+    rdf:_5 _:n3-160447;
+    rdf:_6 _:n3-160448;
+    rdf:_7 _:n3-160449;
+    rdf:_8 _:n3-160450;
+    rdf:_9 _:n3-160451;
+    <http://www.w3.org/1999/xhtml#class> "cdp-record";
+    <http://www.w3.org/1999/xhtml#data-name> "wir-in-olsberg";
+    <https://html.spec.whatwg.org/#innerHTML> "<meta charset=\"utf-8\">\n<link rel=\"home\" href=\"https://foerderdatenbank.d-s-e-e.de/\">\n<link rel=\"canonical\" href=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg\">\n<meta property=\"og:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg\">\n<meta name=\"twitter:url\" content=\"https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg\">\n<meta property=\"og:locale\" content=\"de\">\n<title>�Wir in Olsberg“  –  Förderdatenbank</title>\n<meta name=\"description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n<meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Deutsche Stiftung für Engagement und Ehrenamt\">\n<meta property=\"og:title\" content=\"„Wir in Olsberg“\">\n<meta property=\"og:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<meta name=\"twitter:title\" content=\"„Wir in Olsberg“\">\n<meta name=\"twitter:description\" content=\"Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<script type=\"module\">!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();</script>\n<script type=\"module\" src=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js\" crossorigin onload=\"e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);\"></script>\n<link href=\"https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css\" rel=\"stylesheet\"> \n<div class=\"container flex flex-row justify-end my-4\">\n <div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n  <nav class=\"flex flex-row my-2\">\n   <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n  </nav>\n  <div class=\"flex flex-row divide-x my-2\">\n   <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n  </div>\n </div>\n</div>\n<header class=\"container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default\">\n <a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n <p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>\n</header>\n<main class=\"my-8\">\n <nav class=\"container\">\n  <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n   <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>„Wir in Olsberg“</span>\n  </div>\n </nav>\n <article class=\"container\">\n  <div class=\"grid lg:grid-cols-3 gap-16\">\n   <div class=\"col-span-2 space-y-4\">\n    <header class=\"mb-8\">\n     <h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>\n    </header>\n    <div class=\"prose text-lg mb-8 space-y-6\">\n     <div>\n      <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n     </div>\n     <div>\n      <h3>Zielgruppen/Bedingungen</h3>\n      <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n      <p>\n       <br>\n       Projekte, die als förderfähig gelten sollten:\n       <br>\n      </p>\n      <ul>\n       <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n       <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n       <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n       <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n       <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n       <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n      </ul>\n      <p>\n       <br>\n       Nicht gefördert werden:&nbsp;\n       <br>\n      </p>\n      <ul>\n       <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n       <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n       <li>politische Gruppierungen</li>\n       <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n       <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n       <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n      </ul>\n     </div>\n     <div>\n      <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n      <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n      <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n       <br>\n       <br></p>\n     </div>\n     <div>\n      <h3>Weitere Informationen</h3>\n      <ul>\n       <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n       <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n      </ul>\n     </div>\n    </div>\n   </div>\n   <aside>\n    <div class=\"prose text-lg space-y-4\">\n     <div>\n      <div class=\"font-bold\">Regionen:</div>\n      <div>\n       <ul>\n        <li>Nordrhein-Westfalen</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Engagementbereiche:</div>\n      <div>\n       <ul>\n        <li>Bauten und Denkmalschutz</li>\n        <li>Bildung</li>\n        <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n        <li>Kinder und Jugendliche</li>\n        <li>Kultur, Medien und Musik</li>\n        <li>Soziales</li>\n        <li>Sport und Bewegung</li>\n        <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n        <li>Sonstiges</li>\n       </ul>\n      </div>\n     </div>\n     <div>\n      <div class=\"font-bold\">Bewerbungsfrist:</div>\n      <div class=\"mb-1\">Fortlaufende Förderung</div>\n     </div>\n    </div>\n   </aside>\n  </div>\n  <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n   <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n    <div class=\"grow\">\n     <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n     <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n      <div>\n       <p>Bigger Platz 6,\n        <br>\n        59939 Olsberg</p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">E-Mail</h3>\n       <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Webseite</h3>\n       <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n      </div>\n      <div>\n       <h3 class=\"font-bold\">Telefon</h3>\n       <p>02962 982414</p>\n      </div>\n     </div>\n    </div>\n    <div class=\"md:w-1/3\">\n     <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">\n    </div>\n   </div>\n  </div>\n </article>\n</main>\n<footer class=\"container mt-24\">\n <div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n  <nav class=\"flex flex-row flex-wrap -mx-1\">\n   <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n   <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n  </nav>\n  <div class=\"max-w-[240px]\">\n   <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n  </div>\n </div>\n</footer>\n<script>\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>";
+    <https://html.spec.whatwg.org/#innerText> "�Wir in Olsberg“  –  Förderdatenbank Newsletter X Facebook Instagram LinkedIn Zur Startseite Förderdatenbank der DSEE Förderdatenbank der DSEE>„Wir in Olsberg“ „Wir in Olsberg“ Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414 ©2026 Impressum Datenschutzerklärung".
+_:n3-160305 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#charset> "utf-8".
+_:n3-160306 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "strict-origin-when-cross-origin";
+    <http://www.w3.org/1999/xhtml#name> "referrer".
+_:n3-160307 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "website";
+    <http://www.w3.org/1999/xhtml#property> "og:type".
+_:n3-160308 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#property> "og:site_name".
+_:n3-160309 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "„Wir in Olsberg“";
+    <http://www.w3.org/1999/xhtml#property> "og:title".
+_:n3-160310 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#property> "og:description".
+_:n3-160311 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "„Wir in Olsberg“";
+    <http://www.w3.org/1999/xhtml#name> "twitter:title".
+_:n3-160312 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "twitter:description".
+_:n3-160313 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-32x32.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "32x32".
+_:n3-160314 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "/favicon-16x16.png";
+    <http://www.w3.org/1999/xhtml#rel> "icon";
+    <http://www.w3.org/1999/xhtml#type> "image/png";
+    <http://www.w3.org/1999/xhtml#sizes> "16x16".
+_:n3-160315 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <https://html.spec.whatwg.org/#innerHTML> "!function(){const e=document.createElement(\"link\").relList;if(!(e&&e.supports&&e.supports(\"modulepreload\"))){for(const e of document.querySelectorAll('link[rel=\"modulepreload\"]'))r(e);new MutationObserver((e=>{for(const o of e)if(\"childList\"===o.type)for(const e of o.addedNodes)if(\"LINK\"===e.tagName&&\"modulepreload\"===e.rel)r(e);else if(e.querySelectorAll)for(const o of e.querySelectorAll(\"link[rel=modulepreload]\"))r(o)})).observe(document,{childList:!0,subtree:!0})}function r(e){if(e.ep)return;e.ep=!0;const r=function(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerpolicy&&(r.referrerPolicy=e.referrerpolicy),\"use-credentials\"===e.crossorigin?r.credentials=\"include\":\"anonymous\"===e.crossorigin?r.credentials=\"omit\":r.credentials=\"same-origin\",r}(e);fetch(e.href,r)}}();";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-160316 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/";
+    <http://www.w3.org/1999/xhtml#rel> "home".
+_:n3-160317 a <http://www.w3.org/1999/xhtml#script>;
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-DB5ScF6h.js";
+    <http://www.w3.org/1999/xhtml#crossorigin> "";
+    <http://www.w3.org/1999/xhtml#onload> "e=new CustomEvent('vite-script-loaded', {detail:{path: 'resources/js/main.js'}});document.dispatchEvent(e);";
+    <http://www.w3.org/1999/xhtml#type> "module".
+_:n3-160318 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/dist/assets/app-ClfkFxNO.css";
+    <http://www.w3.org/1999/xhtml#rel> "stylesheet".
+_:n3-160319 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160320;
+    <http://www.w3.org/1999/xhtml#class> "container flex flex-row justify-end my-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap items-center -mx-1 select-none cursor-default\">\n <nav class=\"flex flex-row my-2\">\n  <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n </nav>\n <div class=\"flex flex-row divide-x my-2\">\n  <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-160320 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160321;
+    rdf:_2 _:n3-160323;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap items-center -mx-1 select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row my-2\">\n <a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>\n</nav>\n<div class=\"flex flex-row divide-x my-2\">\n <a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter X Facebook Instagram LinkedIn".
+_:n3-160321 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-160322;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/\">Newsletter</a>";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter".
+_:n3-160322 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Newsletter";
+    <http://www.w3.org/1999/xhtml#class> "block mr-2 md:mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Newsletter";
+    <https://html.spec.whatwg.org/#innerText> "Newsletter";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/newsletter/".
+_:n3-160323 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160324;
+    rdf:_2 _:n3-160327;
+    rdf:_3 _:n3-160330;
+    rdf:_4 _:n3-160333;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row divide-x my-2";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://x.com/d_s_e_e\" title=\"X\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span> </a><a href=\"https://www.facebook.com/EngagementStiftung/\" title=\"Facebook\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span> </a> <a href=\"https://www.instagram.com/engagement_und_ehrenamt/\" title=\"Instagram\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span> </a> <a href=\"https://www.linkedin.com/company/dsee/\" title=\"LinkedIn\" target=\"_blank\" class=\"group block p-1\"> <img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span> </a>";
+    <https://html.spec.whatwg.org/#innerText> "X Facebook Instagram LinkedIn".
+_:n3-160324 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-160325;
+    rdf:_2 _:n3-160326;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg\" width=\"24\" height=\"24\" alt=\"Logo X\"> <span class=\"sr-only\">X</span>";
+    <https://html.spec.whatwg.org/#innerText> "X";
+    <http://www.w3.org/1999/xhtml#title> "X";
+    <http://www.w3.org/1999/xhtml#href> "https://x.com/d_s_e_e";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160325 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo X";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-x.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-160326 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "X";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "X";
+    <https://html.spec.whatwg.org/#innerText> "X".
+_:n3-160327 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-160328;
+    rdf:_2 _:n3-160329;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg\" width=\"24\" height=\"24\" alt=\"Logo Facebook\"> <span class=\"sr-only\">Facebook</span>";
+    <https://html.spec.whatwg.org/#innerText> "Facebook";
+    <http://www.w3.org/1999/xhtml#title> "Facebook";
+    <http://www.w3.org/1999/xhtml#href> "https://www.facebook.com/EngagementStiftung/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160328 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Facebook";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-facebook.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-160329 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Facebook";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Facebook";
+    <https://html.spec.whatwg.org/#innerText> "Facebook".
+_:n3-160330 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-160331;
+    rdf:_2 _:n3-160332;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg\" width=\"24\" height=\"24\" alt=\"Logo Instagram\"> <span class=\"sr-only\">Instagram</span>";
+    <https://html.spec.whatwg.org/#innerText> "Instagram";
+    <http://www.w3.org/1999/xhtml#title> "Instagram";
+    <http://www.w3.org/1999/xhtml#href> "https://www.instagram.com/engagement_und_ehrenamt/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160331 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo Instagram";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-instagram.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-160332 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Instagram";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Instagram";
+    <https://html.spec.whatwg.org/#innerText> "Instagram".
+_:n3-160333 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-160334;
+    rdf:_2 _:n3-160335;
+    <http://www.w3.org/1999/xhtml#class> "group block p-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg\" width=\"24\" height=\"24\" alt=\"Logo LinkedIn\"> <span class=\"sr-only\">LinkedIn</span>";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#title> "LinkedIn";
+    <http://www.w3.org/1999/xhtml#href> "https://www.linkedin.com/company/dsee/";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160334 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-6 opacity-50 group-focus:opacity-100 group-hover:opacity-100 transition-opacity";
+    <http://www.w3.org/1999/xhtml#alt> "Logo LinkedIn";
+    <http://www.w3.org/1999/xhtml#height> "24";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/icon-linkedin.svg";
+    <http://www.w3.org/1999/xhtml#width> "24".
+_:n3-160335 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "LinkedIn";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "LinkedIn";
+    <https://html.spec.whatwg.org/#innerText> "LinkedIn".
+_:n3-160336 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-160337;
+    rdf:_2 _:n3-160340;
+    <http://www.w3.org/1999/xhtml#class> "container my-4 flex flex-row flex-wrap justify-between items-end select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/\" class=\"block my-2 w-full max-w-md\"> <span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\"></a>\n<p class=\"my-2 font-medium text-2xl\">Förderdatenbank der DSEE</p>";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite Förderdatenbank der DSEE".
+_:n3-160337 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 _:n3-160338;
+    rdf:_2 _:n3-160339;
+    <http://www.w3.org/1999/xhtml#class> "block my-2 w-full max-w-md";
+    <https://html.spec.whatwg.org/#innerHTML> "<span class=\"sr-only\">Zur Startseite</span><img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\" fetchpriority=\"high\">";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-160338 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "Zur Startseite";
+    <http://www.w3.org/1999/xhtml#class> "sr-only";
+    <https://html.spec.whatwg.org/#innerHTML> "Zur Startseite";
+    <https://html.spec.whatwg.org/#innerText> "Zur Startseite".
+_:n3-160339 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300";
+    <http://www.w3.org/1999/xhtml#fetchpriority> "high".
+_:n3-160340 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "my-2 font-medium text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE".
+_:n3-160341 a <http://www.w3.org/1999/xhtml#main>;
+    rdf:_1 _:n3-160342;
+    rdf:_2 _:n3-160347;
+    <http://www.w3.org/1999/xhtml#class> "my-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"container\">\n <div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n  <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>„Wir in Olsberg“</span>\n </div>\n</nav>\n<article class=\"container\">\n <div class=\"grid lg:grid-cols-3 gap-16\">\n  <div class=\"col-span-2 space-y-4\">\n   <header class=\"mb-8\">\n    <h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>\n   </header>\n   <div class=\"prose text-lg mb-8 space-y-6\">\n    <div>\n     <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n    </div>\n    <div>\n     <h3>Zielgruppen/Bedingungen</h3>\n     <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n     <p>\n      <br>\n      Projekte, die als förderfähig gelten sollten:\n      <br>\n     </p>\n     <ul>\n      <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n      <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n      <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n      <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n      <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n      <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n     </ul>\n     <p>\n      <br>\n      Nicht gefördert werden:&nbsp;\n      <br>\n     </p>\n     <ul>\n      <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n      <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n      <li>politische Gruppierungen</li>\n      <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n      <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n      <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n     </ul>\n    </div>\n    <div>\n     <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n     <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n     <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n      <br>\n      <br></p>\n    </div>\n    <div>\n     <h3>Weitere Informationen</h3>\n     <ul>\n      <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n      <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n     </ul>\n    </div>\n   </div>\n  </div>\n  <aside>\n   <div class=\"prose text-lg space-y-4\">\n    <div>\n     <div class=\"font-bold\">Regionen:</div>\n     <div>\n      <ul>\n       <li>Nordrhein-Westfalen</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Engagementbereiche:</div>\n     <div>\n      <ul>\n       <li>Bauten und Denkmalschutz</li>\n       <li>Bildung</li>\n       <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n       <li>Kinder und Jugendliche</li>\n       <li>Kultur, Medien und Musik</li>\n       <li>Soziales</li>\n       <li>Sport und Bewegung</li>\n       <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n       <li>Sonstiges</li>\n      </ul>\n     </div>\n    </div>\n    <div>\n     <div class=\"font-bold\">Bewerbungsfrist:</div>\n     <div class=\"mb-1\">Fortlaufende Förderung</div>\n    </div>\n   </div>\n  </aside>\n </div>\n <div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n  <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n   <div class=\"grow\">\n    <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n    <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n     <div>\n      <p>Bigger Platz 6,\n       <br>\n       59939 Olsberg</p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">E-Mail</h3>\n      <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Webseite</h3>\n      <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n     </div>\n     <div>\n      <h3 class=\"font-bold\">Telefon</h3>\n      <p>02962 982414</p>\n     </div>\n    </div>\n   </div>\n   <div class=\"md:w-1/3\">\n    <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">\n   </div>\n  </div>\n </div>\n</article>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>„Wir in Olsberg“ „Wir in Olsberg“ Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160342 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-160343;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"my-8 py-3 border-t-2 border-gray select-none cursor-default\">\n <a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>„Wir in Olsberg“</span>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>„Wir in Olsberg“".
+_:n3-160343 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160344;
+    rdf:_2 _:n3-160345;
+    rdf:_3 _:n3-160346;
+    <http://www.w3.org/1999/xhtml#class> "my-8 py-3 border-t-2 border-gray select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<a class=\"link\" href=\"https://foerderdatenbank.d-s-e-e.de/\">Förderdatenbank der DSEE</a><span class=\"px-1 text-gray\">&gt;</span><span>„Wir in Olsberg“</span>";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE>„Wir in Olsberg“".
+_:n3-160344 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Förderdatenbank der DSEE";
+    <https://html.spec.whatwg.org/#innerText> "Förderdatenbank der DSEE";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/".
+_:n3-160345 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "&gt;";
+    <http://www.w3.org/1999/xhtml#class> "px-1 text-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "&gt;";
+    <https://html.spec.whatwg.org/#innerText> ">".
+_:n3-160346 a <http://www.w3.org/1999/xhtml#span>;
+    rdf:_1 "„Wir in Olsberg“";
+    <https://html.spec.whatwg.org/#innerHTML> "„Wir in Olsberg“";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“".
+_:n3-160347 a <http://www.w3.org/1999/xhtml#article>;
+    rdf:_1 _:n3-160348;
+    rdf:_2 _:n3-160414;
+    <http://www.w3.org/1999/xhtml#class> "container";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grid lg:grid-cols-3 gap-16\">\n <div class=\"col-span-2 space-y-4\">\n  <header class=\"mb-8\">\n   <h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>\n  </header>\n  <div class=\"prose text-lg mb-8 space-y-6\">\n   <div>\n    <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n   </div>\n   <div>\n    <h3>Zielgruppen/Bedingungen</h3>\n    <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n    <p>\n     <br>\n     Projekte, die als förderfähig gelten sollten:\n     <br>\n    </p>\n    <ul>\n     <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n     <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n     <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n     <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n     <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n     <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n    </ul>\n    <p>\n     <br>\n     Nicht gefördert werden:&nbsp;\n     <br>\n    </p>\n    <ul>\n     <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n     <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n     <li>politische Gruppierungen</li>\n     <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n     <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n     <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n    </ul>\n   </div>\n   <div>\n    <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n    <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n    <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n     <br>\n     <br></p>\n   </div>\n   <div>\n    <h3>Weitere Informationen</h3>\n    <ul>\n     <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n     <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n    </ul>\n   </div>\n  </div>\n </div>\n <aside>\n  <div class=\"prose text-lg space-y-4\">\n   <div>\n    <div class=\"font-bold\">Regionen:</div>\n    <div>\n     <ul>\n      <li>Nordrhein-Westfalen</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Engagementbereiche:</div>\n    <div>\n     <ul>\n      <li>Bauten und Denkmalschutz</li>\n      <li>Bildung</li>\n      <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n      <li>Kinder und Jugendliche</li>\n      <li>Kultur, Medien und Musik</li>\n      <li>Soziales</li>\n      <li>Sport und Bewegung</li>\n      <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n      <li>Sonstiges</li>\n     </ul>\n    </div>\n   </div>\n   <div>\n    <div class=\"font-bold\">Bewerbungsfrist:</div>\n    <div class=\"mb-1\">Fortlaufende Förderung</div>\n   </div>\n  </div>\n </aside>\n</div>\n<div class=\"px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray\">\n <div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n  <div class=\"grow\">\n   <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n   <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n    <div>\n     <p>Bigger Platz 6,\n      <br>\n      59939 Olsberg</p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">E-Mail</h3>\n     <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Webseite</h3>\n     <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n    </div>\n    <div>\n     <h3 class=\"font-bold\">Telefon</h3>\n     <p>02962 982414</p>\n    </div>\n   </div>\n  </div>\n  <div class=\"md:w-1/3\">\n   <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">\n  </div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“ Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160348 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160349;
+    rdf:_2 _:n3-160391;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-3 gap-16";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"col-span-2 space-y-4\">\n <header class=\"mb-8\">\n  <h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>\n </header>\n <div class=\"prose text-lg mb-8 space-y-6\">\n  <div>\n   <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n  </div>\n  <div>\n   <h3>Zielgruppen/Bedingungen</h3>\n   <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n   <p>\n    <br>\n    Projekte, die als förderfähig gelten sollten:\n    <br>\n   </p>\n   <ul>\n    <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n    <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n    <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n    <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n    <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n    <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n   </ul>\n   <p>\n    <br>\n    Nicht gefördert werden:&nbsp;\n    <br>\n   </p>\n   <ul>\n    <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n    <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n    <li>politische Gruppierungen</li>\n    <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n    <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n    <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n   </ul>\n  </div>\n  <div>\n   <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n   <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n   <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n    <br>\n    <br></p>\n  </div>\n  <div>\n   <h3>Weitere Informationen</h3>\n   <ul>\n    <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n    <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n   </ul>\n  </div>\n </div>\n</div>\n<aside>\n <div class=\"prose text-lg space-y-4\">\n  <div>\n   <div class=\"font-bold\">Regionen:</div>\n   <div>\n    <ul>\n     <li>Nordrhein-Westfalen</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Engagementbereiche:</div>\n   <div>\n    <ul>\n     <li>Bauten und Denkmalschutz</li>\n     <li>Bildung</li>\n     <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n     <li>Kinder und Jugendliche</li>\n     <li>Kultur, Medien und Musik</li>\n     <li>Soziales</li>\n     <li>Sport und Bewegung</li>\n     <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n     <li>Sonstiges</li>\n    </ul>\n   </div>\n  </div>\n  <div>\n   <div class=\"font-bold\">Bewerbungsfrist:</div>\n   <div class=\"mb-1\">Fortlaufende Förderung</div>\n  </div>\n </div>\n</aside>";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“ Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-160349 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160350;
+    rdf:_2 _:n3-160352;
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<header class=\"mb-8\">\n <h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>\n</header>\n<div class=\"prose text-lg mb-8 space-y-6\">\n <div>\n  <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n </div>\n <div>\n  <h3>Zielgruppen/Bedingungen</h3>\n  <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n  <p>\n   <br>\n   Projekte, die als förderfähig gelten sollten:\n   <br>\n  </p>\n  <ul>\n   <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n   <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n   <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n   <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n   <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n   <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n  </ul>\n  <p>\n   <br>\n   Nicht gefördert werden:&nbsp;\n   <br>\n  </p>\n  <ul>\n   <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n   <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n   <li>politische Gruppierungen</li>\n   <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n   <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n   <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n  </ul>\n </div>\n <div>\n  <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n  <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n  <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n   <br>\n   <br></p>\n </div>\n <div>\n  <h3>Weitere Informationen</h3>\n  <ul>\n   <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n   <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n  </ul>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“ Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-160350 a <http://www.w3.org/1999/xhtml#header>;
+    rdf:_1 _:n3-160351;
+    <http://www.w3.org/1999/xhtml#class> "mb-8";
+    <https://html.spec.whatwg.org/#innerHTML> "<h1 class=\"col-span-2 font-bold text-2xl\">„Wir in Olsberg“</h1>";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“".
+_:n3-160351 a <http://www.w3.org/1999/xhtml#h1>;
+    rdf:_1 "„Wir in Olsberg“";
+    <http://www.w3.org/1999/xhtml#class> "col-span-2 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "„Wir in Olsberg“";
+    <https://html.spec.whatwg.org/#innerText> "„Wir in Olsberg“".
+_:n3-160352 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160353;
+    rdf:_2 _:n3-160355;
+    rdf:_3 _:n3-160378;
+    rdf:_4 _:n3-160384;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg mb-8 space-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>\n</div>\n<div>\n <h3>Zielgruppen/Bedingungen</h3>\n <p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n <p>\n  <br>\n  Projekte, die als förderfähig gelten sollten:\n  <br>\n </p>\n <ul>\n  <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n  <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n  <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n  <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n  <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n  <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n </ul>\n <p>\n  <br>\n  Nicht gefördert werden:&nbsp;\n  <br>\n </p>\n <ul>\n  <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n  <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n  <li>politische Gruppierungen</li>\n  <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n  <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n  <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n </ul>\n</div>\n<div>\n <h3>Hinweise zur Antragstellung/Bewerbung</h3>\n <p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n <p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n  <br>\n  <br></p>\n</div>\n<div>\n <h3>Weitere Informationen</h3>\n <ul>\n  <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n  <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen. Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-160353 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160354;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen</p>";
+    <https://html.spec.whatwg.org/#innerText> "Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen".
+_:n3-160354 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen";
+    <https://html.spec.whatwg.org/#innerHTML> "Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix,&nbsp;geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen";
+    <https://html.spec.whatwg.org/#innerText> "Die Stadt Olsberg ist im Jahre 2005 Erbin über das Vermögen des langjährigen Olsberger Bürgers, Eugen Mix, geworden. Die Stadt Olsberg hat die Erbschaft angenommen und die Verwertung des Immobilienbesitzes sowie des sonstigen Vermögens eingeleitet mit dem Ziel, das aus dem Erbfall stammende Vermögen in eine Stiftung zu Gunsten der Bürgerinnen und Bürger in der Stadt Olsberg einzubringen".
+_:n3-160355 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160356;
+    rdf:_2 _:n3-160357;
+    rdf:_3 _:n3-160358;
+    rdf:_4 _:n3-160361;
+    rdf:_5 _:n3-160368;
+    rdf:_6 _:n3-160371;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Zielgruppen/Bedingungen</h3>\n<p>Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.</p>\n<p>\n <br>\n Projekte, die als förderfähig gelten sollten:\n <br>\n</p>\n<ul>\n <li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n <li>in der Stadt Olsberg betrieben und geführt werden;</li>\n <li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n <li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n <li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n <li>Hilfe zur Selbsthilfe geben oder fördern</li>\n</ul>\n<p>\n <br>\n Nicht gefördert werden:&nbsp;\n <br>\n</p>\n<ul>\n <li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n <li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n <li>politische Gruppierungen</li>\n <li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n <li>die Förderung von Projekten über einen längeren Zeitraum</li>\n <li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden. Projekte, die als förderfähig gelten sollten: Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern Nicht gefördert werden: kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben".
+_:n3-160356 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerHTML> "Zielgruppen/Bedingungen";
+    <https://html.spec.whatwg.org/#innerText> "Zielgruppen/Bedingungen".
+_:n3-160357 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.";
+    <https://html.spec.whatwg.org/#innerText> "Projekte, die der Stiftungssatzung und den dort niedergelegten Zielen entsprechen, können von jedem Olsberger und jeder Olsbergerin, von gemeinnützigen Vereinen, Institutionen, Unternehmen, Initiativen oder Gruppen vorgeschlagen werden.".
+_:n3-160358 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-160359;
+    rdf:_2 "Projekte, die als förderfähig gelten sollten:";
+    rdf:_3 _:n3-160360;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>\nProjekte, die als förderfähig gelten sollten:\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Projekte, die als förderfähig gelten sollten:".
+_:n3-160359 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160360 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160361 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-160362;
+    rdf:_2 _:n3-160363;
+    rdf:_3 _:n3-160364;
+    rdf:_4 _:n3-160365;
+    rdf:_5 _:n3-160366;
+    rdf:_6 _:n3-160367;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;</li>\n<li>in der Stadt Olsberg betrieben und geführt werden;</li>\n<li>den Menschen helfen, die ernsthafte Bedürfnisse haben;</li>\n<li>ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;</li>\n<li>Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;</li>\n<li>Hilfe zur Selbsthilfe geben oder fördern</li>";
+    <https://html.spec.whatwg.org/#innerText> "Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben; in der Stadt Olsberg betrieben und geführt werden; den Menschen helfen, die ernsthafte Bedürfnisse haben; ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen; Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben; Hilfe zur Selbsthilfe geben oder fördern".
+_:n3-160362 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;";
+    <https://html.spec.whatwg.org/#innerHTML> "Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;";
+    <https://html.spec.whatwg.org/#innerText> "Modell- und Vorbildcharakter haben, verallgemeinerungsfähig sind und Anstöße und Anregungen in die Gesellschaft hinein geben;".
+_:n3-160363 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "in der Stadt Olsberg betrieben und geführt werden;";
+    <https://html.spec.whatwg.org/#innerHTML> "in der Stadt Olsberg betrieben und geführt werden;";
+    <https://html.spec.whatwg.org/#innerText> "in der Stadt Olsberg betrieben und geführt werden;".
+_:n3-160364 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "den Menschen helfen, die ernsthafte Bedürfnisse haben;";
+    <https://html.spec.whatwg.org/#innerHTML> "den Menschen helfen, die ernsthafte Bedürfnisse haben;";
+    <https://html.spec.whatwg.org/#innerText> "den Menschen helfen, die ernsthafte Bedürfnisse haben;".
+_:n3-160365 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;";
+    <https://html.spec.whatwg.org/#innerHTML> "ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;";
+    <https://html.spec.whatwg.org/#innerText> "ganz oder überwiegend mit freiwilligen und ehrenamtlichen Mitarbeitern arbeiten oder Betroffene aktiv beteiligen;".
+_:n3-160366 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;";
+    <https://html.spec.whatwg.org/#innerHTML> "Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;";
+    <https://html.spec.whatwg.org/#innerText> "Anstöße und Anregungen (Kräfte der Innovation) in unser Gemeinwesen in unsere Stadt geben;".
+_:n3-160367 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Hilfe zur Selbsthilfe geben oder fördern";
+    <https://html.spec.whatwg.org/#innerHTML> "Hilfe zur Selbsthilfe geben oder fördern";
+    <https://html.spec.whatwg.org/#innerText> "Hilfe zur Selbsthilfe geben oder fördern".
+_:n3-160368 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-160369;
+    rdf:_2 "Nicht gefördert werden:&nbsp;";
+    rdf:_3 _:n3-160370;
+    <https://html.spec.whatwg.org/#innerHTML> "<br>\nNicht gefördert werden:&nbsp;\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Nicht gefördert werden:".
+_:n3-160369 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160370 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160371 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-160372;
+    rdf:_2 _:n3-160373;
+    rdf:_3 _:n3-160374;
+    rdf:_4 _:n3-160375;
+    rdf:_5 _:n3-160376;
+    rdf:_6 _:n3-160377;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>kommerzielle und/oder gesponserte Veranstaltungen</li>\n<li>Einzelpersonen (Förderung in Ausnahmefällen möglich)</li>\n<li>politische Gruppierungen</li>\n<li>Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)</li>\n<li>die Förderung von Projekten über einen längeren Zeitraum</li>\n<li>Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben</li>";
+    <https://html.spec.whatwg.org/#innerText> "kommerzielle und/oder gesponserte Veranstaltungen Einzelpersonen (Förderung in Ausnahmefällen möglich) politische Gruppierungen Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung) die Förderung von Projekten über einen längeren Zeitraum Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben".
+_:n3-160372 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "kommerzielle und/oder gesponserte Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerHTML> "kommerzielle und/oder gesponserte Veranstaltungen";
+    <https://html.spec.whatwg.org/#innerText> "kommerzielle und/oder gesponserte Veranstaltungen".
+_:n3-160373 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Einzelpersonen (Förderung in Ausnahmefällen möglich)";
+    <https://html.spec.whatwg.org/#innerHTML> "Einzelpersonen (Förderung in Ausnahmefällen möglich)";
+    <https://html.spec.whatwg.org/#innerText> "Einzelpersonen (Förderung in Ausnahmefällen möglich)".
+_:n3-160374 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "politische Gruppierungen";
+    <https://html.spec.whatwg.org/#innerHTML> "politische Gruppierungen";
+    <https://html.spec.whatwg.org/#innerText> "politische Gruppierungen".
+_:n3-160375 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)";
+    <https://html.spec.whatwg.org/#innerHTML> "Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)";
+    <https://html.spec.whatwg.org/#innerText> "Personalkosten und laufende Kosten (allenfalls als Anschubfinanzierung)".
+_:n3-160376 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "die Förderung von Projekten über einen längeren Zeitraum";
+    <https://html.spec.whatwg.org/#innerHTML> "die Förderung von Projekten über einen längeren Zeitraum";
+    <https://html.spec.whatwg.org/#innerText> "die Förderung von Projekten über einen längeren Zeitraum".
+_:n3-160377 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben";
+    <https://html.spec.whatwg.org/#innerHTML> "Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben";
+    <https://html.spec.whatwg.org/#innerText> "Projekte, die in den Verantwortungsbereich staatlicher Stellen oder staatlich finanzierter Institutionen fallen, sowie gesetzlich festgeschriebene Aufgaben".
+_:n3-160378 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160379;
+    rdf:_2 _:n3-160380;
+    rdf:_3 _:n3-160381;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Hinweise zur Antragstellung/Bewerbung</h3>\n<p>Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.</p>\n<p>Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n <br>\n <br></p>";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden. Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.".
+_:n3-160379 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerHTML> "Hinweise zur Antragstellung/Bewerbung";
+    <https://html.spec.whatwg.org/#innerText> "Hinweise zur Antragstellung/Bewerbung".
+_:n3-160380 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.";
+    <https://html.spec.whatwg.org/#innerHTML> "Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.";
+    <https://html.spec.whatwg.org/#innerText> "Interessierte Gruppen, Vereine oder Personen können einen Förderantrag schreiben. Das Antragsformular und die damit verbundenen Kriterien und Richtlinien können auf der Website heruntergeladen und dann per Mail oder postalisch an die Stiftung geschickt werden.".
+_:n3-160381 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;";
+    rdf:_2 _:n3-160382;
+    rdf:_3 _:n3-160383;
+    <https://html.spec.whatwg.org/#innerHTML> "Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.&nbsp;\n<br>\n<br>";
+    <https://html.spec.whatwg.org/#innerText> "Vorab steht die Stiftung telefonisch zur Verfügung, sollten während des Antragsprozesses Fragen auftauchen.".
+_:n3-160382 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160383 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160384 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160385;
+    rdf:_2 _:n3-160386;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3>Weitere Informationen</h3>\n<ul>\n <li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n <li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen Link zur Stiftung Link zum Förderantrag".
+_:n3-160385 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerHTML> "Weitere Informationen";
+    <https://html.spec.whatwg.org/#innerText> "Weitere Informationen".
+_:n3-160386 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-160387;
+    rdf:_2 _:n3-160389;
+    <https://html.spec.whatwg.org/#innerHTML> "<li><a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a></li>\n<li><a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a></li>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung Link zum Förderantrag".
+_:n3-160387 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-160388;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.stiftung-wir-in-olsberg.de/\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zur Stiftung</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung".
+_:n3-160388 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zur Stiftung";
+    <https://html.spec.whatwg.org/#innerText> "Link zur Stiftung";
+    <http://www.w3.org/1999/xhtml#href> "http://www.stiftung-wir-in-olsberg.de/";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160389 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 _:n3-160390;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen\" class=\"link\" target=\"_blank\" rel=\"noindex nofollow\">Link zum Förderantrag</a>";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag".
+_:n3-160390 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Link zum Förderantrag";
+    <https://html.spec.whatwg.org/#innerText> "Link zum Förderantrag";
+    <http://www.w3.org/1999/xhtml#href> "http://www.stiftung-wir-in-olsberg.de/antrag-stellen/foerderantrag-stellen";
+    <http://www.w3.org/1999/xhtml#rel> "noindex nofollow";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160391 a <http://www.w3.org/1999/xhtml#aside>;
+    rdf:_1 _:n3-160392;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"prose text-lg space-y-4\">\n <div>\n  <div class=\"font-bold\">Regionen:</div>\n  <div>\n   <ul>\n    <li>Nordrhein-Westfalen</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Engagementbereiche:</div>\n  <div>\n   <ul>\n    <li>Bauten und Denkmalschutz</li>\n    <li>Bildung</li>\n    <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n    <li>Kinder und Jugendliche</li>\n    <li>Kultur, Medien und Musik</li>\n    <li>Soziales</li>\n    <li>Sport und Bewegung</li>\n    <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n    <li>Sonstiges</li>\n   </ul>\n  </div>\n </div>\n <div>\n  <div class=\"font-bold\">Bewerbungsfrist:</div>\n  <div class=\"mb-1\">Fortlaufende Förderung</div>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-160392 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160393;
+    rdf:_2 _:n3-160398;
+    rdf:_3 _:n3-160411;
+    <http://www.w3.org/1999/xhtml#class> "prose text-lg space-y-4";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <div class=\"font-bold\">Regionen:</div>\n <div>\n  <ul>\n   <li>Nordrhein-Westfalen</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Engagementbereiche:</div>\n <div>\n  <ul>\n   <li>Bauten und Denkmalschutz</li>\n   <li>Bildung</li>\n   <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n   <li>Kinder und Jugendliche</li>\n   <li>Kultur, Medien und Musik</li>\n   <li>Soziales</li>\n   <li>Sport und Bewegung</li>\n   <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n   <li>Sonstiges</li>\n  </ul>\n </div>\n</div>\n<div>\n <div class=\"font-bold\">Bewerbungsfrist:</div>\n <div class=\"mb-1\">Fortlaufende Förderung</div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-160393 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160394;
+    rdf:_2 _:n3-160395;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Regionen:</div>\n<div>\n <ul>\n  <li>Nordrhein-Westfalen</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Regionen: Nordrhein-Westfalen".
+_:n3-160394 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Regionen:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Regionen:";
+    <https://html.spec.whatwg.org/#innerText> "Regionen:".
+_:n3-160395 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160396;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Nordrhein-Westfalen</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-160396 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-160397;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Nordrhein-Westfalen</li>";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-160397 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerHTML> "Nordrhein-Westfalen";
+    <https://html.spec.whatwg.org/#innerText> "Nordrhein-Westfalen".
+_:n3-160398 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160399;
+    rdf:_2 _:n3-160400;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Engagementbereiche:</div>\n<div>\n <ul>\n  <li>Bauten und Denkmalschutz</li>\n  <li>Bildung</li>\n  <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n  <li>Kinder und Jugendliche</li>\n  <li>Kultur, Medien und Musik</li>\n  <li>Soziales</li>\n  <li>Sport und Bewegung</li>\n  <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n  <li>Sonstiges</li>\n </ul>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche: Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-160399 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Engagementbereiche:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagementbereiche:";
+    <https://html.spec.whatwg.org/#innerText> "Engagementbereiche:".
+_:n3-160400 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160401;
+    <https://html.spec.whatwg.org/#innerHTML> "<ul>\n <li>Bauten und Denkmalschutz</li>\n <li>Bildung</li>\n <li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n <li>Kinder und Jugendliche</li>\n <li>Kultur, Medien und Musik</li>\n <li>Soziales</li>\n <li>Sport und Bewegung</li>\n <li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n <li>Sonstiges</li>\n</ul>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-160401 a <http://www.w3.org/1999/xhtml#ul>;
+    rdf:_1 _:n3-160402;
+    rdf:_2 _:n3-160403;
+    rdf:_3 _:n3-160404;
+    rdf:_4 _:n3-160405;
+    rdf:_5 _:n3-160406;
+    rdf:_6 _:n3-160407;
+    rdf:_7 _:n3-160408;
+    rdf:_8 _:n3-160409;
+    rdf:_9 _:n3-160410;
+    <https://html.spec.whatwg.org/#innerHTML> "<li>Bauten und Denkmalschutz</li>\n<li>Bildung</li>\n<li>Engagement für gesellschaftlichen Zusammenhalt/ Demokratie</li>\n<li>Kinder und Jugendliche</li>\n<li>Kultur, Medien und Musik</li>\n<li>Soziales</li>\n<li>Sport und Bewegung</li>\n<li>Umwelt-/Naturschutz, Klimaschutz und Tierschutz</li>\n<li>Sonstiges</li>";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz Bildung Engagement für gesellschaftlichen Zusammenhalt/ Demokratie Kinder und Jugendliche Kultur, Medien und Musik Soziales Sport und Bewegung Umwelt-/Naturschutz, Klimaschutz und Tierschutz Sonstiges".
+_:n3-160402 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Bauten und Denkmalschutz";
+    <https://html.spec.whatwg.org/#innerText> "Bauten und Denkmalschutz".
+_:n3-160403 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Bildung";
+    <https://html.spec.whatwg.org/#innerHTML> "Bildung";
+    <https://html.spec.whatwg.org/#innerText> "Bildung".
+_:n3-160404 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerHTML> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie";
+    <https://html.spec.whatwg.org/#innerText> "Engagement für gesellschaftlichen Zusammenhalt/ Demokratie".
+_:n3-160405 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerHTML> "Kinder und Jugendliche";
+    <https://html.spec.whatwg.org/#innerText> "Kinder und Jugendliche".
+_:n3-160406 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerHTML> "Kultur, Medien und Musik";
+    <https://html.spec.whatwg.org/#innerText> "Kultur, Medien und Musik".
+_:n3-160407 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Soziales";
+    <https://html.spec.whatwg.org/#innerHTML> "Soziales";
+    <https://html.spec.whatwg.org/#innerText> "Soziales".
+_:n3-160408 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerHTML> "Sport und Bewegung";
+    <https://html.spec.whatwg.org/#innerText> "Sport und Bewegung".
+_:n3-160409 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerHTML> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz";
+    <https://html.spec.whatwg.org/#innerText> "Umwelt-/Naturschutz, Klimaschutz und Tierschutz".
+_:n3-160410 a <http://www.w3.org/1999/xhtml#li>;
+    rdf:_1 "Sonstiges";
+    <https://html.spec.whatwg.org/#innerHTML> "Sonstiges";
+    <https://html.spec.whatwg.org/#innerText> "Sonstiges".
+_:n3-160411 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160412;
+    rdf:_2 _:n3-160413;
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"font-bold\">Bewerbungsfrist:</div>\n<div class=\"mb-1\">Fortlaufende Förderung</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist: Fortlaufende Förderung".
+_:n3-160412 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Bewerbungsfrist:";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Bewerbungsfrist:";
+    <https://html.spec.whatwg.org/#innerText> "Bewerbungsfrist:".
+_:n3-160413 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 "Fortlaufende Förderung";
+    <http://www.w3.org/1999/xhtml#class> "mb-1";
+    <https://html.spec.whatwg.org/#innerHTML> "Fortlaufende Förderung";
+    <https://html.spec.whatwg.org/#innerText> "Fortlaufende Förderung".
+_:n3-160414 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160415;
+    <http://www.w3.org/1999/xhtml#class> "px-5 py-3 border-2 rounded-lg mt-16 px-6 py-6 border-gray";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"space-y-4 text-lg md:flex flex-row gap-12\">\n <div class=\"grow\">\n  <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n  <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n   <div>\n    <p>Bigger Platz 6,\n     <br>\n     59939 Olsberg</p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">E-Mail</h3>\n    <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Webseite</h3>\n    <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n   </div>\n   <div>\n    <h3 class=\"font-bold\">Telefon</h3>\n    <p>02962 982414</p>\n   </div>\n  </div>\n </div>\n <div class=\"md:w-1/3\">\n  <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160415 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160416;
+    rdf:_2 _:n3-160434;
+    <http://www.w3.org/1999/xhtml#class> "space-y-4 text-lg md:flex flex-row gap-12";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"grow\">\n <h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n <div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n  <div>\n   <p>Bigger Platz 6,\n    <br>\n    59939 Olsberg</p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">E-Mail</h3>\n   <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Webseite</h3>\n   <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n  </div>\n  <div>\n   <h3 class=\"font-bold\">Telefon</h3>\n   <p>02962 982414</p>\n  </div>\n </div>\n</div>\n<div class=\"md:w-1/3\">\n <img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160416 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160417;
+    rdf:_2 _:n3-160419;
+    <http://www.w3.org/1999/xhtml#class> "grow";
+    <https://html.spec.whatwg.org/#innerHTML> "<h2 class=\"mb-8 font-bold text-2xl\"><a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a></h2>\n<div class=\"grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6\">\n <div>\n  <p>Bigger Platz 6,\n   <br>\n   59939 Olsberg</p>\n </div>\n <div>\n  <h3 class=\"font-bold\">E-Mail</h3>\n  <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Webseite</h3>\n  <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n </div>\n <div>\n  <h3 class=\"font-bold\">Telefon</h3>\n  <p>02962 982414</p>\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung „Wir in Olsberg“ Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160417 a <http://www.w3.org/1999/xhtml#h2>;
+    rdf:_1 _:n3-160418;
+    <http://www.w3.org/1999/xhtml#class> "mb-8 font-bold text-2xl";
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg\" class=\"link\">Stiftung „Wir in Olsberg“</a>";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung „Wir in Olsberg“".
+_:n3-160418 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Stiftung „Wir in Olsberg“";
+    <http://www.w3.org/1999/xhtml#class> "link";
+    <https://html.spec.whatwg.org/#innerHTML> "Stiftung „Wir in Olsberg“";
+    <https://html.spec.whatwg.org/#innerText> "Stiftung „Wir in Olsberg“";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/institutionen/1711-stiftung-wir-in-olsberg".
+_:n3-160419 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160420;
+    rdf:_2 _:n3-160423;
+    rdf:_3 _:n3-160427;
+    rdf:_4 _:n3-160431;
+    <http://www.w3.org/1999/xhtml#class> "grid lg:grid-cols-2 grid-flow-row gap-x-8 gap-y-6";
+    <https://html.spec.whatwg.org/#innerHTML> "<div>\n <p>Bigger Platz 6,\n  <br>\n  59939 Olsberg</p>\n</div>\n<div>\n <h3 class=\"font-bold\">E-Mail</h3>\n <p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Webseite</h3>\n <p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>\n</div>\n<div>\n <h3 class=\"font-bold\">Telefon</h3>\n <p>02962 982414</p>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "Bigger Platz 6, 59939 Olsberg E-Mail mareike.vollmer@olsberg.de Webseite www.stiftung-wir-in-olsberg.de Telefon 02962 982414".
+_:n3-160420 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160421;
+    <https://html.spec.whatwg.org/#innerHTML> "<p>Bigger Platz 6,\n <br>\n 59939 Olsberg</p>";
+    <https://html.spec.whatwg.org/#innerText> "Bigger Platz 6, 59939 Olsberg".
+_:n3-160421 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "Bigger Platz 6,";
+    rdf:_2 _:n3-160422;
+    rdf:_3 "59939 Olsberg";
+    <https://html.spec.whatwg.org/#innerHTML> "Bigger Platz 6,\n<br>\n59939 Olsberg";
+    <https://html.spec.whatwg.org/#innerText> "Bigger Platz 6, 59939 Olsberg".
+_:n3-160422 a <http://www.w3.org/1999/xhtml#br>.
+_:n3-160423 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160424;
+    rdf:_2 _:n3-160425;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">E-Mail</h3>\n<p><a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail mareike.vollmer@olsberg.de".
+_:n3-160424 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "E-Mail";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "E-Mail";
+    <https://html.spec.whatwg.org/#innerText> "E-Mail".
+_:n3-160425 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-160426;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"mailto:mareike.vollmer@olsberg.de\">mareike.vollmer@olsberg.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "mareike.vollmer@olsberg.de".
+_:n3-160426 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "mareike.vollmer@olsberg.de";
+    <https://html.spec.whatwg.org/#innerHTML> "mareike.vollmer@olsberg.de";
+    <https://html.spec.whatwg.org/#innerText> "mareike.vollmer@olsberg.de";
+    <http://www.w3.org/1999/xhtml#href> "mailto:mareike.vollmer@olsberg.de".
+_:n3-160427 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160428;
+    rdf:_2 _:n3-160429;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Webseite</h3>\n<p><a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a></p>";
+    <https://html.spec.whatwg.org/#innerText> "Webseite www.stiftung-wir-in-olsberg.de".
+_:n3-160428 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Webseite";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Webseite";
+    <https://html.spec.whatwg.org/#innerText> "Webseite".
+_:n3-160429 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 _:n3-160430;
+    <https://html.spec.whatwg.org/#innerHTML> "<a href=\"http://www.stiftung-wir-in-olsberg.de\" target=\"_blank\">www.stiftung-wir-in-olsberg.de</a>";
+    <https://html.spec.whatwg.org/#innerText> "www.stiftung-wir-in-olsberg.de".
+_:n3-160430 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "www.stiftung-wir-in-olsberg.de";
+    <https://html.spec.whatwg.org/#innerHTML> "www.stiftung-wir-in-olsberg.de";
+    <https://html.spec.whatwg.org/#innerText> "www.stiftung-wir-in-olsberg.de";
+    <http://www.w3.org/1999/xhtml#href> "http://www.stiftung-wir-in-olsberg.de";
+    <http://www.w3.org/1999/xhtml#target> "_blank".
+_:n3-160431 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160432;
+    rdf:_2 _:n3-160433;
+    <https://html.spec.whatwg.org/#innerHTML> "<h3 class=\"font-bold\">Telefon</h3>\n<p>02962 982414</p>";
+    <https://html.spec.whatwg.org/#innerText> "Telefon 02962 982414".
+_:n3-160432 a <http://www.w3.org/1999/xhtml#h3>;
+    rdf:_1 "Telefon";
+    <http://www.w3.org/1999/xhtml#class> "font-bold";
+    <https://html.spec.whatwg.org/#innerHTML> "Telefon";
+    <https://html.spec.whatwg.org/#innerText> "Telefon".
+_:n3-160433 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "02962 982414";
+    <https://html.spec.whatwg.org/#innerHTML> "02962 982414";
+    <https://html.spec.whatwg.org/#innerText> "02962 982414".
+_:n3-160434 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160435;
+    <http://www.w3.org/1999/xhtml#class> "md:w-1/3";
+    <https://html.spec.whatwg.org/#innerHTML> "<img class=\"w-full max-w-[360px] mx-auto\" src=\"https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg\" width=\"800\" height=\"600\">".
+_:n3-160435 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#class> "w-full max-w-[360px] mx-auto";
+    <http://www.w3.org/1999/xhtml#height> "600";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/profiles/_article_m/Stiftung-Wir-in-Olsberg.jpg";
+    <http://www.w3.org/1999/xhtml#width> "800".
+_:n3-160436 a <http://www.w3.org/1999/xhtml#footer>;
+    rdf:_1 _:n3-160437;
+    <http://www.w3.org/1999/xhtml#class> "container mt-24";
+    <https://html.spec.whatwg.org/#innerHTML> "<div class=\"flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default\">\n <nav class=\"flex flex-row flex-wrap -mx-1\">\n  <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n  <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n </nav>\n <div class=\"max-w-[240px]\">\n  <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n </div>\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-160437 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160438;
+    rdf:_2 _:n3-160442;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap justify-between items-center py-12 border-t-2 border-yellow select-none cursor-default";
+    <https://html.spec.whatwg.org/#innerHTML> "<nav class=\"flex flex-row flex-wrap -mx-1\">\n <p class=\"mr-6 p-1 opacity-70\">©2026</p>\n <a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>\n</nav>\n<div class=\"max-w-[240px]\">\n <img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">\n</div>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-160438 a <http://www.w3.org/1999/xhtml#nav>;
+    rdf:_1 _:n3-160439;
+    rdf:_2 _:n3-160440;
+    rdf:_3 _:n3-160441;
+    <http://www.w3.org/1999/xhtml#class> "flex flex-row flex-wrap -mx-1";
+    <https://html.spec.whatwg.org/#innerHTML> "<p class=\"mr-6 p-1 opacity-70\">©2026</p>\n<a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://foerderdatenbank.d-s-e-e.de/impressum\">Impressum</a><a class=\"block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity\" href=\"https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/\">Datenschutzerklärung</a>";
+    <https://html.spec.whatwg.org/#innerText> "©2026 Impressum Datenschutzerklärung".
+_:n3-160439 a <http://www.w3.org/1999/xhtml#p>;
+    rdf:_1 "©2026";
+    <http://www.w3.org/1999/xhtml#class> "mr-6 p-1 opacity-70";
+    <https://html.spec.whatwg.org/#innerHTML> "©2026";
+    <https://html.spec.whatwg.org/#innerText> "©2026".
+_:n3-160440 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Impressum";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Impressum";
+    <https://html.spec.whatwg.org/#innerText> "Impressum";
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/impressum".
+_:n3-160441 a <http://www.w3.org/1999/xhtml#a>;
+    rdf:_1 "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#class> "block mr-6 p-1 opacity-70 hover:opacity-100 focus:opacity-100 transition-opacity";
+    <https://html.spec.whatwg.org/#innerHTML> "Datenschutzerklärung";
+    <https://html.spec.whatwg.org/#innerText> "Datenschutzerklärung";
+    <http://www.w3.org/1999/xhtml#href> "https://www.deutsche-stiftung-engagement-und-ehrenamt.de/datenschutzerklaerung/".
+_:n3-160442 a <http://www.w3.org/1999/xhtml#div>;
+    rdf:_1 _:n3-160443;
+    <http://www.w3.org/1999/xhtml#class> "max-w-[240px]";
+    <https://html.spec.whatwg.org/#innerHTML> "<img src=\"https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg\" width=\"300\" height=\"92\" alt=\"Logo Deutsche Stiftung für Engagement und Ehrenamt\">".
+_:n3-160443 a <http://www.w3.org/1999/xhtml#img>;
+    <http://www.w3.org/1999/xhtml#alt> "Logo Deutsche Stiftung für Engagement und Ehrenamt";
+    <http://www.w3.org/1999/xhtml#height> "92";
+    <http://www.w3.org/1999/xhtml#src> "https://foerderdatenbank.d-s-e-e.de/volumes/public/2023_DSEE_Logo_3zlg_RGB_Basis_large.svg";
+    <http://www.w3.org/1999/xhtml#width> "300".
+_:n3-160444 a <http://www.w3.org/1999/xhtml#script>;
+    rdf:_1 "\n  var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();\n";
+    <https://html.spec.whatwg.org/#innerHTML> "var _paq = window._paq = window._paq || [];\n  /* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n  _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function() {\n    var u=\"//matomo.deutsche-stiftung-engagement-und-ehrenamt.de/\";\n    _paq.push(['setTrackerUrl', u+'matomo.php']);\n    _paq.push(['setSiteId', '4']);\n    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];\n    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);\n  })();".
+_:n3-160445 a <http://www.w3.org/1999/xhtml#link>;
+    <http://www.w3.org/1999/xhtml#href> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg";
+    <http://www.w3.org/1999/xhtml#rel> "canonical".
+_:n3-160446 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg";
+    <http://www.w3.org/1999/xhtml#property> "og:url".
+_:n3-160447 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "https://foerderdatenbank.d-s-e-e.de/foerderprogramme/wir-in-olsberg";
+    <http://www.w3.org/1999/xhtml#name> "twitter:url".
+_:n3-160448 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "de";
+    <http://www.w3.org/1999/xhtml#property> "og:locale".
+_:n3-160449 a <http://www.w3.org/1999/xhtml#title>;
+    rdf:_1 "�Wir in Olsberg“  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerHTML> "�Wir in Olsberg“  –  Förderdatenbank";
+    <https://html.spec.whatwg.org/#innerText> "�Wir in Olsberg“  –  Förderdatenbank".
+_:n3-160450 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "Wir fördern und stärken Engagement und Ehrenamt - Deutsche Stiftung für Engagement und Ehrenamt.";
+    <http://www.w3.org/1999/xhtml#name> "description".
+_:n3-160451 a <http://www.w3.org/1999/xhtml#meta>;
+    <http://www.w3.org/1999/xhtml#content> "width=device-width,initial-scale=1,viewport-fit=cover";
+    <http://www.w3.org/1999/xhtml#name> "viewport".
